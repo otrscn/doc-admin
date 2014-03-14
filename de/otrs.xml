@@ -3,7 +3,6 @@
     "http://www.oasis-open.org/docbook/xml/4.4/docbookx.dtd">
 
 
-<!-- $Id: otrs.xml,v 1.48.2.2 2011-08-02 12:48:19 mg Exp $ -->
 <chapter id="otrs">
 <title>OTRS - Open Ticket Request System</title>
 
@@ -1315,26 +1314,25 @@ OTRS.org" scale="40" fileref="screenshots/homepage-otrs.png"></graphic></screens
 <title>Kommerzieller Support und Dienstleistungen für OTRS</title>
 
 <para>
-Kommerzieller Support für OTRS ist erhältlich. Die können die aktuellen
-Angebote auf der Website der OTRS Gruppe finden, der Firma hinter OTRS:
-<ulink url="http://www.otrs.com/de/solutions">
-<citetitle>http://www.otrs.com/de/solutions</citetitle> </ulink>.
+Commercial support for OTRS is also available. You can find the available
+options on the website of OTRS Group, the company behind OTRS: <ulink
+url="http://www.otrs.com/"> <citetitle>http://www.otrs.com/</citetitle>
+</ulink> .
 </para>
 
 <para>
-Die OTRS Gruppe bietet Support, Anpassungen, Beratung und Schulungen für
-<ulink url="http://www.otrs.com/de/products/help-desk/"> <citetitle>den OTRS
-Help Desk</citetitle></ulink> und <ulink
-url="http://www.otrs.com/de/products/itsm/"> <citetitle>OTRS
-ITSM</citetitle></ulink> an. Zusätzlich sind <ulink
+OTRS Group provides subscription support services, customization, consulting
+and training for <ulink url="http://www.otrs.com/products/otrs-help-desk/">
+<citetitle>OTRS Help Desk</citetitle></ulink> and <ulink
+url="http://www.otrs.com/en/products/otrs-itsm/"> <citetitle>OTRS
+ITSM</citetitle></ulink>. It also provides <ulink
 url="http://www.otrs.com/solutions/"><citetitle>Best Practice Product
-Editions</citetitle></ulink> erhältlich.  Mit letzteren unterstützt die OTRS
-Gruppe Organisationen dabei, OTRS für ihre jeweilige Umgebung anzupassen,
-zum Einsatz zu bringen und zu optimieren.Weiterhin bietet die OTRS Gruppe
-gehostete Versionen an, inklusive <ulink
-url="http://www.otrs.com/de/solutions/ondemand/"><citetitle>OTRS OnDemand
-</citetitle></ulink> und <ulink
-url="http://www.otrs.com/de/solutions/managed-otrs/"><citetitle>Managed
+Editions</citetitle></ulink>.  With these Editions, OTRS Group helps
+organizations to design, deploy and optimize OTRS for each unique
+environment. Additionally, OTRS Group provides hosted versions including
+<ulink url="http://www.otrs.com/en/solutions/ondemand/"><citetitle>OTRS
+OnDemand </citetitle></ulink> and <ulink
+url="http://www.otrs.com/en/solutions/managed-otrs/"><citetitle>Managed
 OTRS</citetitle></ulink>.
 </para>
 

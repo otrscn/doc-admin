@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2011-08-02 14:44+0300\n"
+"POT-Creation-Date: 2014-03-14 11:28+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,24 +17,24 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 #. type: Attribute 'lang' of: <book>
-#: en/book.xml:6
+#: en/book.xml:5
 msgid "en"
 msgstr ""
 
 #. type: Content of: <book><bookinfo><title>
-#: en/book.xml:8
+#: en/book.xml:7
 msgid "OTRS 3.0 - Admin Manual"
 msgstr ""
 
 #. type: Content of: <book><bookinfo>
-#: en/book.xml:9
+#: en/book.xml:8
 msgid ""
 "<edition>Cancún Beach (México)</edition> <copyright> <year>2003-2011</year> "
 "<holder>OTRS AG</holder> </copyright> <date>2011-02-02</date>"
 msgstr ""
 
 #. type: Content of: <book><bookinfo><legalnotice><para>
-#: en/book.xml:18
+#: en/book.xml:17
 msgid ""
 "René Bakker, Stefan Bedorf, Michiel Beijen, Shawn Beasley, Hauke Böttcher, "
 "Jens Bothe, Udo Bretz, Martin Edenhofer, Carlos Javier García, Martin "
@@ -44,33 +44,33 @@ msgid ""
 msgstr ""
 
 #. type: Content of: <book><bookinfo><legalnotice><para>
-#: en/book.xml:25
+#: en/book.xml:24
 msgid "This work is copyrighted by OTRS AG."
 msgstr ""
 
 #. type: Content of: <book><bookinfo><legalnotice><para>
-#: en/book.xml:29
+#: en/book.xml:28
 msgid ""
 "You may copy it in whole or in part as long as the copies retain this "
 "copyright statement."
 msgstr ""
 
 #. type: Content of: <book><bookinfo><legalnotice><para>
-#: en/book.xml:34
+#: en/book.xml:33
 msgid ""
 "The source code of this document can be found at <ulink "
 "url=\"http://source.otrs.org/viewvc.cgi/doc-admin/\">source.otrs.org</ulink>."
 msgstr ""
 
 #. type: Content of: <book><bookinfo><legalnotice><para>
-#: en/book.xml:39
+#: en/book.xml:38
 msgid ""
 "UNIX is a registered trademark of X/Open Company Limited.  Linux is a "
 "registered trademark of Linus Torvalds."
 msgstr ""
 
 #. type: Content of: <book><bookinfo><legalnotice><para>
-#: en/book.xml:44
+#: en/book.xml:43
 msgid ""
 "MS-DOS, Windows, Windows 95, Windows 98, Windows NT, Windows 2000, Windows "
 "XP, Windows 2003, Windows Vista and Windows 7 are registered trademarks of "
@@ -83,14 +83,14 @@ msgid ""
 msgstr ""
 
 #. type: Content of: <book><bookinfo><legalnotice><para>
-#: en/book.xml:54
+#: en/book.xml:53
 msgid ""
 "All trade names are used without the guarantee for their free use and are "
 "possibly registered trade marks."
 msgstr ""
 
 #. type: Content of: <book><bookinfo><legalnotice><para>
-#: en/book.xml:59
+#: en/book.xml:58
 msgid ""
 "OTRS AG essentially follows the notations of the manufacturers.  Other "
 "products mentioned in this manual may be trademarks of the respective "
@@ -98,19 +98,19 @@ msgid ""
 msgstr ""
 
 #. type: Content of: <preface><title>
-#: en/preface.xml:7
+#: en/preface.xml:6
 msgid "Preface"
 msgstr ""
 
 #. type: Content of: <preface><para>
-#: en/preface.xml:10
+#: en/preface.xml:9
 msgid ""
 "This book is intended for use by OTRS administrators. It also serves as a "
 "good reference for OTRS newbies."
 msgstr ""
 
 #. type: Content of: <preface><para>
-#: en/preface.xml:14
+#: en/preface.xml:13
 msgid ""
 "The following chapters describe the installation, configuration and "
 "administration of the OTRS software. The first third of the text describes "
@@ -119,7 +119,7 @@ msgid ""
 msgstr ""
 
 #. type: Content of: <preface><para>
-#: en/preface.xml:18
+#: en/preface.xml:17
 msgid ""
 "This book continues to be a work in progress, given a moving target on new "
 "releases. We need your feedback in order to make this a high quality "
@@ -1553,7 +1553,7 @@ msgid "Perl 5.8.8 or higher"
 msgstr ""
 
 #. type: Content of: <chapter><section><title>
-#: en/otrs.xml:1171 en/performance-tuning.xml:257
+#: en/otrs.xml:1171 en/performance-tuning.xml:256
 msgid "Webserver"
 msgstr ""
 
@@ -1658,7 +1658,7 @@ msgid ""
 msgstr ""
 
 #. type: Content of: <appendix><section><para>
-#: en/otrs.xml:1255 en/installation-and-basic-configuration.xml:640 en/installation-and-basic-configuration.xml:655 en/installation-and-basic-configuration.xml:670 en/installation-and-basic-configuration.xml:685 en/installation-and-basic-configuration.xml:706 en/installation-and-basic-configuration.xml:721 en/installation-and-basic-configuration.xml:736 en/installation-and-basic-configuration.xml:751 en/installation-and-basic-configuration.xml:813 en/first-steps.xml:35 en/first-steps.xml:63 en/first-steps.xml:94 en/first-steps.xml:129 en/first-steps.xml:149 en/first-steps.xml:188 en/first-steps.xml:207 en/first-steps.xml:267 en/first-steps.xml:321 en/adminarea.xml:21 en/adminarea.xml:50 en/adminarea.xml:65 en/adminarea.xml:131 en/adminarea.xml:152 en/adminarea.xml:167 en/adminarea.xml:178 en/adminarea.xml:301 en/adminarea.xml:322 en/adminarea.xml:338 en/adminarea.xml:349 en/adminarea.xml:364 en/adminarea.xml:379 en/adminarea.xml:390 en/adminarea.xml:415 en/adminarea.xml:434 en/adminarea.xml:472 en/adminarea.xml:487 en/adminarea.xml:498 en/adminarea.xml:520 en/adminarea.xml:535 en/adminarea.xml:610 en/adminarea.xml:629 en/adminarea.xml:663 en/adminarea.xml:682 en/adminarea.xml:716 en/adminarea.xml:731 en/adminarea.xml:747 en/adminarea.xml:762 en/adminarea.xml:773 en/adminarea.xml:797 en/adminarea.xml:812 en/adminarea.xml:827 en/adminarea.xml:842 en/adminarea.xml:853 en/adminarea.xml:879 en/adminarea.xml:894 en/adminarea.xml:982 en/adminarea.xml:997 en/adminarea.xml:1018 en/adminarea.xml:1033 en/adminarea.xml:1063 en/adminarea.xml:1078 en/adminarea.xml:1101 en/adminarea.xml:1116 en/adminarea.xml:1144 en/adminarea.xml:1168 en/adminarea.xml:1188 en/adminarea.xml:1307 en/adminarea.xml:1332 en/adminarea.xml:1356 en/adminarea.xml:1598 en/adminarea.xml:1635 en/adminarea.xml:1650 en/adminarea.xml:1674 en/adminarea.xml:1698 en/adminarea.xml:1713 en/adminarea.xml:1733 en/adminarea.xml:1763 en/adminarea.xml:1783 en/configuration.xml:39 en/email.xml:58 en/monitoring-tickets.xml:28 en/monitoring-tickets.xml:43 en/monitoring-tickets.xml:75 en/monitoring-tickets.xml:90 en/monitoring-tickets.xml:105 en/stats.xml:29 en/stats.xml:72 en/stats.xml:125 en/stats.xml:320 en/stats.xml:452 en/stats.xml:599 en/stats.xml:635 en/stats.xml:747 en/stats.xml:773 en/additional-resources.xml:21 en/additional-resources.xml:167
+#: en/otrs.xml:1255 en/installation-and-basic-configuration.xml:618 en/installation-and-basic-configuration.xml:633 en/installation-and-basic-configuration.xml:648 en/installation-and-basic-configuration.xml:663 en/installation-and-basic-configuration.xml:684 en/installation-and-basic-configuration.xml:699 en/installation-and-basic-configuration.xml:714 en/installation-and-basic-configuration.xml:729 en/installation-and-basic-configuration.xml:791 en/first-steps.xml:35 en/first-steps.xml:63 en/first-steps.xml:94 en/first-steps.xml:129 en/first-steps.xml:149 en/first-steps.xml:188 en/first-steps.xml:207 en/first-steps.xml:267 en/first-steps.xml:321 en/adminarea.xml:21 en/adminarea.xml:50 en/adminarea.xml:65 en/adminarea.xml:131 en/adminarea.xml:152 en/adminarea.xml:167 en/adminarea.xml:178 en/adminarea.xml:301 en/adminarea.xml:322 en/adminarea.xml:338 en/adminarea.xml:349 en/adminarea.xml:364 en/adminarea.xml:379 en/adminarea.xml:390 en/adminarea.xml:415 en/adminarea.xml:434 en/adminarea.xml:472 en/adminarea.xml:487 en/adminarea.xml:498 en/adminarea.xml:520 en/adminarea.xml:535 en/adminarea.xml:610 en/adminarea.xml:629 en/adminarea.xml:663 en/adminarea.xml:682 en/adminarea.xml:716 en/adminarea.xml:731 en/adminarea.xml:747 en/adminarea.xml:762 en/adminarea.xml:773 en/adminarea.xml:797 en/adminarea.xml:812 en/adminarea.xml:827 en/adminarea.xml:842 en/adminarea.xml:853 en/adminarea.xml:879 en/adminarea.xml:894 en/adminarea.xml:982 en/adminarea.xml:997 en/adminarea.xml:1018 en/adminarea.xml:1033 en/adminarea.xml:1063 en/adminarea.xml:1078 en/adminarea.xml:1101 en/adminarea.xml:1116 en/adminarea.xml:1144 en/adminarea.xml:1168 en/adminarea.xml:1188 en/adminarea.xml:1307 en/adminarea.xml:1332 en/adminarea.xml:1356 en/adminarea.xml:1598 en/adminarea.xml:1635 en/adminarea.xml:1650 en/adminarea.xml:1674 en/adminarea.xml:1698 en/adminarea.xml:1713 en/adminarea.xml:1733 en/adminarea.xml:1763 en/adminarea.xml:1783 en/configuration.xml:38 en/email.xml:58 en/monitoring-tickets.xml:28 en/monitoring-tickets.xml:43 en/monitoring-tickets.xml:75 en/monitoring-tickets.xml:90 en/monitoring-tickets.xml:105 en/stats.xml:28 en/stats.xml:71 en/stats.xml:124 en/stats.xml:319 en/stats.xml:451 en/stats.xml:598 en/stats.xml:634 en/stats.xml:746 en/stats.xml:772 en/additional-resources.xml:21 en/additional-resources.xml:167
 msgid "<placeholder type=\"screenshot\" id=\"0\"/>"
 msgstr ""
 
@@ -1677,17 +1677,18 @@ msgstr ""
 msgid ""
 "Commercial support for OTRS is also available. You can find the available "
 "options on the website of OTRS Group, the company behind OTRS: <ulink "
-"url=\"http://www.otrs.com/en/solutions/\"> "
-"<citetitle>http://www.otrs.com/en/solutions/</citetitle> </ulink> ."
+"url=\"http://www.otrs.com/\"> <citetitle>http://www.otrs.com/</citetitle> "
+"</ulink> ."
 msgstr ""
 
 #. type: Content of: <chapter><section><para>
 #: en/otrs.xml:1280
 msgid ""
 "OTRS Group provides subscription support services, customization, consulting "
-"and training for <ulink url=\"http://www.otrs.com/en/products/help-desk/\"> "
-"<citetitle>OTRS Help Desk</citetitle></ulink> and <ulink "
-"url=\"http://www.otrs.com/en/products/itsm/\"> <citetitle>OTRS "
+"and training for <ulink "
+"url=\"http://www.otrs.com/products/otrs-help-desk/\"> <citetitle>OTRS Help "
+"Desk</citetitle></ulink> and <ulink "
+"url=\"http://www.otrs.com/en/products/otrs-itsm/\"> <citetitle>OTRS "
 "ITSM</citetitle></ulink>. It also provides <ulink "
 "url=\"http://www.otrs.com/solutions/\"><citetitle>Best Practice Product "
 "Editions</citetitle></ulink>.  With these Editions, OTRS Group helps "
@@ -1710,12 +1711,12 @@ msgid ""
 msgstr ""
 
 #. type: Content of: <chapter><title>
-#: en/installation-and-basic-configuration.xml:7
+#: en/installation-and-basic-configuration.xml:6
 msgid "Installation"
 msgstr ""
 
 #. type: Content of: <chapter><abstract><para>
-#: en/installation-and-basic-configuration.xml:11
+#: en/installation-and-basic-configuration.xml:10
 msgid ""
 "This chapter describes the installation and basic configuration of the "
 "central OTRS framework. It covers information on installing OTRS from "
@@ -1723,7 +1724,7 @@ msgid ""
 msgstr ""
 
 #. type: Content of: <chapter><abstract><para>
-#: en/installation-and-basic-configuration.xml:15
+#: en/installation-and-basic-configuration.xml:14
 msgid ""
 "Topics covered here include configuration of the web and database servers, "
 "the interface between OTRS and the database, the installation of additional "
@@ -1732,7 +1733,7 @@ msgid ""
 msgstr ""
 
 #. type: Content of: <chapter><abstract><para>
-#: en/installation-and-basic-configuration.xml:19
+#: en/installation-and-basic-configuration.xml:18
 msgid ""
 "Follow the detailed steps in this chapter to install OTRS on your "
 "server. You can then use its web interface to login and administer the "
@@ -1740,12 +1741,12 @@ msgid ""
 msgstr ""
 
 #. type: Content of: <chapter><section><title>
-#: en/installation-and-basic-configuration.xml:24
+#: en/installation-and-basic-configuration.xml:23
 msgid "The simple way - Installation of pre-built packages"
 msgstr ""
 
 #. type: Content of: <chapter><section><para>
-#: en/installation-and-basic-configuration.xml:27
+#: en/installation-and-basic-configuration.xml:26
 msgid ""
 "You should use pre-built packages to install OTRS, since it is the simplest "
 "and most convenient method. You can find them in the download area at <ulink "
@@ -1757,12 +1758,12 @@ msgid ""
 msgstr ""
 
 #. type: Content of: <chapter><section><section><title>
-#: en/installation-and-basic-configuration.xml:35
+#: en/installation-and-basic-configuration.xml:34
 msgid "Installing the RPM on a SUSE Linux server"
 msgstr ""
 
 #. type: Content of: <chapter><section><section><para>
-#: en/installation-and-basic-configuration.xml:38
+#: en/installation-and-basic-configuration.xml:37
 msgid ""
 "This section demonstrates the installation of a pre-built RPM package on a "
 "SUSE Linux distro. We have tested against all recent SLES and OpenSUSE "
@@ -1773,7 +1774,7 @@ msgid ""
 msgstr ""
 
 #. type: Content of: <chapter><section><section><para>
-#: en/installation-and-basic-configuration.xml:46
+#: en/installation-and-basic-configuration.xml:45
 msgid ""
 "Install OTRS with <application>yast</application> (yast2) or via the command "
 "line and <command>rpm</command>. OTRS needs some Perl modules which are not "
@@ -1783,7 +1784,7 @@ msgid ""
 msgstr ""
 
 #. type: Content of: <chapter><section><section><para>
-#: en/installation-and-basic-configuration.xml:50
+#: en/installation-and-basic-configuration.xml:49
 msgid ""
 "If you decide to install OTRS via the command line and "
 "<command>rpm</command>, first you have to manually install the needed Perl "
@@ -1793,14 +1794,14 @@ msgid ""
 msgstr ""
 
 #. type: Content of: <chapter><section><section><para>
-#: en/installation-and-basic-configuration.xml:54
+#: en/installation-and-basic-configuration.xml:53
 msgid ""
 "Note: If you install it on SLES9 or OES, follow this description to install "
 "the missing perl-GD packages. http://faq.otrs.org/otrs/public.pl?FAQID=49"
 msgstr ""
 
 #. type: Content of: <chapter><section><section><para><screen>
-#: en/installation-and-basic-configuration.xml:59
+#: en/installation-and-basic-configuration.xml:58
 #, no-wrap
 msgid ""
 "linux:~ # rpm -i /tmp/otrs-xxx.rpm\n"
@@ -1833,24 +1834,24 @@ msgid ""
 msgstr ""
 
 #. type: Content of: <chapter><section><para>
-#: en/installation-and-basic-configuration.xml:58 en/installation-and-basic-configuration.xml:96 en/installation-and-basic-configuration.xml:129 en/installation-and-basic-configuration.xml:234 en/installation-and-basic-configuration.xml:253 en/installation-and-basic-configuration.xml:269 en/installation-and-basic-configuration.xml:472 en/installation-and-basic-configuration.xml:539 en/installation-and-basic-configuration.xml:577 en/installation-and-basic-configuration.xml:606 en/installation-and-basic-configuration.xml:766 en/installation-and-basic-configuration.xml:833 en/installation-and-basic-configuration.xml:942 en/installation-and-basic-configuration.xml:962 en/installation-and-basic-configuration.xml:1126 en/installation-and-basic-configuration.xml:1149 en/installation-and-basic-configuration.xml:1318 en/installation-and-basic-configuration.xml:1372 en/installation-and-basic-configuration.xml:1398 en/installation-and-basic-configuration.xml:1411 en/email.xml:103 en/external-backends.xml:168 en/external-backends.xml:227 en/external-backends.xml:1058 en/states.xml:111 en/pgp.xml:26 en/pgp.xml:142 en/smime.xml:18 en/smime.xml:49 en/smime.xml:99 en/smime.xml:146 en/smime.xml:198 en/backup-and-restore.xml:25 en/backup-and-restore.xml:44 en/backup-and-restore.xml:63 en/backup-and-restore.xml:88 en/backup-and-restore.xml:106
+#: en/installation-and-basic-configuration.xml:57 en/installation-and-basic-configuration.xml:95 en/installation-and-basic-configuration.xml:128 en/installation-and-basic-configuration.xml:212 en/installation-and-basic-configuration.xml:231 en/installation-and-basic-configuration.xml:247 en/installation-and-basic-configuration.xml:450 en/installation-and-basic-configuration.xml:517 en/installation-and-basic-configuration.xml:555 en/installation-and-basic-configuration.xml:584 en/installation-and-basic-configuration.xml:744 en/installation-and-basic-configuration.xml:811 en/installation-and-basic-configuration.xml:920 en/installation-and-basic-configuration.xml:940 en/installation-and-basic-configuration.xml:1104 en/installation-and-basic-configuration.xml:1127 en/installation-and-basic-configuration.xml:1296 en/installation-and-basic-configuration.xml:1350 en/installation-and-basic-configuration.xml:1376 en/installation-and-basic-configuration.xml:1389 en/email.xml:103 en/external-backends.xml:168 en/external-backends.xml:227 en/external-backends.xml:1058 en/states.xml:111 en/pgp.xml:25 en/pgp.xml:141 en/smime.xml:18 en/smime.xml:49 en/smime.xml:99 en/smime.xml:146 en/smime.xml:198 en/backup-and-restore.xml:25 en/backup-and-restore.xml:44 en/backup-and-restore.xml:63 en/backup-and-restore.xml:88 en/backup-and-restore.xml:106
 msgid "<placeholder type=\"screen\" id=\"0\"/>"
 msgstr ""
 
 #. type: Content of: <chapter><section><section><para>
-#: en/installation-and-basic-configuration.xml:88
+#: en/installation-and-basic-configuration.xml:87
 msgid "<emphasis>Script 3.1. Command to install OTRS.</emphasis>"
 msgstr ""
 
 #. type: Content of: <chapter><section><section><para>
-#: en/installation-and-basic-configuration.xml:92
+#: en/installation-and-basic-configuration.xml:91
 msgid ""
 "After the installation of the OTRS RPM package, you have to run "
 "<application>SuSEconfig</application>, as shown in Script 3.2."
 msgstr ""
 
 #. type: Content of: <chapter><section><section><para><screen>
-#: en/installation-and-basic-configuration.xml:97
+#: en/installation-and-basic-configuration.xml:96
 #, no-wrap
 msgid ""
 "linux:~ # SuSEconfig\n"
@@ -1876,19 +1877,19 @@ msgid ""
 msgstr ""
 
 #. type: Content of: <chapter><section><section><para>
-#: en/installation-and-basic-configuration.xml:121
+#: en/installation-and-basic-configuration.xml:120
 msgid "<emphasis>Script 3.2. Running the SuSEconfig command.</emphasis>"
 msgstr ""
 
 #. type: Content of: <chapter><section><section><para>
-#: en/installation-and-basic-configuration.xml:125
+#: en/installation-and-basic-configuration.xml:124
 msgid ""
 "The OTRS installation is done. Restart your web server to load the OTRS "
 "specific changes in its configuration, as shown in Script 3.3."
 msgstr ""
 
 #. type: Content of: <chapter><section><section><para><screen>
-#: en/installation-and-basic-configuration.xml:130
+#: en/installation-and-basic-configuration.xml:129
 #, no-wrap
 msgid ""
 "linux:~ # rcapache restart\n"
@@ -1898,70 +1899,56 @@ msgid ""
 msgstr ""
 
 #. type: Content of: <chapter><section><section><para>
-#: en/installation-and-basic-configuration.xml:138
+#: en/installation-and-basic-configuration.xml:137
 msgid "<emphasis>Script 3.3. Restarting the web server.</emphasis>"
 msgstr ""
 
 #. type: Content of: <chapter><section><section><para>
-#: en/installation-and-basic-configuration.xml:142
+#: en/installation-and-basic-configuration.xml:141
 msgid ""
 "The next step is to setup the OTRS database, as described at <link "
 "linkend=\"database-configuration\">section 3.2.4.</link>"
 msgstr ""
 
 #. type: Content of: <chapter><section><section><title>
-#: en/installation-and-basic-configuration.xml:148
-msgid "Installing OTRS on a CentOS system"
+#: en/installation-and-basic-configuration.xml:147
+msgid "Installing OTRS on a Debian or Ubuntu system"
+msgstr ""
+
+#. type: Content of: <chapter><section><section><important><para>
+#: en/installation-and-basic-configuration.xml:150
+msgid ""
+"Please install OTRS <link linkend=\"manual-installation-of-otrs\">from "
+"source</link>, and do not use the OTRS packages that Debian/Ubuntu provides."
+msgstr ""
+
+#. type: Content of: <chapter><section><section><para><screen>
+#: en/installation-and-basic-configuration.xml:157
+#, no-wrap
+msgid ""
+"apt-get install libapache2-mod-perl2 libdbd-mysql-perl libtimedate-perl "
+"libnet-dns-perl \\\n"
+"    libnet-ldap-perl libio-socket-ssl-perl libpdf-api2-perl "
+"libdbd-mysql-perl libsoap-lite-perl \\\n"
+"    libgd-text-perl libtext-csv-xs-perl libjson-xs-perl libgd-graph-perl "
+"libapache-dbi-perl\n"
+"    "
 msgstr ""
 
 #. type: Content of: <chapter><section><section><para>
-#: en/installation-and-basic-configuration.xml:151
+#: en/installation-and-basic-configuration.xml:155
 msgid ""
-"On the OTRS Wiki you can find detailed instructions for setting up OTRS on a "
-"CentOS system. Please note that these instructions will also apply to RedHat "
-"systems since they use the same source: <ulink "
-"url=\"http://wiki.otrs.org/index.php?title=Installation_of_OTRS_3.0b1_on_CentOS_5.5\"> "
-"http://wiki.otrs.org/index.php?title=Installation_of_OTRS_3.0b1_on_CentOS_5.5 "
-"</ulink> ."
+"The installation of required Perl modules is easier if you use the available "
+"packages: <placeholder type=\"screen\" id=\"0\"/>"
 msgstr ""
 
 #. type: Content of: <chapter><section><section><title>
-#: en/installation-and-basic-configuration.xml:161
-msgid "Installing OTRS on a Debian system"
-msgstr ""
-
-#. type: Content of: <chapter><section><section><para>
-#: en/installation-and-basic-configuration.xml:164
-msgid ""
-"On the OTRS Wiki you can find detailed instructions for setting up OTRS on a "
-"Debian system: <ulink "
-"url=\"http://wiki.otrs.org/index.php?title=Installation_on_Debian_5.04_lenny\"> "
-"http://wiki.otrs.org/index.php?title=Installation_on_Debian_5.04_lenny "
-"</ulink> ."
-msgstr ""
-
-#. type: Content of: <chapter><section><section><title>
-#: en/installation-and-basic-configuration.xml:174
-msgid "Installing OTRS on a Ubuntu system"
-msgstr ""
-
-#. type: Content of: <chapter><section><section><para>
-#: en/installation-and-basic-configuration.xml:177
-msgid ""
-"On the OTRS Wiki you can find detailed instructions for setting up OTRS on "
-"an Ubuntu system: <ulink "
-"url=\"http://wiki.otrs.org/index.php?title=Installation_on_Ubuntu_Lucid_Lynx_(10.4)\"> "
-"http://wiki.otrs.org/index.php?title=Installation_on_Ubuntu_Lucid_Lynx_(10.4)  "
-"</ulink> ."
-msgstr ""
-
-#. type: Content of: <chapter><section><section><title>
-#: en/installation-and-basic-configuration.xml:187
+#: en/installation-and-basic-configuration.xml:165
 msgid "Installing OTRS on Microsoft Windows systems"
 msgstr ""
 
 #. type: Content of: <chapter><section><section><para>
-#: en/installation-and-basic-configuration.xml:190
+#: en/installation-and-basic-configuration.xml:168
 msgid ""
 "Installing OTRS on a Microsoft Windows system is very easy. Download the "
 "latest installer for Win32 from <ulink "
@@ -1976,14 +1963,14 @@ msgid ""
 msgstr ""
 
 #. type: Content of: <chapter><section><section><section><warning><para>
-#: en/installation-and-basic-configuration.xml:200 en/installation-and-basic-configuration.xml:808
+#: en/installation-and-basic-configuration.xml:178 en/installation-and-basic-configuration.xml:786
 msgid ""
 "Please change the password for the 'root@localhost' account as soon as "
 "possible."
 msgstr ""
 
 #. type: Content of: <chapter><section><section><important><para>
-#: en/installation-and-basic-configuration.xml:206
+#: en/installation-and-basic-configuration.xml:184
 msgid ""
 "The Win32 installer for OTRS contains all needed components for OTRS, "
 "i.e. the <application>Apache</application> web server, the "
@@ -1996,17 +1983,17 @@ msgid ""
 msgstr ""
 
 #. type: Content of: <chapter><section><title>
-#: en/installation-and-basic-configuration.xml:217
+#: en/installation-and-basic-configuration.xml:195
 msgid "Installation from source (Linux, Unix)"
 msgstr ""
 
 #. type: Content of: <chapter><section><section><title>
-#: en/installation-and-basic-configuration.xml:220
+#: en/installation-and-basic-configuration.xml:198
 msgid "Preparing the installation from source"
 msgstr ""
 
 #. type: Content of: <chapter><section><section><para>
-#: en/installation-and-basic-configuration.xml:223
+#: en/installation-and-basic-configuration.xml:201
 msgid ""
 "If you want to install OTRS from source, first download the source archive "
 "as .tar.gz, .tar.bz2, or .zip file from <ulink "
@@ -2015,7 +2002,7 @@ msgid ""
 msgstr ""
 
 #. type: Content of: <chapter><section><section><para>
-#: en/installation-and-basic-configuration.xml:230
+#: en/installation-and-basic-configuration.xml:208
 msgid ""
 "Unpack the archive (for example, using <command>tar</command>) into the "
 "directory <filename>/opt</filename>, and rename the directory from otrs-3.0 "
@@ -2023,7 +2010,7 @@ msgid ""
 msgstr ""
 
 #. type: Content of: <chapter><section><section><para><screen>
-#: en/installation-and-basic-configuration.xml:235
+#: en/installation-and-basic-configuration.xml:213
 #, no-wrap
 msgid ""
 "linux:/opt# tar xf /tmp/otrs-3.0.tar.gz\n"
@@ -2034,12 +2021,12 @@ msgid ""
 msgstr ""
 
 #. type: Content of: <chapter><section><section><para>
-#: en/installation-and-basic-configuration.xml:244
+#: en/installation-and-basic-configuration.xml:222
 msgid "<emphasis>Script 3.4. First steps to install OTRS.</emphasis>"
 msgstr ""
 
 #. type: Content of: <chapter><section><section><para>
-#: en/installation-and-basic-configuration.xml:248
+#: en/installation-and-basic-configuration.xml:226
 msgid ""
 "OTRS should NOT be run with root rights. You should add a new user for OTRS "
 "as the next step. The home directory of this new user should be "
@@ -2050,7 +2037,7 @@ msgid ""
 msgstr ""
 
 #. type: Content of: <chapter><section><section><para><screen>
-#: en/installation-and-basic-configuration.xml:254
+#: en/installation-and-basic-configuration.xml:232
 #, no-wrap
 msgid ""
 "linux:/opt# useradd -r -d /opt/otrs/ -c 'OTRS user' otrs\n"
@@ -2059,14 +2046,14 @@ msgid ""
 msgstr ""
 
 #. type: Content of: <chapter><section><section><para>
-#: en/installation-and-basic-configuration.xml:261
+#: en/installation-and-basic-configuration.xml:239
 msgid ""
 "<emphasis>Script 3.5. Adding a new user 'otrs', and adding it to a "
 "group.</emphasis>"
 msgstr ""
 
 #. type: Content of: <chapter><section><section><para>
-#: en/installation-and-basic-configuration.xml:265
+#: en/installation-and-basic-configuration.xml:243
 msgid ""
 "Next, you have to copy some sample configuration files. The system will "
 "later use the copied files. The files are located in "
@@ -2076,7 +2063,7 @@ msgid ""
 msgstr ""
 
 #. type: Content of: <chapter><section><section><para><screen>
-#: en/installation-and-basic-configuration.xml:270
+#: en/installation-and-basic-configuration.xml:248
 #, no-wrap
 msgid ""
 "linux:/opt# cd otrs/Kernel/\n"
@@ -2086,12 +2073,12 @@ msgid ""
 msgstr ""
 
 #. type: Content of: <chapter><section><section><para>
-#: en/installation-and-basic-configuration.xml:278
+#: en/installation-and-basic-configuration.xml:256
 msgid "<emphasis>Script 3.6. Copying some sample files.</emphasis>"
 msgstr ""
 
 #. type: Content of: <chapter><section><section><para>
-#: en/installation-and-basic-configuration.xml:282
+#: en/installation-and-basic-configuration.xml:260
 msgid ""
 "The last step to prepare the installation of OTRS is to set the proper "
 "access rights for the files. You can use the script "
@@ -2101,7 +2088,7 @@ msgid ""
 msgstr ""
 
 #. type: Content of: <chapter><section><section><para><cmdsynopsis>
-#: en/installation-and-basic-configuration.xml:288
+#: en/installation-and-basic-configuration.xml:266
 msgid ""
 "<command>otrs.SetPermissions.pl</command> <arg choice='req'> "
 "<replaceable>Home directory of the OTRS user</replaceable> </arg> <arg "
@@ -2113,12 +2100,12 @@ msgid ""
 msgstr ""
 
 #. type: Content of: <chapter><section><section><para>
-#: en/installation-and-basic-configuration.xml:287 en/installation-and-basic-configuration.xml:1098
+#: en/installation-and-basic-configuration.xml:265 en/installation-and-basic-configuration.xml:1076
 msgid "<placeholder type=\"cmdsynopsis\" id=\"0\"/>"
 msgstr ""
 
 #. type: Content of: <chapter><section><section><para>
-#: en/installation-and-basic-configuration.xml:312
+#: en/installation-and-basic-configuration.xml:290
 msgid ""
 "If your web server is running with the same user rights as user 'otrs', the "
 "command to set the proper access rights is <command>otrs.SetPermissions.pl "
@@ -2131,12 +2118,12 @@ msgid ""
 msgstr ""
 
 #. type: Content of: <chapter><section><section><title>
-#: en/installation-and-basic-configuration.xml:318
+#: en/installation-and-basic-configuration.xml:296
 msgid "Installation of Perl modules"
 msgstr ""
 
 #. type: Content of: <chapter><section><section><para>
-#: en/installation-and-basic-configuration.xml:321
+#: en/installation-and-basic-configuration.xml:299
 msgid ""
 "OTRS needs some additional Perl modules, as described in Table 3-1. If you "
 "install OTRS from source, you will have to install these modules "
@@ -2149,179 +2136,179 @@ msgid ""
 msgstr ""
 
 #. type: Content of: <chapter><section><section><para><table><title>
-#: en/installation-and-basic-configuration.xml:327
+#: en/installation-and-basic-configuration.xml:305
 msgid "Needed Perl modules for OTRS"
 msgstr ""
 
 #. type: Content of: <appendix><section><para><table><tgroup><thead><row><entry>
-#: en/installation-and-basic-configuration.xml:332 en/adminarea.xml:919 en/adminarea.xml:1380 en/additional-resources.xml:46
+#: en/installation-and-basic-configuration.xml:310 en/adminarea.xml:919 en/adminarea.xml:1380 en/additional-resources.xml:46
 msgid "Name"
 msgstr ""
 
 #. type: Content of: <appendix><section><para><table><tgroup><thead><row><entry>
-#: en/installation-and-basic-configuration.xml:335 en/adminarea.xml:95 en/adminarea.xml:202 en/adminarea.xml:922 en/adminarea.xml:1386 en/additional-resources.xml:49
+#: en/installation-and-basic-configuration.xml:313 en/adminarea.xml:95 en/adminarea.xml:202 en/adminarea.xml:922 en/adminarea.xml:1386 en/additional-resources.xml:49
 msgid "Description"
 msgstr ""
 
 #. type: Content of: <chapter><section><section><para><table><tgroup><tbody><row><entry>
-#: en/installation-and-basic-configuration.xml:342
+#: en/installation-and-basic-configuration.xml:320
 msgid "DBI"
 msgstr ""
 
 #. type: Content of: <chapter><section><section><para><table><tgroup><tbody><row><entry>
-#: en/installation-and-basic-configuration.xml:345
+#: en/installation-and-basic-configuration.xml:323
 msgid "Establishes a connection to the database back-end."
 msgstr ""
 
 #. type: Content of: <chapter><section><section><para><table><tgroup><tbody><row><entry>
-#: en/installation-and-basic-configuration.xml:350
+#: en/installation-and-basic-configuration.xml:328
 msgid "DBD::mysql"
 msgstr ""
 
 #. type: Content of: <chapter><section><section><para><table><tgroup><tbody><row><entry>
-#: en/installation-and-basic-configuration.xml:353
+#: en/installation-and-basic-configuration.xml:331
 msgid ""
 "Contains special functions to connect to the MySQL database back-end (only "
 "required if MySQL is used)."
 msgstr ""
 
 #. type: Content of: <chapter><section><section><para><table><tgroup><tbody><row><entry>
-#: en/installation-and-basic-configuration.xml:359
+#: en/installation-and-basic-configuration.xml:337
 msgid "DBD::pg"
 msgstr ""
 
 #. type: Content of: <chapter><section><section><para><table><tgroup><tbody><row><entry>
-#: en/installation-and-basic-configuration.xml:362
+#: en/installation-and-basic-configuration.xml:340
 msgid ""
 "Contains special functions to connect to the PostgreSQL database back-end "
 "(only required if PostgreSQL is used)."
 msgstr ""
 
 #. type: Content of: <chapter><section><section><para><table><tgroup><tbody><row><entry>
-#: en/installation-and-basic-configuration.xml:368
+#: en/installation-and-basic-configuration.xml:346
 msgid "Digest::MD5"
 msgstr ""
 
 #. type: Content of: <chapter><section><section><para><table><tgroup><tbody><row><entry>
-#: en/installation-and-basic-configuration.xml:371
+#: en/installation-and-basic-configuration.xml:349
 msgid "Allows the use of the md5 algorithm."
 msgstr ""
 
 #. type: Content of: <chapter><section><section><para><table><tgroup><tbody><row><entry>
-#: en/installation-and-basic-configuration.xml:376
+#: en/installation-and-basic-configuration.xml:354
 msgid "CSS::Minifier"
 msgstr ""
 
 #. type: Content of: <chapter><section><section><para><table><tgroup><tbody><row><entry>
-#: en/installation-and-basic-configuration.xml:379
+#: en/installation-and-basic-configuration.xml:357
 msgid "Minifies a CSS file and writes the output directly to another file."
 msgstr ""
 
 #. type: Content of: <chapter><section><section><para><table><tgroup><tbody><row><entry>
-#: en/installation-and-basic-configuration.xml:384
+#: en/installation-and-basic-configuration.xml:362
 msgid "Crypt::PasswdMD5"
 msgstr ""
 
 #. type: Content of: <chapter><section><section><para><table><tgroup><tbody><row><entry>
-#: en/installation-and-basic-configuration.xml:387
+#: en/installation-and-basic-configuration.xml:365
 msgid "Provides interoperable MD5-based crypt functions."
 msgstr ""
 
 #. type: Content of: <chapter><section><section><para><table><tgroup><tbody><row><entry>
-#: en/installation-and-basic-configuration.xml:392
+#: en/installation-and-basic-configuration.xml:370
 msgid "MIME::Base64"
 msgstr ""
 
 #. type: Content of: <chapter><section><section><para><table><tgroup><tbody><row><entry>
-#: en/installation-and-basic-configuration.xml:395
+#: en/installation-and-basic-configuration.xml:373
 msgid "Encodes / decodes Base64 strings, e.g. for mail attachments."
 msgstr ""
 
 #. type: Content of: <chapter><section><section><para><table><tgroup><tbody><row><entry>
-#: en/installation-and-basic-configuration.xml:400
+#: en/installation-and-basic-configuration.xml:378
 msgid "JavaScript:Minifier"
 msgstr ""
 
 #. type: Content of: <chapter><section><section><para><table><tgroup><tbody><row><entry>
-#: en/installation-and-basic-configuration.xml:403
+#: en/installation-and-basic-configuration.xml:381
 msgid "Minifies a JavaScript file and writes the output directly to another file."
 msgstr ""
 
 #. type: Content of: <chapter><section><section><para><table><tgroup><tbody><row><entry>
-#: en/installation-and-basic-configuration.xml:408
+#: en/installation-and-basic-configuration.xml:386
 msgid "Net::DNS"
 msgstr ""
 
 #. type: Content of: <chapter><section><section><para><table><tgroup><tbody><row><entry>
-#: en/installation-and-basic-configuration.xml:411
+#: en/installation-and-basic-configuration.xml:389
 msgid "Perl interface to the domain name system."
 msgstr ""
 
 #. type: Content of: <chapter><section><section><para><table><tgroup><tbody><row><entry>
-#: en/installation-and-basic-configuration.xml:416
+#: en/installation-and-basic-configuration.xml:394
 msgid "LWP::UserAgent"
 msgstr ""
 
 #. type: Content of: <chapter><section><section><para><table><tgroup><tbody><row><entry>
-#: en/installation-and-basic-configuration.xml:419
+#: en/installation-and-basic-configuration.xml:397
 msgid "Processes HTTP requests."
 msgstr ""
 
 #. type: Content of: <chapter><section><section><para><table><tgroup><tbody><row><entry>
-#: en/installation-and-basic-configuration.xml:424
+#: en/installation-and-basic-configuration.xml:402
 msgid "Net::LDAP"
 msgstr ""
 
 #. type: Content of: <chapter><section><section><para><table><tgroup><tbody><row><entry>
-#: en/installation-and-basic-configuration.xml:427
+#: en/installation-and-basic-configuration.xml:405
 msgid ""
 "Perl interface to a LDAP directory (only required if an LDAP back-end is "
 "used)."
 msgstr ""
 
 #. type: Content of: <chapter><section><section><para><table><tgroup><tbody><row><entry>
-#: en/installation-and-basic-configuration.xml:432
+#: en/installation-and-basic-configuration.xml:410
 msgid "GD"
 msgstr ""
 
 #. type: Content of: <chapter><section><section><para><table><tgroup><tbody><row><entry>
-#: en/installation-and-basic-configuration.xml:435
+#: en/installation-and-basic-configuration.xml:413
 msgid ""
 "Interface to the GD graphics library (only required if the OTRS stats module "
 "is used)."
 msgstr ""
 
 #. type: Content of: <chapter><section><section><para><table><tgroup><tbody><row><entry>
-#: en/installation-and-basic-configuration.xml:441
+#: en/installation-and-basic-configuration.xml:419
 msgid "GD::Text, GD::Graph, GD::Graph::lines, GD::Text::Align"
 msgstr ""
 
 #. type: Content of: <chapter><section><section><para><table><tgroup><tbody><row><entry>
-#: en/installation-and-basic-configuration.xml:444
+#: en/installation-and-basic-configuration.xml:422
 msgid ""
 "Some more text and graphic tools for the GD graphics library (only required "
 "if the OTRS stats module is used)."
 msgstr ""
 
 #. type: Content of: <chapter><section><section><para><table><tgroup><tbody><row><entry>
-#: en/installation-and-basic-configuration.xml:450
+#: en/installation-and-basic-configuration.xml:428
 msgid "PDF::API2, Compress::Zlib"
 msgstr ""
 
 #. type: Content of: <chapter><section><section><para><table><tgroup><tbody><row><entry>
-#: en/installation-and-basic-configuration.xml:453
+#: en/installation-and-basic-configuration.xml:431
 msgid ""
 "Needed to generate the PDF output for reports, search results and for the "
 "ticket print view."
 msgstr ""
 
 #. type: Content of: <appendix><section><para>
-#: en/installation-and-basic-configuration.xml:326 en/installation-and-basic-configuration.xml:986 en/adminarea.xml:89 en/adminarea.xml:193 en/additional-resources.xml:40
+#: en/installation-and-basic-configuration.xml:304 en/installation-and-basic-configuration.xml:964 en/adminarea.xml:89 en/adminarea.xml:193 en/additional-resources.xml:40
 msgid "<placeholder type=\"table\" id=\"0\"/>"
 msgstr ""
 
 #. type: Content of: <chapter><section><section><para>
-#: en/installation-and-basic-configuration.xml:464
+#: en/installation-and-basic-configuration.xml:442
 msgid ""
 "You can verify which modules you need to install with "
 "<command>otrs.CheckModules.pl</command>. This script is located in the "
@@ -2330,12 +2317,12 @@ msgid ""
 msgstr ""
 
 #. type: Content of: <chapter><section><section><para>
-#: en/installation-and-basic-configuration.xml:468
+#: en/installation-and-basic-configuration.xml:446
 msgid "Please note that some modules are optional."
 msgstr ""
 
 #. type: Content of: <chapter><section><section><para><screen>
-#: en/installation-and-basic-configuration.xml:473
+#: en/installation-and-basic-configuration.xml:451
 #, no-wrap
 msgid ""
 "linux:~# cd /opt/otrs/bin/\n"
@@ -2387,12 +2374,12 @@ msgid ""
 msgstr ""
 
 #. type: Content of: <chapter><section><section><para>
-#: en/installation-and-basic-configuration.xml:521
+#: en/installation-and-basic-configuration.xml:499
 msgid "<emphasis>Script 3.7. Checking needed modules.</emphasis>"
 msgstr ""
 
 #. type: Content of: <chapter><section><section><para>
-#: en/installation-and-basic-configuration.xml:525
+#: en/installation-and-basic-configuration.xml:503
 msgid ""
 "You should strive to install the missing modules from your Linux "
 "distribution's package management system. In that way, the packages will be "
@@ -2404,7 +2391,7 @@ msgid ""
 msgstr ""
 
 #. type: Content of: <chapter><section><section><para>
-#: en/installation-and-basic-configuration.xml:530
+#: en/installation-and-basic-configuration.xml:508
 msgid ""
 "To install one of the modules from above via CPAN, you have to execute the "
 "command <command>perl -e shell -MCPAN</command>. The Perl shell will be "
@@ -2416,7 +2403,7 @@ msgid ""
 msgstr ""
 
 #. type: Content of: <chapter><section><section><para>
-#: en/installation-and-basic-configuration.xml:535
+#: en/installation-and-basic-configuration.xml:513
 msgid ""
 "Execute also the two commands <command>perl -cw "
 "bin/cgi-bin/index.pl</command> and <command>perl -cw "
@@ -2426,7 +2413,7 @@ msgid ""
 msgstr ""
 
 #. type: Content of: <chapter><section><section><para><screen>
-#: en/installation-and-basic-configuration.xml:540
+#: en/installation-and-basic-configuration.xml:518
 #, no-wrap
 msgid ""
 "linux:~# cd /opt/otrs\n"
@@ -2438,17 +2425,17 @@ msgid ""
 msgstr ""
 
 #. type: Content of: <chapter><section><section><para>
-#: en/installation-and-basic-configuration.xml:550
+#: en/installation-and-basic-configuration.xml:528
 msgid "<emphasis>Script 3.8. Checking syntax.</emphasis>"
 msgstr ""
 
 #. type: Content of: <chapter><section><section><title>
-#: en/installation-and-basic-configuration.xml:556
+#: en/installation-and-basic-configuration.xml:534
 msgid "Configuring the Apache web server"
 msgstr ""
 
 #. type: Content of: <chapter><section><section><para>
-#: en/installation-and-basic-configuration.xml:559
+#: en/installation-and-basic-configuration.xml:537
 msgid ""
 "This section describes the basic configuration of the "
 "<application>Apache</application> web server with mod_cgi for OTRS. The web "
@@ -2459,12 +2446,12 @@ msgid ""
 msgstr ""
 
 #. type: Content of: <chapter><section><section><para>
-#: en/installation-and-basic-configuration.xml:563
+#: en/installation-and-basic-configuration.xml:541
 msgid "LoadModule cgi_module /usr/lib/apache2/modules/mod_cgi.so"
 msgstr ""
 
 #. type: Content of: <chapter><section><section><para>
-#: en/installation-and-basic-configuration.xml:567
+#: en/installation-and-basic-configuration.xml:545
 msgid ""
 "To access the web interface of OTRS conveniently via a short address, Alias "
 "and ScriptAlias entries are needed. Most <application>Apache</application> "
@@ -2478,7 +2465,7 @@ msgid ""
 msgstr ""
 
 #. type: Content of: <chapter><section><section><para>
-#: en/installation-and-basic-configuration.xml:572
+#: en/installation-and-basic-configuration.xml:550
 msgid ""
 "Restart your web server to load the new configuration settings. On most "
 "systems you can start/restart your web server with the command "
@@ -2486,7 +2473,7 @@ msgid ""
 msgstr ""
 
 #. type: Content of: <chapter><section><section><para><screen>
-#: en/installation-and-basic-configuration.xml:578
+#: en/installation-and-basic-configuration.xml:556
 #, no-wrap
 msgid ""
 "linux:/etc/apache2/conf.d# /etc/init.d/apache2 restart\n"
@@ -2495,17 +2482,17 @@ msgid ""
 msgstr ""
 
 #. type: Content of: <chapter><section><section><para>
-#: en/installation-and-basic-configuration.xml:585
+#: en/installation-and-basic-configuration.xml:563
 msgid "<emphasis>Script 3.11. Restarting the web server.</emphasis>"
 msgstr ""
 
 #. type: Content of: <chapter><section><section><para>
-#: en/installation-and-basic-configuration.xml:589
+#: en/installation-and-basic-configuration.xml:567
 msgid "Now your web server should be configured for OTRS."
 msgstr ""
 
 #. type: Content of: <chapter><section><section><para>
-#: en/installation-and-basic-configuration.xml:593
+#: en/installation-and-basic-configuration.xml:571
 msgid ""
 "If you choose to increase performance and you can install mod_perl, then you "
 "can leave mod_cgi off, and configure the <application>Apache</application> "
@@ -2513,7 +2500,7 @@ msgid ""
 msgstr ""
 
 #. type: Content of: <chapter><section><section><para>
-#: en/installation-and-basic-configuration.xml:598
+#: en/installation-and-basic-configuration.xml:576
 msgid ""
 "Please ensure that mod_perl is installed and loaded, in order to take "
 "advantage of this feature. Due to the nature of the start-up script, your "
@@ -2523,25 +2510,25 @@ msgid ""
 msgstr ""
 
 #. type: Content of: <chapter><section><section><para>
-#: en/installation-and-basic-configuration.xml:602
+#: en/installation-and-basic-configuration.xml:580
 msgid ""
 "Search your /etc/apache* directory for mod_perl.so (see Script 3.12 below) "
 "to see if the module is already loaded."
 msgstr ""
 
 #. type: Content of: <chapter><section><section><para><screen>
-#: en/installation-and-basic-configuration.xml:606
+#: en/installation-and-basic-configuration.xml:584
 #, no-wrap
 msgid " #:/ grep -Rn mod_perl.so /etc/apache*"
 msgstr ""
 
 #. type: Content of: <chapter><section><section><para>
-#: en/installation-and-basic-configuration.xml:610
+#: en/installation-and-basic-configuration.xml:588
 msgid "<emphasis>Script 3.12. Searching for mod_perl.</emphasis>"
 msgstr ""
 
 #. type: Content of: <chapter><section><section><para>
-#: en/installation-and-basic-configuration.xml:614
+#: en/installation-and-basic-configuration.xml:592
 msgid ""
 "When you use the appropriate start script listed above and the module is "
 "loaded, the script (when commented in) "
@@ -2551,19 +2538,19 @@ msgid ""
 msgstr ""
 
 #. type: Content of: <chapter><section><section><title>
-#: en/installation-and-basic-configuration.xml:619
+#: en/installation-and-basic-configuration.xml:597
 msgid "Configuring the database"
 msgstr ""
 
 #. type: Content of: <chapter><section><section><section><title>
-#: en/installation-and-basic-configuration.xml:622
+#: en/installation-and-basic-configuration.xml:600
 msgid ""
 "The simple way - Using the web installer (works only with "
 "<application>MySQL</application>)"
 msgstr ""
 
 #. type: Content of: <chapter><section><section><section><para>
-#: en/installation-and-basic-configuration.xml:625
+#: en/installation-and-basic-configuration.xml:603
 msgid ""
 "If you use <application>MySQL</application> as the database back-end, you "
 "can use the OTRS web installer: <ulink "
@@ -2572,26 +2559,26 @@ msgid ""
 msgstr ""
 
 #. type: Content of: <chapter><section><section><section><para>
-#: en/installation-and-basic-configuration.xml:632
+#: en/installation-and-basic-configuration.xml:610
 msgid ""
 "When the web installer starts, please follow the next steps to setup your "
 "system:"
 msgstr ""
 
 #. type: Content of: <chapter><section><section><section><para>
-#: en/installation-and-basic-configuration.xml:636
+#: en/installation-and-basic-configuration.xml:614
 msgid ""
 "1. Check out the information about the OTRS offices and click on next to "
 "continue (see Figure 3.1 below)."
 msgstr ""
 
 #. type: Content of: <chapter><section><section><section><para><screenshot><screeninfo>
-#: en/installation-and-basic-configuration.xml:641
+#: en/installation-and-basic-configuration.xml:619
 msgid "installer.pl screen - Welcome screen"
 msgstr ""
 
 #. type: Content of: <chapter><section><section><section><para><screenshot>
-#: en/installation-and-basic-configuration.xml:641
+#: en/installation-and-basic-configuration.xml:619
 msgid ""
 "<placeholder type=\"screeninfo\" id=\"0\"/> <graphic "
 "srccredit=\"installer.pl - screenshot\" scale=\"40\" "
@@ -2599,24 +2586,24 @@ msgid ""
 msgstr ""
 
 #. type: Content of: <chapter><section><section><section><para>
-#: en/installation-and-basic-configuration.xml:647
+#: en/installation-and-basic-configuration.xml:625
 msgid "<emphasis>Figure 3.1. Welcome screen.</emphasis>"
 msgstr ""
 
 #. type: Content of: <chapter><section><section><section><para>
-#: en/installation-and-basic-configuration.xml:651
+#: en/installation-and-basic-configuration.xml:629
 msgid ""
 "2. Read the GNU Affero General Public License (see Figure 3.2 below) and "
 "accept it, by clicking the corresponding button at the bottom of the page."
 msgstr ""
 
 #. type: Content of: <chapter><section><section><section><para><screenshot><screeninfo>
-#: en/installation-and-basic-configuration.xml:656
+#: en/installation-and-basic-configuration.xml:634
 msgid "installer.pl screen - License (1/4)"
 msgstr ""
 
 #. type: Content of: <chapter><section><section><section><para><screenshot>
-#: en/installation-and-basic-configuration.xml:656
+#: en/installation-and-basic-configuration.xml:634
 msgid ""
 "<placeholder type=\"screeninfo\" id=\"0\"/> <graphic "
 "srccredit=\"installer.pl - screenshot\" scale=\"40\" "
@@ -2624,12 +2611,12 @@ msgid ""
 msgstr ""
 
 #. type: Content of: <chapter><section><section><section><para>
-#: en/installation-and-basic-configuration.xml:662
+#: en/installation-and-basic-configuration.xml:640
 msgid "<emphasis>Figure 3.2. GNU Affero General Public License.</emphasis>"
 msgstr ""
 
 #. type: Content of: <chapter><section><section><section><para>
-#: en/installation-and-basic-configuration.xml:666
+#: en/installation-and-basic-configuration.xml:644
 msgid ""
 "3. Provide the username and password of the administrator, the DNS name of "
 "the computer which hosts OTRS and the type of database system to be "
@@ -2637,12 +2624,12 @@ msgid ""
 msgstr ""
 
 #. type: Content of: <chapter><section><section><section><para><screenshot><screeninfo>
-#: en/installation-and-basic-configuration.xml:671
+#: en/installation-and-basic-configuration.xml:649
 msgid "installer.pl screen - Create database (2/4) initial settings"
 msgstr ""
 
 #. type: Content of: <chapter><section><section><section><para><screenshot>
-#: en/installation-and-basic-configuration.xml:671
+#: en/installation-and-basic-configuration.xml:649
 msgid ""
 "<placeholder type=\"screeninfo\" id=\"0\"/> <graphic "
 "srccredit=\"installer.pl - screenshot\" scale=\"40\" "
@@ -2650,24 +2637,24 @@ msgid ""
 msgstr ""
 
 #. type: Content of: <chapter><section><section><section><para>
-#: en/installation-and-basic-configuration.xml:677
+#: en/installation-and-basic-configuration.xml:655
 msgid "<emphasis>Figure 3.3. Database initial settings.</emphasis>"
 msgstr ""
 
 #. type: Content of: <chapter><section><section><section><para>
-#: en/installation-and-basic-configuration.xml:681
+#: en/installation-and-basic-configuration.xml:659
 msgid ""
 "You will be notified if the check was successful. Press OK to continue (see "
 "Figure 3.4 below)."
 msgstr ""
 
 #. type: Content of: <chapter><section><section><section><para><screenshot><screeninfo>
-#: en/installation-and-basic-configuration.xml:686
+#: en/installation-and-basic-configuration.xml:664
 msgid "installer.pl screen - Create database (2/4) successful checking notification"
 msgstr ""
 
 #. type: Content of: <chapter><section><section><section><para><screenshot>
-#: en/installation-and-basic-configuration.xml:686
+#: en/installation-and-basic-configuration.xml:664
 msgid ""
 "<placeholder type=\"screeninfo\" id=\"0\"/> <graphic "
 "srccredit=\"installer.pl - screenshot\" scale=\"40\" "
@@ -2675,31 +2662,31 @@ msgid ""
 msgstr ""
 
 #. type: Content of: <chapter><section><section><section><para>
-#: en/installation-and-basic-configuration.xml:692
+#: en/installation-and-basic-configuration.xml:670
 msgid "<emphasis>Figure 3.4. Notification for successful check.</emphasis>"
 msgstr ""
 
 #. type: Content of: <chapter><section><section><section><para>
-#: en/installation-and-basic-configuration.xml:696
+#: en/installation-and-basic-configuration.xml:674
 msgid ""
 "4. Create a new database user, choose a name for the database and click on "
 "'Next' (see Figure 3.5 below)."
 msgstr ""
 
 #. type: Content of: <chapter><section><section><section><warning><para>
-#: en/installation-and-basic-configuration.xml:701
+#: en/installation-and-basic-configuration.xml:679
 msgid ""
 "It is never a good idea to use default passwords. Please change the default "
 "password for the OTRS database!"
 msgstr ""
 
 #. type: Content of: <chapter><section><section><section><para><screenshot><screeninfo>
-#: en/installation-and-basic-configuration.xml:707
+#: en/installation-and-basic-configuration.xml:685
 msgid "installer.pl screen - Create database (2/4) all settings"
 msgstr ""
 
 #. type: Content of: <chapter><section><section><section><para><screenshot>
-#: en/installation-and-basic-configuration.xml:707
+#: en/installation-and-basic-configuration.xml:685
 msgid ""
 "<placeholder type=\"screeninfo\" id=\"0\"/> <graphic "
 "srccredit=\"installer.pl - screenshot\" scale=\"40\" "
@@ -2707,24 +2694,24 @@ msgid ""
 msgstr ""
 
 #. type: Content of: <chapter><section><section><section><para>
-#: en/installation-and-basic-configuration.xml:713
+#: en/installation-and-basic-configuration.xml:691
 msgid "<emphasis>Figure 3.5. Database settings.</emphasis>"
 msgstr ""
 
 #. type: Content of: <chapter><section><section><section><para>
-#: en/installation-and-basic-configuration.xml:717
+#: en/installation-and-basic-configuration.xml:695
 msgid ""
 "If the database and its user were successfully created, you will get a setup "
 "notification, as shown in Figure 3.6. Click 'Next' to go to the next screen."
 msgstr ""
 
 #. type: Content of: <chapter><section><section><section><para><screenshot><screeninfo>
-#: en/installation-and-basic-configuration.xml:722
+#: en/installation-and-basic-configuration.xml:700
 msgid "installer.pl screen - Create Database (2/4) setup successful"
 msgstr ""
 
 #. type: Content of: <chapter><section><section><section><para><screenshot>
-#: en/installation-and-basic-configuration.xml:722
+#: en/installation-and-basic-configuration.xml:700
 msgid ""
 "<placeholder type=\"screeninfo\" id=\"0\"/> <graphic "
 "srccredit=\"installer.pl - screenshot\" scale=\"40\" "
@@ -2732,26 +2719,26 @@ msgid ""
 msgstr ""
 
 #. type: Content of: <chapter><section><section><section><para>
-#: en/installation-and-basic-configuration.xml:728
+#: en/installation-and-basic-configuration.xml:706
 msgid ""
 "<emphasis>Figure 3.6. Notification indicating successful database "
 "setup.</emphasis>"
 msgstr ""
 
 #. type: Content of: <chapter><section><section><section><para>
-#: en/installation-and-basic-configuration.xml:732
+#: en/installation-and-basic-configuration.xml:710
 msgid ""
 "5. Provide all the required system settings and click on 'Next' (see Figure "
 "3.7 below)."
 msgstr ""
 
 #. type: Content of: <chapter><section><section><section><para><screenshot><screeninfo>
-#: en/installation-and-basic-configuration.xml:737
+#: en/installation-and-basic-configuration.xml:715
 msgid "installer.pl screen - System Settings (3/4)"
 msgstr ""
 
 #. type: Content of: <chapter><section><section><section><para><screenshot>
-#: en/installation-and-basic-configuration.xml:737
+#: en/installation-and-basic-configuration.xml:715
 msgid ""
 "<placeholder type=\"screeninfo\" id=\"0\"/> <graphic "
 "srccredit=\"installer.pl - screenshot\" scale=\"40\" "
@@ -2759,12 +2746,12 @@ msgid ""
 msgstr ""
 
 #. type: Content of: <chapter><section><section><section><para>
-#: en/installation-and-basic-configuration.xml:743
+#: en/installation-and-basic-configuration.xml:721
 msgid "<emphasis>Figure 3.7. System settings.</emphasis>"
 msgstr ""
 
 #. type: Content of: <chapter><section><section><section><para>
-#: en/installation-and-basic-configuration.xml:747
+#: en/installation-and-basic-configuration.xml:725
 msgid ""
 "6. If you want, you can provide the needed data to configure your inbound "
 "and outbound mail, or skip this step by pressing the right button at the "
@@ -2772,12 +2759,12 @@ msgid ""
 msgstr ""
 
 #. type: Content of: <chapter><section><section><section><para><screenshot><screeninfo>
-#: en/installation-and-basic-configuration.xml:752
+#: en/installation-and-basic-configuration.xml:730
 msgid "installer.pl screen - Mail Configuration (3/4)"
 msgstr ""
 
 #. type: Content of: <chapter><section><section><section><para><screenshot>
-#: en/installation-and-basic-configuration.xml:752
+#: en/installation-and-basic-configuration.xml:730
 msgid ""
 "<placeholder type=\"screeninfo\" id=\"0\"/> <graphic "
 "srccredit=\"installer.pl - screenshot\" scale=\"40\" "
@@ -2785,19 +2772,19 @@ msgid ""
 msgstr ""
 
 #. type: Content of: <chapter><section><section><section><para>
-#: en/installation-and-basic-configuration.xml:758
+#: en/installation-and-basic-configuration.xml:736
 msgid "<emphasis>Figure 3.8. Mail configuration.</emphasis>"
 msgstr ""
 
 #. type: Content of: <chapter><section><section><section><para>
-#: en/installation-and-basic-configuration.xml:762
+#: en/installation-and-basic-configuration.xml:740
 msgid ""
 "7. Restart the OTRS service now to use the new configuration settings as "
 "shown in the Script 3.13."
 msgstr ""
 
 #. type: Content of: <chapter><section><section><section><para><screen>
-#: en/installation-and-basic-configuration.xml:767
+#: en/installation-and-basic-configuration.xml:745
 #, no-wrap
 msgid ""
 "linux:~ # rcotrs restart-force\n"
@@ -2827,12 +2814,12 @@ msgid ""
 msgstr ""
 
 #. type: Content of: <chapter><section><section><section><para>
-#: en/installation-and-basic-configuration.xml:795
+#: en/installation-and-basic-configuration.xml:773
 msgid "<emphasis>Script 3.13. Restarting the OTRS service.</emphasis>"
 msgstr ""
 
 #. type: Content of: <chapter><section><section><section><para>
-#: en/installation-and-basic-configuration.xml:799
+#: en/installation-and-basic-configuration.xml:777
 msgid ""
 "Congratulations! Now the installation of OTRS is finished and you should be "
 "able to work with the system (see Figure 3.9 below). To log into the web "
@@ -2845,12 +2832,12 @@ msgid ""
 msgstr ""
 
 #. type: Content of: <chapter><section><section><section><para><screenshot><screeninfo>
-#: en/installation-and-basic-configuration.xml:814
+#: en/installation-and-basic-configuration.xml:792
 msgid "installer.pl screen - Finished (4/4)"
 msgstr ""
 
 #. type: Content of: <chapter><section><section><section><para><screenshot>
-#: en/installation-and-basic-configuration.xml:814
+#: en/installation-and-basic-configuration.xml:792
 msgid ""
 "<placeholder type=\"screeninfo\" id=\"0\"/> <graphic "
 "srccredit=\"installer.pl - screenshot\" scale=\"40\" "
@@ -2858,17 +2845,17 @@ msgid ""
 msgstr ""
 
 #. type: Content of: <chapter><section><section><section><para>
-#: en/installation-and-basic-configuration.xml:820
+#: en/installation-and-basic-configuration.xml:798
 msgid "<emphasis>Figure 3.9. Final steps to install OTRS.</emphasis>"
 msgstr ""
 
 #. type: Content of: <chapter><section><section><section><title>
-#: en/installation-and-basic-configuration.xml:826
+#: en/installation-and-basic-configuration.xml:804
 msgid "Installing the OTRS database manually"
 msgstr ""
 
 #. type: Content of: <chapter><section><section><section><para>
-#: en/installation-and-basic-configuration.xml:829
+#: en/installation-and-basic-configuration.xml:807
 msgid ""
 "If you can't use the web installer to setup the OTRS database, you have to "
 "set it up manually. Scripts with the SQL statements to create and configure "
@@ -2877,7 +2864,7 @@ msgid ""
 msgstr ""
 
 #. type: Content of: <chapter><section><section><section><para><screen>
-#: en/installation-and-basic-configuration.xml:834
+#: en/installation-and-basic-configuration.xml:812
 #, no-wrap
 msgid ""
 "linux:~# cd /opt/otrs/scripts/database/\n"
@@ -2896,33 +2883,33 @@ msgid ""
 msgstr ""
 
 #. type: Content of: <chapter><section><section><section><para>
-#: en/installation-and-basic-configuration.xml:851
+#: en/installation-and-basic-configuration.xml:829
 msgid ""
 "<emphasis>Script 3.14. Files needed to create and configure the "
 "database.</emphasis>"
 msgstr ""
 
 #. type: Content of: <chapter><section><section><section><para>
-#: en/installation-and-basic-configuration.xml:855
+#: en/installation-and-basic-configuration.xml:833
 msgid ""
 "To setup the database for the different database back-ends, the .sql files "
 "must be processed in a specific order."
 msgstr ""
 
 #. type: Content of: <chapter><section><section><section><para><orderedlist><title>
-#: en/installation-and-basic-configuration.xml:860
+#: en/installation-and-basic-configuration.xml:838
 msgid "Create the OTRS database manually step by step"
 msgstr ""
 
 #. type: Content of: <chapter><section><section><section><para><orderedlist><listitem><para>
-#: en/installation-and-basic-configuration.xml:863
+#: en/installation-and-basic-configuration.xml:841
 msgid ""
 "Creating the DB: Create the database that you want to use for OTRS, with "
 "your database client or your database interface."
 msgstr ""
 
 #. type: Content of: <chapter><section><section><section><para><orderedlist><listitem><para>
-#: en/installation-and-basic-configuration.xml:868
+#: en/installation-and-basic-configuration.xml:846
 msgid ""
 "Creating the tables: With the otrs-schema.DatabaseType.sql files "
 "(e.g. <filename>otrs-schema.oracle.sql</filename>, "
@@ -2931,7 +2918,7 @@ msgid ""
 msgstr ""
 
 #. type: Content of: <chapter><section><section><section><para><orderedlist><listitem><para>
-#: en/installation-and-basic-configuration.xml:874
+#: en/installation-and-basic-configuration.xml:852
 msgid ""
 "Inserting the initial system data: OTRS needs some initial system data to "
 "work properly (e.g. the different ticket states, ticket and notification "
@@ -2944,7 +2931,7 @@ msgid ""
 msgstr ""
 
 #. type: Content of: <chapter><section><section><section><para><orderedlist><listitem><para>
-#: en/installation-and-basic-configuration.xml:884
+#: en/installation-and-basic-configuration.xml:862
 msgid ""
 "Creating references between tables: The last step is to create the "
 "references between the different tables in the OTRS database. Use the "
@@ -2954,12 +2941,12 @@ msgid ""
 msgstr ""
 
 #. type: Content of: <chapter><section><section><para>
-#: en/installation-and-basic-configuration.xml:859 en/themes.xml:23 en/pgp.xml:14 en/smime.xml:42 en/stats.xml:362 en/stats.xml:389 en/stats.xml:408 en/stats.xml:445
+#: en/installation-and-basic-configuration.xml:837 en/themes.xml:22 en/pgp.xml:13 en/smime.xml:42 en/stats.xml:361 en/stats.xml:388 en/stats.xml:407 en/stats.xml:444
 msgid "<placeholder type=\"orderedlist\" id=\"0\"/>"
 msgstr ""
 
 #. type: Content of: <chapter><section><section><section><para>
-#: en/installation-and-basic-configuration.xml:892
+#: en/installation-and-basic-configuration.xml:870
 msgid ""
 "After you have finished the database setup, you should check and set proper "
 "access rights for the OTRS database. It should be enough to grant access to "
@@ -2969,7 +2956,7 @@ msgid ""
 msgstr ""
 
 #. type: Content of: <chapter><section><section><section><para>
-#: en/installation-and-basic-configuration.xml:897
+#: en/installation-and-basic-configuration.xml:875
 msgid ""
 "If your database and the access rights are configured properly, you have to "
 "tell OTRS which database back-end you want to use and how the ticket system "
@@ -2980,7 +2967,7 @@ msgid ""
 msgstr ""
 
 #. type: Content of: <chapter><section><section><section><para><programlisting>
-#: en/installation-and-basic-configuration.xml:903
+#: en/installation-and-basic-configuration.xml:881
 #, no-wrap
 msgid ""
 "    # DatabaseHost\n"
@@ -3002,22 +2989,22 @@ msgid ""
 msgstr ""
 
 #. type: Content of: <chapter><section><section><para>
-#: en/installation-and-basic-configuration.xml:901 en/email.xml:128 en/email.xml:170 en/email.xml:214 en/email.xml:252 en/external-backends.xml:45 en/external-backends.xml:79 en/external-backends.xml:200 en/external-backends.xml:259 en/external-backends.xml:306 en/external-backends.xml:385 en/external-backends.xml:409 en/external-backends.xml:460 en/external-backends.xml:630 en/external-backends.xml:650 en/external-backends.xml:698 en/external-backends.xml:740 en/external-backends.xml:771 en/external-backends.xml:799 en/external-backends.xml:826 en/external-backends.xml:882 en/external-backends.xml:912 en/external-backends.xml:947 en/external-backends.xml:971 en/states.xml:89 en/acl.xml:19 en/acl.xml:46 en/acl.xml:92 en/acl.xml:115 en/stats.xml:980 en/stats.xml:998 en/stats.xml:1053 en/stats.xml:1059 en/performance-tuning.xml:93 en/performance-tuning.xml:203
+#: en/installation-and-basic-configuration.xml:879 en/email.xml:128 en/email.xml:170 en/email.xml:214 en/email.xml:252 en/external-backends.xml:45 en/external-backends.xml:79 en/external-backends.xml:200 en/external-backends.xml:259 en/external-backends.xml:306 en/external-backends.xml:385 en/external-backends.xml:409 en/external-backends.xml:460 en/external-backends.xml:630 en/external-backends.xml:650 en/external-backends.xml:698 en/external-backends.xml:740 en/external-backends.xml:771 en/external-backends.xml:799 en/external-backends.xml:826 en/external-backends.xml:882 en/external-backends.xml:912 en/external-backends.xml:947 en/external-backends.xml:971 en/states.xml:89 en/acl.xml:19 en/acl.xml:46 en/acl.xml:96 en/acl.xml:118 en/acl.xml:144 en/stats.xml:979 en/stats.xml:997 en/stats.xml:1052 en/stats.xml:1058 en/performance-tuning.xml:92 en/performance-tuning.xml:202
 msgid "<placeholder type=\"programlisting\" id=\"0\"/>"
 msgstr ""
 
 #. type: Content of: <chapter><section><section><section><para>
-#: en/installation-and-basic-configuration.xml:923
+#: en/installation-and-basic-configuration.xml:901
 msgid "<emphasis>Script 3.15. Parameters to be customized.</emphasis>"
 msgstr ""
 
 #. type: Content of: <chapter><section><section><title>
-#: en/installation-and-basic-configuration.xml:931
+#: en/installation-and-basic-configuration.xml:909
 msgid "Setting up the cron jobs for OTRS"
 msgstr ""
 
 #. type: Content of: <chapter><section><section><para>
-#: en/installation-and-basic-configuration.xml:934
+#: en/installation-and-basic-configuration.xml:912
 msgid ""
 "OTRS needs some cron jobs to work properly. The cron jobs should be run with "
 "the same user rights that were specified for the OTRS modules. That means "
@@ -3026,14 +3013,14 @@ msgid ""
 msgstr ""
 
 #. type: Content of: <chapter><section><section><para>
-#: en/installation-and-basic-configuration.xml:938
+#: en/installation-and-basic-configuration.xml:916
 msgid ""
 "All scripts with the cron jobs are located in <filename>var/cron</filename>, "
 "in the home directory of the 'otrs' user (see Script 3.16 below)."
 msgstr ""
 
 #. type: Content of: <chapter><section><section><para><screen>
-#: en/installation-and-basic-configuration.xml:943
+#: en/installation-and-basic-configuration.xml:921
 #, no-wrap
 msgid ""
 "linux:~# cd /opt/otrs/var/cron\n"
@@ -3047,12 +3034,12 @@ msgid ""
 msgstr ""
 
 #. type: Content of: <chapter><section><section><para>
-#: en/installation-and-basic-configuration.xml:954
+#: en/installation-and-basic-configuration.xml:932
 msgid "<emphasis>Script 3.16. Files needed to create the cron jobs.</emphasis>"
 msgstr ""
 
 #. type: Content of: <chapter><section><section><para>
-#: en/installation-and-basic-configuration.xml:958
+#: en/installation-and-basic-configuration.xml:936
 msgid ""
 "These scripts have a suffix of '.dist'. You should copy them to files with "
 "the suffix removed. If you use bash, you might want to use the command "
@@ -3060,7 +3047,7 @@ msgid ""
 msgstr ""
 
 #. type: Content of: <chapter><section><section><para><screen>
-#: en/installation-and-basic-configuration.xml:963
+#: en/installation-and-basic-configuration.xml:941
 #, no-wrap
 msgid ""
 "linux:/opt/otrs/var/cron# for foo in *.dist; do cp $foo `basename $foo "
@@ -3079,156 +3066,156 @@ msgid ""
 msgstr ""
 
 #. type: Content of: <chapter><section><section><para>
-#: en/installation-and-basic-configuration.xml:978
+#: en/installation-and-basic-configuration.xml:956
 msgid ""
 "<emphasis>Script 3.17. Copying and renaming all the files needed to create "
 "the cron jobs.</emphasis>"
 msgstr ""
 
 #. type: Content of: <chapter><section><section><para>
-#: en/installation-and-basic-configuration.xml:982
+#: en/installation-and-basic-configuration.xml:960
 msgid "Table 3-2 describes the different cron jobs."
 msgstr ""
 
 #. type: Content of: <chapter><section><section><para><table><title>
-#: en/installation-and-basic-configuration.xml:987
+#: en/installation-and-basic-configuration.xml:965
 msgid "Description of several cron job scripts."
 msgstr ""
 
 #. type: Content of: <chapter><section><section><para><table><tgroup><thead><row><entry>
-#: en/installation-and-basic-configuration.xml:992
+#: en/installation-and-basic-configuration.xml:970
 msgid "Script"
 msgstr ""
 
 #. type: Content of: <chapter><section><section><para><table><tgroup><thead><row><entry>
-#: en/installation-and-basic-configuration.xml:995
+#: en/installation-and-basic-configuration.xml:973
 msgid "Function"
 msgstr ""
 
 #. type: Content of: <chapter><section><section><para><table><tgroup><tbody><row><entry>
-#: en/installation-and-basic-configuration.xml:1002
+#: en/installation-and-basic-configuration.xml:980
 msgid "aaa_base"
 msgstr ""
 
 #. type: Content of: <chapter><section><section><para><table><tgroup><tbody><row><entry>
-#: en/installation-and-basic-configuration.xml:1005
+#: en/installation-and-basic-configuration.xml:983
 msgid "Sets the basics for the crontab of the 'otrs' user."
 msgstr ""
 
 #. type: Content of: <chapter><section><section><para><table><tgroup><tbody><row><entry>
-#: en/installation-and-basic-configuration.xml:1010
+#: en/installation-and-basic-configuration.xml:988
 msgid "cache"
 msgstr ""
 
 #. type: Content of: <chapter><section><section><para><table><tgroup><tbody><row><entry>
-#: en/installation-and-basic-configuration.xml:1013
+#: en/installation-and-basic-configuration.xml:991
 msgid ""
 "Removes expired cache entries from disk. Clears the loader cache for CSS and "
 "JavaScript files."
 msgstr ""
 
 #. type: Content of: <chapter><section><section><para><table><tgroup><tbody><row><entry>
-#: en/installation-and-basic-configuration.xml:1018
+#: en/installation-and-basic-configuration.xml:996
 msgid "fetchmail"
 msgstr ""
 
 #. type: Content of: <chapter><section><section><para><table><tgroup><tbody><row><entry>
-#: en/installation-and-basic-configuration.xml:1021
+#: en/installation-and-basic-configuration.xml:999
 msgid ""
 "Used only if new mails will be fetched with fetchmail into the ticket "
 "system."
 msgstr ""
 
 #. type: Content of: <chapter><section><section><para><table><tgroup><tbody><row><entry>
-#: en/installation-and-basic-configuration.xml:1026
+#: en/installation-and-basic-configuration.xml:1004
 msgid "generic_agent"
 msgstr ""
 
 #. type: Content of: <chapter><section><section><para><table><tgroup><tbody><row><entry>
-#: en/installation-and-basic-configuration.xml:1029
+#: en/installation-and-basic-configuration.xml:1007
 msgid ""
 "Executes the jobs of the GenericAgent that are not stored in the database "
 "but in own config files."
 msgstr ""
 
 #. type: Content of: <chapter><section><section><para><table><tgroup><tbody><row><entry>
-#: en/installation-and-basic-configuration.xml:1034
+#: en/installation-and-basic-configuration.xml:1012
 msgid "generic_agent-database"
 msgstr ""
 
 #. type: Content of: <chapter><section><section><para><table><tgroup><tbody><row><entry>
-#: en/installation-and-basic-configuration.xml:1037
+#: en/installation-and-basic-configuration.xml:1015
 msgid "Executes the jobs of the GenericAgent that are stored in the database."
 msgstr ""
 
 #. type: Content of: <chapter><section><section><para><table><tgroup><tbody><row><entry>
-#: en/installation-and-basic-configuration.xml:1042
+#: en/installation-and-basic-configuration.xml:1020
 msgid "pending_jobs"
 msgstr ""
 
 #. type: Content of: <chapter><section><section><para><table><tgroup><tbody><row><entry>
-#: en/installation-and-basic-configuration.xml:1045
+#: en/installation-and-basic-configuration.xml:1023
 msgid ""
 "Checks system for pending tickets, and closes them or sends reminders if "
 "needed."
 msgstr ""
 
 #. type: Content of: <chapter><section><section><para><table><tgroup><tbody><row><entry>
-#: en/installation-and-basic-configuration.xml:1050
+#: en/installation-and-basic-configuration.xml:1028
 msgid "postmaster"
 msgstr ""
 
 #. type: Content of: <chapter><section><section><para><table><tgroup><tbody><row><entry>
-#: en/installation-and-basic-configuration.xml:1053
+#: en/installation-and-basic-configuration.xml:1031
 msgid ""
 "Checks the message queue of the ticket system, and delivers messages that "
 "are still in the queues."
 msgstr ""
 
 #. type: Content of: <chapter><section><section><para><table><tgroup><tbody><row><entry>
-#: en/installation-and-basic-configuration.xml:1058
+#: en/installation-and-basic-configuration.xml:1036
 msgid "postmaster_mailbox"
 msgstr ""
 
 #. type: Content of: <chapter><section><section><para><table><tgroup><tbody><row><entry>
-#: en/installation-and-basic-configuration.xml:1061
+#: en/installation-and-basic-configuration.xml:1039
 msgid ""
 "Fetches the mails from the POP3 accounts that were specified in the admin "
 "area, in the section for \"PostMaster Mail Accounts\"."
 msgstr ""
 
 #. type: Content of: <chapter><section><section><para><table><tgroup><tbody><row><entry>
-#: en/installation-and-basic-configuration.xml:1066
+#: en/installation-and-basic-configuration.xml:1044
 msgid "rebuild_ticket_index"
 msgstr ""
 
 #. type: Content of: <chapter><section><section><para><table><tgroup><tbody><row><entry>
-#: en/installation-and-basic-configuration.xml:1069
+#: en/installation-and-basic-configuration.xml:1047
 msgid "Rebuilds the ticket index, which improves the speed of the QueueView."
 msgstr ""
 
 #. type: Content of: <chapter><section><section><para><table><tgroup><tbody><row><entry>
-#: en/installation-and-basic-configuration.xml:1074
+#: en/installation-and-basic-configuration.xml:1052
 msgid "session"
 msgstr ""
 
 #. type: Content of: <chapter><section><section><para><table><tgroup><tbody><row><entry>
-#: en/installation-and-basic-configuration.xml:1077
+#: en/installation-and-basic-configuration.xml:1055
 msgid "Removes old and no longer needed session IDs."
 msgstr ""
 
 #. type: Content of: <chapter><section><section><para><table><tgroup><tbody><row><entry>
-#: en/installation-and-basic-configuration.xml:1082
+#: en/installation-and-basic-configuration.xml:1060
 msgid "unlock"
 msgstr ""
 
 #. type: Content of: <chapter><section><section><para><table><tgroup><tbody><row><entry>
-#: en/installation-and-basic-configuration.xml:1085
+#: en/installation-and-basic-configuration.xml:1063
 msgid "Unlocks tickets in the system."
 msgstr ""
 
 #. type: Content of: <chapter><section><section><para>
-#: en/installation-and-basic-configuration.xml:1094
+#: en/installation-and-basic-configuration.xml:1072
 msgid ""
 "To setup all cron jobs, the script <filename>bin/Cron.sh</filename> located "
 "in the home directory of the 'otrs' user can be used. When this script is "
@@ -3237,7 +3224,7 @@ msgid ""
 msgstr ""
 
 #. type: Content of: <chapter><section><section><para><cmdsynopsis>
-#: en/installation-and-basic-configuration.xml:1099
+#: en/installation-and-basic-configuration.xml:1077
 msgid ""
 "<command>Cron.sh</command> <arg choice='req'> "
 "<replaceable>start</replaceable> </arg> <arg choice='req'> "
@@ -3247,7 +3234,7 @@ msgid ""
 msgstr ""
 
 #. type: Content of: <chapter><section><section><para>
-#: en/installation-and-basic-configuration.xml:1116
+#: en/installation-and-basic-configuration.xml:1094
 msgid ""
 "Because the cron jobs need to be installed in the crontab file of the 'otrs' "
 "user, you need to be logged in as 'otrs'. If you are logged in as root, you "
@@ -3256,7 +3243,7 @@ msgid ""
 msgstr ""
 
 #. type: Content of: <chapter><section><section><warning><para>
-#: en/installation-and-basic-configuration.xml:1121
+#: en/installation-and-basic-configuration.xml:1099
 msgid ""
 "Please note that other crontab entries of the 'otrs' user will be "
 "overwritten or removed by the <filename>Cron.sh</filename> script. Please "
@@ -3265,7 +3252,7 @@ msgid ""
 msgstr ""
 
 #. type: Content of: <chapter><section><section><para><screen>
-#: en/installation-and-basic-configuration.xml:1127
+#: en/installation-and-basic-configuration.xml:1105
 #, no-wrap
 msgid ""
 "linux:/opt/otrs/var/cron# cd /opt/otrs/bin/\n"
@@ -3281,12 +3268,12 @@ msgid ""
 msgstr ""
 
 #. type: Content of: <chapter><section><section><para>
-#: en/installation-and-basic-configuration.xml:1141
+#: en/installation-and-basic-configuration.xml:1119
 msgid "<emphasis>Script 3.18. Installing the cron jobs.</emphasis>"
 msgstr ""
 
 #. type: Content of: <chapter><section><section><para>
-#: en/installation-and-basic-configuration.xml:1145
+#: en/installation-and-basic-configuration.xml:1123
 msgid ""
 "The command <command>crontab -l -u otrs</command>, which can be executed as "
 "root, shows you the crontab file of the 'otrs' user, and you can check if "
@@ -3294,13 +3281,13 @@ msgid ""
 msgstr ""
 
 #. type: Content of: <chapter><section><section><para><screen>
-#: en/installation-and-basic-configuration.xml:1150
+#: en/installation-and-basic-configuration.xml:1128
 #, no-wrap
 msgid ""
 "linux:/opt/otrs/bin# crontab -l -u otrs\n"
 "# --\n"
 "# cron/aaa_base - base crontab package\n"
-"# Copyright (C) 2001-2011 OTRS AG, http://otrs.org/\n"
+"# Copyright (C) 2001-2014 OTRS AG, http://otrs.com/\n"
 "# --\n"
 "# This software comes with ABSOLUTELY NO WARRANTY.\n"
 "# --\n"
@@ -3309,7 +3296,7 @@ msgid ""
 "\n"
 "# --\n"
 "# cron/cache - delete expired cache\n"
-"# Copyright (C) 2001-2011 OTRS AG, http://otrs.org/\n"
+"# Copyright (C) 2001-2014 OTRS AG, http://otrs.com/\n"
 "# This software comes with ABSOLUTELY NO WARRANTY.\n"
 "# --\n"
 "# delete expired cache weekly (Sunday mornings)\n"
@@ -3318,7 +3305,7 @@ msgid ""
 "\n"
 "# --\n"
 "# cron/fetchmail - fetchmail cron of the OTRS\n"
-"# Copyright (C) 2001-2011 OTRS AG, http://otrs.org/\n"
+"# Copyright (C) 2001-2014 OTRS AG, http://otrs.com/\n"
 "# --\n"
 "# This software comes with ABSOLUTELY NO WARRANTY.\n"
 "# --\n"
@@ -3327,7 +3314,7 @@ msgid ""
 "\n"
 "# --\n"
 "# cron/generic_agent - otrs.GenericAgent.pl cron of the OTRS\n"
-"# Copyright (C) 2001-2011 OTRS AG, http://otrs.org/\n"
+"# Copyright (C) 2001-2014 OTRS AG, http://otrs.com/\n"
 "# --\n"
 "# --\n"
 "# This software comes with ABSOLUTELY NO WARRANTY.\n"
@@ -3340,7 +3327,7 @@ msgid ""
 "\"Kernel::Config::GenericAgentMove\" &gt;&gt; /dev/null\n"
 "# --\n"
 "# cron/generic_agent - GenericAgent.pl cron of the OTRS\n"
-"# Copyright (C) 2001-2011 OTRS AG, http://otrs.org/\n"
+"# Copyright (C) 2001-2014 OTRS AG, http://otrs.com/\n"
 "# --\n"
 "# This software comes with ABSOLUTELY NO WARRANTY.\n"
 "# --\n"
@@ -3348,7 +3335,7 @@ msgid ""
 "*/10 * * * * $HOME/bin/otrs.GenericAgent.pl -c db &gt;&gt; /dev/null\n"
 "# --\n"
 "# cron/pending_jobs - pending_jobs cron of the OTRS\n"
-"# Copyright (C) 2001-2011 OTRS AG, http://otrs.org/\n"
+"# Copyright (C) 2001-2014 OTRS AG, http://otrs.com/\n"
 "# --\n"
 "# This software comes with ABSOLUTELY NO WARRANTY.\n"
 "# --\n"
@@ -3356,7 +3343,7 @@ msgid ""
 "45 */2 * * * $HOME/bin/otrs.PendingJobs.pl &gt;&gt; /dev/null\n"
 "# --\n"
 "# cron/postmaster - postmaster cron of the OTRS\n"
-"# Copyright (C) 2001-2011 OTRS AG, http://otrs.org/\n"
+"# Copyright (C) 2001-2014 OTRS AG, http://otrs.com/\n"
 "# --\n"
 "# This software comes with ABSOLUTELY NO WARRANTY.\n"
 "# --\n"
@@ -3367,7 +3354,7 @@ msgid ""
 "10 0 * * * $HOME/bin/otrs.CleanUp.pl &gt;&gt; /dev/null\n"
 "# --\n"
 "# cron/postmaster_mailbox - postmaster_mailbox cron of the OTRS\n"
-"# Copyright (C) 2001-2011 OTRS AG, http://otrs.org/\n"
+"# Copyright (C) 2001-2014 OTRS AG, http://otrs.com/\n"
 "# --\n"
 "# This software comes with ABSOLUTELY NO WARRANTY.\n"
 "# --\n"
@@ -3375,7 +3362,7 @@ msgid ""
 "*/10 * * * * $HOME/bin/otrs.PostMasterMailbox.pl &gt;&gt; /dev/null\n"
 "# --\n"
 "# cron/rebuild_ticket_index - rebuild ticket index for OTRS\n"
-"# Copyright (C) 2001-2011 OTRS AG, http://otrs.org/\n"
+"# Copyright (C) 2001-2014 OTRS AG, http://otrs.com/\n"
 "# --\n"
 "# This software comes with ABSOLUTELY NO WARRANTY.\n"
 "# --\n"
@@ -3384,7 +3371,7 @@ msgid ""
 "\n"
 "# --\n"
 "# cron/session - delete old session ids of the OTRS\n"
-"# Copyright (C) 2001-2011 OTRS AG, http://otrs.org/\n"
+"# Copyright (C) 2001-2014 OTRS AG, http://otrs.com/\n"
 "# --\n"
 "# This software comes with ABSOLUTELY NO WARRANTY.\n"
 "# --\n"
@@ -3394,7 +3381,7 @@ msgid ""
 "\n"
 "# --\n"
 "# cron/unlock - unlock old locked ticket of the OTRS\n"
-"# Copyright (C) 2001-2011 OTRS AG, http://otrs.org/\n"
+"# Copyright (C) 2001-2014 OTRS AG, http://otrs.com/\n"
 "# --\n"
 "# This software comes with ABSOLUTELY NO WARRANTY.\n"
 "# --\n"
@@ -3405,17 +3392,17 @@ msgid ""
 msgstr ""
 
 #. type: Content of: <chapter><section><section><para>
-#: en/installation-and-basic-configuration.xml:1255
+#: en/installation-and-basic-configuration.xml:1233
 msgid "<emphasis>Script 3.19. Crontab file.</emphasis>"
 msgstr ""
 
 #. type: Content of: <chapter><section><title>
-#: en/installation-and-basic-configuration.xml:1263
+#: en/installation-and-basic-configuration.xml:1241
 msgid "Upgrading the OTRS Framework"
 msgstr ""
 
 #. type: Content of: <chapter><section><para>
-#: en/installation-and-basic-configuration.xml:1265
+#: en/installation-and-basic-configuration.xml:1243
 msgid ""
 "These instructions are for people upgrading OTRS from version "
 "<emphasis>2.4</emphasis> to <emphasis>3.0</emphasis>, and apply both for RPM "
@@ -3423,7 +3410,7 @@ msgid ""
 msgstr ""
 
 #. type: Content of: <chapter><section><para>
-#: en/installation-and-basic-configuration.xml:1268
+#: en/installation-and-basic-configuration.xml:1246
 msgid ""
 "If you are running a lower version of OTRS, you have to follow the upgrade "
 "path to 2.4 first "
@@ -3431,7 +3418,7 @@ msgid ""
 msgstr ""
 
 #. type: Content of: <chapter><section><para>
-#: en/installation-and-basic-configuration.xml:1270
+#: en/installation-and-basic-configuration.xml:1248
 msgid ""
 "If you need to do a \"patch level upgrade\", which is an upgrade for "
 "instance from OTRS version 3.0.3 to 3.0.4, you should skip steps 8, 9, 10, "
@@ -3439,12 +3426,12 @@ msgid ""
 msgstr ""
 
 #. type: Content of: <chapter><section><orderedlist><listitem><para>
-#: en/installation-and-basic-configuration.xml:1276
+#: en/installation-and-basic-configuration.xml:1254
 msgid "Stop all relevant services."
 msgstr ""
 
 #. type: Content of: <chapter><section><orderedlist><listitem><para><screen>
-#: en/installation-and-basic-configuration.xml:1281
+#: en/installation-and-basic-configuration.xml:1259
 #, no-wrap
 msgid ""
 "shell&gt; /etc/init.d/cron stop\n"
@@ -3454,57 +3441,57 @@ msgid ""
 msgstr ""
 
 #. type: Content of: <chapter><section><orderedlist><listitem><para>
-#: en/installation-and-basic-configuration.xml:1279 en/installation-and-basic-configuration.xml:1422
+#: en/installation-and-basic-configuration.xml:1257 en/installation-and-basic-configuration.xml:1400
 msgid "e. g. (depends on used services): <placeholder type=\"screen\" id=\"0\"/>"
 msgstr ""
 
 #. type: Content of: <chapter><section><orderedlist><listitem><para>
-#: en/installation-and-basic-configuration.xml:1289
+#: en/installation-and-basic-configuration.xml:1267
 msgid "Backup everything below $OTRS_HOME (default: OTRS_HOME=/opt/otrs):"
 msgstr ""
 
 #. type: Content of: <chapter><section><orderedlist><listitem><itemizedlist><listitem><para><itemizedlist><listitem><para>
-#: en/installation-and-basic-configuration.xml:1291 en/installation-and-basic-configuration.xml:1327
+#: en/installation-and-basic-configuration.xml:1269 en/installation-and-basic-configuration.xml:1305
 msgid "<filename>Kernel/Config.pm</filename>"
 msgstr ""
 
 #. type: Content of: <chapter><section><orderedlist><listitem><itemizedlist><listitem><para><itemizedlist><listitem><para>
-#: en/installation-and-basic-configuration.xml:1292 en/installation-and-basic-configuration.xml:1328
+#: en/installation-and-basic-configuration.xml:1270 en/installation-and-basic-configuration.xml:1306
 msgid "<filename>Kernel/Config/GenericAgent.pm</filename>"
 msgstr ""
 
 #. type: Content of: <chapter><section><orderedlist><listitem><itemizedlist><listitem><para><itemizedlist><listitem><para>
-#: en/installation-and-basic-configuration.xml:1293 en/installation-and-basic-configuration.xml:1329
+#: en/installation-and-basic-configuration.xml:1271 en/installation-and-basic-configuration.xml:1307
 msgid "<filename>Kernel/Config/Files/ZZZAuto.pm</filename>"
 msgstr ""
 
 #. type: Content of: <chapter><section><orderedlist><listitem><para><itemizedlist><listitem><para>
-#: en/installation-and-basic-configuration.xml:1294
+#: en/installation-and-basic-configuration.xml:1272
 msgid "<filename>var/*</filename>"
 msgstr ""
 
 #. type: Content of: <chapter><section><orderedlist><listitem><para>
-#: en/installation-and-basic-configuration.xml:1300
+#: en/installation-and-basic-configuration.xml:1278
 msgid "Backup the database."
 msgstr ""
 
 #. type: Content of: <chapter><section><orderedlist><listitem><para>
-#: en/installation-and-basic-configuration.xml:1305
+#: en/installation-and-basic-configuration.xml:1283
 msgid "If possible, try this install on a separate machine for testing first."
 msgstr ""
 
 #. type: Content of: <chapter><section><orderedlist><listitem><para>
-#: en/installation-and-basic-configuration.xml:1310
+#: en/installation-and-basic-configuration.xml:1288
 msgid "Install the new release (tar or RPM)."
 msgstr ""
 
 #. type: Content of: <chapter><section><orderedlist><listitem><itemizedlist><listitem><para>
-#: en/installation-and-basic-configuration.xml:1315
+#: en/installation-and-basic-configuration.xml:1293
 msgid "With the tarball:"
 msgstr ""
 
 #. type: Content of: <chapter><section><orderedlist><listitem><itemizedlist><listitem><para><screen>
-#: en/installation-and-basic-configuration.xml:1319
+#: en/installation-and-basic-configuration.xml:1297
 #, no-wrap
 msgid ""
 "shell&gt; cd /opt\n"
@@ -3514,12 +3501,12 @@ msgid ""
 msgstr ""
 
 #. type: Content of: <chapter><section><orderedlist><listitem><itemizedlist><listitem><para>
-#: en/installation-and-basic-configuration.xml:1325
+#: en/installation-and-basic-configuration.xml:1303
 msgid "Restore old configuration files."
 msgstr ""
 
 #. type: Content of: <chapter><section><orderedlist><listitem><itemizedlist><listitem><para><screen>
-#: en/installation-and-basic-configuration.xml:1337
+#: en/installation-and-basic-configuration.xml:1315
 #, no-wrap
 msgid ""
 "shell&gt; rpm -Uvh otrs-x.x.x.-01.rpm\n"
@@ -3527,24 +3514,24 @@ msgid ""
 msgstr ""
 
 #. type: Content of: <chapter><section><orderedlist><listitem><itemizedlist><listitem><para>
-#: en/installation-and-basic-configuration.xml:1335
+#: en/installation-and-basic-configuration.xml:1313
 msgid "With the RPM: <placeholder type=\"screen\" id=\"0\"/>"
 msgstr ""
 
 #. type: Content of: <chapter><section><orderedlist><listitem><itemizedlist><listitem><para>
-#: en/installation-and-basic-configuration.xml:1341
+#: en/installation-and-basic-configuration.xml:1319
 msgid ""
 "In this case the RPM update automatically restores the old configuration "
 "files."
 msgstr ""
 
 #. type: Content of: <chapter><section><orderedlist><listitem><para>
-#: en/installation-and-basic-configuration.xml:1348
+#: en/installation-and-basic-configuration.xml:1326
 msgid "Own themes"
 msgstr ""
 
 #. type: Content of: <chapter><section><orderedlist><listitem><para>
-#: en/installation-and-basic-configuration.xml:1351
+#: en/installation-and-basic-configuration.xml:1329
 msgid ""
 "Note: The OTRS themes between 2.4 and 3.0 are NOT compatible, so don't use "
 "your old themes! Themes are located under "
@@ -3552,12 +3539,12 @@ msgid ""
 msgstr ""
 
 #. type: Content of: <chapter><section><orderedlist><listitem><para>
-#: en/installation-and-basic-configuration.xml:1356
+#: en/installation-and-basic-configuration.xml:1334
 msgid "Set file permissions."
 msgstr ""
 
 #. type: Content of: <chapter><section><orderedlist><listitem><para><screen>
-#: en/installation-and-basic-configuration.xml:1361
+#: en/installation-and-basic-configuration.xml:1339
 #, no-wrap
 msgid ""
 "shell> cd /opt/otrs/\n"
@@ -3566,19 +3553,19 @@ msgid ""
 msgstr ""
 
 #. type: Content of: <chapter><section><orderedlist><listitem><para>
-#: en/installation-and-basic-configuration.xml:1359
+#: en/installation-and-basic-configuration.xml:1337
 msgid ""
 "If the tarball is used, execute: <placeholder type=\"screen\" id=\"0\"/> "
 "with the permissions needed for your system setup."
 msgstr ""
 
 #. type: Content of: <chapter><section><orderedlist><listitem><para>
-#: en/installation-and-basic-configuration.xml:1369
+#: en/installation-and-basic-configuration.xml:1347
 msgid "Apply the database changes (part 1/2):"
 msgstr ""
 
 #. type: Content of: <chapter><section><orderedlist><listitem><para><screen>
-#: en/installation-and-basic-configuration.xml:1373
+#: en/installation-and-basic-configuration.xml:1351
 #, no-wrap
 msgid ""
 "shell&gt; cd /opt/otrs/\n"
@@ -3591,12 +3578,12 @@ msgid ""
 msgstr ""
 
 #. type: Content of: <chapter><section><orderedlist><listitem><para>
-#: en/installation-and-basic-configuration.xml:1384
+#: en/installation-and-basic-configuration.xml:1362
 msgid "Run the migration script (as user 'otrs', NOT as root):"
 msgstr ""
 
 #. type: Content of: <chapter><section><orderedlist><listitem><para><screen>
-#: en/installation-and-basic-configuration.xml:1389
+#: en/installation-and-basic-configuration.xml:1367
 #, no-wrap
 msgid ""
 "shell&gt; scripts/DBUpdate-to-3.0.pl\n"
@@ -3604,7 +3591,7 @@ msgid ""
 msgstr ""
 
 #. type: Content of: <chapter><section><orderedlist><listitem><para>
-#: en/installation-and-basic-configuration.xml:1387
+#: en/installation-and-basic-configuration.xml:1365
 msgid ""
 "You must execute the migration script to migrate some data from the old "
 "database structure to the new one. Please run: <placeholder type=\"screen\" "
@@ -3612,12 +3599,12 @@ msgid ""
 msgstr ""
 
 #. type: Content of: <chapter><section><orderedlist><listitem><para>
-#: en/installation-and-basic-configuration.xml:1395
+#: en/installation-and-basic-configuration.xml:1373
 msgid "Apply the database changes (part 2/2):"
 msgstr ""
 
 #. type: Content of: <chapter><section><orderedlist><listitem><para><screen>
-#: en/installation-and-basic-configuration.xml:1399
+#: en/installation-and-basic-configuration.xml:1377
 #, no-wrap
 msgid ""
 "# MySQL:\n"
@@ -3629,12 +3616,12 @@ msgid ""
 msgstr ""
 
 #. type: Content of: <chapter><section><orderedlist><listitem><para>
-#: en/installation-and-basic-configuration.xml:1408
+#: en/installation-and-basic-configuration.xml:1386
 msgid "Refresh the configuration and delete caches. Please run:"
 msgstr ""
 
 #. type: Content of: <chapter><section><orderedlist><listitem><para><screen>
-#: en/installation-and-basic-configuration.xml:1412
+#: en/installation-and-basic-configuration.xml:1390
 #, no-wrap
 msgid ""
 "shell&gt; bin/otrs.RebuildConfig.pl\n"
@@ -3643,12 +3630,12 @@ msgid ""
 msgstr ""
 
 #. type: Content of: <chapter><section><orderedlist><listitem><para>
-#: en/installation-and-basic-configuration.xml:1419
+#: en/installation-and-basic-configuration.xml:1397
 msgid "Restart your services."
 msgstr ""
 
 #. type: Content of: <chapter><section><orderedlist><listitem><para><screen>
-#: en/installation-and-basic-configuration.xml:1424
+#: en/installation-and-basic-configuration.xml:1402
 #, no-wrap
 msgid ""
 "shell&gt; /etc/init.d/cron start\n"
@@ -3658,19 +3645,31 @@ msgid ""
 msgstr ""
 
 #. type: Content of: <chapter><section><orderedlist><listitem><para>
-#: en/installation-and-basic-configuration.xml:1432
+#: en/installation-and-basic-configuration.xml:1409
+msgid "Check installed packages"
+msgstr ""
+
+#. type: Content of: <chapter><section><orderedlist><listitem><para>
+#: en/installation-and-basic-configuration.xml:1411
+msgid ""
+"In the package manager, check if all packages are still marked as correctly "
+"installed or if any require reinstallation or even a package upgrade."
+msgstr ""
+
+#. type: Content of: <chapter><section><orderedlist><listitem><para>
+#: en/installation-and-basic-configuration.xml:1417
 msgid "Check for encoding issues:"
 msgstr ""
 
 #. type: Content of: <chapter><section><orderedlist><listitem><para>
-#: en/installation-and-basic-configuration.xml:1435
+#: en/installation-and-basic-configuration.xml:1420
 msgid ""
 "With OTRS 3.0, the default charset of OTRS was changed from \"iso-8859-1\" "
 "to \"utf-8\"."
 msgstr ""
 
 #. type: Content of: <chapter><section><orderedlist><listitem><para>
-#: en/installation-and-basic-configuration.xml:1438
+#: en/installation-and-basic-configuration.xml:1423
 msgid ""
 "This will only affect you if you did not specify a charset in "
 "Kernel/Config.pm (all installations that were made with the web installer "
@@ -3679,7 +3678,7 @@ msgid ""
 msgstr ""
 
 #. type: Content of: <chapter><section><orderedlist><listitem><para><screen>
-#: en/installation-and-basic-configuration.xml:1443
+#: en/installation-and-basic-configuration.xml:1428
 #, no-wrap
 msgid ""
 "    $Self->{'DefaultCharset'} = 'iso-8859-1';\n"
@@ -3687,21 +3686,21 @@ msgid ""
 msgstr ""
 
 #. type: Content of: <chapter><section><orderedlist><listitem><para>
-#: en/installation-and-basic-configuration.xml:1441
+#: en/installation-and-basic-configuration.xml:1426
 msgid ""
 "If you experience problems with the new charset, add this line to "
 "Kernel/Config.pm: <placeholder type=\"screen\" id=\"0\"/>"
 msgstr ""
 
 #. type: Content of: <chapter><section><orderedlist><listitem><para>
-#: en/installation-and-basic-configuration.xml:1447
+#: en/installation-and-basic-configuration.xml:1432
 msgid ""
 "In general, using \"utf-8\" is the recommended mode of running OTRS, and "
 "switching from \"iso-8859-1\" should work well."
 msgstr ""
 
 #. type: Content of: <chapter><section><orderedlist><listitem><para>
-#: en/installation-and-basic-configuration.xml:1450
+#: en/installation-and-basic-configuration.xml:1435
 msgid ""
 "Please note: We recommend you change existing non-UTF-8 installations of "
 "OTRS to UTF-8 with the upgrade to 3.0. All other encodings are now "
@@ -3709,17 +3708,17 @@ msgid ""
 msgstr ""
 
 #. type: Content of: <chapter><section><orderedlist><listitem><para>
-#: en/installation-and-basic-configuration.xml:1453
+#: en/installation-and-basic-configuration.xml:1438
 msgid "OTRS 3.1 will only allow UTF-8 as the internal charset."
 msgstr ""
 
 #. type: Content of: <chapter><section><orderedlist><listitem><para>
-#: en/installation-and-basic-configuration.xml:1457
+#: en/installation-and-basic-configuration.xml:1442
 msgid "Check for Custom Frontend Module Registrations"
 msgstr ""
 
 #. type: Content of: <chapter><section><orderedlist><listitem><para>
-#: en/installation-and-basic-configuration.xml:1459
+#: en/installation-and-basic-configuration.xml:1444
 msgid ""
 "Starting with OTRS 3.0, application modules may have their own special CSS "
 "and/or JavaScript code. This is part of the frontend module registration of "
@@ -3729,7 +3728,7 @@ msgid ""
 msgstr ""
 
 #. type: Content of: <chapter><section><orderedlist><listitem><para><screen>
-#: en/installation-and-basic-configuration.xml:1464
+#: en/installation-and-basic-configuration.xml:1449
 #, no-wrap
 msgid ""
 "    $Self->{'Frontend::Module'}->{'AgentStats'} = { ... };\n"
@@ -3737,7 +3736,7 @@ msgid ""
 msgstr ""
 
 #. type: Content of: <chapter><section><orderedlist><listitem><para>
-#: en/installation-and-basic-configuration.xml:1462
+#: en/installation-and-basic-configuration.xml:1447
 msgid ""
 "To check if you are affected, please look at the file "
 "<filename>Kernel/Config/Files/ZZZAuto.pm</filename> and look for entries "
@@ -3745,7 +3744,7 @@ msgid ""
 msgstr ""
 
 #. type: Content of: <chapter><section><orderedlist><listitem><para>
-#: en/installation-and-basic-configuration.xml:1468
+#: en/installation-and-basic-configuration.xml:1453
 msgid ""
 "These settings should be reset to their default value in Admin -> SysConfig "
 "(in this case: 'Frontend::Module###AgentStats') with the little \"Reset\" "
@@ -3756,7 +3755,7 @@ msgid ""
 msgstr ""
 
 #. type: Content of: <chapter><section><orderedlist><listitem><para>
-#: en/installation-and-basic-configuration.xml:1471
+#: en/installation-and-basic-configuration.xml:1456
 msgid ""
 "The same procedure must be executed for the setting "
 "\"Frontend::ToolBarModule###1-Ticket::TicketSearchFulltext\", as this now "
@@ -3765,12 +3764,12 @@ msgid ""
 msgstr ""
 
 #. type: Content of: <chapter><section><orderedlist><listitem><para>
-#: en/installation-and-basic-configuration.xml:1475
+#: en/installation-and-basic-configuration.xml:1460
 msgid "Check for customized PreferencesGroups entries"
 msgstr ""
 
 #. type: Content of: <chapter><section><orderedlist><listitem><para>
-#: en/installation-and-basic-configuration.xml:1477
+#: en/installation-and-basic-configuration.xml:1462
 msgid ""
 "With OTRS 3.0, there were a few corrections in PreferencesGroups "
 "configuration entries.  Notably, the keys 'Activ' and 'Colum' were changed "
@@ -3780,7 +3779,7 @@ msgid ""
 msgstr ""
 
 #. type: Content of: <chapter><section><orderedlist><listitem><para><screen>
-#: en/installation-and-basic-configuration.xml:1485
+#: en/installation-and-basic-configuration.xml:1470
 #, no-wrap
 msgid ""
 "    $Self->{'CustomerPreferencesGroups'}->{'RefreshTime'} =  {\n"
@@ -3804,7 +3803,7 @@ msgid ""
 msgstr ""
 
 #. type: Content of: <chapter><section><orderedlist><listitem><para><screen>
-#: en/installation-and-basic-configuration.xml:1507
+#: en/installation-and-basic-configuration.xml:1492
 #, no-wrap
 msgid ""
 "    $Self->{'CustomerPreferencesGroups'}->{'RefreshTime'} =  {\n"
@@ -3828,7 +3827,7 @@ msgid ""
 msgstr ""
 
 #. type: Content of: <chapter><section><orderedlist><listitem><para>
-#: en/installation-and-basic-configuration.xml:1483
+#: en/installation-and-basic-configuration.xml:1468
 msgid ""
 "To check if you are affected, please look at the file "
 "<filename>Kernel/Config/Files/ZZZAuto.pm</filename> and look for entries "
@@ -3837,12 +3836,12 @@ msgid ""
 msgstr ""
 
 #. type: Content of: <chapter><section><orderedlist><listitem><para>
-#: en/installation-and-basic-configuration.xml:1529
+#: en/installation-and-basic-configuration.xml:1514
 msgid "Customer Database Backend Field Renaming"
 msgstr ""
 
 #. type: Content of: <chapter><section><orderedlist><listitem><para>
-#: en/installation-and-basic-configuration.xml:1532
+#: en/installation-and-basic-configuration.xml:1517
 msgid ""
 "The field 'salutation' in the built-in customer database has been renamed to "
 "the more appropriate 'title'. If you are using the built-in database data "
@@ -3853,7 +3852,7 @@ msgid ""
 msgstr ""
 
 #. type: Content of: <chapter><section><orderedlist><listitem><para><screen>
-#: en/installation-and-basic-configuration.xml:1538
+#: en/installation-and-basic-configuration.xml:1523
 #, no-wrap
 msgid ""
 "     [ 'UserSalutation', 'Salutation', 'salutation', 1, 0, 'var', '', 0 ],\n"
@@ -3861,7 +3860,7 @@ msgid ""
 msgstr ""
 
 #. type: Content of: <chapter><section><orderedlist><listitem><para><screen>
-#: en/installation-and-basic-configuration.xml:1544
+#: en/installation-and-basic-configuration.xml:1529
 #, no-wrap
 msgid ""
 "     [ 'UserTitle',      'Title',      'title',      1, 0, 'var', '', 0 ],\n"
@@ -3869,14 +3868,14 @@ msgid ""
 msgstr ""
 
 #. type: Content of: <chapter><section><orderedlist><listitem><para>
-#: en/installation-and-basic-configuration.xml:1535
+#: en/installation-and-basic-configuration.xml:1520
 msgid ""
 "Change this line: <placeholder type=\"screen\" id=\"0\"/> to: <placeholder "
 "type=\"screen\" id=\"1\"/>"
 msgstr ""
 
 #. type: Content of: <chapter><section><orderedlist><listitem><para>
-#: en/installation-and-basic-configuration.xml:1548
+#: en/installation-and-basic-configuration.xml:1533
 msgid ""
 "Please note that this can also affect any salutations or other templates "
 "where you have used the string "
@@ -3886,12 +3885,27 @@ msgid ""
 msgstr ""
 
 #. type: Content of: <chapter><section><orderedlist><listitem><para>
-#: en/installation-and-basic-configuration.xml:1553
+#: en/installation-and-basic-configuration.xml:1538
+msgid "Check Your Cronjobs"
+msgstr ""
+
+#. type: Content of: <chapter><section><orderedlist><listitem><para>
+#: en/installation-and-basic-configuration.xml:1541
+msgid ""
+"With OTRS 3.0, some commandline scripts were renamed, such as "
+"<filename>otrs.PostMaster.pl</filename>.  Please check that your cronjobs "
+"still use the correct filenames. With RPM upgrades, files such as "
+"<filename>/etc/sysconfig/otrs</filename> sometimes are not correctly "
+"overwritten, thus keeping the old cron settings, which may lead to errors."
+msgstr ""
+
+#. type: Content of: <chapter><section><orderedlist><listitem><para>
+#: en/installation-and-basic-configuration.xml:1549
 msgid "Optional: Mark Tickets as Read"
 msgstr ""
 
 #. type: Content of: <chapter><section><orderedlist><listitem><para><screen>
-#: en/installation-and-basic-configuration.xml:1559
+#: en/installation-and-basic-configuration.xml:1555
 #, no-wrap
 msgid ""
 "shell> bin/otrs.MarkTicketAsSeen.pl\n"
@@ -3899,7 +3913,7 @@ msgid ""
 msgstr ""
 
 #. type: Content of: <chapter><section><orderedlist><listitem><para>
-#: en/installation-and-basic-configuration.xml:1556
+#: en/installation-and-basic-configuration.xml:1552
 msgid ""
 "In OTRS 3.0 there is a new feature: New tickets and new articles which an "
 "Agent did not read yet are highlighted as 'unread'. For all tickets which "
@@ -3911,17 +3925,17 @@ msgid ""
 msgstr ""
 
 #. type: Content of: <chapter><section><orderedlist><listitem><para>
-#: en/installation-and-basic-configuration.xml:1564
+#: en/installation-and-basic-configuration.xml:1560
 msgid "Well done!"
 msgstr ""
 
 #. type: Content of: <chapter><section><title>
-#: en/installation-and-basic-configuration.xml:1570
+#: en/installation-and-basic-configuration.xml:1566
 msgid "Upgrading Windows Installer"
 msgstr ""
 
 #. type: Content of: <chapter><section><para>
-#: en/installation-and-basic-configuration.xml:1572
+#: en/installation-and-basic-configuration.xml:1568
 msgid ""
 "There is currently no in-place upgrade tool available for OTRS installations "
 "that were done with the Windows Installer. The upgrade process basically "
@@ -3931,7 +3945,7 @@ msgid ""
 msgstr ""
 
 #. type: Content of: <chapter><section><para>
-#: en/installation-and-basic-configuration.xml:1575
+#: en/installation-and-basic-configuration.xml:1571
 msgid ""
 "Upgrading is described in <ulink "
 "url=\"http://faq.otrs.org/otrs/public.pl?Action=PublicFAQ;ItemID=351\">FAQ# "
@@ -6344,7 +6358,7 @@ msgid "<emphasis>Figure 5.44. S/MIME management.</emphasis>"
 msgstr ""
 
 #. type: Content of: <chapter><title>
-#: en/adminarea.xml:1157 en/adminarea.xml:1169 en/pgp.xml:7
+#: en/adminarea.xml:1157 en/adminarea.xml:1169 en/pgp.xml:6
 msgid "PGP"
 msgstr ""
 
@@ -6478,7 +6492,7 @@ msgid "pending auto"
 msgstr ""
 
 #. type: Content of: <chapter><section><section><title>
-#: en/adminarea.xml:1296 en/stats.xml:837
+#: en/adminarea.xml:1296 en/stats.xml:836
 msgid "SysConfig"
 msgstr ""
 
@@ -7300,17 +7314,17 @@ msgid ""
 msgstr ""
 
 #. type: Content of: <chapter><title>
-#: en/configuration.xml:7
+#: en/configuration.xml:6
 msgid "System Configuration"
 msgstr ""
 
 #. type: Content of: <chapter><section><title>
-#: en/configuration.xml:10
+#: en/configuration.xml:9
 msgid "OTRS config files"
 msgstr ""
 
 #. type: Content of: <chapter><section><para>
-#: en/configuration.xml:13
+#: en/configuration.xml:12
 msgid ""
 "All OTRS configuration files are stored in the directory "
 "<filename>Kernel</filename> and in its subdirectories. There is no need to "
@@ -7323,7 +7337,7 @@ msgid ""
 msgstr ""
 
 #. type: Content of: <chapter><section><para>
-#: en/configuration.xml:17
+#: en/configuration.xml:16
 msgid ""
 "The file <filename>Kernel/Config/Defaults.pm</filename> contains the "
 "parameters of the central OTRS framework. It defines all basic system "
@@ -7334,7 +7348,7 @@ msgid ""
 msgstr ""
 
 #. type: Content of: <chapter><section><para>
-#: en/configuration.xml:21
+#: en/configuration.xml:20
 msgid ""
 "In the directory <filename>Kernel/Config/Files</filename> there are some "
 "other files that are parsed when the OTRS login page is accessed. If "
@@ -7343,7 +7357,7 @@ msgid ""
 msgstr ""
 
 #. type: Content of: <chapter><section><para>
-#: en/configuration.xml:25
+#: en/configuration.xml:24
 msgid ""
 "If the OTRS web interface is accessed, all .xml files in the "
 "<filename>Kernel/Config/Files</filename> directory are parsed in "
@@ -7360,12 +7374,12 @@ msgid ""
 msgstr ""
 
 #. type: Content of: <chapter><section><title>
-#: en/configuration.xml:32
+#: en/configuration.xml:31
 msgid "Configuring the system through the web interface"
 msgstr ""
 
 #. type: Content of: <chapter><section><para>
-#: en/configuration.xml:35
+#: en/configuration.xml:34
 msgid ""
 "Since OTRS 2.0, nearly all configuration parameters of the central framework "
 "or additional installed applications, can be changed easily with the "
@@ -7375,12 +7389,12 @@ msgid ""
 msgstr ""
 
 #. type: Content of: <chapter><section><para><screenshot><screeninfo>
-#: en/configuration.xml:40
+#: en/configuration.xml:39
 msgid "The graphical interface for system configuration"
 msgstr ""
 
 #. type: Content of: <chapter><section><para><screenshot>
-#: en/configuration.xml:40
+#: en/configuration.xml:39
 msgid ""
 "<placeholder type=\"screeninfo\" id=\"0\"/> <graphic srccredit=\"sysconfig - "
 "screenshot\" scale=\"40\" "
@@ -7388,14 +7402,14 @@ msgid ""
 msgstr ""
 
 #. type: Content of: <chapter><section><para>
-#: en/configuration.xml:46
+#: en/configuration.xml:45
 msgid ""
 "<emphasis>Figure 6.1. The graphical interface for system "
 "configuration.</emphasis>"
 msgstr ""
 
 #. type: Content of: <chapter><section><para>
-#: en/configuration.xml:50
+#: en/configuration.xml:49
 msgid ""
 "OTRS currently has over 600 configuration parameters, and there are "
 "different ways to quickly access a specific one. With the full text search, "
@@ -7406,7 +7420,7 @@ msgid ""
 msgstr ""
 
 #. type: Content of: <chapter><section><para>
-#: en/configuration.xml:54
+#: en/configuration.xml:53
 msgid ""
 "Furthermore, all configuration parameters are sorted in main groups and sub "
 "groups. The main group represents the application that the configuration "
@@ -7417,7 +7431,7 @@ msgid ""
 msgstr ""
 
 #. type: Content of: <chapter><section><para>
-#: en/configuration.xml:58
+#: en/configuration.xml:57
 msgid ""
 "Every configuration parameter can be turned on or off via a checkbox. If the "
 "parameter is turned off, the system will ignore this parameter or use a "
@@ -7427,7 +7441,7 @@ msgid ""
 msgstr ""
 
 #. type: Content of: <chapter><section><para>
-#: en/configuration.xml:62
+#: en/configuration.xml:61
 msgid ""
 "If you want to save all the changes you made to your system's configuration, "
 "for example to setup a new installation quickly, you can use the \"Export "
@@ -7437,7 +7451,7 @@ msgid ""
 msgstr ""
 
 #. type: Content of: <chapter><section><note><para>
-#: en/configuration.xml:67
+#: en/configuration.xml:66
 msgid ""
 "For security reasons, the configuration parameters for the database "
 "connection cannot be changed in the SysConfig section. They have to be set "
@@ -7916,7 +7930,7 @@ msgid ""
 "linkend=\"Framework:Core::Time:TimeWorkingHours\">Framework &gt; "
 "Core::Time::TimeWorkingHours</link>, or for your specific calendar in the "
 "calendar's configuration. OTRS can handle a granularity of one "
-"hour. Checking the marks in the boxes 8, 9, 10 ... 18 corresponds with "
+"hour. Checking the marks in the boxes 8, 9, 10 ... 17 corresponds with "
 "business hours of 8 AM - 6 PM."
 msgstr ""
 
@@ -10237,12 +10251,12 @@ msgid ""
 msgstr ""
 
 #. type: Content of: <chapter><title>
-#: en/themes.xml:7
+#: en/themes.xml:6
 msgid "Creating your own themes"
 msgstr ""
 
 #. type: Content of: <chapter><para>
-#: en/themes.xml:10
+#: en/themes.xml:9
 msgid ""
 "You can create your own themes so as to use the layout you like in the OTRS "
 "web frontend. To create own themes, you should customize the output "
@@ -10250,7 +10264,7 @@ msgid ""
 msgstr ""
 
 #. type: Content of: <chapter><para>
-#: en/themes.xml:14
+#: en/themes.xml:13
 msgid ""
 "More information on the syntax and structure of output templates can be "
 "found in the Developer Manual at <ulink "
@@ -10260,14 +10274,14 @@ msgid ""
 msgstr ""
 
 #. type: Content of: <chapter><para>
-#: en/themes.xml:19
+#: en/themes.xml:18
 msgid ""
 "As an example, perform the following steps to create a new theme called "
 "\"Company\":"
 msgstr ""
 
 #. type: Content of: <chapter><para><orderedlist><listitem><para>
-#: en/themes.xml:26
+#: en/themes.xml:25
 msgid ""
 "Create a directory called <filename>Kernel/Output/HTML/Company</filename> "
 "and copy all files that you like to change, from "
@@ -10275,7 +10289,7 @@ msgid ""
 msgstr ""
 
 #. type: Content of: <chapter><para><orderedlist><listitem><important><para>
-#: en/themes.xml:29
+#: en/themes.xml:28
 msgid ""
 "Only copy over the files you actually change. OTRS will automatically get "
 "the missing files from the Standard theme.  This will make upgrading at a "
@@ -10283,7 +10297,7 @@ msgid ""
 msgstr ""
 
 #. type: Content of: <chapter><para><orderedlist><listitem><para>
-#: en/themes.xml:34
+#: en/themes.xml:33
 msgid ""
 "Customize the files in the directory "
 "<filename>Kernel/Output/HTML/Company</filename>, and change the layout to "
@@ -10291,21 +10305,21 @@ msgid ""
 msgstr ""
 
 #. type: Content of: <chapter><para><orderedlist><listitem><para>
-#: en/themes.xml:39
+#: en/themes.xml:38
 msgid ""
 "To activate the new theme, add them in SysConfig under <link "
 "linkend=\"Framework:Core::Web:Frontend::Themes\">Frontend::Themes</link>."
 msgstr ""
 
 #. type: Content of: <chapter><para>
-#: en/themes.xml:46
+#: en/themes.xml:45
 msgid ""
 "Now the new theme should be useable. You can select it via your <link "
 "linkend=\"user-preferences\">personal preferences</link> page."
 msgstr ""
 
 #. type: Content of: <chapter><warning><para>
-#: en/themes.xml:51
+#: en/themes.xml:50
 msgid ""
 "Do not change the theme files shipped with OTRS, since these changes will be "
 "lost after an update. Create your own themes only by performing the steps "
@@ -10334,7 +10348,7 @@ msgid ""
 msgstr ""
 
 #. type: Content of: <chapter><para>
-#: en/pgp.xml:10
+#: en/pgp.xml:9
 msgid ""
 "OTRS has the capability to sign or encrypt outgoing messages with "
 "PGP. Further, encrypted incoming messages can be decrypted. Encryption and "
@@ -10343,12 +10357,12 @@ msgid ""
 msgstr ""
 
 #. type: Content of: <chapter><para><orderedlist><listitem><para>
-#: en/pgp.xml:17
+#: en/pgp.xml:16
 msgid "Install GnuPG, via the package manager of your operating system."
 msgstr ""
 
 #. type: Content of: <chapter><para><orderedlist><listitem><para>
-#: en/pgp.xml:22
+#: en/pgp.xml:21
 msgid ""
 "Configure GnuPG for use with OTRS. The necessary directories for GnuPG and a "
 "private key have to be created. The command shown in Script 16.1 has to be "
@@ -10356,7 +10370,7 @@ msgid ""
 msgstr ""
 
 #. type: Content of: <chapter><para><orderedlist><listitem><para><screen>
-#: en/pgp.xml:27
+#: en/pgp.xml:26
 #, no-wrap
 msgid ""
 "    linux:~# su otrs\n"
@@ -10458,12 +10472,12 @@ msgid ""
 msgstr ""
 
 #. type: Content of: <chapter><para><orderedlist><listitem><para>
-#: en/pgp.xml:113
+#: en/pgp.xml:112
 msgid "<emphasis>Script 16.1. Configuring GnuPG.</emphasis>"
 msgstr ""
 
 #. type: Content of: <chapter><para><orderedlist><listitem><para>
-#: en/pgp.xml:117
+#: en/pgp.xml:116
 msgid ""
 "As shown in Script 16.1, the default settings can be applied for most of the "
 "required parameters. Only the values for the key owner have to be entered "
@@ -10471,7 +10485,7 @@ msgid ""
 msgstr ""
 
 #. type: Content of: <chapter><para><orderedlist><listitem><para>
-#: en/pgp.xml:122
+#: en/pgp.xml:121
 msgid ""
 "Now OTRS has to be made ready to use PGP. From the Admin console, open the "
 "SysConfig interface and search for \"PGP\". Select the sub group Crypt::PGP "
@@ -10479,14 +10493,14 @@ msgid ""
 msgstr ""
 
 #. type: Content of: <chapter><para><orderedlist><listitem><para>
-#: en/pgp.xml:126
+#: en/pgp.xml:125
 msgid ""
 "In the screen for the PGP settings, PGP should be activated for OTRS (first "
 "option). Also, the path to the gpg program should be set and checked."
 msgstr ""
 
 #. type: Content of: <chapter><para><orderedlist><listitem><para>
-#: en/pgp.xml:130
+#: en/pgp.xml:129
 msgid ""
 "The next config setting (PGP::Options) may also require changing. Via this "
 "config setting, the parameters that are used for every execution of gpg by "
@@ -10497,7 +10511,7 @@ msgid ""
 msgstr ""
 
 #. type: Content of: <chapter><para><orderedlist><listitem><para>
-#: en/pgp.xml:134
+#: en/pgp.xml:133
 msgid ""
 "Via the next config option (PGP::Key::Password) it is possible to specify "
 "the pairs of key IDs and their passwords for own private keys. Because "
@@ -10507,7 +10521,7 @@ msgid ""
 msgstr ""
 
 #. type: Content of: <chapter><para><orderedlist><listitem><para>
-#: en/pgp.xml:138
+#: en/pgp.xml:137
 msgid ""
 "How to get the id of your own private key? The ID of your own private key is "
 "already shown during the key generation (see step 1 from above). It is also "
@@ -10516,7 +10530,7 @@ msgid ""
 msgstr ""
 
 #. type: Content of: <chapter><para><orderedlist><listitem><para><screen>
-#: en/pgp.xml:143
+#: en/pgp.xml:142
 #, no-wrap
 msgid ""
 "    linux:~# su otrs\n"
@@ -10537,12 +10551,12 @@ msgid ""
 msgstr ""
 
 #. type: Content of: <chapter><para><orderedlist><listitem><para>
-#: en/pgp.xml:160
+#: en/pgp.xml:159
 msgid "<emphasis>Script 16.2. Getting the ID of your own private key.</emphasis>"
 msgstr ""
 
 #. type: Content of: <chapter><para><orderedlist><listitem><para>
-#: en/pgp.xml:164
+#: en/pgp.xml:163
 msgid ""
 "The ID of the private key can be found in the line that starts with "
 "\"sub\". It is a hexadecimal string that is eight characters long, in the "
@@ -10551,14 +10565,14 @@ msgid ""
 msgstr ""
 
 #. type: Content of: <chapter><para><orderedlist><listitem><para>
-#: en/pgp.xml:168
+#: en/pgp.xml:167
 msgid ""
 "After this data is inserted, the \"Update\" button can be used to save the "
 "settings. OTRS is ready to receive and decrypt encoded messages now."
 msgstr ""
 
 #. type: Content of: <chapter><para><orderedlist><listitem><para>
-#: en/pgp.xml:173
+#: en/pgp.xml:172
 msgid ""
 "Finally, import a customer's public key. This ensures that encrypted "
 "messages can be sent out to this customer. There are two ways to import a "
@@ -10566,14 +10580,14 @@ msgid ""
 msgstr ""
 
 #. type: Content of: <chapter><para><orderedlist><listitem><para>
-#: en/pgp.xml:177
+#: en/pgp.xml:176
 msgid ""
 "The first way is to specify the public key of a customer in the customer "
 "management interface."
 msgstr ""
 
 #. type: Content of: <chapter><para><orderedlist><listitem><para>
-#: en/pgp.xml:181
+#: en/pgp.xml:180
 msgid ""
 "The second way is to specify the key via the PGP settings, reachable from "
 "the Admin page. On the right section of this screen, all already imported "
@@ -10584,7 +10598,7 @@ msgid ""
 msgstr ""
 
 #. type: Content of: <chapter><para><orderedlist><listitem><para>
-#: en/pgp.xml:185
+#: en/pgp.xml:184
 msgid ""
 "The files with the public key that need to be imported into OTRS have to be "
 "GnuPGP compatible key files. In most cases, the key stored in a file is an "
@@ -10962,7 +10976,7 @@ msgid ""
 msgstr ""
 
 #. type: Content of: <chapter><section><section><para><orderedlist><listitem><para>
-#: en/acl.xml:16 en/acl.xml:43 en/acl.xml:89 en/stats.xml:650 en/stats.xml:684
+#: en/acl.xml:16 en/acl.xml:43 en/acl.xml:93 en/acl.xml:115 en/stats.xml:649 en/stats.xml:683
 msgid "<placeholder type=\"example\" id=\"0\"/>"
 msgstr ""
 
@@ -10993,36 +11007,40 @@ msgid ""
 "            },\n"
 "            # possible action options\n"
 "            Action => {\n"
-"                AgentTicketLock => 1,\n"
-"                AgentTicketZoom => 1,\n"
-"                AgentTicketClose => 0,\n"
-"                AgentTicketPending => 1,\n"
-"                AgentTicketNote => 1,\n"
-"                AgentTicketHistory => 1,\n"
-"                AgentTicketPriority => 1,\n"
-"                AgentTicketFreeText => 1,\n"
-"                AgentTicketHistory => 1,\n"
-"                AgentTicketCompose => 1,\n"
-"                AgentTicketBounce => 1,\n"
-"                AgentTicketTicketPrint => 1,\n"
-"                AgentTicketForward => 1,\n"
-"                AgentTicketTicketLink => 1,\n"
-"                AgentTicketPrint => 1,\n"
-"                AgentTicketPhone => 1,\n"
-"                AgentTicketCustomer => 1,\n"
-"                AgentTicketOwner => 1,\n"
+"                AgentTicketBounce        => 1,\n"
+"                AgentTicketClose         => 0,\n"
+"                AgentTicketCompose       => 1,\n"
+"                AgentTicketCustomer      => 1,\n"
+"                AgentTicketForward       => 1,\n"
+"                AgentTicketFreeText      => 1,\n"
+"                AgentTicketHistory       => 1,\n"
+"                AgentTicketLink          => 1,\n"
+"                AgentTicketLock          => 1,\n"
+"                AgentTicketMerge         => 1,\n"
+"                AgentTicketMove          => 1,\n"
+"                AgentTicketNote          => 1,\n"
+"                AgentTicketOwner         => 1,\n"
+"                AgentTicketPending       => 1,\n"
+"                AgentTicketPhone         => 1,\n"
+"                AgentTicketPhoneOutbound => 1,\n"
+"                AgentTicketPrint         => 1,\n"
+"                AgentTicketPriority      => 1,\n"
+"                AgentTicketResponsible   => 1,\n"
+"                AgentTicketWatcher       => 1,\n"
+"                AgentTicketZoom          => 1,\n"
+"                AgentLinkObject          => 1,\n"
 "            },\n"
 "        },\n"
 "    };\n"
 msgstr ""
 
 #. type: Content of: <chapter><para><example><title>
-#: en/acl.xml:90
+#: en/acl.xml:94
 msgid "ACL removing the status for all agents, only providing it for a group."
 msgstr ""
 
 #. type: Content of: <chapter><para><example><programlisting>
-#: en/acl.xml:93
+#: en/acl.xml:97
 #, no-wrap
 msgid ""
 "    $Self->{TicketAcl}->{'ACL-Name-5'} = {\n"
@@ -11040,13 +11058,42 @@ msgid ""
 "    };\n"
 msgstr ""
 
+#. type: Content of: <chapter><para><example><title>
+#: en/acl.xml:116
+msgid ""
+"ACL only showing Hardware services for tickets that are created in queues "
+"that start with &quot;HW&quot;."
+msgstr ""
+
+#. type: Content of: <chapter><para><example><programlisting>
+#: en/acl.xml:119
+#, no-wrap
+msgid ""
+"    $Self->{TicketAcl}->{'Only-Hardware-Services-for-HW-Queues'} = {\n"
+"        # match properties\n"
+"        # note we don't have \"Ticket => {\" because there's no ticket yet\n"
+"        Properties => {\n"
+"        Queue => {\n"
+"            Name => ['[RegExp]HW'],\n"
+"            }\n"
+"        },\n"
+"        # return possible options\n"
+"        Possible => {\n"
+"            # possible ticket options\n"
+"            Ticket => {\n"
+"                Service => ['[RegExp]^(Hardware)'],\n"
+"            },\n"
+"        },\n"
+"    };\n"
+msgstr ""
+
 #. type: Content of: <chapter><para>
-#: en/acl.xml:111
+#: en/acl.xml:140
 msgid "In Script 18.1 there is a list of all parameters which can be used for ACLs."
 msgstr ""
 
 #. type: Content of: <chapter><para><programlisting>
-#: en/acl.xml:116
+#: en/acl.xml:145
 #, no-wrap
 msgid ""
 "    # ticket acl\n"
@@ -11085,8 +11132,8 @@ msgid ""
 "        Possible => {\n"
 "            # possible ticket options (white list)\n"
 "            Ticket => {\n"
-"                Queue => ['Hotline', 'Koordination'],\n"
-"                State => => ['some state'],\n"
+"                Queue => ['Hotline', 'Coordination'],\n"
+"                State => ['some state'],\n"
 "                Priority => ['5 very high'],\n"
 "                TicketFreeKey1 => ['some key'],\n"
 "                TicketFreeKey2 => ['some key'],\n"
@@ -11099,31 +11146,35 @@ msgid ""
 "            },\n"
 "            # possible action options (white list)\n"
 "            Action => {\n"
-"                AgentTicketLock => 1,\n"
-"                AgentTicketZoom => 1,\n"
-"                AgentTicketClose => 1,\n"
-"                AgentTicketPending => 0,\n"
-"                AgentTicketNote => 1,\n"
-"                AgentTicketHistory => 0,\n"
-"                AgentTicketPriority => 1,\n"
-"                AgentTicketFreeText => 0,\n"
-"                AgentTicketHistory => 1,\n"
-"                AgentTicketCompose => 1,\n"
-"                AgentTicketBounce => 1,\n"
-"                AgentTicketTicketPrint => 0,\n"
-"                AgentTicketForward => 1,\n"
-"                AgentTicketTicketLink => 1,\n"
-"                AgentTicketPrint => 1,\n"
-"                AgentTicketPhone => 1,\n"
-"                AgentTicketCustomer => 1,\n"
-"                AgentTicketOwner => 0,\n"
+"                AgentTicketBounce        => 1,\n"
+"                AgentTicketClose         => 1,\n"
+"                AgentTicketCompose       => 1,\n"
+"                AgentTicketCustomer      => 1,\n"
+"                AgentTicketForward       => 1,\n"
+"                AgentTicketFreeText      => 0,\n"
+"                AgentTicketHistory       => 0,\n"
+"                AgentTicketLink          => 1,\n"
+"                AgentTicketLock          => 1,\n"
+"                AgentTicketMerge         => 1,\n"
+"                AgentTicketMove          => 1,\n"
+"                AgentTicketNote          => 1,\n"
+"                AgentTicketOwner         => 0,\n"
+"                AgentTicketPending       => 0,\n"
+"                AgentTicketPhone         => 1,\n"
+"                AgentTicketPhoneOutbound => 1,\n"
+"                AgentTicketPrint         => 0,\n"
+"                AgentTicketPriority      => 1,\n"
+"                AgentTicketResponsible   => 1,\n"
+"                AgentTicketWatcher       => 1,\n"
+"                AgentTicketZoom          => 1,\n"
+"                AgentLinkObject          => 1,\n"
 "            },\n"
 "        },\n"
 "        # remove options (black list)\n"
 "        PossibleNot => {\n"
 "            # possible ticket options (black list)\n"
 "            Ticket => {\n"
-"                Queue => ['Hotline', 'Koordination'],\n"
+"                Queue => ['Hotline', 'Coordination'],\n"
 "                State => ['closed', 'removed'],\n"
 "            },\n"
 "        },\n"
@@ -11131,17 +11182,17 @@ msgid ""
 msgstr ""
 
 #. type: Content of: <chapter><para>
-#: en/acl.xml:199
+#: en/acl.xml:232
 msgid "<emphasis>Script 18.1. Valid parameters for ACLs.</emphasis>"
 msgstr ""
 
 #. type: Content of: <chapter><title>
-#: en/stats.xml:7
+#: en/stats.xml:6
 msgid "Stats module"
 msgstr ""
 
 #. type: Content of: <chapter><para>
-#: en/stats.xml:10
+#: en/stats.xml:9
 msgid ""
 "The OTRS stats module holds features to track operational statistics and "
 "generate custom reports associated with OTRS usage. The OTRS system uses the "
@@ -11150,7 +11201,7 @@ msgid ""
 msgstr ""
 
 #. type: Content of: <chapter><para>
-#: en/stats.xml:14
+#: en/stats.xml:13
 msgid ""
 "Proper configuration of the OTRS stats module is associated with a multitude "
 "of requirements and considerations. These include the various OTRS modules "
@@ -11161,7 +11212,7 @@ msgid ""
 msgstr ""
 
 #. type: Content of: <chapter><para>
-#: en/stats.xml:18
+#: en/stats.xml:17
 msgid ""
 "Statistical elements, i.e. files which supplement the functionality of the "
 "stats module for specific requirements, can be integrated for calculating "
@@ -11169,24 +11220,24 @@ msgid ""
 msgstr ""
 
 #. type: Content of: <chapter><section><title>
-#: en/stats.xml:22
+#: en/stats.xml:21
 msgid "Handling of the module by the agent"
 msgstr ""
 
 #. type: Content of: <chapter><section><para>
-#: en/stats.xml:25
+#: en/stats.xml:24
 msgid ""
 "When signed on as an agent, the navigation bar displays the link "
 "\"Statistics\". This has various submenu options, as shown in Figure 19.1."
 msgstr ""
 
 #. type: Content of: <chapter><section><para><screenshot><screeninfo>
-#: en/stats.xml:30
+#: en/stats.xml:29
 msgid "The stats module"
 msgstr ""
 
 #. type: Content of: <chapter><section><para><screenshot>
-#: en/stats.xml:30
+#: en/stats.xml:29
 msgid ""
 "<placeholder type=\"screeninfo\" id=\"0\"/> <graphic "
 "fileref=\"screenshots/stats-menu.png\" scale=\"40\" srccredit=\"stats-menu - "
@@ -11194,39 +11245,39 @@ msgid ""
 msgstr ""
 
 #. type: Content of: <chapter><section><para>
-#: en/stats.xml:36
+#: en/stats.xml:35
 msgid "<emphasis>Figure 19.1. Statistics menu options.</emphasis>"
 msgstr ""
 
 #. type: Content of: <chapter><section><para>
-#: en/stats.xml:40
+#: en/stats.xml:39
 msgid "The different options provided in the statistics menu are:"
 msgstr ""
 
 #. type: Content of: <chapter><section><para><itemizedlist><listitem><para>
-#: en/stats.xml:47
+#: en/stats.xml:46
 msgid ""
 "<emphasis>Overview</emphasis>. Presents a list of different pre-configured "
 "reports."
 msgstr ""
 
 #. type: Content of: <chapter><section><para><itemizedlist><listitem><para>
-#: en/stats.xml:52
+#: en/stats.xml:51
 msgid "<emphasis>New</emphasis>. Requires rw rights."
 msgstr ""
 
 #. type: Content of: <chapter><section><para><itemizedlist><listitem><para>
-#: en/stats.xml:57
+#: en/stats.xml:56
 msgid "<emphasis>Import</emphasis>. Requires rw rights."
 msgstr ""
 
 #. type: Content of: <chapter><section><section><title>
-#: en/stats.xml:64
+#: en/stats.xml:63
 msgid "Overview"
 msgstr ""
 
 #. type: Content of: <chapter><section><section><para>
-#: en/stats.xml:67
+#: en/stats.xml:66
 msgid ""
 "Selecting the \"Statistics\" link in the navigation bar, and then the "
 "submenu link \"Overview\", calls up the Overview screen. The Overview screen "
@@ -11235,12 +11286,12 @@ msgid ""
 msgstr ""
 
 #. type: Content of: <chapter><section><section><para><screenshot><screeninfo>
-#: en/stats.xml:73
+#: en/stats.xml:72
 msgid "Overview of the standard reports"
 msgstr ""
 
 #. type: Content of: <chapter><section><section><para><screenshot>
-#: en/stats.xml:73
+#: en/stats.xml:72
 msgid ""
 "<placeholder type=\"screeninfo\" id=\"0\"/> <graphic "
 "fileref=\"screenshots/stats-overview.png\" scale=\"40\" "
@@ -11248,29 +11299,29 @@ msgid ""
 msgstr ""
 
 #. type: Content of: <chapter><section><section><para>
-#: en/stats.xml:79
+#: en/stats.xml:78
 msgid "<emphasis>Figure 19.2. Overview of the standard reports.</emphasis>"
 msgstr ""
 
 #. type: Content of: <chapter><section><section><para>
-#: en/stats.xml:83
+#: en/stats.xml:82
 msgid ""
 "The following information is provided for each of the standard reports "
 "listed in the Overview:"
 msgstr ""
 
 #. type: Content of: <chapter><section><section><para><itemizedlist><listitem><para>
-#: en/stats.xml:90
+#: en/stats.xml:89
 msgid "<emphasis>Stat#</emphasis>. Unique report number."
 msgstr ""
 
 #. type: Content of: <chapter><section><section><para><itemizedlist><listitem><para><itemizedlist><listitem><para>
-#: en/stats.xml:95 en/stats.xml:192
+#: en/stats.xml:94 en/stats.xml:191
 msgid "<emphasis>Title</emphasis>. Title of the report."
 msgstr ""
 
 #. type: Content of: <chapter><section><section><para><itemizedlist><listitem><para>
-#: en/stats.xml:100
+#: en/stats.xml:99
 msgid ""
 "<emphasis>Object</emphasis>. Object used for generating the statistic. In "
 "the case of a static statistic, no object is displayed as no dynamic object "
@@ -11278,12 +11329,12 @@ msgid ""
 msgstr ""
 
 #. type: Content of: <chapter><section><section><para><itemizedlist><listitem><para>
-#: en/stats.xml:105
+#: en/stats.xml:104
 msgid "<emphasis>Description</emphasis>. A brief description of the report."
 msgstr ""
 
 #. type: Content of: <chapter><section><section><para>
-#: en/stats.xml:112
+#: en/stats.xml:111
 msgid ""
 "When the stats module is installed, it comes preloaded with a few sample "
 "reports imported into the system. These are shown as a list on the Overview "
@@ -11295,24 +11346,24 @@ msgid ""
 msgstr ""
 
 #. type: Content of: <chapter><section><section><title>
-#: en/stats.xml:118
+#: en/stats.xml:117
 msgid "Generate and view reports"
 msgstr ""
 
 #. type: Content of: <chapter><section><section><para>
-#: en/stats.xml:121
+#: en/stats.xml:120
 msgid ""
 "The view user interface provides the stat's configuration settings (see "
 "Figure 19.3 below)."
 msgstr ""
 
 #. type: Content of: <chapter><section><section><para><screenshot><screeninfo>
-#: en/stats.xml:126
+#: en/stats.xml:125
 msgid "Stat view"
 msgstr ""
 
 #. type: Content of: <chapter><section><section><para><screenshot>
-#: en/stats.xml:126
+#: en/stats.xml:125
 msgid ""
 "<placeholder type=\"screeninfo\" id=\"0\"/> <graphic "
 "fileref=\"screenshots/stats-view.png\" scale=\"40\" srccredit=\"stats-view - "
@@ -11320,12 +11371,12 @@ msgid ""
 msgstr ""
 
 #. type: Content of: <chapter><section><section><para>
-#: en/stats.xml:132
+#: en/stats.xml:131
 msgid "<emphasis>Figure 19.3. Viewing a specific report.</emphasis>"
 msgstr ""
 
 #. type: Content of: <chapter><section><section><para>
-#: en/stats.xml:136
+#: en/stats.xml:135
 msgid ""
 "Configuration settings for a particular report can be set within the range "
 "of options in the View screen. Either the report creator or any others with "
@@ -11333,43 +11384,43 @@ msgid ""
 msgstr ""
 
 #. type: Content of: <chapter><section><section><para>
-#: en/stats.xml:140
+#: en/stats.xml:139
 msgid "The page shows the following:"
 msgstr ""
 
 #. type: Content of: <chapter><section><section><para><itemizedlist><listitem><para>
-#: en/stats.xml:147
+#: en/stats.xml:146
 msgid "Possible actions:"
 msgstr ""
 
 #. type: Content of: <chapter><section><section><para><itemizedlist><listitem><para><itemizedlist><listitem><para>
-#: en/stats.xml:154
+#: en/stats.xml:153
 msgid ""
 "<emphasis>Go to overview</emphasis>. Link back to the Overview list of "
 "reports."
 msgstr ""
 
 #. type: Content of: <chapter><section><section><para><itemizedlist><listitem><para><itemizedlist><listitem><para>
-#: en/stats.xml:159
+#: en/stats.xml:158
 msgid ""
 "<emphasis>Edit</emphasis>. Edit the current report structure (rw rights "
 "required)."
 msgstr ""
 
 #. type: Content of: <chapter><section><section><para><itemizedlist><listitem><para><itemizedlist><listitem><para>
-#: en/stats.xml:164
+#: en/stats.xml:163
 msgid "<emphasis>Delete</emphasis>. Delete the current report (rw rights required)."
 msgstr ""
 
 #. type: Content of: <chapter><section><section><para><itemizedlist><listitem><para><itemizedlist><listitem><para>
-#: en/stats.xml:169
+#: en/stats.xml:168
 msgid ""
 "<emphasis>Export config</emphasis>. Export a report configuration, via file "
 "download (rw rights required)."
 msgstr ""
 
 #. type: Content of: <chapter><section><section><para><itemizedlist><listitem><para><itemizedlist><listitem><para>
-#: en/stats.xml:173
+#: en/stats.xml:172
 msgid ""
 "Usage: Export and Import functions allow for the convenient creation and "
 "testing of reports on test systems and subsequent easy integration into the "
@@ -11377,79 +11428,79 @@ msgid ""
 msgstr ""
 
 #. type: Content of: <chapter><section><section><para><itemizedlist><listitem><para>
-#: en/stats.xml:181
+#: en/stats.xml:180
 msgid "Report details:"
 msgstr ""
 
 #. type: Content of: <chapter><section><section><para><itemizedlist><listitem><para><itemizedlist><listitem><para>
-#: en/stats.xml:187
+#: en/stats.xml:186
 msgid "<emphasis>Stat#</emphasis>. Number of the report."
 msgstr ""
 
 #. type: Content of: <chapter><section><section><para><itemizedlist><listitem><para><itemizedlist><listitem><para>
-#: en/stats.xml:197
+#: en/stats.xml:196
 msgid "<emphasis>Object</emphasis>. Object used for generating the report."
 msgstr ""
 
 #. type: Content of: <chapter><section><section><para><itemizedlist><listitem><para><itemizedlist><listitem><para>
-#: en/stats.xml:202
+#: en/stats.xml:201
 msgid "<emphasis>Description</emphasis>. Description on the report's purpose."
 msgstr ""
 
 #. type: Content of: <chapter><section><section><para><itemizedlist><listitem><para><itemizedlist><listitem><para>
-#: en/stats.xml:207
+#: en/stats.xml:206
 msgid ""
 "<emphasis>Format</emphasis>. Report output format which, depending on the "
 "configuration, can be any of the following output formats:"
 msgstr ""
 
 #. type: Content of: <chapter><section><section><para><orderedlist><listitem><para><itemizedlist><listitem><para><itemizedlist><listitem><para>
-#: en/stats.xml:213 en/stats.xml:511
+#: en/stats.xml:212 en/stats.xml:510
 msgid "CSV."
 msgstr ""
 
 #. type: Content of: <chapter><section><section><para><orderedlist><listitem><para><itemizedlist><listitem><para><itemizedlist><listitem><para>
-#: en/stats.xml:218 en/stats.xml:516
+#: en/stats.xml:217 en/stats.xml:515
 msgid "Print."
 msgstr ""
 
 #. type: Content of: <chapter><section><section><para><itemizedlist><listitem><para><itemizedlist><listitem><para><itemizedlist><listitem><para>
-#: en/stats.xml:223
+#: en/stats.xml:222
 msgid "Graph-lines."
 msgstr ""
 
 #. type: Content of: <chapter><section><section><para><itemizedlist><listitem><para><itemizedlist><listitem><para><itemizedlist><listitem><para>
-#: en/stats.xml:228
+#: en/stats.xml:227
 msgid "Graph-bars."
 msgstr ""
 
 #. type: Content of: <chapter><section><section><para><itemizedlist><listitem><para><itemizedlist><listitem><para><itemizedlist><listitem><para>
-#: en/stats.xml:233
+#: en/stats.xml:232
 msgid "Graph-hbars."
 msgstr ""
 
 #. type: Content of: <chapter><section><section><para><itemizedlist><listitem><para><itemizedlist><listitem><para><itemizedlist><listitem><para>
-#: en/stats.xml:238
+#: en/stats.xml:237
 msgid "Graph-points."
 msgstr ""
 
 #. type: Content of: <chapter><section><section><para><itemizedlist><listitem><para><itemizedlist><listitem><para><itemizedlist><listitem><para>
-#: en/stats.xml:243
+#: en/stats.xml:242
 msgid "Graph-lines-points."
 msgstr ""
 
 #. type: Content of: <chapter><section><section><para><itemizedlist><listitem><para><itemizedlist><listitem><para><itemizedlist><listitem><para>
-#: en/stats.xml:248
+#: en/stats.xml:247
 msgid "Graph-area."
 msgstr ""
 
 #. type: Content of: <chapter><section><section><para><itemizedlist><listitem><para><itemizedlist><listitem><para><itemizedlist><listitem><para>
-#: en/stats.xml:253
+#: en/stats.xml:252
 msgid "Graph-pie."
 msgstr ""
 
 #. type: Content of: <chapter><section><section><para><itemizedlist><listitem><para><itemizedlist><listitem><para>
-#: en/stats.xml:261
+#: en/stats.xml:260
 msgid ""
 "<emphasis>Graphsize</emphasis>. Size in pixels for the graphic / chart. This "
 "option is only given when the report configuration allows a chart. All "
@@ -11459,28 +11510,28 @@ msgid ""
 msgstr ""
 
 #. type: Content of: <chapter><section><section><para><itemizedlist><listitem><para><itemizedlist><listitem><para>
-#: en/stats.xml:266
+#: en/stats.xml:265
 msgid ""
 "<emphasis>Sum rows</emphasis>. Indicates whether the report is amended by a "
 "column, whose cells state the sums of the respective rows."
 msgstr ""
 
 #. type: Content of: <chapter><section><section><para><itemizedlist><listitem><para><itemizedlist><listitem><para>
-#: en/stats.xml:271
+#: en/stats.xml:270
 msgid ""
 "<emphasis>Sum columns</emphasis>. Indicates whether the report is amended by "
 "a row, whose cells state the sum of the respective columns."
 msgstr ""
 
 #. type: Content of: <chapter><section><section><para><itemizedlist><listitem><para><itemizedlist><listitem><para>
-#: en/stats.xml:276
+#: en/stats.xml:275
 msgid ""
 "<emphasis>Cache</emphasis>. Indicates whether the generated report is cached "
 "in the filesystem."
 msgstr ""
 
 #. type: Content of: <chapter><section><section><para><itemizedlist><listitem><para><itemizedlist><listitem><para>
-#: en/stats.xml:281
+#: en/stats.xml:280
 msgid ""
 "<emphasis>Valid</emphasis>. This can be set to \"invalid\" if a report must "
 "not be run temporarily for any reason. The \"Start\" button in the bottom of "
@@ -11489,55 +11540,55 @@ msgid ""
 msgstr ""
 
 #. type: Content of: <chapter><section><section><para><itemizedlist><listitem><para><itemizedlist><listitem><para>
-#: en/stats.xml:286
+#: en/stats.xml:285
 msgid "<emphasis>Created</emphasis>. Creation time of the report."
 msgstr ""
 
 #. type: Content of: <chapter><section><section><para><itemizedlist><listitem><para><itemizedlist><listitem><para>
-#: en/stats.xml:291
+#: en/stats.xml:290
 msgid "<emphasis>Created by</emphasis>. Name of the agent who created the report."
 msgstr ""
 
 #. type: Content of: <chapter><section><section><para><itemizedlist><listitem><para><itemizedlist><listitem><para>
-#: en/stats.xml:296
+#: en/stats.xml:295
 msgid "<emphasis>Changed</emphasis>. Time when the report was last modified."
 msgstr ""
 
 #. type: Content of: <chapter><section><section><para><itemizedlist><listitem><para><itemizedlist><listitem><para>
-#: en/stats.xml:301
+#: en/stats.xml:300
 msgid ""
 "<emphasis>Changed by</emphasis>. Name of the agent who altered the report "
 "last."
 msgstr ""
 
 #. type: Content of: <chapter><section><section><para><itemizedlist><listitem><para><itemizedlist><listitem><para>
-#: en/stats.xml:306
+#: en/stats.xml:305
 msgid ""
 "<emphasis>X-axis</emphasis>. Using this function, the agent can switch the x "
 "and y axes (only when activated by the OTRS administrator)."
 msgstr ""
 
 #. type: Content of: <chapter><section><section><para><itemizedlist><listitem><para><itemizedlist><listitem><para>
-#: en/stats.xml:311
+#: en/stats.xml:310
 msgid ""
 "The general information is followed by information about the report "
 "itself. There are two different report (or stat) views:"
 msgstr ""
 
 #. type: Content of: <chapter><section><section><para><itemizedlist><listitem><para><itemizedlist><listitem><para><itemizedlist><listitem><para>
-#: en/stats.xml:317
+#: en/stats.xml:316
 msgid ""
 "<emphasis>Static stat view</emphasis>. Static report generators can be "
 "integrated into the stats module (see Figure 19.4 below)."
 msgstr ""
 
 #. type: Content of: <chapter><section><section><para><itemizedlist><listitem><para><itemizedlist><listitem><para><itemizedlist><listitem><para><screenshot><screeninfo>
-#: en/stats.xml:321
+#: en/stats.xml:320
 msgid "Static stat view"
 msgstr ""
 
 #. type: Content of: <chapter><section><section><para><itemizedlist><listitem><para><itemizedlist><listitem><para><itemizedlist><listitem><para><screenshot>
-#: en/stats.xml:321
+#: en/stats.xml:320
 msgid ""
 "<placeholder type=\"screeninfo\" id=\"0\"/> <graphic "
 "fileref=\"screenshots/stats-view-static.png\" scale=\"40\" "
@@ -11545,33 +11596,33 @@ msgid ""
 msgstr ""
 
 #. type: Content of: <chapter><section><section><para><itemizedlist><listitem><para><itemizedlist><listitem><para><itemizedlist><listitem><para>
-#: en/stats.xml:326
+#: en/stats.xml:325
 msgid "<emphasis>Figure 19.4. Viewing a static report.</emphasis>"
 msgstr ""
 
 #. type: Content of: <chapter><section><section><para><itemizedlist><listitem><para><itemizedlist><listitem><para><itemizedlist><listitem><para>
-#: en/stats.xml:331
+#: en/stats.xml:330
 msgid ""
 "<emphasis>Dynamic stat view</emphasis> (see Figure 19.3 above). They can be "
 "displayed in two different ways:"
 msgstr ""
 
 #. type: Content of: <chapter><section><section><para><itemizedlist><listitem><para><itemizedlist><listitem><para><itemizedlist><listitem><para><itemizedlist><listitem><para>
-#: en/stats.xml:337
+#: en/stats.xml:336
 msgid ""
 "<emphasis>Unchangeable settings</emphasis>. The originator of the report has "
 "no permission for modifying this fields."
 msgstr ""
 
 #. type: Content of: <chapter><section><section><para><itemizedlist><listitem><para><itemizedlist><listitem><para><itemizedlist><listitem><para><itemizedlist><listitem><para>
-#: en/stats.xml:342
+#: en/stats.xml:341
 msgid ""
 "<emphasis>Changeable settings</emphasis>. The configuration settings of such "
 "reports can be changed by the agent."
 msgstr ""
 
 #. type: Content of: <chapter><section><section><para>
-#: en/stats.xml:358
+#: en/stats.xml:357
 msgid ""
 "Pressing the \"Start\" button (at the bottom of the screen) is the last step "
 "to generate the report. There are two possible reasons for this button to "
@@ -11579,12 +11630,12 @@ msgid ""
 msgstr ""
 
 #. type: Content of: <chapter><section><section><para><orderedlist><listitem><para>
-#: en/stats.xml:365
+#: en/stats.xml:364
 msgid "The report was set to invalid and thus, deactivated."
 msgstr ""
 
 #. type: Content of: <chapter><section><section><para><orderedlist><listitem><para>
-#: en/stats.xml:370
+#: en/stats.xml:369
 msgid ""
 "The report was not configured cleanly and is, therefore, not yet "
 "executable. In this case, the necessary information can be found in the OTRS "
@@ -11592,7 +11643,7 @@ msgid ""
 msgstr ""
 
 #. type: Content of: <chapter><section><section><para>
-#: en/stats.xml:377
+#: en/stats.xml:376
 msgid ""
 "If the settings on the View page are incorrect, this page is shown again "
 "after the \"Start\" button was pushed, and information about which input was "
@@ -11600,12 +11651,12 @@ msgid ""
 msgstr ""
 
 #. type: Content of: <chapter><section><section><title>
-#: en/stats.xml:382
+#: en/stats.xml:381
 msgid "Edit / New"
 msgstr ""
 
 #. type: Content of: <chapter><section><section><para>
-#: en/stats.xml:385
+#: en/stats.xml:384
 msgid ""
 "Agents with write rights can edit an existing report configuration by "
 "calling up the edit user interface of the stats module. Alternately, they "
@@ -11614,44 +11665,44 @@ msgid ""
 msgstr ""
 
 #. type: Content of: <chapter><section><section><para><orderedlist><listitem><para>
-#: en/stats.xml:392
+#: en/stats.xml:391
 msgid "Edit: Via the \"Edit\" button in the stat view."
 msgstr ""
 
 #. type: Content of: <chapter><section><section><para><orderedlist><listitem><para>
-#: en/stats.xml:397
+#: en/stats.xml:396
 msgid ""
 "New: Via the \"New\" link in the Statistics menu from the navigation bar, or "
 "the \"Add\" button from the Overview page."
 msgstr ""
 
 #. type: Content of: <chapter><section><section><para>
-#: en/stats.xml:404
+#: en/stats.xml:403
 msgid "The stats are edited with a wizard in four steps:"
 msgstr ""
 
 #. type: Content of: <chapter><section><section><para><orderedlist><listitem><para>
-#: en/stats.xml:411
+#: en/stats.xml:410
 msgid "General specifications."
 msgstr ""
 
 #. type: Content of: <chapter><section><section><para><orderedlist><listitem><para><screenshot><screeninfo>
-#: en/stats.xml:416 en/stats.xml:600
+#: en/stats.xml:415 en/stats.xml:599
 msgid "Definition of the element for the X-axis."
 msgstr ""
 
 #. type: Content of: <chapter><section><section><para><orderedlist><listitem><para>
-#: en/stats.xml:421
+#: en/stats.xml:420
 msgid "Specification of the value series."
 msgstr ""
 
 #. type: Content of: <chapter><section><section><para><orderedlist><listitem><para>
-#: en/stats.xml:426
+#: en/stats.xml:425
 msgid "Selecting the restrictions to limit the report."
 msgstr ""
 
 #. type: Content of: <chapter><section><section><para>
-#: en/stats.xml:433
+#: en/stats.xml:432
 msgid ""
 "Steps 2 through 4 are only needed for the generation of reports with dynamic "
 "stats. For a static stat, only the general information (point 1) is "
@@ -11659,14 +11710,14 @@ msgid ""
 msgstr ""
 
 #. type: Content of: <chapter><section><section><para>
-#: en/stats.xml:437
+#: en/stats.xml:436
 msgid ""
 "Information about how to handle the page is provided on each of these "
 "screens, below the Actions panel in a Hints panel."
 msgstr ""
 
 #. type: Content of: <chapter><section><section><para>
-#: en/stats.xml:441
+#: en/stats.xml:440
 msgid ""
 "If incorrect inputs are entered, the previously processed user interface is "
 "displayed again and with information about the incorrect input. This "
@@ -11676,19 +11727,19 @@ msgid ""
 msgstr ""
 
 #. type: Content of: <chapter><section><section><para><orderedlist><listitem><para>
-#: en/stats.xml:448
+#: en/stats.xml:447
 msgid ""
 "<emphasis>General specifications</emphasis>. It is the first page of the "
 "Edit wizard (see Figure 19.5 below)."
 msgstr ""
 
 #. type: Content of: <chapter><section><section><para><orderedlist><listitem><para><screenshot><screeninfo>
-#: en/stats.xml:453
+#: en/stats.xml:452
 msgid "General specifications"
 msgstr ""
 
 #. type: Content of: <chapter><section><section><para><orderedlist><listitem><para><screenshot>
-#: en/stats.xml:453
+#: en/stats.xml:452
 msgid ""
 "<placeholder type=\"screeninfo\" id=\"0\"/> <graphic "
 "fileref=\"screenshots/stats-edit-general.png\" scale=\"40\" "
@@ -11696,35 +11747,35 @@ msgid ""
 msgstr ""
 
 #. type: Content of: <chapter><section><section><para><orderedlist><listitem><para>
-#: en/stats.xml:459
+#: en/stats.xml:458
 msgid ""
 "<emphasis>Figure 19.5. Editing the general specifications of a "
 "report.</emphasis>"
 msgstr ""
 
 #. type: Content of: <chapter><section><section><para><orderedlist><listitem><para>
-#: en/stats.xml:464
+#: en/stats.xml:463
 msgid ""
 "In the screen showed in Figure 19.5, there are a great number of common "
 "specifications and settings that can be edited:"
 msgstr ""
 
 #. type: Content of: <chapter><section><section><para><orderedlist><listitem><para><itemizedlist><listitem><para>
-#: en/stats.xml:471
+#: en/stats.xml:470
 msgid ""
 "<emphasis>Title</emphasis>. Should reflect the stat's purpose in a concise "
 "manner."
 msgstr ""
 
 #. type: Content of: <chapter><section><section><para><orderedlist><listitem><para><itemizedlist><listitem><para>
-#: en/stats.xml:476
+#: en/stats.xml:475
 msgid ""
 "<emphasis>Description</emphasis>. More descriptive information about the "
 "report definition, type of configuration parameters, etc."
 msgstr ""
 
 #. type: Content of: <chapter><section><section><para><orderedlist><listitem><para><itemizedlist><listitem><para>
-#: en/stats.xml:481
+#: en/stats.xml:480
 msgid ""
 "<emphasis>Dynamic object</emphasis>. If the OTRS installation provides "
 "various dynamic objects, one of them can be chosen. The objects meet the "
@@ -11732,7 +11783,7 @@ msgid ""
 msgstr ""
 
 #. type: Content of: <chapter><section><section><para><orderedlist><listitem><para><itemizedlist><listitem><para>
-#: en/stats.xml:486
+#: en/stats.xml:485
 msgid ""
 "<emphasis>Static file</emphasis>. Usually this selection is not shown, as "
 "only static files which are not yet assigned to any reports are "
@@ -11744,7 +11795,7 @@ msgid ""
 msgstr ""
 
 #. type: Content of: <chapter><section><section><para><orderedlist><listitem><para><itemizedlist><listitem><para>
-#: en/stats.xml:491
+#: en/stats.xml:490
 msgid ""
 "<emphasis>Permission settings</emphasis>. Facilitate a restriction of the "
 "groups (and therefore, agents) who can later view and generate the "
@@ -11754,7 +11805,7 @@ msgid ""
 msgstr ""
 
 #. type: Content of: <chapter><section><section><para><orderedlist><listitem><para><itemizedlist><listitem><para>
-#: en/stats.xml:495
+#: en/stats.xml:494
 msgid ""
 "Example 1: The \"stats\" group was selected. The report is viewable for all "
 "users having at least ro rights for the \"stats\" group. This access is "
@@ -11762,7 +11813,7 @@ msgid ""
 msgstr ""
 
 #. type: Content of: <chapter><section><section><para><orderedlist><listitem><para><itemizedlist><listitem><para>
-#: en/stats.xml:499
+#: en/stats.xml:498
 msgid ""
 "Example 2: A group named \"sales\" was selected. All users with ro rights "
 "for the \"sales\" group can see the stat in the view mode and generate "
@@ -11770,49 +11821,49 @@ msgid ""
 msgstr ""
 
 #. type: Content of: <chapter><section><section><para><orderedlist><listitem><para><itemizedlist><listitem><para>
-#: en/stats.xml:504
+#: en/stats.xml:503
 msgid ""
 "<emphasis>Format</emphasis>. Output format of the stat: Depending on the "
 "configuration, one or more of the following formats can be chosen:"
 msgstr ""
 
 #. type: Content of: <chapter><section><section><para><orderedlist><listitem><para><itemizedlist><listitem><para><itemizedlist><listitem><para>
-#: en/stats.xml:521
+#: en/stats.xml:520
 msgid "graph-lines."
 msgstr ""
 
 #. type: Content of: <chapter><section><section><para><orderedlist><listitem><para><itemizedlist><listitem><para><itemizedlist><listitem><para>
-#: en/stats.xml:526
+#: en/stats.xml:525
 msgid "graph-bars."
 msgstr ""
 
 #. type: Content of: <chapter><section><section><para><orderedlist><listitem><para><itemizedlist><listitem><para><itemizedlist><listitem><para>
-#: en/stats.xml:531
+#: en/stats.xml:530
 msgid "graph-hbars."
 msgstr ""
 
 #. type: Content of: <chapter><section><section><para><orderedlist><listitem><para><itemizedlist><listitem><para><itemizedlist><listitem><para>
-#: en/stats.xml:536
+#: en/stats.xml:535
 msgid "graph-points."
 msgstr ""
 
 #. type: Content of: <chapter><section><section><para><orderedlist><listitem><para><itemizedlist><listitem><para><itemizedlist><listitem><para>
-#: en/stats.xml:541
+#: en/stats.xml:540
 msgid "graph-lines-points."
 msgstr ""
 
 #. type: Content of: <chapter><section><section><para><orderedlist><listitem><para><itemizedlist><listitem><para><itemizedlist><listitem><para>
-#: en/stats.xml:546
+#: en/stats.xml:545
 msgid "graph-area."
 msgstr ""
 
 #. type: Content of: <chapter><section><section><para><orderedlist><listitem><para><itemizedlist><listitem><para><itemizedlist><listitem><para>
-#: en/stats.xml:551
+#: en/stats.xml:550
 msgid "graph-pie."
 msgstr ""
 
 #. type: Content of: <chapter><section><section><para><orderedlist><listitem><para><itemizedlist><listitem><para>
-#: en/stats.xml:559
+#: en/stats.xml:558
 msgid ""
 "<emphasis>Graphsize</emphasis>. Select the chart size in pixels. This "
 "selection is only necessary if a graphical output format has been chosen "
@@ -11822,21 +11873,21 @@ msgid ""
 msgstr ""
 
 #. type: Content of: <chapter><section><section><para><orderedlist><listitem><para><itemizedlist><listitem><para>
-#: en/stats.xml:564
+#: en/stats.xml:563
 msgid ""
 "<emphasis>Sum rows</emphasis>. Indicates whether the report is amended by a "
 "column, whose cells contain the sum of the respective row."
 msgstr ""
 
 #. type: Content of: <chapter><section><section><para><orderedlist><listitem><para><itemizedlist><listitem><para>
-#: en/stats.xml:569
+#: en/stats.xml:568
 msgid ""
 "<emphasis>Sum columns</emphasis>. Indicates whether the report is amended by "
 "a row, whose cells contain the sum of the respective column."
 msgstr ""
 
 #. type: Content of: <chapter><section><section><para><orderedlist><listitem><para><itemizedlist><listitem><para>
-#: en/stats.xml:574
+#: en/stats.xml:573
 msgid ""
 "<emphasis>Cache</emphasis>. Specifies if the generated report should be "
 "cached in the filesystem. This saves computing power and time if the report "
@@ -11845,19 +11896,19 @@ msgid ""
 msgstr ""
 
 #. type: Content of: <chapter><section><section><para><orderedlist><listitem><para><itemizedlist><listitem><para>
-#: en/stats.xml:578
+#: en/stats.xml:577
 msgid ""
 "Caching is automatically prevented if the report contains no time "
 "designation values, or if a time designation value points to the future."
 msgstr ""
 
 #. type: Content of: <chapter><section><section><para><orderedlist><listitem><para><itemizedlist><listitem><para>
-#: en/stats.xml:582
+#: en/stats.xml:581
 msgid "If a cached report is edited, all cached data is deleted."
 msgstr ""
 
 #. type: Content of: <chapter><section><section><para><orderedlist><listitem><para><itemizedlist><listitem><para>
-#: en/stats.xml:587
+#: en/stats.xml:586
 msgid ""
 "<emphasis>Valid</emphasis>. This can be set to \"invalid\" if a "
 "pre-configured report must not be run temporarily for any reason. The "
@@ -11866,7 +11917,7 @@ msgid ""
 msgstr ""
 
 #. type: Content of: <chapter><section><section><para><orderedlist><listitem><para>
-#: en/stats.xml:595
+#: en/stats.xml:594
 msgid ""
 "<emphasis>Definition of the element for the X-axis</emphasis>. It is the "
 "configuration of the element used for the depiction of the X-axis or, if "
@@ -11874,7 +11925,7 @@ msgid ""
 msgstr ""
 
 #. type: Content of: <chapter><section><section><para><orderedlist><listitem><para><screenshot>
-#: en/stats.xml:600
+#: en/stats.xml:599
 msgid ""
 "<placeholder type=\"screeninfo\" id=\"0\"/> <graphic "
 "fileref=\"screenshots/stats-edit-xaxis.png\" scale=\"40\" "
@@ -11882,12 +11933,12 @@ msgid ""
 msgstr ""
 
 #. type: Content of: <chapter><section><section><para><orderedlist><listitem><para>
-#: en/stats.xml:606
+#: en/stats.xml:605
 msgid "<emphasis>Figure 19.6. Definition of the element for the X-axis.</emphasis>"
 msgstr ""
 
 #. type: Content of: <chapter><section><section><para><orderedlist><listitem><para>
-#: en/stats.xml:610
+#: en/stats.xml:609
 msgid ""
 "First of all, an element is selected using the option field. Then two or "
 "more attributes of the element must be selected. If no attributes are "
@@ -11896,7 +11947,7 @@ msgid ""
 msgstr ""
 
 #. type: Content of: <chapter><section><section><para><orderedlist><listitem><para>
-#: en/stats.xml:614
+#: en/stats.xml:613
 msgid ""
 "If the \"Fixed\" setting is disabled, the agent generating the report can "
 "change the attributes of the respective element in the \"View\" user "
@@ -11904,7 +11955,7 @@ msgid ""
 msgstr ""
 
 #. type: Content of: <chapter><section><section><para><orderedlist><listitem><para>
-#: en/stats.xml:618
+#: en/stats.xml:617
 msgid ""
 "Time elements are different as time period and scale have to be stated. Type "
 "and number of elements result from the used dynamic object and vary "
@@ -11912,19 +11963,19 @@ msgid ""
 msgstr ""
 
 #. type: Content of: <chapter><section><section><para><orderedlist><listitem><para>
-#: en/stats.xml:622
+#: en/stats.xml:621
 msgid ""
 "If all input is correct, the \"Next\" button leads to the \"Value series\" "
 "form. It is also possible to go back to editing earlier sections."
 msgstr ""
 
 #. type: Content of: <chapter><section><section><para><orderedlist><listitem><para>
-#: en/stats.xml:627
+#: en/stats.xml:626
 msgid "<emphasis>Specification of the value series</emphasis>."
 msgstr ""
 
 #. type: Content of: <chapter><section><section><para><orderedlist><listitem><para>
-#: en/stats.xml:631
+#: en/stats.xml:630
 msgid ""
 "In the third step of the report configuration, the value series are defined "
 "(see Figure 19.7 below). They will later form the individual graphs or the "
@@ -11932,12 +11983,12 @@ msgid ""
 msgstr ""
 
 #. type: Content of: <chapter><section><section><para><orderedlist><listitem><para><screenshot><screeninfo>
-#: en/stats.xml:636
+#: en/stats.xml:635
 msgid "Definition of the value series"
 msgstr ""
 
 #. type: Content of: <chapter><section><section><para><orderedlist><listitem><para><screenshot>
-#: en/stats.xml:636
+#: en/stats.xml:635
 msgid ""
 "<placeholder type=\"screeninfo\" id=\"0\"/> <graphic "
 "fileref=\"screenshots/stats-edit-valueseries.png\" scale=\"40\" "
@@ -11945,44 +11996,44 @@ msgid ""
 msgstr ""
 
 #. type: Content of: <chapter><section><section><para><orderedlist><listitem><para>
-#: en/stats.xml:642
+#: en/stats.xml:641
 msgid "<emphasis>Figure 19.7. Definition of the value series.</emphasis>"
 msgstr ""
 
 #. type: Content of: <chapter><section><section><para><orderedlist><listitem><para>
-#: en/stats.xml:646
+#: en/stats.xml:645
 msgid ""
 "If an element is selected, each chosen attribute will correspond to a value "
 "series (see the Example 19-1 below)."
 msgstr ""
 
 #. type: Content of: <chapter><section><section><para><orderedlist><listitem><para><example><title>
-#: en/stats.xml:651
+#: en/stats.xml:650
 msgid "Definition of a value series - one element"
 msgstr ""
 
 #. type: Content of: <chapter><section><section><para><orderedlist><listitem><para><example><para>
-#: en/stats.xml:654
+#: en/stats.xml:653
 msgid "Element Queue:"
 msgstr ""
 
 #. type: Content of: <chapter><section><section><para><orderedlist><listitem><para><example><para><itemizedlist><listitem><para>
-#: en/stats.xml:661
+#: en/stats.xml:660
 msgid "Value series 1 = Raw"
 msgstr ""
 
 #. type: Content of: <chapter><section><section><para><orderedlist><listitem><para><example><para><itemizedlist><listitem><para>
-#: en/stats.xml:666
+#: en/stats.xml:665
 msgid "Value series 2 = Junk"
 msgstr ""
 
 #. type: Content of: <chapter><section><section><para><orderedlist><listitem><para><example><para><itemizedlist><listitem><para>
-#: en/stats.xml:671
+#: en/stats.xml:670
 msgid "...."
 msgstr ""
 
 #. type: Content of: <chapter><section><section><para><orderedlist><listitem><para>
-#: en/stats.xml:680
+#: en/stats.xml:679
 msgid ""
 "If two elements are selected, each selected attribute of the first element "
 "is combined with an attribute of the second element to form a value series "
@@ -11990,63 +12041,63 @@ msgid ""
 msgstr ""
 
 #. type: Content of: <chapter><section><section><para><orderedlist><listitem><para><example><title>
-#: en/stats.xml:685
+#: en/stats.xml:684
 msgid "Definition of a value series - two elements"
 msgstr ""
 
 #. type: Content of: <chapter><section><section><para><orderedlist><listitem><para><example><para>
-#: en/stats.xml:688
+#: en/stats.xml:687
 msgid "Element 1 queue, Element 2 status:"
 msgstr ""
 
 #. type: Content of: <chapter><section><section><para><orderedlist><listitem><para><example><para><itemizedlist><listitem><para>
-#: en/stats.xml:695
+#: en/stats.xml:694
 msgid "Value chain 1 = Raw - open"
 msgstr ""
 
 #. type: Content of: <chapter><section><section><para><orderedlist><listitem><para><example><para><itemizedlist><listitem><para>
-#: en/stats.xml:700
+#: en/stats.xml:699
 msgid "Value series 2 = Raw - successfully closed"
 msgstr ""
 
 #. type: Content of: <chapter><section><section><para><orderedlist><listitem><para><example><para><itemizedlist><listitem><para>
-#: en/stats.xml:705
+#: en/stats.xml:704
 msgid "Value series 3 = Junk - open"
 msgstr ""
 
 #. type: Content of: <chapter><section><section><para><orderedlist><listitem><para><example><para><itemizedlist><listitem><para>
-#: en/stats.xml:710
+#: en/stats.xml:709
 msgid "Value series 4 = Junk - successfully closed"
 msgstr ""
 
 #. type: Content of: <chapter><section><section><para><orderedlist><listitem><para>
-#: en/stats.xml:719
+#: en/stats.xml:718
 msgid "Selection of three or more elements is not allowed."
 msgstr ""
 
 #. type: Content of: <chapter><section><section><para><orderedlist><listitem><para>
-#: en/stats.xml:723
+#: en/stats.xml:722
 msgid ""
 "Additionally the same conditions apply to the selection of the attributes "
 "and the \"Fixed\" checkbox as to the \"X-axis\" selection:"
 msgstr ""
 
 #. type: Content of: <chapter><section><section><para><orderedlist><listitem><para><itemizedlist><listitem><para>
-#: en/stats.xml:730
+#: en/stats.xml:729
 msgid ""
 "If no attributes of the element are selected, all attributes are used, "
 "including those added after the configuration of the report."
 msgstr ""
 
 #. type: Content of: <chapter><section><section><para><orderedlist><listitem><para><itemizedlist><listitem><para>
-#: en/stats.xml:735
+#: en/stats.xml:734
 msgid ""
 "If the \"Fixed\" setting is disabled, the agent generating the report can "
 "change the attributes of the respective element."
 msgstr ""
 
 #. type: Content of: <chapter><section><section><para><orderedlist><listitem><para>
-#: en/stats.xml:743
+#: en/stats.xml:742
 msgid ""
 "<emphasis>Setting restrictions to the report</emphasis>. This is the fourth "
 "and final step of the configuration (see Figure 19.8 below). The "
@@ -12055,12 +12106,12 @@ msgid ""
 msgstr ""
 
 #. type: Content of: <chapter><section><section><para><orderedlist><listitem><para><screenshot><screeninfo>
-#: en/stats.xml:748
+#: en/stats.xml:747
 msgid "Definition of restrictions"
 msgstr ""
 
 #. type: Content of: <chapter><section><section><para><orderedlist><listitem><para><screenshot>
-#: en/stats.xml:748
+#: en/stats.xml:747
 msgid ""
 "<placeholder type=\"screeninfo\" id=\"0\"/> <graphic "
 "fileref=\"screenshots/stats-edit-restrictions.png\" scale=\"40\" "
@@ -12068,24 +12119,24 @@ msgid ""
 msgstr ""
 
 #. type: Content of: <chapter><section><section><para><orderedlist><listitem><para>
-#: en/stats.xml:754
+#: en/stats.xml:753
 msgid "<emphasis>Figure 19.8. Definition of restrictions.</emphasis>"
 msgstr ""
 
 #. type: Content of: <chapter><section><section><para><orderedlist><listitem><para>
-#: en/stats.xml:758
+#: en/stats.xml:757
 msgid ""
 "After all the restrictions are set up, the configuration of the report is "
 "completed by pressing the \"Finish\" button."
 msgstr ""
 
 #. type: Content of: <chapter><section><section><title>
-#: en/stats.xml:766
+#: en/stats.xml:765
 msgid "Import"
 msgstr ""
 
 #. type: Content of: <chapter><section><section><para>
-#: en/stats.xml:769
+#: en/stats.xml:768
 msgid ""
 "The Import user interface (see Figure 19.9 below) can be accessed by "
 "choosing from the navigation bar, the link \"Statistics\", then "
@@ -12094,12 +12145,12 @@ msgid ""
 msgstr ""
 
 #. type: Content of: <chapter><section><section><para><screenshot><screeninfo>
-#: en/stats.xml:774
+#: en/stats.xml:773
 msgid "The Import user interface"
 msgstr ""
 
 #. type: Content of: <chapter><section><section><para><screenshot>
-#: en/stats.xml:774
+#: en/stats.xml:773
 msgid ""
 "<placeholder type=\"screeninfo\" id=\"0\"/> <graphic "
 "fileref=\"screenshots/stats-import.png\" scale=\"40\" "
@@ -12107,12 +12158,12 @@ msgid ""
 msgstr ""
 
 #. type: Content of: <chapter><section><section><para>
-#: en/stats.xml:780
+#: en/stats.xml:779
 msgid "<emphasis>Figure 19.9. The Import user interface.</emphasis>"
 msgstr ""
 
 #. type: Content of: <chapter><section><section><para>
-#: en/stats.xml:784
+#: en/stats.xml:783
 msgid ""
 "Facilitates the import of reports and is, when combined with the export "
 "function of the module, a very handy functionality. Stats can be created and "
@@ -12121,60 +12172,60 @@ msgid ""
 msgstr ""
 
 #. type: Content of: <chapter><section><section><para>
-#: en/stats.xml:788
+#: en/stats.xml:787
 msgid ""
 "The import is effected by an easy file upload. The \"View\" user interface "
 "of the imported report is opened automatically afterwards."
 msgstr ""
 
 #. type: Content of: <chapter><section><title>
-#: en/stats.xml:795
+#: en/stats.xml:794
 msgid "Administration of the stats module by the OTRS administrator"
 msgstr ""
 
 #. type: Content of: <chapter><section><para>
-#: en/stats.xml:798
+#: en/stats.xml:797
 msgid ""
 "This section provides information about the tasks and responsibilities of "
 "the OTRS administrator dealing with the statistics module."
 msgstr ""
 
 #. type: Content of: <chapter><section><section><title>
-#: en/stats.xml:802
+#: en/stats.xml:801
 msgid "Permission settings, Groups and Queues"
 msgstr ""
 
 #. type: Content of: <chapter><section><section><para>
-#: en/stats.xml:805
+#: en/stats.xml:804
 msgid "No new queues and/or groups are created when the stats module is installed."
 msgstr ""
 
 #. type: Content of: <chapter><section><section><para>
-#: en/stats.xml:809
+#: en/stats.xml:808
 msgid ""
 "The default configuration of the module registration gives all agents with "
 "\"stats\" group permissions access to the stats module."
 msgstr ""
 
 #. type: Content of: <chapter><section><section><para>
-#: en/stats.xml:813
+#: en/stats.xml:812
 msgid "Access according to permission settings:"
 msgstr ""
 
 #. type: Content of: <chapter><section><section><para><itemizedlist><listitem><para>
-#: en/stats.xml:820
+#: en/stats.xml:819
 msgid "<emphasis>rw</emphasis>. Allows configuring statistics and reports."
 msgstr ""
 
 #. type: Content of: <chapter><section><section><para><itemizedlist><listitem><para>
-#: en/stats.xml:825
+#: en/stats.xml:824
 msgid ""
 "<emphasis>ro</emphasis>. Permits generating pre-configured statistics and "
 "reports."
 msgstr ""
 
 #. type: Content of: <chapter><section><section><para>
-#: en/stats.xml:832
+#: en/stats.xml:831
 msgid ""
 "The OTRS administrator decides whether agents with the permission to "
 "generate pre-configured reports are allocated ro rights in the \"stats\" "
@@ -12183,7 +12234,7 @@ msgid ""
 msgstr ""
 
 #. type: Content of: <chapter><section><section><para>
-#: en/stats.xml:840
+#: en/stats.xml:839
 msgid ""
 "The SysConfig groups <link "
 "linkend=\"Framework:Core::Stats\">Framework:Core::Stats</link>, <link "
@@ -12198,12 +12249,12 @@ msgid ""
 msgstr ""
 
 #. type: Content of: <chapter><section><title>
-#: en/stats.xml:847
+#: en/stats.xml:846
 msgid "Administration of the stats module by the system administrator"
 msgstr ""
 
 #. type: Content of: <chapter><section><para>
-#: en/stats.xml:850
+#: en/stats.xml:849
 msgid ""
 "Generally, no system administrator is needed for the operation, "
 "configuration and maintenance of the statistics module. However, a little "
@@ -12211,19 +12262,19 @@ msgid ""
 msgstr ""
 
 #. type: Content of: <chapter><section><note><para>
-#: en/stats.xml:855
+#: en/stats.xml:854
 msgid ""
 "File paths refer to subdirectories of the OTRS home directory (in most "
 "cases<filename>/opt/otrs</filename>)."
 msgstr ""
 
 #. type: Content of: <chapter><section><section><title>
-#: en/stats.xml:860
+#: en/stats.xml:859
 msgid "Data base table"
 msgstr ""
 
 #. type: Content of: <chapter><section><section><para>
-#: en/stats.xml:863
+#: en/stats.xml:862
 msgid ""
 "All report configurations are implemented and administrated in XML, and "
 "therefore stored in the database table \"xml_storage\". Other modules whose "
@@ -12231,92 +12282,92 @@ msgid ""
 msgstr ""
 
 #. type: Content of: <chapter><section><section><title>
-#: en/stats.xml:870
+#: en/stats.xml:869
 msgid "List of all files"
 msgstr ""
 
 #. type: Content of: <chapter><section><section><para>
-#: en/stats.xml:873
+#: en/stats.xml:872
 msgid "The following files are necessary for the stats module to work accurately:"
 msgstr ""
 
 #. type: Content of: <chapter><section><section><para><itemizedlist><listitem><para>
-#: en/stats.xml:880
+#: en/stats.xml:879
 msgid "<filename>Kernel/System/Stats.pm</filename>"
 msgstr ""
 
 #. type: Content of: <chapter><section><section><para><itemizedlist><listitem><para>
-#: en/stats.xml:885
+#: en/stats.xml:884
 msgid "<filename>Kernel/Modules/AgentStats.pm</filename>"
 msgstr ""
 
 #. type: Content of: <chapter><section><section><para><itemizedlist><listitem><para>
-#: en/stats.xml:890
+#: en/stats.xml:889
 msgid "<filename>Kernel/System/CSV.pm</filename>"
 msgstr ""
 
 #. type: Content of: <chapter><section><section><para><itemizedlist><listitem><para>
-#: en/stats.xml:895
+#: en/stats.xml:894
 msgid "<filename>Kernel/Output/HTML/Standard/AgentStatsOverview.dtl</filename>"
 msgstr ""
 
 #. type: Content of: <chapter><section><section><para><itemizedlist><listitem><para>
-#: en/stats.xml:900
+#: en/stats.xml:899
 msgid "<filename>Kernel/Output/HTML/Standard/AgentStatsDelete.dtl</filename>"
 msgstr ""
 
 #. type: Content of: <chapter><section><section><para><itemizedlist><listitem><para>
-#: en/stats.xml:905
+#: en/stats.xml:904
 msgid "<filename>Kernel/Output/HTML/Standard/AgentStatsEditSpecification.dtl</filename>"
 msgstr ""
 
 #. type: Content of: <chapter><section><section><para><itemizedlist><listitem><para>
-#: en/stats.xml:910
+#: en/stats.xml:909
 msgid "<filename>Kernel/Output/HTML/Standard/AgentStatsEditRestrictions.dtl</filename>"
 msgstr ""
 
 #. type: Content of: <chapter><section><section><para><itemizedlist><listitem><para>
-#: en/stats.xml:915
+#: en/stats.xml:914
 msgid "<filename>Kernel/Output/HTML/Standard/AgentStatsEditXaxis.dtl</filename>"
 msgstr ""
 
 #. type: Content of: <chapter><section><section><para><itemizedlist><listitem><para>
-#: en/stats.xml:920
+#: en/stats.xml:919
 msgid "<filename>Kernel/Output/HTML/Standard/AgentStatsEditValueSeries.dtl</filename>"
 msgstr ""
 
 #. type: Content of: <chapter><section><section><para><itemizedlist><listitem><para>
-#: en/stats.xml:925
+#: en/stats.xml:924
 msgid "<filename>Kernel/Output/HTML/Standard/AgentStatsImport.dtl</filename>"
 msgstr ""
 
 #. type: Content of: <chapter><section><section><para><itemizedlist><listitem><para>
-#: en/stats.xml:930
+#: en/stats.xml:929
 msgid "<filename>Kernel/Output/HTML/Standard/AgentStatsPrint.dtl</filename>"
 msgstr ""
 
 #. type: Content of: <chapter><section><section><para><itemizedlist><listitem><para>
-#: en/stats.xml:935
+#: en/stats.xml:934
 msgid "<filename>Kernel/Output/HTML/Standard/AgentStatsView.dtl</filename>"
 msgstr ""
 
 #. type: Content of: <chapter><section><section><para><itemizedlist><listitem><para>
-#: en/stats.xml:940
+#: en/stats.xml:939
 msgid "<filename>Kernel/System/Stats/Dynamic/Ticket.pm</filename>"
 msgstr ""
 
 #. type: Content of: <chapter><section><section><para><itemizedlist><listitem><para>
-#: en/stats.xml:945
+#: en/stats.xml:944
 msgid "<filename>bin/otrs.GenerateStats.pl</filename>"
 msgstr ""
 
 #. type: Content of: <chapter><section><section><title>
-#: en/stats.xml:953
+#: en/stats.xml:952
 msgid "Caching"
 msgstr ""
 
 #. type: Content of: <chapter><section><section><para>
-#: en/stats.xml:956
+#: en/stats.xml:955
 msgid ""
 "Whether the results of a statistic are to be cached or not can be setup in "
 "the configuration. Cached report results are stored as files in the "
@@ -12325,12 +12376,12 @@ msgid ""
 msgstr ""
 
 #. type: Content of: <chapter><section><section><para>
-#: en/stats.xml:960
+#: en/stats.xml:959
 msgid "Cached stats can be recognized by the \"Stats\" prefix."
 msgstr ""
 
 #. type: Content of: <chapter><section><section><para>
-#: en/stats.xml:964
+#: en/stats.xml:963
 msgid ""
 "If the data is lost, no major damage is caused. The next time the report is "
 "called up, the stats module will not find the file any more and so will "
@@ -12339,67 +12390,67 @@ msgid ""
 msgstr ""
 
 #. type: Content of: <chapter><section><section><title>
-#: en/stats.xml:969
+#: en/stats.xml:968
 msgid "otrs.GenerateStats.pl"
 msgstr ""
 
 #. type: Content of: <chapter><section><section><para>
-#: en/stats.xml:972
+#: en/stats.xml:971
 msgid ""
 "This file is saved in the <filename>bin</filename>directory. It facilitates "
 "the generation of report in the command line."
 msgstr ""
 
 #. type: Content of: <chapter><section><section><para>
-#: en/stats.xml:976
+#: en/stats.xml:975
 msgid "As an example, see the command line call in Script 19.1."
 msgstr ""
 
 #. type: Content of: <chapter><section><section><para><programlisting>
-#: en/stats.xml:981
+#: en/stats.xml:980
 #, no-wrap
 msgid "bin> perl otrs.GenerateStats.pl -n 10004 -o /output/dir\n"
 msgstr ""
 
 #. type: Content of: <chapter><section><section><para>
-#: en/stats.xml:986
+#: en/stats.xml:985
 msgid "<emphasis>Script 19.1. Generating a report from the command line.</emphasis>"
 msgstr ""
 
 #. type: Content of: <chapter><section><section><para>
-#: en/stats.xml:990
+#: en/stats.xml:989
 msgid ""
 "A report from the stat configuration \"Stat# 10004\" is generated and saved "
 "as csv in the <filename>/output/dir</filename> directory."
 msgstr ""
 
 #. type: Content of: <chapter><section><section><para>
-#: en/stats.xml:994
+#: en/stats.xml:993
 msgid ""
 "The generated report can also be sent as an e-mail. More information can be "
 "called up with the command in Script 19.2."
 msgstr ""
 
 #. type: Content of: <chapter><section><section><para><programlisting>
-#: en/stats.xml:999
+#: en/stats.xml:998
 #, no-wrap
 msgid "bin> perl otrs.GenerateStats.pl --help\n"
 msgstr ""
 
 #. type: Content of: <chapter><section><section><para>
-#: en/stats.xml:1004
+#: en/stats.xml:1003
 msgid ""
 "<emphasis>Script 19.2. Getting information about the otrs.GenerateStats.pl "
 "file.</emphasis>"
 msgstr ""
 
 #. type: Content of: <chapter><section><section><title>
-#: en/stats.xml:1010
+#: en/stats.xml:1009
 msgid "Automated stat generation - Cronjob"
 msgstr ""
 
 #. type: Content of: <chapter><section><section><para>
-#: en/stats.xml:1013
+#: en/stats.xml:1012
 msgid ""
 "It usually does not make sense to generate reports manually via the command "
 "line, as the stats module has a convenient graphical user "
@@ -12408,7 +12459,7 @@ msgid ""
 msgstr ""
 
 #. type: Content of: <chapter><section><section><para>
-#: en/stats.xml:1017
+#: en/stats.xml:1016
 msgid ""
 "Imagine the following scenario: On the first day of every month, the heads "
 "of department want to receive a report for the past month. By combining a "
@@ -12417,38 +12468,38 @@ msgid ""
 msgstr ""
 
 #. type: Content of: <chapter><section><section><title>
-#: en/stats.xml:1023
+#: en/stats.xml:1022
 msgid "Static stats"
 msgstr ""
 
 #. type: Content of: <chapter><section><section><para>
-#: en/stats.xml:1026
+#: en/stats.xml:1025
 msgid ""
 "The stats module facilitates the generation of static statistics. For every "
 "static stat a file exists in which its content is precisely defined."
 msgstr ""
 
 #. type: Content of: <chapter><section><section><para>
-#: en/stats.xml:1030
+#: en/stats.xml:1029
 msgid ""
 "This way, very complex stats can be generated. The disadvantage is that they "
 "are not particularly flexible."
 msgstr ""
 
 #. type: Content of: <chapter><section><section><para>
-#: en/stats.xml:1034
+#: en/stats.xml:1033
 msgid ""
 "The files are saved in the directory "
 "<filename>Kernel/System/Stats/Static/</filename>."
 msgstr ""
 
 #. type: Content of: <chapter><section><section><title>
-#: en/stats.xml:1039
+#: en/stats.xml:1038
 msgid "Using old static stats"
 msgstr ""
 
 #. type: Content of: <chapter><section><section><para>
-#: en/stats.xml:1042
+#: en/stats.xml:1041
 msgid ""
 "Prior OTRS versions 1.3 and 2.0 already facilitated the generation of stats "
 "/ reports. Various reports for OTRS versions 1.3 and 2.0 which have been "
@@ -12457,7 +12508,7 @@ msgid ""
 msgstr ""
 
 #. type: Content of: <chapter><section><section><para>
-#: en/stats.xml:1045
+#: en/stats.xml:1044
 msgid ""
 "The files must merely be moved from the "
 "<filename>Kernel/System/Stats/</filename> path to "
@@ -12466,34 +12517,34 @@ msgid ""
 msgstr ""
 
 #. type: Content of: <chapter><section><section><para>
-#: en/stats.xml:1049
+#: en/stats.xml:1048
 msgid "The following example shows how the first path is amended."
 msgstr ""
 
 #. type: Content of: <chapter><section><section><para><programlisting>
-#: en/stats.xml:1054
+#: en/stats.xml:1053
 #, no-wrap
 msgid "    package Kernel::System::Stats::AccountedTime;\n"
 msgstr ""
 
 #. type: Content of: <chapter><section><section><para><programlisting>
-#: en/stats.xml:1060
+#: en/stats.xml:1059
 #, no-wrap
 msgid "    package Kernel::System::Stats::Static::AccountedTime;\n"
 msgstr ""
 
 #. type: Content of: <chapter><section><section><title>
-#: en/stats.xml:1066
+#: en/stats.xml:1065
 msgid "Default stats"
 msgstr ""
 
 #. type: Content of: <chapter><section><section><para>
-#: en/stats.xml:1068
+#: en/stats.xml:1067
 msgid "\"It is not always necessary to reinvent the wheel...\""
 msgstr ""
 
 #. type: Content of: <chapter><section><section><para>
-#: en/stats.xml:1072
+#: en/stats.xml:1071
 msgid ""
 "The stats module provides various default reports. Reports which are of "
 "interest for all OTRS users will in future be added to the default reports "
@@ -12531,39 +12582,39 @@ msgid ""
 msgstr ""
 
 #. type: Content of: <chapter><title>
-#: en/performance-tuning.xml:7
+#: en/performance-tuning.xml:6
 msgid "Performance Tuning"
 msgstr ""
 
 #. type: Content of: <chapter><abstract><para>
-#: en/performance-tuning.xml:11
+#: en/performance-tuning.xml:10
 msgid ""
 "Presented below is a list of performance enhancing techniques for your OTRS "
 "installation, covering configuration, coding, memory use and more."
 msgstr ""
 
 #. type: Content of: <chapter><section><title>
-#: en/performance-tuning.xml:16
+#: en/performance-tuning.xml:15
 msgid "OTRS"
 msgstr ""
 
 #. type: Content of: <chapter><section><para>
-#: en/performance-tuning.xml:18
+#: en/performance-tuning.xml:17
 msgid "There are several options to improve OTRS performance."
 msgstr ""
 
 #. type: Content of: <chapter><section><section><title>
-#: en/performance-tuning.xml:22
+#: en/performance-tuning.xml:21
 msgid "TicketIndexModule"
 msgstr ""
 
 #. type: Content of: <chapter><section><section><para>
-#: en/performance-tuning.xml:24
+#: en/performance-tuning.xml:23
 msgid "There are two backend modules for the ticket index:"
 msgstr ""
 
 #. type: Content of: <chapter><section><section><para><itemizedlist><listitem><para>
-#: en/performance-tuning.xml:32
+#: en/performance-tuning.xml:31
 msgid ""
 "Using Kernel::System::Ticket::IndexAccelerator::RuntimeDB (default), "
 "generate each queue view on the fly from the ticket table. You will not have "
@@ -12571,7 +12622,7 @@ msgid ""
 msgstr ""
 
 #. type: Content of: <chapter><section><section><para><itemizedlist><listitem><para>
-#: en/performance-tuning.xml:38
+#: en/performance-tuning.xml:37
 msgid ""
 "Kernel::System::Ticket::IndexAccelerator::StaticDB, the most powerful "
 "module, should be used when you have above 80,000 open tickets. It uses an "
@@ -12581,36 +12632,36 @@ msgid ""
 msgstr ""
 
 #. type: Content of: <chapter><section><section><para>
-#: en/performance-tuning.xml:46
+#: en/performance-tuning.xml:45
 msgid "You can change the IndexAccelerator via SysConfig."
 msgstr ""
 
 #. type: Content of: <chapter><section><section><title>
-#: en/performance-tuning.xml:52
+#: en/performance-tuning.xml:51
 msgid "TicketStorageModule"
 msgstr ""
 
 #. type: Content of: <chapter><section><section><para>
-#: en/performance-tuning.xml:54
+#: en/performance-tuning.xml:53
 msgid "There are two different backend modules for the ticket/article storage:"
 msgstr ""
 
 #. type: Content of: <chapter><section><section><para><itemizedlist><listitem><para>
-#: en/performance-tuning.xml:62
+#: en/performance-tuning.xml:61
 msgid ""
 "Configure Kernel::System::Ticket::ArticleStorageDB (default) to store "
 "attachments, etc. in the database. Note: Don't use it with large set ups."
 msgstr ""
 
 #. type: Content of: <chapter><section><section><para><itemizedlist><listitem><para>
-#: en/performance-tuning.xml:65
+#: en/performance-tuning.xml:64
 msgid ""
 "Pro: If your webserver user isn't the 'otrs' user, use this module to avoid "
 "file permission problems."
 msgstr ""
 
 #. type: Content of: <chapter><section><section><para><itemizedlist><listitem><para>
-#: en/performance-tuning.xml:68
+#: en/performance-tuning.xml:67
 msgid ""
 "Con: It is not advisable to store attachments in your database. Take care "
 "that your database is able to store large objects. E.g. Configure MySQL with "
@@ -12619,19 +12670,19 @@ msgid ""
 msgstr ""
 
 #. type: Content of: <chapter><section><section><para><itemizedlist><listitem><para>
-#: en/performance-tuning.xml:74
+#: en/performance-tuning.xml:73
 msgid ""
 "Configure Kernel::System::Ticket::ArticleStorageFS to store attachments "
 "etc. on the local file system. Note: Recommended for large setups."
 msgstr ""
 
 #. type: Content of: <chapter><section><section><para><itemizedlist><listitem><para>
-#: en/performance-tuning.xml:77
+#: en/performance-tuning.xml:76
 msgid "Pro: It is fast!"
 msgstr ""
 
 #. type: Content of: <chapter><section><section><para><itemizedlist><listitem><para>
-#: en/performance-tuning.xml:80
+#: en/performance-tuning.xml:79
 msgid ""
 "Con: Your web server user should be the 'otrs' user. Also, if you have "
 "multiple front-end servers, you should make sure the filesystem is shared "
@@ -12640,7 +12691,7 @@ msgid ""
 msgstr ""
 
 #. type: Content of: <chapter><section><section><para>
-#: en/performance-tuning.xml:89
+#: en/performance-tuning.xml:88
 msgid ""
 "Note: you can switch from one back-end to the other on the fly. You can "
 "switch the backend in the SysConfig, and then run the command line utility "
@@ -12653,7 +12704,7 @@ msgid ""
 msgstr ""
 
 #. type: Content of: <chapter><section><section><para><programlisting>
-#: en/performance-tuning.xml:94
+#: en/performance-tuning.xml:93
 #, no-wrap
 msgid ""
 "shell> bin/otrs.ArticleStorageSwitch.pl -s ArticleStorageDB -d "
@@ -12661,19 +12712,19 @@ msgid ""
 msgstr ""
 
 #. type: Content of: <chapter><section><section><para>
-#: en/performance-tuning.xml:98
+#: en/performance-tuning.xml:97
 msgid ""
 "<emphasis>Script 21.1 Switching storage back-ends from database to "
 "filesystem.</emphasis>"
 msgstr ""
 
 #. type: Content of: <chapter><section><section><title>
-#: en/performance-tuning.xml:103
+#: en/performance-tuning.xml:102
 msgid "Archiving Tickets"
 msgstr ""
 
 #. type: Content of: <chapter><section><section><para>
-#: en/performance-tuning.xml:106
+#: en/performance-tuning.xml:105
 msgid ""
 "As OTRS can be used as an audit-proof system, deleting closed tickets may "
 "not be a good idea. Therefore we implemented a feature that allows you to "
@@ -12681,7 +12732,7 @@ msgid ""
 msgstr ""
 
 #. type: Content of: <chapter><section><section><para>
-#: en/performance-tuning.xml:109
+#: en/performance-tuning.xml:108
 msgid ""
 "Tickets that match certain criteria can be marked as \"archived\" These "
 "tickets are not accessed if you do a regular ticket search or run a Generic "
@@ -12692,17 +12743,17 @@ msgid ""
 msgstr ""
 
 #. type: Content of: <chapter><section><section><para>
-#: en/performance-tuning.xml:112
+#: en/performance-tuning.xml:111
 msgid "To use the archive feature simply follow these steps:"
 msgstr ""
 
 #. type: Content of: <chapter><section><section><orderedlist><listitem><para>
-#: en/performance-tuning.xml:117
+#: en/performance-tuning.xml:116
 msgid "Activate the archive system in SysConfig"
 msgstr ""
 
 #. type: Content of: <chapter><section><section><orderedlist><listitem><para>
-#: en/performance-tuning.xml:120
+#: en/performance-tuning.xml:119
 msgid ""
 "In the Admin page, go to SysConfig and select the group "
 "<literal>Ticket</literal>. In <literal>Core::Ticket</literal> you find the "
@@ -12711,29 +12762,29 @@ msgid ""
 msgstr ""
 
 #. type: Content of: <chapter><section><section><orderedlist><listitem><para>
-#: en/performance-tuning.xml:125
+#: en/performance-tuning.xml:124
 msgid "Define a GenericAgent job"
 msgstr ""
 
 #. type: Content of: <chapter><section><section><orderedlist><listitem><para><orderedlist><listitem><para>
-#: en/performance-tuning.xml:132
+#: en/performance-tuning.xml:131
 msgid "Job Settings"
 msgstr ""
 
 #. type: Content of: <chapter><section><section><orderedlist><listitem><para><orderedlist><listitem><para>
-#: en/performance-tuning.xml:135
+#: en/performance-tuning.xml:134
 msgid ""
 "Provide a name for the archiving job, and select proper options to schedule "
 "this job."
 msgstr ""
 
 #. type: Content of: <chapter><section><section><orderedlist><listitem><para><orderedlist><listitem><para>
-#: en/performance-tuning.xml:140
+#: en/performance-tuning.xml:139
 msgid "Ticket Filter"
 msgstr ""
 
 #. type: Content of: <chapter><section><section><orderedlist><listitem><para><orderedlist><listitem><para>
-#: en/performance-tuning.xml:143
+#: en/performance-tuning.xml:142
 msgid ""
 "The ticket filter is searches for tickets that match the selected "
 "criteria. It might be a good idea to only archive those tickets in a closed "
@@ -12741,53 +12792,53 @@ msgid ""
 msgstr ""
 
 #. type: Content of: <chapter><section><section><orderedlist><listitem><para><orderedlist><listitem><para>
-#: en/performance-tuning.xml:148
+#: en/performance-tuning.xml:147
 msgid "Ticket Action"
 msgstr ""
 
 #. type: Content of: <chapter><section><section><orderedlist><listitem><para><orderedlist><listitem><para>
-#: en/performance-tuning.xml:151
+#: en/performance-tuning.xml:150
 msgid ""
 "In this section, set the field labeled \"Archive selected tickets\" to "
 "\"archive tickets\"."
 msgstr ""
 
 #. type: Content of: <chapter><section><section><orderedlist><listitem><para><orderedlist><listitem><para>
-#: en/performance-tuning.xml:156
+#: en/performance-tuning.xml:155
 msgid "Save the job"
 msgstr ""
 
 #. type: Content of: <chapter><section><section><orderedlist><listitem><para><orderedlist><listitem><para>
-#: en/performance-tuning.xml:159
+#: en/performance-tuning.xml:158
 msgid "At the end of the page you will find an option to save the job."
 msgstr ""
 
 #. type: Content of: <chapter><section><section><orderedlist><listitem><para><orderedlist><listitem><para>
-#: en/performance-tuning.xml:164
+#: en/performance-tuning.xml:163
 msgid "Affected tickets"
 msgstr ""
 
 #. type: Content of: <chapter><section><section><orderedlist><listitem><para><orderedlist><listitem><para>
-#: en/performance-tuning.xml:167
+#: en/performance-tuning.xml:166
 msgid ""
 "The system will display all tickets which will be archived when executing "
 "the Generic Agent job."
 msgstr ""
 
 #. type: Content of: <chapter><section><section><orderedlist><listitem><para>
-#: en/performance-tuning.xml:128
+#: en/performance-tuning.xml:127
 msgid ""
 "On the Admin page, select GenericAgent and add a new job there.  "
 "<placeholder type=\"orderedlist\" id=\"0\"/>"
 msgstr ""
 
 #. type: Content of: <chapter><section><section><orderedlist><listitem><para>
-#: en/performance-tuning.xml:175
+#: en/performance-tuning.xml:174
 msgid "Ticket Search"
 msgstr ""
 
 #. type: Content of: <chapter><section><section><orderedlist><listitem><para>
-#: en/performance-tuning.xml:178
+#: en/performance-tuning.xml:177
 msgid ""
 "When you search for tickets, the system default is to search tickets which "
 "are not archived. If you want to search through archived tickets also, "
@@ -12795,24 +12846,24 @@ msgid ""
 msgstr ""
 
 #. type: Content of: <chapter><section><title>
-#: en/performance-tuning.xml:188
+#: en/performance-tuning.xml:187
 msgid "Database"
 msgstr ""
 
 #. type: Content of: <chapter><section><para>
-#: en/performance-tuning.xml:190
+#: en/performance-tuning.xml:189
 msgid ""
 "DB issues vary by the database being used. Study the documentation for your "
 "database or check with your database administrator."
 msgstr ""
 
 #. type: Content of: <chapter><section><section><title>
-#: en/performance-tuning.xml:194
+#: en/performance-tuning.xml:193
 msgid "MySQL"
 msgstr ""
 
 #. type: Content of: <chapter><section><section><para>
-#: en/performance-tuning.xml:196
+#: en/performance-tuning.xml:195
 msgid ""
 "If you use the MySQL table type MyISAM (which is the default), and have "
 "deleted a large part of a table or if you have made many changes to a table "
@@ -12821,7 +12872,7 @@ msgid ""
 msgstr ""
 
 #. type: Content of: <chapter><section><section><para>
-#: en/performance-tuning.xml:199
+#: en/performance-tuning.xml:198
 msgid ""
 "You should try this if the mysqld daemon needs a lot of your CPU "
 "time. Optimize the tables - ticket, ticket_history and article (see Script "
@@ -12829,7 +12880,7 @@ msgid ""
 msgstr ""
 
 #. type: Content of: <chapter><section><section><para><programlisting>
-#: en/performance-tuning.xml:204
+#: en/performance-tuning.xml:203
 #, no-wrap
 msgid ""
 "shell$ mysql -u user -p database\n"
@@ -12839,24 +12890,24 @@ msgid ""
 msgstr ""
 
 #. type: Content of: <chapter><section><section><para>
-#: en/performance-tuning.xml:212
+#: en/performance-tuning.xml:211
 msgid "<emphasis>Script 21.2. Optimizing data base tables.</emphasis>"
 msgstr ""
 
 #. type: Content of: <chapter><section><section><title>
-#: en/performance-tuning.xml:218
+#: en/performance-tuning.xml:217
 msgid "PostgreSQL"
 msgstr ""
 
 #. type: Content of: <chapter><section><section><para>
-#: en/performance-tuning.xml:220
+#: en/performance-tuning.xml:219
 msgid ""
 "PostgreSQL is best tuned by modifying the postgresql.conf file in your "
 "PostgreSQL data directory. For advice on how to do this, see these articles:"
 msgstr ""
 
 #. type: Content of: <chapter><section><section><para><itemizedlist><listitem><para>
-#: en/performance-tuning.xml:227
+#: en/performance-tuning.xml:226
 msgid ""
 "<ulink url=\"http://www.revsys.com/writings/postgresql-performance.html\"> "
 "<citetitle>http://www.revsys.com/writings/postgresql-performance.html</citetitle> "
@@ -12864,7 +12915,7 @@ msgid ""
 msgstr ""
 
 #. type: Content of: <chapter><section><section><para><itemizedlist><listitem><para>
-#: en/performance-tuning.xml:234
+#: en/performance-tuning.xml:233
 msgid ""
 "<ulink url=\"http://varlena.com/GeneralBits/Tidbits/perf.html\"> "
 "<citetitle>http://varlena.com/GeneralBits/Tidbits/perf.html</citetitle> "
@@ -12872,7 +12923,7 @@ msgid ""
 msgstr ""
 
 #. type: Content of: <chapter><section><section><para><itemizedlist><listitem><para>
-#: en/performance-tuning.xml:241
+#: en/performance-tuning.xml:240
 msgid ""
 "<ulink url=\"http://varlena.com/GeneralBits/Tidbits/annotated_conf_e.html\"> "
 "<citetitle>http://varlena.com/GeneralBits/Tidbits/annotated_conf_e.html</citetitle> "
@@ -12880,7 +12931,7 @@ msgid ""
 msgstr ""
 
 #. type: Content of: <chapter><section><section><para>
-#: en/performance-tuning.xml:250
+#: en/performance-tuning.xml:249
 msgid ""
 "If performance is still not satisfactory, we suggest that you join the "
 "PostgreSQL Performance mailing list ( <ulink "
@@ -12890,7 +12941,7 @@ msgid ""
 msgstr ""
 
 #. type: Content of: <chapter><section><para>
-#: en/performance-tuning.xml:259
+#: en/performance-tuning.xml:258
 msgid ""
 "Of course you should use mod_perl 2.0 ( <ulink "
 "url=\"http://perl.apache.org/\"><citetitle>http://perl.apache.org/</citetitle></ulink> "
@@ -12898,24 +12949,24 @@ msgid ""
 msgstr ""
 
 #. type: Content of: <chapter><section><section><title>
-#: en/performance-tuning.xml:263
+#: en/performance-tuning.xml:262
 msgid "Pre-established database connections"
 msgstr ""
 
 #. type: Content of: <chapter><section><section><para>
-#: en/performance-tuning.xml:265
+#: en/performance-tuning.xml:264
 msgid ""
 "You can have the database connections pre-established on startup of the web "
 "server. This saves time (see README.webserver)."
 msgstr ""
 
 #. type: Content of: <chapter><section><section><title>
-#: en/performance-tuning.xml:270
+#: en/performance-tuning.xml:269
 msgid "Preloaded modules - startup.pl"
 msgstr ""
 
 #. type: Content of: <chapter><section><section><para>
-#: en/performance-tuning.xml:272
+#: en/performance-tuning.xml:271
 msgid ""
 "Use the startup script <filename>scripts/apache2-perl-startup.pl</filename> "
 "for preloaded/precompiled Perl modules on your mod_perl webserver to be "
@@ -12923,14 +12974,14 @@ msgid ""
 msgstr ""
 
 #. type: Content of: <chapter><section><section><title>
-#: en/performance-tuning.xml:276
+#: en/performance-tuning.xml:275
 msgid "Reload Perl modules when updated on disk"
 msgstr ""
 
 #. type: Content of: <chapter><section><section><para>
-#: en/performance-tuning.xml:278
+#: en/performance-tuning.xml:277
 msgid ""
-"By default Apachee::Reload is used in "
+"By default Apache::Reload is used in "
 "scripts/apache2-httpd.include.conf. Disable it and you will get 8% more "
 "speed. But remember to restart the web server if you install any modules via "
 "the OTRS Package Manager, or any values in your SysConfig or in "
@@ -12940,27 +12991,27 @@ msgid ""
 msgstr ""
 
 #. type: Content of: <chapter><section><section><title>
-#: en/performance-tuning.xml:283
+#: en/performance-tuning.xml:282
 msgid "Choosing the Right Strategy"
 msgstr ""
 
 #. type: Content of: <chapter><section><section><para>
-#: en/performance-tuning.xml:285
+#: en/performance-tuning.xml:284
 msgid ""
-"If you have a really large installation, say over 1,000 new tickets per day "
-"and over 40 agents, it is a good idea to read \"Choosing the Right "
-"Strategy\" ( <ulink "
-"url=\"http://perl.apache.org/docs/1.0/guide/strategy.html\"><citetitle>http://perl.apache.org/docs/1.0/guide/strategy.html</citetitle></ulink> "
+"If you have a larger installation, say over 1,000 new tickets per day and "
+"over 40 agents, it is a good idea to read the chapters on Performance of the "
+"mod_perl User's Guide ( <ulink "
+"url=\"http://perl.apache.org/docs/2.0/user/index.html\"><citetitle>http://perl.apache.org/docs/2.0/user/index.html</citetitle></ulink> "
 ")."
 msgstr ""
 
 #. type: Content of: <chapter><section><section><title>
-#: en/performance-tuning.xml:290
+#: en/performance-tuning.xml:289
 msgid "mod_gzip/mod_deflate"
 msgstr ""
 
 #. type: Content of: <chapter><section><section><para>
-#: en/performance-tuning.xml:292
+#: en/performance-tuning.xml:291
 msgid ""
 "If your bandwidth is small, use mod_deflate for Apache2. If you have an html "
 "page with 45k, mod_gzip/mod_deflate compresses it to about 7k. The drawback "

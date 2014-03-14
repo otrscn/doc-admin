@@ -2,8 +2,6 @@
 <!DOCTYPE chapter PUBLIC "-//OASIS//DTD DocBook XML V4.4//EN"
   "http://www.oasis-open.org/docbook/xml/4.4/docbookx.dtd">
 
-
-<!-- $Id: installation-and-basic-configuration.xml,v 1.51.2.2 2011-08-02 12:48:19 mg Exp $ -->
 <chapter id="installation">
 <title>Installation</title>
 
@@ -179,44 +177,22 @@ Datenbankkonfiguration  </link> beschrieben.
 
 </section>
 
-<section id="installation-on-centos">
-<title>Installation von OTRS auf einem CentOS-System</title>
-
-<para>
-Im OTRS-Wiki finden Sie detaillierte Anweisungen für das Aufsetzen unter
-CentOS, die auch für die Installation unter RedHat gelten, weil beide
-Systeme auf derselben Basis aufsetzen: <ulink
-url="http://wiki.otrs.org/index.php?title=Installation_of_OTRS_3.0b1_on_CentOS_5.5">
-http://wiki.otrs.org/index.php?title=Installation_of_OTRS_3.0b1_on_CentOS_5.5
-</ulink> .
-</para>
-
-</section>
-
 <section id="installation-on-debian">
-<title>Installation von OTRS auf einem Debian-System</title>
-
+<title>Installing OTRS on a Debian or Ubuntu system</title>
+<important>
+    <para>
+        Please install OTRS <link linkend="manual-installation-of-otrs">from
+source</link>, and do not use the OTRS packages that Debian/Ubuntu provides.
+    </para>
+</important>
 <para>
-Im OTRS-Wiki finden Sie detaillierte Anweisungen für die Installation unter
-Debian: <ulink
-url="http://wiki.otrs.org/index.php?title=Installation_on_Debian_5.04_lenny">
-http://wiki.otrs.org/index.php?title=Installation_on_Debian_5.04_lenny
-</ulink>.
+    The installation of required Perl modules is easier if you use the available
+packages: <screen>
+apt-get install libapache2-mod-perl2 libdbd-mysql-perl libtimedate-perl libnet-dns-perl \
+    libnet-ldap-perl libio-socket-ssl-perl libpdf-api2-perl libdbd-mysql-perl libsoap-lite-perl \
+    libgd-text-perl libtext-csv-xs-perl libjson-xs-perl libgd-graph-perl libapache-dbi-perl
+    </screen>
 </para>
-
-</section>
-
-<section id="installation-on-ubuntu">
-<title>Installation von OTRS auf einem Ubuntu-System</title>
-
-<para>
-Im OTRS-Wiki finden Sie detaillierte Anweisungen für die Installation unter
-Ubuntu: <ulink
-url="http://wiki.otrs.org/index.php?title=Installation_on_Ubuntu_Lucid_Lynx_(10.4)">
-http://wiki.otrs.org/index.php?title=Installation_on_Ubuntu_Lucid_Lynx_(10.4)
-</ulink>.
-</para>
-
 </section>
 
 <section id="installation-on-windows">
@@ -1318,7 +1294,7 @@ und Sie können überprüfen, ob alle Einträge vorhanden sind.
 linux:/opt/otrs/bin# crontab -l -u otrs
 # --
 # cron/aaa_base - base crontab package
-# Copyright (C) 2001-2011 OTRS AG, http://otrs.org/
+# Copyright (C) 2001-2014 OTRS AG, http://otrs.com/
 # --
 # This software comes with ABSOLUTELY NO WARRANTY.
 # --
@@ -1327,7 +1303,7 @@ MAILTO="root@localhost"
 
 # --
 # cron/cache - delete expired cache
-# Copyright (C) 2001-2011 OTRS AG, http://otrs.org/
+# Copyright (C) 2001-2014 OTRS AG, http://otrs.com/
 # This software comes with ABSOLUTELY NO WARRANTY.
 # --
 # delete expired cache weekly (Sunday mornings)
@@ -1336,7 +1312,7 @@ MAILTO="root@localhost"
 
 # --
 # cron/fetchmail - fetchmail cron of the OTRS
-# Copyright (C) 2001-2011 OTRS AG, http://otrs.org/
+# Copyright (C) 2001-2014 OTRS AG, http://otrs.com/
 # --
 # This software comes with ABSOLUTELY NO WARRANTY.
 # --
@@ -1345,7 +1321,7 @@ MAILTO="root@localhost"
 
 # --
 # cron/generic_agent - otrs.GenericAgent.pl cron of the OTRS
-# Copyright (C) 2001-2011 OTRS AG, http://otrs.org/
+# Copyright (C) 2001-2014 OTRS AG, http://otrs.com/
 # --
 # --
 # This software comes with ABSOLUTELY NO WARRANTY.
@@ -1357,7 +1333,7 @@ MAILTO="root@localhost"
 #0 23 * * * $HOME/bin/otrs.GenericAgent.pl -c "Kernel::Config::GenericAgentMove" &gt;&gt; /dev/null
 # --
 # cron/generic_agent - GenericAgent.pl cron of the OTRS
-# Copyright (C) 2001-2011 OTRS AG, http://otrs.org/
+# Copyright (C) 2001-2014 OTRS AG, http://otrs.com/
 # --
 # This software comes with ABSOLUTELY NO WARRANTY.
 # --
@@ -1365,7 +1341,7 @@ MAILTO="root@localhost"
 */10 * * * * $HOME/bin/otrs.GenericAgent.pl -c db &gt;&gt; /dev/null
 # --
 # cron/pending_jobs - pending_jobs cron of the OTRS
-# Copyright (C) 2001-2011 OTRS AG, http://otrs.org/
+# Copyright (C) 2001-2014 OTRS AG, http://otrs.com/
 # --
 # This software comes with ABSOLUTELY NO WARRANTY.
 # --
@@ -1373,7 +1349,7 @@ MAILTO="root@localhost"
 45 */2 * * * $HOME/bin/otrs.PendingJobs.pl &gt;&gt; /dev/null
 # --
 # cron/postmaster - postmaster cron of the OTRS
-# Copyright (C) 2001-2011 OTRS AG, http://otrs.org/
+# Copyright (C) 2001-2014 OTRS AG, http://otrs.com/
 # --
 # This software comes with ABSOLUTELY NO WARRANTY.
 # --
@@ -1382,7 +1358,7 @@ MAILTO="root@localhost"
 10 0 * * * $HOME/bin/otrs.CleanUp.pl &gt;&gt; /dev/null
 # --
 # cron/postmaster_mailbox - postmaster_mailbox cron of the OTRS
-# Copyright (C) 2001-2011 OTRS AG, http://otrs.org/
+# Copyright (C) 2001-2014 OTRS AG, http://otrs.com/
 # --
 # This software comes with ABSOLUTELY NO WARRANTY.
 # --
@@ -1390,7 +1366,7 @@ MAILTO="root@localhost"
 */10 * * * * $HOME/bin/otrs.PostMasterMailbox.pl &gt;&gt; /dev/null
 # --
 # cron/rebuild_ticket_index - rebuild ticket index for OTRS
-# Copyright (C) 2001-2011 OTRS AG, http://otrs.org/
+# Copyright (C) 2001-2014 OTRS AG, http://otrs.com/
 # --
 # This software comes with ABSOLUTELY NO WARRANTY.
 # --
@@ -1399,7 +1375,7 @@ MAILTO="root@localhost"
 
 # --
 # cron/session - delete old session ids of the OTRS
-# Copyright (C) 2001-2011 OTRS AG, http://otrs.org/
+# Copyright (C) 2001-2014 OTRS AG, http://otrs.com/
 # --
 # This software comes with ABSOLUTELY NO WARRANTY.
 # --
@@ -1408,7 +1384,7 @@ MAILTO="root@localhost"
 
 # --
 # cron/unlock - unlock old locked ticket of the OTRS
-# Copyright (C) 2001-2011 OTRS AG, http://otrs.org/
+# Copyright (C) 2001-2014 OTRS AG, http://otrs.com/
 # --
 # This software comes with ABSOLUTELY NO WARRANTY.
 # --
@@ -1600,6 +1576,13 @@ shell&gt; /etc/init.d/apache stop
         </para>
       </listitem>
       <listitem>
+        <para>Check installed packages</para>
+        <para>
+            In the package manager, check if all packages are still marked as correctly
+installed or if any require reinstallation or even a package upgrade.
+        </para>
+      </listitem>
+      <listitem>
         <para>
     Prüfen Sie auf mögliche Kodierungsprobleme:
         </para>
@@ -1743,6 +1726,18 @@ die Zeichenkette <literal>&lt;OTRS_*_UserSalutation&gt;</literal> verwendet
 haben.  Wenn Sie diese Zeichenkette verwendet haben UND die interne
 Kundendatenbank einsetzen, sollten Sie
 <literal>&lt;OTRS_CURRENT_UserTitle&gt;</literal> stattdessen verwenden.
+        </para>
+      </listitem>
+      <listitem>
+        <para>
+            Check Your Cronjobs
+        </para>
+        <para>
+            With OTRS 3.0, some commandline scripts were renamed, such as
+<filename>otrs.PostMaster.pl</filename>.  Please check that your cronjobs
+still use the correct filenames. With RPM upgrades, files such as
+<filename>/etc/sysconfig/otrs</filename> sometimes are not correctly
+overwritten, thus keeping the old cron settings, which may lead to errors.
         </para>
       </listitem>
       <listitem>

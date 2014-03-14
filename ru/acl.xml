@@ -1,6 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <!DOCTYPE chapter PUBLIC "-//OASIS//DTD DocBook XML V4.4//EN" "http://www.oasis-open.org/docbook/xml/4.4/docbookx.dtd">
-<!-- $Id: acl.xml,v 1.12.2.2 2011-08-02 12:48:18 mg Exp $ -->
 <chapter id="acl" >
 <title>Списки Контроля Доступа (ACLs)</title>
 
@@ -71,24 +70,28 @@ linkend="adminarea-sysconfig">Интерфейс SysConfig</link>, а должн
             },
             # possible action options
             Action => {
-                AgentTicketLock => 1,
-                AgentTicketZoom => 1,
-                AgentTicketClose => 0,
-                AgentTicketPending => 1,
-                AgentTicketNote => 1,
-                AgentTicketHistory => 1,
-                AgentTicketPriority => 1,
-                AgentTicketFreeText => 1,
-                AgentTicketHistory => 1,
-                AgentTicketCompose => 1,
-                AgentTicketBounce => 1,
-                AgentTicketTicketPrint => 1,
-                AgentTicketForward => 1,
-                AgentTicketTicketLink => 1,
-                AgentTicketPrint => 1,
-                AgentTicketPhone => 1,
-                AgentTicketCustomer => 1,
-                AgentTicketOwner => 1,
+                AgentTicketBounce        => 1,
+                AgentTicketClose         => 0,
+                AgentTicketCompose       => 1,
+                AgentTicketCustomer      => 1,
+                AgentTicketForward       => 1,
+                AgentTicketFreeText      => 1,
+                AgentTicketHistory       => 1,
+                AgentTicketLink          => 1,
+                AgentTicketLock          => 1,
+                AgentTicketMerge         => 1,
+                AgentTicketMove          => 1,
+                AgentTicketNote          => 1,
+                AgentTicketOwner         => 1,
+                AgentTicketPending       => 1,
+                AgentTicketPhone         => 1,
+                AgentTicketPhoneOutbound => 1,
+                AgentTicketPrint         => 1,
+                AgentTicketPriority      => 1,
+                AgentTicketResponsible   => 1,
+                AgentTicketWatcher       => 1,
+                AgentTicketZoom          => 1,
+                AgentLinkObject          => 1,
             },
         },
     };
@@ -111,6 +114,31 @@ linkend="adminarea-sysconfig">Интерфейс SysConfig</link>, а должн
             # possible ticket options
             Ticket => {
                 State => ['closed successful'],
+            },
+        },
+    };
+</programlisting></example>
+</para>
+
+<para>
+<example id="acl-new-ticket-service" >
+<title>ACL only showing Hardware services for tickets that are created in queues
+that start with &quot;HW&quot;.</title>
+
+<programlisting>
+    $Self->{TicketAcl}->{'Only-Hardware-Services-for-HW-Queues'} = {
+        # match properties
+        # note we don't have "Ticket => {" because there's no ticket yet
+        Properties => {
+        Queue => {
+            Name => ['[RegExp]HW'],
+            }
+        },
+        # return possible options
+        Possible => {
+            # possible ticket options
+            Ticket => {
+                Service => ['[RegExp]^(Hardware)'],
             },
         },
     };
@@ -160,8 +188,8 @@ linkend="adminarea-sysconfig">Интерфейс SysConfig</link>, а должн
         Possible => {
             # possible ticket options (white list)
             Ticket => {
-                Queue => ['Hotline', 'Koordination'],
-                State => => ['some state'],
+                Queue => ['Hotline', 'Coordination'],
+                State => ['some state'],
                 Priority => ['5 very high'],
                 TicketFreeKey1 => ['some key'],
                 TicketFreeKey2 => ['some key'],
@@ -174,31 +202,35 @@ linkend="adminarea-sysconfig">Интерфейс SysConfig</link>, а должн
             },
             # possible action options (white list)
             Action => {
-                AgentTicketLock => 1,
-                AgentTicketZoom => 1,
-                AgentTicketClose => 1,
-                AgentTicketPending => 0,
-                AgentTicketNote => 1,
-                AgentTicketHistory => 0,
-                AgentTicketPriority => 1,
-                AgentTicketFreeText => 0,
-                AgentTicketHistory => 1,
-                AgentTicketCompose => 1,
-                AgentTicketBounce => 1,
-                AgentTicketTicketPrint => 0,
-                AgentTicketForward => 1,
-                AgentTicketTicketLink => 1,
-                AgentTicketPrint => 1,
-                AgentTicketPhone => 1,
-                AgentTicketCustomer => 1,
-                AgentTicketOwner => 0,
+                AgentTicketBounce        => 1,
+                AgentTicketClose         => 1,
+                AgentTicketCompose       => 1,
+                AgentTicketCustomer      => 1,
+                AgentTicketForward       => 1,
+                AgentTicketFreeText      => 0,
+                AgentTicketHistory       => 0,
+                AgentTicketLink          => 1,
+                AgentTicketLock          => 1,
+                AgentTicketMerge         => 1,
+                AgentTicketMove          => 1,
+                AgentTicketNote          => 1,
+                AgentTicketOwner         => 0,
+                AgentTicketPending       => 0,
+                AgentTicketPhone         => 1,
+                AgentTicketPhoneOutbound => 1,
+                AgentTicketPrint         => 0,
+                AgentTicketPriority      => 1,
+                AgentTicketResponsible   => 1,
+                AgentTicketWatcher       => 1,
+                AgentTicketZoom          => 1,
+                AgentLinkObject          => 1,
             },
         },
         # remove options (black list)
         PossibleNot => {
             # possible ticket options (black list)
             Ticket => {
-                Queue => ['Hotline', 'Koordination'],
+                Queue => ['Hotline', 'Coordination'],
                 State => ['closed', 'removed'],
             },
         },
