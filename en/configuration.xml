@@ -1,7 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <!DOCTYPE chapter PUBLIC "-//OASIS//DTD DocBook XML V4.4//EN"
   "http://www.oasis-open.org/docbook/xml/4.4/docbookx.dtd">
-<!-- $Id: configuration.xml,v 1.10 2011-05-31 12:49:34 mg Exp $ -->
 
 <chapter id="configuration">
 <title>System Configuration</title>
@@ -43,7 +42,7 @@ Since OTRS 2.0, nearly all configuration parameters of the central framework or 
 </para>
 
 <para>
-	<emphasis>Figure 6.1. The graphical interface for system configuration.</emphasis>
+    <emphasis>Figure 6.1. The graphical interface for system configuration.</emphasis>
 </para>
 
 <para>

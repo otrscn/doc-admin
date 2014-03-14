@@ -3,7 +3,6 @@
   "http://www.oasis-open.org/docbook/xml/4.4/docbookx.dtd">
 
 
-<!-- $Id: themes.xml,v 1.24.2.2 2011-08-02 12:48:19 mg Exp $ -->
 <chapter id="themes">
 <title>Erstellung eigener Themes</title>
 
@@ -37,7 +36,7 @@ Dateien, die Sie für das Company-Theme anpassen möchten, aus
 Verzeichnis.
     </para>
     <important><para>
-		Kopieren Sie nur diejenigen Dateien, die Sie verändern möchten. Fehlende
+        Kopieren Sie nur diejenigen Dateien, die Sie verändern möchten. Fehlende
 Dateien wird OTRS automatisch vom Standard-Theme laden. Dadurch werden
 Systemaktualisierungen vereinfacht.</para></important>
 </listitem>

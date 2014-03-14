@@ -3,7 +3,6 @@
   "http://www.oasis-open.org/docbook/xml/4.4/docbookx.dtd">
 
 
-<!-- $Id: external-backends.xml,v 1.12.2.2 2011-08-02 12:48:18 mg Exp $ -->
 <chapter id="external-backends">
 <title>Использование внешних хранилищ данных</title>
 
@@ -275,7 +274,7 @@ linux:~#
 </para>
 
 <para>
-	<emphasis>Сценарий 11.4. Добавление поля customer_ids в таблицу
+    <emphasis>Сценарий 11.4. Добавление поля customer_ids в таблицу
 customer_user.</emphasis>
 </para>
 

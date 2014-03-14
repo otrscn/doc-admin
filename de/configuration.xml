@@ -3,7 +3,6 @@
   "http://www.oasis-open.org/docbook/xml/4.4/docbookx.dtd">
 
 
-<!-- $Id: configuration.xml,v 1.32.2.2 2011-08-02 12:48:19 mg Exp $ -->
 <chapter id="configuration">
 <title>Systemkonfiguration</title>
 
@@ -72,7 +71,7 @@ screenshot" scale="40" fileref="screenshots/admin-sysconfig.png"></graphic></scr
 </para>
 
 <para>
-	<emphasis>Abb. 6.1. Die grafische
+    <emphasis>Abb. 6.1. Die grafische
 System-Konfigurationsoberfläche.</emphasis>
 </para>
 

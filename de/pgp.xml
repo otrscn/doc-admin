@@ -3,7 +3,6 @@
   "http://www.oasis-open.org/docbook/xml/4.4/docbookx.dtd">
 
 
-<!-- $Id: pgp.xml,v 1.25.2.2 2011-08-02 12:48:19 mg Exp $ -->
 <chapter id='configure-pgp'>
 <title>PGP</title>
 
@@ -125,7 +124,7 @@ Schlüssel erzeugt. Der Aufruf muss als Benutzer 'otrs' durchgeführt werden.
     </para>
 
     <para>
-		Wie man sehen kann, genügt es bei den meisten Fragen die Vorgabe mit
+        Wie man sehen kann, genügt es bei den meisten Fragen die Vorgabe mit
 &lt;EINGABE&gt; zu bestätigen. Lediglich die Angabe zur Person des
 Schlüsselbesitzers ist zu vervollständigen bzw. zum Ende hin ist an der mit
 (passphrase) gekennzeichneten Stelle die Passphrase für den zu generierenden
@@ -158,7 +157,7 @@ automatisch von GnuPG angelegt.
     </para>
 
     <para>
-		Über die letzte Option können die <link
+        Über die letzte Option können die <link
 linkend="Framework:Crypt::PGP:PGP::Key::Password">Schlüssel-Werte-Paare für
 die ID(s) und Passphrase(n)</link> der eigenen PGP-Schlüssel dem Ticket
 System bekannt gemacht werden. Noch einmal genauer: da andere

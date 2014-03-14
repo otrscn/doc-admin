@@ -3,7 +3,6 @@
   "http://www.oasis-open.org/docbook/xml/4.4/docbookx.dtd">
 
 
-<!-- $Id: performance-tuning.xml,v 1.31.2.2 2011-08-02 12:48:19 mg Exp $ -->
 <chapter id="performance-tuning">
 <title>Leistungsverbesserung</title>
 
@@ -107,7 +106,7 @@ vorzugsweise ein SAN oder eine vergleichbare Lösung legen.
 </para>
 
 <para>
-	Merke: Sie können während des Betriebs von einem Backend auf das andere
+    Merke: Sie können während des Betriebs von einem Backend auf das andere
 wechseln. Stellen Sie dazu das Backend in der SysConfig um, und führen Sie
 <filename>otrs.ArticleStorageSwitch.pl</filename> aus, um die Artikel aus
 der Datenbank ins Dateisystem zu überführen oder umgekehrt. Sie können die

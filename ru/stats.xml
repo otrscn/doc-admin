@@ -3,7 +3,6 @@
   "http://www.oasis-open.org/docbook/xml/4.4/docbookx.dtd">
 
 
-<!-- $Id: stats.xml,v 1.12.2.2 2011-08-02 12:48:18 mg Exp $ -->
 <chapter id="statistic-module">
 <title>Stats-модуль</title>
 
@@ -692,7 +691,7 @@ srccredit="stats-edit-general - Screenshot" /></screenshot>
         </listitem>
         <listitem>
             <para>
-							<emphasis>Действительный</emphasis>. Устанавливается в значение
+                            <emphasis>Действительный</emphasis>. Устанавливается в значение
 "недействительный" если ранее сконфигурированный отчет по какой то причине
 не должен выполнятся. Кнопка "Статистика" также не отображатеся  в правом
 нижнем углу блока. Отчет больше не генерируется.

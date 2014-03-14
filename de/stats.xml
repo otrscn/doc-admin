@@ -3,7 +3,6 @@
   "http://www.oasis-open.org/docbook/xml/4.4/docbookx.dtd">
 
 
-<!-- $Id: stats.xml,v 1.28.2.2 2011-08-02 12:48:19 mg Exp $ -->
 <chapter id="statistic-module">
 <title>Statistikmodul</title>
 
@@ -708,7 +707,7 @@ gecachten Daten wieder gelöscht.
         </listitem>
         <listitem>
             <para>
-							<emphasis>Gültig</emphasis>. Ist eine vorkonfigurierte Statistik erst im
+                            <emphasis>Gültig</emphasis>. Ist eine vorkonfigurierte Statistik erst im
 Entstehen oder darf sie aus bestimmten Gründen temporär nicht mehr
 ausgeführt werden so wird das Element "Gültig" auf "ungültig"
 gesetzt. Ferner wird dadurch die Schaltfläche "Start" rechts unten am Ende
