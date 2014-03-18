@@ -18219,11 +18219,6 @@ msgstr ""
 "<citetitle>http://lists.otrs.org/cgi-bin/listinfo/otrs</citetitle> </ulink>"
 
 #. type: Content of: <appendix><section><para><table><tgroup><tbody><row><entry>
-#: en/additional-resources.xml:85
-msgid "otrs-de@otrs.org"
-msgstr "ç"
-
-#. type: Content of: <appendix><section><para><table><tgroup><tbody><row><entry>
 #: en/additional-resources.xml:88
 msgid ""
 "Medium to high traffic list, in German, where you can find all sorts of "
