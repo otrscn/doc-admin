@@ -3,7 +3,6 @@
   "http://www.oasis-open.org/docbook/xml/4.4/docbookx.dtd">
 
 
-<!-- $Id: installation-and-basic-configuration.xml,v 1.77.2.3 2012-12-17 14:08:31 mg Exp $ -->
 <chapter id="installation">
 <title>Установка</title>
 
@@ -51,8 +50,8 @@ OTRS, настройка планировщика задач cron jobs для OT
 This section demonstrates the installation of a pre-built RPM package on a
 SUSE Linux distro. We have tested against all recent SLES and openSUSE
 versions. Before you start the installation, please have a look at <ulink
-url="http://www.otrs.org/downloads">
-<citetitle>http://www.otrs.org/downloads</citetitle> </ulink> and check if a
+url="http://www.otrs.com/try/">
+<citetitle>http://www.otrs.com/try/</citetitle> </ulink> and check if a
 newer OTRS RPM package is available. Always use the latest RPM package.
 </para>
 
@@ -212,8 +211,8 @@ http://wiki.otrs.org/index.php?title=Installation_on_Ubuntu_Lucid_Lynx_(10.4)
 
 <para>
 Устанавливать OTRS в операционной системе Microsoft Windows очень легко и
-просто. Перейдя по ссылке <ulink url="http://www.otrs.org/downloads/">
-<citetitle>http://www.otrs.org/downloads/</citetitle> </ulink> загрузите
+просто. Перейдя по ссылке <ulink url="http://www.otrs.com/try/">
+<citetitle>http://www.otrs.com/try/</citetitle> </ulink> загрузите
 последнюю версию установщика для Win32-платформы и сохраните файл на жестком
 диске компьютера. Затем просто запустите установочный файл и выполните все
 шаги, предложеные мастером установки. После этого можно войти в OTRS с
@@ -255,8 +254,8 @@ Windows<application>Cron</application>. Именно по этой причин�
 
 <para>
 Если вы решили устанавливать OTRS из исходных кодов, перейдите по ссылке
-<ulink url="http://www.otrs.org/downloads/">
-<citetitle>http://www.otrs.org/downloads/</citetitle> </ulink> и загрузите
+<ulink url="http://www.otrs.com/try/">
+<citetitle>http://www.otrs.com/try/</citetitle> </ulink> и загрузите
 архив с исходными кодами в любом удобном для вас формате: .tar.gz, .tar.bz2,
 или .zip
 </para>
@@ -455,7 +454,7 @@ MD5
         </entry>
         <entry>
           Уменьшение размера JavaScript-файла и запись выходного потока напрямую в
-другой файл. 
+другой файл.
         </entry>
       </row>
       <row>
@@ -1305,7 +1304,7 @@ all entries are placed correctly (see Script below).
 linux:/opt/otrs/bin# crontab -l -u otrs
 # --
 # cron/aaa_base - base crontab package
-# Copyright (C) 2001-2012 OTRS AG, http://otrs.org/
+# Copyright (C) 2001-2014 OTRS AG, http://otrs.com/
 # --
 # This software comes with ABSOLUTELY NO WARRANTY.
 # --
@@ -1314,7 +1313,7 @@ MAILTO="root@localhost"
 
 # --
 # cron/cache - delete expired cache
-# Copyright (C) 2001-2012 OTRS AG, http://otrs.org/
+# Copyright (C) 2001-2014 OTRS AG, http://otrs.com/
 # This software comes with ABSOLUTELY NO WARRANTY.
 # --
 # delete expired cache weekly (Sunday mornings)
@@ -1323,7 +1322,7 @@ MAILTO="root@localhost"
 
 # --
 # cron/fetchmail - fetchmail cron of the OTRS
-# Copyright (C) 2001-2012 OTRS AG, http://otrs.org/
+# Copyright (C) 2001-2014 OTRS AG, http://otrs.com/
 # --
 # This software comes with ABSOLUTELY NO WARRANTY.
 # --
@@ -1332,7 +1331,7 @@ MAILTO="root@localhost"
 
 # --
 # cron/generic_agent - otrs.GenericAgent.pl cron of the OTRS
-# Copyright (C) 2001-2012 OTRS AG, http://otrs.org/
+# Copyright (C) 2001-2014 OTRS AG, http://otrs.com/
 # --
 # --
 # This software comes with ABSOLUTELY NO WARRANTY.
@@ -1344,7 +1343,7 @@ MAILTO="root@localhost"
 #0 23 * * * $HOME/bin/otrs.GenericAgent.pl -c "Kernel::Config::GenericAgentMove" &gt;&gt; /dev/null
 # --
 # cron/generic_agent - GenericAgent.pl cron of the OTRS
-# Copyright (C) 2001-2012 OTRS AG, http://otrs.org/
+# Copyright (C) 2001-2014 OTRS AG, http://otrs.com/
 # --
 # This software comes with ABSOLUTELY NO WARRANTY.
 # --
@@ -1352,7 +1351,7 @@ MAILTO="root@localhost"
 */10 * * * * $HOME/bin/otrs.GenericAgent.pl -c db &gt;&gt; /dev/null
 # --
 # cron/pending_jobs - pending_jobs cron of the OTRS
-# Copyright (C) 2001-2012 OTRS AG, http://otrs.org/
+# Copyright (C) 2001-2014 OTRS AG, http://otrs.com/
 # --
 # This software comes with ABSOLUTELY NO WARRANTY.
 # --
@@ -1360,7 +1359,7 @@ MAILTO="root@localhost"
 45 */2 * * * $HOME/bin/otrs.PendingJobs.pl &gt;&gt; /dev/null
 # --
 # cron/postmaster - postmaster cron of the OTRS
-# Copyright (C) 2001-2012 OTRS AG, http://otrs.org/
+# Copyright (C) 2001-2014 OTRS AG, http://otrs.com/
 # --
 # This software comes with ABSOLUTELY NO WARRANTY.
 # --
@@ -1369,7 +1368,7 @@ MAILTO="root@localhost"
 10 0 * * * $HOME/bin/otrs.CleanUp.pl &gt;&gt; /dev/null
 # --
 # cron/postmaster_mailbox - postmaster_mailbox cron of the OTRS
-# Copyright (C) 2001-2012 OTRS AG, http://otrs.org/
+# Copyright (C) 2001-2014 OTRS AG, http://otrs.com/
 # --
 # This software comes with ABSOLUTELY NO WARRANTY.
 # --
@@ -1377,7 +1376,7 @@ MAILTO="root@localhost"
 */10 * * * * $HOME/bin/otrs.PostMasterMailbox.pl &gt;&gt; /dev/null
 # --
 # cron/rebuild_ticket_index - rebuild ticket index for OTRS
-# Copyright (C) 2001-2012 OTRS AG, http://otrs.org/
+# Copyright (C) 2001-2014 OTRS AG, http://otrs.com/
 # --
 # This software comes with ABSOLUTELY NO WARRANTY.
 # --
@@ -1386,7 +1385,7 @@ MAILTO="root@localhost"
 
 # --
 # cron/session - delete old session ids of the OTRS
-# Copyright (C) 2001-2012 OTRS AG, http://otrs.org/
+# Copyright (C) 2001-2014 OTRS AG, http://otrs.com/
 # --
 # This software comes with ABSOLUTELY NO WARRANTY.
 # --
@@ -1395,7 +1394,7 @@ MAILTO="root@localhost"
 
 # --
 # cron/unlock - unlock old locked ticket of the OTRS
-# Copyright (C) 2001-2012 OTRS AG, http://otrs.org/
+# Copyright (C) 2001-2014 OTRS AG, http://otrs.com/
 # --
 # This software comes with ABSOLUTELY NO WARRANTY.
 # --
