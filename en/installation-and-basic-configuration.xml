@@ -35,8 +35,8 @@ You should use pre-built packages to install OTRS, since it is the simplest and 
 
 <para>
 This section demonstrates the installation of a pre-built RPM package on a SUSE Linux distro. We have tested against all recent SLES and OpenSUSE versions. Before you start the installation, please have a look at
-<ulink url="http://www.otrs.org/downloads">
-    <citetitle>http://www.otrs.org/downloads</citetitle>
+<ulink url="http://www.otrs.com/try/">
+    <citetitle>http://www.otrs.com/try/</citetitle>
 </ulink>
 and check if a newer OTRS RPM package is available. Always use the latest RPM package.
 </para>
@@ -166,8 +166,8 @@ apt-get install libapache2-mod-perl2 libdbd-mysql-perl libtimedate-perl libnet-d
 
 <para>
 Installing OTRS on a Microsoft Windows system is very easy. Download the latest installer for Win32 from
-<ulink url="http://www.otrs.org/downloads/">
-    <citetitle>http://www.otrs.org/downloads/</citetitle>
+<ulink url="http://www.otrs.com/try/">
+    <citetitle>http://www.otrs.com/try/</citetitle>
 </ulink>
 and save the file to your local file system. Then simply double-click on the file to execute the installer, and follow the few installation steps to setup the system. After that you will be able to login as OTRS administrator and
 configure the system according to your needs. To log in as OTRS administrator use the username 'root@localhost' and the default password 'root'.
@@ -199,8 +199,8 @@ web server, the <application>MySQL</application> database server, <application>P
 
 <para>
 If you want to install OTRS from source, first download the source archive as .tar.gz, .tar.bz2, or .zip file from
-<ulink url="http://www.otrs.org/downloads/">
-<citetitle>http://www.otrs.org/downloads/</citetitle>
+<ulink url="http://www.otrs.com/try/">
+<citetitle>http://www.otrs.com/try/</citetitle>
 </ulink>
 </para>
 

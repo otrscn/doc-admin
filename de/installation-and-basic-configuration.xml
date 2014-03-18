@@ -54,7 +54,7 @@ Dieser Abschnitt beinhaltet die Anleitung für die Installation von OTRS
 unter SUSE Linux. Getestet wurden die Versionen auf allen aktuellen
 Versionen von SLES und OpenSUSE. Bevor Sie mit der Installation beginnen,
 sehen Sie bitte unter <ulink
-url="http://www.otrs.org/downloads"><citetitle>http://www.otrs.org/downloads</citetitle></ulink>
+url="http://www.otrs.com/try/"><citetitle>http://www.otrs.com/try/</citetitle></ulink>
 nach, ob eine aktuellere Version von OTRS als .rpm-Datei vorliegt. Sollte
 dies der Fall sein, verwenden Sie bitte diese neuere Version.
 </para>
@@ -201,7 +201,7 @@ apt-get install libapache2-mod-perl2 libdbd-mysql-perl libtimedate-perl libnet-d
 <para>
 Die Installation von OTRS unter Microsoft Windows ist denkbar einfach. Laden
 Sie den auf <ulink
-url="http://www.otrs.org/downloads/"><citetitle>http://www.otrs.org/downloads/</citetitle></ulink>
+url="http://www.otrs.com/try/"><citetitle>http://www.otrs.com/try/</citetitle></ulink>
 bereit gestellten Installer herunter und speichern Sie die
 Datei. Anschließend führen Sie den Installer einfach aus und folgen den
 einzelnen Installationsschritten. Danach können Sie sich als
@@ -244,7 +244,7 @@ nur auf solchen Windowssystemen zu installieren, auf denen noch kein
 Wenn Sie OTRS manuell über die Quellen installieren möchten oder müssen,
 laden Sie sich zuerst das aktuelle Archiv herunter. Sie finden die
 entsprechenden .tar.gz- oder .tar.bz2-Dateien im Downloadbereich auf <ulink
-url="http://www.otrs.org/downloads/"><citetitle>http://www.otrs.org/downloads</citetitle></ulink>.
+url="http://www.otrs.com/try/"><citetitle>http://www.otrs.com/try/</citetitle></ulink>.
 </para>
 
 <para>
