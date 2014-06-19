@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OTRS Manual\n"
 "POT-Creation-Date: 2014-04-29 15:27+0300\n"
-"PO-Revision-Date: 2014-06-19 15:56+0800\n"
+"PO-Revision-Date: 2014-06-19 16:18+0800\n"
 "Last-Translator: 陈德文 <sggggy@gmail.com>\n"
 "Language-Team: LANGUAGE <sggggy@gmail.com>\n"
 "Language: zh_CN\n"
@@ -1172,6 +1172,8 @@ msgid ""
 "Complex scenarios can be realized by plugging in custom OTRS extensions that "
 "add perl code to the GI infrastructure on different architectural layers."
 msgstr ""
+"复杂场景可以通过安装OTRS扩展实现，扩展是用perl语言编写，支持不同架构层与GI配"
+"合使用。"
 
 #. type: Content of: <section><section><section><section><itemizedlist><listitem><para>
 #: en/content/introduction/otrs.xml:367
@@ -1181,6 +1183,9 @@ msgid ""
 "update function, so that they can be used in a web service regardless which "
 "network transport is used."
 msgstr ""
+"<emphasis>连接器</emphasis> 是OTRS通用接口网络服务的部分功能。例如，工单连接"
+"器可以实现创建/更新工单的功能， 所以它可以被作为一个网络服务器使用，无须了解"
+"那个网络传输被使用。"
 
 #. type: Content of: <section><section><section><section><itemizedlist><listitem><para>
 #: en/content/introduction/otrs.xml:372
