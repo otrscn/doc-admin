@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OTRS Manual\n"
 "POT-Creation-Date: 2014-04-29 15:27+0300\n"
-"PO-Revision-Date: 2014-06-19 16:18+0800\n"
+"PO-Revision-Date: 2014-06-19 16:34+0800\n"
 "Last-Translator: 陈德文 <sggggy@gmail.com>\n"
 "Language-Team: LANGUAGE <sggggy@gmail.com>\n"
 "Language: zh_CN\n"
@@ -1196,6 +1196,9 @@ msgid ""
 "been created). Otherwise, it might block the response, resulting in "
 "increased response times for the agent."
 msgstr ""
+"计划任务守护进程提供了异步事件处理支持。在通过OTRS向另外的系统异步启动网络服"
+"务请求时很有效，当支持人员的请求被答复后(例如，当工单被创建)。否则，它可能会"
+"阻止回复，导致支持人员响应时间延长。"
 
 #. type: Content of: <section><section><section><section><para>
 #: en/content/introduction/otrs.xml:378
@@ -1205,16 +1208,18 @@ msgid ""
 "to create a new web service. When configuring a new web service connection, "
 "the administrator has to add:"
 msgstr ""
+"利用通用接口，新的网络服务可以轻松利用现有的OTRS模块配置，无须编码。可以将它"
+"们组合为新的网络服务。在配置新的网络服务连接时，管理员需要在管理界面添加："
 
 #. type: Content of: <section><section><section><section><itemizedlist><listitem><para>
 #: en/content/introduction/otrs.xml:383
 msgid "A new web service in the admin GUI"
-msgstr ""
+msgstr "新的网络服务"
 
 #. type: Content of: <section><section><section><section><itemizedlist><listitem><para>
 #: en/content/introduction/otrs.xml:386
 msgid "The basic meta data (Transport type (SOAP), URL etc.) and"
-msgstr ""
+msgstr "基础源数据(传输类型(SOAP)、URL等)以及"
 
 #. type: Content of: <section><section><section><section><itemizedlist><listitem><para>
 #: en/content/introduction/otrs.xml:389
