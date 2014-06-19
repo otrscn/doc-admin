@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OTRS Manual\n"
 "POT-Creation-Date: 2014-04-29 15:27+0300\n"
-"PO-Revision-Date: 2014-06-19 13:37+0800\n"
+"PO-Revision-Date: 2014-06-19 15:56+0800\n"
 "Last-Translator: 陈德文 <sggggy@gmail.com>\n"
 "Language-Team: LANGUAGE <sggggy@gmail.com>\n"
 "Language: zh_CN\n"
@@ -626,10 +626,9 @@ msgid ""
 "updating and searching of tickets, via web services from a third party "
 "application."
 msgstr ""
-"使用GenericInterface接口可以很容易连接OTRS与其他的网络服务。简单的网络服务可"
-"以直接集成无须编码，复杂的场景，可以自定义扩展插件。OTRS Ticket连接器(The "
-"OTRS Ticket connector)支持通过网络服务，让第三方应用程序创建、更新与搜索票"
-"单。"
+"使用通用接口可以很容易连接OTRS与其他的网络服务。简单的网络服务可以直接集成无"
+"须编码，复杂的场景，可以自定义扩展插件。OTRS Ticket连接器(The OTRS Ticket "
+"connector)支持通过网络服务，让第三方应用程序创建、更新与搜索票单。"
 
 #. type: Content of: <section><section><section><para>
 #: en/content/introduction/otrs.xml:203
@@ -981,26 +980,26 @@ msgstr ""
 msgid ""
 "There is a new out-of-office dashboard widget that lists all currently "
 "unavailable agent colleagues."
-msgstr ""
+msgstr "新版仪表板插件可以显示所有当前处于\"不在办公司\"状态的支持人员同事。"
 
 #. type: Content of: <section><section><section><section><section><itemizedlist><listitem><para>
 #: en/content/introduction/otrs.xml:294
 msgid ""
 "New CKEditor 4 makes working with rich text content (such as HTML emails) "
 "easier and more stable."
-msgstr ""
+msgstr "新版CKEditor 4与富文本内容能更融洽相处(如HTML邮件)，也更稳定。"
 
 #. type: Content of: <section><section><section><section><section><title>
 #: en/content/introduction/otrs.xml:298
 msgid "Administration improvements"
-msgstr ""
+msgstr "管理功能改进"
 
 #. type: Content of: <section><section><section><section><section><itemizedlist><listitem><para>
 #: en/content/introduction/otrs.xml:300
 msgid ""
 "Event Based notifications can now be sent out only for specific Article "
 "Sender Types."
-msgstr ""
+msgstr "基于事件的通知现在可以针对具体文档发送者类型发送。"
 
 #. type: Content of: <section><section><section><section><section><itemizedlist><listitem><para>
 #: en/content/introduction/otrs.xml:301
@@ -1010,6 +1009,8 @@ msgid ""
 "for tickets 'created last week', or generate a report that shows tickets "
 "created per queue per week."
 msgstr ""
+"OTRS的状态统计引擎不仅支持按日、月、年查询，现在还支持按周查询。举例来说，报"
+"表\"上周创建的工单\"，或每个队列每周的工单数量都受益于此功能。"
 
 #. type: Content of: <section><section><section><section><section><itemizedlist><listitem><para>
 #: en/content/introduction/otrs.xml:302
@@ -1018,28 +1019,30 @@ msgid ""
 "Kernel/Output/HTML</code>, so that they override the system's default DTL "
 "files just as how this already works for Perl files."
 msgstr ""
+"可以将自定义的DTL(模版)文件保存在 <code>Custom/Kernel/Output/HTML</code>目录"
+"下，这样可以覆盖系统默认的DTL文件并自动生效。"
 
 #. type: Content of: <section><section><section><section><section><itemizedlist><listitem><para>
 #: en/content/introduction/otrs.xml:303
 msgid ""
 "In AdminSMIME it is now possible to display human readable certificate "
 "contents."
-msgstr ""
+msgstr "在AdminSMIME中，已经可以显示方便管理员阅读的认证内容。"
 
 #. type: Content of: <section><section><section><section><section><itemizedlist><listitem><para>
 #: en/content/introduction/otrs.xml:304
 msgid "SysConfig now supports config setting types Date and DateTime."
-msgstr ""
+msgstr "系统配置中现已支持设置日期与日期时间类型。"
 
 #. type: Content of: <section><section><section><section><title>
 #: en/content/introduction/otrs.xml:309
 msgid "Better scalability"
-msgstr ""
+msgstr "更好的可扩展性"
 
 #. type: Content of: <section><section><section><section><section><title>
 #: en/content/introduction/otrs.xml:311
 msgid "Ticket Archiving Improved"
-msgstr ""
+msgstr "工单归档功能改进"
 
 #. type: Content of: <section><section><section><section><section><itemizedlist><listitem><para>
 #: en/content/introduction/otrs.xml:313
@@ -1049,44 +1052,46 @@ msgid ""
 "is active by default and helps reduce the amount of data in the database on "
 "large systems with many tickets and agents."
 msgstr ""
+"当工单被归档后，支持人员查看工单与文档的记录，以及订阅此工单的支持人员记录可"
+"以被删除。"
 
 #. type: Content of: <section><section><section><section><section><itemizedlist><listitem><para>
 #: en/content/introduction/otrs.xml:314
 msgid ""
 "There is also a new script to remove this data from existing archived "
 "tickets."
-msgstr ""
+msgstr "提供了新脚本支持删除上述的数据。"
 
 #. type: Content of: <section><section><section><section><section><itemizedlist><listitem><para>
 #: en/content/introduction/otrs.xml:315
 msgid "Archived tickets are now always shown as 'read' by the agent."
-msgstr ""
+msgstr "归档工单现在总是对具有\"读\"权限的支持人员可见。"
 
 #. type: Content of: <section><section><section><section><section><title>
 #: en/content/introduction/otrs.xml:319
 msgid "Performance Improvements"
-msgstr ""
+msgstr "性能改进"
 
 #. type: Content of: <section><section><section><section><section><itemizedlist><listitem><para>
 #: en/content/introduction/otrs.xml:321
 msgid ""
 "Session management is up to 10 times faster, especially with many active "
 "users."
-msgstr ""
+msgstr "会话管理比之前快了10倍，尤其是在拥有许多活跃用户的情况下。"
 
 #. type: Content of: <section><section><section><section><section><itemizedlist><listitem><para>
 #: en/content/introduction/otrs.xml:322
 msgid ""
 "It is now possible to limit the number of concurrent agents and/or users to "
 "avoid server capacity overload."
-msgstr ""
+msgstr "现在已经可以支持限制同时在线的支持人员和用户数量，避免服务器性能过载。"
 
 #. type: Content of: <section><section><section><section><section><itemizedlist><listitem><para>
 #: en/content/introduction/otrs.xml:324
 msgid ""
 "Significant reduction in the number of executed database statements in "
 "ticket overviews and ticket masks in agent and customer frontend."
-msgstr ""
+msgstr "显著降低支持人员与用户在查阅与处理工单时对数据库执行语句的次数。"
 
 #. type: Content of: <section><section><section><section><section><itemizedlist><listitem><para><itemizedlist><listitem><para>
 #: en/content/introduction/otrs.xml:326
@@ -1095,26 +1100,28 @@ msgid ""
 "In some cases OTRS will become visibly more responsive (if the system was "
 "slowed down by the DB load or latency)."
 msgstr ""
+"这将降低数据库服务器负载，尤其是大规模环境下。某些情况下OTRS可能会对此更敏感"
+"(如果系统被数据库负载或延时影响)。"
 
 #. type: Content of: <section><section><section><section><section><itemizedlist><listitem><para>
 #: en/content/introduction/otrs.xml:330
 msgid "Improved performance of LDAP user synchronization."
-msgstr ""
+msgstr "改善LDAP用户同步性能。"
 
 #. type: Content of: <section><section><section><section><section><itemizedlist><listitem><para>
 #: en/content/introduction/otrs.xml:331
 msgid "Improved cache performance with many cache files."
-msgstr ""
+msgstr "利用缓存文件改善缓存性能"
 
 #. type: Content of: <section><section><section><section><title>
 #: en/content/introduction/otrs.xml:336
 msgid "More Interoperable"
-msgstr ""
+msgstr "更高的可互操作性"
 
 #. type: Content of: <section><section><section><section><section><title>
 #: en/content/introduction/otrs.xml:338
 msgid "FAQ Connector for the GenericInterface"
-msgstr ""
+msgstr "通用接口与FAQ连接器"
 
 #. type: Content of: <section><section><section><section><section><itemizedlist><listitem><para>
 #: en/content/introduction/otrs.xml:340
@@ -1123,23 +1130,25 @@ msgid ""
 "database) via web service (GenericInterface). This can be useful to embed "
 "FAQ articles on your company website, for example."
 msgstr ""
+"现在可以通过网络服务(通用接口)访问FAQ模块(OTRS知识库)的数据库。比如可以方便将"
+"FAQ文章嵌入公司网站。"
 
 #. type: Content of: <section><section><section><title>
 #: en/content/introduction/otrs.xml:347
 msgid "New features of OTRS 3.1"
-msgstr ""
+msgstr "OTRS 3.1的新功能"
 
 #. type: Content of: <section><section><section><section><title>
 #: en/content/introduction/otrs.xml:350
 msgid "GENERIC INTERFACE - A Web Service Framework"
-msgstr ""
+msgstr "通用接口——网络服务框架"
 
 #. type: Content of: <section><section><section><section><itemizedlist><listitem><para>
 #: en/content/introduction/otrs.xml:353
 msgid ""
 "GI is a flexible framework to allow web service interconnections of OTRS "
 "with third party applications."
-msgstr ""
+msgstr "GI是OTRS提供给第三方应用程序的灵活框架，可以调用网络服务连接。"
 
 #. type: Content of: <section><section><section><section><itemizedlist><listitem><para>
 #: en/content/introduction/otrs.xml:356
@@ -1147,13 +1156,15 @@ msgid ""
 "OTRS can act in both ways - as a provider (server, requested from remote) or "
 "requester (client, requesting remotely)."
 msgstr ""
+"OTRS支持两种方式——作为提供者(服务端，接收远程请求)或请求者(客户端，发起远程请"
+"求)"
 
 #. type: Content of: <section><section><section><section><itemizedlist><listitem><para>
 #: en/content/introduction/otrs.xml:359
 msgid ""
 "Simple web service connections can be created without programming by "
 "configuring the Generic Interface."
-msgstr ""
+msgstr "简单网络服务连接可以无须编程，通过配置通用接口实现。"
 
 #. type: Content of: <section><section><section><section><itemizedlist><listitem><para>
 #: en/content/introduction/otrs.xml:362
