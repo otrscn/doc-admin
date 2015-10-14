@@ -401,7 +401,30 @@ shell> /opt/otrs/bin/Cron.sh start
     </section>
 
     <section role="NotInToc">
-        <title>Step 15: Setup bash autocompletion (optional)</title>
+        <title>Step 15: Update system registration (optional)</title>
+        <para>
+            If the system is already registered with OTRS Group, it is strongly recommended to update
+            the registration information at this time, this will update the registered version of
+            the system (among other changes) in the OTRS Group records, in order to get much accurate
+            information from the cloud services.
+        </para>
+        <para>
+            If you don't update the registration information manually, it will be done automatically
+            on a regular basis, but this could happen some hours or days after. During this
+            period it might be possible to get wrong information from cloud services like
+            <emphasis role="bold">OTRS Business Solution™</emphasis> updates.
+        </para>
+        <para>
+            <screen><![CDATA[
+shell> cd /opt/otrs/
+shell> bin/otrs.Console.pl Maint::Registration::UpdateSend --force
+shell> bin/otrs.Console.pl Maint::Cache::Delete
+            ]]></screen>
+        </para>
+    </section>
+
+    <section role="NotInToc">
+        <title>Step 16: Setup bash autocompletion (optional)</title>
         <para>
             All regular OTRS commandline operations now happen via the otrs Console interface
             <filename>bin/otrs.Console.pl</filename>. This provides an auto completion
@@ -420,7 +443,7 @@ shell> /opt/otrs/bin/Cron.sh start
     </section>
 
     <section role="NotInToc">
-        <title>Step 16: Well done!</title>
+        <title>Step 17: Well done!</title>
         <para></para>
     </section>
 </section>
