@@ -424,7 +424,39 @@ shell> bin/otrs.Console.pl Maint::Cache::Delete
     </section>
 
     <section role="NotInToc">
-        <title>Step 16: Setup bash autocompletion (optional)</title>
+        <title>Step 16: Set Perl based Generic Agent jobs (optional)</title>
+        <para>
+            If there are defined Generic Agent jobs in Perl configuration files such as
+            <filename>Kernel/Config/GenericAgent.pm</filename> its needed to register those files
+            as OTRS Daemon cron tasks in the SysConfig
+            (<literal>Daemon</literal> -> <literal>Daemon::SchedulerCronTaskManager::Task</literal>),
+            in order to be executed on a regular basis.
+        </para>
+        <para>
+            There are 5 settings in the SysConfig prepared for this purpose
+            Daemon::SchedulerCronTaskManager::Task###GenericAgentFile1 to
+            Daemon::SchedulerCronTaskManager::Task###GenericAgentFile5,
+            if more settings are needed they can be added on a custom SysConfig setting file.
+        </para>
+        <para>
+            Please replace "&lt;ModuleName&gt;" with the file that contains the custom Generic Agent
+            jobs configuration, e.g. <literal>Kernel::Config::GenericAgent</literal> for the file:
+            <filename>Kernel/Config/GenericAgent.pm</filename>, set the schedule to match the
+            periodicity as it was executed before, mark the setting as active and save the changes.
+        </para>
+        <note>
+            <para>
+                To get more information about other parameters that can be used while running the
+                Generic Agent jobs, please execute:
+                <screen><![CDATA[
+shell> bin/otrs.Console.pl Maint::GenericAgent::Run --help
+            ]]></screen>
+            </para>
+        </note>
+    </section>
+
+    <section role="NotInToc">
+        <title>Step 17: Setup bash autocompletion (optional)</title>
         <para>
             All regular OTRS commandline operations now happen via the otrs Console interface
             <filename>bin/otrs.Console.pl</filename>. This provides an auto completion
@@ -443,7 +475,7 @@ shell> bin/otrs.Console.pl Maint::Cache::Delete
     </section>
 
     <section role="NotInToc">
-        <title>Step 17: Well done!</title>
+        <title>Step 18: Well done!</title>
         <para></para>
     </section>
 </section>
