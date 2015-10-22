@@ -27,7 +27,7 @@
     Within a single minor version you can skip patch level releases if you want to
     upgrade. For instance you can upgrade directly from OTRS 5 patchlevel 2 to version
     5 patchlevel 6. If you need to do such a "patch level upgrade", you should skip steps
-    6, 10, 11, 14 and 15.
+    6, 10, 11, 14 and 17.
     </para>
 
     <para>
@@ -47,12 +47,19 @@ shell> /etc/init.d/postfix stop
 shell> /etc/init.d/apache stop
             ]]></screen>
 
-        Stop OTRS cronjobs and the scheduler (in this order):
+        Stop OTRS cronjobs and the scheduler or daemon (in this order) depending on the OTRS version
+        you are updating from:
 
             <screen><![CDATA[
 shell> cd /opt/otrs/
 shell> bin/Cron.sh stop
 shell> bin/otrs.Scheduler.pl -a stop
+            ]]></screen>
+        or
+            <screen><![CDATA[
+shell> cd /opt/otrs/
+shell> bin/Cron.sh stop
+shell> bin/otrs.Daemon.pl stop
             ]]></screen>
         </para>
     </section>
