@@ -546,18 +546,18 @@ Requester:
                                     <listitem>
                                         <para>
                                             Asynchronous: to set if the invoker execution will
-                                            be delegated to the Scheduler.
+                                            be delegated to the OTRS Daemon.
                                         </para>
                                         <itemizedlist mark="round">
                                             <title>Possible Values</title>
                                             <listitem>
                                                 <para>
-                                                    0: not handled by the Scheduler.
+                                                    0: not handled by the OTRS Daemon.
                                                 </para>
                                             </listitem>
                                             <listitem>
                                                 <para>
-                                                    1: handled by the Scheduler.
+                                                    1: handled by the OTRS Daemon.
                                                 </para>
                                             </listitem>
                                         </itemizedlist>

@@ -898,14 +898,14 @@
                     have at least one event trigger registered, or the invoker will be useless,
                     because it will never be called. The asynchronous property of the event triggers
                     define if the OTRS process will handle the invoker or if it will be delegated to
-                    the OTRS Scheduler.
+                    the OTRS Daemon.
                 </para>
                 <note>
                     <para>
-                        The OTRS Scheduler is a separate process that executes tasks in the
+                        The OTRS Daemon is a separate set of process that executes tasks in the
                         background. Using this the OTRS process itself will not be affected if the
                         Remote System takes a long time to respond, if it is not available or if
-                        there are network problems. If you don't use the scheduler using web
+                        there are network problems. If you don't use the OTRS Daemons using web
                         services can make OTRS slow or non-responsive. Therefore it is highly
                         recommend to use asynchronous event triggers as often as possible.
                     </para>

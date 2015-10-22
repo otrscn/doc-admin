@@ -262,9 +262,9 @@
                                                 <listitem>
                                                     <para>
                                                         Create a new Generic Interface (Requester)
-                                                        task for the OTRS Scheduler (by delegating
-                                                        the request execution to the Scheduler, the
-                                                        user experience could be highly improved,
+                                                        task for the OTRS Daemon (by delegating
+                                                        the request execution to the Scehduler Daemon,
+                                                        the user experience could be highly improved,
                                                         otherwise all the time needed to prepare the
                                                         request and the remote execution
                                                         will be added to the OTRS Events that
@@ -273,7 +273,7 @@
                                                 </listitem>
                                                 <listitem>
                                                     <para>
-                                                        In its next cycle the Scheduler process
+                                                        In its next cycle the OTRS daemon process
                                                         reads the new task and creates a call to
                                                         the Requester that will create a new
                                                         request and then passes it through the
@@ -476,14 +476,14 @@
                     </listitem>
                     <listitem>
                         <para>
-                            Event Handler or Scheduler
+                            Event Handler or OTRS Daemon
                         </para>
                         <itemizedlist mark="round">
                             <listitem>
                                 <para>
                                     Receives the data from the Requester, in the case of the
-                                    Scheduler this data might contain information to Re-Schedule
-                                    the task immediately or in the future.
+                                    OTRS Daemon this data might contain information to create
+                                    a task in the future.
                                 </para>
                             </listitem>
                         </itemizedlist>
