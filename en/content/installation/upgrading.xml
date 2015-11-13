@@ -405,6 +405,10 @@ shell> /opt/otrs/bin/Cron.sh start
             modifications to the new ticket notifications (recommended) or b) you can deactivate the new notifications
             and activate the old notifications again.
         </para>
+        <para>
+            Please also review the escalation notification recipient settings and see if they match with your expectations (agents who have the ticket in one of their custom queues vs. all agents with read permissions).
+            This was configured via a setting in the file <filename>Kernel/Config/GenericAgent.pm</filename> (now obsolete) previously and can now be controlled via the GUI for each notification separately.
+        </para>
     </section>
 
     <section role="NotInToc">
@@ -431,22 +435,22 @@ shell> bin/otrs.Console.pl Maint::Cache::Delete
     </section>
 
     <section role="NotInToc">
-        <title>Step 16: Set Perl based Generic Agent jobs (optional)</title>
+        <title>Step 16: Migrate custom perl based GenericAgent jobs (optional)</title>
         <para>
-            If there are defined Generic Agent jobs in Perl configuration files such as
-            <filename>Kernel/Config/GenericAgent.pm</filename> its needed to register those files
-            as OTRS Daemon cron tasks in the SysConfig
+            This is only relevant if you had any custom GenericAgent jobs in Perl OTRS 4 configuration files such as
+            <filename>Kernel/Config/GenericAgent.pm</filename> that cannot be handled with the regular ticket notifications.
+            Such jobs now need to be registered as OTRS Daemon cron tasks in the SysConfig
             (<literal>Daemon</literal> -> <literal>Daemon::SchedulerCronTaskManager::Task</literal>),
             in order to be executed on a regular basis.
         </para>
         <para>
             There are 5 settings in the SysConfig prepared for this purpose
-            Daemon::SchedulerCronTaskManager::Task###GenericAgentFile1 to
-            Daemon::SchedulerCronTaskManager::Task###GenericAgentFile5,
-            if more settings are needed they can be added on a custom SysConfig setting file.
+            (<literal>Daemon::SchedulerCronTaskManager::Task###GenericAgentFile1</literal> to
+            <literal>Daemon::SchedulerCronTaskManager::Task###GenericAgentFile5</literal>),
+            if more settings are needed they can be added in a custom SysConfig setting file.
         </para>
         <para>
-            Please replace "&lt;ModuleName&gt;" with the file that contains the custom Generic Agent
+            Please replace "&lt;ModuleName&gt;" with the file that contains the custom GenericAgent
             jobs configuration, e.g. <literal>Kernel::Config::GenericAgent</literal> for the file:
             <filename>Kernel/Config/GenericAgent.pm</filename>, set the schedule to match the
             periodicity as it was executed before, mark the setting as active and save the changes.
@@ -454,7 +458,7 @@ shell> bin/otrs.Console.pl Maint::Cache::Delete
         <note>
             <para>
                 To get more information about other parameters that can be used while running the
-                Generic Agent jobs, please execute:
+                GenericAgent jobs, please execute:
                 <screen><![CDATA[
 shell> bin/otrs.Console.pl Maint::GenericAgent::Run --help
             ]]></screen>
