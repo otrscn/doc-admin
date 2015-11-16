@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE section PUBLIC "-//OASIS//DTD DocBook XML V4.4//EN"
+  "http://www.oasis-open.org/docbook/xml/4.4/docbookx.dtd">
+
+<section id="adminarea-administrative-messages">
+<title>Administrative messages</title>
+
+<para>
+OTRS administrators can send messages to specific users or groups. The "Admin Notification" link on the Admin page opens the screen where the agents and groups that should be notified can be selected (see Figure below).
+</para>
+
+<para>
+<figure>
+    <title>Admin notification</title>
+    <screenshot>
+         <graphic scale="40" fileref="screenshots/send-admin-notification.png"></graphic>
+    </screenshot>
+</figure>
+</para>
+
+<para>
+It is possible to specify the sender, subject and body text of the notification. You can also select the agents, groups and roles who should receive the message.
+</para>
+
+</section>

@@ -1,0 +1,101 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE section PUBLIC "-//OASIS//DTD DocBook XML V4.4//EN"
+  "http://www.oasis-open.org/docbook/xml/4.4/docbookx.dtd">
+
+<section id="customers-and-groups">
+<title>Customers and Customer Groups</title>
+
+<section id="adminarea-customers">
+<title>Customers</title>
+
+<para>
+OTRS supports different types of users. Using the link "Customers" (via the navigation bar, or the Admin page), you can manage the accounts of your customers (see Figure below), who can log into the system via the Customers interface (customer.pl). Through this interface, your customers can not only create tickets but also review their past tickets for new updates. It is important to know that a customer is needed for the ticket history in the system.
+</para>
+
+<para>
+<figure>
+    <title>Customer management</title>
+    <screenshot>
+         <graphic scale="40" fileref="screenshots/admin-customer.png"></graphic>
+    </screenshot>
+</figure>
+</para>
+
+<para>
+You can search for a registered customer, or edit their settings by clicking on their name. You also have the possibility to change the customer back-end, for further information please refer to the chapter about <link linkend="external-backends">external back-ends</link>.
+</para>
+
+<para>
+To create a new customer account, click on the "Add customer" button (see Figure below). Some of the fields are mandatory, i.e., they have to contain values, so if you leave one of those empty, it will be highlighted in red.
+</para>
+
+<para>
+<figure>
+    <title>Adding a customer</title>
+    <screenshot>
+         <graphic scale="40" fileref="screenshots/add-customer.png"></graphic>
+    </screenshot>
+</figure>
+</para>
+
+<para>
+Customers can access the system by providing their username and password. The CustomerID is needed by the system to identify the user and associated tickets. Since the email address is a unique value, it can be used as the ID.
+</para>
+
+<note>
+<para>
+As with agents, groups and roles, customers can not be deleted from the system, only deactivated by setting the Valid option to <emphasis>invalid</emphasis> or <emphasis>invalid-temporarily</emphasis>.
+</para>
+</note>
+
+</section>
+
+<section id="adminarea-customers-groups">
+<title>Customer Groups</title>
+
+<para>
+Customer users can also be added to a group, which can be useful if you want to add customers of the same company with access to one or a few queues. First create the group to which your customers will belong, via the <link linkend="adminarea-groups">Group management module</link>. Then add the <link linkend="adminarea-queue">queues</link> and select the new group for the queues.
+</para>
+
+<para>
+The next step is to activate the customer group support. This can be done with the configuration parameter <link linkend="ConfigReference_Framework:Frontend::Customer:CustomerGroupSupport">CustomerGroupSupport</link>, from the Admin SysConfig option. Using the parameter <link linkend="ConfigReference_Framework:Frontend::Customer:CustomerGroupAlwaysGroups">CustomerGroupAlwaysGroups</link>, you can specify the default groups for a newly added customer, so that every new account will be automatically added to these groups.
+</para>
+
+<para>
+Through the link "Customers &lt;-&gt; Groups" you can manage which customer shall belong to the different groups (see Figure below).
+</para>
+
+<para>
+<figure>
+    <title>Customer-Group relations management</title>
+    <screenshot>
+         <graphic scale="40" fileref="screenshots/admin-customer-groups.png"></graphic>
+    </screenshot>
+</figure>
+</para>
+
+<para>
+To define the different groups a customer should be part of and vice versa, click on the corresponding customer username or group (see below the Figures 4.18 and 4.19, respectively).
+</para>
+
+<para>
+<figure>
+    <title>Change Group relations for a Customer</title>
+    <screenshot>
+         <graphic scale="40" fileref="screenshots/groups-customers-relations.png"></graphic>
+    </screenshot>
+</figure>
+</para>
+
+<para>
+<figure>
+    <title>Change Customer relations for a Group</title>
+    <screenshot>
+         <graphic scale="40" fileref="screenshots/groups-customers-relations2.png"></graphic>
+    </screenshot>
+</figure>
+</para>
+
+</section>
+
+</section>

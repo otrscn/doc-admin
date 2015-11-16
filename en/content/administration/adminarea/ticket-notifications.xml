@@ -1,0 +1,76 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE section PUBLIC "-//OASIS//DTD DocBook XML V4.4//EN"
+  "http://www.oasis-open.org/docbook/xml/4.4/docbookx.dtd">
+
+<section id="adminarea-ticket-notifications">
+<title>Ticket Notifications</title>
+
+<para>
+OTRS allows notifications to be sent to agents and customers, based on the occurrence of certain events. Agents can set the system events for their own notifications via the <link linkend="user-preferences">preferences</link> link.
+</para>
+
+<para>
+Through the "Agent Notifications" link on the Admin page, you can manage the notifications of your system (see Figure below). You can use filters to list only certain notifications.
+</para>
+
+<para>
+<figure>
+    <title>Notification management</title>
+    <screenshot>
+         <graphic scale="40" fileref="screenshots/admin-notification.png"></graphic>
+    </screenshot>
+</figure>
+</para>
+
+<para>
+You can customize the subject and the text of the notifications. Click on the notification you want to change from the list, and its content will get loaded for editing (see Figure). Please note that there is a notification with the same name for each of the available languages.
+</para>
+
+<para>
+<figure>
+    <title>Customizing a Notification</title>
+    <screenshot>
+         <graphic scale="40" fileref="screenshots/customize-notification.png"></graphic>
+    </screenshot>
+</figure>
+</para>
+
+<para>
+Just as with signatures and salutations, it is possible to dynamically create the content of a notification, by using special variables. You can find a list of variables at the bottom of the screen shown in the Figure.
+</para>
+
+<para>
+It is also possible to create notifications based on events. You can specify in detail when and to whom you want such a notification to be sent. You can choose from a wide variety of parameters, such as: recipient group(s), agent(s), role(s), email address(es), type of event triggering the notification, ticket-type, state, priority, queue, lock, service, SLA, etc.
+</para>
+
+<para>
+In order to see a list of all event based notifications, click on the link "Notifications (Event)" on the Admin page (see Figure).
+</para>
+
+<para>
+<figure>
+    <title>Event based Notification management</title>
+    <screenshot>
+         <graphic scale="40" fileref="screenshots/admin-notification-eventbased.png"></graphic>
+    </screenshot>
+</figure>
+</para>
+
+<para>
+As shown in Figure, you can create a new notification by clicking on the Add button (see Figure).
+</para>
+
+<para>
+<figure>
+    <title>Registering an Event based Notification management</title>
+    <screenshot>
+         <graphic scale="40" fileref="screenshots/admin-notification-eventbased-new.png"></graphic>
+    </screenshot>
+</figure>
+</para>
+
+<para>
+Please note that the content of the event based notifications can also be dynamically created by using the special variables listed at the bottom of the screen shown in the Figure.
+</para>
+
+</section>

@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE section PUBLIC "-//OASIS//DTD DocBook XML V4.4//EN"
+  "http://www.oasis-open.org/docbook/xml/4.4/docbookx.dtd">
+
+<section id="adminarea-sysconfig">
+<title>SysConfig</title>
+
+<para>
+The SysConfig link leads to the section where many OTRS configuration options are maintained.
+</para>
+
+<para>
+The SysConfig link on the Admin page loads the graphical interface for system configuration (see Figure below). You can upload your own configuration files for the system, as well as backup all your current settings into a file. Almost all configuration parameters of the OTRS framework and installed applications can be viewed and changed through this interface. Since all configuration parameters are sorted into groups and sub groups, it is possible to navigate quickly through the vast number of existing parameters. It is also possible to perform a full-text search through all of the configuration parameters.
+</para>
+
+<para>
+<figure>
+    <title>The graphical interface for system configuration (SysConfig)</title>
+    <screenshot>
+         <graphic scale="40" fileref="screenshots/admin-sysconfig.png"></graphic>
+    </screenshot>
+</figure>
+</para>
+
+<para>
+The graphical interface for system configuration is described in more detail in the chapter <link linkend="sysconfig">
+"Configuring the system through the web interface"</link>.
+</para>
+
+</section>
