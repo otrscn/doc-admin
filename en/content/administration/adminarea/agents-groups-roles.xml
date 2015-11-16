@@ -20,7 +20,7 @@ An OTRS agent account may be deactivated but not deleted. Deactivation is done b
 
 <para>
 <figure>
-    <title>Agent management</title>
+    <title>Agent Management</title>
     <screenshot>
          <graphic scale="40" fileref="screenshots/admin-agents.png"></graphic>
     </screenshot>
@@ -116,7 +116,7 @@ To add an agent to a group, or to change the agents who belong to a group, you c
 
 <para>
 <figure>
-    <title>Group management</title>
+    <title>Agent &lt;-&gt; group management</title>
     <screenshot>
          <graphic scale="40" fileref="screenshots/admin-agents-and-groups.png"></graphic>
     </screenshot>
@@ -151,7 +151,7 @@ Each group has a set of rights associated with it, and each group member (agent)
 
 <para>
 <table id="table-of-group-permissions-after-installation">
-<title>Rights associated with OTRS Groups</title>
+<title>Rights associated with OTRS groups</title>
   <tgroup cols="2">
     <thead>
       <row>
@@ -346,7 +346,7 @@ click on the agent's name (see Figure below). To change the agents associated wi
 
 <para>
 <figure>
-    <title>Change the Roles associated with an Agent</title>
+    <title>Change the roles associated with an agent</title>
     <screenshot>
          <graphic scale="40" fileref="screenshots/admin-roles-agents-relation.png"></graphic>
     </screenshot>
@@ -355,7 +355,7 @@ click on the agent's name (see Figure below). To change the agents associated wi
 
 <para>
 <figure>
-    <title>Change the Agents associated with a specific Role</title>
+    <title>Change the agents associated with a specific role</title>
     <screenshot>
          <graphic scale="40" fileref="screenshots/admin-roles-agents-relation2.png"></graphic>
     </screenshot>
@@ -368,7 +368,7 @@ To get an overview of all roles and groups in the system, click on the link Role
 
 <para>
 <figure>
-    <title>Manage Roles-Groups relations</title>
+    <title>Manage roles-groups relations</title>
     <screenshot>
          <graphic scale="40" fileref="screenshots/admin-roles-groups.png"></graphic>
     </screenshot>
@@ -381,7 +381,7 @@ To define the different access rights for a role, click on the name of a role or
 
 <para>
 <figure>
-    <title>Change Group relations for a Role</title>
+    <title>Change group relations for a role</title>
     <screenshot>
          <graphic scale="40" fileref="screenshots/groups-roles-relations.png"></graphic>
     </screenshot>
@@ -390,7 +390,7 @@ To define the different access rights for a role, click on the name of a role or
 
 <para>
 <figure>
-    <title>Change Role relations for a Group</title>
+    <title>Change role relations for a group</title>
     <screenshot>
          <graphic scale="40" fileref="screenshots/groups-roles-relations2.png"></graphic>
     </screenshot>

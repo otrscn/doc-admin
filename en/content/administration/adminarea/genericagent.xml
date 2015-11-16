@@ -3,7 +3,7 @@
   "http://www.oasis-open.org/docbook/xml/4.4/docbookx.dtd">
 
 <section id="adminarea-genericagent">
-<title>Executing automated jobs with the GenericAgent</title>
+<title>Executing Automated Jobs with the GenericAgent</title>
 
 <para>
 The GenericAgent is a tool to execute tasks automatically. The GenericAgent, for example, can close or move tickets, send notifications on escalated tickets, etc.

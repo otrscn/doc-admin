@@ -3,13 +3,13 @@
   "http://www.oasis-open.org/docbook/xml/4.4/docbookx.dtd">
 
 <section id="email">
-<title>Sending/Receiving emails</title>
+<title>Sending/Receiving Emails</title>
 
 <section id="email-sending">
-<title>Sending emails</title>
+<title>Sending Emails</title>
 
 <section id="email-sending-sendmail">
-<title>Via Sendmail (default)</title>
+<title>Via Sendmail (Default)</title>
 
 <para>
 OTRS can send out emails via <ulink url="http://www.sendmail.org/">Sendmail</ulink>, <ulink url="http://www.postfix.org/">Postfix</ulink>, <ulink url="http://www.qmail.org">Qmail</ulink> or <ulink url="http://www.exim.org">Exim</ulink>. The default configuration is to use Sendmail and should work out-of-the-box.
@@ -22,7 +22,7 @@ You can configure the sendmail settings via the graphical configuration frontend
 </section>
 
 <section id="email-sending-smtp">
-<title>Via SMTP server or smarthost</title>
+<title>Via SMTP Server or Smarthost</title>
 
 <para>
 OTRS can send emails via SMTP (<ulink url="http://www.ietf.org/rfc/rfc821.txt">Simple Mail Transfer Protocol / RFC 821</ulink>) or Secure SMTP.
@@ -37,10 +37,10 @@ The SMTP server settings can be configured via the SysConfig (Framework::Core::S
 </section>
 
 <section id="email-receiving">
-<title>Receiving emails</title>
+<title>Receiving Emails</title>
 
 <section id="email-receiving-pop3">
-<title>Mail accounts configured via the OTRS GUI</title>
+<title>Mail Accounts Configured via the OTRS GUI</title>
 
 <para>
 OTRS is able to receive emails from POP3, POP3S, IMAP and IMAPS mail accounts.
@@ -86,7 +86,7 @@ When fetching mail, OTRS deletes the mail from the POP or IMAP server. There is 
 
 
 <section id="email-receiving-cmd">
-<title>Via command line program and procmail (otrs.Console.pl Maint::PostMaster::Read)</title>
+<title>Via Command Line Program and Procmail (<literal>otrs.Console.pl Maint::PostMaster::Read</literal>)</title>
 
 <para>
 If you cannot use mail accounts to get the email into OTRS, the command line program <filename>bin/otrs.Console.pl Maint::PostMaster::Read</filename> might be a way around the problem. It takes the mails via STDIN and pipes them directly into OTRS. That means email will be available in your OTRS system if the MDA (mail delivery agent, e.g. procmail) executes this program.
@@ -114,7 +114,7 @@ If the email is shown in the QueueView, then your setup is working.
 
 <example id='procmail-queue-routing'>
 
-<title>Routing via procmail using otrs.Console.pl</title>
+<title>Routing via Procmail Using <literal>otrs.Console.pl</literal></title>
 
 <para>
 In order to route mails in a specific queue using otrs.Console.pl use the following example.
@@ -187,7 +187,7 @@ You can use the <filename>.fetchmailrc.dist</filename> in the home directory of 
 </para>
 
 <example id='fetchmailrc'>
-<title>.fetchmailrc</title>
+<title><literal>.fetchmailrc</literal></title>
 
 <para>
 <programlisting>
@@ -209,7 +209,7 @@ With the <filename>.fetchmailrc</filename> from the Example above, all email wil
 
 
 <section id="email-receiving-filter">
-<title>Filtering/dispatching by OTRS/PostMaster modules (for more complex dispatching)</title>
+<title>Filtering/Dispatching by OTRS/PostMaster Modules (for More Complex Dispatching)</title>
 
 <para>
 If you use the <filename>bin/otrs.Console.pl Maint::PostMaster::Read</filename> or <filename>bin/otrs.Console.pl Maint::PostMaster::MailAccountFetch</filename> method, you can insert or modify X-OTRS header entries with the PostMaster filter modules. With the X-OTRS headers, the ticket system can execute some actions on

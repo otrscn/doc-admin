@@ -3,7 +3,7 @@
   "http://www.oasis-open.org/docbook/xml/4.4/docbookx.dtd">
 
 <chapter id="first-steps">
-<title>First steps</title>
+<title>First Steps</title>
 
 <abstract>
 <para>
@@ -12,7 +12,7 @@ The goal of this chapter is to provide a brief overview of OTRS and the structur
 </abstract>
 
 <section id="agent-interface">
-<title>Agent web interface</title>
+<title>Agent Web Interface</title>
 
 <para>
 The agent web interface allows agents to answer customer requests, create new tickets for customers or other agents, write tickets about telephone calls with customers, write FAQ entries, edit customer data, etc.
@@ -42,7 +42,7 @@ in a web browser (see Figure below).
 </section>
 
 <section id="customer-interface">
-<title>Customer web interface</title>
+<title>Customer Web Interface</title>
 
 <para>
 Customers have a separate web interface in OTRS through which they can create new accounts, change their account settings, create and edit tickets, get an overview on tickets that they have created, etc.
@@ -68,7 +68,7 @@ with a web browser (see Figure below).
 </section>
 
 <section id="public-interface">
-<title>Public web interface</title>
+<title>Public Web Interface</title>
 
 <para>
 In addition to the web interfaces for agents and customers, OTRS also has a public web interface which is available through the FAQ-Module. This module needs to be installed separately. It provides public access to the FAQ system and lets visitors search through FAQ entries without any special authorization.
@@ -97,7 +97,7 @@ In our example, the public web interface can be reached via either of the follow
 </section>
 
 <section id="first-login">
-<title>First login</title>
+<title>First Login</title>
 
 <para>
 Access the login screen as described in the section <link linkend="agent-interface">Agent web interface
@@ -130,7 +130,7 @@ In case you have forgotten your password, you can request the system for a new p
 </section>
 
 <section id="gui-overview">
-<title>The web interface - an overview</title>
+<title>The Web Interface - an Overview</title>
 
 <para>
 Upon successfully logging into the system, you are presented with the Dashboard page (see Figure below). It shows your locked tickets, allows direct access through menus to the queue, status and escalation views, and also holds options for creation of new phone and e-mail tickets. It also presents a quick summary of the tickets using different criteria.
@@ -448,7 +448,7 @@ Normally the icon row, navigation bar and footer are the same in all the screens
 </section>
 
 <section id="what-is-a-queue">
-<title>What is a queue?</title>
+<title>What is a Queue?</title>
 
 <para>
 On many mail systems, it is common for all messages to flow into an Inbox file, where they remain stored. New messages are appended at the end of the Inbox file. The mail client program used to read and write mails reads this Inbox file and presents the content to the user.
@@ -490,7 +490,7 @@ Improved system structures, such as through the proper design of queues, can lea
 
 
 <section id="what-is-the-queue-overview">
-<title>What is the queue overview?</title>
+<title>What is the Queue Overview?</title>
 
 <para>
 The queue overview offers a view of all queues in which tickets are present, and for which the user has RW permissions.
@@ -548,7 +548,7 @@ There are visual alarms, to aid the user.
 </section>
 
 <section id="user-preferences">
-<title>User preferences</title>
+<title>User Preferences</title>
 <para>
 OTRS users such as customers, agents and the OTRS administrator can configure their account preferences as per their needs. Agent can access the configuration screen by clicking on their login name at the top right corner of the web interface (see Figure below), and customers must click on the "Preferences" link (see Figure below).
 </para>

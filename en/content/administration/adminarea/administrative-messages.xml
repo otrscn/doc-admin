@@ -3,7 +3,7 @@
   "http://www.oasis-open.org/docbook/xml/4.4/docbookx.dtd">
 
 <section id="adminarea-administrative-messages">
-<title>Administrative messages</title>
+<title>Administrative Messages</title>
 
 <para>
 OTRS administrators can send messages to specific users or groups. The "Admin Notification" link on the Admin page opens the screen where the agents and groups that should be notified can be selected (see Figure below).
@@ -11,7 +11,7 @@ OTRS administrators can send messages to specific users or groups. The "Admin No
 
 <para>
 <figure>
-    <title>Admin notification</title>
+    <title>Admin notification screen</title>
     <screenshot>
          <graphic scale="40" fileref="screenshots/send-admin-notification.png"></graphic>
     </screenshot>

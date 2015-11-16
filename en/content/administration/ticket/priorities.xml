@@ -3,7 +3,7 @@
   "http://www.oasis-open.org/docbook/xml/4.4/docbookx.dtd">
 
 <section id="priorities">
-<title>Ticket priorities</title>
+<title>Ticket Priorities</title>
 
 <para>
 OTRS comes with five default priority levels that can be modified via the "Priorities" link on the Admin page. When creating a customized list of priorities, please keep in mind that they are sorted alphabetically in the priority selection box in the user interface. Also, OTRS orders tickets by internal database IDs in the QueueView.

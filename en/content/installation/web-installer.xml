@@ -3,7 +3,7 @@
   "http://www.oasis-open.org/docbook/xml/4.4/docbookx.dtd">
 
 <section id="web-installer">
-<title>Using the web installer</title>
+<title>Using the Web Installer</title>
 
 <para>
 You can use the OTRS Web Installer, after you installed the OTRS software, to set up and configure the OTRS database.

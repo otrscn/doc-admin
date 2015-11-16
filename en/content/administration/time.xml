@@ -3,7 +3,7 @@
   "http://www.oasis-open.org/docbook/xml/4.4/docbookx.dtd">
 
 <section id="time">
-<title>Time related functions</title>
+<title>Time Related Functions</title>
 
 <section id="time-settings">
 <title>Setting up business hours, holidays and time zones</title>
@@ -27,7 +27,7 @@ Only during business hours can tickets escalate, notifications for escalated and
 
 
 <section id="TimeVacationDays">
-<title>Fixed date holidays</title>
+<title>Fixed Date Holidays</title>
 
 <para>
 Holidays that are on a fixed date every year, such as New Year's Day or the Fourth of July, can be specified in <link linkend="ConfigReference_Framework:Core::Time:TimeVacationDays">TimeVacationDays</link>, or in the corresponding section for the calendars 1-9.
@@ -46,7 +46,7 @@ By default, OTRS ships with the <emphasis>German</emphasis> holidays installed.
 </section>
 
 <section id="TimeVacationDaysOneTime">
-<title>TimeVacationDaysOneTime</title>
+<title>Floating Holidays</title>
 
 <para>
 Holidays such as Easter that do not have a yearly fixed date but instead vary each year, can be specified in <link linkend="ConfigReference_Framework:Core::Time:TimeVacationDaysOneTime">TimeVacationDaysOneTime</link>.

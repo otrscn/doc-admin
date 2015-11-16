@@ -3,7 +3,7 @@
   "http://www.oasis-open.org/docbook/xml/4.4/docbookx.dtd">
 
 <section id="adminarea-selectbox">
-<title>SQL queries via the SQL box</title>
+<title>SQL Queries via the SQL Box</title>
 
 <para>
 The "SQL Box" link on the Admin page opens a screen that lets you query the content of the tables in the OTRS database (see Figure below). It is not possible to change the content of the tables, only 'select' queries are allowed.

@@ -39,7 +39,7 @@
         </para>
 
         <section>
-        <title>User interface</title>
+        <title>User Interface</title>
             <itemizedlist>
               <listitem>
                 <para>
@@ -84,7 +84,7 @@
             </itemizedlist>
         </section>
         <section>
-            <title>Mail interface</title>
+            <title>Email Interface</title>
             <itemizedlist>
               <listitem>
                 <para>
@@ -205,7 +205,7 @@
         </section>
 
         <section id="new-features-of-otrs-5">
-            <title>New features of OTRS 5</title>
+            <title>New Features of OTRS 5</title>
             <section>
                 <title>Productivity</title>
                 <itemizedlist>
@@ -256,7 +256,7 @@
         </section>
 
         <section id="new-features-of-otrs-4">
-            <title>New features of OTRS 4</title>
+            <title>New Features of OTRS 4</title>
             <section>
                 <title>Productivity</title>
                 <itemizedlist>
@@ -343,7 +343,7 @@
         </section>
 
         <section id="new-features-of-otrs-3.3">
-            <title>New features of OTRS 3.3</title>
+            <title>New Features of OTRS 3.3</title>
             <section>
                 <title>Productivity</title>
                 <itemizedlist>
@@ -389,7 +389,7 @@
     </section>
 
     <section id="software-requirements">
-        <title>Hardware and software requirements</title>
+        <title>Hardware and Software Requirements</title>
 
         <para>
         OTRS can be installed on many different operating systems. OTRS can run on

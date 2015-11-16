@@ -78,14 +78,14 @@
         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="content/administration/backup-and-restore.xml" />
 
         <section id="email-settings">
-            <title>Email settings</title>
+            <title>Email Settings</title>
             <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="content/administration/email/email.xml" />
             <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="content/administration/email/pgp.xml" />
             <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="content/administration/email/smime.xml" />
         </section>
         <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="content/administration/external-backends.xml" />
         <section id="ticket-settings">
-            <title>Ticket settings</title>
+            <title>Ticket Settings</title>
             <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="content/administration/ticket/states.xml" />
             <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="content/administration/ticket/priorities.xml" />
             <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="content/administration/ticket/monitoring-tickets.xml" />

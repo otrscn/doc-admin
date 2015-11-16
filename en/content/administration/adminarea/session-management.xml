@@ -3,7 +3,7 @@
   "http://www.oasis-open.org/docbook/xml/4.4/docbookx.dtd">
 
 <section id="adminarea-session-management">
-<title>Session management</title>
+<title>Session Management</title>
 
 <para>
 You can see all logged in users and their session details by clicking the "Session Management" link in the admin area (see Figure below).

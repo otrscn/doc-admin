@@ -4,10 +4,10 @@
   <!-- $Id: external-backends.xml,v 1.2 2012-11-30 11:13:05 mb Exp $ -->
 
 <section id="external-backends">
-<title>Using external backends</title>
+<title>Using External backends</title>
 
 <section id='customer-data'>
-<title>Customer data</title>
+<title>Customer Data</title>
 
 <para>
 OTRS works with many customer data attributes such as username, email address, phone number, etc. These attributes are displayed in both the Agent and the Customer frontends, and also used for the authentication of customers.
@@ -59,7 +59,7 @@ information in your agent interface.
 </section>
 
 <section id="customer-user-backend">
-<title>Customer user backend</title>
+<title>Customer User Backend</title>
 
 <para>
 You can use two types of customer backends, DB and LDAP. If you already have another customer backend (e.g. SAP), it is of course possible to write a module that uses it.
@@ -210,7 +210,7 @@ It is also possible to edit all of this customer information via the Customers l
 </para>
 
 <section id='multi-customer-ids-db'>
-<title>Customer with multiple IDs (Company tickets)</title>
+<title>Customer with Multiple IDs (Company Tickets)</title>
 
 <para>
 It is possible to assign more than one customer ID to a customer. This can be useful if a customer must access tickets of other customers, e.g. a supervisor wants to watch the tickets of his assistants. If a customer can access the tickets of another customer, the company ticket feature of OTRS is used. Company tickets can be accessed via the  "Company Tickets" link in the customer panel.
@@ -273,7 +273,7 @@ To ensure that one customer can access the tickets of other customers, add the I
 </para>
 
 <example id='company-tickets-db'>
-<title>Using company tickets with a DB backend</title>
+<title>Using Company Tickets with a DB Backend</title>
 
 <para>
 The customers A, B and C exist in your system, and A wants to have access to the tickets of B and C via the customer panel. B and C should have no access to the tickets of other users.
@@ -388,7 +388,7 @@ If additional customer attributes are stored in your LDAP directory, such as a m
 
 
 <section id='multi-customer-ids-ldap'>
-<title>Customer with multiple IDs (Company tickets)</title>
+<title>Customer with Multiple IDs (Company Tickets)</title>
 
 <para>
 It is possible to assign more than one Customer ID to a customer, when using an LDAP backend. To use company tickets, a new field has to be added to the LDAP directory that contains the IDs accessible by the customer.
@@ -436,7 +436,7 @@ To realize this setup, change the LDAP directory and the mapping in <filename>Ke
 </section>
 
 <section id='multiple-customer-backends'>
-<title>Using more than one customer backend with OTRS</title>
+<title>Using More than One Customer Backend with OTRS</title>
 
 <para>
 If you want to utilize more than one customer data source used with OTRS (e.g. an LDAP and a database backend), the CustomerUser config parameter should be expanded with a number, e.g. "CustomerUser1", "CustomerUser2" (see Example below).
@@ -594,7 +594,7 @@ It is possible to integrate up to 10 different customer backends. Use the custom
 </section>
 
 <section id="dynamicfield-from-customeruser">
-    <title>Storing CustomerUser data in dynamic fields</title>
+    <title>Storing CustomerUser Data in Dynamic Fields</title>
     <para>
         Sometimes it can be useful to also store CustomerUser data directly in
         dynamic fields of a ticket, for example to create special statistics on this data.
@@ -617,7 +617,7 @@ It is possible to integrate up to 10 different customer backends. Use the custom
 </section>
 
 <section id="auth-backends">
-<title>Backends to authenticate Agents and Customers</title>
+<title>Backends to Authenticate Agents and Customers</title>
 
 <para>
 OTRS offers the option to authenticate agents and customers against different backends.
@@ -838,7 +838,7 @@ $Self->{'AuthModule::Radius::Password'} = 'radiussecret';
 </section>
 
 <section id="customer-auth-backends">
-<title>Authentication backends for Customers</title>
+<title>Authentication Backends for Customers</title>
 
 <section id='customer-auth-backend-db'>
 <title>Database (Default)</title>
@@ -924,7 +924,7 @@ $Self->{'Customer::AuthModule::LDAP::Params'} = {
 </section>
 
 <section id='customer-auth-backend-httpbasic'>
-<title>HTTPBasicAuth for customers</title>
+<title>HTTPBasicAuth for Customers</title>
 
 <para>
 If you want to implement a "single sign on" solution  for all your customer users, you can use HTTPBasic authentication (for all your systems) and use the HTTPBasicAuth module with OTRS (no login is needed with OTRS any more). See Example below.
@@ -981,7 +981,7 @@ $Self->{'Customer::AuthModule::Radius::Password'} = 'radiussecret';
 </section>
 
 <section id="customer-self-registration">
-<title>Customizing the customer self-registration</title>
+<title>Customizing the Customer Self-Registration</title>
 
 <para>
 It is possible to customize the self-registration for new customers, accessible via the customer.pl panel. New optional or required fields, like room number, address or state can be added.
@@ -992,7 +992,7 @@ The following example shows how you can specify a required field in the customer
 </para>
 
 <section id='customer-self-registration-dtl'>
-<title>Customizing the web interface</title>
+<title>Customizing the Web Interface</title>
 
 <para>
 To display the new field for the room number in the customer.pl web interface, the .dtl file responsible for the layout in this interface has to be modified. Edit the <filename>Kernel/Output/HTML/Standard/CustomerLogin.dtl</filename> file, adding the new field around line 80 (see Script below).
@@ -1016,7 +1016,7 @@ To display the new field for the room number in the customer.pl web interface, t
 </section>
 
 <section id="customer-self-registration-mapping">
-<title>Customer mapping</title>
+<title>Customer Mapping</title>
 
 <para>
 In the next step, the customer mapping has to be expanded with the new entry for the room number. To ensure that the changes are not lost after an update, put the "CustomerUser" settings from the <filename>Kernel/Config/Defaults.pm</filename> into the <filename>Kernel/Config.pm</filename>. Now change the MAP array and add the new room number field, as shown in the script below.
@@ -1104,7 +1104,7 @@ $Self->{CustomerUser} = {
 </section>
 
 <section id="customer-self-registration-customer-table">
-<title>Customizing the customer_user table in the OTRS DB</title>
+<title>Customizing the <literal>customer_user</literal> Table in the OTRS DB</title>
 
 <para>
 The last step is to add the new room number column to the customer_user table in the OTRS database (see Script below). In this column, the entries for the room numbers will be stored.

@@ -3,7 +3,7 @@
   "http://www.oasis-open.org/docbook/xml/4.4/docbookx.dtd">
 
 <section id="adminarea-emailaddresses">
-<title>Email addresses</title>
+<title>System Email Addresses</title>
 
 <para>
 To enable OTRS to send emails, you need a valid email address to be used by the system. OTRS is capable of working with multiple email addresses, since many support installations need to use more than one. A queue can be linked to many email addresses, and vice versa. The address used for outgoing messages from a queue can be set when the queue is created. Use the "Email Addresses" link from the Admin page to manage all email addresses of the system (see Figure below).
@@ -11,7 +11,7 @@ To enable OTRS to send emails, you need a valid email address to be used by the 
 
 <para>
 <figure>
-    <title>System Email Addresses management</title>
+    <title>System email addresses management</title>
     <screenshot>
          <graphic scale="40" fileref="screenshots/admin-email.png"></graphic>
     </screenshot>
@@ -24,7 +24,7 @@ If you create a new mail address (see Figure below),you can select the queue or 
 
 <para>
 <figure>
-    <title>Adding a system Email Address</title>
+    <title>Adding a system email address</title>
     <screenshot>
          <graphic scale="40" fileref="screenshots/add-email.png"></graphic>
     </screenshot>

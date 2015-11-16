@@ -3,7 +3,7 @@
   "http://www.oasis-open.org/docbook/xml/4.4/docbookx.dtd">
 
 <section id="daemon">
-    <title>OTRS Daemon</title>
+    <title>The OTRS Daemon</title>
     <para>
         The OTRS Daemon is an independent set of system processes that plan and execute tasks in
         background, either on a recurrent basis or triggered by events. OTRS Daemon is fundamental
@@ -153,14 +153,14 @@
         </para>
     </section>
     <section id="daemon-cli">
-        <title>Daemon Command Line Interface</title>
+        <title>OTRS Daemon Command Line Interface</title>
         <para>
             The OTRS Daemon command line tools let you control the main daemon process (Start / Stop)
             or query its status. There are also tools to get more detailed information about the
             other four children daemons.
         </para>
         <section id="daemon-cli-main">
-            <title>Main daemon tools</title>
+            <title>Main Daemon Tools</title>
             <para>
                 To start, stop or query daemon status <filename>bin/otrs.Daemon.pl</filename> script
                 is used.
@@ -217,7 +217,7 @@ shell> OTRS_HOME/bin/otrs.Daemon.pl start
              </itemizedlist>
         </section>
         <section id="daemon-cli-other">
-            <title>Other daemon tools</title>
+            <title>Other Daemon Tools</title>
             <para>
                 To list all configured child daemons that the main daemon should start and keep
                 running use the console command: <literal>Maint::Daemon::List</literal>.

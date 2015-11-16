@@ -4,7 +4,7 @@
 
 <section id="adminarea">
 
-    <title>The administration area of OTRS</title>
+    <title>The Administration Area of OTRS</title>
 
     <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="adminarea/basics.xml" />
     <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="adminarea/agents-groups-roles.xml" />
