@@ -77,7 +77,7 @@ This is the end state for tickets that have NOT been successfully resolved. Depe
 <section id="states-customizing">
 <title>Customizing states</title>
 <para>
-Every state has a name (state-name) and a type (state-type). Click on the <link linkend="adminarea-status">States</link> link on the Admin page and press the button "Add state" to create a new state. You can freely choose the name of a new state. The state types can not be changed via the web interface. The database has to be directly modified if you want to add new types or change existing names. The default state types should typically not be modified as this can yield unpredictable results. For instance, escalation calculations and the unlock feature are based on specific state types.
+Every state has a name (state-name) and a type (state-type). Click on the <link linkend="adminarea-states">States</link> link on the Admin page and press the button "Add state" to create a new state. You can freely choose the name of a new state. The state types can not be changed via the web interface. The database has to be directly modified if you want to add new types or change existing names. The default state types should typically not be modified as this can yield unpredictable results. For instance, escalation calculations and the unlock feature are based on specific state types.
 </para>
 
 <para>
