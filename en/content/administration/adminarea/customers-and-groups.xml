@@ -9,7 +9,7 @@
 <title>Customers</title>
 
 <para>
-OTRS supports different types of users. Using the link "Customers" (via the navigation bar, or the Admin page), you can manage the accounts of your customers (see Figure below), who can log into the system via the Customers interface (customer.pl). Through this interface, your customers can not only create tickets but also review their past tickets for new updates. It is important to know that a customer is needed for the ticket history in the system.
+OTRS supports different types of users. Using the link "Customers" (via the navigation bar, or the Admin page), you can manage the accounts of your customers (see figure below), who can log into the system via the Customers interface (customer.pl). Through this interface, your customers can not only create tickets but also review their past tickets for new updates. It is important to know that a customer is needed for the ticket history in the system.
 </para>
 
 <para>
@@ -26,7 +26,7 @@ You can search for a registered customer, or edit their settings by clicking on 
 </para>
 
 <para>
-To create a new customer account, click on the "Add customer" button (see Figure below). Some of the fields are mandatory, i.e., they have to contain values, so if you leave one of those empty, it will be highlighted in red.
+To create a new customer account, click on the "Add customer" button (see figure below). Some of the fields are mandatory, i.e., they have to contain values, so if you leave one of those empty, it will be highlighted in red.
 </para>
 
 <para>
@@ -62,7 +62,7 @@ The next step is to activate the customer group support. This can be done with t
 </para>
 
 <para>
-Through the link "Customers &lt;-&gt; Groups" you can manage which customer shall belong to the different groups (see Figure below).
+Through the link "Customers &lt;-&gt; Groups" you can manage which customer shall belong to the different groups (see figure below).
 </para>
 
 <para>

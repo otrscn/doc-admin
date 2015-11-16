@@ -6,7 +6,7 @@
 <title>Queues</title>
 
 <para>
-Clicking on the link "Queues" of the Admin page, you can manage the <link linkend="what-is-a-queue">queues</link> of your system (see Figure below). In a new OTRS installation there are 4 default queues: Raw, Junk, Misc and Postmaster. All incoming messages will be stored in the "Raw" queue if no filter rules are defined. The "Junk" queue can be used to store spam messages.
+Clicking on the link "Queues" of the Admin page, you can manage the <link linkend="what-is-a-queue">queues</link> of your system (see figure below). In a new OTRS installation there are 4 default queues: Raw, Junk, Misc and Postmaster. All incoming messages will be stored in the "Raw" queue if no filter rules are defined. The "Junk" queue can be used to store spam messages.
 </para>
 
 <para>
@@ -19,7 +19,7 @@ Clicking on the link "Queues" of the Admin page, you can manage the <link linken
 </para>
 
 <para>
-Here you can add queues (see Figure below) and modify them. You can specify the group that should use the queue. You can also set the queue as a sub-queue of an existing queue.
+Here you can add queues (see figure below) and modify them. You can specify the group that should use the queue. You can also set the queue as a sub-queue of an existing queue.
 </para>
 
 <para>

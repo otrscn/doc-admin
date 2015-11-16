@@ -31,7 +31,7 @@ When the web installer starts, please follow the following steps to setup your s
 </para>
 
 <para>
-2. Read the GNU Affero General Public License (see Figure below) and accept it, by clicking the corresponding button at the bottom of the page.
+2. Read the GNU Affero General Public License (see figure below) and accept it, by clicking the corresponding button at the bottom of the page.
 </para>
 
 <para>
@@ -74,7 +74,7 @@ in the previous step, this screen might differ a little. Enter the credentials f
 </para>
 
 <para>
-5. Create a new database user, choose a name for the database and click on 'Next' (see Figure below).
+5. Create a new database user, choose a name for the database and click on 'Next' (see figure below).
 </para>
 
 <warning>
@@ -108,7 +108,7 @@ to remember this password.
 </para>
 
 <para>
-7. Provide all the required system settings and click on 'Next' (see Figure below).
+7. Provide all the required system settings and click on 'Next' (see figure below).
 </para>
 
 <para>
@@ -121,7 +121,7 @@ to remember this password.
 </para>
 
 <para>
-8. If desired, you can provide the needed data to configure your inbound and outbound mail, or skip this step by pressing the right button at the bottom of the screen (see Figure below).
+8. If desired, you can provide the needed data to configure your inbound and outbound mail, or skip this step by pressing the right button at the bottom of the screen (see figure below).
 </para>
 
 <para>
@@ -134,7 +134,7 @@ to remember this password.
 </para>
 
 <para>
-9. Congratulations! Now the installation of OTRS is finished and you should be able to work with the system (see Figure below). To log into the web interface of OTRS, use the address
+9. Congratulations! Now the installation of OTRS is finished and you should be able to work with the system (see figure below). To log into the web interface of OTRS, use the address
 <ulink url="http://localhost/otrs/index.pl">
     <citetitle>http://localhost/otrs/index.pl</citetitle>
 </ulink>

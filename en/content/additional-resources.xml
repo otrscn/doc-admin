@@ -121,7 +121,7 @@
             <listitem>
                 <para>
                     To report software defects, please visit <ulink url="http://bugs.otrs.org/">http://bugs.otrs.org/</ulink>
-    (see Figure below). Please take note of the difference between a bug and a configuration issue. Configuration issues are problems that you encounter when setting a system, or general questions regarding the use of OTRS. Bug reports should only be used for issues with the source code of OTRS or other open source OTRS modules itself. For configuration issues, you should either use the <ulink url="http://www.otrs.com/solutions/service-contracts/">commercial support, available from OTRS.com</ulink>, or the public mailing lists.
+    (see figure below). Please take note of the difference between a bug and a configuration issue. Configuration issues are problems that you encounter when setting a system, or general questions regarding the use of OTRS. Bug reports should only be used for issues with the source code of OTRS or other open source OTRS modules itself. For configuration issues, you should either use the <ulink url="http://www.otrs.com/solutions/service-contracts/">commercial support, available from OTRS.com</ulink>, or the public mailing lists.
                 </para>
                 <para>
                     <figure>

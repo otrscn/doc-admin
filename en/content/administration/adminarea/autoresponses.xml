@@ -6,7 +6,7 @@
 <title>Auto Responses</title>
 
 <para>
-OTRS allows you to send automatic responses to customers based on the occurrence of certain events, such as the creation of a ticket in a specific queue, the receipt of a follow-up message in regards to a ticket, the closure or rejection of a ticket, etc. To manage such responses, click the link "Auto responses" on the Admin page (see Figure below).
+OTRS allows you to send automatic responses to customers based on the occurrence of certain events, such as the creation of a ticket in a specific queue, the receipt of a follow-up message in regards to a ticket, the closure or rejection of a ticket, etc. To manage such responses, click the link "Auto responses" on the Admin page (see figure below).
 </para>
 
 <para>
@@ -19,7 +19,7 @@ OTRS allows you to send automatic responses to customers based on the occurrence
 </para>
 
 <para>
-To create an automatic response, click on the button "Add auto response", provide the needed data and submit it (see Figure below).
+To create an automatic response, click on the button "Add auto response", provide the needed data and submit it (see figure below).
 </para>
 
 <para>
@@ -104,7 +104,7 @@ As with other OTRS entities, auto responses too cannot be deleted, only deactiva
 </note>
 
 <para>
-To add an auto response to a queue, use the "Auto Response &lt;-&gt; Queues" link on the Admin page (see Figure below). All system events are listed for every queue, and an auto answer with the same event can be selected or removed via a listbox.
+To add an auto response to a queue, use the "Auto Response &lt;-&gt; Queues" link on the Admin page (see figure below). All system events are listed for every queue, and an auto answer with the same event can be selected or removed via a listbox.
 </para>
 
 <para>
@@ -117,7 +117,7 @@ To add an auto response to a queue, use the "Auto Response &lt;-&gt; Queues" lin
 </para>
 
 <para>
-To define the different auto responses that will be available for a queue, click on the corresponding queue name (see Figure below). It is also possible to edit an existing auto response - to do so, click on the response and edit in the same manner as editing a new auto response.
+To define the different auto responses that will be available for a queue, click on the corresponding queue name (see figure below). It is also possible to edit an existing auto response - to do so, click on the response and edit in the same manner as editing a new auto response.
 </para>
 
 <para>

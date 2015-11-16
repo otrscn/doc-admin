@@ -11,7 +11,7 @@
     </para>
 
     <para>
-        Through the "Ticket Notifications" link on the Admin page, you can manage the ticket notifications of your system (see Figure below).
+        Through the "Ticket Notifications" link on the Admin page, you can manage the ticket notifications of your system (see figure below).
         OTRS comes with a set of predefined notifications that cover a wide range of use cases.
 
         <figure>
@@ -24,7 +24,7 @@
 
     <para>
         You can customize many aspects of the notifications.
-        Click on the notification you want to change, and its content will be loaded for editing (see Figure).
+        Click on the notification you want to change, and its content will be loaded for editing (see figure).
 
         <figure>
             <title>Customizing a notification</title>

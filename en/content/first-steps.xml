@@ -27,7 +27,7 @@ Supposing your OTRS host is reachable via the URL
 <ulink url="http://www.example.com/otrs/index.pl">
 <citetitle>http://www.example.com/otrs/index.pl</citetitle>
 </ulink>
-in a web browser (see Figure below).
+in a web browser (see figure below).
 </para>
 
 <para>
@@ -53,7 +53,7 @@ Continuing the above example, the customer login screen can be reached by using 
 <ulink url="http://www.example.com/otrs/customer.pl">
 <citetitle>http://www.example.com/otrs/customer.pl</citetitle>
 </ulink>
-with a web browser (see Figure below).
+with a web browser (see figure below).
 </para>
 
 <para>
@@ -115,7 +115,7 @@ If you don't want to login as OTRS administrator, just enter the user name and p
 </para>
 
 <para>
-In case you have forgotten your password, you can request the system for a new password. Simply press the link below the Login button, enter the mail address that is registered for your OTRS account into the input field, and press the Submit button (see Figure).
+In case you have forgotten your password, you can request the system for a new password. Simply press the link below the Login button, enter the mail address that is registered for your OTRS account into the input field, and press the Submit button (see figure).
 </para>
 
 <para>
@@ -133,7 +133,7 @@ In case you have forgotten your password, you can request the system for a new p
 <title>The Web Interface - an Overview</title>
 
 <para>
-Upon successfully logging into the system, you are presented with the Dashboard page (see Figure below). It shows your locked tickets, allows direct access through menus to the queue, status and escalation views, and also holds options for creation of new phone and e-mail tickets. It also presents a quick summary of the tickets using different criteria.
+Upon successfully logging into the system, you are presented with the Dashboard page (see figure below). It shows your locked tickets, allows direct access through menus to the queue, status and escalation views, and also holds options for creation of new phone and e-mail tickets. It also presents a quick summary of the tickets using different criteria.
 </para>
 
 <para>
@@ -170,7 +170,7 @@ These boxes contains the main part of each screen, usually they are displayed in
 </para>
 
 <para>
-Finally at the bottom of the page, the site footer is displayed (see Figure below). It contains links to directly access the OTRS official web site, or go to the Top of the page.
+Finally at the bottom of the page, the site footer is displayed (see figure below). It contains links to directly access the OTRS official web site, or go to the Top of the page.
 </para>
 
 <para>
@@ -550,7 +550,7 @@ There are visual alarms, to aid the user.
 <section id="user-preferences">
 <title>User Preferences</title>
 <para>
-OTRS users such as customers, agents and the OTRS administrator can configure their account preferences as per their needs. Agent can access the configuration screen by clicking on their login name at the top right corner of the web interface (see Figure below), and customers must click on the "Preferences" link (see Figure below).
+OTRS users such as customers, agents and the OTRS administrator can configure their account preferences as per their needs. Agent can access the configuration screen by clicking on their login name at the top right corner of the web interface (see figure below), and customers must click on the "Preferences" link (see figure below).
 </para>
 
 <para>

@@ -9,7 +9,7 @@
 <title>Agents</title>
 
 <para>
-By clicking the link <emphasis>Agents</emphasis>, you get access to the agent management screen of OTRS (see Figure below). Administrators can add, change or deactivate agent accounts. Furthermore they can also manage agent preferences, including the language and notification settings for the individual agent's interface.
+By clicking the link <emphasis>Agents</emphasis>, you get access to the agent management screen of OTRS (see figure below). Administrators can add, change or deactivate agent accounts. Furthermore they can also manage agent preferences, including the language and notification settings for the individual agent's interface.
 </para>
 
 <note>
@@ -92,7 +92,7 @@ In a brand new OTRS installation, the  <emphasis>users</emphasis> group initiall
 </note>
 
 <para>
-You can access the group management page (see Figure below) by clicking the <emphasis>Groups</emphasis> link in the admin area.
+You can access the group management page (see figure below) by clicking the <emphasis>Groups</emphasis> link in the admin area.
 </para>
 
 <para>
@@ -111,7 +111,7 @@ As with agents, an OTRS group may be deactivated but not deleted. Deactivation i
 </note>
 
 <para>
-To add an agent to a group, or to change the agents who belong to a group, you can use the link <emphasis>Agents &lt;-&gt; Groups</emphasis> from the Admin page (see Figure below).
+To add an agent to a group, or to change the agents who belong to a group, you can use the link <emphasis>Agents &lt;-&gt; Groups</emphasis> from the Admin page (see figure below).
 </para>
 
 <para>
@@ -124,7 +124,7 @@ To add an agent to a group, or to change the agents who belong to a group, you c
 </para>
 
 <para>
-An overview of all groups and agents in the system is displayed on this page. You can also use the available filters to find a specific entity. If you want to change the groups that an agent is a member of, just click on the agent's name (see Figure below). To change the agents associated with a group, just click on the group you want to edit (see Figure below).
+An overview of all groups and agents in the system is displayed on this page. You can also use the available filters to find a specific entity. If you want to change the groups that an agent is a member of, just click on the agent's name (see figure below). To change the agents associated with a group, just click on the group you want to edit (see figure below).
 </para>
 
 <para>
@@ -308,7 +308,7 @@ Roles are really useful when dealing with complex organizations and when maintai
 </note>
 
 <para>
-You can access the role management section (see Figure below ) by clicking the <emphasis>Roles</emphasis> link on the Admin page.
+You can access the role management section (see figure below ) by clicking the <emphasis>Roles</emphasis> link on the Admin page.
 </para>
 
 <para>
@@ -327,7 +327,7 @@ As with agent and groups, roles once created can be deactivated but not deleted.
 </note>
 
 <para>
-An overview of all roles in the system is displayed. To edit a role's settings, click on the role's name. In a fresh new OTRS installation, there are no roles defined by default. To register one, click on the "Add role" button,  provide the needed data and submit it (see Figure below).
+An overview of all roles in the system is displayed. To edit a role's settings, click on the role's name. In a fresh new OTRS installation, there are no roles defined by default. To register one, click on the "Add role" button,  provide the needed data and submit it (see figure below).
 </para>
 
 <para>
@@ -341,7 +341,7 @@ An overview of all roles in the system is displayed. To edit a role's settings, 
 
 <para>
 To get an overview of all roles and agents in the system, click on the link Roles &lt;-&gt; Agents on the Admin page. You can also use filters to find a specific element. If you want to change the roles associated with an agent, just
-click on the agent's name (see Figure below). To change the agents associated with a role, click on the role you want to edit (see Figure below).
+click on the agent's name (see figure below). To change the agents associated with a role, click on the role you want to edit (see figure below).
 </para>
 
 <para>

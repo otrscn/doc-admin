@@ -6,7 +6,7 @@
 <title>Using Mail Accounts</title>
 
 <para>
-There are several possibilities to transport new emails into the ticket system. One way is to use a local MTA and the <link linkend="email-receiving-cmd">otrs.PostMaster.pl script</link> that pipes the mails directly into the system. Another possibility is the use of mail accounts which can be administrated through the web interface. The "PostMaster Mail Accounts" link on the Admin page loads the management console for the mail accounts (see Figure below). OTRS supports the mail protocols: POP3, POP3S, IMAP and IMAPS.
+There are several possibilities to transport new emails into the ticket system. One way is to use a local MTA and the <link linkend="email-receiving-cmd">otrs.PostMaster.pl script</link> that pipes the mails directly into the system. Another possibility is the use of mail accounts which can be administrated through the web interface. The "PostMaster Mail Accounts" link on the Admin page loads the management console for the mail accounts (see figure below). OTRS supports the mail protocols: POP3, POP3S, IMAP and IMAPS.
 </para>
 
 <para>

@@ -10,7 +10,7 @@ OTRS can process incoming S/MIME encoded messages and sign outgoing mails. Befor
 </para>
 
 <para>
-The "S/MIME Certificates" link on the Admin page allows you to manage your S/MIME certificates (see Figure below). You can add or remove certificates, and also search through the SMIME data.
+The "S/MIME Certificates" link on the Admin page allows you to manage your S/MIME certificates (see figure below). You can add or remove certificates, and also search through the SMIME data.
 </para>
 
 <para>

@@ -10,7 +10,7 @@
 
 <para>
 A salutation is a text module for a template. Salutations can be linked to one or more queues, as described in the section about <link linkend="adminarea-queue">queues</link>. A salutation is used only if a ticket from a queue the salutation is linked to, is answered. To manage the different salutations of your system, use the "Salutations"
-link of the admin area (see Figure below).
+link of the admin area (see figure below).
 </para>
 
 <para>
@@ -27,7 +27,7 @@ After a default installation there is already one salutation available, "system 
 </para>
 
 <para>
-To create a new salutation, press the button "Add salutation", provide the required data and submit it (see Figure below).
+To create a new salutation, press the button "Add salutation", provide the required data and submit it (see figure below).
 </para>
 
 <para>
@@ -59,7 +59,7 @@ As with other OTRS entities, salutations cannot be deleted, only deactivated by 
 <title>Signatures</title>
 
 <para>
-Another text module for a template is the signature. Signatures can be linked to a queue, as described in the section about the <link linkend="adminarea-queue">queues</link>. Please note that a signature will only be appended to a template text, if it has previously been linked to a queue. You can manage the signatures in your system by accessing the "Signatures" link of the Admin page, (see Figure below).
+Another text module for a template is the signature. Signatures can be linked to a queue, as described in the section about the <link linkend="adminarea-queue">queues</link>. Please note that a signature will only be appended to a template text, if it has previously been linked to a queue. You can manage the signatures in your system by accessing the "Signatures" link of the Admin page, (see figure below).
 </para>
 
 <para>
@@ -76,7 +76,7 @@ After a fresh installation of OTRS, there is one predefined signature stored in 
 </para>
 
 <para>
-To create a new signature, press the button "Add signature", provide the needed data and submit it (see Figure below).
+To create a new signature, press the button "Add signature", provide the needed data and submit it (see figure below).
 </para>
 
 <para>
@@ -108,7 +108,7 @@ You can also optionally add one or more attachments to a template. If the templa
 </para>
 
 <para>
-Through the "Attachment" link of the Admin page, you can load the attachments into the database of the system (see Figure below).
+Through the "Attachment" link of the Admin page, you can load the attachments into the database of the system (see figure below).
 </para>
 
 <para>
@@ -121,7 +121,7 @@ Through the "Attachment" link of the Admin page, you can load the attachments in
 </para>
 
 <para>
-To create a new attachment, press the button "Add attachment", provide the required data and submit it (see Figure below).
+To create a new attachment, press the button "Add attachment", provide the required data and submit it (see figure below).
 </para>
 
 <para>
@@ -135,7 +135,7 @@ To create a new attachment, press the button "Add attachment", provide the requi
 
 <para>
 If an attachment is stored it can be linked to one or more templates. Click on the "Attachment &lt;-&gt; Templates"
-link of the Admin page (see Figure below).
+link of the Admin page (see figure below).
 </para>
 
 <para>
@@ -222,7 +222,7 @@ To associate different attachments with a specific template and vice versa, clic
 
 <para>
     Clicking the "Templates" link on the Admin page brings you to the Template management screen
-    (see Figure below).
+    (see figure below).
 </para>
 
 <para>
@@ -236,7 +236,7 @@ To associate different attachments with a specific template and vice versa, clic
 
 <para>
     To create a new template, click on the "Add template" button, provide the required data (make
-    sure to select the appropriate template type) and submit it (see Figure below).
+    sure to select the appropriate template type) and submit it (see figure below).
 </para>
 
 <para>
@@ -249,7 +249,7 @@ To associate different attachments with a specific template and vice versa, clic
 </para>
 
 <para>
-To add/remove templates to one or more queues, click on the "Templates &lt;-&gt; Queues" link on the Admin page (see Figure below). You can also use filters to get information regarding a specific entity.
+To add/remove templates to one or more queues, click on the "Templates &lt;-&gt; Queues" link on the Admin page (see figure below). You can also use filters to get information regarding a specific entity.
 </para>
 
 <para>

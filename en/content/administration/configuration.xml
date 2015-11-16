@@ -32,7 +32,7 @@ will be parsed. Reading the configuration files in this order makes sure that yo
 <title>Configuring the System Through the Web Interface</title>
 
 <para>
-Since OTRS 2.0, nearly all configuration parameters of the central framework or additional installed applications, can be changed easily with the graphical interface for system configuration. Log in as OTRS administrator and follow the SysConfig link on the Admin page to execute the new configuration tool (see Figure below).
+Since OTRS 2.0, nearly all configuration parameters of the central framework or additional installed applications, can be changed easily with the graphical interface for system configuration. Log in as OTRS administrator and follow the SysConfig link on the Admin page to execute the new configuration tool (see figure below).
 </para>
 
 <para>

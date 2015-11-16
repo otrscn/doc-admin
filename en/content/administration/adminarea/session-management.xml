@@ -6,7 +6,7 @@
 <title>Session Management</title>
 
 <para>
-You can see all logged in users and their session details by clicking the "Session Management" link in the admin area (see Figure below).
+You can see all logged in users and their session details by clicking the "Session Management" link in the admin area (see figure below).
 </para>
 
 <para>
@@ -19,7 +19,7 @@ You can see all logged in users and their session details by clicking the "Sessi
 </para>
 
 <para>
-Some statistics about all active sessions are displayed, e.g. how many agents and customer users are logged in and the number of active sessions. Any individual session can be removed by clicking on the <emphasis>Kill this session</emphasis> link on the right-hand side of the list. You also have the option to <emphasis>Kill all sessions</emphasis>, which can be useful if you want to take the system offline. Detailed information for every session is available, too (see Figure below).
+Some statistics about all active sessions are displayed, e.g. how many agents and customer users are logged in and the number of active sessions. Any individual session can be removed by clicking on the <emphasis>Kill this session</emphasis> link on the right-hand side of the list. You also have the option to <emphasis>Kill all sessions</emphasis>, which can be useful if you want to take the system offline. Detailed information for every session is available, too (see figure below).
 </para>
 
 <para>
