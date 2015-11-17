@@ -24,7 +24,7 @@
                 <para>
                     <table id="additional-resources-mailinglists-table">
                         <title>Mailing Lists</title>
-                        <tgroup cols="3">
+                        <tgroup cols="2">
                             <thead>
                                 <row>
                                     <entry>Name &amp; URL</entry>
