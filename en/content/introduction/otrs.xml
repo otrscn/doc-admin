@@ -492,9 +492,9 @@
                 </listitem>
             </itemizedlist>
             <para>
-                We recommend always using the latest version of your browser, because it has the best JavaScript and rendering performance.
-                Dramatical performance varieties between the used browsers can occur with big data or big systems.
-                We are happy to consult you on that matter.
+                We recommend keeping your browser up-to-date. JavaScript and rendering performance in newer versions is always improved.
+                Dramatic performance issues can be seen in larger systems when using older versions. We are happy to consult you on
+                that matter.
             </para>
         </section>
     </section>
