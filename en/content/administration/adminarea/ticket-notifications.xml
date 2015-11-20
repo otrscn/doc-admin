@@ -24,7 +24,7 @@
 
     <para>
         You can customize many aspects of the notifications.
-        Click on the notification you want to change, and its content will be loaded for editing (see figure).
+        Click on the notification you want to change, and its content will be loaded for editing (see figure below).
 
         <figure>
             <title>Customizing a notification</title>
@@ -62,13 +62,13 @@
     </para>
 
     <para>
-        Notifications can be sent with different transport backends. The "Email" transport is available in OTRS Free,
+        Notifications can be sent with different notification methods. The "Email" notification method is available in OTRS Free,
         with <emphasis role="bold">OTRS Business Solution™</emphasis> you also get the possibility to store and view
-        the notifications in the databse (so that no email client is needed to use OTRS) as well as to send them via
-        SMS (e. g.) for very important notifications).
+        the notifications in the database (so that no email client is needed to use OTRS) as well as to send them via
+        SMS (e. g. for very important notifications).
 
         <figure>
-            <title>Customizing a notification's transports</title>
+            <title>Customizing notification methods</title>
             <screenshot>
                  <graphic scale="40" fileref="screenshots/admin-notification-transports.png"></graphic>
             </screenshot>
