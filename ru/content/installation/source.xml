@@ -127,7 +127,6 @@ $OTRS_HOME/Kernel/*.dist и $OTRS_HOME/Kernel/Config/*.dist. Скопируйт�
 без расширения ".dist". <screen><![CDATA[
 shell> cd /opt/otrs/
 shell> cp Kernel/Config.pm.dist Kernel/Config.pm
-shell> cp Kernel/Config/GenericAgent.pm.dist Kernel/Config/GenericAgent.pm
     ]]></screen>
 
         </para>

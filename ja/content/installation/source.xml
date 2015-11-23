@@ -122,7 +122,6 @@ $OTRS_HOME/Kernel/Config/*.dist. You must activate them by copying them
 without the ".dist" filename extension.  <screen><![CDATA[
 shell> cd /opt/otrs/
 shell> cp Kernel/Config.pm.dist Kernel/Config.pm
-shell> cp Kernel/Config/GenericAgent.pm.dist Kernel/Config/GenericAgent.pm
     ]]></screen>
 
         </para>
