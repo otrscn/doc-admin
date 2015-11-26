@@ -13,7 +13,7 @@ There are several possibilities to transport new emails into the ticket system. 
 <figure>
     <title>Mail account management</title>
     <screenshot>
-         <graphic scale="40" fileref="screenshots/admin-mailaccount.png"></graphic>
+         <graphic scale="40" fileref="screenshots/administration/adminarea/admin-mailaccount.png"></graphic>
     </screenshot>
 </figure>
 </para>

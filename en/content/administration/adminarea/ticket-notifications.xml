@@ -17,7 +17,7 @@
         <figure>
             <title>Ticket notification management</title>
             <screenshot>
-             <graphic scale="40" fileref="screenshots/admin-notification-overview.png"></graphic>
+             <graphic scale="40" fileref="screenshots/administration/adminarea/admin-notification-overview.png"></graphic>
             </screenshot>
         </figure>
     </para>
@@ -29,7 +29,7 @@
         <figure>
             <title>Customizing a notification</title>
             <screenshot>
-                 <graphic scale="40" fileref="screenshots/admin-notification-basic.png"></graphic>
+                 <graphic scale="40" fileref="screenshots/administration/adminarea/admin-notification-basic.png"></graphic>
             </screenshot>
         </figure>
 
@@ -53,7 +53,7 @@
         <figure>
             <title>Customizing a notification's recipients</title>
             <screenshot>
-                 <graphic scale="40" fileref="screenshots/admin-notification-recipients.png"></graphic>
+                 <graphic scale="40" fileref="screenshots/administration/adminarea/admin-notification-recipients.png"></graphic>
             </screenshot>
         </figure>
 
@@ -70,7 +70,7 @@
         <figure>
             <title>Customizing notification methods</title>
             <screenshot>
-                 <graphic scale="40" fileref="screenshots/admin-notification-transports.png"></graphic>
+                 <graphic scale="40" fileref="screenshots/administration/adminarea/admin-notification-transports.png"></graphic>
             </screenshot>
         </figure>
     </para>

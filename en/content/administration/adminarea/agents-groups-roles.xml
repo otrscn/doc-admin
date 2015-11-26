@@ -22,7 +22,7 @@ An OTRS agent account may be deactivated but not deleted. Deactivation is done b
 <figure>
     <title>Agent Management</title>
     <screenshot>
-         <graphic scale="40" fileref="screenshots/admin-agents.png"></graphic>
+         <graphic scale="40" fileref="screenshots/administration/adminarea/admin-agents.png"></graphic>
     </screenshot>
 </figure>
 </para>
@@ -35,7 +35,7 @@ To register an agent, click on the "Add agent" button, enter the required data a
 <figure>
     <title>Adding a new agent</title>
     <screenshot>
-         <graphic scale="40" fileref="screenshots/add-agent.png"></graphic>
+         <graphic scale="40" fileref="screenshots/administration/adminarea/add-agent.png"></graphic>
     </screenshot>
 </figure>
 </para>
@@ -99,7 +99,7 @@ You can access the group management page (see figure below) by clicking the <emp
 <figure>
     <title>Group management</title>
     <screenshot>
-         <graphic scale="40" fileref="screenshots/admin-groups.png"></graphic>
+         <graphic scale="40" fileref="screenshots/administration/adminarea/admin-groups.png"></graphic>
     </screenshot>
 </figure>
 </para>
@@ -118,7 +118,7 @@ To add an agent to a group, or to change the agents who belong to a group, you c
 <figure>
     <title>Agent &lt;-&gt; group management</title>
     <screenshot>
-         <graphic scale="40" fileref="screenshots/admin-agents-and-groups.png"></graphic>
+         <graphic scale="40" fileref="screenshots/administration/adminarea/admin-agents-and-groups.png"></graphic>
     </screenshot>
 </figure>
 </para>
@@ -131,7 +131,7 @@ An overview of all groups and agents in the system is displayed on this page. Yo
 <figure>
     <title>Change the groups an agent belongs to</title>
     <screenshot>
-         <graphic scale="40" fileref="screenshots/agent-group-relations.png"></graphic>
+         <graphic scale="40" fileref="screenshots/administration/adminarea/agent-group-relations.png"></graphic>
     </screenshot>
 </figure>
 </para>
@@ -140,7 +140,7 @@ An overview of all groups and agents in the system is displayed on this page. Yo
 <figure>
     <title>Change the agents that belong to a specific group</title>
     <screenshot>
-         <graphic scale="40" fileref="screenshots/agent-group-relations2.png"></graphic>
+         <graphic scale="40" fileref="screenshots/administration/adminarea/agent-group-relations2.png"></graphic>
     </screenshot>
 </figure>
 </para>
@@ -315,7 +315,7 @@ You can access the role management section (see figure below ) by clicking the <
 <figure>
     <title>Role management</title>
     <screenshot>
-         <graphic scale="40" fileref="screenshots/admin-roles.png"></graphic>
+         <graphic scale="40" fileref="screenshots/administration/adminarea/admin-roles.png"></graphic>
     </screenshot>
 </figure>
 </para>
@@ -334,7 +334,7 @@ An overview of all roles in the system is displayed. To edit a role's settings, 
 <figure>
     <title>Adding a new role</title>
     <screenshot>
-         <graphic scale="40" fileref="screenshots/add-role.png"></graphic>
+         <graphic scale="40" fileref="screenshots/administration/adminarea/add-role.png"></graphic>
     </screenshot>
 </figure>
 </para>
@@ -348,7 +348,7 @@ click on the agent's name (see figure below). To change the agents associated wi
 <figure>
     <title>Change the roles associated with an agent</title>
     <screenshot>
-         <graphic scale="40" fileref="screenshots/admin-roles-agents-relation.png"></graphic>
+         <graphic scale="40" fileref="screenshots/administration/adminarea/admin-roles-agents-relation.png"></graphic>
     </screenshot>
 </figure>
 </para>
@@ -357,7 +357,7 @@ click on the agent's name (see figure below). To change the agents associated wi
 <figure>
     <title>Change the agents associated with a specific role</title>
     <screenshot>
-         <graphic scale="40" fileref="screenshots/admin-roles-agents-relation2.png"></graphic>
+         <graphic scale="40" fileref="screenshots/administration/adminarea/admin-roles-agents-relation2.png"></graphic>
     </screenshot>
 </figure>
 </para>
@@ -370,7 +370,7 @@ To get an overview of all roles and groups in the system, click on the link Role
 <figure>
     <title>Manage roles-groups relations</title>
     <screenshot>
-         <graphic scale="40" fileref="screenshots/admin-roles-groups.png"></graphic>
+         <graphic scale="40" fileref="screenshots/administration/adminarea/admin-roles-groups.png"></graphic>
     </screenshot>
 </figure>
 </para>
@@ -383,7 +383,7 @@ To define the different access rights for a role, click on the name of a role or
 <figure>
     <title>Change group relations for a role</title>
     <screenshot>
-         <graphic scale="40" fileref="screenshots/groups-roles-relations.png"></graphic>
+         <graphic scale="40" fileref="screenshots/administration/adminarea/groups-roles-relations.png"></graphic>
     </screenshot>
 </figure>
 </para>
@@ -392,7 +392,7 @@ To define the different access rights for a role, click on the name of a role or
 <figure>
     <title>Change role relations for a group</title>
     <screenshot>
-         <graphic scale="40" fileref="screenshots/groups-roles-relations2.png"></graphic>
+         <graphic scale="40" fileref="screenshots/administration/adminarea/groups-roles-relations2.png"></graphic>
     </screenshot>
 </figure>
 </para>

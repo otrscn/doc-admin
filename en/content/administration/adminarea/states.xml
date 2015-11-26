@@ -13,7 +13,7 @@ Through the "States" link on the Admin page, you can manage the different ticket
 <figure>
     <title>State management</title>
     <screenshot>
-         <graphic scale="40" fileref="screenshots/admin-states.png"></graphic>
+         <graphic scale="40" fileref="screenshots/administration/adminarea/admin-states.png"></graphic>
     </screenshot>
 </figure>
 </para>

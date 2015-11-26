@@ -25,7 +25,7 @@
             <figure>
                 <title>Dynamic fields overview screen, empty</title>
                 <screenshot>
-                     <graphic scale="40" fileref="screenshots/dynamicfields-overview-empty.png"></graphic>
+                     <graphic scale="40" fileref="screenshots/administration/dynamicfields/dynamicfields-overview-empty.png"></graphic>
                 </screenshot>
             </figure>
         </para>
@@ -243,7 +243,7 @@
             <figure>
                 <title>Dynamic field Text configuration dialog</title>
                 <screenshot>
-                     <graphic scale="40" fileref="screenshots/dynamicfields-configuration-text.png"></graphic>
+                     <graphic scale="40" fileref="screenshots/administration/dynamicfields/dynamicfields-configuration-text.png"></graphic>
                 </screenshot>
             </figure>
         </para>
@@ -289,7 +289,7 @@
             <figure>
                 <title>Dynamic field Textarea configuration dialog</title>
                 <screenshot>
-                     <graphic scale="40" fileref="screenshots/dynamicfields-configuration-textarea.png"></graphic>
+                     <graphic scale="40" fileref="screenshots/administration/dynamicfields/dynamicfields-configuration-textarea.png"></graphic>
                 </screenshot>
             </figure>
         </para>
@@ -320,7 +320,7 @@
             <figure>
                 <title>Dynamic field Checkbox configuration dialog</title>
                 <screenshot>
-                     <graphic scale="40" fileref="screenshots/dynamicfields-configuration-checkbox.png"></graphic>
+                     <graphic scale="40" fileref="screenshots/administration/dynamicfields/dynamicfields-configuration-checkbox.png"></graphic>
                 </screenshot>
             </figure>
         </para>
@@ -399,7 +399,7 @@
             <figure>
                 <title>Dynamic field Dropdown configuration dialog</title>
                 <screenshot>
-                     <graphic scale="40" fileref="screenshots/dynamicfields-configuration-dropdown.png"></graphic>
+                     <graphic scale="40" fileref="screenshots/administration/dynamicfields/dynamicfields-configuration-dropdown.png"></graphic>
                 </screenshot>
             </figure>
         </para>
@@ -457,7 +457,7 @@
             <figure>
                 <title>Dynamic field Multiselect configuration dialog</title>
                 <screenshot>
-                     <graphic scale="40" fileref="screenshots/dynamicfields-configuration-multiselect.png"></graphic>
+                     <graphic scale="40" fileref="screenshots/administration/dynamicfields/dynamicfields-configuration-multiselect.png"></graphic>
                 </screenshot>
             </figure>
         </para>
@@ -539,7 +539,7 @@
             <figure>
                 <title>Dynamic field Date configuration dialog</title>
                 <screenshot>
-                     <graphic scale="40" fileref="screenshots/dynamicfields-configuration-date.png"></graphic>
+                     <graphic scale="40" fileref="screenshots/administration/dynamicfields/dynamicfields-configuration-date.png"></graphic>
                 </screenshot>
             </figure>
         </para>
@@ -622,7 +622,7 @@
             <figure>
                 <title>Dynamic field Date / Time configuration dialog</title>
                 <screenshot>
-                     <graphic scale="40" fileref="screenshots/dynamicfields-configuration-datetime.png"></graphic>
+                     <graphic scale="40" fileref="screenshots/administration/dynamicfields/dynamicfields-configuration-datetime.png"></graphic>
                 </screenshot>
             </figure>
         </para>
@@ -637,7 +637,7 @@
             <figure>
                 <title>Dynamic field overview screen filled with sample data</title>
                 <screenshot>
-                     <graphic scale="40" fileref="screenshots/dynamicfields-overview-filled.png"></graphic>
+                     <graphic scale="40" fileref="screenshots/administration/dynamicfields/dynamicfields-overview-filled.png"></graphic>
                 </screenshot>
             </figure>
         </para>
@@ -785,7 +785,7 @@
                         <figure>
                             <title>Field1 in New Phone Ticket Screen</title>
                             <screenshot>
-                                 <graphic scale="40" fileref="screenshots/dynamicfields-agentticketphone-field1.png"></graphic>
+                                 <graphic scale="40" fileref="screenshots/administration/dynamicfields/dynamicfields-agentticketphone-field1.png"></graphic>
                             </screenshot>
                         </figure>
                     </para>
@@ -841,7 +841,7 @@
                         <figure>
                             <title>Field1 in New Phone Ticket Screen as mandatory</title>
                             <screenshot>
-                                 <graphic scale="40" fileref="screenshots/dynamicfields-agentticketphone-field1-mandatory.png"></graphic>
+                                 <graphic scale="40" fileref="screenshots/administration/dynamicfields/dynamicfields-agentticketphone-field1-mandatory.png"></graphic>
                             </screenshot>
                         </figure>
                     </para>
@@ -921,7 +921,7 @@
                         <figure>
                             <title>Several fields in New Phone Ticket Screen as mandatory</title>
                             <screenshot>
-                                 <graphic scale="40" fileref="screenshots/dynamicfields-agentticketphone-allfields.png"></graphic>
+                                 <graphic scale="40" fileref="screenshots/administration/dynamicfields/dynamicfields-agentticketphone-allfields.png"></graphic>
                             </screenshot>
                         </figure>
                     </para>
@@ -1001,7 +1001,7 @@
                         <figure>
                             <title>Some deactivated fields in New Phone Ticket Screen as mandatory</title>
                             <screenshot>
-                                 <graphic scale="40" fileref="screenshots/dynamicfields-agentticketphone-somefields.png"></graphic>
+                                 <graphic scale="40" fileref="screenshots/administration/dynamicfields/dynamicfields-agentticketphone-somefields.png"></graphic>
                             </screenshot>
                         </figure>
                     </para>
@@ -1057,7 +1057,7 @@
                         <figure>
                             <title>Field1 in Ticket Zoom Screen</title>
                             <screenshot>
-                                 <graphic scale="40" fileref="screenshots/dynamicfields-agentticketzoom-field1.png"></graphic>
+                                 <graphic scale="40" fileref="screenshots/administration/dynamicfields/dynamicfields-agentticketzoom-field1.png"></graphic>
                             </screenshot>
                         </figure>
                     </para>
@@ -1113,7 +1113,7 @@
                         <figure>
                             <title>Field1 in Ticket Overview Small Screen</title>
                             <screenshot>
-                                 <graphic scale="40" fileref="screenshots/dynamicfields-ticketoverviewsmall-field1.png"></graphic>
+                                 <graphic scale="40" fileref="screenshots/administration/dynamicfields/dynamicfields-ticketoverviewsmall-field1.png"></graphic>
                             </screenshot>
                         </figure>
                     </para>
@@ -1321,7 +1321,7 @@
                 <figure>
                     <title>Field1 in User preferences screen</title>
                     <screenshot>
-                         <graphic scale="40" fileref="screenshots/dynamicfields-userpreferences.png"></graphic>
+                         <graphic scale="40" fileref="screenshots/administration/dynamicfields/dynamicfields-userpreferences.png"></graphic>
                     </screenshot>
                 </figure>
             </para>

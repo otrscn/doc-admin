@@ -25,7 +25,7 @@ When the web installer starts, please follow the following steps to setup your s
 <figure>
     <title>Welcome screen</title>
     <screenshot>
-         <graphic scale="40" fileref="screenshots/installer1.png"></graphic>
+         <graphic scale="40" fileref="screenshots/introduction/installation/installer1.png"></graphic>
     </screenshot>
 </figure>
 </para>
@@ -38,7 +38,7 @@ When the web installer starts, please follow the following steps to setup your s
 <figure>
     <title>GNU Affero General Public License</title>
     <screenshot>
-         <graphic scale="40" fileref="screenshots/installer2.png"></graphic>
+         <graphic scale="40" fileref="screenshots/introduction/installation/installer2.png"></graphic>
     </screenshot>
 </figure>
 </para>
@@ -54,7 +54,7 @@ After that, click the 'Next' button (see figure below).
 <figure>
     <title>Database Selection</title>
     <screenshot>
-         <graphic scale="40" fileref="screenshots/installer3.png"></graphic>
+         <graphic scale="40" fileref="screenshots/introduction/installation/installer3.png"></graphic>
     </screenshot>
 </figure>
 </para>
@@ -68,7 +68,7 @@ in the previous step, this screen might differ a little. Enter the credentials f
 <figure>
     <title>Database credentials</title>
     <screenshot>
-         <graphic scale="40" fileref="screenshots/installer4.png"></graphic>
+         <graphic scale="40" fileref="screenshots/introduction/installation/installer4.png"></graphic>
     </screenshot>
 </figure>
 </para>
@@ -89,7 +89,7 @@ to remember this password.
 <figure>
     <title>Database settings</title>
     <screenshot>
-         <graphic scale="40" fileref="screenshots/installer5.png"></graphic>
+         <graphic scale="40" fileref="screenshots/introduction/installation/installer5.png"></graphic>
     </screenshot>
 </figure>
 </para>
@@ -102,7 +102,7 @@ to remember this password.
 <figure>
     <title>Successful database setup</title>
     <screenshot>
-         <graphic scale="40" fileref="screenshots/installer6.png"></graphic>
+         <graphic scale="40" fileref="screenshots/introduction/installation/installer6.png"></graphic>
     </screenshot>
 </figure>
 </para>
@@ -115,7 +115,7 @@ to remember this password.
 <figure>
     <title>System settings</title>
     <screenshot>
-         <graphic scale="40" fileref="screenshots/installer7.png"></graphic>
+         <graphic scale="40" fileref="screenshots/introduction/installation/installer7.png"></graphic>
     </screenshot>
 </figure>
 </para>
@@ -128,7 +128,7 @@ to remember this password.
 <figure>
     <title>Mail configuration</title>
     <screenshot>
-         <graphic scale="40" fileref="screenshots/installer8.png"></graphic>
+         <graphic scale="40" fileref="screenshots/introduction/installation/installer8.png"></graphic>
     </screenshot>
 </figure>
 </para>
@@ -151,7 +151,7 @@ Please write down the generated password for the 'root@localhost' account.
 <figure>
     <title>Web installer final screen</title>
     <screenshot>
-         <graphic scale="40" fileref="screenshots/installer9.png"></graphic>
+         <graphic scale="40" fileref="screenshots/introduction/installation/installer9.png"></graphic>
     </screenshot>
 </figure>
 </para>

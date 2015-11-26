@@ -13,7 +13,7 @@ OTRS administrators can send messages to specific users or groups. The "Admin No
 <figure>
     <title>Admin notification screen</title>
     <screenshot>
-         <graphic scale="40" fileref="screenshots/send-admin-notification.png"></graphic>
+         <graphic scale="40" fileref="screenshots/administration/adminarea/send-admin-notification.png"></graphic>
     </screenshot>
 </figure>
 </para>

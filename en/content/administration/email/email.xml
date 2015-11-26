@@ -57,7 +57,7 @@ If a new mail account is to be created (see figure below), then its mail server 
 <figure>
     <title>Adding a mail account</title>
     <screenshot>
-         <graphic scale="40" fileref="screenshots/add-mailaccount.png"></graphic>
+         <graphic scale="40" fileref="screenshots/administration/email/add-mailaccount.png"></graphic>
     </screenshot>
 </figure>
 </para>

@@ -13,7 +13,7 @@ The "SQL Box" link on the Admin page opens a screen that lets you query the cont
 <figure>
     <title>SQL Box</title>
     <screenshot>
-         <graphic scale="40" fileref="screenshots/admin-selectbox.png"></graphic>
+         <graphic scale="40" fileref="screenshots/administration/adminarea/admin-selectbox.png"></graphic>
     </screenshot>
 </figure>
 </para>

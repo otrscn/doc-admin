@@ -17,7 +17,7 @@ The SysConfig link on the Admin page loads the graphical interface for system co
 <figure>
     <title>The graphical interface for system configuration (SysConfig)</title>
     <screenshot>
-         <graphic scale="40" fileref="screenshots/admin-sysconfig.png"></graphic>
+         <graphic scale="40" fileref="screenshots/administration/adminarea/admin-sysconfig.png"></graphic>
     </screenshot>
 </figure>
 </para>

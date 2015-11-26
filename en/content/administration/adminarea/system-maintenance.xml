@@ -16,7 +16,7 @@
         <figure>
             <title>The system maintenance overview screen with some scheduled periods</title>
             <screenshot>
-                 <graphic scale="40" fileref="screenshots/admin-systemmaintenance-overview-screen.png"></graphic>
+                 <graphic scale="40" fileref="screenshots/administration/adminarea/admin-systemmaintenance-overview-screen.png"></graphic>
             </screenshot>
         </figure>
     </para>
@@ -28,7 +28,7 @@
         <figure>
             <title>The system maintenance edit screen</title>
             <screenshot>
-                 <graphic scale="40" fileref="screenshots/admin-systemmaintenance-edit-screen.png"></graphic>
+                 <graphic scale="40" fileref="screenshots/administration/adminarea/admin-systemmaintenance-edit-screen.png"></graphic>
             </screenshot>
         </figure>
     </para>

@@ -135,7 +135,7 @@
             <figure>
                 <title>Daemon notification</title>
                 <screenshot>
-                     <graphic scale="40" fileref="screenshots/daemon-notify.png"></graphic>
+                     <graphic scale="40" fileref="screenshots/administration/adminarea/daemon-notify.png"></graphic>
                 </screenshot>
             </figure>
         </para>
@@ -147,7 +147,7 @@
             <figure>
                 <title>Start Daemon</title>
                 <screenshot>
-                     <graphic scale="40" fileref="screenshots/daemon-start.png"></graphic>
+                     <graphic scale="40" fileref="screenshots/administration/adminarea/daemon-start.png"></graphic>
                 </screenshot>
             </figure>
         </para>

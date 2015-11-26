@@ -17,7 +17,7 @@ The "S/MIME Certificates" link on the Admin page allows you to manage your S/MIM
 <figure>
     <title>S/MIME management</title>
     <screenshot>
-         <graphic scale="40" fileref="screenshots/admin-smime.png"></graphic>
+         <graphic scale="40" fileref="screenshots/administration/adminarea/admin-smime.png"></graphic>
     </screenshot>
 </figure>
 </para>

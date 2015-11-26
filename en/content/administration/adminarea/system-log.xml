@@ -13,7 +13,7 @@ The "System Log" link on the Admin page shows the log entries of the system, rev
 <figure>
     <title>System Log</title>
     <screenshot>
-         <graphic scale="40" fileref="screenshots/admin-syslog.png"></graphic>
+         <graphic scale="40" fileref="screenshots/administration/adminarea/admin-syslog.png"></graphic>
     </screenshot>
 </figure>
 </para>
