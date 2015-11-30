@@ -3,7 +3,7 @@
   "http://www.oasis-open.org/docbook/xml/4.4/docbookx.dtd">
 
 <chapter id="first-steps">
-<title>Hatua za mwanzo</title>
+<title>First Steps</title>
 
 <abstract>
 <para>
@@ -15,7 +15,7 @@ mapendeleo ya mtumiaji yanayopatikana kwenye kila akaunti.
 </abstract>
 
 <section id="agent-interface">
-<title>Kiolesura cha tovuti cha wakala</title>
+<title>Agent Web Interface</title>
 
 <para>
 Kiolesura cha tovuti cha wakala kinamruhusu wakala kujibu maombi ya wateja,
@@ -25,28 +25,26 @@ mara kwa mara, kuhariri data za wateja, na kadh.
 </para>
 
 <para>
-Tuseme mwenyeji wa OTRS yako anapatikana kupitia URL <ulink
+Supposing your OTRS host is reachable via the URL <ulink
 url="http://www.example.com/"> <citetitle>http://www.example.com</citetitle>
-</ulink> , kisha skrini ya kuingia ya OTRS inaweza kufikiwa kwa kutumia
-anwani ya wavuti <ulink
-url="http://www.example.com/otrs/index.pl"><citetitle>http://www.example.com/otrs/index.pl</citetitle>
-</ulink> katika kivinjari wavuti (ona Kielelezo chini).
+</ulink> , then the OTRS login screen can be reached by using the address
+<ulink url="http://www.example.com/otrs/index.pl">
+<citetitle>http://www.example.com/otrs/index.pl</citetitle> </ulink> in a
+web browser (see figure below).
 </para>
 
 <para>
+<figure>
+    <title>Login screen of the agent interface</title>
 <screenshot>
-<screeninfo>index.pl - Skrini ya kuingia ya wakala</screeninfo> <graphic srccredit="index.pl -
-screenshot" scale="40" fileref="screenshots/login.png"></graphic></screenshot>
-</para>
-
-<para>
-<emphasis>Kielelezo: Skrini ya kuingia ya kiolesura cha wakala.</emphasis>
+<graphic scale="40"
+fileref="screenshots/introduction/firststeps/login.png"></graphic></screenshot></figure>
 </para>
 
 </section>
 
 <section id="customer-interface">
-<title>Kiolesura cha tovuti cha mtumiaji</title>
+<title>Customer Web Interface</title>
 
 <para>
 Wateja wana violesura tofauti vya tovuti katika OTRS ambavyo wanaweza
@@ -55,26 +53,24 @@ na kuhariri tiketi, kupata mapitio ya tiketi walizotengeneza, na kadh.
 </para>
 
 <para>
-Mwendelezo wa mfano juu, skrini ya kuingia ya mteja inaweza kufikiwa kwa
-kutumia URL <ulink url="http://www.example.com/otrs/customer.pl">
-<citetitle>http://www.example.com/otrs/customer.pl</citetitle> </ulink> na
-kivinjari wavuti (ona Kielelezo chini).
+Continuing the above example, the customer login screen can be reached by
+using the URL <ulink url="http://www.example.com/otrs/customer.pl">
+<citetitle>http://www.example.com/otrs/customer.pl</citetitle> </ulink> with
+a web browser (see figure below).
 </para>
 
 <para>
+<figure>
+    <title>Login screen of the customer interface</title>
 <screenshot>
-<screeninfo>customer.pl - Skrini ya kuingia ya mteja</screeninfo> <graphic srccredit="customer.pl -
-screenshot" scale="40" fileref="screenshots/customer-login.png"></graphic></screenshot>
-</para>
-
-<para>
-<emphasis>Kielelezo: Skrini ya kuingia ya kiolesura cha mteja.</emphasis>
+<graphic scale="40"
+fileref="screenshots/introduction/firststeps/customer-login.png"></graphic></screenshot></figure>
 </para>
 
 </section>
 
 <section id="public-interface">
-<title>Kiolesura cha tovuti cha uma</title>
+<title>Public Web Interface</title>
 
 <para>
 Kwa nyongeza kwenye violesura vya wavuti kwa ajili ya mawakala na
@@ -95,19 +91,17 @@ url="http://www.example.com/otrs/public.pl">
 </para>
 
 <para>
+<figure>
+    <title>Kiolesura cha tovuti cha uma</title>
 <screenshot>
-<screeninfo>public.pl - Kiolesura cha umma cha wavuti</screeninfo> <graphic srccredit="public.pl -
-screenshot" scale="40" fileref="screenshots/public-interface.png"></graphic></screenshot>
-</para>
-
-<para>
-<emphasis>Kielelezo: Kiolesura cha umma cha wavuti.</emphasis>
+<graphic scale="40"
+fileref="screenshots/introduction/firststeps/public-interface.png"></graphic></screenshot></figure>
 </para>
 
 </section>
 
 <section id="first-login">
-<title>Kuingia kwa mara ya kwanza</title>
+<title>First Login</title>
 
 <para>
 Fikia kwenye skrini ya kuingia kama ilivyoelezewa katika kifungu  <link
@@ -133,45 +127,39 @@ nywila za akaunti yako ya kawaida ya wakala.
 </para>
 
 <para>
-Ikitokea umesahau nywila yako, unaweza kuuomba mfumo nywila mpya. Bonyeza
-kirahisi kiungo chini ya kitufe cha kuingia, ingiza anuani yako ya barua
-pepe iliyosajiliwa kwenye akaunti yako ya OTRS kwenye sehemu ya maingizo, na
-kisha bonyeza kitufe cha kuwasilisha. (ona Kielelezo).
+In case you have forgotten your password, you can request the system for a
+new password. Simply press the link below the Login button, enter the mail
+address that is registered for your OTRS account into the input field, and
+press the Submit button (see figure).
 </para>
 
 <para>
+<figure>
+    <title>Ombi la neno la siri jipya</title>
 <screenshot>
-<screeninfo>login.pl - Omba nywila mpya</screeninfo> <graphic srccredit="login.pl -
-screenshot" scale="40"
-fileref="screenshots/request-new-password.png"></graphic></screenshot>
-</para>
-
-<para>
-<emphasis>Kielelezo: Omba nywila mpya</emphasis>
+<graphic scale="40"
+fileref="screenshots/introduction/firststeps/request-new-password.png"></graphic></screenshot></figure>
 </para>
 
 </section>
 
 <section id="gui-overview">
-<title>Kiolesura cha tovuti - mapitio</title>
+<title>The Web Interface - an Overview</title>
 
 <para>
-Baada ya kuingia kwa mafanikio kwenye mfumo, unakutana na kurasa ya Dashi
-bodi (ona Kielelezo chini). Inaonyesha tiketi zako zilizofungwa, inaruhusu
-ufikivu wa moja kwa moja kupitia menyu kwenda kwenye foleni, hali na
-muonekano wa kupanda, na pia inashikilia uchaguzi wa kutengeneza simu mpya
-na tiketi za barua pepe. Pia inatoa ufupisho wa haraka wa tiketi kwa kutumia
-vigezo tofauti.
+Upon successfully logging into the system, you are presented with the
+Dashboard page (see figure below). It shows your locked tickets, allows
+direct access through menus to the queue, status and escalation views, and
+also holds options for creation of new phone and e-mail tickets. It also
+presents a quick summary of the tickets using different criteria.
 </para>
 
 <para>
+<figure>
+    <title>Dashboard of the agent interface</title>
 <screenshot>
-<screeninfo>Skrini baada ya kuingia kwa mafanikio</screeninfo> <graphic srccredit="First screen -
-screenshot" scale="40" fileref="screenshots/first-screen.png"></graphic></screenshot>
-</para>
-
-<para>
-<emphasis>Kielelezo: Dashibodi ya kiolesura cha wakala.</emphasis>
+<graphic scale="40"
+fileref="screenshots/introduction/firststeps/first-screen.png"></graphic></screenshot></figure>
 </para>
 
 <para>
@@ -226,9 +214,9 @@ rekodi, kagua batli, badilisha mipangilio ya mabadiliko, na kadh.
 </para>
 
 <para>
-Mwisho katika upande wa chini wa ukurasa, kijachini cha tovuti kinaonyeshwa
-(ona Kielelezo chini). Ina viungo ili kufikia moja kwa moja tovuti rasmi ya
-OTRS, au kwenda upande wa juu wa kurasa.
+Finally at the bottom of the page, the site footer is displayed (see figure
+below). It contains links to directly access the OTRS official web site, or
+go to the Top of the page.
 </para>
 
 <para>
@@ -237,13 +225,11 @@ hivyo katika skrini zote kwenye kiolesura cha tovuti.
 </para>
 
 <para>
+<figure>
+    <title>Kijachini</title>
 <screenshot>
-<screeninfo>Kijachini</screeninfo> <graphic srccredit="Footer"
-scale="40" fileref="screenshots/footer.png"></graphic></screenshot>
-</para>
-
-<para>
-<emphasis>Kielelezo: Kijachini.</emphasis>
+<graphic scale="40"
+fileref="screenshots/introduction/firststeps/footer.png"></graphic></screenshot></figure>
 </para>
 
 </section>
@@ -281,10 +267,11 @@ vimefafanuliwa chini.
 </para>
 
 <para>
-    <screenshot>
-<screeninfo>Vifaa vya dashibodi</screeninfo> <graphic srccredit="Dashboard
-widgets" scale="40"
-fileref="screenshots/dashboard-left-column-widgets.png"></graphic></screenshot>
+    <figure>
+        <title>Vifaa vya dashibodi</title>
+<screenshot>
+<graphic scale="40"
+fileref="screenshots/introduction/firststeps/dashboard-left-column-widgets.png"></graphic></screenshot></figure>
 </para>
 
 <para>
@@ -294,12 +281,11 @@ fileref="screenshots/dashboard-left-column-widgets.png"></graphic></screenshot>
     <listitem>
         <para>Vifaa vya Orodha ya Tiketi</para>
         <para>
-            Vifaa ndani ya hii kategori vina tabia za ujumla zinazofanana, muonekano na
-hisia. Hivi vifaa vinaonyesha orodha ya tiketi katika hali
-iliyoamuliwa. Idadi ya tiketi zilizoonyeshwa katika kila orodha zinaweza
-kusanidiwa katika machaguo ya vifaa (zinatokea ukiambaa juu na kipanya juu
-ya upande wa juu kulia wa kifaa). Hiki kifaa kina usaidizi kwa vichujio
-vifwatavyo:
+            Widgets under this category share same overall behavior, look and feel. This
+widgets shows a list of tickets on a determined state. The amount of tickets
+display on each list page can be configured in widget options (they appear
+when you hover the mouse pointer over the top right part of the
+widget). This widgets support the following filters:
         </para>
         <itemizedlist mark="round">
             <listitem>
@@ -372,8 +358,8 @@ moja kwa ajili ya muda wa kuanza tukio la tiketi na nyingine kwa ajili ya
 muda wa kumaliza, hii mida inaelezea muda unaotumiwa na tukio.
         </para>
         <para>
-            Hiki kifaa kina muonekanao ufwatao: mwezi, wiki na siku, mawakala wanaweza
-kubiringiza kwenye kurasa kwa kutumia vishale vya kushoto na kulia.
+            This widget includes the following views: month, week and day, agents can
+scroll through the pages by using the right and left arrows.
         </para>
         <para>
             Kama ilivyosemwa kabla kulemaza tuu vifaa haitoshi, baadhi ya sehemu
@@ -388,9 +374,11 @@ ya kuza tiketi inaweza kusanidiwa kuonyesha hii sehemu inayobadilika pia,
 kama ukiifikiria kama muhimu.
         </para>
         <para>
-            <screenshot>
-<screeninfo>Kifaa cha Matukio ya Kalenda ya Tiketi</screeninfo> <graphic srccredit="Footer"
-scale="40" fileref="screenshots/events-ticket-calendar.png"></graphic></screenshot>
+            <figure>
+                <title>Kifaa cha Matukio ya Kalenda ya Tiketi</title>
+<screenshot>
+<graphic scale="40"
+fileref="screenshots/introduction/firststeps/events-ticket-calendar.png"></graphic></screenshot></figure>
         </para>
         <para>
             Zaidi usanidi wa hiki kifaa unaweza kupatikana chini ya
@@ -458,25 +446,22 @@ undani wake zaidi .
     </listitem>
 </itemizedlist>
 <para>
-    Kwenye safuwima ya kulia kuna kifaa maalumu kinachokuruhusu kudhibiti vifaa
-unavyotaka kuonyesha au kuficha, Hiki ni kifaa cha Mipangilio. Bofya kwenye
-kichwa chake kupanua kifungu na kuona vifaa vyote vinavyopatikana, kama
-ilivyoonyeshwa kwenye Kielelezo. Kila jina la kifaa lina kisanduku tiki,
-Tumia hiki kisanduku tiki kufafanua muonekano wa vifaa katika dashibodi
-(vifaa visivyotikiwa havitaonyeshwa) baada ya kufafanua machaguo ya
-muonekano na kubofya "Hifadhi" kuhifadhi mabadiliko. Hiki kifungu kimefungwa
-sehemu moja katika skrini, hii inamaanisha huwezi kukikokota na kukiweka
-sehemu nyingine, au kukifunga.
+    In the right column is located a special widget that allow you to control
+the widgets you want to show or hide. This is the Settings widget. Click on
+it's header to expand the section and see all available widgets, as shown in
+Figure. Each widget name has a checkbox. Use this checkboxes to define the
+visibility of the widgets in the dashboard (unchecked widgets will not be
+shown) after you define the visibility options and click on 'Save' for
+storing your changes.  This section is fixed on the screen, this means you
+can't drag and drop it, or close it.
 </para>
 
 <para>
-    <screenshot>
-<screeninfo>Hariri mipangilio ya dashibodi</screeninfo> <graphic srccredit="Dashboard
-settings" scale="40" fileref="screenshots/edit-settings.png"></graphic></screenshot>
-</para>
-
-<para>
-    <emphasis>Kielelezo: Mipangilio ya Dashibodi.</emphasis>
+    <figure>
+        <title>Dashboard Settings</title>
+<screenshot>
+<graphic scale="40"
+fileref="screenshots/introduction/firststeps/edit-settings.png"></graphic></screenshot></figure>
 </para>
 
 <para>
@@ -523,7 +508,7 @@ Mipangilio kilichoelezewa hapo juu.
 </section>
 
 <section id="what-is-a-queue">
-<title>Nini maana ya foleni? </title>
+<title>What is a Queue?</title>
 
 <para>
 Katika mifumo mingi ya barua, ni kawaida kwa ujumbe wowote kuingia kwenye
@@ -604,7 +589,7 @@ michakato kwenye kampuni yako.
 
 
 <section id="what-is-the-queue-overview">
-<title>Nini maana ya mapitio ya foleni?</title>
+<title>What is the Queue Overview?</title>
 
 <para>
 Mapitio ya foleni yanatoa muonekano wa foleni zote ambamo tiketi zipo, na
@@ -612,17 +597,19 @@ ambamo mtumiaji ana haki za kusoma na kuandika.
 </para>
 
 <para>
+<figure>
+    <title>Muonekano wa Foleni kwa Mawakala (Chaguo-msingi)</title>
 <screenshot>
-<screeninfo>Muonekano wa Foleni kwa Mawakala (Chaguo-msingi)</screeninfo> <graphic srccredit="Dashboard
-settings" scale="40" fileref="screenshots/edit-settings.png"></graphic></screenshot>
+<graphic scale="40"
+fileref="screenshots/introduction/firststeps/agent-queue-view.png"></graphic></screenshot></figure>
 </para>
 
 <para>
-Mapitio ya foleni yanatoa machaguo mbali mbali kwa kazi za kila siku na
-OTRS. Ya kwanza ni Foleni Yangu. Kwenye Mapendeleo ya Wakala, au wakati wa
-usimamizi wa mawakala, seti ya foleni zinaweza kufafanuliwa ambazo wakala
-anafanya kazi ndani yake. Tiketi zote zitatokea katika huu muonekano wa
-kawaida, wakati wakufikia Tiketi -> Foleni Ona Menyu.
+The queue overview offers a variety of options for daily work with OTRS. The
+first of these is the My Queue. In the Agent Preferences, or when
+administering agents, a set of queues can be defined for which the agent has
+been assigned to work within. All the tickets will appear in this default
+view, when accessing the Tickets -> Queue View menu.
 </para>
 
 <para>
@@ -631,12 +618,11 @@ kwenda kwenye foleni binafsi na foleni ndogo zenye tiketi za kufanyiwa kazi.
 </para>
 
 <para>
-Katika aina zote mbili za muonekano, mtumiaji pia ana uwezo ulioongezwa wa
-kuona aidha tiketi zote zilizofunguliwa (hiki ni kichujio chaguo-msingi), au
-mtumiaji anaweza kuchagua kuona tiketi zote zinazopatikana. Tiketi lazima
-ziwe katika moja ya hali zinazo onekana ili kuonyeshwa katika muonekano wa
-foleni. Kwa chaguo-msingi hizi ni 'wazi, mpya, kikumbusho kinachosubiri,
-inayosubiri kiotomatiki'.
+In both of the view types, the user also has the added ability to see either
+all unlocked tickets (this is the default filter), or the user can then
+choose to view all available tickets. Tickets must be in one of the viewable
+state types to be shown in the queue view. Per default, these are 'open,
+new, pending reminder, pending auto'.
 </para>
 
 <para>
@@ -644,10 +630,11 @@ Kuna kengele zinazoonekana, kumsaidia mtumiaji.
 </para>
 
 <para>
+<figure>
+    <title>Wakala Foleni Ona kengele zinazoonekana. </title>
 <screenshot>
-<screeninfo>Wakala Foleni Ona kengele zinazoonekana.</screeninfo> <graphic srccredit="index.pl -
-screenshot" scale="40"
-fileref="screenshots/agent-queue-overview-visual-alarms.png"></graphic></screenshot>
+<graphic scale="40"
+fileref="screenshots/introduction/firststeps/agent-queue-overview-visual-alarms.png"></graphic></screenshot></figure>
 </para>
 
 <itemizedlist>
@@ -675,31 +662,26 @@ juu kwenye "Foleni Zangu".</para>
 </section>
 
 <section id="user-preferences">
-<title>Mapendeleo ya Mtumiaji</title>
+<title>User Preferences</title>
 <para>
-Watumiaji wa OTRS kama wateja, mawakala na msimamizi wa OTRS wanaweza
-kusanidi mapendeleo ya akaunti zao kwa mahitaji yao. Wakala anaweza kufikia
-skrini ya usanidi kwa kubofya kwenye majina yao ya kuingia kwenye mfumo
-katika kona ya juu ya kulia ya kiolesura cha wavuti (ona Kielelezo chini),
-na wateja lazima wabofye kwenye kiungo cha "Mapendeleo" (ona Kielelezo
-chini).
+OTRS users such as customers, agents and the OTRS administrator can
+configure their account preferences as per their needs. Agent can access the
+configuration screen by clicking on their login name at the top right corner
+of the web interface (see figure below), and customers must click on the
+"Preferences" link (see figure below).
 </para>
 
 <para>
+<figure>
+    <title>Agent's personal preferences</title>
 <screenshot>
-<screeninfo>Skrini ya Mapendeleo ya Akaunti kwa ajili ya Mawakala.</screeninfo> <graphic srccredit="index.pl -
-screenshot" scale="40"
-fileref="screenshots/agent-preferences.png"></graphic></screenshot>
+<graphic scale="40"
+fileref="screenshots/introduction/firststeps/agent-preferences.png"></graphic></screenshot></figure>
 </para>
 
 <para>
-<emphasis>Kielelezo: Mapendeleo binafsi ya wakala</emphasis>
-</para>
-
-<para>
-Wakala anaweza kusanidi kategori 3 za mapendeleo: umbo wa mtumiaji,
-mipanhgilio ya barua pepe, na mipangilio mingine. Vinavyowezekana kwa
-kawaida ni:
+An agent can configure 3 different categories of preferences: user profile,
+email settings, and other settings. The default possibilities are:
 </para>
 
 <itemizedlist>
@@ -711,25 +693,15 @@ kawaida ni:
         <para>Rekebisha lugha ya kiolesura.</para>
     </listitem>
     <listitem>
-        <para>Badili gamba la mazingira ya mbele.</para>
+        <para>Amilisha na kusanidi muda wa nje ya ofisi.</para>
     </listitem>
     <listitem>
         <para>Hamisha mandhari ya mazingira ya mbele.</para>
     </listitem>
-    <listitem>
-        <para>Amilisha na kusanidi muda wa nje ya ofisi.</para>
-    </listitem>
 </itemizedlist>
 
 <itemizedlist>
-    <title>Mipangilio ya barua pepe</title>
-    <listitem>
-        <para>Chagua matukio yanayochochea taarifa kupitia barua pepe kwenda kwa wakala</para>
-    </listitem>
-</itemizedlist>
-
-<itemizedlist>
-    <title>Mipangilio mingine</title>
+    <title>Notification Settings</title>
     <listitem>
         <para>Chagua foleni unazotaka kufuatilia katika "Foleni Zangu".</para>
     </listitem>
@@ -737,7 +709,18 @@ kawaida ni:
         <para>Select the services you want to monitor in "My Services".</para>
     </listitem>
     <listitem>
-        <para>Set the refresh period for the overviews (Dashboard, LockedView, QueueView).</para>
+        <para>Configure which ticket notifications you want to receive (per transport
+method).</para>
+    </listitem>
+</itemizedlist>
+
+<itemizedlist>
+    <title>Mipangilio mingine</title>
+    <listitem>
+        <para>Badili gamba la mazingira ya mbele.</para>
+    </listitem>
+    <listitem>
+        <para>Set the refresh period for the overviews (Dashboard, Queue View etc.).</para>
     </listitem>
     <listitem>
         <para>Seti skrini ya kuonyeshwa baada ya tiketi kutengenezwa.</para>
@@ -745,14 +728,11 @@ kawaida ni:
 </itemizedlist>
 
 <para>
+<figure>
+    <title>Customer's personal preferences</title>
 <screenshot>
-<screeninfo>Skrini y amapendeleo ya akaunti kwa ajili ya wateja</screeninfo> <graphic srccredit="customer.pl -
-screenshot" scale="40"
-fileref="screenshots/customer-preferences.png"></graphic></screenshot>
-</para>
-
-<para>
-<emphasis>Kielelezo: Mapendeleo binafsi ya mteja.</emphasis>
+<graphic scale="40"
+fileref="screenshots/introduction/firststeps/customer-preferences.png"></graphic></screenshot></figure>
 </para>
 
 <para>

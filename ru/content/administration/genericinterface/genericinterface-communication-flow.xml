@@ -25,7 +25,7 @@ and as a requester.
                         <itemizedlist mark="round">
                             <listitem>
                                 <para>
-                                    OTRS receives HTTP request and passes it through the layers.
+                                    OTRS получает HTTP-запрос и передает его через слои.
                                 </para>
                             </listitem>
                             <listitem>
@@ -176,8 +176,7 @@ mapping configuration (Mapping for outgoing response data).
                         <itemizedlist>
                             <listitem>
                                 <para>
-                                    Data as transformed and prepared to be passed to Network Transport as
-response.
+                                    Данные преобразованы и подготовлены для приема Транспортной сетью как ответ.
                                 </para>
                             </listitem>
                         </itemizedlist>
@@ -257,16 +256,16 @@ to pass it through the layers.
                                             <itemizedlist mark="round">
                                                 <listitem>
                                                     <para>
-                                                        Create a new Generic Interface (Requester)  task for the OTRS Scheduler (by
-delegating the request execution to the Scheduler, the user experience could
-be highly improved, otherwise all the time needed to prepare the request and
-the remote execution will be added to the OTRS Events that trigger those
-requests).
+                                                        Create a new Generic Interface (Requester)  task for the OTRS Daemon (by
+delegating the request execution to the Scehduler Daemon, the user
+experience could be highly improved, otherwise all the time needed to
+prepare the request and the remote execution will be added to the OTRS
+Events that trigger those requests).
                                                     </para>
                                                 </listitem>
                                                 <listitem>
                                                     <para>
-                                                        In its next cycle the Scheduler process reads the new task and creates a
+                                                        In its next cycle the OTRS daemon process reads the new task and creates a
 call to the Requester that will create a new request and then passes it
 through the layers.
                                                     </para>
@@ -366,7 +365,7 @@ Remote System format from the requester.
                                     </listitem>
                                     <listitem>
                                         <para>
-                                            Отправляет запрос удаленной системе и ожидает ответ от нее
+                                            Sends the request to the remote system and waits for the response.
                                         </para>
                                     </listitem>
                                 </itemizedlist>
@@ -400,7 +399,7 @@ Remote System format from the requester.
                             <itemizedlist mark="round">
                                 <listitem>
                                     <para>
-                                        Данные полученные от Удаленной Системы
+                                        Data as received from the Remote System.
                                     </para>
                                 </listitem>
                             </itemizedlist>
@@ -454,21 +453,20 @@ handling if any).
                             </listitem>
                             <listitem>
                                 <para>
-                                    Return the Invoker result and data to the Requester.
+                                    Возврат результата Запроса и данных запрашивающей стороне.
                                 </para>
                             </listitem>
                         </itemizedlist>
                     </listitem>
                     <listitem>
                         <para>
-                            Обработчик или Планировщик Действий
+                            Event Handler or OTRS Daemon
                         </para>
                         <itemizedlist mark="round">
                             <listitem>
                                 <para>
-                                    Receives the data from the Requester, in the case of the Scheduler this data
-might contain information to Re-Schedule the task immediately or in the
-future.
+                                    Receives the data from the Requester, in the case of the OTRS Daemon this
+data might contain information to create a task in the future.
                                 </para>
                             </listitem>
                         </itemizedlist>

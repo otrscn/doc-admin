@@ -3,7 +3,7 @@
   "http://www.oasis-open.org/docbook/xml/4.4/docbookx.dtd">
 
 <chapter id="first-steps">
-<title>Erste Schritte</title>
+<title>First Steps</title>
 
 <abstract>
 <para>
@@ -18,7 +18,7 @@ werden kann.
 </abstract>
 
 <section id="agent-interface">
-<title>Agenten-Weboberfläche</title>
+<title>Agent Web Interface</title>
 
 <para>
 Die Mitarbeiter bearbeiten über die Weboberfläche des Systems die Anfragen
@@ -33,23 +33,21 @@ url="http://www.example.com/"> <citetitle>http://www.example.com</citetitle>
 </ulink> , then the OTRS login screen can be reached by using the address
 <ulink url="http://www.example.com/otrs/index.pl">
 <citetitle>http://www.example.com/otrs/index.pl</citetitle> </ulink> in a
-web browser (see Figure below).
+web browser (see figure below).
 </para>
 
 <para>
+<figure>
+    <title>Login screen of the agent interface</title>
 <screenshot>
-<screeninfo>index.pl - Login-Bildschirm für Agenten</screeninfo> <graphic srccredit="index.pl -
-screenshot" scale="40" fileref="screenshots/login.png"></graphic></screenshot>
-</para>
-
-<para>
-<emphasis>Abb.: Login-Bildschirm der Agenten-Weboberfläche.</emphasis>
+<graphic scale="40"
+fileref="screenshots/introduction/firststeps/login.png"></graphic></screenshot></figure>
 </para>
 
 </section>
 
 <section id="customer-interface">
-<title>Kunden-Weboberfläche</title>
+<title>Customer Web Interface</title>
 
 <para>
 Customers have a separate web interface in OTRS through which they can
@@ -58,26 +56,24 @@ get an overview on tickets that they have created, etc.
 </para>
 
 <para>
-Das obige Beispiel fortsetzend kann der Kunden-Login-Bildschirm über die URL
-<ulink url="http://www.example.com/otrs/customer.pl">
-<citetitle>http://www.example.com/otrs/customer.pl</citetitle> </ulink> mit
-einem Webbrowser erreicht werden (siehe Abbildung unten).
+Continuing the above example, the customer login screen can be reached by
+using the URL <ulink url="http://www.example.com/otrs/customer.pl">
+<citetitle>http://www.example.com/otrs/customer.pl</citetitle> </ulink> with
+a web browser (see figure below).
 </para>
 
 <para>
+<figure>
+    <title>Login screen of the customer interface</title>
 <screenshot>
-<screeninfo>customer-pl - Kunden-Weboberfläche</screeninfo> <graphic srccredit="customer.pl -
-screenshot" scale="40" fileref="screenshots/customer-login.png"></graphic></screenshot>
-</para>
-
-<para>
-<emphasis>Abb.: Login-Bildschirm der Kunden-Weboberfläche.</emphasis>
+<graphic scale="40"
+fileref="screenshots/introduction/firststeps/customer-login.png"></graphic></screenshot></figure>
 </para>
 
 </section>
 
 <section id="public-interface">
-<title>Öffentliche Weboberfläche</title>
+<title>Public Web Interface</title>
 
 <para>
 In addition to the web interfaces for agents and customers, OTRS also has a
@@ -96,19 +92,17 @@ url="http://www.example.com/otrs/public.pl">
 </para>
 
 <para>
+<figure>
+    <title>Öffentliche Weboberfläche</title>
 <screenshot>
-<screeninfo>public.pl - Öffentliche Weboberfläche</screeninfo> <graphic srccredit="public.pl -
-screenshot" scale="40" fileref="screenshots/public-interface.png"></graphic></screenshot>
-</para>
-
-<para>
-<emphasis>Abb.: Öffentliche Weboberfläche.</emphasis>
+<graphic scale="40"
+fileref="screenshots/introduction/firststeps/public-interface.png"></graphic></screenshot></figure>
 </para>
 
 </section>
 
 <section id="first-login">
-<title>Die erste Anmeldung</title>
+<title>First Login</title>
 
 <para>
 Access the login screen as described in the section <link
@@ -135,45 +129,39 @@ vorgesehenen Eingabefelder ein.
 </para>
 
 <para>
-Falls Sie einmal ihr Kennwort vergessen haben sollten, können Sie sich
-automatisch vom System ein neues Kennwort an die Mailadresse schicken
-lassen, die für Ihren OTRS-Account im System hinterlegt ist. Geben Sie dazu
-im unteren Bereich des Login-Bildschirms den Benutzernamen Ihres Accounts
-an.
+In case you have forgotten your password, you can request the system for a
+new password. Simply press the link below the Login button, enter the mail
+address that is registered for your OTRS account into the input field, and
+press the Submit button (see figure).
 </para>
 
 <para>
+<figure>
+    <title>Neues Passwort beantragen</title>
 <screenshot>
-<screeninfo>login.pl - Neues Passwort anfordern</screeninfo> <graphic srccredit="login.pl -
-screenshot" scale="40"
-fileref="screenshots/request-new-password.png"></graphic></screenshot>
-</para>
-
-<para>
-<emphasis>Abb.: Neues Passwort anfordern.</emphasis>
+<graphic scale="40"
+fileref="screenshots/introduction/firststeps/request-new-password.png"></graphic></screenshot></figure>
 </para>
 
 </section>
 
 <section id="gui-overview">
-<title>Agenten-Weboberfläche - ein Überblick</title>
+<title>The Web Interface - an Overview</title>
 
 <para>
 Upon successfully logging into the system, you are presented with the
-Dashboard page (see Figure below). It shows your locked tickets, allows
+Dashboard page (see figure below). It shows your locked tickets, allows
 direct access through menus to the queue, status and escalation views, and
 also holds options for creation of new phone and e-mail tickets. It also
 presents a quick summary of the tickets using different criteria.
 </para>
 
 <para>
+<figure>
+    <title>Dashboard of the agent interface</title>
 <screenshot>
-<screeninfo>Bildschirm nach erster erfolgreicher Anmeldung</screeninfo> <graphic srccredit="First screen -
-screenshot" scale="40" fileref="screenshots/first-screen.png"></graphic></screenshot>
-</para>
-
-<para>
-<emphasis>Abb.: Dashboard der Agenten-Weboberfläche.</emphasis>
+<graphic scale="40"
+fileref="screenshots/introduction/firststeps/first-screen.png"></graphic></screenshot></figure>
 </para>
 
 <para>
@@ -227,7 +215,7 @@ check the log, change configuration settings, etc.
 </para>
 
 <para>
-Finally at the bottom of the page, the site footer is displayed (see Figure
+Finally at the bottom of the page, the site footer is displayed (see figure
 below). It contains links to directly access the OTRS official web site, or
 go to the Top of the page.
 </para>
@@ -238,13 +226,11 @@ Normalerweise sehen die "icon row", die "navigation bar" und die Fußzeile
 </para>
 
 <para>
+<figure>
+    <title>Fußzeile</title>
 <screenshot>
-<screeninfo>Fußzeile</screeninfo> <graphic srccredit="Footer"
-scale="40" fileref="screenshots/footer.png"></graphic></screenshot>
-</para>
-
-<para>
-<emphasis>Abb.: Fußzeile.</emphasis>
+<graphic scale="40"
+fileref="screenshots/introduction/firststeps/footer.png"></graphic></screenshot></figure>
 </para>
 
 </section>
@@ -281,21 +267,22 @@ column and they are all described below.
 </para>
 
 <para>
-    <screenshot>
-<screeninfo>Dashboard Widgets</screeninfo> <graphic srccredit="Dashboard
-widgets" scale="40"
-fileref="screenshots/dashboard-left-column-widgets.png"></graphic></screenshot>
+    <figure>
+        <title>Übersichtsseiten-Widgets</title>
+<screenshot>
+<graphic scale="40"
+fileref="screenshots/introduction/firststeps/dashboard-left-column-widgets.png"></graphic></screenshot></figure>
 </para>
 
 <para>
-    Linke Spalte der Dashboard Widgets
+    Linke Spalte der Übersichtsseiten-Widgets.
 </para>
 <itemizedlist mark="round">
     <listitem>
         <para>Ticketlisten Widgets</para>
         <para>
             Widgets under this category share same overall behavior, look and feel. This
-widgets shows a list of tickets on a determined state. the amount of tickets
+widgets shows a list of tickets on a determined state. The amount of tickets
 display on each list page can be configured in widget options (they appear
 when you hover the mouse pointer over the top right part of the
 widget). This widgets support the following filters:
@@ -371,7 +358,7 @@ duration of the event.
         </para>
         <para>
             This widget includes the following views: month, week and day, agents can
-scroll thru the pages by using the right and left arrows.
+scroll through the pages by using the right and left arrows.
         </para>
         <para>
             As mentioned before just enabling the widget is not enough, a couple of
@@ -385,9 +372,11 @@ configured to show this dynamic fields also, in case you consider it
 necessary.
         </para>
         <para>
-            <screenshot>
-<screeninfo>Ticket Ereigniskalender Widget</screeninfo> <graphic srccredit="Footer"
-scale="40" fileref="screenshots/events-ticket-calendar.png"></graphic></screenshot>
+            <figure>
+                <title>Ticket Ereigniskalender Widget</title>
+<screenshot>
+<graphic scale="40"
+fileref="screenshots/introduction/firststeps/events-ticket-calendar.png"></graphic></screenshot></figure>
         </para>
         <para>
             Further configurations for this widget could be found under the
@@ -452,10 +441,10 @@ will opened letting agents to have a more detailed overview of them.
     </listitem>
 </itemizedlist>
 <para>
-    In the right column is located an special widget that allow you to control
-the widgets you want to show or hide, This is the Settings widget. Click on
+    In the right column is located a special widget that allow you to control
+the widgets you want to show or hide. This is the Settings widget. Click on
 it's header to expand the section and see all available widgets, as shown in
-Figure. Each widget name has a checkbox, Use this checkboxes to define the
+Figure. Each widget name has a checkbox. Use this checkboxes to define the
 visibility of the widgets in the dashboard (unchecked widgets will not be
 shown) after you define the visibility options and click on 'Save' for
 storing your changes.  This section is fixed on the screen, this means you
@@ -463,17 +452,15 @@ can't drag and drop it, or close it.
 </para>
 
 <para>
-    <screenshot>
-<screeninfo>Dashboard-Einstellungen bearbeiten</screeninfo> <graphic srccredit="Dashboard
-settings" scale="40" fileref="screenshots/edit-settings.png"></graphic></screenshot>
+    <figure>
+        <title>Dashboard Settings</title>
+<screenshot>
+<graphic scale="40"
+fileref="screenshots/introduction/firststeps/edit-settings.png"></graphic></screenshot></figure>
 </para>
 
 <para>
-    <emphasis>Abb.: Dashboard-Einstellungen.</emphasis>
-</para>
-
-<para>
-    Rechte Spalte der Dashboard Widgets
+    Rechte Spalte der Übersichtsseiten-Widgets.
 </para>
 
 <itemizedlist mark="round">
@@ -515,7 +502,7 @@ normally hidden, it can be shown using Settings widget described before.
 </section>
 
 <section id="what-is-a-queue">
-<title>Was verbirgt sich hinter dem Begriff Queue?</title>
+<title>What is a Queue?</title>
 
 <para>
 Normalerweise werden E-Mails in einer INBOX gespeichert und verwaltet. Eine
@@ -601,7 +588,7 @@ Abbildung von Abläufen.
 
 
 <section id="what-is-the-queue-overview">
-<title>Was ist die Queue-Übersicht?</title>
+<title>What is the Queue Overview?</title>
 
 <para>
 The queue overview offers a view of all queues in which tickets are present,
@@ -609,17 +596,19 @@ and for which the user has RW permissions.
 </para>
 
 <para>
+<figure>
+    <title>Queue-Ansicht (Standard) für Agenten</title>
 <screenshot>
-<screeninfo>Queue-Ansicht (Standard) für Agenten</screeninfo> <graphic srccredit="index.pl -
-screenshot" scale="40" fileref="screenshots/agent-queue-view.png"></graphic></screenshot>
+<graphic scale="40"
+fileref="screenshots/introduction/firststeps/agent-queue-view.png"></graphic></screenshot></figure>
 </para>
 
 <para>
-The queue overview offers a variaty of options for daily work with OTRS. The
-first of theese is the My Queue. In the Agent Preferences, or when
-administering agents, a set of queuse can be defined for which the agent has
+The queue overview offers a variety of options for daily work with OTRS. The
+first of these is the My Queue. In the Agent Preferences, or when
+administering agents, a set of queues can be defined for which the agent has
 been assigned to work within. All the tickets will appear in this default
-view, when accessing the Ticket -> Queue View menu.
+view, when accessing the Tickets -> Queue View menu.
 </para>
 
 <para>
@@ -630,9 +619,9 @@ individual queues and sub-queues containing tickets to be worked upon.
 <para>
 In both of the view types, the user also has the added ability to see either
 all unlocked tickets (this is the default filter), or the user can then
-chooose to view all available tickets. Tickets must be in one of the
-viewable state types to be shown in the queue view. Per default, these are
-'open, new, pending reminder, pending auto'.
+choose to view all available tickets. Tickets must be in one of the viewable
+state types to be shown in the queue view. Per default, these are 'open,
+new, pending reminder, pending auto'.
 </para>
 
 <para>
@@ -640,10 +629,11 @@ Es gibt visuelle Alarme, um den Agent zu unterstützen
 </para>
 
 <para>
+<figure>
+    <title>Visuelle Alarme der Queueansicht </title>
 <screenshot>
-<screeninfo>Visuelle Alarme der Queueansicht</screeninfo> <graphic srccredit="index.pl -
-screenshot" scale="40"
-fileref="screenshots/agent-queue-overview-visual-alarms.png"></graphic></screenshot>
+<graphic scale="40"
+fileref="screenshots/introduction/firststeps/agent-queue-overview-visual-alarms.png"></graphic></screenshot></figure>
 </para>
 
 <itemizedlist>
@@ -669,30 +659,26 @@ seen in above in the "Junk" queue.</para>
 </section>
 
 <section id="user-preferences">
-<title>Benutzereinstellungen</title>
+<title>User Preferences</title>
 <para>
-Die Einstellungen eines Accounts lassen sich mit Hilfe der
-Benutzereinstellungen den eigenen Wünschen entsprechend anpassen. Dabei
-spielt keine Rolle, ob man als Mitarbeiter, Kunde oder Administrator am
-System angemeldet ist. Die Benutzereinstellungen sind über den Link auf den
-Benutzernamen erreichbar, Kunden müssen den "Einstellungen"-Link verwenden.
+OTRS users such as customers, agents and the OTRS administrator can
+configure their account preferences as per their needs. Agent can access the
+configuration screen by clicking on their login name at the top right corner
+of the web interface (see figure below), and customers must click on the
+"Preferences" link (see figure below).
 </para>
 
 <para>
+<figure>
+    <title>Agent's personal preferences</title>
 <screenshot>
-<screeninfo>Persönliche Benutzer-Einstellungen für Agenten</screeninfo> <graphic srccredit="index.pl -
-screenshot" scale="40"
-fileref="screenshots/agent-preferences.png"></graphic></screenshot>
+<graphic scale="40"
+fileref="screenshots/introduction/firststeps/agent-preferences.png"></graphic></screenshot></figure>
 </para>
 
 <para>
-<emphasis>Abb.: Benutzereinstellungen des Agenten.</emphasis>
-</para>
-
-<para>
-Ein Agent kann 3 verschiedene Kategorien von Einstellungen vornehmen:
-Benutzerprofil, E-Mail-Einstellungen und andere Einstellungen. Folgende
-Einstellungen sind möglich:
+An agent can configure 3 different categories of preferences: user profile,
+email settings, and other settings. The default possibilities are:
 </para>
 
 <itemizedlist>
@@ -704,26 +690,15 @@ Einstellungen sind möglich:
         <para>Sprache der Benutzeroberfläche wechseln.</para>
     </listitem>
     <listitem>
-        <para>Oberflächen-Skin auswählen.</para>
+        <para>Abwesenheitszeit aktivieren und konfigurieren.</para>
     </listitem>
     <listitem>
         <para>Oberflächen-Theme auswählen.</para>
     </listitem>
-    <listitem>
-        <para>Abwesenheitszeit aktivieren und konfigurieren.</para>
-    </listitem>
 </itemizedlist>
 
 <itemizedlist>
-    <title>E-Mail-Einstellungen</title>
-    <listitem>
-        <para>Ereignisse auswählen, bei denen eine E-Mail-Benachrichtigung durch das
-System erfolgen soll.</para>
-    </listitem>
-</itemizedlist>
-
-<itemizedlist>
-    <title>Andere Einstellungen</title>
+    <title>Benachrichtigungseinstellungen</title>
     <listitem>
         <para>Wählen Sie die Queues aus, die sie in "Meine Queues" überwachen wollen.</para>
     </listitem>
@@ -731,7 +706,18 @@ System erfolgen soll.</para>
         <para>Wählen Sie die Dienste aus, die Sie in "Meine Dienste" überwachen möchten.</para>
     </listitem>
     <listitem>
-        <para>Set the refresh period for the overviews (Dashboard, LockedView, QueueView).</para>
+        <para>Configure which ticket notifications you want to receive (per transport
+method).</para>
+    </listitem>
+</itemizedlist>
+
+<itemizedlist>
+    <title>Andere Einstellungen</title>
+    <listitem>
+        <para>Oberflächen-Skin auswählen.</para>
+    </listitem>
+    <listitem>
+        <para>Set the refresh period for the overviews (Dashboard, Queue View etc.).</para>
     </listitem>
     <listitem>
         <para>Bildschirm auswählen, der nach Erstellung eines Tickets angezeigt wird.</para>
@@ -739,14 +725,11 @@ System erfolgen soll.</para>
 </itemizedlist>
 
 <para>
+<figure>
+    <title>Customer's personal preferences</title>
 <screenshot>
-<screeninfo>Persönliche Benutzereinstellungen für Kunden</screeninfo> <graphic srccredit="customer.pl -
-screenshot" scale="40"
-fileref="screenshots/customer-preferences.png"></graphic></screenshot>
-</para>
-
-<para>
-<emphasis>Abb.: Benutzereinstellungen des Kunden.</emphasis>
+<graphic scale="40"
+fileref="screenshots/introduction/firststeps/customer-preferences.png"></graphic></screenshot></figure>
 </para>
 
 <para>

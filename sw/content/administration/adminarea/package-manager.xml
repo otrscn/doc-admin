@@ -1,0 +1,65 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE section PUBLIC "-//OASIS//DTD DocBook XML V4.4//EN"
+  "http://www.oasis-open.org/docbook/xml/4.4/docbookx.dtd">
+
+<section id="adminarea-package-manager">
+<title>Msimaizi wa kifurushi</title>
+
+<para>
+Using the "Package Manager" link on the Admin page, you can install and
+manage packages that extend the functionality of OTRS (see figure
+below). See the <link linkend="application">Additional applications</link>
+section for a discussion on the extensions that are available from the OTRS
+repositories.
+</para>
+
+<para>
+<figure>
+    <title>Msimaizi wa kifurushi</title>
+<screenshot>
+<graphic scale="40"
+fileref="screenshots/administration/adminarea/admin-packagemanager.png"></graphic></screenshot></figure>
+</para>
+
+<para>
+Meneja kifurushi anaionyesha OTRS vifurushi vya nyongeza ambavyo
+umesakinisha kwenye seva yako kwa sasa, pamoja na nambari zake za matoleo.
+</para>
+
+<para>Unaweza kusakinisha vifurushi kutoka kwa mwenyeji wa mbali kwa kuchagua
+hifadhi kwenye kifungu cha <emphasis>Hifadhi ya Mtandao</emphasis>, na
+kubofya kitufe cha  <emphasis>Sasisha taarifa za
+hifadhi</emphasis>. Vifurushi vilivyopo vinaonyeshwa kwenye jedwali
+husika. Upande wa kulia wa skrini unaonyesha vifurushi
+vilivyopo. Kusakinisha kifurushi, bofya kwenye
+<emphasis>Sakinisha</emphasis>. Baada ya usakinishaji, kifurushi
+kinaonyeshwa kwenye kifungu cha <emphasis>Hifadhi ya Ndani</emphasis>.
+</para>
+
+<para>
+Kuboresha kifurushi kilichosakinishwa, orodha ya vifurushi vilivyopo kwenye
+hifadhi ya mtandao itaonyesha <emphasis>Boresha</emphasis> katika safuwima
+ya Vitendo kwa kifurushi chochote chenye toleo jipya zaidi ya lile
+lililosakinishwa kwa ndani. Bofya Boresha na itasakinisha toleo jipya la
+kifurushi kwenye mfumo wako.
+</para>
+
+<para>
+Katika baadhi ya kesi, mfano mfumo wako wa OTRS haujaunganishwa na mtandao,
+unaweza kusakinisha vifurushi ambavyo umepakua kwenye diski ya ndani. Bofya
+kitufe cha <emphasis>Vinjari</emphasis> kwenye mwambaa upande wa vitendo, na
+chagua faili la .opm la kifurushi kwenye diski yako. Bofya
+<emphasis>Fungua</emphasis> na kisha <emphasis>Sakinisha
+Kifurushi</emphasis>. Baada ya usakinishaji kukamilika, kifurushi
+kinaonyeshwa kwenye kifungu <emphasis>Hifadhi ya Ndani</emphasis>. Unaweza
+kutumia hatua hizo hizo kusasisha kifurushi ambacho tayari kimesakinishwa.
+</para>
+
+<para>
+Katika kesi maalumu, unaweza kutaka kusanidi Meneja Vifurushi, mf., kutumia
+seva mbadala au kutumia hifadhi ya ndani. Tazama kwenye machaguo yaliyopo
+kwenye SysConfig chini ya <link
+linkend="ConfigReference_Framework:Core::Package">Kiunzi:Kiini::Kifurushi</link>.
+</para>
+
+</section>

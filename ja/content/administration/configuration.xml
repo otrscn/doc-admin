@@ -27,22 +27,22 @@ OTRSウェブ・インターフェースがアクセスされる場合、<filena
 </section>
 
 <section id="sysconfig">
-<title>ウェブインターフェースによるシステムの構成</title>
+<title>Configuring the System Through the Web Interface</title>
 
 <para>
-OTRS
-2.0以降は、中央フレームワークまたは追加でインストールされたアプリケーションのほぼすべての構成パラメタは、システム構成用グラフィカル・インターフェースで簡単に変更することができるので、新規構成ツールを実行するため、OTRS管理者としてログインして、管理者ページのSysConfigリンクをたどってください(下記の図を参照)。
+Since OTRS 2.0, nearly all configuration parameters of the central framework
+or additional installed applications, can be changed easily with the
+graphical interface for system configuration. Log in as OTRS administrator
+and follow the SysConfig link on the Admin page to execute the new
+configuration tool (see figure below).
 </para>
 
 <para>
+<figure>
+    <title>システム構成用のグラフィカル・インターフェース</title>
 <screenshot>
-<screeninfo>システム構成用のグラフィカル・インターフェース</screeninfo> <graphic
-srccredit="sysconfig（シスコンフィグ）） - スクリーンショット" scale="40"
-fileref="screenshots/admin-sysconfig.png"></graphic></screenshot>
-</para>
-
-<para>
-    <emphasis>図:システム構成用のグラフィカル・インターフェース</emphasis>
+<graphic scale="40"
+fileref="screenshots/administration/adminarea/admin-sysconfig.png"></graphic></screenshot></figure>
 </para>
 
 <para>

@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE section PUBLIC "-//OASIS//DTD DocBook XML V4.4//EN"
+  "http://www.oasis-open.org/docbook/xml/4.4/docbookx.dtd">
+
+<section id="adminarea-package-manager">
+<title>パッケージ・マネージャー</title>
+
+<para>
+Using the "Package Manager" link on the Admin page, you can install and
+manage packages that extend the functionality of OTRS (see figure
+below). See the <link linkend="application">Additional applications</link>
+section for a discussion on the extensions that are available from the OTRS
+repositories.
+</para>
+
+<para>
+<figure>
+    <title>パッケージ・マネージャー</title>
+<screenshot>
+<graphic scale="40"
+fileref="screenshots/administration/adminarea/admin-packagemanager.png"></graphic></screenshot></figure>
+</para>
+
+<para>
+パッケージ・マネージャは、それらのバージョン番号と一緒に、サーバに現在インストールした OTRS addonパッケージを示します。
+</para>
+
+<para><emphasis>オンライン・レポジトリ</emphasis>セクションにあるレポジトリを選択し、<emphasis>リポジトリ情報の更新</emphasis>ボタンをクリックすることによって、リモート・ホストからパッケージをインストールすることができます。利用可能なパッケージが対応するテーブルに表示されます。
+画面右側には利用可能なパッケージを表示します。パッケージをインストールするために<emphasis>インストール</emphasis>をクリックします。インストレーション後、パッケージは<emphasis>ローカル・レポジトリ</emphasis>セクションを表示します。
+</para>
+
+<para>
+インストールされたパッケージをアップグレードするために、オンライン・リポジトリにある利用可能なパッケージのリストは、ローカルにインストールされているものより高いバージョンがあるあらゆるパッケージ用のアクション・カラムで<emphasis>アップグレード</emphasis>を表示します。単にアップグレードをクリックしてください。そうすれば、新しいパッケージ・バージョンをシステムにインストールします。
+</para>
+
+<para>
+OTRSシステムがインターネットに接続されないような場合、ローカル・ディスクにダウンロードしたそれらのパッケージもインストールすることもできます。アクション・サイドバー上の<emphasis>ブラウズ</emphasis>をクリックし、あなたのディスク内の.opmファイルを選択します。<emphasis>開く</emphasis>を、それから<emphasis>パッケージをインストール</emphasis>をクリックします。インストレーションの完了後、パッケージは<emphasis>レポジトリ</emphasis>セクションに表示されます。設置が終わった後、パッケージは<emphasis>のローカルのリポジトリ</emphasis>セクションに表示されます。既にインストールされているパッケージの更新のために同じステップを使用することができます。
+</para>
+
+<para>
+In special cases, you might want to configure the Package Manager, e.g., to
+use a proxy or to use a local repository. Just take a look at the available
+options in SysConfig under <link
+linkend="ConfigReference_Framework:Core::Package">Framework:Core::Package</link>.
+</para>
+
+</section>

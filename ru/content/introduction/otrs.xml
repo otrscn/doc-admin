@@ -42,7 +42,7 @@
         </para>
 
         <section>
-        <title>Пользовательский интерфейс</title>
+        <title>User Interface</title>
             <itemizedlist>
               <listitem>
                 <para>
@@ -94,7 +94,7 @@
             </itemizedlist>
         </section>
         <section>
-            <title>Почтовый интерфейс</title>
+            <title>Email Interface</title>
             <itemizedlist>
               <listitem>
                 <para>
@@ -241,8 +241,89 @@ Connetctor позволяет создание, обновление и поис
             </para>
         </section>
 
+        <section id="new-features-of-otrs-5">
+            <title>New Features of OTRS 5</title>
+            <section>
+                <title>Продуктивность</title>
+                <itemizedlist>
+                    <listitem><para>OTRS is now optimized for use on different types and sizes of mobile
+devices.</para></listitem>
+                    <listitem><para>Single-select and multi-select input fields have been modernized and provide
+advanced searching and filtering capabilities (thanks to Dusan Vuckovic at
+Mühlbauer).</para></listitem>
+                    <listitem><para>Images can now be added/uploaded to the WYSIWYG editor using Copy&amp;Paste
+and Drag&amp;Drop from anywhere outside the application (in all browsers,
+without additional Add-On).</para></listitem>
+                    <listitem><para>Improved ticket notification system. It is now possible to configure own
+ticket notifications with own trigger conditions and recipients. With OTRS
+Business Solution™, notifications can also be delivered via SMS and/or
+Notification Web View. The latter is a special screen in OTRS that holds all
+notifications of the agent; with this OTRS can be used entirely without an
+email client.</para></listitem>
+                    <listitem><para>Statistics received a new graphical user interface which is much better
+accessible and helps to create great statistics quickly and easily.</para></listitem>
+                    <listitem><para>Additionally, statistics support the new time periods “quarter” and
+“half-year”</para></listitem>
+                    <listitem><para>It is now possible to group action menu items in the ticket zoom
+screen. Less often used items can be grouped in a submenu, improving screen
+usage and clarity.</para></listitem>
+                    <listitem><para>Ticket overviews can now display customer company data, thanks to Renée
+Bäcker.</para></listitem>
+                    <listitem><para>The ticket process TransitionAction “TicketCreate” can now create tickets
+without articles.</para></listitem>
+                </itemizedlist>
+            </section>
+            <section>
+                <title>Масштабируемость и Производительность</title>
+                <itemizedlist>
+                    <listitem><para>The new OTRS Daemon handles all asynchronous and periodic tasks and replaces
+all previous OTRS cron jobs. In a clustered environment the load is
+automatically distributed over the nodes.</para></listitem>
+                    <listitem><para>It is now possible to specify multiple readonly mirror (slave) databases for
+expensive computations such as statistics or fulltext searches to distribute
+the load among these database servers.</para></listitem>
+                </itemizedlist>
+            </section>
+            <section>
+                <title>Security</title>
+                <itemizedlist>
+                    <listitem>
+                        <para>A new two-factor authentication layer allows added login security.</para>
+                        <itemizedlist>
+                            <listitem><para>If entering a fixed username and password doesn’t satisfy your requirements,
+you can now additionally use the open standard for time based one-time
+passwords (RfC 6238, also known as Google Authenticator).</para></listitem>
+                            <listitem><para>After having enabled the two-factor authentication, agents and customers can
+add a shared secret to their preferences and immediately start logging in
+using one-time passwords created by a compatible method of their choice
+(e.g. the Android Google Authenticator app).</para></listitem>
+                        </itemizedlist>
+                    </listitem>
+                </itemizedlist>
+            </section>
+            <section>
+                <title>Working with External Systems</title>
+                <itemizedlist>
+                    <listitem><para>A new XSLT based GenericInterface mapping module allows for arbitrarily
+complex user-defined data mapping.</para></listitem>
+                </itemizedlist>
+            </section>
+            <section>
+                <title>Установка и Администрирование</title>
+                <itemizedlist>
+                    <listitem><para>The new OTRS console makes working on the commandline easy and fun. All
+commands have a consistent interface, useful documentation and provide
+helpful colored output.</para></listitem>
+                    <listitem><para>Administrators can now specify a minimum log level to reduce logging volume,
+thanks to Renée Bäcker.</para></listitem>
+                    <listitem><para>Overview screens in the admin area now show invalid entities in gray, making
+it easy to focus on active elements.</para></listitem>
+                </itemizedlist>
+            </section>
+        </section>
+
         <section id="new-features-of-otrs-4">
-            <title>Новые возможности OTRS 4</title>
+            <title>New Features of OTRS 4</title>
             <section>
                 <title>Продуктивность</title>
                 <itemizedlist>
@@ -374,13 +455,12 @@ Template::Toolkit.</para></listitem>
         </section>
 
         <section id="new-features-of-otrs-3.3">
-            <title>Новые возможности OTRS 3.3</title>
+            <title>New Features of OTRS 3.3</title>
             <section>
                 <title>Продуктивность</title>
                 <itemizedlist>
-                    <listitem><para>Теперь можно использовать фильтры по допустимым атрибутам заявки в виджетах
-Дайджеста и стандартных обзорах заявок. Можно настраивать перечень и порядок
-отображения колонок в обзорах.</para></listitem>
+                    <listitem><para>Dashboard ticket lists and regular ticket overviews can now be filtered by
+eligible ticket columns, and the shown columns are configurable.</para></listitem>
                     <listitem><para>В обзорах заявок в среднем формате и формате предпросмотра можно
 использовать сортировку.</para></listitem>
                     <listitem><para>В приборной панели добавлен виджет календарь, который может отображать
@@ -448,141 +528,10 @@ Renée Bäcker.</para></listitem>
             </section>
         </section>
 
-        <section id="new-features-of-3.2">
-            <title>Новые возможности OTRS 3.2</title>
-            <section>
-                <title>Больше ориентирован на клиента</title>
-                <itemizedlist>
-                    <listitem>
-                        <para>Новый Центр Информации о Клиентах предоставляет превосходный
-"дайджестоподобный" обзор клиентов (компаний). Вы можете видеть
-                        <itemizedlist>
-                            <listitem><para>Эскалированные, ожидающие напоминания, новые и открытые заявки компании
-клиента.</para></listitem>
-                            <listitem><para>Клиенты (контакты) принадлежащие этой компании, с их индивидуальными
-счетчиками заявок и их обозначениями для создания новых заявок для них.</para></listitem>
-                            <listitem><para>Общий обзор статусов заявок компании клиента.</para></listitem>
-                        </itemizedlist>
-                        </para>
-                    </listitem>
-                    <listitem><para>Новая возможность "Переключиться на клиента" дает возможность агенту, с
-определенными правами, зайти на портал клиента с его/клиента правами.</para></listitem>
-                </itemizedlist>
-            </section>
-            <section>
-                <title>Более настраиваемый</title>
-                <section>
-                    <title>Управление Процессами</title>
-                    <itemizedlist>
-                        <listitem><para>Новый функционал <link linkend="process-management">управление
-процессами</link> дает возможность использования процессов в OTRS.</para></listitem>
-                    </itemizedlist>
-                </section>
-                <section>
-                    <title>Улучшен пользовательский веб-интерфейс</title>
-                    <itemizedlist>
-                        <listitem><para>Веб - интерфейс клиента теперь полностью поддерживает использование AJAX и
-ACL.</para></listitem>
-                        <listitem><para>Он теперь требует наличия поддержки JavaScript и несовместим с Internet
-Explorer 6 и более ранними версиями.</para></listitem>
-                        <listitem><para>Для интерфейса клиента вы теперь можете задать тип заявки по умолчанию для
-новых заявок. Дополнительно, вы также имеете возможность отключить ввод типа
-заявки и использовать значение его по умолчанию для всех заявок создаваемых
-через интерфейс клиента.</para></listitem>
-                    </itemizedlist>
-                    </section>
-                <section>
-                    <title>Улучшен веб-интерфейс Агента</title>
-                    <itemizedlist>
-                        <listitem><para>Агенты теперь могут осуществлять поиск заявок на основании времени
-эскалации.</para></listitem>
-                        <listitem><para>Новая возможность показывать динамические поля по умолчанию при поиске
-заявок.</para></listitem>
-                        <listitem><para>Оптимизация использования площади экрана при работе с заявками во
-всплывающих окнах во избежание использования прокрутки. Для каждого экрана
-заявки, размер окна текстового редактора теперь может быть настроен
-отдельно.</para></listitem>
-                        <listitem><para>Теперь появилась возможность перемещать заявки в другую очередь в окнах
-действий с заявкой (TicketNote, TicketClose и т.д.) после включения этой
-опции в SysConfig. По умолчанию, она выключена.</para></listitem>
-                        <listitem><para>Если результатом поиска является единственная заявка, теперь вы сразу
-попадете на экран просмотра заявки, минуя список найденных.</para></listitem>
-                        <listitem><para>Новая возможность скрывать заданные типы сообщений/заметок на экранах
-просмотра заявок, что может быть полезным для более удобного обзора экрана.</para></listitem>
-                        <listitem><para>Новый виджет для Дайджеста отображающий список агентов "вне офиса".</para></listitem>
-                        <listitem><para>Новый CKEditor 4 делает работу с форматированным текстом (письма в HTML)
-проще и стабильнее.</para></listitem>
-                    </itemizedlist>
-                </section>
-                <section>
-                    <title>Улучшения в Администрировании</title>
-                    <itemizedlist>
-                        <listitem><para>Уведомления о событиях теперь можно отправлять только для определенных типов
-отправителей сообщений/заметок.</para></listitem>
-                        <listitem><para>Модуль отчетов OTRS теперь понимает термин "Неделя" в дополнение к дням,
-месяцам и годам. Это дает возможность создавать отчеты, например, по заявкам
-"созданным за последнюю неделю" или "заявки созданные в очередях за неделю".</para></listitem>
-                        <listitem><para>Теперь можно помещать кастомизированные DTL (шаблоны) файлы в
-<code>Custom/Kernel/Output/HTML</code>, и они будут перекрывать системные
-DTL файлы как это уже работает для  Perl файлов.</para></listitem>
-                        <listitem><para>В AdminSMIME теперь можно отображать содержимое сертификата в
-человекочитаемом виде.</para></listitem>
-                        <listitem><para>SysConfig  теперь поддержиает настройку типов Date и DateTime.</para></listitem>
-                    </itemizedlist>
-                </section>
-            </section>
-            <section>
-                <title>Улучшена масштабируемость</title>
-                <section>
-                    <title>Улучшенная функция Архивирование Заявок</title>
-                    <itemizedlist>
-                        <listitem><para>При архивации заявок, информация, прочтанная агентом и сообщения могут быть
-удалены, также как и информация о подписке агентов на заявки. Эта опция
-включена по умолчанию и позволяет уменьшить количество информации в базе
-данных в больших системах с множеством заявок и агентов.</para></listitem>
-                        <listitem><para>Добавлен новый скрипт для удаления этих данных из существующих архивных
-заявок.</para></listitem>
-                        <listitem><para>Архивные заявки теперь всегда отображается как "прочтенные" агентом.</para></listitem>
-                    </itemizedlist>
-                </section>
-                <section>
-                    <title>Улучшена производительность</title>
-                    <itemizedlist>
-                        <listitem><para>Управление сеансами стало в 10 раз быстрее, особенно это касается работы с
-активными пользователями.</para></listitem>
-                        <listitem><para>Теперь можно задать лимит количества одновременно работающих агентов и/или
-клиентов во избежания перегрузки серверов.</para></listitem>
-                        <listitem>
-                            <para>Значительное снижение количества выполненных инструкций базы данных в
-обзорах заявок и шаблонов поиска заявок в и интерфейсах агента и клиента.
-                                <itemizedlist>
-                                    <listitem><para>Это позволит снизить загрузку сервера баз данных, особенно в больших
-системах. В ряде случаев OTRS стал заметно более "отзывчивым" (если система
-тормозила из-за загрузки сервера БД или задержек).</para></listitem>
-                                </itemizedlist>
-                            </para>
-                        </listitem>
-                        <listitem><para>Улучшена производительность для LDAP синхронизации пользователей.</para></listitem>
-                        <listitem><para>Увеличена скорость кэширования для многих кэш-файлов.</para></listitem>
-                    </itemizedlist>
-                </section>
-            </section>
-            <section>
-                <title>Улучшена совместимость</title>
-                <section>
-                    <title>FAQ коннектор для GenericInterface</title>
-                    <itemizedlist>
-                        <listitem><para>Появилась возможность доступа к данным модуля FAQ (база знаний OTRS) через
-веб сервисы (GenericInterface). Это может быть полезно, например, для
-включения статей FAQ в ваши корпоративные веб сайты.</para></listitem>
-                    </itemizedlist>
-                </section>
-            </section>
-        </section>
     </section>
 
     <section id="software-requirements">
-        <title>Требования к апаратному и програмному обеспечению</title>
+        <title>Hardware and Software Requirements</title>
 
         <para>
         OTRS может быть установлен на многих операционных системах. OTRS работает
@@ -612,12 +561,12 @@ Perl с некоторыми дополнительными модулями. В
         </para>
 
         <para>
-        В качестве базы данных, можно использовать <application>MySQL</application>,
-<application>PostgreSQL</application>, <application>Oracle</application> или
-<application>MSSQL</application>. В случае использования
-<application>MySQL</application> в качестве сервера базы данных - есть
-возможность задать некоторые настройки посредством веб-интерфейса, при
-установке системы.
+        You can deploy OTRS on different databases. You can choose between
+<application>MySQL</application>, <application>PostgreSQL</application> or
+<application>Oracle</application>.  If you use
+<application>MySQL</application> or <application>PostgreSQL</application>
+you have the advantage that the database and some system settings can be
+configured during the installation, through a web front-end.
         </para>
 
         <para>
@@ -683,7 +632,7 @@ Perl-модулей</link> более подробно описывает как
             </para>
             <itemizedlist>
                 <listitem>
-                      <para>Браузер Internet Explorer до 8 версии</para>
+                      <para>Internet Explorer before version 10</para>
                 </listitem>
                 <listitem>
                       <para>Браузер Firefox до 10 версии</para>
@@ -693,11 +642,10 @@ Perl-модулей</link> более подробно описывает как
                 </listitem>
             </itemizedlist>
             <para>
-                Мы рекомендуем использовать самые последние версии браузеров, т.к. они
-обладают лучшей производительностью JavaScript и производительность
-рендеринга. Критическая разница в производительности на разных браузерах
-может возникать при больших объемах данных или в "тяжелых"системах. Мы
-всегда рады оказать помощь в таких случаях.
+                We recommend keeping your browser up-to-date. JavaScript and rendering
+performance in newer versions is always improved.  Dramatic performance
+issues can be seen in larger systems when using older versions. We are happy
+to consult you on that matter.
             </para>
         </section>
     </section>

@@ -25,13 +25,11 @@ updated and increased over time.
         </para>
     </note>
     <para>
-        <screenshot>
-<screeninfo>Die generischen Schnittstellenebenen</screeninfo> <graphic srccredit="genericinterface
-layers - screenshot" scale="50"
-fileref="screenshots/genericinterface-layers.png"></graphic></screenshot>
-    </para>
-    <para>
-        <emphasis>Abbildung:  Die grafischen Interface Schichten.</emphasis>
+        <figure>
+            <title>The graphical interface layers</title>
+<screenshot>
+<graphic scale="50"
+fileref="screenshots/administration/genericinterface/genericinterface-layers.png"></graphic></screenshot></figure>
     </para>
 
     <section>

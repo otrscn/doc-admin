@@ -1,0 +1,116 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE section PUBLIC "-//OASIS//DTD DocBook XML V4.4//EN"
+  "http://www.oasis-open.org/docbook/xml/4.4/docbookx.dtd">
+
+<section id="customers-and-groups">
+<title>顧客および顧客グループ</title>
+
+<section id="adminarea-customers">
+<title>顧客</title>
+
+<para>
+OTRS supports different types of users. Using the link "Customers" (via the
+navigation bar, or the Admin page), you can manage the accounts of your
+customers (see figure below), who can log into the system via the Customers
+interface (customer.pl). Through this interface, your customers can not only
+create tickets but also review their past tickets for new updates. It is
+important to know that a customer is needed for the ticket history in the
+system.
+</para>
+
+<para>
+<figure>
+    <title>顧客管理</title>
+<screenshot>
+<graphic scale="40"
+fileref="screenshots/administration/adminarea/admin-customer.png"></graphic></screenshot></figure>
+</para>
+
+<para>
+登録した顧客を検索し顧客名をクリックすることで設定を編集できます。顧客のバックエンドを変更することもできます。詳細は<link
+linkend="external-backends">外部バックエンド</link>の章を参照下さい。
+</para>
+
+<para>
+To create a new customer account, click on the "Add customer" button (see
+figure below). Some of the fields are mandatory, i.e., they have to contain
+values, so if you leave one of those empty, it will be highlighted in red.
+</para>
+
+<para>
+<figure>
+    <title>Adding a customer</title>
+<screenshot>
+<graphic scale="40"
+fileref="screenshots/administration/adminarea/add-customer.png"></graphic></screenshot></figure>
+</para>
+
+<para>
+顧客はそれらのユーザー名とパスワードの提供されることでシステムにアクセスすることができます。CustomerIDはユーザと関連チケットを識別するためにシステムによって必要です。メール・アドレスがユニークな値であるので、それはIDとして使用することができます。
+</para>
+
+<note>
+<para>
+担当者、グループおよび役割でそうであったように、顧客は、システムから削除されません。単に、有効オプションが<emphasis>無効</emphasis>または<emphasis>無効-暫定</emphasis>に設定されることで非活性化されるだけです。
+</para>
+</note>
+
+</section>
+
+<section id="adminarea-customers-groups">
+<title>顧客グループ</title>
+
+<para>
+顧客ユーザもグループに加えることができます。1つあるいは少数のキューへのアクセスと同じ会社の顧客を加えたければ、役立つでしょう。まず、<link
+linkend="adminarea-groups">グループ管理モジュール</link>によって、あなたの顧客が属するグループを作ってください。次に、<link
+linkend="adminarea-queue">キュー</link>を加えて、キューに新規グループを選んでください。
+</para>
+
+<para>
+The next step is to activate the customer group support. This can be done
+with the configuration parameter <link
+linkend="ConfigReference_Framework:Frontend::Customer:CustomerGroupSupport">CustomerGroupSupport</link>,
+from the Admin SysConfig option. Using the parameter <link
+linkend="ConfigReference_Framework:Frontend::Customer:CustomerGroupAlwaysGroups">CustomerGroupAlwaysGroups</link>,
+you can specify the default groups for a newly added customer, so that every
+new account will be automatically added to these groups.
+</para>
+
+<para>
+Through the link "Customers &lt;-&gt; Groups" you can manage which customer
+shall belong to the different groups (see figure below).
+</para>
+
+<para>
+<figure>
+    <title>Customer-Group relations management</title>
+<screenshot>
+<graphic scale="40"
+fileref="screenshots/administration/adminarea/admin-customer-groups.png"></graphic></screenshot></figure>
+</para>
+
+<para>
+To define the different groups a customer should be part of and vice versa,
+click on the corresponding customer username or group (see below the Figures
+4.18 and 4.19, respectively).
+</para>
+
+<para>
+<figure>
+    <title>顧客用グループ関係の変更</title>
+<screenshot>
+<graphic scale="40"
+fileref="screenshots/administration/adminarea/groups-customers-relations.png"></graphic></screenshot></figure>
+</para>
+
+<para>
+<figure>
+    <title>グループのための顧客関係の変更</title>
+<screenshot>
+<graphic scale="40"
+fileref="screenshots/administration/adminarea/groups-customers-relations2.png"></graphic></screenshot></figure>
+</para>
+
+</section>
+
+</section>

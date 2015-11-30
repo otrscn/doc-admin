@@ -96,16 +96,15 @@ OTRS позволяет изменять предопределенные сос
 <section id="states-customizing">
 <title>Настраиваемы состояния</title>
 <para>
-Каждое состояние имеет название (state-name) и тип (state-type). Чтобы
-создать новое состояние перейдите по ссылке <link
-linkend="adminarea-status">Состояния</link> на Панели Администрирования и
-нажмите кнопку "Добавить состояние". Можно свободно выбирать имя нового
-состояния. Типы состояний не могут изменятся посредством
-веб-интерфейса. Если нужно добавить новые типы или изменить существующие, -
-все изменения придется делать напрямую в базе данных. Предустановленные типы
-состояний не могут быть изменены, поскольку это может привести к
-непредсказуемым результатам. Например, расчет эскалации и фунция
-разблокирования основаны на конкретных типах состояний.
+Every state has a name (state-name) and a type (state-type). Click on the
+<link linkend="adminarea-states">States</link> link on the Admin page and
+press the button "Add state" to create a new state. You can freely choose
+the name of a new state. The state types can not be changed via the web
+interface. The database has to be directly modified if you want to add new
+types or change existing names. The default state types should typically not
+be modified as this can yield unpredictable results. For instance,
+escalation calculations and the unlock feature are based on specific state
+types.
 </para>
 
 <para>

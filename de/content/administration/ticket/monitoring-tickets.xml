@@ -16,12 +16,12 @@ Aufgaben und die Arbeit in hierarchischen Teamstrukturen.
 <title>Ticket-Verantwortlicher</title>
 
 <para>
-Die Funktion "Verantwortlicher" eines Tickets macht es möglich, das Ticket
-einem anderen als dem aktuellen Besitzer zur Bearbeitung zu übergeben. Ein
-Benutzer, der ein Ticket gesperrt hat, kann es einem anderen Agenten, der
-nicht der Ticketbesitzer ist, zur Beantwortung übergeben. Nach der
-Bearbeitung kann der erste Benutzer die Ticketverantwortung vom zweiten
-wieder entfernen.
+The ticket responsibility feature facilitates the complete processing of a
+ticket by an agent other than the ticket owner. Thus an agent who has locked
+a ticket can pass it on to another agent, who is not the ticket owner, in
+order for the second to respond to a customer request. After the request has
+been dealt with, the first agent can withdraw the ticket responsibility from
+the second agent.
 </para>
 
 <para>
@@ -37,32 +37,25 @@ und die Funktion "Verantwortlicher" in der Aktionsleiste genutzt wird.
 </para>
 
 <para>
+<figure>
+    <title>Changing the Responsibility of a ticket in its zoomed view</title>
 <screenshot>
-<screeninfo>Verantwortlicher-Link in der Ticketansicht</screeninfo> <graphic srccredit="index.pl -
-screenshot" scale="40"
-fileref="screenshots/ticket-zoom-responsible.png"></graphic></screenshot>
+<graphic scale="40"
+fileref="screenshots/administration/ticket/ticket-zoom-responsible.png"></graphic></screenshot></figure>
 </para>
 
 <para>
-<emphasis>Abb.: Verantwortlichen eines Tickets ändern.</emphasis>
+After clicking on "Responsible", a pop-up dialog to change the
+responsibility of that ticket will open (see figure below). This dialog can
+also be used to send a message to the new responsible agent.
 </para>
 
 <para>
-Nach dem Klick auf "Verantwortlicher" öffnet sich ein Popup-Fenster, in dem
-die Änderung durchgeführt werden kann. Damit kann auch dem neuen
-verantwortlichen Benutzer eine Nachricht geschickt werden.
-</para>
-
-<para>
+<figure>
+    <title>Pop-up dialog to change a ticket's responsibility</title>
 <screenshot>
-<screeninfo>Dialog Ticket-Verantwortlicher</screeninfo> <graphic srccredit="index.pl -
-screenshot" scale="40"
-fileref="screenshots/ticket-responsible.png"></graphic></screenshot>
-</para>
-
-<para>
-<emphasis>Abb.: Popup-Dialog zum Ändern des
-Ticket-Verantwortlichen.</emphasis>
+<graphic scale="40"
+fileref="screenshots/administration/ticket/ticket-responsible.png"></graphic></screenshot></figure>
 </para>
 
 <para>
@@ -94,53 +87,44 @@ sollen Tickets zu beobachten.
 </para>
 
 <para>
-Um ein Ticket zu beobachten, muss der Inhalt des Tickets aufgerufen und im
-Menü für die verschiedenen Aktionen für das Ticket der "Beobachten"-Schalter
-betätigt werden.
+In order to watch a ticket, go to its zoomed view and click on the
+"Subscribe" link in the ticket activities menu (see figure below).
 </para>
 
 <para>
+<figure>
+    <title>Subscribing to watching a ticket in its zoomed view</title>
 <screenshot>
-<screeninfo>Abonnieren-Link in der Ticketansicht</screeninfo> <graphic srccredit="index.pl -
-screenshot" scale="40" fileref="screenshots/ticket-subscribe.png"></graphic></screenshot>
+<graphic scale="40"
+fileref="screenshots/administration/ticket/ticket-subscribe.png"></graphic></screenshot></figure>
 </para>
 
 <para>
-<emphasis>Abb.: Ticket beobachten.</emphasis>
+If you no longer want to watch a specific ticket, go to its zoomed view and
+click on the "Unsubscribe" link in the ticket activities menu (see figure
+below).
 </para>
 
 <para>
-Die Beobachtung eines Tickets wird aufgehoben, indem in der Inhaltsanzeige
-eines Tickets im Menü für die möglichen Aktionen der "Nicht
-beobachten"-Schalter gedrückt wird.
-</para>
-
-<para>
+<figure>
+    <title>Unsubscribing from watching a ticket in its zoomed view</title>
 <screenshot>
-<screeninfo>Link "Abonnement kündigen" in der Ticketansicht</screeninfo> <graphic srccredit="index.pl -
-screenshot" scale="40"
-fileref="screenshots/ticket-unsubscribe.png"></graphic></screenshot>
+<graphic scale="40"
+fileref="screenshots/administration/ticket/ticket-unsubscribe.png"></graphic></screenshot></figure>
 </para>
 
 <para>
-<emphasis>Abb.: Ticket nicht mehr beobachten.</emphasis>
+The list of all watched tickets can be accessed through the Watched view of
+the OTRS agent interface (see figure below), as soon as the ticket watcher
+feature gets activated.
 </para>
 
 <para>
-Die Liste aller zur Beobachtung ausgewählten Tickets wird über die Ansicht
-"Beobachtete Tickets" erreicht. Diese kann über 3 Icons in der Toolbar
-aufgerufen werden, sobald das TicketWatcher-Feature aktiviert wird.
-</para>
-
-<para>
+<figure>
+    <title>Watched tickets view</title>
 <screenshot>
-<screeninfo>Mailbox: Beobachtete Tickets</screeninfo> <graphic srccredit="index.pl -
-screenshot" scale="40"
-fileref="screenshots/ticket-subscribe-mailbox.png"></graphic></screenshot>
-</para>
-
-<para>
-<emphasis>Abb.: Ansicht "Beobachtete Tickets".</emphasis>
+<graphic scale="40"
+fileref="screenshots/administration/ticket/ticket-subscribe-mailbox.png"></graphic></screenshot></figure>
 </para>
 </section>
 

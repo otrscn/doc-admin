@@ -38,7 +38,7 @@ OTRS and a Remote System.
 actions the web service can perform internally (Operation), what actions the
 OTRS request can perform Remote System (Invokers), how data is converted
 from one system to the other (Mapping), and over which protocol the
-communication will take place (Transport)
+communication will take place (Transport).
          </para>
          <para>
              The Generic Interface is the framework that makes it possible to create Web

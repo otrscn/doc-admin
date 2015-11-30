@@ -15,13 +15,12 @@
 выбранных значений и т.д.
         </para>
         <para>
-            Динамические поля являются развитием свободных полей  TicketFreeText
-TicketFreeKey TicketFreeTime, ArticleFreeText и ArticleFreeKey, ранее
-использовавшихся в OTRS 3.0 и предыдущих версиях. Ограничением этих
-"Свободных полей" состояло в том, что можно было задать до 16 (текстовых или
-выбираемых из списка) полей и 6 полей, содержащих значение времени для
-заявки и 3 (текстовых или выбираемых из списка) полей  для каждого
-сообщения/заметки, не более.
+            Dynamic fields are the evolution of TicketFreeText, TicketFreeKey,
+TicketFreeTime, ArticleFreeText and ArticleFreeKey fields that where
+commonly used in OTRS 3.0 and before. The limitation of these "Free Fields"
+was that they can be defined up to 16 (text or dropdown) fields and 6 time
+fields for a ticket and 3 (text or dropdown)  fields for each article only,
+not more.
         </para>
         <para>
             Теперь, с появлением динамических полей, эти ограничения сняты, вы можете

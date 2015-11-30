@@ -3,21 +3,21 @@
   "http://www.oasis-open.org/docbook/xml/4.4/docbookx.dtd">
 
 <section id="email">
-<title>Kutuma/Kupokea barua pepe</title>
+<title>Sending/Receiving Emails</title>
 
 <section id="email-sending">
-<title>Kutuma barua pepe</title>
+<title>Sending Emails</title>
 
 <section id="email-sending-sendmail">
-<title>Kupitia TumaBaruapepe (chaguo-msingi)</title>
+<title>Via Sendmail (Default)</title>
 
 <para>
-OTRS inaweza kutuma nje barua pepe kupitia <ulink
-url="http://www.sendmail.org/">Tumabarua</ulink>, <ulink
+OTRS can send out emails via <ulink
+url="http://www.sendmail.org/">Sendmail</ulink>, <ulink
 url="http://www.postfix.org/">Postfix</ulink>, <ulink
 url="http://www.qmail.org">Qmail</ulink> or <ulink
-url="http://www.exim.org">Exim</ulink>). Usanidi chaguo-msingi ni kutumia
-Tumabarua na inatakiwa kufanya kazi nje-ya-boksi.
+url="http://www.exim.org">Exim</ulink>. The default configuration is to use
+Sendmail and should work out-of-the-box.
 </para>
 
 <para>
@@ -28,7 +28,7 @@ usanidi michoro (Kiunzi::Kiini::Tumabarua)
 </section>
 
 <section id="email-sending-smtp">
-<title>Kupitia SMTP au smarthost</title>
+<title>Via SMTP Server or Smarthost</title>
 
 <para>
 OTRS can send emails via SMTP (<ulink
@@ -49,41 +49,36 @@ zinazohitajika kwa aili ya OTRS"</link> kwa maelekezo.
 </section>
 
 <section id="email-receiving">
-<title>Kupokea barua pepe</title>
+<title>Receiving Emails</title>
 
 <section id="email-receiving-pop3">
-<title>Akaunti za barua pepe zilizo sanidiwa kupitia kiolesura michoro cha mtumiaji
-cha OTRS.</title>
+<title>Mail Accounts Configured via the OTRS GUI</title>
 
 <para>
-OTRS inaweza kupokea barua pepe kutoka akaunti za POP3, POP3S, IMAP, na
-IMAPS.
+OTRS is able to receive emails from POP3, POP3S, IMAP and IMAPS mail
+accounts.
 </para>
 
 <para>
-Sanidi akaunti zako za posta kupitia kiungo cha Akaunti za Posta za
-MkuuWaPosta  kwenye ukurasa wa Msimamizi.
+Configure your mail accounts via the "PostMaster Mail Accounts" link on the
+Admin page.
 </para>
 
 <para>
-Kama akaunti mpya ya barua inatakiwa kutengenezwa (ona Kielelezo chini),
-basi jina lake la seva ya barua, jina la kuingilia na nywila lazima ziwekwe
-bayana. Pia, unahitaji kuchagua aina ya seva ya barua, ambayo inaweza kuwa
-POP3, POP3S, IMAP au IMAPS. Kama huoni aina yako ya seva kuwepo kama chaguo,
-moduli za Perl zinazotakiwa hazipo katika mfumo wako. Katika kesi hiyo,
-tafadhali nenda kwenye <link linkend="installation-of-perl-modules">
-"Usakinishaji wa moduli za Perl zinazohitajika na OTRS"</link> kwa
-maelekezo. </para>
+If a new mail account is to be created (see figure below), then its mail
+server name, login name and password must be specified. Also, you need to
+select the mail server type, which can be POP3, POP3S, IMAP or IMAPS. If you
+don't see your server type available as an option, the required Perl modules
+are missing on your system. In that case, please refer to <link
+linkend="installation-of-perl-modules"> "Installation of Perl modules
+required for OTRS"</link> for instructions.</para>
 
 <para>
+<figure>
+    <title>Kuongeza akaunti ya barua pepe</title>
 <screenshot>
-<screeninfo>Kuongeza akaunti ya barua pepe</screeninfo> <graphic srccredit="Adminarea
-postmaster - screenshot" scale="40"
-fileref="screenshots/add-mailaccount.png"></graphic></screenshot>
-</para>
-
-<para>
-<emphasis>Kielelezo: Kuongeza akaunti ya barua pepe.</emphasis>
+<graphic scale="40"
+fileref="screenshots/administration/email/add-mailaccount.png"></graphic></screenshot></figure>
 </para>
 
 <para>Kama ukichagua Ndiyo kwa thamani ya chaguo linaloaminiwa, kichwa chochote
@@ -117,12 +112,10 @@ linkend="ConfigReference_Ticket:Core::PostMaster:PostmasterDefaultQueue">FoleniC
 </para>
 
 <para>
-Data zote za akaunti za barua zinahifadhiwa kwenye hifadhidata ya OTRS. Hati
-ya <filename>otrs.PostMasterMailbox.pl</filename>, ambayo inapatikana kwenye
-mpangilio orodha wa <filename>bin</filename> wa usakinishaji wa OTRS,
-inatumia mipangilio ya hifadhidata na kutafuta hiyo barua. Unaweza
-kutekeleza <filename>./bin/otrs.PostMasterMailbox.pl</filename> kwa mikono
-ili kukagua kama mipangilio yako yote ya barua inafanya kazi kwa usahihi.
+All data for the mail accounts are saved in the OTRS database. The
+<filename>bin/otrs.Console.pl Maint::PostMaster::MailAccountFetch</filename>
+command uses the settings in the database and fetches the mail. You can
+execute it manually to check if all your mail settings are working properly.
 </para>
 
 <para>
@@ -143,26 +136,27 @@ undani.
 
 
 <section id="email-receiving-cmd">
-<title>Kupitia programu ya tungo amri na procmail (otrs.PostMaster.pl)</title>
+<title>Via Command Line Program and Procmail (<literal>otrs.Console.pl
+Maint::PostMaster::Read</literal>)</title>
 
 <para>
-Kama huwezi kutumia akaunti za barua kuingiza barua pepe kwenye OTRS,
-programu ya tungo amri <filename>bin/otrs.PostMaster.pl</filename>inaweza
-kuwa njia ya kutatua tatizo. Inazichukua barua kupitia STDIN na kuziingiza
-kwenye OTRS. Hii ina maanisha barua pepe zitapatikana kwenye mfumo wako wa
-OTRS kama MDA (wakala usambazaji wa barua mf. procmail) ikitekeleza programu
-hii.
+If you cannot use mail accounts to get the email into OTRS, the command line
+program <filename>bin/otrs.Console.pl Maint::PostMaster::Read</filename>
+might be a way around the problem. It takes the mails via STDIN and pipes
+them directly into OTRS. That means email will be available in your OTRS
+system if the MDA (mail delivery agent, e.g. procmail) executes this
+program.
 </para>
 
 <para>
-Kujaribu <filename>bin/otrs.PostMaster.pl</filename> bila MDA, tekeleza
-maagizo ya hati ifuatayo.
+To test <filename>bin/otrs.Console.pl Maint::PostMaster::Read</filename>
+without an MDA, execute the command of the following script.
 </para>
 
 <para>
 <screen>
 linux:/opt/otrs# cd bin
-linux:/opt/otrs/bin# cat ../doc/sample_mails/test-email-1.box | ./otrs.PostMaster.pl
+linux:/opt/otrs/bin# cat ../doc/sample_mails/test-email-1.box | ./otrs.Console.pl Maint::PostMaster::Read
 linux:/opt/otrs/bin#
 </screen>
 </para>
@@ -175,6 +169,34 @@ linux:/opt/otrs/bin#
 Kama barua pepe imeonyeshwa kwenye MuonekanoFoleni, basi mpangilio wako
 unafanya kazi.
 </para>
+
+<example id='procmail-queue-routing'>
+
+<title>Routing via Procmail Using <literal>otrs.Console.pl</literal></title>
+
+<para>
+In order to route mails in a specific queue using otrs.Console.pl use the
+following example.
+</para>
+
+<para>
+<screen><![CDATA[
+| $SYS_HOME/bin/otrs.Console.pl Maint::PostMaster::Read --target-queue=QUEUENAME
+]]></screen>
+</para>
+
+<para>
+When sorting to a subqueue, you must seperate the parent and child queue
+"::".
+</para>
+
+<para>
+<screen><![CDATA[
+| $SYS_HOME/bin/otrs.Console.pl Maint::PostMaster::Read --target-queue=QUEUENAME::SUBQUEUE
+]]></screen>
+</para>
+
+</example>
 
 <para>
 Procmail ni kichujio cha barua pepe kinachojulikana sana katika mazingira ya
@@ -198,7 +220,7 @@ PATH=/bin:/usr/bin:/usr/local/bin
 # Pipe all email into the PostMaster process.
 # --
 :0 :
-| $SYS_HOME/bin/otrs.PostMaster.pl
+| $SYS_HOME/bin/otrs.Console.pl Maint::PostMaster::Read
 </programlisting>
 </para>
 
@@ -207,21 +229,21 @@ PATH=/bin:/usr/bin:/usr/local/bin
 </para>
 
 <para>
-Barua pepe zote zitakazotumwa kwenye OTRS ya ndani zitapelekwa kwenye
-<filename>bin/otrs.PostMaster.pl</filename> na kisha kuonyeshwa kwenye
-MuonekanoFoleni wako.
+All email sent to the local OTRS user will be piped into
+<filename>bin/otrs.Console.pl Maint::PostMaster::Read</filename> and then
+shown in your QueueView.
 </para>
 
 </section>
 
 <section id="email-receiving-fetchmail">
-<title>Kutafuta barua pepe kupitia POP3 au IMAP na kutafuta otrs.PostMaster.pl</title>
+<title>Fetching emails via POP3 or IMAP and fetchmail for otrs.Console.pl
+Maint::PostMaster::Read</title>
 
 <para>
-Ili kupata barua pepe kutoka kwenye seva yako ya barua, kupitia kikasha
-barua cha POP3 au IMAP, kwenda kwenye OTRS akaunti ya OTRS ya machine/local
-na kwenye procmail, tumia <ulink
-url="http://fetchmail.berlios.de/">tafutabarua</ulink>.
+In order to get email from your mail server, via a POP3 or IMAP mailbox, to
+the OTRS machine/local OTRS account and to procmail, use <ulink
+url="http://www.fetchmail.info/">fetchmail</ulink>.
 </para>
 
 <note>
@@ -231,14 +253,13 @@ Usanidi wa SMTP unaofanya kazi unahitajika kwenye mashine ya OTRS.
 </note>
 
 <para>
-Unaweza kutumia <filename>.fetchmailrc.dist</filename> katika mpangilio
-orodha wa nyumbani wa OTRS na kuunakili kwenda
-<filename>.fetchmailrc</filename>. Iboreshe/Ibadilishe kwa mahitaji yako
-(ona Mfano 7-1 chini).
+You can use the <filename>.fetchmailrc.dist</filename> in the home directory
+of OTRS and copy it to <filename>.fetchmailrc</filename>. Modfiy/change it
+for your needs (see the Example below).
 </para>
 
 <example id='fetchmailrc'>
-<title>.fetchmailrc</title>
+<title><literal>.fetchmailrc</literal></title>
 
 <para>
 <programlisting>
@@ -250,32 +271,34 @@ poll mail.example.com protocol POP3 user joe password mama is otrs
 </example>
 
 <para>
-Usisahau kuseti .fetchmailrc kuwa 710 ("chmod 710 .fetchmailrc")!
+Don't forget to set the <filename>.fetchmailrc</filename> to 710 ("chmod 710
+.fetchmailrc")!
 </para>
 
 <para>
-Na <filename>.fetchmailrc</filename> kutoka kwenye Mfano 7-1 hapo juu, barua
-pepe zote zitapelekwa mbele kwenye akaunti ya ndani ya OTRS, kama agizo
-<command>fetchmail -a</command> limetekelezwa. Seti kazi ya mfumo
-iliyopangwa na agizo hili kama ukitaka kutafuta barua mara kwa mara.
+With the <filename>.fetchmailrc</filename> from the Example above, all email
+will be forwarded to the local OTRS account, if the command
+<command>fetchmail -a</command> is executed. Set up a cronjob with this
+command if you want to fetch the mails regularly.
 </para>
 </section>
 
 
 <section id="email-receiving-filter">
-<title>Kuchuja/kutuma kwa moduli za OTRS/MkuuWaPosta (kwa ajili ya utumaji
-changamano)</title>
+<title>Filtering/Dispatching by OTRS/PostMaster Modules (for More Complex
+Dispatching)</title>
 
 <para>
-Kama ukitumia njia ya bin/otrs.PostMaster.pl au
-bin/otrs.PostMasterMailbox.pl, unaweza kuingiza au kubadilisha maingizo ya
-vichwa vya X-OTRS kwa kutumia moduli za kuchuja za MkuuWaPosta. Na vichwa
-vya X-OTRS mfumo wa tiketi unaweza kutekeleza baadhi ya  vitendo kwa barua
-zinazoingia, kuzipanga kwenye foleni maalumu, kubadili kipaumbele au
-kubadili kitambulisho cha mteja, kwa mfano. Taarifa zaidi kuhusu vichwa vya
-X-OTRS zinapatikana katika kifungu kuhusu <link
-linkend="adminarea-postmasterpop3-account">kuongeza akaunti za
-barua</link>kutoka kwenye kurasa ya Msimamizi wa OTRS.
+If you use the <filename>bin/otrs.Console.pl
+Maint::PostMaster::Read</filename> or <filename>bin/otrs.Console.pl
+Maint::PostMaster::MailAccountFetch</filename> method, you can insert or
+modify X-OTRS header entries with the PostMaster filter modules. With the
+X-OTRS headers, the ticket system can execute some actions on incoming
+mails, sort them into a specific queue, change the priority or change the
+customer ID, for example. More information about the X-OTRS headers are
+available in the section about <link
+linkend="adminarea-postmasterpop3-account">adding mail accounts</link> from
+the OTRS Admin page.
 </para>
 
 <para>
@@ -291,11 +314,10 @@ kuwa la kipekee!
 </note>
 
 <para>
-Kiini::Mfumo::MkuuWaPosta::Kichujio::Fananisha ni moduli chaguo-msingi kwa
-ajili ya kufananisha baadhi ya vichwa vya barua pepe (mf. Kutoka, Kwenda,
-Kichwa cha habari, ...). Inaweza kuseti vichwa vipya vya barua pepe
-(mf. X-OTRS-puuza:ndiyo au X-OTRS-Foleni:barua taka) kama sheria ya kuchuja
-imefanana. Kazi za Mfano 7-2 unaweza kuingizwa katika
+Kernel::System::PostMaster::Filter::Match is a default module to match on
+some email header (e.g. From, To, Subject, ...). It can set new email
+headers (e.g. X-OTRS-Ignore: yes or X-OTRS-Queue: spam) if a filter rule
+matches. The jobs of the Example below can be inserted in
 <filename>Kernel/Config.pm</filename>
 </para>
 
@@ -335,10 +357,10 @@ Kiini::Mfumo::MkuuWaPosta::Kichujio::Fananisha</title>
 </example>
 
 <para>
-Kiini::Mfumo::MkuuWaPosta::Chuja::CMD ni moduli chaguo-msingi ya kupeleka
-barua pepe kwenda kwenye amri ya nje. Matokeo yanapewa kwa STDOUT na kama
-majibu ni kweli, kisha seti kichwa kipya cha barua pepe (mf. X-OTRS-Puuza:
-ndiyo au X-OTRS-Foleni: barua taka). Mfano 7-3 unaweza kutumika katika
+Kernel::System::PostMaster::Filter::CMD is a default module to pipe the
+email into an external command. The output is given to STDOUT and if the
+result is true, then set new email header (e.g. X-OTRS-Ignore: yes or
+X-OTRS-Queue: spam). The Example below can be used in
 <filename>Kernel/Config.pm</filename>
 </para>
 
@@ -362,21 +384,20 @@ ndiyo au X-OTRS-Foleni: barua taka). Mfano 7-3 unaweza kutumika katika
 </example>
 
 <para>
-    Kiini::Mfumo::MkuuWaPosta::Chuja::UtambuziWaNambariYaTiketiYaNje ni moduli
-ya chaguo-msingi   ambayo inaongeza uwezekano wa kuchanganua vitambulishi
-vya nje, katika somo la barua pepe, kiini au zote kwa kutumia semi za
-kawaida. Kisha inahifadhi thamani hii katika sehemu inayobadilika
-iliyofafanuliwa. Pale barua pepe inapoingia, OTRS kwanza itatafuta
-kitambulishi cha nje na ikikipata  , uliza OTRS kuhusu sehemu inayobadilika
-iliyofafanuliwa kabla. Kama ikipata tiketi iliyopo, ita sasisha tiketi hii,
-la sivyo itatengeneza tiketi mpya yenye namba ya kumbukumbu ya nje katika
-sehemu tofauti.
+    Kernel::System::PostMaster::Filter::ExternalTicketNumberRecognition is a
+default module that adds the possibility to parse external identifiers, in
+the email subject, the body or both using regular expressions. It then
+stores this value in a defined dynamic field. When an email comes in, OTRS
+will first search for an external identifier and when it finds one, query
+OTRS on the pre-defined dynamic field. If it finds an existing ticket, it
+will update this ticket, otherwise it will create a new ticket with the
+external reference number in the separate field.
 </para>
 <para>
-    OTRS SysConfig tayari inatoa mipangilio mi 4 tofauti kuseti namba za tiketi
-za nje. Kama mipangilio zaidi itahitajika itabidi iongezwe kwa mikono. Mfano
-ufuatao unaweza kutumika katika <filename>Kernel/Config.pm</filename>
-kuendeleza mipangilio ya SysConfig.
+    OTRS SysConfig already provide 4 different settings to setup different
+external ticket numbers.  If more settings are needed they need to be added
+manually. The following example can be used in
+<filename>Kernel/Config.pm</filename> to extend SysConfig settings.
 </para>
 
 <example id='filter-module-externalticketrecognition-example'>
@@ -386,11 +407,11 @@ Kiini::Mfumo::MkuuWaPosta::Chuja::UtambuziTiketiNambariNje
     </title>
 
 <programlisting language="Perl"><![CDATA[
-    # Job Name: ExternalNumber
+    # Job Name: ExternalTicketNumberRecognition
     # External Ticket Number Reconition, check for Incident-<number> in incoming mails subject and
     # body from the addeesses <sender>@externalticket.com, if number is found it will be stored in
     # the dynamic field 'ExternalNumber' (that need to be setup in the Admin Panel).
-    $Self->{'PostMaster::PreFilterModule'}->{'000-ExternalTicketNumberRecognition5'} =  {
+    $Self->{'PostMaster::PreFilterModule'}->{'000-ExternalTicketNumberRecognition'} = {
         'FromAddressRegExp' => '\\s*@externalticket.com',
         'NumberRegExp'      => 'Incident-(\\d.*)',
         'SearchInSubject'   => '1',
@@ -461,6 +482,41 @@ mfumo na inabidi liwe halali).
 Pia inawezekana kutengeneza moduli zako za kuchuja za MkuuWaPosta.
 </para>
 
+</section>
+
+<section id="email-filter-troubleshooting">
+    <title>Troubleshooting Email Filtering</title>
+    <para>This section shows some common issues and things to consider when
+troubleshooting Postmaster filters.</para>
+    <itemizedlist>
+        <listitem>
+            <para>The filters are worked in order of their alphabetically sorted filter
+names.The last filter wins for a certain field to be set, when the criteria
+matches twice.</para>
+        </listitem>
+        <listitem>
+            <para>"Stop After Match" can prevent a second match.</para>
+        </listitem>
+        <listitem>
+            <para>Make sure the regular expression is valid.</para>
+        </listitem>
+        <listitem>
+            <para>Headers can be set as to control OTRS, but are not written in the mail
+itself.</para>
+        </listitem>
+        <listitem>
+            <para>When matching one From, CC, TO, use EMAILADDRESS: &lt;your@address&gt;</para>
+        </listitem>
+        <listitem>
+            <para>The Mailbox must be trusted.</para>
+        </listitem>
+        <listitem>
+            <para>The match criteria are AND conditions.</para>
+        </listitem>
+        <listitem>
+            <para>Ticket properties can not be matched by the postmaster filter.</para>
+        </listitem>
+    </itemizedlist>
 </section>
 
 </section>

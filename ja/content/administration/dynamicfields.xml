@@ -10,11 +10,12 @@
 そして、それらは特定の画面にのみ現われる場合があります。それらが必須であれ、そうでなかれ、それらの画面上の表現はそれらの作成時間に定義されたフィールドタイプに依存します。その作成時間はフィールドによって保持されるデータよります。例えば、テキスト、日付、アイテムの選択を保持するフィールドがあります。
         </para>
         <para>
-            動的フィールドは、TicketFreeText TicketFreeKey
-TicketFreeTime、ArticleFreeTextおよびArticleFreeKeyフィールドの発展形です。それらは以前もそしてOTRS
-3.0の中でも一般に使用されます。これらの「自由フィールド」には以下の制限がありました。1.)
-16の(テキストまたはdropdown)フィールドまで定義可能。2.) １チケットにつき6回のフィールドまで定義可能。3.)
-１記事につき３フィールド(テキストまたはdropdown)まで定義可能。
+            Dynamic fields are the evolution of TicketFreeText, TicketFreeKey,
+TicketFreeTime, ArticleFreeText and ArticleFreeKey fields that where
+commonly used in OTRS 3.0 and before. The limitation of these "Free Fields"
+was that they can be defined up to 16 (text or dropdown) fields and 6 time
+fields for a ticket and 3 (text or dropdown)  fields for each article only,
+not more.
         </para>
         <para>
             今、動的フィールドで、チケットまたは記事についてフィールドの数の中の制限は撤去される、チケットか記事のいずれかのために希望する数だけ動的フィールドとして作成することができます。また、それを越えて、動的フィールドの背後のフレームワークは、単なるチケットや記事だけはなく、他のオブジェクト用カスタム・フィールドを扱う準備ができています。

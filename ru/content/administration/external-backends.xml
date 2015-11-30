@@ -4,10 +4,10 @@
 
 
 <section id="external-backends">
-<title>Использование внешних хранилищ данных</title>
+<title>Using External backends</title>
 
 <section id='customer-data'>
-<title>Данные клиентов</title>
+<title>Customer Data</title>
 
 <para>
 OTRS работает с различными атрибутами данных клиентов, такими как имя
@@ -64,7 +64,7 @@ OTRS работает с различными атрибутами данных 
 </section>
 
 <section id="customer-user-backend">
-<title>Пользовательский бэк-енд</title>
+<title>Customer User Backend</title>
 
 <para>
 Вы можете использоваь два типа хранилища информации клиентов: Базу Данных DB
@@ -77,8 +77,8 @@ OTRS работает с различными атрибутами данных 
 <title>База Данных (По умолчанию)</title>
 
 <para>
-В Примере 11-1 приведена конфигурация базы данных, которая использует данные
-клиента, хранящиеся в базе данных OTRS.
+The Example below shows the configuration of a DB customer backend, which
+uses customer data stored in the OTRS database.
 </para>
 
 <example id='db-customer-backend'>
@@ -227,7 +227,7 @@ file.</emphasis>
 </para>
 
 <section id='multi-customer-ids-db'>
-<title>Клиент с несколькими идентификаторами (Заявки Компании)</title>
+<title>Customer with Multiple IDs (Company Tickets)</title>
 
 <para>
 Одному клиенту можно назначить больше одного клиентского идентификатора
@@ -300,14 +300,13 @@ Kernel/Config.pm</emphasis>
 </para>
 
 <para>
-Для того, чтобы убедится что один клиент имеет доступ к заявкам других
-клиентов нужно добавить идентификаторы (IDs) этих пользователей в новое поле
-для нескольких идентификаторов клиента. Каждый идентификатор (ID) должен
-быть отделен точкой с запятой (см. ниже Пример 11-2).
+To ensure that one customer can access the tickets of other customers, add
+the IDs of these other users into the new field for the multiple customer
+IDs. Each ID has to be separated by a semicolon (see Example below).
 </para>
 
 <example id='company-tickets-db'>
-<title>Хранение Заявок Компании в базе данных DB</title>
+<title>Using Company Tickets with a DB Backend</title>
 
 <para>
 Клиенты А, Б и Ц созданы в вашей системе и А хочет иметь доступ к заявкам Б
@@ -333,9 +332,8 @@ Kernel/Config.pm</emphasis>
 <title>LDAP</title>
 
 <para>
-Если у вас есть LDAP­-каталог, в котором хранятся данные о клиентах, его
-можно использовать в OTRS, в качестве хранилища данных о клиентах, как это
-показано в Примере 11-3.
+If you have an LDAP directory with your customer data, you can use it as the
+customer backend with OTRS, as shown in Example below.
 </para>
 
 <example id='ldap-customer-backend'>
@@ -435,7 +433,7 @@ Kernel/Config.pm.</emphasis>
 
 
 <section id='multi-customer-ids-ldap'>
-<title>Клиент с несколькими идентификаторами (Заявки Компании)</title>
+<title>Customer with Multiple IDs (Company Tickets)</title>
 
 <para>
 При использовании LDAP-бэкэнда клиенту можно присвоить больше одного
@@ -470,19 +468,19 @@ LDAP-директории. OTRS может только считать инфо�
 </para>
 
 <para>
-Чтобы убедтися что клиент имеет доступ к заявкам других клиентов, добавьте
-идентификаторы (IDs) клиентов, к заявкам которых нужен доступ, к новому полю
-вашей LDAP-директории. Каждый идентификатор ID должен быть отделен точнкой с
-запятой (см. ниже Рисунок 11-4).
+To ensure access by a customer to the tickets of other customers, add the
+customer IDs of the customers whose tickets should be accessed to the new
+field in your LDAP directory. Each ID has to be separated by a semicolon
+(see Example below).
 </para>
 
 <example id='company-tickets-ldap'>
 <title>Использование заявок Компании с LDAP-бэкэндом</title>
 
 <para>
-Клиенты А, Б и Ц созданны в вашей системе и А хочет иметь доступ к заявкам Б
-и Ц через панель клиента. Б и Ц не должны иметь доступа к другим
-пользователям.
+Клиенты А, Б и Ц созданы в вашей системе и А хочет иметь доступ к заявкам Б
+и Ц используя клиентскую панель. Б и Ц не должны иметь доступа к заявкам
+других пользователей.
 </para>
 
 <para>
@@ -499,13 +497,13 @@ LDAP-директории. OTRS может только считать инфо�
 </section>
 
 <section id='multiple-customer-backends'>
-<title>Использование больше чем одного пользовательского хранилища данных с OTRS</title>
+<title>Using More than One Customer Backend with OTRS</title>
 
 <para>
-Если в OTRS нужно использовать больше одного источника данных о клиентах
-(например LDAP и базу данных), конфигурационный параметр CustomerUser должен
-быть расширен числом, например "CustomerUser1", "CustomerUser2" (см. ниже
-Пример 11-5).
+If you want to utilize more than one customer data source used with OTRS
+(e.g. an LDAP and a database backend), the CustomerUser config parameter
+should be expanded with a number, e.g. "CustomerUser1", "CustomerUser2" (see
+Example below).
 </para>
 
 <example id='multiple-customer-backend-example'>
@@ -664,7 +662,7 @@ $Self->{CustomerUser2} = {
 </section>
 
 <section id="dynamicfield-from-customeruser">
-    <title>Сохранение информации о клиенте в динамических полях</title>
+    <title>Storing CustomerUser Data in Dynamic Fields</title>
     <para>
         Иногда бывает полезным также сохранить данные клиента заявки непосредственно
 в динамических полях заявки, для создания некоторых отчетов по этим
@@ -692,7 +690,7 @@ AgentTicketCustomer, во избежание перекрытия автомат
 </section>
 
 <section id="auth-backends">
-<title>Хранилища (бэк-енды) для аутентификации Агентов и Клиентов</title>
+<title>Backends to Authenticate Agents and Customers</title>
 
 <para>
 OTRS предлагает опцию для проверки подлинности агентов и клиентов с
@@ -706,12 +704,10 @@ OTRS предлагает опцию для проверки подлиннос�
 <title>База Данных (DB, по умаолчанию)</title>
 
 <para>
-В качестве бэк-энда для аутентификации агентов в OTRS, по умолчанию,
-используется база данных. Чтобы добавлять агентов, редактировать данные о
-них, перейдите на страницу <link linkend="adminarea">Панель
-Администрирования</link> и нажмите ссылку <link
-linkend="adminarea-agents">Интерфейс для управления агентами</link>
-(см. ниже Пример 11.6).
+The backend to authenticate agents which is used by default is the OTRS
+database. Agents can be added and edited via the <link
+linkend="adminarea-agents">agent management interface</link> in the <link
+linkend="adminarea">Admin page</link> (see Example below).
 </para>
 
 <example id='configuration-agent-auth-backend-db'>
@@ -732,12 +728,11 @@ linkend="adminarea-agents">Интерфейс для управления аге
 <title>LDAP</title>
 
 <para>
-Если данные всех ваших агентов хранятся в LDAP-директории, то для
-аутентификации пользователей в OTRS можно использовать LDAP-модуль (см. ниже
-Пример 11-7). Этот модуль имеет права только на чтение дерева
-LDAP-каталогов, что означает что нету возможности редактировать данные
-пользователей используя ссылку <link linkend='adminarea-agents'>
-веб-интерфейс для управления пользователями </link> .
+If an LDAP directory has all your agent data stored, you can use the LDAP
+module to authenticate your users in OTRS (see Example below). This module
+has only read access to the LDAP tree, which means that you cannot edit your
+user data via the <link linkend='adminarea-agents'>agent management
+interface</link>.
 </para>
 
 <example id='configuration-agent-auth-backend-ldap'>
@@ -773,7 +768,7 @@ $Self->{'AuthModule::LDAP::AlwaysFilter'} = '';
 
 # in case you want to add a suffix to each login name, then
 # you can use this option. e. g. user just want to use user but
-# in your ldap directory exists user@domain.
+# in your ldap directory exists user@domain.com
 #    $Self->{'AuthModule::LDAP::UserSuffix'} = '@domain.com';
 
 # Net::LDAP new params (if needed - for more info see perldoc Net::LDAP)
@@ -840,10 +835,10 @@ LDAP-директориив базу данных OTRS.</emphasis>
 </para>
 
 <para>
-    Кроме того вы можете использовать группы LDAP для определения принадлежности
-к группам и ролям в OTRS. Для дополнительной информации и примеров смотрите
-файл Kernel/Config/Defaults.pm. Вот пример синхронизации LDAP с группами
-OTRS.
+    Alternatively, you can use LDAP groups to determine group memberships or
+roles in OTRS. For more information and examples, see
+<filename>Kernel/Config/Defaults.pm</filename>. Here is an example for
+synchronizing from LDAP into OTRS groups.
 </para>
 
 <para>
@@ -888,9 +883,9 @@ $Self->{'AuthSyncModule::LDAP::UserSyncGroupsDefinition'} = {
 <title>HTTPBasicAuth-аутентификация для Агентов</title>
 
 <para>
-Если вы хотите реализовать решение "single sign on" для всех агентов, вы
-можете использовать базовую аунентификацию (для всех систем) и
-HTTPBasicAuth-модуль для OTRS (см. ниже Пример 11-8).
+If you want to implement a "single sign on" solution for all your agents,
+you can use HTTP basic authentication (for all your systems) and the
+HTTPBasicAuth module for OTRS (see Example below).
 </para>
 
 <example id='configuration-agent-auth-backend-htbasic'>
@@ -921,8 +916,8 @@ $Self->{LogoutURL} = 'http://host.example.com/thanks-for-using-otrs.html';
 <title>Radius</title>
 
 <para>
-Параметры конфигурации приведенные в Примере 11-9 могут быть использованы
-для аутентификации агентов с использованием Radius-сервера.
+The configuration parameters shown in Example below can be used to
+authenticate agents against a Radius server.
 </para>
 
 <example id='configuration-agent-auth-backend-radius'>
@@ -945,15 +940,15 @@ $Self->{'AuthModule::Radius::Password'} = 'radiussecret';
 </section>
 
 <section id="customer-auth-backends">
-<title>Хранилища информации для аутентификации (проверки подлинности) клиентов</title>
+<title>Authentication Backends for Customers</title>
 
 <section id='customer-auth-backend-db'>
 <title>База Данных (По умолчанию)</title>
 
 <para>
-Для аутентификации клиентов в OTRS, по умолчанию, используется база
-данных. Используя базу данных в качестве хранилища,  все данные клиентов
-можно редактировать через веб-интерфейс OTRS (см. ниже Пример 11-10).
+The default user authentication backend for customers in OTRS is the OTRS
+database. With this backend, all customer data can be edited via the web
+interface of OTRS (see Example below).
 </para>
 
 <example id='configuration-customer-auth-backend-db'>
@@ -980,10 +975,10 @@ $Self->{'Customer::AuthModule::DB::CustomerPassword'} = 'pw';
 <title>LDAP</title>
 
 <para>
-Если у вас есть LDAP-каталог со всеми данными о клиентах, можно использовать
-модуль LDAP для аутентификации клиентов в OTRS (см. Пример 11-11
-ниже). Поскольку этот модуль имеет права только для чтения для данных из
-LDAP-бэкенда, то нету возможности изменить данные клиента через веб.
+If you have an LDAP directory with all your customer data, you can use the
+LDAP module to authenticate your customers to OTRS (see Example
+below). Because this module has only read-access to the LDAP backend, it is
+not possible to edit the customer data via the OTRS web interface.
 </para>
 
 <example id='configuration-customer-auth-backend-ldap'>
@@ -1018,7 +1013,7 @@ $Self->{'Customer::AuthModule::LDAP::AlwaysFilter'} = '';
 
 # in case you want to add a suffix to each customer login name, then
 # you can use this option. e. g. user just want to use user but
-# in your ldap directory exists user@domain.
+# in your ldap directory exists user@domain.com
 #$Self->{'Customer::AuthModule::LDAP::UserSuffix'} = '@domain.com';
 
 # Net::LDAP new params (if needed - for more info see perldoc Net::LDAP)
@@ -1036,13 +1031,13 @@ $Self->{'Customer::AuthModule::LDAP::Params'} = {
 </section>
 
 <section id='customer-auth-backend-httpbasic'>
-<title>HTTPBasicAuth аутентификация для клиентов</title>
+<title>HTTPBasicAuth for Customers</title>
 
 <para>
-Если для пользователей нужно внедрить "single sign on"-решение, можно
-использовать базовую, HTTPBasic аутентификацию (для всех систем) и
-использовать модуль HTTPBasicAuth с OTRS (больше не нужно логинится в
-OTRS). См. ниже Пример 11-12.
+If you want to implement a "single sign on" solution for all your customer
+users, you can use HTTPBasic authentication (for all your systems) and use
+the HTTPBasicAuth module with OTRS (no login is needed with OTRS any
+more). See Example below.
 </para>
 
 <example id='configuration-customer-auth-backend-htbasic'>
@@ -1072,8 +1067,8 @@ $Self->{CustomerPanelLogoutURL} = 'http://host.example.com/thanks-for-using-otrs
 <title>Radius</title>
 
 <para>
-Настройки приведенные в примере 11-13 могут быть использованы для
-аутентификации ваших клиентов с помощью Radius-сервера.
+The settings shown in Example below can be used to authenticate your
+customers against a Radius server.
 </para>
 
 <example id='configuration-customer-auth-backend-radius'>
@@ -1097,7 +1092,7 @@ $Self->{'Customer::AuthModule::Radius::Password'} = 'radiussecret';
 </section>
 
 <section id="customer-self-registration">
-<title>Настройка самостоятельной регистрации клиента</title>
+<title>Customizing the Customer Self-Registration</title>
 
 <para>
 Есть возможность настроить самостоятельную регистрацию новых клиентов,
@@ -1112,7 +1107,7 @@ $Self->{'Customer::AuthModule::Radius::Password'} = 'radiussecret';
 </para>
 
 <section id='customer-self-registration-dtl'>
-<title>Настройка веб-интерфейса</title>
+<title>Customizing the Web Interface</title>
 
 <para>
 Для отображения нового поля для номера комнаты в веб-интерфейсе пользователя
@@ -1140,7 +1135,7 @@ $Self->{'Customer::AuthModule::Radius::Password'} = 'radiussecret';
 </section>
 
 <section id="customer-self-registration-mapping">
-<title>Отображения клиентов</title>
+<title>Customer Mapping</title>
 
 <para>
 На следующем этапе, нужно внести изменения в маппинг (mapping), рассширив
@@ -1233,7 +1228,7 @@ $Self->{CustomerUser} = {
 </section>
 
 <section id="customer-self-registration-customer-table">
-<title>Настройка таблицы customer_user в Базе Данных OTRS DB</title>
+<title>Customizing the <literal>customer_user</literal> Table in the OTRS DB</title>
 
 <para>
 Последним шагом является добавление нового столбца с номером комнаты в
@@ -1271,11 +1266,10 @@ customer_user.</emphasis>
 </para>
 
 <para>
-Теперь новое поле для номера комнаты должно отображатся в  панели информации
-о клиенте и экранах управления клиентами. Когда новые клиенты будут
-регистрировать аккаунт, им нужно будет вписать номер комнаты. Если для
-работы OTRS используется Microsoft IIS, то чтобы новые изменения вступили в
-силу в <filename>Config.pm</filename> нужно перезапустить веб-сервер.
+Now the new field for the room should be displayed in the Customer
+Information panel if filled, and in the Customer User administration
+screens. Also, new customers should have to insert their room number if they
+register a new account.
 </para>
 </section>
 

@@ -1,0 +1,427 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE section PUBLIC "-//OASIS//DTD DocBook XML V4.4//EN"
+  "http://www.oasis-open.org/docbook/xml/4.4/docbookx.dtd">
+
+<section id="adminarea-agents-groups-and-roles">
+<title>担当者、グループおよび役割</title>
+
+<section id="adminarea-agents">
+<title>担当者</title>
+
+<para>
+By clicking the link <emphasis>Agents</emphasis>, you get access to the
+agent management screen of OTRS (see figure below). Administrators can add,
+change or deactivate agent accounts. Furthermore they can also manage agent
+preferences, including the language and notification settings for the
+individual agent's interface.
+</para>
+
+<note>
+<para>
+OTRSの担当者アカウントは非活性化されますが、ここでは削除はされません。非活性化は<emphasis>無効</emphasis>または<emphasis>無効-暫定</emphasis>のフラグを有効にセットするで実施されます。
+</para>
+</note>
+
+<para>
+<figure>
+    <title>担当者管理</title>
+<screenshot>
+<graphic scale="40"
+fileref="screenshots/administration/adminarea/admin-agents.png"></graphic></screenshot></figure>
+</para>
+
+<para>
+担当者を登録するには図の中で示されるように、「担当者追加」ボタン上のクリックし、必要なデータを入力し、画面の最下部の送信（Submit）ボタンを押します。
+</para>
+
+<para>
+<figure>
+    <title>Adding a new agent</title>
+<screenshot>
+<graphic scale="40"
+fileref="screenshots/administration/adminarea/add-agent.png"></graphic></screenshot></figure>
+</para>
+
+<para>
+新規担当者アカウントが作成された後、担当者に1つ以上のグループあるいは役割のメンバーを作るべきです。グループと役割に関する情報は本章の<link
+linkend="adminarea-groups">グループ</link> と<link
+linkend="adminarea-roles">役割</link>のセクションにおいて利用可能です。
+</para>
+
+</section>
+
+<section id="adminarea-groups">
+<title>グループ</title>
+
+<para>
+Every agent's account should belong to at least one group or role. In a
+brand new installation, there are three pre-defined groups available, as
+shown in Table 4-1.
+</para>
+
+<para>
+<table id="table-of-groups-after-installation">
+<title>デフォルト・グループは新規のOTRSインストールで利用可能です</title>
+  <tgroup cols="2">
+    <thead>
+      <row>
+        <entry>グループ</entry>
+        <entry>摘要</entry>
+      </row>
+    </thead>
+    <tbody>
+      <row>
+        <entry>admin</entry>
+        <entry>システムで管理業務を実行することができます。</entry>
+      </row>
+      <row>
+        <entry>stats</entry>
+        <entry>
+          OTRSのstatsモジュールにアクセスし、統計を生成する資格があります。
+        </entry>
+      </row>
+      <row>
+        <entry>users</entry>
+        <entry>
+          担当者は読み書きの権限を持って、このグループに属し、チケットシステムのすべての機能にアクセスすることができます
+        </entry>
+      </row>
+    </tbody>
+  </tgroup>
+</table>
+</para>
+
+<note>
+<para>
+新規OTERSインストレーションでは、最初は<emphasis>ユーザ</emphasis>グループにメンバーは存在しません。担当者'root@localhost'はデフォルトでは管理者及び状態グループに属します。
+</para>
+</note>
+
+<para>
+You can access the group management page (see figure below) by clicking the
+<emphasis>Groups</emphasis> link in the admin area.
+</para>
+
+<para>
+<figure>
+    <title>グループ管理</title>
+<screenshot>
+<graphic scale="40"
+fileref="screenshots/administration/adminarea/admin-groups.png"></graphic></screenshot></figure>
+</para>
+
+<note>
+<para>
+担当者でそうであるように、OTRSグループは非活性化することができますが削除はできません。非活性化は<emphasis>無効</emphasis>または<emphasis>無効-暫定</emphasis>のフラグを有効にセットするで実施されます。
+</para>
+</note>
+
+<para>
+To add an agent to a group, or to change the agents who belong to a group,
+you can use the link <emphasis>Agents &lt;-&gt; Groups</emphasis> from the
+Admin page (see figure below).
+</para>
+
+<para>
+<figure>
+    <title>Agent &lt;-&gt; group management</title>
+<screenshot>
+<graphic scale="40"
+fileref="screenshots/administration/adminarea/admin-agents-and-groups.png"></graphic></screenshot></figure>
+</para>
+
+<para>
+An overview of all groups and agents in the system is displayed on this
+page. You can also use the available filters to find a specific entity. If
+you want to change the groups that an agent is a member of, just click on
+the agent's name (see figure below). To change the agents associated with a
+group, just click on the group you want to edit (see figure below).
+</para>
+
+<para>
+<figure>
+    <title>Change the groups an agent belongs to</title>
+<screenshot>
+<graphic scale="40"
+fileref="screenshots/administration/adminarea/agent-group-relations.png"></graphic></screenshot></figure>
+</para>
+
+<para>
+<figure>
+    <title>Change the agents that belong to a specific group</title>
+<screenshot>
+<graphic scale="40"
+fileref="screenshots/administration/adminarea/agent-group-relations2.png"></graphic></screenshot></figure>
+</para>
+
+<para>
+Each group has a set of rights associated with it, and each group member
+(agent) may have some combination of these rights for themselves. A list of
+the permissions / rights is shown in Table 4-2.
+</para>
+
+<para>
+<table id="table-of-group-permissions-after-installation">
+<title>Rights associated with OTRS groups</title>
+  <tgroup cols="2">
+    <thead>
+      <row>
+        <entry>
+          権限
+        </entry>
+        <entry>
+          摘要
+        </entry>
+      </row>
+    </thead>
+    <tbody>
+      <row>
+        <entry>
+          ro
+        </entry>
+        <entry>
+          このグループのチケット、エントリー、キューへのRead onlyのアクセス
+        </entry>
+      </row>
+      <row>
+        <entry>
+          move into
+        </entry>
+        <entry>
+          このグループのエリア、キュー間におけるエントリーあるいはチケットの移動権限
+        </entry>
+      </row>
+      <row>
+        <entry>
+          create
+        </entry>
+        <entry>
+          このグループのエリアまたはキュー間におけるエントリーあるいはチケットの作成権限
+        </entry>
+      </row>
+      <row>
+        <entry>
+          owner
+        </entry>
+        <entry>
+          このグループのエリアまたはキュー間におけるエントリーあるいはチケットのオーナーの更新権限
+        </entry>
+      </row>
+      <row>
+        <entry>
+          優先度（priority）
+        </entry>
+        <entry>
+          このグループのエリアまたはキュー間におけるエントリーあるいはチケットの優先度の変更権限
+        </entry>
+      </row>
+      <row>
+        <entry>
+          rw
+        </entry>
+        <entry>
+          このグループのエリアまたはキュー間におけるエントリーあるいはチケットのフルのRead/Write権限
+        </entry>
+      </row>
+    </tbody>
+  </tgroup>
+</table>
+</para>
+
+<note>
+    <para>
+        By default, the QueueView only lists tickets in queues that an agent has
+<emphasis>rw</emphasis> access to, i.e., the tickets the agent needs to work
+on. If you want to change this behaviour, you can set <link
+linkend="ConfigReference_Ticket:Frontend::Agent::Ticket::ViewQueue:Ticket::Frontend::AgentTicketQueue_ViewAllPossibleTickets">
+Ticket::Frontend::AgentTicketQueue###ViewAllPossibleTickets </link> to
+<emphasis>Yes</emphasis>.
+    </para>
+</note>
+ <para>すべての利用可能なパーミションはデフォルトで表示されるとは限りません。これらの追加のパーミションは加えることができます。</para>
+      <para>
+        <table id="table-of-group-additional-permissions">
+          <title>追加の許可グループ</title>
+          <tgroup cols="2">
+            <thead>
+              <row>
+                <entry>権限</entry>
+                <entry>摘要</entry>
+              </row>
+            </thead>
+            <tbody>
+              <row>
+                <entry>stats</entry>
+                <entry>stats(統計)ページにアクセス権を与えます。</entry>
+              </row>
+              <row>
+                <entry>bounce（返送）</entry>
+                <entry>Eメールメッセージを送り返す権限（チケットズームの返送ボタンで）。</entry>
+              </row>
+              <row>
+                <entry>compose（作成）</entry>
+                <entry>チケットに対する回答を作成する権限。</entry>
+              </row>
+              <row>
+                <entry>customer（顧客）</entry>
+                <entry>チケットの顧客を変更する権限。</entry>
+              </row>
+              <row>
+                <entry>forward （転送）</entry>
+                <entry>メッセージを転送する権限(転送ボタンで)。</entry>
+              </row>
+              <row>
+                <entry>pending （保留）</entry>
+                <entry>チケットを保留にする権限。</entry>
+              </row>
+              <row>
+                <entry>phone （電話）</entry>
+                <entry>チケットに通話を追加する権限。</entry>
+              </row>
+              <row>
+                <entry>responsible （責任者）</entry>
+                <entry>チケットに対する責任担当者を変更する権限。</entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+      </para>
+      <note>
+        <para>
+          権限の変更は<link
+linkend="ConfigReference_Ticket:Core::Ticket:System::Permission">System::Permission</link>から変更可能です
+        </para>
+      </note>
+</section>
+
+<section id="adminarea-roles">
+<title>役割</title>
+
+<para>
+Roles:"役割"は、強力な機能で、それにより非常にシンプルかつ迅速に多くの担当者のアクセス権を管理できます。それらは、多くの担当者、グループおよびキューを抱える大きく複雑なサポート・システムで特に役立ちます。下記の例でどのようなケースでご利用いただけば良いかを説明します。
+</para>
+
+<para>
+あなたのシステムが100人の担当者を持つと仮定します。90 of them with access to a single　queue called
+"support" where all support requests are
+handled.
+単一のキューにアクセスを持つ100人中90人は、全てのサポート依頼を取り扱う「サポート」と呼ばれるます。「サポート」キューは複数の副キューを含みます。残りの10人の担当者は、システムの全てのキューへアクセスする許可を持っています。この10人の担当者は、チケットを発行し、未対応のキューを見て、「ジャンク」キューへスパム・メッセージを移動させます。
+</para>
+
+<para>
+その会社は、何らかの製品を販売する新規部署を開設します。注文依頼、受注、注文確認あるいは支払などの処理が必要となるでしょう。そして、会社の担当者のうちの数人は、OTRSを使用して、これをすることになります。異なる担当者は、生成される新規のキューへのアクセスを得なければいけません。
+</para>
+
+<para>
+個々の担当者のためにアクセス権を手動で変更するのに長い時間がかかるので、異なるアクセスレベルを定義する”役割”を作成することができます。その後、担当者は、自動的に修正済のアクセス権を持つことにより、1つ以上の役割に加えることができます。新規担当者アカウントが作成される場合、さらに、このアカウントを1つ以上の役割に加えることは可能です。
+</para>
+
+<note>
+<para>
+Roles are really useful when dealing with complex organizations and when
+maintaining larger OTRS installations. Proper care is advised though. Mixing
+Agent to Group with Agent to Role mappings can make for a complex access
+control scheme, that is difficult to understand and maintain. If you wish to
+use only roles and disable the Agents &lt;-&gt; Groups option in the Admin
+area, you can do so by modifying the <link
+linkend="ConfigReference_Framework:Frontend::Admin::ModuleRegistration:Frontend::Module_AdminUserGroup">Frontend::Module###AdminUserGroup</link>
+in the SysConfig. Be aware that this won't remove already existing Agents to
+Group assignments!
+</para>
+</note>
+
+<para>
+You can access the role management section (see figure below ) by clicking
+the <emphasis>Roles</emphasis> link on the Admin page.
+</para>
+
+<para>
+<figure>
+    <title>役割管理</title>
+<screenshot>
+<graphic scale="40"
+fileref="screenshots/administration/adminarea/admin-roles.png"></graphic></screenshot></figure>
+</para>
+
+<note>
+<para>
+担当者とグループでそうであったように、いったん作成された役割は、非活性化することができるが削除することができません。非活性化するためには、有効オプションで<emphasis>「無効」</emphasis>あるいは<emphasis>「無効-暫定」</emphasis>にセットするします。
+</para>
+</note>
+
+<para>
+An overview of all roles in the system is displayed. To edit a role's
+settings, click on the role's name. In a fresh new OTRS installation, there
+are no roles defined by default. To register one, click on the "Add role"
+button, provide the needed data and submit it (see figure below).
+</para>
+
+<para>
+<figure>
+    <title>Adding a new role</title>
+<screenshot>
+<graphic scale="40"
+fileref="screenshots/administration/adminarea/add-role.png"></graphic></screenshot></figure>
+</para>
+
+<para>
+To get an overview of all roles and agents in the system, click on the link
+Roles &lt;-&gt; Agents on the Admin page. You can also use filters to find a
+specific element. If you want to change the roles associated with an agent,
+just click on the agent's name (see figure below). To change the agents
+associated with a role, click on the role you want to edit (see figure
+below).
+</para>
+
+<para>
+<figure>
+    <title>Change the roles associated with an agent</title>
+<screenshot>
+<graphic scale="40"
+fileref="screenshots/administration/adminarea/admin-roles-agents-relation.png"></graphic></screenshot></figure>
+</para>
+
+<para>
+<figure>
+    <title>Change the agents associated with a specific role</title>
+<screenshot>
+<graphic scale="40"
+fileref="screenshots/administration/adminarea/admin-roles-agents-relation2.png"></graphic></screenshot></figure>
+</para>
+
+<para>
+システムでのすべての役割およびグループの概要を得るためには、管理者ページのリンク・役割&lt;-&gt;グループをクリックしてください。図で表示されたと同様の画面が見えることでしょう。さらに、特定のエンティティ（実体）を見つけるためにフィルタを使用することができます。
+</para>
+
+<para>
+<figure>
+    <title>Manage roles-groups relations</title>
+<screenshot>
+<graphic scale="40"
+fileref="screenshots/administration/adminarea/admin-roles-groups.png"></graphic></screenshot></figure>
+</para>
+
+<para>
+To define the different access rights for a role, click on the name of a
+role or a group (see below the Figures 4.13 and 4.14, respectively).
+</para>
+
+<para>
+<figure>
+    <title>Change group relations for a role</title>
+<screenshot>
+<graphic scale="40"
+fileref="screenshots/administration/adminarea/groups-roles-relations.png"></graphic></screenshot></figure>
+</para>
+
+<para>
+<figure>
+    <title>Change role relations for a group</title>
+<screenshot>
+<graphic scale="40"
+fileref="screenshots/administration/adminarea/groups-roles-relations2.png"></graphic></screenshot></figure>
+</para>
+
+</section>
+
+</section>

@@ -3,7 +3,7 @@
   "http://www.oasis-open.org/docbook/xml/4.4/docbookx.dtd">
 
 <section id="priorities">
-<title>チケット・プロパティ</title>
+<title>Ticket Priorities</title>
 
 <para>
 OTRSには、５つのデフォルトの優先度レベルが付属しています。それは、管理者ページにある「プロパティ」"Priorities"　経由で変更可能です。カスタマイズされた優先度リストを作成する場合、ユーザ・インターフェース中の優先度選択箱の中でそれらがアルファベット順にソートされると心に留めておいてください。さらに、OTRSはQueueViewの中の内部データベースIDによってチケットを順序づけします。

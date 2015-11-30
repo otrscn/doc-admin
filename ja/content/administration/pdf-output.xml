@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <!DOCTYPE section PUBLIC "-//OASIS//DTD DocBook XML V4.4//EN" "http://www.oasis-open.org/docbook/xml/4.4/docbookx.dtd">
 <section id="pdf-output" >
-<title>PDF出力のカスタマイズ</title>
+<title>Customizing the PDF Output</title>
 
 <para>
 このセクションは、OTRSの中のPDF出力に対する構成可能なオプションを扱います。
@@ -17,10 +17,10 @@ logo and adding it to <link
 linkend="ConfigReference_Framework:Core::PDF:PDF::LogoFile">PDF::LogoFile</link>.
 You can use <link
 linkend="ConfigReference_Framework:Core::PDF:PDF::PageSize">PDF::PageSize</link>
-to define the standard page size of the generated pdf file (DIN-A4 or
+to define the standard page size of the generated PDF file (DIN-A4 or
 Letter), and also <link
 linkend="ConfigReference_Framework:Core::PDF:PDF::MaxPages">PDF::MaxPage</link>
-to specify the maximum number of pages for a pdf file, which is useful if a
+to specify the maximum number of pages for a PDF file, which is useful if a
 user generates a huge output file by mistake.
 </para>
 

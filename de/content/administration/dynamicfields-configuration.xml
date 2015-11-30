@@ -20,19 +20,16 @@ vornehmen.
     <section id="dynamicfields-configuration-add">
         <title>Hinzufügen eines dynamischen Feldes</title>
         <para>
-            Klicken Sie auf die Schaltfläche "Admin" in der Navigationsleiste, dann auf
-den Link "Dynamische Felder" im Bereich "Ticketeinstellungen". Die Übersicht
-der dynamischen Felder sieht wie folgt aus:
+            Click on the "Admin" button located in the navigation bar, then click on the
+"Dynamic Fields" link inside "Ticket Settings" box located in the lower
+center of the screen.  The dynamic fields overview will display as follows:
         </para>
         <para>
-            <screenshot>
-<screeninfo>Leere Übersichtsseite der dynamischen Felder</screeninfo> <graphic srccredit="Adminarea
-dynamicfields - screenshot" scale="40"
-fileref="screenshots/dynamicfields-overview-empty.png"></graphic></screenshot>
-        </para>
-        <para>
-            <emphasis>Abbildung.: Leere Übersichtsseite der dynamischen
-Felder.</emphasis>
+            <figure>
+                <title>Leere Übersichtsseite der dynamischen Felder</title>
+<screenshot>
+<graphic scale="40"
+fileref="screenshots/administration/dynamicfields/dynamicfields-overview-empty.png"></graphic></screenshot></figure>
         </para>
         <para>
             Beachten Sie das sich diese Übersicht ändern wird, wenn Sie dynamische
@@ -57,8 +54,7 @@ hinzufügen.
             </para>
             <listitem>
                 <para>
-                    Klicken Sie auf den gewünschten Typ des dynamischen Feldes in der
-Aktionen-SideBar.
+                    Click on the desired dynamic field object dropdown in the Actions side bar.
                 </para>
             </listitem>
             <listitem>
@@ -160,10 +156,9 @@ dynamische Felder in unserem Beispiel hinzugefügt. Diese neuen dynamischen
 Felder werden in späteren Abschnitten referenziert.
             </para>
             <para>
-                Für das folgende Beispiel werden alle dynamischen Felder für das
-Ticketobjekt hinzugefügt. Möchten Sie dynamische Felder für das
-Artikelobjekt hinzufügen, wählen Sie die Felder einfach im
-Artikel-Dropdownliste aus.
+                For the following examples all the dynamic fields will be created for the
+Ticket object.  If you need to create a dynamic field for Article object,
+just choose the field from the Article dropdown list.
             </para>
         </note>
 
@@ -204,12 +199,12 @@ Artikel-Dropdownliste aus.
                  </tr>
                  <tr>
                      <td>Feld6</td>
-                     <td>Mein Feld 5</td>
+                     <td>Mein Feld 6</td>
                      <td>Datum</td>
                  </tr>
                  <tr>
                      <td>Feld7</td>
-                     <td>Mein Feld 6</td>
+                     <td>My Field 7</td>
                      <td>Datum / Zeit</td>
                  </tr>
              </tbody>
@@ -255,14 +250,11 @@ ist, wird den Feldwert als Teil des Links hinzufügen.
             </listitem>
         </itemizedlist>
         <para>
-            <screenshot>
-<screeninfo>Konfigurationsdialog für Textfelder indynamischen Feldern</screeninfo> <graphic srccredit="dynamicfields -
-screenshot" scale="40"
-fileref="screenshots/dynamicfields-configuration-text.png"></graphic></screenshot>
-        </para>
-        <para>
-            <emphasis>Abbildung: Konfigurationsdialog für Textfelder in dynamischen
-Feldern.</emphasis>
+            <figure>
+                <title>Konfigurationsdialog für Textfelder indynamischen Feldern</title>
+<screenshot>
+<graphic scale="40"
+fileref="screenshots/administration/dynamicfields/dynamicfields-configuration-text.png"></graphic></screenshot></figure>
         </para>
     </section>
 
@@ -305,14 +297,11 @@ wird (kann ein mehrzeiliges Textfeld sein).
             </listitem>
         </itemizedlist>
         <para>
-            <screenshot>
-<screeninfo>Konfigurationsdialog für Textfelder in dynamischen Feldern</screeninfo> <graphic srccredit="dynamicfields -
-screenshot" scale="40"
-fileref="screenshots/dynamicfields-configuration-textarea.png"></graphic></screenshot>
-        </para>
-        <para>
-            <emphasis>Abbildung: Konfigurationsdialog für Textfelder in dynamischen
-Feldern.</emphasis>
+            <figure>
+                <title>Konfigurationsdialog für Textfelder in dynamischen Feldern</title>
+<screenshot>
+<graphic scale="40"
+fileref="screenshots/administration/dynamicfields/dynamicfields-configuration-textarea.png"></graphic></screenshot></figure>
         </para>
     </section>
 
@@ -339,14 +328,11 @@ Feld kann 'Aktiviert' oder 'Deaktiviert' sein.
             </listitem>
         </itemizedlist>
         <para>
-            <screenshot>
-<screeninfo>Konfigurationsdialog für Checkboxen in dynamischen Feldern</screeninfo> <graphic srccredit="dynamicfields -
-screenshot" scale="40"
-fileref="screenshots/dynamicfields-configuration-checkbox.png"></graphic></screenshot>
-        </para>
-        <para>
-            <emphasis>Abbildung: Konfigurationsdialog für Checkboxen in dynamischen
-Feldern.</emphasis>
+            <figure>
+                <title>Konfigurationsdialog für Checkboxen in dynamischen Feldern</title>
+<screenshot>
+<graphic scale="40"
+fileref="screenshots/administration/dynamicfields/dynamicfields-configuration-checkbox.png"></graphic></screenshot></figure>
         </para>
 
     </section>
@@ -423,14 +409,11 @@ ist, wird den Feldwert als Teil des Links hinzufügen.
             </listitem>
         </itemizedlist>
         <para>
-            <screenshot>
-<screeninfo>Konfigurationsdialog für Einfachauswahl in dynamischen Feldern</screeninfo> <graphic srccredit="dynamicfields -
-screenshot" scale="40"
-fileref="screenshots/dynamicfields-configuration-dropdown.png"></graphic></screenshot>
-        </para>
-        <para>
-            <emphasis>Abbildung: Konfigurationsdialog für Einfachauswahl in dynamischen
-Feldern.</emphasis>
+            <figure>
+                <title>Konfigurationsdialog für Einfachauswahl in dynamischen Feldern</title>
+<screenshot>
+<graphic scale="40"
+fileref="screenshots/administration/dynamicfields/dynamicfields-configuration-dropdown.png"></graphic></screenshot></figure>
         </para>
     </section>
 
@@ -487,14 +470,11 @@ manuell in den Übersetzungsdateien hinzugefügt werden.
             </listitem>
         </itemizedlist>
         <para>
-            <screenshot>
-<screeninfo>Konfigurationsdialog für Mehrfachauswahlen in dynamischen Feldern</screeninfo> <graphic srccredit="dynamicfields -
-screenshot" scale="40"
-fileref="screenshots/dynamicfields-configuration-multiselect.png"></graphic></screenshot>
-        </para>
-        <para>
-            <emphasis>Abbildung: Konfigurationsdialog für Mehrfachauswahlen in
-dynamischen Feldern.</emphasis>
+            <figure>
+                <title>Konfigurationsdialog für Mehrfachauswahlen in dynamischen Feldern</title>
+<screenshot>
+<graphic scale="40"
+fileref="screenshots/administration/dynamicfields/dynamicfields-configuration-multiselect.png"></graphic></screenshot></figure>
         </para>
     </section>
 
@@ -520,13 +500,12 @@ gewählten Datum, dass standardmäßig in Editieroberflächen gewählt sein soll
             </listitem>
             <listitem>
                 <para>
-                    Definiert den Jahresbereich: Verpflichtend (Ja / Nein).
+                    Define years period: Mandatory, (Yes / No).
                 </para>
                 <para>
-                    Wird verwendet, um eine bestimmte Anzahl von Jahren in der Vergangenheit und
-in der Zukunft, basierend auf dem aktuellen Datum zu wählen, der für dieses
-Feld gesetzt wird, wenn es auf Ja gesetzt ist, sind folgende Optionen
-verfügbar:
+                    Used to set a defined number of years in the past and the future based on
+the current date of the year select for this field. If set to Yes the
+following options are available:
                 </para>
                 <para>
                     <itemizedlist>
@@ -560,8 +539,8 @@ ausgehend vom aktuellen Datum.
 konvertiert (wie TicketZoom oder Übersichten).
                 </para>
                 <para>
-                    Zum Beispiel, wenn "Show link" auf "http://www.otrs.com" gesetzt ist, wird
-ein klick auf diesen Wert die OTRS-Webseite in Ihrem Browser aufrufen.
+                    For example, if "Show link" is set to "http://www.otrs.com", clicking on the
+filed value will make your browser to open the OTRS web page.
                 </para>
                 <note>
                     <para>
@@ -572,14 +551,11 @@ ist, wird den Feldwert als Teil des Links hinzufügen.
             </listitem>
         </itemizedlist>
         <para>
-            <screenshot>
-<screeninfo>Konfigurationsdialog für Datum in dynamischen Feldern.</screeninfo> <graphic srccredit="dynamicfields -
-screenshot" scale="40"
-fileref="screenshots/dynamicfields-configuration-date.png"></graphic></screenshot>
-        </para>
-        <para>
-            <emphasis>Abbildung: Konfigurationsdialog für Datumsfelder in dynamischen
-Feldern.</emphasis>
+            <figure>
+                <title>Konfigurationsdialog für Datum in dynamischen Feldern.</title>
+<screenshot>
+<graphic scale="40"
+fileref="screenshots/administration/dynamicfields/dynamicfields-configuration-date.png"></graphic></screenshot></figure>
         </para>
     </section>
 
@@ -605,13 +581,12 @@ gewählten Datum, dass standardmäßig in Editieroberflächen gewählt sein soll
             </listitem>
             <listitem>
                 <para>
-                    Definiert den Jahresbereich: Verpflichtend (Ja / Nein).
+                    Define years period: Mandatory, (Yes / No).
                 </para>
                 <para>
-                    Wird verwendet, um eine bestimmte Anzahl von Jahren in der Vergangenheit und
-in der Zukunft, basierend auf dem aktuellen Datum zu wählen, der für dieses
-Feld gesetzt wird, wenn es auf Ja gesetzt ist, sind folgende Optionen
-verfügbar:
+                    Used to set a defined number of years in the past and the future based on
+the current date of the year select for this field. If set to Yes the
+following options are available:
                 </para>
                 <para>
                     <itemizedlist>
@@ -645,8 +620,8 @@ ausgehend vom aktuellen Datum.
 konvertiert (wie TicketZoom oder Übersichten).
                 </para>
                 <para>
-                    Zum Beispiel, wenn "Show link" auf "http://www.otrs.com" gesetzt ist, wird
-ein klick auf diesen Wert die OTRS-Webseite in Ihrem Browser aufrufen.
+                    For example, if "Show link" is set to "http://www.otrs.com", clicking on the
+filed value will make your browser to open the OTRS web page.
                 </para>
                 <note>
                     <para>
@@ -657,14 +632,11 @@ ist, wird den Feldwert als Teil des Links hinzufügen.
             </listitem>
         </itemizedlist>
         <para>
-            <screenshot>
-<screeninfo>Konfigurationsdialog für Datum / Zeit in dynamischen Feldern</screeninfo> <graphic srccredit="dynamicfields -
-screenshot" scale="40"
-fileref="screenshots/dynamicfields-configuration-datetime.png"></graphic></screenshot>
-        </para>
-        <para>
-            <emphasis>Abbildung: Konfigurationsdialog für Datum / Zeit in dynamischen
-Feldern.</emphasis>
+            <figure>
+                <title>Konfigurationsdialog für Datum / Zeit in dynamischen Feldern</title>
+<screenshot>
+<graphic scale="40"
+fileref="screenshots/administration/dynamicfields/dynamicfields-configuration-datetime.png"></graphic></screenshot></figure>
         </para>
     </section>
 
@@ -675,14 +647,11 @@ Feldern.</emphasis>
 Beispielen) sollte so aussehen:
         </para>
         <para>
-            <screenshot>
-<screeninfo>Übersichtsseite der dynamischen Felder mit Beispieldaten</screeninfo> <graphic srccredit="dynamicfields -
-screenshot" scale="40"
-fileref="screenshots/dynamicfields-overview-filled.png"></graphic></screenshot>
-        </para>
-        <para>
-            <emphasis>Abbildung.: Übersichtsseite der dynamischen Felder gefüllt mit
-Beispieldaten.</emphasis>
+            <figure>
+                <title>Übersichtsseite der dynamischen Felder mit Beispieldaten</title>
+<screenshot>
+<graphic scale="40"
+fileref="screenshots/administration/dynamicfields/dynamicfields-overview-filled.png"></graphic></screenshot></figure>
         </para>
         <para>
             Um ein dynamisches Feld zu ändern oder zu editieren, muss mindestens ein
@@ -774,9 +743,9 @@ gesetzt ist, damit es verpflichtend ist.
             </listitem>
             <listitem>
                 <para>
-                    Speichern Sie die Konfiguration durch klicken auf "Aktualisieren" am Ende
-der Oberfläche und navigieren Sie anschließend zu der Oberfläche, wo das
-dynamische Feld angezeigt werden soll.
+                    Save the configuration by clicking on the "Update" button at the bottom of
+the screen and navigate to the screen where you want the field to be
+displayed.
                 </para>
             </listitem>
         </itemizedlist>
@@ -832,13 +801,11 @@ Ticket::Frontend::AgentTicketPhone###DynamicField
                         </itemizedlist>
                     </para>
                     <para>
-                        <screenshot>
-<screeninfo>Feld1 in NewPhoneTicket Dialog</screeninfo> <graphic srccredit="dynamicfields -
-screenshot" scale="40"
-fileref="screenshots/dynamicfields-agentticketphone-field1.png"></graphic></screenshot>
-                    </para>
-                    <para>
-                        <emphasis>Abbildung: Feld1 in NewPhoneTicket Dialog.</emphasis>
+                        <figure>
+                            <title>Field1 in New Phone Ticket Screen</title>
+<screenshot>
+<graphic scale="40"
+fileref="screenshots/administration/dynamicfields/dynamicfields-agentticketphone-field1.png"></graphic></screenshot></figure>
                     </para>
                 </example>
             </para>
@@ -888,14 +855,11 @@ Ticket::Frontend::AgentTicketPhone###DynamicField
                         </itemizedlist>
                     </para>
                     <para>
-                        <screenshot>
-<screeninfo>Feld1 in der Oberfläche 'Neues Telefonticket' als verpflichtendes Feld.</screeninfo> <graphic srccredit="dynamicfields -
-screenshot" scale="40"
-fileref="screenshots/dynamicfields-agentticketphone-field1-mandatory.png"></graphic></screenshot>
-                    </para>
-                    <para>
-                        <emphasis>Abbildung: Feld1 in der Oberfläche 'Neues Telefonticket' als
-verpflichtendes Feld.</emphasis>
+                        <figure>
+                            <title>Field1 in New Phone Ticket Screen as mandatory</title>
+<screenshot>
+<graphic scale="40"
+fileref="screenshots/administration/dynamicfields/dynamicfields-agentticketphone-field1-mandatory.png"></graphic></screenshot></figure>
                     </para>
                 </example>
             </para>
@@ -969,15 +933,11 @@ Ticket::Frontend::AgentTicketPhone###DynamicField
                         </itemizedlist>
                     </para>
                     <para>
-                        <screenshot>
-<screeninfo>Verschiedene Felder in der Oberfläche 'Neues Telefonticket' als
-verpflichtende Felder.</screeninfo> <graphic srccredit="dynamicfields -
-screenshot" scale="40"
-fileref="screenshots/dynamicfields-agentticketphone-allfields.png"></graphic></screenshot>
-                    </para>
-                    <para>
-                        <emphasis>Abbildung: Verschiedene Felder in der Oberfläche 'Neues
-Telefonticket' als verpflichtende Felder.</emphasis>
+                        <figure>
+                            <title>Several fields in New Phone Ticket Screen as mandatory</title>
+<screenshot>
+<graphic scale="40"
+fileref="screenshots/administration/dynamicfields/dynamicfields-agentticketphone-allfields.png"></graphic></screenshot></figure>
                     </para>
                 </example>
             </para>
@@ -1050,15 +1010,11 @@ Ticket::Frontend::AgentTicketPhone###DynamicField
                         </itemizedlist>
                     </para>
                     <para>
-                        <screenshot>
-<screeninfo>Einige deaktivierte Felder in der Oberfläche 'Neues Telefonticket' als
-verpflichtendes Feld.</screeninfo> <graphic srccredit="dynamicfields -
-screenshot" scale="40"
-fileref="screenshots/dynamicfields-agentticketphone-somefields.png"></graphic></screenshot>
-                    </para>
-                    <para>
-                        <emphasis>Abbildung: Einige deaktivierte Felder in der Oberfläche 'Neues
-Telefonticket' als verpflichtendes Feld.</emphasis>
+                        <figure>
+                            <title>Some deactivated fields in New Phone Ticket Screen as mandatory</title>
+<screenshot>
+<graphic scale="40"
+fileref="screenshots/administration/dynamicfields/dynamicfields-agentticketphone-somefields.png"></graphic></screenshot></figure>
                     </para>
                 </example>
             </para>
@@ -1107,13 +1063,11 @@ Ticket::Frontend::AgentTicketZoom###DynamicField
                         </itemizedlist>
                     </para>
                     <para>
-                        <screenshot>
-<screeninfo>Feld1 in der TicketZoom-Oberfläche.</screeninfo> <graphic srccredit="dynamicfields -
-screenshot" scale="40"
-fileref="screenshots/dynamicfields-agentticketzoom-field1.png"></graphic></screenshot>
-                    </para>
-                    <para>
-                        <emphasis>Abbildung: Feld1 in der TicketZoom-Oberfläche.</emphasis>
+                        <figure>
+                            <title>Field1 in Ticket Zoom Screen</title>
+<screenshot>
+<graphic scale="40"
+fileref="screenshots/administration/dynamicfields/dynamicfields-agentticketzoom-field1.png"></graphic></screenshot></figure>
                     </para>
                 </example>
             </para>
@@ -1162,13 +1116,11 @@ Ticket::Frontend::OverviewSmall###DynamicField
                         </itemizedlist>
                     </para>
                     <para>
-                        <screenshot>
-<screeninfo>Feld1 in der kleinen Ticketübersicht.</screeninfo> <graphic srccredit="dynamicfields -
-screenshot" scale="40"
-fileref="screenshots/dynamicfields-ticketoverviewsmall-field1.png"></graphic></screenshot>
-                    </para>
-                    <para>
-                        <emphasis>Abbildung: Feld1 in der kleinen Ticketübersicht.</emphasis>
+                        <figure>
+                            <title>Field1 in Ticket Overview Small Screen</title>
+<screenshot>
+<graphic scale="40"
+fileref="screenshots/administration/dynamicfields/dynamicfields-ticketoverviewsmall-field1.png"></graphic></screenshot></figure>
                     </para>
                     <para>
                         Diese Einstellung betrifft: Eskalationsübersichten, Übersicht über gesperrte
@@ -1286,9 +1238,9 @@ diese hinzu zufügen.
         </para>
         <note>
             <para>
-                Beachten Sie, wenn mehrere Einstellungen in einer neuen XML-Datei
-hinzugefügt werden, muss jeder Feldname eindeutig und ein anderer als in
-"PreferencesGroups###DynamicField" sein. Zum Beispiel:
+                Remember, if more settings are added in a new XML each setting name needs to
+be unique in the system and different than
+"PreferencesGroups###DynamicField". For example:
 PreferencesGroups###101-DynamicField-Field1,
 PreferencesGroups###102-DynamicField-Field2, PreferencesGroups###My-Field1,
 PreferencesGroups###My-Field2, etc.
@@ -1374,13 +1326,11 @@ PreferencesGroups###101-DynamicField-Field1
                 </itemizedlist>
             </para>
             <para>
-                <screenshot>
-<screeninfo>Feld1 in Benutzereinstellungen.</screeninfo> <graphic srccredit="dynamicfields -
-screenshot" scale="40"
-fileref="screenshots/dynamicfields-userpreferences.png"></graphic></screenshot>
-            </para>
-            <para>
-                <emphasis>Abildung: Feld1 in Benutzereinstellungen.</emphasis>
+                <figure>
+                    <title>Field1 in User preferences screen</title>
+<screenshot>
+<graphic scale="40"
+fileref="screenshots/administration/dynamicfields/dynamicfields-userpreferences.png"></graphic></screenshot></figure>
             </para>
         </example>
     </section>

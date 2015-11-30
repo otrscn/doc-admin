@@ -1,0 +1,339 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE section PUBLIC "-//OASIS//DTD DocBook XML V4.4//EN"
+  "http://www.oasis-open.org/docbook/xml/4.4/docbookx.dtd">
+
+<section id="adminarea-salutations-signatures-attachments-and-answers">
+<title>Salutations, Signatures, Attachments and Templates</title>
+
+<section id="adminarea-salutations">
+<title>Salamu</title>
+
+<para>
+A salutation is a text module for a template. Salutations can be linked to
+one or more queues, as described in the section about <link
+linkend="adminarea-queue">queues</link>. A salutation is used only if a
+ticket from a queue the salutation is linked to, is answered. To manage the
+different salutations of your system, use the "Salutations" link of the
+admin area (see figure below).
+</para>
+
+<para>
+<figure>
+    <title>Usimamizi wa Salamu</title>
+<screenshot>
+<graphic scale="40"
+fileref="screenshots/administration/adminarea/admin-salutation.png"></graphic></screenshot></figure>
+</para>
+
+<para>
+Baada ya usanikishaji wa kawaida tayari kuna salamu inapatikana, "salamu ya
+kawaida ya mfumo (en)".
+</para>
+
+<para>
+To create a new salutation, press the button "Add salutation", provide the
+required data and submit it (see figure below).
+</para>
+
+<para>
+<figure>
+    <title>Adding a new salutation</title>
+<screenshot>
+<graphic scale="40"
+fileref="screenshots/administration/adminarea/add-salutation.png"></graphic></screenshot></figure>
+</para>
+
+<para>
+Inawezekana kutumia vishika nafasi katika salamu. Ukitoa majibu kwenye
+tiketi, majina ya vishika nafasi yatabadilishwa na thamani zake.
+</para>
+
+<para>
+Vishika nafasi tofauti unavyoweza kutumia kwenye violezo vimeorodheshwa
+kwenye upande wa chini wa skrini ya salamu. Kama ukitumia kwa mfano, kishika
+nafasi &lt;OTRS_LAST_NAME&gt; jina la mwisho la mtumaji wa tiketi
+litajumuishwa kwenye majibu yako.
+</para>
+
+<note>
+<para>
+Kama ilivyo kwa vyombo vingine vya OTRS, salamu haziwezi kufutwa,
+zinalemazwa tu kwa kuseti chaguo Halali kuwa <emphasis>batili</emphasis> au
+<emphasis>batili-kwa muda</emphasis>.
+</para>
+</note>
+
+</section>
+
+<section id="adminarea-signatures">
+<title>Saini</title>
+
+<para>
+Another text module for a template is the signature. Signatures can be
+linked to a queue, as described in the section about the <link
+linkend="adminarea-queue">queues</link>. Please note that a signature will
+only be appended to a template text, if it has previously been linked to a
+queue. You can manage the signatures in your system by accessing the
+"Signatures" link of the Admin page, (see figure below).
+</para>
+
+<para>
+<figure>
+    <title>Signatures management</title>
+<screenshot>
+<graphic scale="40"
+fileref="screenshots/administration/adminarea/admin-signatures.png"></graphic></screenshot></figure>
+</para>
+
+<para>
+Baada ya usanikishaji mpya wa OTRS, kuna saini iliyofafanuliwa tayari
+imewekwa kwenye mfumo, "saini ya kawaida ya mfumo (en)".
+</para>
+
+<para>
+To create a new signature, press the button "Add signature", provide the
+needed data and submit it (see figure below).
+</para>
+
+<para>
+<figure>
+    <title>Adding a new signature</title>
+<screenshot>
+<graphic scale="40"
+fileref="screenshots/administration/adminarea/add-signature.png"></graphic></screenshot></figure>
+</para>
+
+<para>
+Kama salamu, saini pia zinaweza kuwa na maudhui yanayobadilika, kama jina la
+kwanza na la mwisho la wakala anayejibu tiketi. Hapa pia vishika nafasi
+vinaweza kutumika kubadilisha maudhui ya nakala ya saini kwa kila
+tiketi. Ona sehemu ya chini ya skrini ya saini kwa vishika nafasi
+vinavyoweza kutumika. Kama ukijumuisha kishika nafasi &lt;OTRS_LAST_NAME&gt;
+katika saini kwa mfano, jina la mwisho la wakala anayejibu
+tiketilitabadilisha kishika nafasi
+</para>
+
+<note>
+<para>
+Kama ilivyo kwa salamu, saini pia haziwezi kufutwa, zinalemazwa tu kwa
+kuseti chaguo Halali kuwa <emphasis>batili</emphasis> au
+<emphasis>batili-kwa muda</emphasis>.
+</para>
+</note>
+
+</section>
+
+<section id="adminarea-attachments">
+<title>Viambatanisho</title>
+
+<para>
+Unaweza kuongeza kiambatanisho kimoja au zaidi kwa kiolezo kwa hiari. Kama
+kiolezo kimechaguliwa, viambatanisho vita ambatanishwa kwenye dirisha la
+uundaji wa ujumbe. Kama kuna ulazima wakala anaweza kuondoa kiambatanisho
+kutoka kwenye kiolezo kabla ya kutuma kwenda kwa mteja.
+</para>
+
+<para>
+Through the "Attachment" link of the Admin page, you can load the
+attachments into the database of the system (see figure below).
+</para>
+
+<para>
+<figure>
+    <title>Attachments management</title>
+<screenshot>
+<graphic scale="40"
+fileref="screenshots/administration/adminarea/admin-attachment.png"></graphic></screenshot></figure>
+</para>
+
+<para>
+To create a new attachment, press the button "Add attachment", provide the
+required data and submit it (see figure below).
+</para>
+
+<para>
+<figure>
+    <title>Adding a new attachment</title>
+<screenshot>
+<graphic scale="40"
+fileref="screenshots/administration/adminarea/add-attachment.png"></graphic></screenshot></figure>
+</para>
+
+<para>
+If an attachment is stored it can be linked to one or more templates. Click
+on the "Attachment &lt;-&gt; Templates" link of the Admin page (see figure
+below).
+</para>
+
+<para>
+<figure>
+    <title>Kuunganisha Viambatanisho kwa Violezo</title>
+<screenshot>
+<graphic scale="40"
+fileref="screenshots/administration/adminarea/admin-attachment-template.png"></graphic></screenshot></figure>
+</para>
+
+<para>
+To associate different attachments with a specific template and vice versa,
+click on the corresponding template name or attachment (see below the
+Figures 4.29 and 4.30, respectively).
+</para>
+
+<para>
+<figure>
+    <title>Badilisha mahusiano ya Kiambatanisho kwa Kiolezo</title>
+<screenshot>
+<graphic scale="40"
+fileref="screenshots/administration/adminarea/template-attachment-relations.png"></graphic></screenshot></figure>
+</para>
+
+<para>
+<figure>
+    <title>Badilisha mahusiano ya Kiolezo kwa Kiambatanisho</title>
+<screenshot>
+<graphic scale="40"
+fileref="screenshots/administration/adminarea/template-attachment-relations2.png"></graphic></screenshot></figure>
+</para>
+
+</section>
+
+<section id="adminarea-Templates">
+<title>Violezo</title>
+
+<para>
+    Kuongeza kasi ya mchakato wa tiketi na kufanya muonekano wa majibu kuwa
+kawaida, unaweza kufananua violezo katika OTRS. Kiolezo kinaweza
+kuunganishwa na foleni moja au zaidi.
+</para>
+
+<para>
+    Kuna violezo tofauti vinavyotumika katika pande tofauti za OTRS na zina nia
+tofauti, ifwatayo ni orodha ya aina za violezo ziwezekanazo:
+</para>
+<itemizedlist mark="round">
+    <listitem>
+        <para>Jibu: Kutumika kama jibu la tiketi</para>
+    </listitem>
+    <listitem>
+        <para>Tengeneza: Kutumika katika simu au barua pepe mpya</para>
+    </listitem>
+    <listitem>
+        <para>Tuma mbele: Kutumika kupeleka makala kwa mtu mwengine</para>
+    </listitem>
+    <listitem>
+        <para>PigaSimu: Kutumika katika skrini ya simu zinazoingia na kutoka</para>
+    </listitem>
+</itemizedlist>
+
+<para>
+    Violezo vya majibu vinapatikana kwa njia mbili, kutoka kwenye skrini ya
+kukuza tiketi kwenye menyu ya makala, au kwa njia ya haraka: kutoka kwenye
+skrini kubwa ya mapitio ya tiketi kama Muonekano wa Hali au Muonekano wa
+Tiketi. Kwa usanikishaji mpya wa OTRS, kiolezo(jibu) "jibu wazi" kina setiwa
+kama chaguo-msingi kwa kila foleni.
+</para>
+
+<para>
+    Mara tu violezo vilivyopelekwa mbele kuongezwa na kuwekwa kwenye foleni,
+kitufe cha "Peleka mbele" katika kuza tiketi (ambayo mara nyingi inatupeleka
+kwenye skrini ya kupeleka mbele yanakala tupu) kitabadilika kuwa cha
+kudhibiti uchaguzi, uchaguzi unajazwa na violezo vilivyopelekwa mbele
+vilivyoongezwa, kwa kuchagua moja ya violezo, skrini ya kupeleka mbele
+itaonyeshwa ikiwa imejazwa na nakala ya kiolezo na viambatanisho (sawa na
+kisanduku majibu cha uchaguzi na violezo vya Majibu).
+</para>
+
+<para>
+    Kutengeneza violezo vya aina Tengeneza na PigaSimu vitafanya boksi la
+uchaguzi la "Nakala Kiolezo" kuonekana katika skrini husika, kuchagua
+kiolezo kwa ajili ya orodha itajaza sehemu za "Nakala" na "Kiambatanisho"
+(kama zinapatikana kwenye kiolezo). Tambua kwamba mabadiliko yoyote ya kabla
+kwenye Nakala au kiambatanisho yataandikwa upya kwa kuchagua kiolezo.
+</para>
+
+<para>
+    Clicking the "Templates" link on the Admin page brings you to the Template
+management screen (see figure below).
+</para>
+
+<para>
+<figure>
+    <title>Template management</title>
+<screenshot>
+<graphic scale="40"
+fileref="screenshots/administration/adminarea/admin-template.png"></graphic></screenshot></figure>
+</para>
+
+<para>
+    To create a new template, click on the "Add template" button, provide the
+required data (make sure to select the appropriate template type) and submit
+it (see figure below).
+</para>
+
+<para>
+<figure>
+    <title>Adding a template</title>
+<screenshot>
+<graphic scale="40"
+fileref="screenshots/administration/adminarea/add-template.png"></graphic></screenshot></figure>
+</para>
+
+<para>
+To add/remove templates to one or more queues, click on the "Templates
+&lt;-&gt; Queues" link on the Admin page (see figure below). You can also
+use filters to get information regarding a specific entity.
+</para>
+
+<para>
+<figure>
+    <title>Template-Queue relations management</title>
+<screenshot>
+<graphic scale="40"
+fileref="screenshots/administration/adminarea/admin-template-queue.png"></graphic></screenshot></figure>
+</para>
+
+<para>
+Kufafanua violezo mbali mbali vinavyopatikana kwa foleni na kinyume chake,
+bofya kwenye kiolezo au foleni husika (ona vielelezo 5.32 na 5.33 chini kwa
+mtiririko).
+</para>
+
+<para>
+<figure>
+    <title>Badilisha mahusiano ya Foleni kwa Kiolezo</title>
+<screenshot>
+<graphic scale="40"
+fileref="screenshots/administration/adminarea/template-queue-relations.png"></graphic></screenshot></figure>
+</para>
+
+<para>
+<figure>
+    <title>Badilisha mahusiano ya Kiolezo kwa Foleni</title>
+<screenshot>
+<graphic scale="40"
+fileref="screenshots/administration/adminarea/template-queue-relations2.png"></graphic></screenshot></figure>
+</para>
+
+<para>
+    Wakati wa kuchagua kiolezo, taarifa zaidi zinaweza kuongezwa kwenye nakala
+ya kiolezo, hii inategemea aina ya kiolezo:
+</para>
+<para>
+    PigaSimu na Tengeneza violezo haiongezi maudhui yoyote kwenye nakala ya
+kiolezo, bali skrini Mpya ya Barua pepe za Tiketi inaongeza saini
+iliyogawiwa kwa foleni kwenye kiini cha barua pepe (hii skrini ina boksi
+lililowekwa pembeni ili kupata taswira ya saini).
+</para>
+<para>
+    Nakala za violezo majibu zikichaguliwa pia zinajumuisha salamu inayohusika
+na foleni, kisha nakala ya kiolezo, baada ya hapo nukuu ya nakala ya tiketi,
+na mwisho saini inayohusika na foleni.
+</para>
+<para>
+    Violezo vya kupeleka mbele ni sawa Violezo vya majibu, lakini hazi na sehemu
+ya salamu.
+</para>
+
+</section>
+
+</section>

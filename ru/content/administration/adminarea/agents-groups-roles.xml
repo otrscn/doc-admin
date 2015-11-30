@@ -1,0 +1,470 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE section PUBLIC "-//OASIS//DTD DocBook XML V4.4//EN"
+  "http://www.oasis-open.org/docbook/xml/4.4/docbookx.dtd">
+
+<section id="adminarea-agents-groups-and-roles">
+<title>Агенты, Группы и Роли</title>
+
+<section id="adminarea-agents">
+<title>Агенты</title>
+
+<para>
+By clicking the link <emphasis>Agents</emphasis>, you get access to the
+agent management screen of OTRS (see figure below). Administrators can add,
+change or deactivate agent accounts. Furthermore they can also manage agent
+preferences, including the language and notification settings for the
+individual agent's interface.
+</para>
+
+<note>
+<para>
+Учетная запись (аккаунт) агента может быть деактивирована, но не
+удалена. Деактивация осуществляется путем установки параметра Действительный
+в значение <emphasis>не действительный</emphasis> или <emphasis>не
+действительный-временно</emphasis>.
+</para>
+</note>
+
+<para>
+<figure>
+    <title>Управление агентами</title>
+<screenshot>
+<graphic scale="40"
+fileref="screenshots/administration/adminarea/admin-agents.png"></graphic></screenshot></figure>
+</para>
+
+<para>
+Чтобы создать агента, нажмите на кнопку "Добавить агента", введите все
+необходимые данные и нажмите кнопку Отправить, которая находится в нижней
+части экрана, как это показано на нижеприведенном Рисунке.
+</para>
+
+<para>
+<figure>
+    <title>Adding a new agent</title>
+<screenshot>
+<graphic scale="40"
+fileref="screenshots/administration/adminarea/add-agent.png"></graphic></screenshot></figure>
+</para>
+
+<para>
+После того, как новая учетная запись агента создана, его нужно сделать
+членом одной или нескольких груп или ролей. За дополнительной информацией о
+группах и ролях обращайтесь к разделу <link
+linkend="adminarea-groups">Группы</link> и <link
+linkend="adminarea-roles">Роли</link> данной главы.
+</para>
+
+</section>
+
+<section id="adminarea-groups">
+<title>Группы</title>
+
+<para>
+Every agent's account should belong to at least one group or role. In a
+brand new installation, there are three pre-defined groups available, as
+shown in Table 4-1.
+</para>
+
+<para>
+<table id="table-of-groups-after-installation">
+<title>Предопределенные групы, доступны для новой (только что) установленной
+системы OTRS</title>
+  <tgroup cols="2">
+    <thead>
+      <row>
+        <entry>Группа</entry>
+        <entry>Описание</entry>
+      </row>
+    </thead>
+    <tbody>
+      <row>
+        <entry>admin</entry>
+        <entry>Допускается для выполнения административных задач в системе.</entry>
+      </row>
+      <row>
+        <entry>отчеты</entry>
+        <entry>
+          Компетентные для генерации статистики и доступа к модулю статистики OTRS.
+        </entry>
+      </row>
+      <row>
+        <entry>users</entry>
+        <entry>
+          Агенты должны входить в эту группу с правами для чтения и записи. Тогда они
+смогут получить доступ ко всем функциям системы обработки заявок.
+        </entry>
+      </row>
+    </tbody>
+  </tgroup>
+</table>
+</para>
+
+<note>
+<para>
+В новой установке OTRS, группа <emphasis>users</emphasis> изначально
+пуста. Агент 'root@localhost' по умолчанию является членом групп admin и
+stats.
+</para>
+</note>
+
+<para>
+You can access the group management page (see figure below) by clicking the
+<emphasis>Groups</emphasis> link in the admin area.
+</para>
+
+<para>
+<figure>
+    <title>Управление Группами</title>
+<screenshot>
+<graphic scale="40"
+fileref="screenshots/administration/adminarea/admin-groups.png"></graphic></screenshot></figure>
+</para>
+
+<note>
+<para>
+Как в случае с агентами, группа в OTRS может быть только деактивирована, но
+не удалена. Деактивация осуществляется путем установки флага Действительный
+в значение <emphasis>не действительный</emphasis> или <emphasis>не
+действительный-временно</emphasis>.
+</para>
+</note>
+
+<para>
+To add an agent to a group, or to change the agents who belong to a group,
+you can use the link <emphasis>Agents &lt;-&gt; Groups</emphasis> from the
+Admin page (see figure below).
+</para>
+
+<para>
+<figure>
+    <title>Agent &lt;-&gt; group management</title>
+<screenshot>
+<graphic scale="40"
+fileref="screenshots/administration/adminarea/admin-agents-and-groups.png"></graphic></screenshot></figure>
+</para>
+
+<para>
+An overview of all groups and agents in the system is displayed on this
+page. You can also use the available filters to find a specific entity. If
+you want to change the groups that an agent is a member of, just click on
+the agent's name (see figure below). To change the agents associated with a
+group, just click on the group you want to edit (see figure below).
+</para>
+
+<para>
+<figure>
+    <title>Change the groups an agent belongs to</title>
+<screenshot>
+<graphic scale="40"
+fileref="screenshots/administration/adminarea/agent-group-relations.png"></graphic></screenshot></figure>
+</para>
+
+<para>
+<figure>
+    <title>Change the agents that belong to a specific group</title>
+<screenshot>
+<graphic scale="40"
+fileref="screenshots/administration/adminarea/agent-group-relations2.png"></graphic></screenshot></figure>
+</para>
+
+<para>
+Each group has a set of rights associated with it, and each group member
+(agent) may have some combination of these rights for themselves. A list of
+the permissions / rights is shown in Table 4-2.
+</para>
+
+<para>
+<table id="table-of-group-permissions-after-installation">
+<title>Rights associated with OTRS groups</title>
+  <tgroup cols="2">
+    <thead>
+      <row>
+        <entry>
+          Права
+        </entry>
+        <entry>
+          Описание
+        </entry>
+      </row>
+    </thead>
+    <tbody>
+      <row>
+        <entry>
+          ro
+        </entry>
+        <entry>
+          Права "только для чтения" заявок, записей и очередей этой группы.
+        </entry>
+      </row>
+      <row>
+        <entry>
+          move into
+        </entry>
+        <entry>
+          Права для перемещения заявок или записей между очередями или для области,
+принадлежащей группе.
+        </entry>
+      </row>
+      <row>
+        <entry>
+          create
+        </entry>
+        <entry>
+          Права для создания заявок или записей в очередях или области группы.
+        </entry>
+      </row>
+      <row>
+        <entry>
+          owner
+        </entry>
+        <entry>
+          Права для изменения владельца заявок или записей в очередях принадлежащих
+этой группе.
+        </entry>
+      </row>
+      <row>
+        <entry>
+          priority
+        </entry>
+        <entry>
+          Права для изменения приоритета заявок или записей в очереди или области,
+принадлежащей этой группе.
+        </entry>
+      </row>
+      <row>
+        <entry>
+          rw
+        </entry>
+        <entry>
+          Полный доступ к заявкам или записям в очереди или области, принадлежащей к
+этой группе.
+        </entry>
+      </row>
+    </tbody>
+  </tgroup>
+</table>
+</para>
+
+<note>
+    <para>
+        По умолчанию, Обзор Очередей/QueueView отображает только заявки в очередях,
+в которых агент имеет права <emphasis>rw</emphasis>, т.е доступ к заявкам, с
+которыми он должен работать. Если вы хотите изменить этот порядок, вы можете
+установить параметр <link
+linkend="ConfigReference_Ticket:Frontend::Agent::Ticket::ViewQueue:Ticket::Frontend::AgentTicketQueue_ViewAllPossibleTickets">
+Ticket::Frontend::AgentTicketQueue###ViewAllPossibleTickets </link> в
+значение <emphasis>Да</emphasis>.
+    </para>
+</note>
+ <para>Не все доступные права отображаются по умолчанию. Эти дополнительные права
+могут быть добавлены.</para>
+      <para>
+        <table id="table-of-group-additional-permissions">
+          <title>Дополнительные группы прав</title>
+          <tgroup cols="2">
+            <thead>
+              <row>
+                <entry>Права</entry>
+                <entry>Описание</entry>
+              </row>
+            </thead>
+            <tbody>
+              <row>
+                <entry>отчеты</entry>
+                <entry>Предоставляет доступ к странице отчетов.</entry>
+              </row>
+              <row>
+                <entry>Перенаправить</entry>
+                <entry>Право перенаправить/bounce почтовое сообщение (ссылка перенаправить/bounce в
+ticketZoom).</entry>
+              </row>
+              <row>
+                <entry>Создать</entry>
+                <entry>Право составления ответа на заявку.</entry>
+              </row>
+              <row>
+                <entry>клиент</entry>
+                <entry>Право изменить клиента для этой заявки</entry>
+              </row>
+              <row>
+                <entry>Переслать</entry>
+                <entry>Право пересылать сообщения (с помощью кнопки Переслать).</entry>
+              </row>
+              <row>
+                <entry>в ожидании</entry>
+                <entry>Право перевести заявку в ожидание.</entry>
+              </row>
+              <row>
+                <entry>телефон</entry>
+                <entry>Право добавить содержание звонка клиента к заявке. В виде сообщения/заметки.</entry>
+              </row>
+              <row>
+                <entry>ответственный</entry>
+                <entry>Право изменить ответственного за заявку.</entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+      </para>
+      <note>
+        <para>
+          Эти права могут быть добавлены изменением параметра <link
+linkend="ConfigReference_Ticket:Core::Ticket:System::Permission">System::Permission</link>
+        </para>
+      </note>
+</section>
+
+<section id="adminarea-roles">
+<title>Роли</title>
+
+<para>
+Роли являются мощным средством для простого и быстрого управления правами
+доступа множества агентов. Они особенно полезны для больших и сложных систем
+поддержки, с большим количеством агентов, групп и очередей. В приведенном
+ниже примере обьясняется как и когда они могут использоваться.
+</para>
+
+<para>
+Давайте представим, что у нас есть система, в которой зарегистрированно 100
+агентов, 90 из них имеют доступ только к очереди "поддержка", в которой
+хранятся все запросы о поддержке. Очередь "поддержка" содержит несколько под
+очередей. Остальные 10 агентов имеют права доступа ко всем очередям,
+существующим в системе. Эти 10 агентов работают с заявками, просматривают
+"raw"-очередь и перемещают спам-сообщения в очередь "junk".
+</para>
+
+<para>
+В один день компания открывает новый отдел для продажи
+товаров. Запрос/принятие заказа, подтверждение, счета и т.д. должны быть
+обработаны, и некоторые из агентов компании должны делать это используя
+OTRS. Разным агентам нужно предоставить доступ к очередям, которые
+планируется создать.
+</para>
+
+<para>
+Поскольку изменения вручную прав доступа для разных агентов займет много
+времени, то для определения различных уровней доступа можно создать
+роли. Затем, агенты могут быть добавлены к одной или нескольким ролям, таким
+образом их права будут изменены автоматически. Если будет создана новая
+учетная запись агента, ее также можно с легкостью добавить к одной или
+нескольким ролям.
+</para>
+
+<note>
+<para>
+Роли действительно полезны когда мы имеем дело со сложно структурированными
+компаниями и управляем сложными системами OTRS. Тем не менее следует быть
+аккуратным с этм механизмом. Перемешивание назначения агентов в группы
+назначением агентам ролей может привести к переусложненной схеме, управлять
+которой, поддерживать актуальной и просто понимать будет
+затруднительно. Если вы желаете использовать только роли и отключить
+настройку Агенты &lt;-&gt; Группы в пангели администратора, можно сделать
+это в параметре <link
+linkend="ConfigReference_Framework:Frontend::Admin::ModuleRegistration:Frontend::Module_AdminUserGroup">Frontend::Module###AdminUserGroup</link>
+в SysConfig. Будьте аккуратны, во избежание удаления уже сделанных
+назначений агентов в группы!
+</para>
+</note>
+
+<para>
+You can access the role management section (see figure below ) by clicking
+the <emphasis>Roles</emphasis> link on the Admin page.
+</para>
+
+<para>
+<figure>
+    <title>Управление Ролями</title>
+<screenshot>
+<graphic scale="40"
+fileref="screenshots/administration/adminarea/admin-roles.png"></graphic></screenshot></figure>
+</para>
+
+<note>
+<para>
+Как в случае с агентом и группами, однажды созданные роли могут быть
+деактивированы, но не удалены. Чтобы отключить, установите опцию
+Действительный в значение <emphasis>не действительный</emphasis> или
+<emphasis>не действительный-временно</emphasis>.
+</para>
+</note>
+
+<para>
+An overview of all roles in the system is displayed. To edit a role's
+settings, click on the role's name. In a fresh new OTRS installation, there
+are no roles defined by default. To register one, click on the "Add role"
+button, provide the needed data and submit it (see figure below).
+</para>
+
+<para>
+<figure>
+    <title>Adding a new role</title>
+<screenshot>
+<graphic scale="40"
+fileref="screenshots/administration/adminarea/add-role.png"></graphic></screenshot></figure>
+</para>
+
+<para>
+To get an overview of all roles and agents in the system, click on the link
+Roles &lt;-&gt; Agents on the Admin page. You can also use filters to find a
+specific element. If you want to change the roles associated with an agent,
+just click on the agent's name (see figure below). To change the agents
+associated with a role, click on the role you want to edit (see figure
+below).
+</para>
+
+<para>
+<figure>
+    <title>Change the roles associated with an agent</title>
+<screenshot>
+<graphic scale="40"
+fileref="screenshots/administration/adminarea/admin-roles-agents-relation.png"></graphic></screenshot></figure>
+</para>
+
+<para>
+<figure>
+    <title>Change the agents associated with a specific role</title>
+<screenshot>
+<graphic scale="40"
+fileref="screenshots/administration/adminarea/admin-roles-agents-relation2.png"></graphic></screenshot></figure>
+</para>
+
+<para>
+Чтобы получить список всех ролей и групп системы, перейдите по ссылке Роли
+&lt;-&gt; Группы на Панели Управления. На экране появится страница,
+приведенная ниже на Рисунке. Для поиска конкретного элемента также можно
+использовать фильтры.
+</para>
+
+<para>
+<figure>
+    <title>Manage roles-groups relations</title>
+<screenshot>
+<graphic scale="40"
+fileref="screenshots/administration/adminarea/admin-roles-groups.png"></graphic></screenshot></figure>
+</para>
+
+<para>
+To define the different access rights for a role, click on the name of a
+role or a group (see below the Figures 4.13 and 4.14, respectively).
+</para>
+
+<para>
+<figure>
+    <title>Change group relations for a role</title>
+<screenshot>
+<graphic scale="40"
+fileref="screenshots/administration/adminarea/groups-roles-relations.png"></graphic></screenshot></figure>
+</para>
+
+<para>
+<figure>
+    <title>Change role relations for a group</title>
+<screenshot>
+<graphic scale="40"
+fileref="screenshots/administration/adminarea/groups-roles-relations2.png"></graphic></screenshot></figure>
+</para>
+
+</section>
+
+</section>

@@ -46,24 +46,22 @@ specific configuration settings are used by the system.
 </section>
 
 <section id="sysconfig">
-<title>Konfiguration des Systems mit Hilfe des grafischen Konfigurations-Frontends</title>
+<title>Configuring the System Through the Web Interface</title>
 
 <para>
-Seit OTRS 2.0 können nahezu alle Konfigurationsparameter des Frameworks oder
-der ggf. zusätzlich installierten Applikationen bequem über ein grafisches
-Frontend angepasst werden. Melden Sie sich als OTRS-Administrator an und
-folgen Sie im Administrationsbereich den Link "SysConfig", um das grafische
-Konfigurations-Frontend zu laden (siehe untere Abbildung).
+Since OTRS 2.0, nearly all configuration parameters of the central framework
+or additional installed applications, can be changed easily with the
+graphical interface for system configuration. Log in as OTRS administrator
+and follow the SysConfig link on the Admin page to execute the new
+configuration tool (see figure below).
 </para>
 
 <para>
+<figure>
+    <title>Die grafische System-Konfigurationsoberfläche</title>
 <screenshot>
-<screeninfo>Die grafische System-Konfigurationsoberfläche</screeninfo> <graphic srccredit="sysconfig -
-screenshot" scale="40" fileref="screenshots/admin-sysconfig.png"></graphic></screenshot>
-</para>
-
-<para>
-    <emphasis>Abb.: Die grafische System-Konfigurationsoberfläche.</emphasis>
+<graphic scale="40"
+fileref="screenshots/administration/adminarea/admin-sysconfig.png"></graphic></screenshot></figure>
 </para>
 
 <para>

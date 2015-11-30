@@ -29,7 +29,8 @@ modules, 3rd Party modules, and so on.
     <section id="genericinterface-bundled-connectors">
         <title>Комплект Коннекторов (Connectors)</title>
         <para>
-            В комплекте с этой версией OTRS следующие коннекторы готовы к использованию.
+            Included with this version of OTRS the following connectors are ready to be
+used:
         </para>
         <itemizedlist>
             <listitem>
@@ -45,7 +46,7 @@ modules, 3rd Party modules, and so on.
         </itemizedlist>
 
         <section id="generic-session-connector">
-            <title>Session Connector</title>
+            <title>Коннектор сессии</title>
             <para>
                 Этот коннектор может создать действительный SessionID, который в дальнейшем
 может быть использован в любой другой операции.
@@ -72,7 +73,7 @@ modules, 3rd Party modules, and so on.
                 <section id="generic-session-connector-operations-sessioncreate">
                     <title>SessionCreate</title>
                     <para>
-                        Creates a new new valid SessionID to be used in other operations from other
+                        Creates a new valid SessionID to be used in other operations from other
 connectors like TicketCreate.
                     </para>
                     <note>
@@ -106,8 +107,7 @@ SessionID as an authentication method.
         <section id="generic-ticket-connector">
             <title>Коннектор Заявки</title>
             <para>
-                Этот коннектор использует базовую функциональность для взаимодействия с
-заявками
+                This connector supplies the basic functionality to interact with tickets.
             </para>
             <itemizedlist>
                 <para>
@@ -668,8 +668,8 @@ format to use all the Ticket Connector operations with the SOAP network
 transport.  In order to use it in OTRS you need to copy the content, save it
 into a file and call it GenericTicketConnectorSOAP.yml, and import it into
 OTRS in the Web Services screen in the Admin panel by clicking in the "Add
-web service" action from the overview screen and then clicking in the
-"Import web service" action in the add screen.
+web service" button from the overview screen and then clicking in the
+"Import web service" button in the add screen.
             </para>
             <para>
                 <programlisting>
@@ -698,7 +698,7 @@ Provider:
       MappingOutbound: {}
       Type: Ticket::TicketUpdate
     TicketGet:
-      Description: Retrieve Ticket data
+      Description: Retrieves Ticket data
       MappingInbound: {}
       MappingOutbound: {}
       Type: Ticket::TicketGet
@@ -733,8 +733,8 @@ for TicketGet and TicketUpdate (Where {TicketID} is the actual TicketID
 value of a ticket e.g.  /Ticket/123). In order to use it in OTRS you need to
 copy the content, save it into a file and call it
 GenericTicketConnectorREST.yml, and import it into OTRS in the Web Services
-screen in the Admin panel by clicking in the "Add web service" action from
-the overview screen and then clicking in the "Import web service" action in
+screen in the Admin panel by clicking in the "Add web service" button from
+the overview screen and then clicking in the "Import web service" button in
 the add screen.
             </para>
             <para>
@@ -1114,14 +1114,14 @@ print Dumper($Data);
                 <command>Для Ticket Search: </command>используйте GET метод в /Ticket path.
             </para>
             <para>
-                <command>For Ticket Update: </command>use PATCH method on /Ticket/{TicketID}
-path (where {TicketID} is a template represented by :TicketID in the
-transport configuration)
+                <command>Для Ticket Update: </command>используйте метод PATCH в
+/Ticket/{TicketID} пути (где {TicketID} является шаблоном представленным
+:TicketID в настройке транспорта)
             </para>
             <para>
-                <command>For Ticket Get: </command>use GET method on /Ticket/{TicketID} path
-(where {TicketID} is a template represented by :TicketID in the transport
-configuration)
+                <command>Для Ticket Get: </command> используйте метод Get в
+/Ticket/{TicketID} пути (где {TicketID} является шаблоном представленным
+:TicketID в настройке транспорта)
             </para>
             <section>
                 <title>Создать новую заявку</title>

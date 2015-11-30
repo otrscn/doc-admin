@@ -3,7 +3,7 @@
   "http://www.oasis-open.org/docbook/xml/4.4/docbookx.dtd">
 
 <chapter id="first-steps">
-<title>ファースト・ステップ</title>
+<title>First Steps</title>
 
 <abstract>
 <para>
@@ -12,61 +12,57 @@
 </abstract>
 
 <section id="agent-interface">
-<title>担当者ウェブインターフェイス</title>
+<title>Agent Web Interface</title>
 
 <para>
 担当者は、担当者ウェブインターフェイスで顧客のリクエストに答えることができます。顧客のためあるいは他の担当者のために新規チケットを作成し、顧客との通話に関することをチケットに書き、FAQを記入し、顧客データを編集します。
 </para>
 
 <para>
-URL <ulink url="http://www.example.com/">
-<citetitle>http://www.example.com</citetitle>
-</ulink>経由であなたのOTRSホストへ到達すると仮定すれば、ウェブブラウザ（下図参照）でアドレス<ulink
-url="http://www.example.com/otrs/index.pl">
-<citetitle>http://www.example.com/otrs/index.pl</citetitle>
-</ulink>を使用することでOTRSログイン画面へ到達します。
+Supposing your OTRS host is reachable via the URL <ulink
+url="http://www.example.com/"> <citetitle>http://www.example.com</citetitle>
+</ulink> , then the OTRS login screen can be reached by using the address
+<ulink url="http://www.example.com/otrs/index.pl">
+<citetitle>http://www.example.com/otrs/index.pl</citetitle> </ulink> in a
+web browser (see figure below).
 </para>
 
 <para>
+<figure>
+    <title>Login screen of the agent interface</title>
 <screenshot>
-<screeninfo>index.pl - 担当者のログイン画面</screeninfo> <graphic srccredit="index.pl -
-スクリーンショット" scale="40" fileref="screenshots/login.png"></graphic></screenshot>
-</para>
-
-<para>
-<emphasis>図：担当者インターフェイスのログイン画面</emphasis>
+<graphic scale="40"
+fileref="screenshots/introduction/firststeps/login.png"></graphic></screenshot></figure>
 </para>
 
 </section>
 
 <section id="customer-interface">
-<title>顧客ウェブインターフェイス</title>
+<title>Customer Web Interface</title>
 
 <para>
 顧客は、OTRSの別々のウェブインターフェイスを持ち、それを通じて、新規アカウントを作成し、アカウント設定を変更し、チケットを作成、編集し、作成したチケットに関する概要を取得することができます。
 </para>
 
 <para>
-上のサンプルを続け、顧客ログイン画面はウェブブラウザでURL<ulink
-url="http://www.example.com/otrs/customer.pl">
-<citetitle>http://www.example.com/otrs/customer.pl</citetitle>
-</ulink>を使用することで到達します。（下図参照）
+Continuing the above example, the customer login screen can be reached by
+using the URL <ulink url="http://www.example.com/otrs/customer.pl">
+<citetitle>http://www.example.com/otrs/customer.pl</citetitle> </ulink> with
+a web browser (see figure below).
 </para>
 
 <para>
+<figure>
+    <title>Login screen of the customer interface</title>
 <screenshot>
-<screeninfo>customer.pl - 顧客ログイン画面</screeninfo> <graphic srccredit="customer.pl -
-スクリーンショット" scale="40" fileref="screenshots/customer-login.png"></graphic></screenshot>
-</para>
-
-<para>
-<emphasis>図：顧客ログイン画面</emphasis>
+<graphic scale="40"
+fileref="screenshots/introduction/firststeps/customer-login.png"></graphic></screenshot></figure>
 </para>
 
 </section>
 
 <section id="public-interface">
-<title>公開ウェブインターフェイス</title>
+<title>Public Web Interface</title>
 
 <para>
 担当者と顧客のためのウェブインターフェイスに加えて、OTRSにはさらにFAQモジュールによって利用可能な公開ウェブ・インターフェースがあります。このモジュールを別々にインストールしている必要があります。それはFAQシステムに公衆アクセスを提供し、特別の認可のないFAQエントリーをビジターに捜させます。
@@ -82,19 +78,17 @@ url="http://www.example.com/otrs/public.pl">
 </para>
 
 <para>
+<figure>
+    <title>公開ウェブインターフェイス</title>
 <screenshot>
-<screeninfo>public.pl - パブリック・ウェブインターフェイス</screeninfo> <graphic srccredit="public.pl -
-スクリーンショット" scale="40" fileref="screenshots/public-interface.png"></graphic></screenshot>
-</para>
-
-<para>
-<emphasis>図：パブリック・ウェブインターフェイス</emphasis>
+<graphic scale="40"
+fileref="screenshots/introduction/firststeps/public-interface.png"></graphic></screenshot></figure>
 </para>
 
 </section>
 
 <section id="first-login">
-<title>はじめてのログイン</title>
+<title>First Login</title>
 
 <para>
 セクション<link linkend="agent-interface">Agent web interface
@@ -114,37 +108,39 @@ OTRS管理者としてログインしたくなければ、あなたの通常の�
 </para>
 
 <para>
-パスワードをお忘れの場合、新規パスワードをシステムに要求することができます。単にログインボタンの下のリンクを押すだけです。OTRSアカウント用の入力フィールドに登録されたEメールアドレスを入力します。送信ボタンを押します（下図参照）。
+In case you have forgotten your password, you can request the system for a
+new password. Simply press the link below the Login button, enter the mail
+address that is registered for your OTRS account into the input field, and
+press the Submit button (see figure).
 </para>
 
 <para>
+<figure>
+    <title>新規パスワードを申請</title>
 <screenshot>
-<screeninfo>login.pl - 新規パスワードの要求</screeninfo> <graphic srccredit="login.pl -
-スクリーンショット" scale="40"
-fileref="screenshots/request-new-password.png"></graphic></screenshot>
-</para>
-
-<para>
-<emphasis>図：新規パスワードの要求</emphasis>
+<graphic scale="40"
+fileref="screenshots/introduction/firststeps/request-new-password.png"></graphic></screenshot></figure>
 </para>
 
 </section>
 
 <section id="gui-overview">
-<title>ウェブインターフェイス - 概要</title>
+<title>The Web Interface - an Overview</title>
 
 <para>
-システムへログイン成功時、ダッシュボード・ページが表示されます(下記の図を参照)。ロックされたチケットを表示し、キュー、ステータスおよびエスカレーション・ビューへのメニューから直接アクセスを許可し、さらに、新規の電話および電子メール・チケットの生成に対するオプションも保持します。さらに様々な基準を使用して、チケットのクイックサマリも表示します。
+Upon successfully logging into the system, you are presented with the
+Dashboard page (see figure below). It shows your locked tickets, allows
+direct access through menus to the queue, status and escalation views, and
+also holds options for creation of new phone and e-mail tickets. It also
+presents a quick summary of the tickets using different criteria.
 </para>
 
 <para>
+<figure>
+    <title>Dashboard of the agent interface</title>
 <screenshot>
-<screeninfo>初めてのログイン成功後の画面</screeninfo> <graphic srccredit="初期画面 -
-スクリーンショット" scale="40" fileref="screenshots/first-screen.png"></graphic></screenshot>
-</para>
-
-<para>
-<emphasis>図：初めてのログイン成功後の画面</emphasis>
+<graphic scale="40"
+fileref="screenshots/introduction/firststeps/first-screen.png"></graphic></screenshot></figure>
 </para>
 
 <para>
@@ -172,7 +168,9 @@ fileref="screenshots/request-new-password.png"></graphic></screenshot>
 </para>
 
 <para>
-最後に、ページの最下部に、サイト・フッタが表示されます(下図参照)。それは、直接OTRS公式ウェブサイトにアクセスするかあるいはページのトップへ行くリンクを含んでいます。
+Finally at the bottom of the page, the site footer is displayed (see figure
+below). It contains links to directly access the OTRS official web site, or
+go to the Top of the page.
 </para>
 
 <para>
@@ -180,13 +178,11 @@ fileref="screenshots/request-new-password.png"></graphic></screenshot>
 </para>
 
 <para>
+<figure>
+    <title>フッター</title>
 <screenshot>
-<screeninfo>フッター</screeninfo> <graphic srccredit="フッター" scale="40"
-fileref="screenshots/footer.png"></graphic></screenshot>
-</para>
-
-<para>
-<emphasis>図：フッター</emphasis>
+<graphic scale="40"
+fileref="screenshots/introduction/firststeps/footer.png"></graphic></screenshot></figure>
 </para>
 
 </section>
@@ -207,10 +203,11 @@ fileref="screenshots/footer.png"></graphic></screenshot>
 </para>
 
 <para>
-    <screenshot>
-<screeninfo>ダッシュボード・ウィジェット</screeninfo> <graphic srccredit="ダッシュボード・ウィジェット"
-scale="40"
-fileref="screenshots/dashboard-left-column-widgets.png"></graphic></screenshot>
+    <figure>
+        <title>ダッシュボード・ウィジェット</title>
+<screenshot>
+<graphic scale="40"
+fileref="screenshots/introduction/firststeps/dashboard-left-column-widgets.png"></graphic></screenshot></figure>
 </para>
 
 <para>
@@ -220,7 +217,11 @@ fileref="screenshots/dashboard-left-column-widgets.png"></graphic></screenshot>
     <listitem>
         <para>チケット・リスト・ウィジェット</para>
         <para>
-            このカテゴリーの下のウィジェットは全体的な同じ挙動、ルック・アンド・フィールを共有します。このウィジェットは決定した状態のチケットのリストを表示します。チケット数は各リスト・ページに表示します。リスト・ページは、ウィジェット・オプション(あなたがウィジェットの右上部上にマウスポインタを置くとそれらが現われます)で構成することができます。このウィジェットは次のフィルタを支援します:
+            Widgets under this category share same overall behavior, look and feel. This
+widgets shows a list of tickets on a determined state. The amount of tickets
+display on each list page can be configured in widget options (they appear
+when you hover the mouse pointer over the top right part of the
+widget). This widgets support the following filters:
         </para>
         <itemizedlist mark="round">
             <listitem>
@@ -285,15 +286,18 @@ Services" and are on queues with at least read-only permissions.
             カレンダ・イベントは新規チケットが作成された時、イベント・チケット・カレンダ機能が有効になります。それはチケット作成画面に表示する２つの新規フィールドを必要とし、ひとつはイベント開始時刻、他方は終了時刻用です。この２つの時刻がイベント期間を決定します。定義されます。
         </para>
         <para>
-            このウィジェットは次のビューを含みます：月、週、日、及び左右の矢印を使用することでページからスクロールできる担当者です。
+            This widget includes the following views: month, week and day, agents can
+scroll through the pages by using the right and left arrows.
         </para>
         <para>
             直前にウィジェットは十分に有効になっていないと述べたようにチケット用の「Date/Time」の動的フィールドのいくつかはシステムに追加し、（管理者パネルにある動的フィールドリンク経由で）それらをこのウィジェットのためにSysConfigで設定すべきです。両方の動的フィールドはチケット生成画面に表示されるように構成されるべきです。それらは、カレンダのイベント（開始及び終了時間）用の時間枠について記述するために、チケット生成あるいは他のチケット・アクション画面(例えば自由フィールド)中に満たされるべきです。チケット・ズーム画面は、それが必要であると考えた場合、動的フィールドも示すように構成されるかもしれません。
         </para>
         <para>
-            <screenshot>
-<screeninfo>イベント・チケット・カレンダー・ウィジェット</screeninfo> <graphic srccredit="フッター" scale="40"
-fileref="screenshots/events-ticket-calendar.png"></graphic></screenshot>
+            <figure>
+                <title>イベント・チケット・カレンダー・ウィジェット</title>
+<screenshot>
+<graphic scale="40"
+fileref="screenshots/introduction/firststeps/events-ticket-calendar.png"></graphic></screenshot></figure>
         </para>
         <para>
             このウィジェットのためのさらなる構成は、SysConfig中の"Frontend::Agent::Dashboard::EventsTicketCalendar"
@@ -349,17 +353,22 @@ fileref="screenshots/events-ticket-calendar.png"></graphic></screenshot>
     </listitem>
 </itemizedlist>
 <para>
-    右列に特別なウィジェットが位置しており、非表示あるいは表示したいウィジェットをコントロールすることができます。これがウィジェットの設定です。セクションを拡張するヘッダをクリックします。すると下図のように全ての利用可能なウィジェットが見えます。各ウィジェット名にはチェックボックがあり、ダッシュボードでのウィジェットの可視性を定義するためにこのチェックボックスを使用します（チェックが外れているウィジェットは表示されません）。可視性オプションを定義したら、変更を格納するために「保存」をクリックします。このセクションはスクリーンに固定されるので、それをドラッグ＆ドロップができないし閉じることもできないということです。
+    In the right column is located a special widget that allow you to control
+the widgets you want to show or hide. This is the Settings widget. Click on
+it's header to expand the section and see all available widgets, as shown in
+Figure. Each widget name has a checkbox. Use this checkboxes to define the
+visibility of the widgets in the dashboard (unchecked widgets will not be
+shown) after you define the visibility options and click on 'Save' for
+storing your changes.  This section is fixed on the screen, this means you
+can't drag and drop it, or close it.
 </para>
 
 <para>
-    <screenshot>
-<screeninfo>ダッシュボード設定の編集</screeninfo> <graphic srccredit="ダッシュボード設定"
-scale="40" fileref="screenshots/edit-settings.png"></graphic></screenshot>
-</para>
-
-<para>
-    <emphasis>図：ダッシュボード設定の編集</emphasis>
+    <figure>
+        <title>Dashboard Settings</title>
+<screenshot>
+<graphic scale="40"
+fileref="screenshots/introduction/firststeps/edit-settings.png"></graphic></screenshot></figure>
 </para>
 
 <para>
@@ -396,7 +405,7 @@ scale="40" fileref="screenshots/edit-settings.png"></graphic></screenshot>
 </section>
 
 <section id="what-is-a-queue">
-<title>キューとは何か？</title>
+<title>What is a Queue?</title>
 
 <para>
 多くのメールシステムでは、全てのメッセージが格納される受信ファイルに流し込むのが普通です。新しいメッセージはその受信ファイルの最後に追加されます。メール・クライアント・プログラムはメールの読み書きに使用され、この受信ファイルを読み、ユーザにコンテンツを表示します。
@@ -438,21 +447,26 @@ OTRSは、ユーザ、グループおよび役割のためのアクセス管理�
 
 
 <section id="what-is-the-queue-overview">
-<title>キュー概要とは何か？</title>
+<title>What is the Queue Overview?</title>
 
 <para>
 キュー概要は（チケットが表示され、読み書き権限を持つユーザに対する）全てのキューの一覧を提供します。
 </para>
 
 <para>
+<figure>
+    <title>担当者用キュー・ビュー（デフォルト）</title>
 <screenshot>
-<screeninfo>担当者用キュー・ビュー（デフォルト）</screeninfo> <graphic srccredit="index.pl -
-スクリーンショット" scale="40" fileref="screenshots/agent-queue-view.png"></graphic></screenshot>
+<graphic scale="40"
+fileref="screenshots/introduction/firststeps/agent-queue-view.png"></graphic></screenshot></figure>
 </para>
 
 <para>
-キュー概要は、OTRSの日常業務に対して様々なオプションを提供します。まずはじめに、マイキューです。担当者選択（選好）であるいは担当者を管理する場合、内部で作業するために指定された担当者のためにキューのセットは定義可能です。Ticket
--> Queue View メニューにアクセスする時、すべてのチケットがこのデフォルト・ビューに表示されます。
+The queue overview offers a variety of options for daily work with OTRS. The
+first of these is the My Queue. In the Agent Preferences, or when
+administering agents, a set of queues can be defined for which the agent has
+been assigned to work within. All the tickets will appear in this default
+view, when accessing the Tickets -> Queue View menu.
 </para>
 
 <para>
@@ -460,7 +474,11 @@ OTRSは、ユーザ、グループおよび役割のためのアクセス管理�
 </para>
 
 <para>
-両方のビュータイプでユーザはさらに追加の能力を持ちます。全てのアンロック・チケット、あるいは利用可能なチケットを見ることを選択できます。チケットは、キュー・ビューで見える可視状態タイプの一つでなければなりません。デフォルトでは「対応中、新規、保留、リマインダ、保留-自動」があります。
+In both of the view types, the user also has the added ability to see either
+all unlocked tickets (this is the default filter), or the user can then
+choose to view all available tickets. Tickets must be in one of the viewable
+state types to be shown in the queue view. Per default, these are 'open,
+new, pending reminder, pending auto'.
 </para>
 
 <para>
@@ -468,10 +486,11 @@ OTRSは、ユーザ、グループおよび役割のためのアクセス管理�
 </para>
 
 <para>
+<figure>
+    <title>担当者キュー・ビュー視覚アラーム </title>
 <screenshot>
-<screeninfo>担当者キュー・ビュー視覚アラーム</screeninfo> <graphic srccredit="index.pl -
-スクリーンショット" scale="40"
-fileref="screenshots/agent-queue-overview-visual-alarms.png"></graphic></screenshot>
+<graphic scale="40"
+fileref="screenshots/introduction/firststeps/agent-queue-overview-visual-alarms.png"></graphic></screenshot></figure>
 </para>
 
 <itemizedlist>
@@ -495,23 +514,26 @@ fileref="screenshots/agent-queue-overview-visual-alarms.png"></graphic></screens
 </section>
 
 <section id="user-preferences">
-<title>ユーザ選択（選好）</title>
+<title>User Preferences</title>
 <para>
-OTRSユーザ（顧客、担当者、OTRS管理者としての）は、必要に応じて自身のアカウントの選択（選好）を構成できます。担当者はウェブインターフェイスの上部右隅にあるログイン名をクリックして構成画面にアクセスできます。顧客は「選択（選好）」リンクをクリックしなければなりません（下図参照）。
+OTRS users such as customers, agents and the OTRS administrator can
+configure their account preferences as per their needs. Agent can access the
+configuration screen by clicking on their login name at the top right corner
+of the web interface (see figure below), and customers must click on the
+"Preferences" link (see figure below).
 </para>
 
 <para>
+<figure>
+    <title>Agent's personal preferences</title>
 <screenshot>
-<screeninfo>担当者用アカウント選択（選好）画面</screeninfo> <graphic srccredit="index.pl -
-スクリーンショット" scale="40" fileref="screenshots/agent-preferences.png"></graphic></screenshot>
+<graphic scale="40"
+fileref="screenshots/introduction/firststeps/agent-preferences.png"></graphic></screenshot></figure>
 </para>
 
 <para>
-<emphasis>図：担当者の個人選択（選好）</emphasis>
-</para>
-
-<para>
-担当者は選択（選好）から３つの異なるカテゴリーを構成できます。ユーザプロファイル、Eメール設定及びその他設定です。デフォルトの可能性は：
+An agent can configure 3 different categories of preferences: user profile,
+email settings, and other settings. The default possibilities are:
 </para>
 
 <itemizedlist>
@@ -523,25 +545,15 @@ OTRSユーザ（顧客、担当者、OTRS管理者としての）は、必要に
         <para>インターフェイス言語を変更</para>
     </listitem>
     <listitem>
-        <para>フロントエンド・スキンを変更</para>
+        <para>業務外時間を活性化し構成</para>
     </listitem>
     <listitem>
         <para>フロントエンド・テーマを変更</para>
     </listitem>
-    <listitem>
-        <para>業務外時間を活性化し構成</para>
-    </listitem>
 </itemizedlist>
 
 <itemizedlist>
-    <title>Eメール設定</title>
-    <listitem>
-        <para>担当者へEメール通知をきっかけとするイベントを選択</para>
-    </listitem>
-</itemizedlist>
-
-<itemizedlist>
-    <title>その他の設定</title>
+    <title>通知設定</title>
     <listitem>
         <para>「マイキュー」でモニターしたいキューを選択</para>
     </listitem>
@@ -549,7 +561,18 @@ OTRSユーザ（顧客、担当者、OTRS管理者としての）は、必要に
         <para>Select the services you want to monitor in "My Services".</para>
     </listitem>
     <listitem>
-        <para>Set the refresh period for the overviews (Dashboard, LockedView, QueueView).</para>
+        <para>Configure which ticket notifications you want to receive (per transport
+method).</para>
+    </listitem>
+</itemizedlist>
+
+<itemizedlist>
+    <title>その他の設定</title>
+    <listitem>
+        <para>フロントエンド・スキンを変更</para>
+    </listitem>
+    <listitem>
+        <para>Set the refresh period for the overviews (Dashboard, Queue View etc.).</para>
     </listitem>
     <listitem>
         <para>チケット作成後表示する画面を設定</para>
@@ -557,14 +580,11 @@ OTRSユーザ（顧客、担当者、OTRS管理者としての）は、必要に
 </itemizedlist>
 
 <para>
+<figure>
+    <title>Customer's personal preferences</title>
 <screenshot>
-<screeninfo>顧客用アカウント選択（選好）画面</screeninfo> <graphic srccredit="customer.pl -
-スクリーンショット" scale="40"
-fileref="screenshots/customer-preferences.png"></graphic></screenshot>
-</para>
-
-<para>
-<emphasis>図：顧客の個人選択（選好）</emphasis>
+<graphic scale="40"
+fileref="screenshots/introduction/firststeps/customer-preferences.png"></graphic></screenshot></figure>
 </para>
 
 <para>

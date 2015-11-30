@@ -3,7 +3,7 @@
   "http://www.oasis-open.org/docbook/xml/4.4/docbookx.dtd">
 
 <section id="priorities">
-<title>Приоритеты заявок</title>
+<title>Ticket Priorities</title>
 
 <para>
 OTRS поставляется с пятью предустановлеными уровнями приоритетов, которые

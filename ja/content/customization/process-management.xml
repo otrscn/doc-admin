@@ -376,77 +376,74 @@ EntityIDs と呼ばれる内部識別メカニズムに基づきます。
                 </para>
             </note>
             <para>
-                <screenshot>
-<screeninfo>OTRS管理者画面 - システム管理。</screeninfo> <graphic srccredit="プロセス管理 -
-スクリーンショット" scale='40' fileref="screenshots/pm-admin-sysadmin.png"></graphic></screenshot>
-            </para>
-            <para>
-                <emphasis>図:OTRS管理者画面 - システム管理</emphasis>
+                <figure>
+                    <title>OTRS Admin screen - System Administration</title>
+<screenshot>
+<graphic scale='40'
+fileref="screenshots/customization/pm-admin-sysadmin.png"></graphic></screenshot></figure>
             </para>
 
             <para>
                 アクション・ボックスから「新しいプロセスを作成する」アクションをクリックしてください。
             </para>
             <para>
-                <screenshot>
-<screeninfo>新しいプロセス・ボタンの作成</screeninfo> <graphic srccredit="プロセス管理 -
-スクリーンショット" scale='40'
-fileref="screenshots/pm-newprocess-button.png"></graphic></screenshot>
-            </para>
-            <para>
-                <emphasis>図:新しいプロセスの追加</emphasis>
+                <figure>
+                    <title>新しいプロセス・ボタンの作成</title>
+<screenshot>
+<graphic scale='40'
+fileref="screenshots/customization/pm-newprocess-button.png"></graphic></screenshot></figure>
             </para>
             <para>
                 プロセス情報を記入し、プロセス名と摘要を設定し、全てのタスクが終了するまでプロセスの状態を「不活性」のままにしておきます。プロセスを保存します。
             </para>
             <para>
-                <screenshot>
-<screeninfo>新しいプロセスの追加</screeninfo> <graphic srccredit="プロセス管理 -
-スクリーンショット" scale='40'
-fileref="screenshots/pm-newprocess-info.png"></graphic></screenshot>
-            </para>
-            <para>
-                <emphasis>図:新しいプロセスの追加</emphasis>
+                <figure>
+                    <title>新しいプロセスの追加</title>
+<screenshot>
+<graphic scale='40'
+fileref="screenshots/customization/pm-newprocess-info.png"></graphic></screenshot></figure>
             </para>
         </section>
         <section>
             <title>アクティビティ・ダイアログ</title>
                 <para>
-                    プロセス・マネジメント概要画面にあるの新しいプロセス名をクリックします。それから「利用可能なプロセス構成要素」の中で「アクティビティ・ダイアログ」をクリックします。（このアクションはアクティビティ・ダイアログ・オプションを拡張し、他の全てを壊し押しつぶすでしょう。）次に「新しいアクティビティ・ダイアログを作成」をクリックします。
+                    Click on the new process name in the Process Management Overview Screen,
+then in the "Available Process Elements" click in "Activity Dialogs" (this
+action will expand the activity dialog options and will collapse all others
+doing an accordion like effect), then click on "Create New Activity Dialog".
                 </para>
                 <para>
-                    <screenshot>
-<screeninfo>新しいアクティビティ・ダイアログ・ボタンの作成</screeninfo> <graphic srccredit="プロセス管理」-
-スクリーンショット" scale='40'
-fileref="screenshots/pm-accordion-new-activitydialog.png"></graphic></screenshot>
+                    <figure>
+                        <title>新しいアクティビティ・ダイアログ・ボタンの作成</title>
+<screenshot>
+<graphic scale='40'
+fileref="screenshots/customization/pm-accordion-new-activitydialog.png"></graphic></screenshot></figure>
                 </para>
                 <para>
-                    <emphasis>図:新しいアクティビティ・ダイアログ・ボタンの作成</emphasis>
+                    In the opened popup screen fill the "Activity dialog Name" as well as the
+"Description (short)" fields, for this example we will leave all other
+fields as the default, to assign fields to the Activity Dialog simple drag
+the required field from the "Available Fields" pool and drop into the
+"Assigned Fields" pool.  The order in the "Assigned Fields" pool is the
+order as the fields will have in the screen, to modify the order simply drag
+and drop the field within the pool to rearrange it in the correct place.
                 </para>
                 <para>
-                    「摘要（短）」フィールドと同様に、開いたポップ・アップ・画面に「アクティビティ・ダイアログ名」を
-記入します。この例では全ての他のフィールドをデフォルトのままにしておきます。アクティビティ・ダイアログにフィールドを指定するために、必要なフィールドを「利用可能なフィールド」プールから「指定されたフィールド」へドラッグします。「指定されたフィールド」プールの順序は　フィールドが画面にあるような順序です。プール内のフィールドをドラッグ＆ドロップして順序を変更し、正しい位置に再配置します。
-                </para>
-                <para>
-                    <screenshot>
-<screeninfo>新規アクティビティ・ダイアログの追加</screeninfo> <graphic srccredit="プロセス管理」-
-スクリーンショット" scale='40'
-fileref="screenshots/pm-edit-activitydialog.png"></graphic></screenshot>
-                </para>
-                <para>
-                    <emphasis>図:新規アクティビティ・ダイアログの追加</emphasis>
+                    <figure>
+                        <title>新規アクティビティ・ダイアログの追加</title>
+<screenshot>
+<graphic scale='40'
+fileref="screenshots/customization/pm-edit-activitydialog.png"></graphic></screenshot></figure>
                 </para>
                 <para>
                     フィールドが「指定されたフィールド」プールにドロップされるとすぐに、別のポップ・アップ・画面が開き、フィールドに関するいくつかの詳細が表示されます。デフォルト・オプションはそのままとして、また記事フィールドのみに関しては、記事タイプ・フィールドが「ノート内部：（note-internal）」にセットされることを確かめねばなりません。
                 </para>
                 <para>
-                    <screenshot>
-<screeninfo>フィールド詳細(記事)の編集</screeninfo> <graphic srccredit="プロセス - 管理 -
-スクリーンショット" scale='40'
-fileref="screenshots/pm-edit-field-article.png"></graphic></screenshot>
-                </para>
-                <para>
-                    <emphasis>図:フィールド詳細(記事)の編集</emphasis>
+                    <figure>
+                        <title>フィールド詳細(記事)の編集</title>
+<screenshot>
+<graphic scale='40'
+fileref="screenshots/customization/pm-edit-field-article.png"></graphic></screenshot></figure>
                 </para>
                 <para>
                     全てのフィールドが指定された後で、変更を保存するためにメインのポップアップ画面にて、送信ボタンをクリックします。
@@ -455,7 +452,9 @@ fileref="screenshots/pm-edit-field-article.png"></graphic></screenshot>
                     この例では、私たちは記事フィールドをコメントに使用します。しかし、別のオプションはTextAreaタイプ動的フィールドを作成できます。下記のラインの言及されたフィールドの残りは、私たちが事前に定義する動的フィールドです。
                 </para>
                 <para>
-                    この画面では動的フィールドは、「DynamicField_Title」の中に接頭辞「DynamicField_」を持つことにご留意願います。タイトルフィールドとチケット・タイトルとを混同しないようにして下さい。
+                    Please be aware that in this screen all the Dynamic Fields has the prefix
+"DynamicField_" as in "DynamicField_Title". Do not confuse with the field
+"Title" that is the Ticket Title.
                 </para>
                 <para>
                     次のアクティビティ・ダイアログを作成してください:
@@ -591,25 +590,21 @@ fileref="screenshots/pm-edit-field-article.png"></graphic></screenshot>
                     「推移」で「利用可能なプロセス要素」をクリックして、その後、「新しい推移の作成」をクリックしてください。
                 </para>
                 <para>
-                    <screenshot>
-<screeninfo>新規推移ボタンの作成</screeninfo> <graphic srccredit="プロセス - 管理 -
-スクリーンショット" scale='40'
-fileref="screenshots/pm-accordion-new-transition.png"></graphic></screenshot>
-                </para>
-                <para>
-                    <emphasis>図：新規推移ボタンの作成</emphasis>
+                    <figure>
+                        <title>新規推移ボタンの作成</title>
+<screenshot>
+<graphic scale='40'
+fileref="screenshots/customization/pm-accordion-new-transition.png"></graphic></screenshot></figure>
                 </para>
                 <para>
                     開いたポップ・アップ・画面中に「推移名」を記入します。それからこの条件では、この例に対してひとつの条件とひとつのフィールドを使います。その両方に対してリンクのタイプを「and」のままにします。そしてフィールド一致タイプ値として「String」を使います。
                 </para>
                 <para>
-                    <screenshot>
-<screeninfo>新規推移の追加</screeninfo> <graphic srccredit="プロセス - 管理 -
-スクリーンショット" scale='40'
-fileref="screenshots/pm-edit-transition.png"></graphic></screenshot>
-                </para>
-                <para>
-                    <emphasis>図: 新規推移の追加</emphasis>
+                    <figure>
+                        <title>新規推移の追加</title>
+<screenshot>
+<graphic scale='40'
+fileref="screenshots/customization/pm-edit-transition.png"></graphic></screenshot></figure>
                 </para>
                 <para>
                     全ての条件を設定後、変更を保存するために送信ボタンをクリックします。
@@ -664,19 +659,21 @@ fileref="screenshots/pm-edit-transition.png"></graphic></screenshot>
                     「利用可能なプロセス要素」中の「推移アクション」をクリックして、次に、「新規推移アクションの作成」をクリックしてください。
                 </para>
                 <para>
-                    <screenshot>
-<screeninfo>新規推移アクションボタンの作成</screeninfo> <graphic srccredit="プロセス - 管理 -
-スクリーンショット" scale='40'
-fileref="screenshots/pm-accordion-new-transitionaction.png"></graphic></screenshot>
+                    <figure>
+                        <title>新規推移アクションボタンの作成</title>
+<screenshot>
+<graphic scale='40'
+fileref="screenshots/customization/pm-accordion-new-transitionaction.png"></graphic></screenshot></figure>
                 </para>
                 <para>
-                    <emphasis>図:新規推移アクションボタンの作成</emphasis>
+                    In the opened popup screen fill the "Transition Action Name", and the
+"Transition Action module" then add the required and optional parameter
+names and values.
                 </para>
                 <para>
-                    開かれたポップ・アップ・画面の中で「推移名」および「推移アクション・モジュール」を記入して下さい。それから、必須及び任意のパラメタと値を追加して下さい。
-                </para>
-                <para>
-                    全ての推移アクション・モジュールは、Kernel/System/ProcessManagement/TransitionActionに存在します。また、推移アクションと以下は下記は、バンドルされた推移アクションのリストで、このリリースに含まれます。
+                    All the Transition Action Modules are located in
+Kernel/System/ProcessManagement/TransitionAction and the following is the
+list of bundled Transition Actions included in this release:
                 </para>
                 <para>
                     <itemizedlist>
@@ -712,13 +709,11 @@ further versions.
                     </para>
                 </note>
                 <para>
-                    <screenshot>
-<screeninfo>新規推移アクションの追加</screeninfo> <graphic srccredit="プロセス - 管理 -
-スクリーンショット" scale='40'
-fileref="screenshots/pm-edit-transitionaction.png"></graphic></screenshot>
-                </para>
-                <para>
-                    <emphasis>新規推移アクションの追加</emphasis>
+                    <figure>
+                        <title>新規推移アクションの追加</title>
+<screenshot>
+<graphic scale='40'
+fileref="screenshots/customization/pm-edit-transitionaction.png"></graphic></screenshot></figure>
                 </para>
                 <para>
                     全ての条件を設定後、変更を保存するために送信ボタンをクリックします。
@@ -741,7 +736,7 @@ fileref="screenshots/pm-edit-transitionaction.png"></graphic></screenshot>
                         </para>
                     </listitem>
                     <listitem>
-                        <para>「「従業員」キューへのプロセス・チケットの移動」(TA3)</para>
+                        <para>"Move process ticket into the 'Employees' queue" (TA3)</para>
                         <para>以下の場合実行されるべきです：</para>
                         <itemizedlist>
                             <listitem><para>
@@ -760,13 +755,13 @@ fileref="screenshots/pm-edit-transitionaction.png"></graphic></screenshot>
                         <para>以下の場合実行されるべきです：</para>
                         <itemizedlist>
                             <listitem><para>
-                                推移:「承認拒否」(T2)が適用された
+                                推移: 「否認」(T2)が適用された
                             </para></listitem>
                             <listitem><para>
-                                推移:「注文拒否」(T4) が適用された
+                                推移: 「注文拒否」（T4）が適用された
                             </para></listitem>
                             <listitem><para>
-                                推移:「貨物受取」(T6) が」適用された
+                                推移：「出荷受取」（T6)が適用された
                             </para></listitem>
                         </itemizedlist>
                     </listitem>
@@ -792,10 +787,10 @@ fileref="screenshots/pm-edit-transitionaction.png"></graphic></screenshot>
                         <para>以下の場合実行されるべきです：</para>
                         <itemizedlist>
                             <listitem><para>
-                                推移:「承認拒否」(T2)が適用された
+                                推移: 「否認」(T2)が適用された
                             </para></listitem>
                             <listitem><para>
-                                推移:「注文拒否」(T4) が適用された
+                                推移: 「注文拒否」（T4）が適用された
                             </para></listitem>
                         </itemizedlist>
                     </listitem>
@@ -814,19 +809,23 @@ fileref="screenshots/pm-edit-transitionaction.png"></graphic></screenshot>
                 「利用可能なプロセス要素」中の「アクティビティ」をクリックして、次に、「新規アクティビティの作成」をクリックしてください。
             </para>
             <para>
-                <screenshot>
-<screeninfo>新規アクティビティボタンの作成</screeninfo> <graphic srccredit="プロセス - 管理 -
-スクリーンショット" scale='40'
-fileref="screenshots/pm-accordion-new-activity.png"></graphic></screenshot>
+                <figure>
+                    <title>新規アクティビティボタンの作成</title>
+<screenshot>
+<graphic scale='40'
+fileref="screenshots/customization/pm-accordion-new-activity.png"></graphic></screenshot></figure>
             </para>
             <para>
-                <emphasis>図：新規アクティビティボタンの作成</emphasis>
+                In the opened popup screen fill the "Activity Name", then drag the required
+Activity Dialogs from the "Available Activity Dialogs" pool, and drop them
+into to the "Assigned Activity Dialogs" pool. This dialogs will be presented
+(in the ticket zoom screen) in the same order as it is defined on this
+screen translating from top to bottom, from left to right.
             </para>
             <para>
-                開かれたポップ・アップ・画面中で「アクティビティ名」を記入して下さい。次に、必要なアクティビティ・ダイアログを”利用可能なアクティビティ・ダイアログ”プールからドラッグして、「割り当てされたアクティビティ・ダイアログ」プールへドロップします。このダイアログはチケット・ズーム画面で同じ順序で表示されるでしょう。その順序とは最上部から最下部、左から右へ推移するこの画面で定義されたものです。　
-            </para>
-            <para>
-                この順序は特に最初のアクティビティで重要です。というのは、このアクティビティのための最初のアクティビティ・ダイアログはそれがプロセスが開始する時に表示されるただひとつのものだからです。
+                This order is specially important in the first Activity, since the first
+Activity Dialog for this activity is the only one that is presented when the
+process starts.
             </para>
             <para>
                 次のアクティビティを作成しましょう。
@@ -878,79 +877,82 @@ fileref="screenshots/pm-accordion-new-activity.png"></graphic></screenshot>
                 アクティビティがすでにアクティビティ・ダイアログを割り当てしたと仮定すると、アクティビティをアコーデオン（画面左部）からドラッグします。そしてそれをキャンバスエリア（以下のプロセス情報）にドロップします。プロセス・スタート(緑の円)からアクティビティまでの矢印が自動的に置かれることに注目してください。(これは最初のアクティビティです。また、その最初のアクティビティ・ダイアログは　プロセスが開始するときに表示される最初の画面です)。
             </para>
             <para>
-                <screenshot>
-<screeninfo>キャンバスに第1のアクティビティをドラッグしてください。</screeninfo> <graphic srccredit="プロセス - 管理 -
-スクリーンショット" scale='40'
-fileref="screenshots/pm-canvas-drag-activity.png"></graphic></screenshot>
+                <figure>
+                    <title>キャンバスに第1のアクティビティをドラッグしてください。</title>
+<screenshot>
+<graphic scale='40'
+fileref="screenshots/customization/pm-canvas-drag-activity.png"></graphic></screenshot></figure>
             </para>
             <para>
-                <emphasis>図:キャンバスに第1のアクティビティをドラッグしてください</emphasis>
+                Next, drag another Activity into the canvas too. Now we will have two
+Activities in the canvas the first one is connected to the start point and
+the second has no connections, you can hover the mouse over each activity to
+reveal their own Activity Dialogs.
             </para>
             <para>
-                次に、キャンバスに別のアクティビティをドラッグしてください。キャンバスに2つのアクティビティを持つことになります。ひとつはスタート点に接続され、もう一方は接続点を持ちません。それぞれのアクティビティ上でマウスポインタを持っていくと、それらアクティビティ・ダイアログを確認することができます。
+                <figure>
+                    <title>第二のアクティビティをキャンバスにドラッグします。</title>
+<screenshot>
+<graphic scale='40'
+fileref="screenshots/customization/pm-canvas-drag-activity2.png"></graphic></screenshot></figure>
             </para>
             <para>
-                <screenshot>
-<screeninfo>第二のアクティビティをキャンバスにドラッグします。</screeninfo> <graphic srccredit="プロセス - 管理 -
-スクリーンショット" scale='40'
-fileref="screenshots/pm-canvas-drag-activity2.png"></graphic></screenshot>
+                Then let's create the "Path" (connection) between this two Activities, for
+this we will use the Transitions. Click on Transitions in the accordion drag
+a Transition and drop it inside the first Activity. Notice that the Activity
+changes its color indicating that the Transition is attached. As soon as the
+Transition is dropped the end point of the Transition arrow will be placed
+next to the process start point. Drag the Transition arrow end point and
+drop it inside the other Activity to create the connection between the
+Activities.
             </para>
             <para>
-                <emphasis>図：第二のアクティビティをキャンバスにドラッグします</emphasis>
-            </para>
-            <para>
-                それからこの2つのアクティビティ間の「パス」を作成しましょう、そのために推移を使います。アコーディオン状の推移をクリックし、推移をドラッグしそれを最初のアクティビティの内部にドロップします。アクティビティはその色が　推移が添付されたことを示して、変化することに気づいて下さい。推移が推移の端の矢印にドロップされるとすぐに、スタート開始点の隣に置かれるでしょう。　アクティビティ間の接点を作成するために、推移の矢印の終了点をドラッグしてそれを他のアクティビティの内部にドロップします。
-            </para>
-            <para>
-                <screenshot>
-<screeninfo>キャンバスに推移をドラッグします。</screeninfo> <graphic srccredit="プロセス - 管理 -
-スクリーンショット" scale='40'
-fileref="screenshots/pm-canvas-drag-transition.png"></graphic></screenshot>
-            </para>
-            <para>
-                <emphasis> 図:キャンバスに推移をドラッグします。</emphasis>
+                <figure>
+                    <title>キャンバスに推移をドラッグします。</title>
+<screenshot>
+<graphic scale='40'
+fileref="screenshots/customization/pm-canvas-drag-transition.png"></graphic></screenshot></figure>
             </para>
             <para>
                 アクション間の「パス」が今定義されたので、次に推移に推移アクションを割り当てする必要があります。推移ラベル(キャンバス中の)をダブルクリックし、新しいポップアップ・ウィンドウを開きます。
             </para>
             <para>
-                <screenshot>
-<screeninfo>推移を使用して、アクティビティを接続します。</screeninfo> <graphic srccredit="プロセス - 管理 -
-スクリーンショット" scale='40'
-fileref="screenshots/pm-canvas-drag-transition2.png"></graphic></screenshot>
-            </para>
-            <para>
-                <emphasis>図:推移を使用して、アクティビティを接続します</emphasis>
+                <figure>
+                    <title>推移を使用して、アクティビティを接続します。</title>
+<screenshot>
+<graphic scale='40'
+fileref="screenshots/customization/pm-canvas-drag-transition2.png"></graphic></screenshot></figure>
             </para>
             <para>
                 必要な推移アクションを利用可能な推移アクションプールからドラッグし、それらを割り当てした推移アクションプールにドロップし、送信ボタンをクリックします。
             </para>
             <para>
-                <screenshot>
-<screeninfo>推移アクションを割り当てます。</screeninfo> <graphic srccredit="プロセス - 管理 -
-スクリーンショット" scale='40' fileref="screenshots/pm-edit-path.png"></graphic></screenshot>
-            </para>
-            <para>
-                <emphasis>図:推移アクションを割り当てます</emphasis>
+                <figure>
+                    <title>推移アクションを割り当てます。</title>
+<screenshot>
+<graphic scale='40'
+fileref="screenshots/customization/pm-edit-path.png"></graphic></screenshot></figure>
             </para>
             <para>
                 メインプロセス編集画面に戻って（キャンバス下にある他のすべての変更を保存するための）保存ボタンをクリックします。
             </para>
             <para>
-                次のアクティビティ、推移、推移アクションを追加することで「パス」を完成します。
+                Complete the "path" adding the following Activities, Transitions and
+Transition Actions:
             </para>
             <para>「承認」まで依頼・要求を記録すること</para>
             <para>
                 <itemizedlist>
                     <listitem>
-                        <para>出発点:アクティビティ:依頼・要求の記録(A1)</para>
+                        <para>Starting point: Activity: "Recording the demand" (A1)</para>
                     </listitem>
                     <listitem>
-                        <para>可能な推移:承認(T1)</para>
+                        <para>Possible Transition: "Approval" (T1)</para>
                         <itemizedlist>
                             <listitem>
                                 <para>
-                                    この活動の条件が満たされれば、チケットはアクティビティに移ります:承認(A2)
+                                    If the condition of this activity is fulfilled, the ticket will move to
+Activity: "Approval" (A2)
                                 </para>
                             </listitem>
                             <listitem>
@@ -960,11 +962,11 @@ fileref="screenshots/pm-canvas-drag-transition2.png"></graphic></screenshot>
                                 <itemizedlist>
                                     <listitem>
                                         <para>
-                                            「「管理 」キューへチケットを移動させる」(TA1)
+                                            「「管理」キューへプロセス・チケットを移動」(TA1)
                                         </para>
                                     </listitem>
                                     <listitem>
-                                        <para>「チケットの責任者を「マネージャー」に設定する」(TA2)</para>
+                                        <para>「チケットの責任者を「マネージャ」に変更」」 (TA2)</para>
                                     </listitem>
                                 </itemizedlist>
                             </listitem>
@@ -973,8 +975,13 @@ fileref="screenshots/pm-canvas-drag-transition2.png"></graphic></screenshot>
                 </itemizedlist>
             </para>
             <para>
-                アクティビティ:「依頼・要求を記録する」（A1）が　プロセス・チケットの定義されたステップです。そのステップでは、推移：「承認」（T1)の可能性があります。これが適用されれば、チケットは次のアクティビティ:「承認」(A2)に移ります。
-そして推移アクション:「「管理」キューへチケットを移動させる」(TA1)こと、及び「チケットの責任者として「マネージャー」を設定する」(TA2)が実行されます。アクティビティの中で:「承認」(A2)(アクティビティ・ダイアログ)、「承認拒否」(AD2)そして、「承認済」(AD3)が利用可能です。
+                The Activity: "Recording the demand" (A1) is a defined step of the process
+ticket, where there is the possibility for the Transition: "Approval"
+(T1). If this applies, the ticket will move to the next Activity: "Approval"
+(A2), and the Transition Actions: "Move the process ticket into the
+'Management' queue" (TA1) and "Change ticket responsible to 'manager'" (TA2)
+are executed. In the Activity: "Approval" (A2), the Activity Dialogs:
+"Approval denied" (AD2) and "Approved" (AD3) are available.
             </para>
             <para>承認</para>
             <para>
@@ -990,7 +997,8 @@ fileref="screenshots/pm-canvas-drag-transition2.png"></graphic></screenshot>
                                     <itemizedlist>
                                         <listitem>
                                         <para>
-                                            これが一致すれば、プロセス・チケットはアクティビティに移ります:「プロセス完了」(A5)
+                                            If this matches, the process ticket will move to Activity: "Process
+complete" (A5).
                                         </para>
                                         </listitem>
                                         <listitem>
@@ -1000,12 +1008,12 @@ fileref="screenshots/pm-canvas-drag-transition2.png"></graphic></screenshot>
                                         <itemizedlist>
                                         <listitem>
                                             <para>
-                                                「「従業員」キューへプロセス・チケットを移動」(TA3)
+                                                "Move process ticket into the 'Employees' queue" (TA3)
                                             </para>
                                         </listitem>
                                         <listitem>
                                             <para>
-                                                「チケットの責任者を「従業員」設定」(TA4)
+                                                「チケットの責任者を「従業員」へ変更」(TA4)
                                              </para>
                                         </listitem>
                                         <listitem>
@@ -1032,7 +1040,7 @@ fileref="screenshots/pm-canvas-drag-transition2.png"></graphic></screenshot>
                                             <itemizedlist>
                                             <listitem>
                                                 <para>
-                                                    「プロセス・チケットを「購入」キューに移動します。」（TA5)
+                                                    「プロセス・チケットを「購入」キュー」（TA5)へ移動する
                                                 </para>
                                             </listitem>
                                             </itemizedlist>
@@ -1060,7 +1068,8 @@ fileref="screenshots/pm-canvas-drag-transition2.png"></graphic></screenshot>
                                     <itemizedlist>
                                         <listitem>
                                         <para>
-                                            これが一致すれば、プロセス・チケットはアクティビティに移ります:「プロセス完了」(A5)
+                                            If this matches, the process ticket will move to Activity: "Process
+complete" (A5).
                                         </para>
                                         </listitem>
                                         <listitem>
@@ -1070,7 +1079,7 @@ fileref="screenshots/pm-canvas-drag-transition2.png"></graphic></screenshot>
                                         <itemizedlist>
                                         <listitem>
                                             <para>
-                                                「「従業員」キューへプロセス・チケットを移動」(TA3)
+                                                "Move process ticket into the 'Employees' queue" (TA3)
                                             </para>
                                         </listitem>
                                         <listitem>
@@ -1092,7 +1101,7 @@ fileref="screenshots/pm-canvas-drag-transition2.png"></graphic></screenshot>
                                     <itemizedlist>
                                         <listitem>
                                         <para>
-                                            これが一致すれば、プロセス・チケットはアクティビティに移るでしょう:「入信」(A5)
+                                            If this matches, the process ticket will move to Activity: "Incoming" (A4).
                                         </para>
                                         </listitem>
                                         <listitem>
@@ -1102,7 +1111,7 @@ fileref="screenshots/pm-canvas-drag-transition2.png"></graphic></screenshot>
                                             <itemizedlist>
                                             <listitem>
                                                 <para>
-                                                    「「郵便局」キューにプロセス・チケットを移動させてください」(TA6)　
+                                                    「プロセス・チケットを「郵便局」キューへ移動」（TA6)
                                                 </para>
                                             </listitem>
                                             </itemizedlist>
@@ -1127,7 +1136,8 @@ fileref="screenshots/pm-canvas-drag-transition2.png"></graphic></screenshot>
                                     <itemizedlist>
                                         <listitem>
                                         <para>
-                                            これが一致すれば、プロセス・チケットはアクティビティに移ります:「プロセス完了」(A5)
+                                            If this matches, the process ticket will move to Activity: "Process
+complete" (A5).
                                         </para>
                                         </listitem>
                                         <listitem>
@@ -1137,7 +1147,7 @@ fileref="screenshots/pm-canvas-drag-transition2.png"></graphic></screenshot>
                                         <itemizedlist>
                                         <listitem>
                                             <para>
-                                                「「従業員」キューへプロセス・チケットを移動」(TA3)
+                                                "Move process ticket into the 'Employees' queue" (TA3)
                                             </para>
                                         </listitem>
                                         <listitem>
@@ -1162,15 +1172,19 @@ fileref="screenshots/pm-canvas-drag-transition2.png"></graphic></screenshot>
                 本の注文プロセスの完全なパスはこのように見えるでしょう。
             </para>
             <para>
-                <screenshot>
-<screeninfo>本の注文の完全なプロセス・パス</screeninfo> <graphic srccredit="プロセス - 管理 -
-スクリーンショット" scale='40' fileref="screenshots/pm-edit-process.png"></graphic></screenshot>
+                <figure>
+                    <title>本の注文の完全なプロセス・パス</title>
+<screenshot>
+<graphic scale='40'
+fileref="screenshots/customization/pm-edit-process.png"></graphic></screenshot></figure>
             </para>
             <para>
-                <emphasis>図：本の注文の完全なプロセス・パス</emphasis>
-            </para>
-            <para>
-                プロセス・パスを終了した後、キャンバスの下方部分中の「セーブする」ボタンをクリックして、次に、「全てのプロセスを同期」ボタンをクリックしてください。これはデータベースからすべてのプロセス情報を収集しキャッシュ・ファイル(Perl言語で)を作成します。このキャッシュ・ファイルは実際、プロセス・チケットを作成するか使用するためにシステムが使用するプロセス・構成です。
+                After you finish the process path please click on "Save" button in the lower
+part of the canvas and then click on "Synchronize All Processes"
+button. This will gather all processes information form the Database and
+create a cache file (in Perl language). This cache file is actually the
+processes configuration that the system will use to create or use process
+tickets.
             </para>
             <para>
                 プロセス(GUIの中の)に行なわれるどんな変更も、システムで変更を反映するために再度キャッシュ・ファイルを同期させる必要があります。
@@ -1182,7 +1196,8 @@ fileref="screenshots/pm-canvas-drag-transition2.png"></graphic></screenshot>
                 プロセスがACLの使用を要求する場合、手動でセットされることも必要であることに注目してください。
             </para>
             <para>
-                以下は本の注文の処理例のための完全なYAMLファイルです:
+                The following is the complete YAML file for the book ordering process
+example:
             </para>
             <para>
                 <screen><![CDATA[
@@ -1722,11 +1737,15 @@ Transitions:
             <section>
                 <title>プロセス構成</title>
                 <para>
-                    プロセス構成は、ファイル <filename>Kernel/Config.pm</filename>中で行われます。しかし
-<filename>Kernel/Config/Files/MyProcess.pm</filename>
-のような新しいファイルを作成することが強く推奨されます。GUIがファイル
-<filename>Kernel/Config/File/ZZZProcessManagement</filename>
-を生成することに気づいて下さい。そのファイル名を使用することは回避してください。そうでなければ、同期プロセスの際ににそれは上書きされるでしょう。例：プロセス構成(プロセス・キャッシュ・ファイルからの)を見ましょう:
+                    The Process configuration can be done in the file
+<filename>Kernel/Config.pm</filename> but it is strongly recommended to
+create new files like
+<filename>Kernel/Config/Files/MyProcess.pm</filename>. Notice that the GUI
+generates the file
+<filename>Kernel/Config/File/ZZZProcessManagement</filename> please avoid to
+use that filename, otherwise it will be overwritten when you sync
+processes.  Let's see an example process configuration (from process cache
+file):
                 </para>
                 <para>
                     <screen>
@@ -1864,7 +1883,13 @@ $Self->{'Process'} = {
                     プロセス・チケットがアクティビティ('A1')にある場合、それには別の活動に到着する3つの可能な方法がある。推移(「T1」)に、「T3」に、条件は定義され、プロセス・チケットは別のアクティビティへの遷移を完了しなければならない。
                 </para>
                 <para>
-                    この場合、推移「T2」に必要とされるプロセス・チケットおよびその動的なフィールドの値がすべて正確ならば、チケットは活動「A1」から「A3」に移動されるだろう。ActivityDialogが提出されるか、あるいはチケットに他の変更が行なわれる後、それは現在のアクティビティからの可能な推移をチェックされるだろう。複数の推移が可能ならば、最初のものが使用されるだろう(TransitionIDsをソートする数値ソートに基づく)。
+                    If in this case all the values of the process ticket and its dynamic fields
+that are needed for the Transition 'T2' are correct, the ticket will be
+moved from Activity 'A1' to 'A3'. After an ActivityDialog is submitted, or
+any other change is made to a ticket, it will be checked for possible
+Transitions from the current Activity. If multiple Transitions are possible,
+the first one will be used (based on numerical sorting of the
+TransitionIDs).
                 </para>
                 <para>
                     さらに、パス設定中の推移に推移アクションを割り当てることは可能です。これらは成功した推移の後に実行されるモジュールである。それらは例でのような配列形式で指定しなければならない。詳細は後述します。
@@ -1958,67 +1983,67 @@ $Self->{'Process::Activity'} =
             <section>
                 <title>ActivityDialog（アクティビティ・ダイアログ）の構成</title>
                 <para>
-                    サンプルのコンフィグを見ましょう。
+                    Let's see an example config:
                 </para>
                 <para>
                     <screen>
 $Self->{'Process::ActivityDialog'} = {
     'AD1' => {
         Name             => 'ActivityDialog 1 optional',
-        DescriptionShort => '基本情報',
-        DescriptionLong  => 'IT注文に関する必要な基本情報を挿入して下さい。',
+        DescriptionShort => 'Basic info',
+        DescriptionLong  => 'Please insert the necessesary basic information for IT orders',
         CreateTime       => '28-02-2012 13:37:00',
         CreateBy         => '1',
         ChangeTime       => '29-02-2012 13:37:00',
         ChangeBy         => '1',
         Fields => {
             PriorityID => {
-                DescriptionShort => '優先度 ID',
-                DescriptionLong  => '優先度をここに入力して下さい。',
+                DescriptionShort => 'Priority ID',
+                DescriptionLong  => 'Enter the priority here',
                 Display          => 2,
             },
         },
         FieldOrder       => [ 'PriorityID' ],
-        SubmitAdviceText => 'ノート：フォームを送信したい場合は...',
-        SubmitButtonText => '要求を送信',
+        SubmitAdviceText => 'Note: If you submit the form...',
+        SubmitButtonText => 'Send request',
     },
     'AD2' => {
-        Name => 'ActivityDialog 2 optional',
-        DescriptionShort => '基本情報',
-        DescriptionLong  => '本の注文に関する必要な基本情報を挿入して下さい。',
+        Name             => 'ActivityDialog 2 optional',
+        DescriptionShort => 'Basic info',
+        DescriptionLong  => 'Please insert the necessesary basic information for Book orders',
         CreateTime       => '28-02-2012 13:37:00',
         CreateBy         => '1',
         ChangeTime       => '29-02-2012 13:37:00',
         ChangeBy         => '1',
         Fields => {
             StateID => {
-                DescriptionShort => '状態 ID',
-                DescriptionLong  => '状態をここに入力して下さい。',
+                DescriptionShort => 'State ID',
+                DescriptionLong  => 'Enter the state here',
                 Display          => 2,
                 DefaultValue     => '2',
             },
             Queue => {
-                DescriptionShort => 'キュー ID',
-                DescriptionLong  => 'キューをここに入力して下さい。',
+                DescriptionShort => 'Queue ID',
+                DescriptionLong  => 'Enter the queue here',
                 Display          => 2,
                 DefaultValue     => 'Raw',
             },
             Title => {
-                DescriptionShort => 'タイトル',
-                DescriptionLong  => 'タイトルをここに入力して下さい。',
+                DescriptionShort => 'Title',
+                DescriptionLong  => 'Enter the title here',
                 Display          => 1,
                 DefaultValue     => 'Default Title',
             },
             DynamicField_Anzahl => {
-                DescriptionShort    => '金額',
-                DescriptionLong     => '金額をここに入力して下さい。',
-                Display             => 2,
-                DefaultValue        => '4',
+                DescriptionShort => 'Amount',
+                DescriptionLong  => 'Enter the amount here',
+                Display          => 2,
+                DefaultValue     => '4',
             },
         },
         FieldOrder       => [ 'DynamicField_Anzahl', 'StateID', 'Queue', 'Title' ],
-        SubmitAdviceText => 'ノート：フォームを送信する場合...',
-        SubmitButtonText => '要求を送信',
+        SubmitAdviceText => 'Note: If you submit the form...',
+        SubmitButtonText => 'Send request',
     },
 };
                     </screen>
@@ -2033,7 +2058,7 @@ $Self->{'Process::ActivityDialog'} = {
             <section>
                 <title>CreateTime</title>
                 <para>
-                    アクティビティ・ダイアログ作成時刻
+                    アクティビティの作成時刻
                 </para>
             </section>
             <section>
@@ -2045,7 +2070,7 @@ $Self->{'Process::ActivityDialog'} = {
             <section>
                 <title>ChangeTime</title>
                 <para>
-                    アクティビティ・ダイアログの最終変更時刻
+                    アクティビティの変更時刻
                 </para>
             </section>
             <section>
@@ -2494,18 +2519,26 @@ $Self->{'Process::TransitionAction'} = {
             <section>
                 <title>Config（構成）</title>
                 <para>
-                    このパラメーターは、モジュールに必要なセッティングをすべて含んでいます。その内容は、使用される特定の推移アクション・モジュールに依存します。詳細については、個々のモジュールのドキュメンテーションを参照してください。私たちの例において、キューだけが指定されねばなりません。
+                    This parameter contains all settings which are required for the module. Its
+content depends on the particular Transition Action module which is
+used. Please see the documentation of the individual modules for details. In
+our example, only the Queue must be specified. Nevertheless we are also
+sending UserID parameter, by using the UserID parameter. The transition
+action will be executed impersonating the user with the given UserID.
                 </para>
                 <para>
-                    推移アクションの「構成」パラメタ内部のUserIDの使用は、全ての推移アクション(OTRS
-3.2.4以来の)によって認めてられています。この例では、推移を引き起こすユーザーが、チケットを「ジャンク」キューへ移動する権限を持っているかどうかが、特に重要になりえます。ユーザーID
-123を持つユーザーが持っているかもしれませんが。。
+                    The use of UserID inside the "Config" parameter of a Transition Action is
+accepted by all Transition Actions (since OTRS 3.2.4). In this example it
+could be particularly important if the user that triggers the Transition
+does not have permissions to move the ticket to the queue 'Junk', while the
+user with the UserID 123 might have.
                 </para>
             </section>
             <section>
                 <title>推移アクション・モジュールの再使用</title>
                 <para>
-                    推移アクション・モジュールを複数回使用するためには、単に構成中でいくつかTransitionActionsを指定してください。例:<screen>
+                    To use Transition Action modules multiple times, just specify several
+Transition Actions in your configuration. Example: <screen>
     $Self->{'Process::TransitionAction'} = {
         'TA1' => {
             Name   => 'Queue Move Junk',
@@ -2543,7 +2576,7 @@ $Self->{'Process::TransitionAction'} = {
                         <screen><![CDATA[
 $Self->{'Process::TransitionAction'} = {
     'TA1' => {
-        Name   => 'Set DynamicField Master to Master and Approved to 1',
+        Name   => 'Set DynamicField MasterSlave to Master and Approved to 1',
         Module => 'Kernel::System::ProcessManagement::TransitionAction::DynamicFieldSet',
         Config => {
             MasterSlave => 'Master',
@@ -2613,7 +2646,8 @@ $Self->{'Process::TransitionAction'} = {
                         「ArticleType」は、作成される記事のタイプを定義します。可能な値:電話、ファックス、sms、webrequest、ノート内部、ノート外部およびノート報告書。
                     </para>
                     <para>
-                        「SenderType」は送り手タイプの記事を定義します。可能な値:担当者、システム、顧客。
+                        'SenderType' defines the sender type of the article. Possible values: agent,
+system, customer.
                     </para>
                     <para>
                         「ContentType」は、記事のコンテンツ・タイプを定義します。可能な値:'プレインテキスト;charset=ISO-8859-15'又は他の有効なcharsetとMIMEタイプ。
@@ -2625,18 +2659,19 @@ $Self->{'Process::TransitionAction'} = {
                         「Body」は記事内容を定義します。必須項目。
                     </para>
                     <para>
-                        「HistoryType」は、履歴エントリーのタイプを定義します。可能な値：AddNote, ArchiveFlagUpdate, Bounce,
-CustomerUpdate, EmailAgent,EmailCustomer,
-EscalationResponseTimeNotifyBefore,
-EscalationResponseTimeStart,EscalationResponseTimeStop,EscalationSolutionTimeNotifyBefore,EscalationSolutionTimeStart,
-EscalationSolutionTimeStop,EscalationUpdateTimeNotifyBefore,EscalationUpdateTimeStart,
-EscalationUpdateTimeStop,FollowUp, Forward, Lock, LoopProtection, Merged,
-Misc, Move, NewTicket, OwnerUpdate,PhoneCallAgent,
-PhoneCallCustomer,PriorityUpdate, Remove,
-ResponsibleUpdate,SendAgentNotification, SendAnswer, SendAutoFollowUp,
-SendAutoReject, SendAutoReply,SendCustomerNotification, ServiceUpdate,
-SetPendingTime, SLAUpdate, StateUpdate,Subscribe, SystemRequest,
-TicketDynamicFieldUpdate, TicketLinkAdd, TicketLinkDelete,TimeAccounting,
+                        'HistoryType' defines the type of the history entry. Possible values:
+AddNote, ArchiveFlagUpdate, Bounce, CustomerUpdate, EmailAgent,
+EmailCustomer, EscalationResponseTimeNotifyBefore,
+EscalationResponseTimeStart, EscalationResponseTimeStop,
+EscalationSolutionTimeNotifyBefore, EscalationSolutionTimeStart,
+EscalationSolutionTimeStop, EscalationUpdateTimeNotifyBefore,
+EscalationUpdateTimeStart, EscalationUpdateTimeStop, FollowUp, Forward,
+Lock, LoopProtection, Merged, Misc, Move, NewTicket, OwnerUpdate,
+PhoneCallAgent, PhoneCallCustomer, PriorityUpdate, Remove,
+ResponsibleUpdate, SendAgentNotification, SendAnswer, SendAutoFollowUp,
+SendAutoReject, SendAutoReply, SendCustomerNotification, ServiceUpdate,
+SetPendingTime, SLAUpdate, StateUpdate, Subscribe, SystemRequest,
+TicketDynamicFieldUpdate, TicketLinkAdd, TicketLinkDelete, TimeAccounting,
 TypeUpdate, Unlock, Unsubscribe, WebRequestCustomer.
                     </para>
                     <para>
@@ -2729,7 +2764,9 @@ $Self->{'Process::TransitionAction'} = {
             DynamicField_NameX => $Value,
             LinkAs => $LinkType,                                        # Normal, Parent, Child, etc. (respective original ticket)
             UserID => 123,                                              # optional, to override the UserID from the logged user
-        }
+        },
+    },
+};
                         ]]></screen>
                     </para>
                     <para>
@@ -2746,7 +2783,7 @@ new ticket.
                         'Lock' or 'LockID' sets the lock status of the ticket.
                     </para>
                     <para>
-                        'Priority' or 'PriorityID' specifies the name or od if the priority to be
+                        'Priority' or 'PriorityID' specifies the name or id if the priority to be
 used in the new ticket.
                     </para>
                     <para>
@@ -2775,7 +2812,7 @@ the new ticket.
 in the new ticket.
                     </para>
                     <para>
-                        'SLA' or 'SLaID' specifies the name or id of the SLA to be used in the new
+                        'SLA' or 'SLAID' specifies the name or id of the SLA to be used in the new
 ticket.
                     </para>
                     <para>
@@ -2784,12 +2821,12 @@ responsible.
                     </para>
                     <para>
                         'PendingTime', a predefined date to set the Ticket Pending Times, when the
-ticket state belongs to a pending state type
+ticket state belongs to a pending state type.
                     </para>
                     <para>
                         'PendingTimeDiff', a dynamically date ( expressed in seconds from current
 date/time ) to set the Ticket Pending Times, when the ticket state belongs
-to a pending state type
+to a pending state type.
                     </para>
                     <para>
                         「ArticleType」は、作成される記事のタイプを定義します。可能な値:電話、ファックス、sms、webrequest、ノート内部、ノート外部およびノート報告書。
@@ -2849,7 +2886,7 @@ seconds, minutes, hours, etc.
                     <para>
                         'DynamicField_NameX' where DynamicField_ is a required prefix and NameX is
 the name of a Dynamic Field to be set in the new ticket (on ticket level,
-not article levels)
+not article levels).
                     </para>
                     <para>
                         'LinkAs' to define the new ticket relation with originator ticket, from the
@@ -2883,10 +2920,10 @@ $Self->{'Process::TransitionAction'} = {
                         「Name」は、設定された推移アクション名前を指定します。
                     </para>
                     <para>
-                        No あるいは、CustomerIDは、顧客の顧客IDをセットします。
+                        'No' or 'CustomerID' set the Customer ID of the customer.
                     </para>
                     <para>
-                        ユーザまたはCustomerUserIDは、顧客のユーザー名をセットします。
+                        'User' or 'CustomerUserID' set the Username of the customer.
                     </para>
                 </section>
 
@@ -3057,7 +3094,7 @@ $Self->{'Process::TransitionAction'} = {
         Name   => 'Set MySLA SLA',
         Module => 'Kernel::System::ProcessManagement::TransitionAction::TicketSLASet',
         Config => {
-            SLA   => 'MyService',
+            SLA   => 'MySLA',
             # or
             SLAID => 123,
         },
@@ -3298,7 +3335,9 @@ $Self->{TicketAcl}->{'003-ACL-Priority'} = {
                     3番目の規則は、さらに「不可能」によってリストを縮小するでしょう。「AD3」はリストから取り除かれます。それがリストの第一位に載っていなかったので、「AD4」は削除されません。最後に、「AD2」および「AD7」は、ユーザが利用することができる可能なアクティビティ・ダイアログとして残ります。
                 </para>
                 <para>
-                    「新規プロセス・チケット」画面で表示可能なプロセスを限定することは可能です。その機能は、ACLは単にユーザに基づくことができるという唯一の例外をもってActivitiyDialogs（アクティビティ・ダイアログ）を限定することに似ています。
+                    It is also possible to limit the processes that can be displayed in the "New
+process ticket" screen. The functionality is similar to limiting the
+Activity Dialogs with one exception: The ACLs could only be based on Users.
                 </para>
                 <para>以下のサンプルを御覧ください。</para>
                 <para>

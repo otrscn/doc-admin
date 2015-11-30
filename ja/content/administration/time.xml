@@ -3,7 +3,7 @@
   "http://www.oasis-open.org/docbook/xml/4.4/docbookx.dtd">
 
 <section id="time">
-<title>時間関連機能</title>
+<title>Time Related Functions</title>
 
 <section id="time-settings">
 <title>業務時間、祝祭日とタイムゾーンの設定</title>
@@ -47,7 +47,7 @@ business hours of 8 AM - 6 PM.
 
 
 <section id="TimeVacationDays">
-<title>固定の期日、祝祭日</title>
+<title>Fixed Date Holidays</title>
 
 <para>
 Holidays that are on a fixed date every year, such as New Year's Day or the
@@ -69,7 +69,7 @@ OTRS出荷のデフォルトで<emphasis>ドイツの</emphasis>祝祭日をイ�
 </section>
 
 <section id="TimeVacationDaysOneTime">
-<title>TimeVacationDaysOneTime</title>
+<title>Floating Holidays</title>
 
 <para>
 Holidays such as Easter that do not have a yearly fixed date but instead
@@ -99,9 +99,11 @@ OTRSは、一度だけの休日をつけて出荷しません。イースター�
 </para>
 
 <para>
-チケットが対応中にされる前の時間の量は、すべてのキューのための<link
-linkend="adminarea-queue">キュー設定</link>の中で指定することができます。モジュール
-<filename>bin/otrs.UnlockTickets.pl</filename>（cronジョブとして周期的に実行される)は、チケットの自動アンロックします。アンロック中のチケットに関する通知は以下の担当者のみに送信されます。
+The amount of time before a ticket is unlocked can be specified in the <link
+linkend="adminarea-queue">queue settings</link> for every queue. The command
+<filename>bin/otrs.Console.pl Maint::Ticket::Unlock</filename>, which is
+executed periodically as a cron job, performs the automated unlocking of
+tickets.
 </para>
 
 <para>

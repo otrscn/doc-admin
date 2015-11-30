@@ -12,7 +12,12 @@ OTRS
 <title>チケット責任者</title>
 
 <para>
-チケット責任者の機能は、チケット所有者以外に担当者によってチケットの完全な処理を手助けします。したがってチケットをロックした担当者はそれをもう一人の担当者に渡すことができます。渡された担当者はチケットの所有者ではなく、顧客依頼に対する第二の返答者となります。依頼が取り扱われた後、最初の担当者は第2の担当者からチケット責任を譲り受けできます。
+The ticket responsibility feature facilitates the complete processing of a
+ticket by an agent other than the ticket owner. Thus an agent who has locked
+a ticket can pass it on to another agent, who is not the ticket owner, in
+order for the second to respond to a customer request. After the request has
+been dealt with, the first agent can withdraw the ticket responsibility from
+the second agent.
 </para>
 
 <para>
@@ -28,29 +33,25 @@ agent interface.
 </para>
 
 <para>
+<figure>
+    <title>Changing the Responsibility of a ticket in its zoomed view</title>
 <screenshot>
-<screeninfo>チケットズーム画面での責任者変更</screeninfo> <graphic srccredit="index.pl -
-スクリーンショット" scale="40"
-fileref="screenshots/ticket-zoom-responsible.png"></graphic></screenshot>
+<graphic scale="40"
+fileref="screenshots/administration/ticket/ticket-zoom-responsible.png"></graphic></screenshot></figure>
 </para>
 
 <para>
-<emphasis>図:ズーム・ビューでのチケット責任者の変更</emphasis>
+After clicking on "Responsible", a pop-up dialog to change the
+responsibility of that ticket will open (see figure below). This dialog can
+also be used to send a message to the new responsible agent.
 </para>
 
 <para>
-「責任者」をクリックしたのちに、チケットの責任者変更ダイアログのポップアップが開きます。（下図参照）このダイアログは新規責任者の担当者へメッセージを送信するために使用することもできます。
-</para>
-
-<para>
+<figure>
+    <title>Pop-up dialog to change a ticket's responsibility</title>
 <screenshot>
-<screeninfo>チケットの責任者を変更するポップ・アップ・ダイアログ。</screeninfo> <graphic srccredit="index.pl -
-スクリーンショット" scale="40"
-fileref="screenshots/ticket-responsible.png"></graphic></screenshot>
-</para>
-
-<para>
-<emphasis>図：チケット責任者を変更するポップアップ・ダイアログ</emphasis>
+<graphic scale="40"
+fileref="screenshots/administration/ticket/ticket-responsible.png"></graphic></screenshot></figure>
 </para>
 
 <para>
@@ -77,47 +78,44 @@ defined.
 </para>
 
 <para>
-チケットを見るためには、ズーム・ビューに行って、チケット活動メニュー中の「購読」リンクをクリックしてください(下記の図を参照)。
+In order to watch a ticket, go to its zoomed view and click on the
+"Subscribe" link in the ticket activities menu (see figure below).
 </para>
 
 <para>
+<figure>
+    <title>Subscribing to watching a ticket in its zoomed view</title>
 <screenshot>
-<screeninfo>チケットズーム画面上の購読リンク</screeninfo> <graphic srccredit="index.pl -
-スクリーンショット" scale="40" fileref="screenshots/ticket-subscribe.png"></graphic></screenshot>
+<graphic scale="40"
+fileref="screenshots/administration/ticket/ticket-subscribe.png"></graphic></screenshot></figure>
 </para>
 
 <para>
-<emphasis>図:ズーム・ビューでチケットを監視するために購読する</emphasis>
+If you no longer want to watch a specific ticket, go to its zoomed view and
+click on the "Unsubscribe" link in the ticket activities menu (see figure
+below).
 </para>
 
 <para>
-もう特定のチケットを見たくない場合は、ズーム・ビューへ行き、チケット活動メニュー中の「購読しない」リンクをクリックします(下記の図を参照)。
-</para>
-
-<para>
+<figure>
+    <title>Unsubscribing from watching a ticket in its zoomed view</title>
 <screenshot>
-<screeninfo>ズーム・ビューでチケットの監視の登録解除</screeninfo> <graphic srccredit="index.pl -
-スクリーンショット" scale="40"
-fileref="screenshots/ticket-unsubscribe.png"></graphic></screenshot>
+<graphic scale="40"
+fileref="screenshots/administration/ticket/ticket-unsubscribe.png"></graphic></screenshot></figure>
 </para>
 
 <para>
-<emphasis>図:ズーム・ビューでチケットの監視の登録解除</emphasis>
+The list of all watched tickets can be accessed through the Watched view of
+the OTRS agent interface (see figure below), as soon as the ticket watcher
+feature gets activated.
 </para>
 
 <para>
-監視中のすべてのチケットのリストは、チケット監視者機能が活性化されるとすぐに、OTRS担当者インターフェイス（下図参照）の監視ビュー経由でアクセス可能になりました
-</para>
-
-<para>
+<figure>
+    <title>Watched tickets view</title>
 <screenshot>
-<screeninfo>メールボックス：監視チケット</screeninfo> <graphic srccredit="index.pl -
-スクリーンショット" scale="40"
-fileref="screenshots/ticket-subscribe-mailbox.png"></graphic></screenshot>
-</para>
-
-<para>
-<emphasis>図:監視チケットビュー</emphasis>
+<graphic scale="40"
+fileref="screenshots/administration/ticket/ticket-subscribe-mailbox.png"></graphic></screenshot></figure>
 </para>
 </section>
 

@@ -1,0 +1,129 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE section PUBLIC "-//OASIS//DTD DocBook XML V4.4//EN"
+  "http://www.oasis-open.org/docbook/xml/4.4/docbookx.dtd">
+
+<section id="customers-and-groups">
+<title>Клиенты и Группы Клиентов</title>
+
+<section id="adminarea-customers">
+<title>Клиенты</title>
+
+<para>
+OTRS supports different types of users. Using the link "Customers" (via the
+navigation bar, or the Admin page), you can manage the accounts of your
+customers (see figure below), who can log into the system via the Customers
+interface (customer.pl). Through this interface, your customers can not only
+create tickets but also review their past tickets for new updates. It is
+important to know that a customer is needed for the ticket history in the
+system.
+</para>
+
+<para>
+<figure>
+    <title>Управления Клиентами</title>
+<screenshot>
+<graphic scale="40"
+fileref="screenshots/administration/adminarea/admin-customer.png"></graphic></screenshot></figure>
+</para>
+
+<para>
+Нажав на имя клиента, по зарегистрированным клиентам можно производить
+поиск, редактировать их данные. Также есть возможность изменить клиентский
+back-end, за более подробной информацией обращайтесь к главе <link
+linkend="external-backends">внешние хранилища данных</link>.
+</para>
+
+<para>
+To create a new customer account, click on the "Add customer" button (see
+figure below). Some of the fields are mandatory, i.e., they have to contain
+values, so if you leave one of those empty, it will be highlighted in red.
+</para>
+
+<para>
+<figure>
+    <title>Adding a customer</title>
+<screenshot>
+<graphic scale="40"
+fileref="screenshots/administration/adminarea/add-customer.png"></graphic></screenshot></figure>
+</para>
+
+<para>
+Клиент может получить доступ к системе путем ввода логина и
+пароля. CustomerID нужен для идентификации клиента и его заявок. Поскольку
+адресс электронной почты является уникальным, его можно использовать в
+качестве уникального идетнтификатора (ID).
+</para>
+
+<note>
+<para>
+Как и в случае с агентами, группами и ролями, система не позволяет удалять
+клиентов, а только деактивировать их, установив опцию Действительный в
+значение <emphasis>недействительный</emphasis> или
+<emphasis>недействительный-временно</emphasis>.
+</para>
+</note>
+
+</section>
+
+<section id="adminarea-customers-groups">
+<title>Группы Клиентов</title>
+
+<para>
+Клиенты также могут быть добавлены в группу, что может быть полезно, если вы
+хотите обьеденить нескольких клиентов той же компании для доступа к одной
+или нескольким очередям. Сначала создайте группу, в которую будут входить
+клиенты, для этого перейдите по ссылке <link
+linkend="adminarea-groups">Модуль Управления Группами </link>. Затем
+добавьте <link linkend="adminarea-queue">очереди</link> и выберите новую
+группу для этих очередей.
+</para>
+
+<para>
+Следующим шагом будет включение поддержки групп клиентов . Это можно сделать
+используя параметр <link
+linkend="ConfigReference_Framework:Frontend::Customer:CustomerGroupSupport">CustomerGroupSupport</link>
+в SysConfig/Управлении Конфигурациями. Используя параметр <link
+linkend="ConfigReference_Framework:Frontend::Customer:CustomerGroupAlwaysGroups">CustomerGroupAlwaysGroups</link>,
+можно указать группы по умолчанию, к которым будет принадлежать новый
+клиент, таким образом каждая новая учетная запись будет добавляться в эти
+группы.
+</para>
+
+<para>
+Through the link "Customers &lt;-&gt; Groups" you can manage which customer
+shall belong to the different groups (see figure below).
+</para>
+
+<para>
+<figure>
+    <title>Customer-Group relations management</title>
+<screenshot>
+<graphic scale="40"
+fileref="screenshots/administration/adminarea/admin-customer-groups.png"></graphic></screenshot></figure>
+</para>
+
+<para>
+To define the different groups a customer should be part of and vice versa,
+click on the corresponding customer username or group (see below the Figures
+4.18 and 4.19, respectively).
+</para>
+
+<para>
+<figure>
+    <title>Изменение связи между Группой и Пользователем</title>
+<screenshot>
+<graphic scale="40"
+fileref="screenshots/administration/adminarea/groups-customers-relations.png"></graphic></screenshot></figure>
+</para>
+
+<para>
+<figure>
+    <title>Изменение связи между Клиентом и Группой</title>
+<screenshot>
+<graphic scale="40"
+fileref="screenshots/administration/adminarea/groups-customers-relations2.png"></graphic></screenshot></figure>
+</para>
+
+</section>
+
+</section>

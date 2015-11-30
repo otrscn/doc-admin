@@ -46,24 +46,22 @@ maalumu inatumiwa na mfumo.
 </section>
 
 <section id="sysconfig">
-<title>Usanidi wa mfumo kupitia kiolesura cha mtandao</title>
+<title>Configuring the System Through the Web Interface</title>
 
 <para>
-Tangu OTRS 2.0, karibu parameta zote za usanidi za kiunzi cha kati au vya
-programu-tumizi za ziada zilizosakinishwa, zinaweza kubadilishwa kirahisi na
-kiolesura michoro cha mfumo. Ingia kama msimamizi wa OTRS na fuata kiungo
-cha SysConfig katika kurasa ya Msimamizi kutekeleza kifaa kipya cha usanidi
-(ona Kielelezo chini).
+Since OTRS 2.0, nearly all configuration parameters of the central framework
+or additional installed applications, can be changed easily with the
+graphical interface for system configuration. Log in as OTRS administrator
+and follow the SysConfig link on the Admin page to execute the new
+configuration tool (see figure below).
 </para>
 
 <para>
+<figure>
+    <title>Kiolesura michoro cha usanidi wa mfumo</title>
 <screenshot>
-<screeninfo>Kiolesura michoro cha usanidi wa mfumo</screeninfo> <graphic srccredit="sysconfig -
-screenshot" scale="40" fileref="screenshots/admin-sysconfig.png"></graphic></screenshot>
-</para>
-
-<para>
-    <emphasis>Kielelezo: Kiolesura mchoro cha usanidi wa mfumo.</emphasis>
+<graphic scale="40"
+fileref="screenshots/administration/adminarea/admin-sysconfig.png"></graphic></screenshot></figure>
 </para>
 
 <para>

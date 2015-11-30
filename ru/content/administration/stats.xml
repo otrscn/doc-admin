@@ -2,940 +2,304 @@
 <!DOCTYPE section PUBLIC "-//OASIS//DTD DocBook XML V4.4//EN"
   "http://www.oasis-open.org/docbook/xml/4.4/docbookx.dtd">
 
-<section id="statistic-module">
-<title>Stats-модуль</title>
+<section id="statistics-module">
+<title>Отчеты</title>
 
 <para>
-Модуль отчетов OTRS дает возможность оперативно отслеживать статистику и
-создавать пользовательские отчеты, связанные с использованием OTRS. OTRS
-использует общеупотребляемый термин "stat" для обозначения отчетов с
-различными показателями.
+The OTRS statistics module holds features to track operational statistics
+and generates custom reports associated with OTRS usage. The OTRS system
+uses the term "statistic" generically to refer to a single report presenting
+various indicators.
+</para>
+<note>
+    <para>
+        For <ulink url="https://www.otrs.com/solutions/"><emphasis role="bold">OTRS
+Business Solution™</emphasis></ulink> customers, there is also a reports
+generator available. Here "report" refers to a collection of several
+statistics in one PDF document that can be easily configured and
+automatically generated and distributed. Please find more details in the
+<ulink
+url="http://otrs.github.io/doc/manual/otrs-business-solution/stable/en/html/index.html"><emphasis
+role="bold">OTRS Business Solution™</emphasis> manual</ulink>.
+    </para>
+</note>
+
+<para>
+Proper configuration of the OTRS statistics module is associated with a
+multitude of requirements and considerations. These include the various OTRS
+modules to be evaluated, user permission settings, indicators to be
+calculated and their complexity levels, ease of configuration of the
+statistics module, speed and efficiency of calculations, and support of a
+rich set of output variants.
 </para>
 
 <para>
-Правильная настройка модуля статистики OTRS связана с множеством различных
-условий. К ним относятся различные модули системы OTRS, подлежащие оценке,
-настройки прав доступа пользователей, признаки, которые должны быть
-рассчитаны и уровень их сложности, легкость настройки модуля статистики,
-скорость и эффективность вычислений, поддержка множества вариантов вывода
-информации.
-</para>
-
-<para>
-Статистические элементы, такие как например файлы, которые дополняют
-функциональные возможности модуля статистики для конкретых требований, могут
-быть интегрированы для подсчета сложной статистики.
+Statistical elements, i.e. files which supplement the functionality of the
+statistics module for specific requirements, can be integrated for
+calculating complex statistics.
 </para>
 
 <section id="stats-usage" >
-<title>Обработка модуля агентом</title>
+<title>Statistics Configuration and Usage</title>
 
 <para>
-Когда вы вошли в систему как агент, в меню интерфейса будет отображатся
-пункт "Отчеты". Этот раздел имеет множество различных подменю, как это
-показано на Рисунке.
-</para>
-
-<para>
-<screenshot>
-<screeninfo>Модуль статистики</screeninfo> <graphic
-fileref="screenshots/stats-menu.png" scale="40" srccredit="stats-menu -
-Screenshot" /></screenshot>
-</para>
-
-<para>
-<emphasis>Рисунок: Опции меню Статистика.</emphasis>
-</para>
-
-<para>
-Различные варианты представленные в меню статистики:
-</para>
-
-<para>
-<itemizedlist>
-    <listitem>
-        <para>
-            <emphasis>Overview</emphasis>. Предоставляет список различных предварительно
-сконфигурированных отчетов.
-        </para>
-    </listitem>
-    <listitem>
-        <para>
-            <emphasis>Новая</emphasis>. Требуются права rw.
-        </para>
-    </listitem>
-    <listitem>
-        <para>
-            <emphasis>Импорт</emphasis>. Требуются rw-права.
-        </para>
-    </listitem>
-</itemizedlist>
+When signed on as an agent, the statistics module can be opened by selecting
+"Reports" and then "Statistics" in the main menu.
 </para>
 
 <section id="stats-overview" >
-<title>Обзор</title>
+    <title>Обзор</title>
 
-<para>
-Выберите ссылку "Отчеты" в меню, а затем подменю "Обзор". На открывшейся
-странице будет представлен список всех предварительно настроеных отчетов,
-которые агент уже может использовать (см. Рисунок ниже).
-
-</para>
-
-<para>
+    <para>
+    Selecting the "Statistics" link in the navigation bar, and then the submenu
+link "Overview", calls up the Overview screen. The Overview screen presents
+a list of all pre-configured reports the agent can use (see figure below).
+<figure>
+        <title>Overview of the standard statistics.</title>
 <screenshot>
-<screeninfo>Обзор стандартных отчетов</screeninfo> <graphic
-fileref="screenshots/stats-overview.png" scale="40"
-srccredit="stats-overview - Screenshot" /></screenshot>
-</para>
-
-<para>
-<emphasis>Рисунок: Просмотр стандартных запросов.</emphasis>
-</para>
-
-<para>
-Для каждого из отчетов, перечисленных в Обзоре предоставлена следующая
-информация:
-</para>
-
-<para>
-<itemizedlist>
-    <listitem>
-        <para>
-            <emphasis>Stat#</emphasis>. Уникальный номер отчета.
-        </para>
-    </listitem>
-    <listitem>
-        <para>
-            <emphasis>Заголовок</emphasis>. Заголовок отчета.
-        </para>
-    </listitem>
-    <listitem>
-        <para>
-            <emphasis>Объект</emphasis>. Объект, который используется для генерации
-статистики. В случае статической статистики не отображается ни один объект,
-поскольку в ее генерации динамические объекты не участвуют.
-        </para>
-    </listitem>
-    <listitem>
-        <para>
-            <emphasis>Описание</emphasis>. Краткое описание отчета.
-        </para>
-    </listitem>
-</itemizedlist>
-</para>
-
-<para>
-Когда модуль статистики установлен, он поставлятся с несколькими
-предустановленными отчетами, выборочно встроенными в систему. Они приведены
-в виде списка на странице "Обзор". Если список слишком большой и не
-помещается на одну страницу, у агента есть возможность просматривать другие
-страницы. Список отчетов может быть отсортирован по своему вкусу, путем
-нажатия на желаемый заголовок столбца в списке. Чтобы создать конкретный
-отчет, нажмите на соответствующие stat-номер, связанный с отчетом. В
-результате откроется интерфейс просмотра отчета.
-</para>
-
+<graphic fileref="screenshots/administration/stats/stats-overview.png"
+scale="40" /></screenshot></figure> When the statistics module is installed,
+it comes preloaded with a few sample statistics imported into the
+system. These are shown as a list on the overview page. If the overview list
+extends to more than a single page, the agent can browse through the
+different pages. The list of statistics can be sorted as desired, by
+clicking the desired column header in the list. To generate a particular
+statistic, click on the statistic's "Run now" link.
+    </para>
 </section>
 
 <section id="stats-viewing-generating">
-<title>Создание и просмотр отчетов</title>
+    <title>Generation</title>
 
-<para>
-Пользовательский интерфейс предоставляет параметры настройки отчетов
-(см. Рисунок ниже).
-</para>
-
-<para>
+    <para>
+    The view user interface provides the stat's configuration settings (see
+figure below).  <figure>
+        <title>Viewing a specific statistic.</title>
 <screenshot id="stats-view-screenshot" >
-<screeninfo>Просмотр статистики</screeninfo> <graphic
-fileref="screenshots/stats-view.png" scale="40" srccredit="stats-view -
-Screenshot" /></screenshot>
-</para>
+<graphic fileref="screenshots/administration/stats/stats-view.png"
+scale="40" /></screenshot></figure> Configuration settings
+for a particular statistic can be set within the range of options in the
+View screen. Either the statistic creator or any others with the appropriate
+permissions can make the settings.
+    </para>
 
-<para>
-<emphasis>Рисунок: Просмотр определенного отчета.</emphasis>
-</para>
-
-<para>
-Параметры конфигурации для конкретного отчета могут быть установлены путем
-выбора ряда возможных опций. Как автор отчета так и другие пользователи с
-соответсвтующими правами доступа могут создавать настройки.
-</para>
-
-<para>
-На странице отображается следующее:
-</para>
-
-<para>
-<itemizedlist>
-    <listitem>
-        <para>
-        Возможные действия:
-        </para>
-
-        <para>
-        <itemizedlist>
-            <listitem>
-                <para>
-                    <emphasis>Перейти к обзору</emphasis>. Ссылка, ведущая обратно к Просмотру
-списка отчетов.
-                </para>
-            </listitem>
-            <listitem>
-                <para>
-                    <emphasis>Редактировать</emphasis>. Редактировать имеющуюся структуру отчета
-(требуются права для чтения и записи, rw).
-                </para>
-            </listitem>
-            <listitem>
-                <para>
-                    <emphasis>Удалить</emphasis>. Удалить текущий отчет (требуются права для
-чтения и записи, rw).
-                </para>
-            </listitem>
-            <listitem>
-                <para>
-                    <emphasis>Экспортировать настройки</emphasis>. Экспортировать настройки
-отчета с помощью загрузки файла (требуются права для чтения и записи, rw).
-                </para>
-
-                <para>
-                    Традиционно: функции Экспорт и Импорт позволяют создавать и тестировать
-отчеты та тестовых системах с их легкой дальнейшей интеграцией в
-производственную систему.
-                </para>
-            </listitem>
-        </itemizedlist>
-        </para>
-    </listitem>
-    <listitem>
-        <para>
-        Подробности отчета:
-        </para>
-        <para>
-        <itemizedlist>
-            <listitem>
-                <para>
-                    <emphasis>Отчет#</emphasis>. Номер отчета.
-                </para>
-            </listitem>
-            <listitem>
-                <para>
-                    <emphasis>Заголовок</emphasis>. Заголовок отчета.
-                </para>
-            </listitem>
-            <listitem>
-                <para>
-                    <emphasis>Объект</emphasis>. Объект, который используется для создания
-отчета.
-                </para>
-            </listitem>
-            <listitem>
-                <para>
-                    <emphasis>Описание</emphasis>. Описание цели отчета.
-                </para>
-            </listitem>
-            <listitem>
-                <para>
-                    <emphasis>Формат</emphasis>. Выходной формат отчета. В зависимости от
-конфигурации, можно  выбрать один из следующих форматов вывода:
-                </para>
-                <para>
-                <itemizedlist>
-                    <listitem>
-                        <para>
-                        CSV.
-                        </para>
-                    </listitem>
-                    <listitem>
-                        <para>
-                        Печать.
-                        </para>
-                    </listitem>
-                </itemizedlist>
-                </para>
-            </listitem>
-            <listitem>
-                <para>
-                    <emphasis>Количество строк</emphasis>. Указывает когда отчет заменяется
-колонкой, чьи ячейки содержат сумму соответствующих строк.
-                </para>
-            </listitem>
-            <listitem>
-                <para>
-                    <emphasis>Количество колонок</emphasis>. Указывает когда отчет заменяется
-строкой, чьи ячейки содержат сумму соответствующих колонок.
-                </para>
-            </listitem>
-            <listitem>
-                <para>
-                    <emphasis>Кэш</emphasis>. Указывает когда сгенерированный отчет кэшируется в
-файловой системе.
-                </para>
-            </listitem>
-            <listitem>
-                <para>
-                    <emphasis>Действительный</emphasis>. Может быть установлен в значение
-"недействительный"  если по какой то причине отчет временно не должен
-запускаться. Кнопка "Старт" в нижней части правой панели больше не
-отображается. Таким образом отчет не может быть создан.
-                </para>
-            </listitem>
-            <listitem>
-                <para>
-                    <emphasis>Создан</emphasis>.  Время создания отчета.
-                </para>
-            </listitem>
-            <listitem>
-                <para>
-                    <emphasis>Создан (кем)</emphasis>. Имя агента, который создал отчет.
-                </para>
-            </listitem>
-            <listitem>
-                <para>
-                    <emphasis>Изменен</emphasis>. Время последней модификации отчета.
-                </para>
-            </listitem>
-            <listitem>
-                <para>
-                    <emphasis>Изменен кем</emphasis>. Имя агента, который последним внес
-изменения в отчет.
-                </para>
-            </listitem>
-            <listitem>
-                <para>
-                    <emphasis>X-axis</emphasis>. Используя эту функцию, агент может переключать
-x и y axes (только в том случае, если эта опция активирована
-OTRS-администратором).
-                </para>
-            </listitem>
-            <listitem>
-                <para>
-                Общая информация сопровождается информацией о самом отчете. Есть два
-различных шаблона просмотра отчета (или статистики):
-                </para>
-                <para>
-                <itemizedlist>
-                    <listitem>
-                        <para>
-                            <emphasis>Обзор статических отчетов</emphasis>. Генераторы статических
-отчетов могут быть интегрированы в модуль отчетов (смотри рисунок ниже).
-                        </para>
-                        <para>
-                        <screenshot>
-<screeninfo>Статические шаблоны для просмотра статистики</screeninfo> <graphic
-fileref="screenshots/stats-view-static.png" scale="40"
-srccredit="stats-view-static - Screenshot" /></screenshot>
-                        </para>
-                        <para>
-                            <emphasis>Рисунок: Просмотр статического отчета.</emphasis>
-                        </para>
-                    </listitem>
-                    <listitem>
-                        <para>
-                            <emphasis>Просмотр динамического отчета</emphasis> (смотри рисунок
-выше). Они могут  отображаться двумя различными способами:
-                        </para>
-                        <para>
-                        <itemizedlist>
-                            <listitem>
-                                <para>
-                                    <emphasis>Неизменяемые настройки</emphasis>. Создатель отчета не имеет прав
-для изменения этих полей.
-                                </para>
-                            </listitem>
-                            <listitem>
-                                <para>
-                                    <emphasis>Изменяемые настройки</emphasis>. Параметры конфигурации таких
-отчетов могут быть изменены агентом.
-                                </para>
-                            </listitem>
-                        </itemizedlist>
-                        </para>
-                    </listitem>
-                </itemizedlist>
-                </para>
-            </listitem>
-        </itemizedlist>
-        </para>
-    </listitem>
-</itemizedlist>
-</para>
-
-<para>
-Нажатие кнопки "Пуск" (в нижней части экрана) является последним шагом при
-создании отчета. Есть две возможные причины, когда эта кнопка не будет
-отображаться:
-</para>
-
-<para>
-<orderedlist numeration="arabic" >
-    <listitem>
-        <para>
-        Отчет был установлен недействительным и, таким образом отключен.
-        </para>
-    </listitem>
-    <listitem>
-        <para>
-        Отчет был настроен не аккуратно и, следовательно, не может выполнятся. В
-этом случае необходимую информацию можно найти в разделе уведомлений OTRS
-(внизу, под навигационной панелью).
-        </para>
-    </listitem>
-</orderedlist>
-</para>
-
-<para>
-Если настройки на странице Просмотр неверны, эта страница отображается
-опять, после нажатия кнопки "Пуск" и информация о введеных неверных данных
-будет выведена в разделе уведомлений.
-</para>
+    <para>
+    Pressing the "Start" button (at the bottom of the screen) is the last step
+to generate the statistic.
+    </para>
 </section>
 
 <section id="stats-modify-new">
-<title>Редактировать / Создать новый</title>
+    <title>Настройка Системы</title>
 
-<para>
-Агенты, которые имеют права на запись, могут редактировать настройки
-существующего отчета, запустив пользовательский веб-интерфейс модуля
-статистики. В качестве альтернативы они могут создать новый
-отчет. Соответствующие страницы могут быть запущены следующим образом:
-</para>
-
-<para>
-<orderedlist numeration="arabic">
-<listitem>
     <para>
-    Редактировать: Используя кнопку "Редактировать" в шаблоне просмотра
-статистики.
-    </para>
-</listitem>
-<listitem>
-    <para>
-    Новый: Используя ссылку "Новый" в меню Статистика навигационной панели, или
-кнопку "Добавить" на странице Просмотр.
-    </para>
-</listitem>
-</orderedlist>
-</para>
-
-<para>
-Статистика редактируется с помощью мастера в четыре этапа:
-</para>
-
-<para>
-<orderedlist numeration="arabic">
-<listitem>
-    <para>
-    Общие технические условия.
-    </para>
-</listitem>
-<listitem>
-    <para>
-    Определение элементов для X-axis.
-    </para>
-</listitem>
-<listitem>
-    <para>
-    Спецификация значений ряда.
-    </para>
-</listitem>
-<listitem>
-    <para>
-    Выбор ограничений для отчета.
-    </para>
-</listitem>
-</orderedlist>
-</para>
-
-<para>
-Шаги с 2-4 необходимы только для создания отчетов с динамической
-статистикой. Для статической статистики требуется  только общая информация
-(пункт 1).
-</para>
-
-<para>
-Информация о том, как обрабатывать страницу приводится на каждом из этих
-экранов, ниже панели "Действия" панели Подсказок.
-</para>
-
-<para>
-Если введены неправильные данные, предыдущий пользовательский интерфейс
-отображатеся заново, на этот раз уже с информацией о неправильных входных
-данных. Эта информация отображается в  OTRS в разделе уведомлений. Следующий
-пользовательский веб-интерфейс для ввода отображатеся только в том случае,
-если все поля формы заполнены правильно.
-</para>
-
-<para>
-<orderedlist numeration="arabic" >
-<listitem>
-    <para>
-        <emphasis>Общие спецификации</emphasis>. Это первая страница мастера
-Редактирования (см. Рисунок ниже).
+    Agents with write rights can edit an existing report configuration by
+calling up the edit user interface of the statistics module. Alternately,
+they may create a new report.
     </para>
 
     <para>
-    <screenshot>
-<screeninfo>Общие технические условия</screeninfo> <graphic
-fileref="screenshots/stats-edit-general.png" scale="40"
-srccredit="stats-edit-general - Screenshot" /></screenshot>
+    There are four possible steps in the configuration of a statistic: the
+general specification data, configuring the x-axis, y-axis and possible data
+filters for the reported data (or restrictions).  Let's create a new
+statistic as an example by clicking the "Add" button in the overview
+screen.  Our goal will be to get an overview of how many tickets with very
+high priority are in every queue (x-axis) and state (y-axis).  <figure>
+        <title>Adding a new statistic, first step.</title>
+<screenshot>
+<graphic
+fileref="screenshots/administration/stats/stats-add-typeselection.png"
+scale="40" /></screenshot></figure>
+
     </para>
 
     <para>
-        <emphasis>Рисунок: Редактирование общих спецификаций отчета.</emphasis>
-    </para>
-
-
-    <para>
-        На странице приведенной на Рисунке доступно большое количество общих
-спецификаций и настроек, которые можно редактировать:
-    </para>
-
-    <para>
-    <itemizedlist>
-        <listitem>
-            <para>
-                <emphasis>Заголовок</emphasis>. Должны в сжатой форме отражать назначение
-(цель).
-            </para>
-        </listitem>
-        <listitem>
-            <para>
-                <emphasis>Описание</emphasis>. Более подробная информация об отчете, типах
-конфигурационных параметров и т.д.
-            </para>
-        </listitem>
-        <listitem>
-            <para>
-                <emphasis>Динамический объект</emphasis>.  Если установленная система OTRS
-предоставляет различные динамические объекты, один из них может быть
-выбран. Объекты отвечают требованиям отдельных модулей.
-            </para>
-        </listitem>
-        <listitem>
-            <para>
-                <emphasis>Static file</emphasis>. Обычно эта возможность не отображается до
-тех пор, пока отображаются статические файлы, назначеные отчету. Если
-"Статический файл" отображается, позже, очень важно поставить галочку в поле
-и выбрать режим генерации (динамический с динамический объектом или
-статический с файлом). Если выбран статический файл, пользовательский
-веб-интерфейс 2-4 не отображается как статический файл содержащий все
-необходимые настройки.
-            </para>
-        </listitem>
-        <listitem>
-            <para>
-                <emphasis>Настройки прав доступа</emphasis>. Содействие ограничению групп
-(и, следовательно, агентов), которые позже могут просматривать и
-генерировать предварительные отчеты. Таким образом, различные отчеты могут
-быть выделена для различных отделов и рабочих групп, которые в них
-нуждаются. Можно выделить одину статистику для различных групп.
-            </para>
-
-            <para>
-                Пример 1: Выбрана "stats" группа. Отчет доступен для просмотра для всех
-пользователей имеющих по крайней мере права на группу "stats . Этот доступ
-доступен по умолчанию.
-            </para>
-
-            <para>
-                Пример 2: Была выбрана группа под названием "продажи". Все пользователи,
-имеющие права ro (read only) к этой группе могут выдеть статистику в режиме
-просмотра э генерировать ее. Однако отчет не будет доступен для просмотра
-другим пользователям.
-            </para>
-        </listitem>
-        <listitem>
-            <para>
-                <emphasis>Формат</emphasis>. Формат отображения статистики. В зависимости от
-конфигурации, могут быть выбраны следующие один или несколько форматов:
-            </para>
-
-            <para>
-            <itemizedlist>
+        At the beginning we have to select the type of statistic we want to
+add. Three types are available: <variablelist>
+            <varlistentry>
+                <term>Dynamic Matrix Statistics</term>
                 <listitem>
                     <para>
-                        CSV.
+                        This type of statistics will generate a matrix of computed values (e.g. new
+tickets per day of month and queue).  All value cells in the matrix have the
+same type (number, average time, etc.).  Values are computed from entities
+in the system (e.g. tickets).  Some matrix statistics support a summation
+column and/or row (only useful for certain data).
                     </para>
                 </listitem>
+            </varlistentry>
+            <varlistentry>
+                <term>Dynamic List Statistics</term>
                 <listitem>
                     <para>
-                        Печать.
+                        This kind of statistic will generate a table where every line (not cell)
+represents an entity in the system (e. g. a ticket).  The columns in this
+row are usually configurable (x-axis, see below) and contain the data of
+this object (e. g. ticket attributes).  All value cells in one column have
+the same type.
                     </para>
                 </listitem>
+            </varlistentry>
+            <varlistentry>
+                <term>Static Statistics</term>
                 <listitem>
                     <para>
-                        graph-lines.
+                        This kind of statistic is not very much configurable and usually used for
+very special and/or complex computations.
                     </para>
                 </listitem>
-                <listitem>
-                    <para>
-                        graph-bars.
-                    </para>
-                </listitem>
-                <listitem>
-                    <para>
-                        graph-hbars.
-                    </para>
-                </listitem>
-                <listitem>
-                    <para>
-                        graph-points.
-                    </para>
-                </listitem>
-                <listitem>
-                    <para>
-                        graph-lines-points.
-                    </para>
-                </listitem>
-                <listitem>
-                    <para>
-                        graph-area.
-                    </para>
-                </listitem>
-                <listitem>
-                    <para>
-                        graph-pie.
-                    </para>
-                </listitem>
-            </itemizedlist>
-            </para>
-        </listitem>
-        <listitem>
+            </varlistentry>
+        </variablelist> So
+let's select "Dynamic Matrix" for our example. Then the "General
+Specifications" configuration will appear below the statistic type
+selection.
+    </para>
+    <para>
+        <figure>
+            <title>Adding a new statistic, second step.</title>
+<screenshot>
+<graphic fileref="screenshots/administration/stats/stats-add-general.png"
+scale="40" /></screenshot></figure> After providing a title and description
+for the new statistic, we have to select the statistics backend that we want
+to use.  This is the actual backend module which is responsible to collect
+and analyze the data for our statistic.  In our case we'll select
+"TicketAccumulation".
+    </para>
+    <para>
+        By configuring permission groups, we can facilitate a restriction of the
+groups (and therefore, agents) who can later view and generate the
+preconfigured statistics. Thus the various statistics can be allocated to
+the different departments and work groups who need them. It is possible to
+allocate one statistic to various groups.  <example>
+            <title>Default statistics permission group</title>
             <para>
-                <emphasis>Размер графика</emphasis>. Выберите размер диаграммы в
-пикселях. Этот выбор необходим только в том случае, если графический формат
-вывода был выбран в "Формат". Все графические размеры, которые можно
-использовать определяются в OTRS в SysConfig. При настройке отчета, агент
-может предварительно выбрать все соответствующие форматы.
+                The "stats" group was selected. The report is viewable for all users having
+at least ro rights for the "stats" group. This access is available by
+default.
             </para>
-        </listitem>
-        <listitem>
+        </example> <example>
+            <title>Customized statistics permission group</title>
             <para>
-                <emphasis>Количество строк</emphasis>. Указывает когда отчет заменяется
-колонкой, чьи ячейки содержат сумму соответствующих строк.
+                A group named "sales" was selected. All users with ro rights for the "sales"
+group can see the stat in the view mode and generate it. However, the report
+will not be available for viewing by other users.
             </para>
-        </listitem>
-        <listitem>
-            <para>
-                <emphasis>Сумма столбцов</emphasis>.  Указывает когда отчет заменяется
-строкой, чье ячейки содержат сумму соответствующих строк.
-            </para>
-        </listitem>
-        <listitem>
-            <para>
-                <emphasis>Кэш</emphasis>. Указывает на то, что созданный отчет должен
-кэшироваться в файловой системе. Это позволяет существенно экономить
-вычислительные мощности и время, но должно использоваться только в том
-случае если содержание отчета больше не будет изменятся.
-            </para>
-
-            <para>
-                Кэширование автоматически прекращается, если отчет не содержит временных
-обозначений, или когда временные обозначения указывают на будущее.
-            </para>
-
-            <para>
-                В случае редактирования закэшированного отчета удаляются все закэшированные
-данные.
-            </para>
-        </listitem>
-        <listitem>
-            <para>
-                            <emphasis>Действительный</emphasis>. Устанавливается в значение
-"недействительный" если ранее сконфигурированный отчет по какой то причине
-не должен выполнятся. Кнопка "Статистика" также не отображатеся  в правом
-нижнем углу блока. Отчет больше не генерируется.
-            </para>
-        </listitem>
-    </itemizedlist>
+        </example> Additionally, possible output
+formats can be selected. Here we can just keep all output formats and choose
+the one to use when acutally generating the statistic. Let's save the
+statistic now.
     </para>
-</listitem>
-<listitem>
     <para>
-        <emphasis>Определение элементов для X-axis</emphasis>. Это конфигурация для
-элементов, которые используются для описания X-axis или, если используются
-таблицы, имя столбца применяется для X-axis (см. Рисунок ниже).
+        The next screen will indicate the next step with a highlighted button: we
+should configure the x-axis. By clicking the button, a dialog will appear
+where we can select the element to be used for the x-axis. In our case that
+will be the queue: <figure>
+            <title>Configuring the x-axis of a statistic.</title>
+<screenshot>
+<graphic fileref="screenshots/administration/stats/stats-config-xaxis.png"
+scale="40" /></screenshot></figure> We can optionally
+limit the queues to be shown by selecting some in the queue field. With the
+checkbox we can control if the agent who generates the statistic can make
+changes to the queue selection.  We'll keep the defaults and press "Save".
     </para>
-
     <para>
-    <screenshot>
-<screeninfo>Определение элементов для X-axis.</screeninfo> <graphic
-fileref="screenshots/stats-edit-xaxis.png" scale="40"
-srccredit="stats-edit-xaxis - Screenshot" /></screenshot>
+        Now we can configure the y-axis in the same way: select the state field.
+<figure>
+            <title>Configuring the y-axis of a statistic.</title>
+<screenshot>
+<graphic fileref="screenshots/administration/stats/stats-config-yaxis.png"
+scale="40" /></screenshot></figure> Here it is possible to select one
+element or two. In the first case, every value of the element will be one
+element on the y-axis. If two elements are selected, their permutations will
+be the elments on the value series.  For example you could select "state"
+and "priority", and the resulting elements will be "new - 1 very low", "new
+- 2 low", ... "open - 1 very low" and so on. Let's just use the state and
+press "Save".
     </para>
-
     <para>
-        <emphasis>Рисунок: Определение элементов для X-axis.</emphasis>
+        Now in the last step we could add data filters to only report tickets
+belonging to a certain customer, with certain priorities and so on. We'll
+add a filter for very high priority tickets: <figure>
+            <title>Configuring the data filter of a statistic.</title>
+<screenshot>
+<graphic fileref="screenshots/administration/stats/stats-config-filter.png"
+scale="40" /></screenshot></figure> Now press "Save" again. The configuration is finished.
     </para>
-
     <para>
-    Во-первых, элемент выбирается с помощью опционального поля. Потом нужно
-выбрать два или более атрибутов элемента. Если выбраных атрибутов нету,
-используются все атрибуты, в том числе и те, которые были добавлены после
-конфигурации отчета.
+        You may already have noted that in the configuration dialog there is a
+preview area where we can check the effect of our configuration settings.
+<figure>
+            <title>Configuring the data filter of a statistic.</title>
+<screenshot>
+<graphic fileref="screenshots/administration/stats/stats-config-preview.png"
+scale="40" /></screenshot></figure> <note>
+            <para>Пожалуйста, обратите внимание, что предварительный просмотр использует
+случайные данные и не учитывает ограничения данных.</para>
+        </note>
     </para>
-
     <para>
-    Если  отключена настройка "Фиксированный", агент, генерирующий отчет, может
-изменить атрибуты соответствующего элемента в меню "Вид" пользовательского
-веб-интерфейса.
+        The statistic is configured. By pressing the "Run now" button we can go to
+the View screen where the desired output format can be selected and the
+statistic can be generated in the different formats.
     </para>
-
-    <para>
-    Элементы времени отличаются от периодов времени. Тип и число элементов
-зависит от использующихся динамических обьектов и сильно зависит от этого.
-    </para>
-
-    <para>
-    Если все входные данные введены правильно, нажатие кнопки "Следующий шаг"
-открывает форму "Серия значений". Кроме этого, есть возможность заново
-вернуться к редактированию предыдуших разделов.
-    </para>
-</listitem>
-<listitem>
-    <para>
-        <emphasis>Спецификация серии значений</emphasis>.
-    </para>
-
-    <para>
-    На третьем шаге настройки отчета нужно определить серию значений
-(см. Рисунок ниже). Позже они будут использованы для формирования графиков
-или различных серий в табличном виде.
-    </para>
-
-    <para>
-    <screenshot>
-<screeninfo>Определение значений серии</screeninfo> <graphic
-fileref="screenshots/stats-edit-valueseries.png" scale="40"
-srccredit="stats-edit-valueseries - Screenshot" /></screenshot>
-    </para>
-
-    <para>
-        <emphasis>Рисунок: Определение значений серии.</emphasis>
-    </para>
-
-    <para>
-    Если выбран определенный элемент, каждый выбранный атрибут будет
-соответствовать значеню серии (см. ниже Пример 19-1).
-    </para>
-
-    <para>
-    <example id="stats-value-series-1">
-    <title>Определение значения серии - один из элементов</title>
-
-    <para>
-    Элемент Очередь:
-    </para>
-
-    <para>
-    <itemizedlist>
-        <listitem>
-            <para>
-            Серия значений 1 = Raw
-            </para>
-        </listitem>
-        <listitem>
-            <para>
-            Значение серии 2 = Junk
-            </para>
-        </listitem>
-        <listitem>
-            <para>
-            ....
-            </para>
-        </listitem>
-    </itemizedlist>
-    </para>
-    </example>
-    </para>
-
-    <para>
-    Если для формирования значения ряда, выбрано два элемента, каждый выбраный
-атрибут первого элемента комбинируется с атрибутом второго элемента
-(см. ниже Рисунок 19-2).
-    </para>
-
-    <para>
-    <example id="stats-value-series-2" >
-    <title>Определение значения серии - один из элементов </title>
-
-    <para>
-    Элемент 1 очередь, Элемент 2 статус:
-    </para>
-
-    <para>
-    <itemizedlist>
-        <listitem>
-            <para>
-            Значение создания 1 = Raw - открыть
-            </para>
-        </listitem>
-        <listitem>
-            <para>
-            Серия значений 2 = Raw - успешно закрыта
-            </para>
-        </listitem>
-        <listitem>
-            <para>
-            Серия значений 3 = Junk - открыто
-            </para>
-        </listitem>
-        <listitem>
-            <para>
-            Серия значений 4 = Junk - успешно закрыто
-            </para>
-        </listitem>
-    </itemizedlist>
-    </para>
-    </example>
-    </para>
-
-    <para>
-    Выбор из трех или более элементов не допускается.
-    </para>
-
-    <para>
-    Кроме этого эти условия распостраняются и на выбор атрибутов и флажок
-"Основные" как для "X-axis":
-    </para>
-
-    <para>
-    <itemizedlist>
-        <listitem>
-            <para>
-            Если для элемента не выбрано никаких атрибутов, то используются все
-атрибуты, включая и те, которые были добавлены после настройки отчета.
-            </para>
-        </listitem>
-        <listitem>
-            <para>
-            Если параметр "Фиксированный" отключен, агент, который создает отчет может
-изменять атрибуты соответствующих элементов.
-            </para>
-        </listitem>
-    </itemizedlist>
-    </para>
-</listitem>
-<listitem>
-    <para>
-        <emphasis>Установка ограничений отчета</emphasis>. Это четвертый и последний
-этап конфигурации (см. Рисунок ниже). Ограничения служат для ограничения
-результатов выбранных критериев. В ряде случаев не должно быть никаких
-ограничений.
-    </para>
-
-    <para>
-    <screenshot>
-<screeninfo>Определение ограничений</screeninfo> <graphic
-fileref="screenshots/stats-edit-restrictions.png" scale="40"
-srccredit="stats-edit-restrictions - Screenshot" /></screenshot>
-    </para>
-
-    <para>
-        <emphasis>Рисунок: Определение ограничений.</emphasis>
-    </para>
-
-    <para>
-    После установки всех ограничей, конфигурация отчета завершается нажатием
-кнопки "Готово".
-    </para>
-</listitem>
-</orderedlist>
-</para>
 </section>
 
 <section id="stats-import">
-<title>Импорт</title>
+    <title>Импорт</title>
 
-<para>
-Для доступа к пользовательскому интерфейсу Импорта (см. Рисунок ниже)
-перейдите по ссылке "Статистика", а затем выберите "Импорт". Альтернативный
-способ - на странице "Обзор" нажать кнопку Импорт, это приведет к тому же
-результату, но для этого действия требуются права для чтения и записи "RW".
-</para>
-
-<para>
+    <para>
+        The Import user interface can be accessed by pressing the Import button on
+the Overview screen. "rw" permissions for the statistics module are
+required.  <figure>
+            <title>Statistics import</title>
 <screenshot>
-<screeninfo>Пользовательский веб-интерфейс для Импорта</screeninfo> <graphic
-fileref="screenshots/stats-import.png" scale="40" srccredit="stats-import -
-Screenshot" /></screenshot>
-</para>
-
-<para>
-    <emphasis>Рисунок: Пользовательский веб-интерфейс для Импорта.</emphasis>
-</para>
-
-<para>
-Очень удобная функция, значительно облегчает импорт статистики, особенно в
-сочетании с возможностями модуля экспорта. Статистику можно создать и
-протестировать на тестовых системах, а затем импортировать в реальную
-систему.
-</para>
-
-<para>
-Импорт осуществляется путем простой загрузки файла. После этого, для импорта
-статистики, автоматически открывается пользовательский интерфейс "Вид".
-</para>
+<graphic fileref="screenshots/administration/stats/stats-import.png"
+scale="40" /></screenshot></figure> Facilitates the import of
+reports and is, when combined with the export function of the module, a very
+handy functionality.  Stats can be created and tested conveniently on test
+systems, then imported into the production system.
+    </para>
 </section>
 
 </section>
 
 <section id="stats-managing-the-module">
-<title>Администрирование модуля статистики OTRS администратором.</title>
+    <title>Statistics System Administration</title>
 
-<para>
-Этот раздел предоставляет информацию о задачах и функциях администратора
+    <para>
+    Этот раздел предоставляет информацию о задачах и функциях администратора
 OTRS, который работает с модулем статистики.
-</para>
+    </para>
 
-<section id="stats-permissions" >
-<title>Настройки полномочий, Групп и Ролей</title>
+    <section id="stats-permissions" >
+        <title>Настройки полномочий, Групп и Ролей</title>
 
-<para>
-Нет новых очередей и/или групп, созданых при установке модуля статистики.
-</para>
-
-<para>
-В конфигурации по умолчанию модуль регистрации дает всем агентам группы
-"статистика" права доступа к модулю статистики.
-</para>
-
-<para>
-Доступ в соответствии с разрешенными настройками:
-</para>
-
-<para>
-<itemizedlist>
-    <listitem>
         <para>
-            <emphasis>rw</emphasis>. Разрешает настройку статистики и отчетов.
+            The default configuration of the module registration gives all agents with
+"stats" group permissions access to the statistics module.
         </para>
-    </listitem>
-    <listitem>
-        <para>
-            <emphasis>ro</emphasis>. Разрешает генерацию предварительно
-сконфигурированной статистики и отчетов.
-        </para>
-    </listitem>
-</itemizedlist>
-</para>
 
-<para>
-OTRS-администратор самостоятельно определяет когда агенты с правами для
+        <para>
+            Доступ в соответствии с разрешенными настройками:
+
+            <itemizedlist>
+                <listitem><para><emphasis>rw</emphasis>. Allows configuring statistics.</para></listitem>
+                <listitem><para><emphasis>ro</emphasis>. Permits generating pre-configured statistics.</para></listitem>
+            </itemizedlist>
+        </para>
+
+        <para>
+            OTRS-администратор самостоятельно определяет когда агенты с правами для
 генерации предварительно настроенных отчетов выделяются в ro-права для
 группы "статистика", или если их соответствующие группы добавляются в модуль
 регистрации в SysConfig.
-</para>
-</section>
+        </para>
+    </section>
 
-<section id="stats-sysconfig" >
-<title>SysConfig</title>
-
-<para>
-The SysConfig groups <link
+    <section id="stats-sysconfig" >
+        <title>SysConfig Settings</title>
+        <para>
+        The SysConfig groups <link
 linkend="ConfigReference_Framework:Core::Stats">Framework:Core::Stats</link>
 and <link
 linkend="ConfigReference_Framework:Frontend::Agent::Stats">Framework:Frontend::Agent::Stats</link>
@@ -944,277 +308,43 @@ module. Moreover, the configuration parameter <link
 linkend="ConfigReference_Framework:Frontend::Agent::ModuleRegistration:Frontend::Module_AgentStatistics">$Self-&gt;{'Frontend::Module'}-&gt;{'AgentStats'}</link>
 controls the arrangement and registration of the modules and icons within
 the statistics module.
-</para>
-</section>
-
-</section>
-
-<section id="stats-managing-the-stats-module-by-the-sysadmin" >
-<title>Администрирование модуля статистики системным администратором</title>
-
-<para>
-Как правило, системного администратора не требуется для эксплуатации,
-настройки и обслуживания модуля статистики. Однако, немного справочной
-информации дано для системного администартора в этой точке.
-</para>
-
-<note>
-<para>
-Пути к файлам см. в подкаталогах домашнего каталога OTRS (в большинстве
-случаев <filename>/opt/otrs</filename>).
-</para>
-</note>
-
-<section id="stats-db-table" >
-<title>Таблица базы данных</title>
-
-<para>
-Включены все конфигурационные параметры отчета и управляются в XML и,
-следовательно, хранятся в таблице базы данных "xml_storage". Другие модули,
-конкент которых хранится в xml-формате также используют эту таблицу.
-</para>
-
-</section>
-
-<section id="stats-filelist" >
-<title>Список файлов</title>
-
-<para>
-Следующие файлы необходимы для коректной работы модуля статистики:
-</para>
-
-<para>
-<itemizedlist>
-    <listitem>
-        <para>
-        <filename>Kernel/System/Stats.pm</filename>
         </para>
-    </listitem>
-    <listitem>
+    </section>
+
+    <section id="statistics-generating-on-commandline" >
+        <title>Generating Statistics on the Commandline</title>
+
         <para>
-        <filename>Kernel/Modules/AgentStats.pm</filename>
+            Statistics can be generated on the commandline with the command
+<filename>bin/otrs.Console.pl Maint::Stats::Generate</filename>.  As an
+example, see the command line call in the following script.  <programlisting><![CDATA[
+shell> bin/otrs.Console.pl Maint::Stats::Generate --number 10004 --target-directory /tmp
+Generating statistic number 10004...
+  Writing file /tmp/List_of_the_most_time-consuming_tickets_Created_2015-09-08_14-51.csv.
+Done.
+            ]]></programlisting> A report from the statistic configuration
+"Stat#10004" is generated and saved as a CSV file in the
+<filename>/tmp</filename> directory.
         </para>
-    </listitem>
-    <listitem>
+
         <para>
-        <filename>Kernel/System/CSV.pm</filename>
+            The generated report can also be sent as an e-mail. More information can be
+called up with the command in the script below.  <programlisting><![CDATA[
+shell> bin/otrs.Console.pl Maint::Stats::Generate --help
+            ]]></programlisting>
         </para>
-    </listitem>
-    <listitem>
+
         <para>
-        <filename>Kernel/Output/HTML/Standard/AgentStatsOverview.dtl</filename>
+            It usually does not make sense to generate reports manually via the command
+line, as the statistics module has a convenient graphical user
+interface. However, generating reports manually does make sense when
+combined with a cron job.  Imagine the following scenario: On the first day
+of every month, the heads of department want to receive a report for the
+past month. By combining a cron job and command line call the reports can be
+sent to them automatically by e-mail.
         </para>
-    </listitem>
-    <listitem>
-        <para>
-        <filename>Kernel/Output/HTML/Standard/AgentStatsDelete.dtl</filename>
-        </para>
-    </listitem>
-    <listitem>
-        <para>
-        <filename>Kernel/Output/HTML/Standard/AgentStatsEditSpecification.dtl</filename>
-        </para>
-    </listitem>
-    <listitem>
-        <para>
-        <filename>Kernel/Output/HTML/Standard/AgentStatsEditRestrictions.dtl</filename>
-        </para>
-    </listitem>
-    <listitem>
-        <para>
-        <filename>Kernel/Output/HTML/Standard/AgentStatsEditXaxis.dtl</filename>
-        </para>
-    </listitem>
-    <listitem>
-        <para>
-        <filename>Kernel/Output/HTML/Standard/AgentStatsEditValueSeries.dtl</filename>
-        </para>
-    </listitem>
-    <listitem>
-        <para>
-        <filename>Kernel/Output/HTML/Standard/AgentStatsImport.dtl</filename>
-        </para>
-    </listitem>
-    <listitem>
-        <para>
-        <filename>Kernel/Output/HTML/Standard/AgentStatsPrint.dtl</filename>
-        </para>
-    </listitem>
-    <listitem>
-        <para>
-        <filename>Kernel/Output/HTML/Standard/AgentStatsView.dtl</filename>
-        </para>
-    </listitem>
-    <listitem>
-        <para>
-        <filename>Kernel/System/Stats/Dynamic/Ticket.pm</filename>
-        </para>
-    </listitem>
-    <listitem>
-        <para>
-        <filename>bin/otrs.GenerateStats.pl</filename>
-        </para>
-    </listitem>
-</itemizedlist>
-</para>
-</section>
 
-<section id="stats-caching" >
-<title>Кэширование</title>
-
-<para>
-Результаты статистики должны быть сохранены в кэше или не могут быть
-установлены в конфигурации. Кэшированые результаты отчетов хранятся в файлах
-в каталоге <filename>var/tmp</filename> установленной системы OTRS (в
-большинстве случаев <filename>/opt/otrs/var/tmp</filename>).
-</para>
-
-<para>
-Кэшированная статистика может быть распознана с помощью префикса "Stats".
-</para>
-
-<para>
-В случае потери данных системе не будет принесено серьезного ущерба. При
-вызове модуля статистики в следующий раз, в случае если он не обнаружит
-файл, отчет сгенерируется заново. Конечно, это может занять немного больше
-времени.
-</para>
-</section>
-
-<section id="stats-mkstats" >
-<title>otrs.GenerateStats.pl</title>
-
-<para>
-Этот файл хранится в директории <filename>bin</filename>.  Он позволяет
-генерировать статистику прямо из командрной строки.
-</para>
-
-<para>
-В качестве примера смотрите вызов Сценария из командной сторки, который
-приведен ниже.
-</para>
-
-<para>
-<programlisting>
-bin> perl otrs.GenerateStats.pl -n 10004 -o /output/dir
-</programlisting>
-</para>
-
-<para>
-    <emphasis>Сценарий: Создание отчета из командной строки.</emphasis>
-</para>
-
-<para>
-Отчет из конфигурации статистики "Stat# 10004" генерируется и хранится в
-csv-формате в директории <filename>/output/dir</filename>.
-</para>
-
-<para>
-Сгенерированный отчет также быть отправлен по электронной почте. Более
-подробную информацию можно получить выполнив команду из Сценария приведенног
-ниже.
-</para>
-
-<para>
-<programlisting>
-bin> perl otrs.GenerateStats.pl --help
-</programlisting>
-</para>
-
-<para>
-    <emphasis>Сценарий: Получение информации о файле
-otrs.GenerateStats.pl.</emphasis>
-</para>
-
-</section>
-
-<section id="stats-cron" >
-<title>Автоматическое создание статистики с помощью планировщика заданий - Cronjob</title>
-
-<para>
-Очевидным является тот факт, что в действительности, нету необходимости
-генерировать отчеты вручную, из командной строки, так как модудь статистики
-имеет удобный графический веб-интерфейс пользователя. Однако, создание
-отчетов вручную имеет смысл в сочетании с Cronjob.
-</para>
-
-<para>
-Представьте себе следующую ситуацию: Каждый первый день месяца, руководители
-отделов хотят получать отчет за последний месяц. Объединив cronjob с
-командой запуска сценария в командной строке, статистика может отправляться
-им по электронной почте автоматически.
-</para>
-
-</section>
-
-<section id="stats-static" >
-<title>Статические отчеты</title>
-
-<para>
-Модуль статистики облегчает генерацию статической статистики. Для каждой
-статической статистики создается отдельный файл, в котором точто определено
-его содержание.
-</para>
-
-<para>
-Таким образом может быть сгенерирована очень сложная статистика. Главным
-недостатком является то, что этот способ есть не очень гибким.
-</para>
-
-<para>
-Файлы хранятся в директории
-<filename>Kernel/System/Stats/Static/</filename>.
-</para>
-</section>
-
-<section id="stats-using-old-stats" >
-<title>Использование устаревших данных статической статистики</title>
-
-<para>
-Прежние версии OTRS 1.3 и 2.0 уже позволяли генерировать отчеты. Различные
-отчеты для OTRS версии 1.3 и 2.0 которые были специально разработаны для
-удовлетворения потребностей клиентов могут быть использованы в более позних
-версиях OTRS.
-</para>
-
-<para>Файлы должны быть просто перемещены из
-<filename>Kernel/System/Stats/</filename> в
-<filename>Kernel/System/Stats/Static/</filename>. Кроме этого имя пакета
-соответствующего сценария должен быть заменен на "::Static".
-</para>
-
-<para>
-В следующем примере показано как изменяется первый путь.
-</para>
-
-<para>
-<programlisting>
-    package Kernel::System::Stats::AccountedTime;
-</programlisting>
-</para>
-
-<para>
-<programlisting>
-    package Kernel::System::Stats::Static::AccountedTime;
-</programlisting>
-</para>
-</section>
-
-<section id="stats-default-stats" >
-<title>Статистика по умолчанию</title>
-
-<para>"Не всегда нужно изобретать велосипед..."
-</para>
-
-<para>
-Модуль статистики предоставляет различные предустановленные
-отчеты. Предустановленные отчеты, которые могут заинтересовать всех OTRS
-пользователей можно в будущем добавить в модуль
-статистики. Предустановленные отчеты хранится в модуле статистики в
-xml-формате в директории <filename>scripts/test/sample/</filename>.
-</para>
-
-</section>
+    </section>
 
 </section>
 

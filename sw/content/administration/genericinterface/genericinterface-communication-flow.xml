@@ -257,18 +257,18 @@ kulipitisha kwenye matabaka.
                                             <itemizedlist mark="round">
                                                 <listitem>
                                                     <para>
-                                                        Tengeneza kazi mpya ya Kiolesura cha Ujumla (Muombaji) kwa ajili ya Mratibu
-wa OTRS (kwa kugawia kazi ya utekelezaji kwa Mratibu, uzoefu wa mtumiaji
-unaweza kuboreshwa mara dufu, la sivyo muda wote unaohitajika kuandaa maombi
-na utekelezaji wa mbali utaongezwa kwenye Matukio ya OTRS ambayo
-yanasababisha maombi hayo).
+                                                        Create a new Generic Interface (Requester)  task for the OTRS Daemon (by
+delegating the request execution to the Scehduler Daemon, the user
+experience could be highly improved, otherwise all the time needed to
+prepare the request and the remote execution will be added to the OTRS
+Events that trigger those requests).
                                                     </para>
                                                 </listitem>
                                                 <listitem>
                                                     <para>
-                                                        Katika mzunguko unaofuata mchakato wa Mratibu unasoma kazi mpya na kupiga
-simu kwa Muombaji ambaye atatengeneza ombi jipya na kulipitisha kwenye
-matabaka.
+                                                        In its next cycle the OTRS daemon process reads the new task and creates a
+call to the Requester that will create a new request and then passes it
+through the layers.
                                                     </para>
                                                 </listitem>
                                             </itemizedlist>
@@ -366,7 +366,7 @@ badilishwa umbizo kuwa lile la mfumo wa mbali kutoka kwa muombaji.
                                     </listitem>
                                     <listitem>
                                         <para>
-                                            Inatuma maombi kwa mfumo wa mbali na kusubiri majibu.
+                                            Sends the request to the remote system and waits for the response.
                                         </para>
                                     </listitem>
                                 </itemizedlist>
@@ -400,7 +400,7 @@ badilishwa umbizo kuwa lile la mfumo wa mbali kutoka kwa muombaji.
                             <itemizedlist mark="round">
                                 <listitem>
                                     <para>
-                                        Data kama zilivyopokelewa kutoka kwenye Mfumo wa Mbali
+                                        Data as received from the Remote System.
                                     </para>
                                 </listitem>
                             </itemizedlist>
@@ -461,13 +461,13 @@ ushughulikiaji wa makosa kama yapo).
                     </listitem>
                     <listitem>
                         <para>
-                            Mratibu au Anayeshughulika na Matukio
+                            Event Handler or OTRS Daemon
                         </para>
                         <itemizedlist mark="round">
                             <listitem>
                                 <para>
-                                    Inapokea data kutoka kwa Muombaji, kwa kesi ya Mratibu hii data inaweza kuwa
-na taarifa za kurekebisha ratiba hapo hapo au baadaye.
+                                    Receives the data from the Requester, in the case of the OTRS Daemon this
+data might contain information to create a task in the future.
                                 </para>
                             </listitem>
                         </itemizedlist>

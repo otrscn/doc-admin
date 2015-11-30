@@ -60,13 +60,11 @@ erstellen, und geben Sie die erforderlichen Informationen an.
             </para>
         </note>
         <para>
-            <screenshot>
-<screeninfo>Webdienstübersicht</screeninfo> <graphic srccredit="Adminarea web
-service - screenshot" scale="40"
-fileref="screenshots/genericinterface-webservice-overview.png"></graphic></screenshot>
-        </para>
-        <para>
-            <emphasis>Abbildung: Überblick Webservices</emphasis>
+            <figure>
+                <title>Web services overview</title>
+<screenshot>
+<graphic scale="40"
+fileref="screenshots/administration/genericinterface/genericinterface-webservice-overview.png"></graphic></screenshot></figure>
         </para>
     </section>
 
@@ -132,13 +130,11 @@ name in the web service overview screen.
             </para>
         </note>
         <para>
-            <screenshot>
-<screeninfo>Webservice hinzufügen</screeninfo> <graphic srccredit="Adminarea web
-service add - screenshot" scale="40"
-fileref="screenshots/genericinterface-webservice-add.png"></graphic></screenshot>
-        </para>
-        <para>
-            <emphasis>Abbildung: Webservice hinzufügen.</emphasis>
+            <figure>
+                <title>Web services add</title>
+<screenshot>
+<graphic scale="40"
+fileref="screenshots/administration/genericinterface/genericinterface-webservice-add.png"></graphic></screenshot></figure>
         </para>
     </section>
 
@@ -205,13 +201,11 @@ unique within the system.
             <para>Click on "Clone" button to create the web service clone or "Cancel" to close
 the dialog.</para>
             <para>
-                <screenshot>
-<screeninfo>Webservice kopieren</screeninfo> <graphic srccredit="Adminarea web
-service clone - screenshot" scale="40"
-fileref="screenshots/genericinterface-webservice-clone.png"></graphic></screenshot>
-            </para>
-            <para>
-                <emphasis>Abbildung: Webservice kopieren.</emphasis>
+                <figure>
+                    <title>Webservice kopieren</title>
+<screenshot>
+<graphic scale="40"
+fileref="screenshots/administration/genericinterface/genericinterface-webservice-clone.png"></graphic></screenshot></figure>
             </para>
         </section>
 
@@ -246,13 +240,11 @@ wenn Sie genauere Anweisungen benötigen.
                 </para>
             </note>
             <para>
-                <screenshot>
-<screeninfo>Webservice exportieren</screeninfo> <graphic srccredit="Adminarea web
-service export - screenshot" scale="40"
-fileref="screenshots/genericinterface-webservice-export.png"></graphic></screenshot>
-            </para>
-            <para>
-                <emphasis>Abbildung: Webservice exportieren.</emphasis>
+                <figure>
+                    <title>Web services export</title>
+<screenshot>
+<graphic scale="40"
+fileref="screenshots/administration/genericinterface/genericinterface-webservice-export.png"></graphic></screenshot></figure>
             </para>
         </section>
 
@@ -278,13 +270,11 @@ service.
                 </para>
             </note>
             <para>
-                <screenshot>
-<screeninfo>Webservice importieren</screeninfo> <graphic srccredit="Adminarea web
-service import - screenshot" scale="40"
-fileref="screenshots/genericinterface-webservice-import.png"></graphic></screenshot>
-            </para>
-            <para>
-                <emphasis>Abbildung: Webservice importieren.</emphasis>
+                <figure>
+                    <title>Web services import</title>
+<screenshot>
+<graphic scale="40"
+fileref="screenshots/administration/genericinterface/genericinterface-webservice-import.png"></graphic></screenshot></figure>
             </para>
         </section>
 
@@ -324,18 +314,16 @@ dialog.
 exported in plain text format.
                 </para>
                 <para>
-                    Bitte seien Sie vorsichtig, wenn Sie eine Konfiguration wiederherstellen,
-dieser Prozess ist unumkehrbar.
+                    Please be careful when you restore a configuration because this process is
+irreversible.
                 </para>
             </warning>
             <para>
-                <screenshot>
-<screeninfo>Webservice Historie</screeninfo> <graphic srccredit="Adminarea web
-service history - screenshot" scale="40"
-fileref="screenshots/genericinterface-webservice-history.png"></graphic></screenshot>
-            </para>
-            <para>
-                <emphasis>Abbildung: Webservice Historie.</emphasis>
+                <figure>
+                    <title>Web service history</title>
+<screenshot>
+<graphic scale="40"
+fileref="screenshots/administration/genericinterface/genericinterface-webservice-history.png"></graphic></screenshot></figure>
             </para>
         </section>
 
@@ -357,13 +345,11 @@ web service.
                 </para>
              </warning>
             <para>
-                <screenshot>
-<screeninfo>Webservice löschen</screeninfo> <graphic srccredit="Adminarea web
-service delete - screenshot" scale="40"
-fileref="screenshots/genericinterface-webservice-delete.png"></graphic></screenshot>
-            </para>
-            <para>
-                <emphasis>Abbildung: Webservice löschen.</emphasis>
+                <figure>
+                    <title>Webservice löschen</title>
+<screenshot>
+<graphic scale="40"
+fileref="screenshots/administration/genericinterface/genericinterface-webservice-delete.png"></graphic></screenshot></figure>
             </para>
         </section>
 
@@ -401,7 +387,7 @@ the screen. You can filter by:
                 </listitem>
                 <listitem>
                     <para>
-                        Eine Kombination von allem.
+                        A combination of all
                     </para>
                 </listitem>
             </itemizedlist>
@@ -428,13 +414,11 @@ selected communication. Here you can track the complete flow and check for
 possible errors or confirm success responses.
             </para>
             <para>
-                <screenshot>
-<screeninfo>Webservice Debugger</screeninfo> <graphic srccredit="Adminarea web
-service debugger - screenshot" scale="40"
-fileref="screenshots/genericinterface-webservice-debugger.png"></graphic></screenshot>
-            </para>
-            <para>
-                <emphasis>Abbildung: Webservice Debugger.</emphasis>
+                <figure>
+                    <title>Web service debugger</title>
+<screenshot>
+<graphic scale="40"
+fileref="screenshots/administration/genericinterface/genericinterface-webservice-debugger.png"></graphic></screenshot></figure>
             </para>
         </section>
 
@@ -475,13 +459,11 @@ screen. After saving the new operation it will be listed in the table above.
 service overview screen.
             </para>
             <para>
-                <screenshot>
-<screeninfo>Webservice ändern</screeninfo> <graphic srccredit="Adminarea web
-service change - screenshot" scale="40"
-fileref="screenshots/genericinterface-webservice-change.png"></graphic></screenshot>
-            </para>
-            <para>
-                <emphasis>Abbildung: Webservice ändern.</emphasis>
+                <figure>
+                    <title>Web services change</title>
+<screenshot>
+<graphic scale="40"
+fileref="screenshots/administration/genericinterface/genericinterface-webservice-change.png"></graphic></screenshot></figure>
             </para>
             <note>
                 <para>
@@ -513,7 +495,7 @@ level and will return to the previous screen in the configuration hierarchy.
                     In future the list of available network transports will be
 increased. Currently only "HTTP::SOAP" and "HTTP::REST" transports are
 available. Each transport has different configuration options to setup and
-they might use different frontend modules to configure them,
+they might use different frontend modules to configure them.
                 </para>
                 <para>
                     It is quite simple to configure the "HTTP::SOAP" protocol as provider.
@@ -523,14 +505,11 @@ reducing ambiguities, and the second one is a field where you can specify
 the maximum size (in bytes) for SOAP messages that OTRS will process.
                 </para>
                 <para>
-                    <screenshot>
-<screeninfo>Webservice Provider Übertragung (HTTP::SOAP)</screeninfo> <graphic srccredit="Adminarea web
-service provider network transport HTTP::SOAP - screenshot" scale="40"
-fileref="screenshots/genericinterface-webservice-provider-transport-soap.png"></graphic></screenshot>
-                </para>
-                <para>
-                    <emphasis>Figure: Web service provider network transport
-HTTP::SOAP.</emphasis>
+                    <figure>
+                        <title>Web service provider network transport HTTP::SOAP</title>
+<screenshot>
+<graphic scale="40"
+fileref="screenshots/administration/genericinterface/genericinterface-webservice-provider-transport-soap.png"></graphic></screenshot></figure>
                 </para>
                 <para>
                     For "HTTP::REST" the configuration might be a bit more complicated, as it
@@ -664,13 +643,11 @@ correctly the operation to use on each request.
                     </listitem>
                 </itemizedlist>
                 <para>
-                    <screenshot>
-<screeninfo>Webservice Requester Übertragung (HTTP::REST)</screeninfo> <graphic srccredit="Adminarea web
-service provider network transport HTTP::REST - screenshot" scale="40"
-fileref="screenshots/genericinterface-webservice-provider-transport-rest.png"></graphic></screenshot>
-                </para>
-                <para>
-                    <emphasis>Abbildung: Webservice Provider Übertragung HTTP::REST.</emphasis>
+                    <figure>
+                        <title>Web service provider network transport HTTP::REST</title>
+<screenshot>
+<graphic scale="40"
+fileref="screenshots/administration/genericinterface/genericinterface-webservice-provider-transport-rest.png"></graphic></screenshot></figure>
                 </para>
             </section>
 
@@ -710,17 +687,15 @@ screen. The field is only informative.
 "Go back to web service" (discarding all changes since the last save) and
 "Delete".  If you click on the last one, a dialog will open and ask you if
 you like to remove the operation. Click on "Delete" button to confirm the
-removal of the operation and it configuration or "Cancel" to close the
+removal of the operation and its configuration or "Cancel" to close the
 delete dialog.
                 </para>
                 <para>
-                    <screenshot>
-<screeninfo>Webservice-Operation</screeninfo> <graphic srccredit="Adminarea web
-service operation - screenshot" scale="40"
-fileref="screenshots/genericinterface-webservice-operation.png"></graphic></screenshot>
-                </para>
-                <para>
-                    <emphasis>Abbildung: Webservice Operation.</emphasis>
+                    <figure>
+                        <title>Web service operation</title>
+<screenshot>
+<graphic scale="40"
+fileref="screenshots/administration/genericinterface/genericinterface-webservice-operation.png"></graphic></screenshot></figure>
                 </para>
             </section>
 
@@ -747,9 +722,9 @@ SOAP-Nachricht.
                         <para>
                             SOAPAction Header: you can use this to send an empty or filled SOAPAction
 header. Set to "No" and the SOAPAction header on the SOAP message will be an
-empty string, or set to "Yes" to send the soap action in Namespace#Action
+empty string, or set to "Yes" to send the SOAP action in Namespace#Action
 format and define the separator (typically "/" for .Net web services and "#"
-for the rest).
+for the REST).
                         </para>
                     </listitem>
                     <listitem>
@@ -777,17 +752,14 @@ precautions if needed.
                     </para>
                 </warning>
                 <para>
-                    <screenshot>
-<screeninfo>Webservice Requester Übertragung (HTTP::SOAP)</screeninfo> <graphic srccredit="Adminarea web
-service requester network transport HTTP::SOAP - screenshot" scale="40"
-fileref="screenshots/genericinterface-webservice-requester-transport-soap.png"></graphic></screenshot>
+                    <figure>
+                        <title>Web service requester network transport (HTTP::SOAP)</title>
+<screenshot>
+<graphic scale="40"
+fileref="screenshots/administration/genericinterface/genericinterface-webservice-requester-transport-soap.png"></graphic></screenshot></figure>
                 </para>
                 <para>
-                    <emphasis>Abbildung: Webservice Requester Übertragung
-(HTTP::SOAP).</emphasis>
-                </para>
-                <para>
-                    In the case of HTTP::Rest, this configuration also grows dynamically
+                    In the case of HTTP::REST, this configuration also grows dynamically
 depending on the configured invokers by adding "Controller mapping for
 Invoker '&lt;InvokerName&gt;':" and "Valid request command for Invoker
 '&lt;InvokerName&gt;':" for each invoke. Authentication and SSL options are
@@ -813,7 +785,7 @@ to the needs of the remote web service and following its definition.
                             Path can contain variables in the form of ':&lt;VariableName&gt;' for each
 variable name that matches the current data (to be sent), will be replaced
 by the corresponding data value. This matched variable names and values will
-be remove from the current data. Depending on the HTTP request command the
+be removed from the current data. Depending on the HTTP request command the
 remaining data could be sent as a JSON string in the request body or as
 query parameters within the URI.
                         </para>
@@ -878,18 +850,16 @@ selected, Default command is used.
                     <listitem>
                         <para>Standardbefehl</para>
                         <para>
-                            Used as a fall-back for all Invokers with out a defined request command
+                            Used as a fall-back for all Invokers without a defined request command.
                         </para>
                     </listitem>
                 </itemizedlist>
                 <para>
-                    <screenshot>
-<screeninfo>Webservice Requester Übertragung (HTTP::REST)</screeninfo> <graphic srccredit="Adminarea web
-service requester network transport HTTP::REST - screenshot" scale="40"
-fileref="screenshots/genericinterface-webservice-requester-transport-rest.png"></graphic></screenshot>
-                </para>
-                <para>
-                    <emphasis>Abbildung: Webservice Provider Übertragung HTTP::REST.</emphasis>
+                    <figure>
+                        <title>Web service provider network transport HTTP::REST</title>
+<screenshot>
+<graphic scale="40"
+fileref="screenshots/administration/genericinterface/genericinterface-webservice-requester-transport-rest.png"></graphic></screenshot></figure>
                 </para>
             </section>
 
@@ -929,14 +899,14 @@ etc. These can act as triggers to execute the invoker. Each invoker needs to
 have at least one event trigger registered, or the invoker will be useless,
 because it will never be called. The asynchronous property of the event
 triggers define if the OTRS process will handle the invoker or if it will be
-delegated to the OTRS Scheduler.
+delegated to the OTRS Daemon.
                 </para>
                 <note>
                     <para>
-                        The OTRS Scheduler is a separate process that executes tasks in the
+                        The OTRS Daemon is a separate set of process that executes tasks in the
 background. Using this the OTRS process itself will not be affected if the
 Remote System takes a long time to respond, if it is not available or if
-there are network problems. If you don't use the scheduler using web
+there are network problems. If you don't use the OTRS Daemons using web
 services can make OTRS slow or non-responsive. Therefore it is highly
 recommend to use asynchronous event triggers as often as possible.
                     </para>
@@ -964,13 +934,11 @@ removal of the invoker and its configuration or "Cancel" to close the delete
 dialog.
                 </para>
                 <para>
-                    <screenshot>
-<screeninfo>Webservice Invoker</screeninfo> <graphic srccredit="Adminarea web
-service invoker - screenshot" scale="40"
-fileref="screenshots/genericinterface-webservice-invoker.png"></graphic></screenshot>
-                </para>
-                <para>
-                    <emphasis>Abbildung: Webservice Invoker.</emphasis>
+                    <figure>
+                        <title>Web service invoker</title>
+<screenshot>
+<graphic scale="40"
+fileref="screenshots/administration/genericinterface/genericinterface-webservice-invoker.png"></graphic></screenshot></figure>
                 </para>
             </section>
 
@@ -1049,7 +1017,7 @@ key matches exactly.
                         </listitem>
                         <listitem>
                             <para>
-                                Regular expression: The key string will be replaced following a regular
+                                Regular expression: the key string will be replaced following a regular
 expression rule.
                             </para>
                         </listitem>
@@ -1074,13 +1042,11 @@ that you select before and set its value to "-", and save the configuration
 to apply changes.
                 </para>
                 <para>
-                    <screenshot>
-<screeninfo>Webservice Mapping</screeninfo> <graphic srccredit="Adminarea web
-service mapping - screenshot" scale="40"
-fileref="screenshots/genericinterface-webservice-mapping.png"></graphic></screenshot>
-                </para>
-                <para>
-                    <emphasis>Abbildung: Webservice-Mapping.</emphasis>
+                    <figure>
+                        <title>Web service mapping</title>
+<screenshot>
+<graphic scale="40"
+fileref="screenshots/administration/genericinterface/genericinterface-webservice-mapping.png"></graphic></screenshot></figure>
                 </para>
             </section>
         </section>

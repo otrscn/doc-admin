@@ -1,13 +1,13 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<!DOCTYPE chapter PUBLIC "-//OASIS//DTD DocBook XML V4.4//EN"
+<!DOCTYPE section PUBLIC "-//OASIS//DTD DocBook XML V4.4//EN"
   "http://www.oasis-open.org/docbook/xml/4.4/docbookx.dtd">
 
 <section id="manual-installation-of-otrs">
 
-    <title>ソース（Linux,Unix)からのインストレーション</title>
+    <title>Installation From Source (Linux, Unix)</title>
 
     <section role="NotInToc">
-        <title>Step 1: Install .tar.gz</title>
+        <title>ステップ1：.tar.gzファイルのインストール</title>
         <para>
         If you want to install OTRS from source, first download the source archive
 as .tar.gz, .tar.bz2, or .zip file from <ulink
@@ -28,10 +28,10 @@ shell> mv otrs-x.x.x /opt/otrs
     </section>
 
     <section role="NotInToc" id="installation-of-perl-modules">
-        <title>Step 2: Install Additional Perl Modules</title>
+        <title>ステップ2：Perlモジュールの追加インストール</title>
         <para>
             Use the following script to get an overview of all installed and required
-cpan modules.  <screen><![CDATA[
+CPAN modules.  <screen><![CDATA[
 shell> perl /opt/otrs/bin/otrs.CheckModules.pl
 o CGI..............................ok (v3.60)
 o Crypt::PasswdMD5.................ok (v1.3)
@@ -40,8 +40,15 @@ o CSS::Minifier....................ok (v0.01)
 o Date::Format.....................ok (v2.22)
 o Date::Pcalc......................ok (v1.2)
 ...
-            ]]></screen> To install missing Perl
-modules, you can:
+            ]]></screen> <note>
+                <para>
+                    Please note that OTRS requires a working Perl installation with all "core"
+modules such as the module <literal>version</literal>. These modules are not
+explicitly checked by the script.  You may need to install a
+<literal>perl-core</literal> package on some systems like RHEL that do not
+install the perl core packages by default.
+                </para>
+            </note> To install missing Perl modules, you can:
         </para>
 
         <section role="NotInToc">
@@ -102,7 +109,7 @@ depending on the special requirements of the target system.
     </section>
 
     <section role="NotInToc">
-        <title>Step 3: Create OTRS User</title>
+        <title>ステップ3：OTRSユーザーの作成</title>
         <para>
             Create user: <screen><![CDATA[
 shell> useradd -d /opt/otrs/ -c 'OTRS user' otrs
@@ -115,7 +122,7 @@ shell> usermod -G www otrs
     </section>
 
     <section role="NotInToc">
-        <title>Step 4: Activate Default Config Files</title>
+        <title>ステップ4：初期設定ファイルの有効化</title>
         <para>
             There are two OTRS config files bundled in $OTRS_HOME/Kernel/*.dist and
 $OTRS_HOME/Kernel/Config/*.dist. You must activate them by copying them
@@ -128,7 +135,7 @@ shell> cp Kernel/Config.pm.dist Kernel/Config.pm
     </section>
 
     <section role="NotInToc">
-        <title>Step 5: Check if all needed modules are installed</title>
+        <title>ステップ5：必須モジュールのインストール状況確認</title>
         <para>
             <screen><![CDATA[
 shell> perl -cw /opt/otrs/bin/cgi-bin/index.pl
@@ -137,21 +144,21 @@ shell> perl -cw /opt/otrs/bin/cgi-bin/index.pl
 shell> perl -cw /opt/otrs/bin/cgi-bin/customer.pl
 /opt/otrs/bin/cgi-bin/customer.pl syntax OK
 
-shell> perl -cw /opt/otrs/bin/otrs.PostMaster.pl
-/opt/otrs/bin/otrs.PostMaster.pl syntax OK
-            ]]></screen> "syntax OK" tells you all mandatory perl
+shell> perl -cw /opt/otrs/bin/otrs.Console.pl
+/opt/otrs/bin/otrs.Console.pl syntax OK
+            ]]></screen> "syntax OK" tells you all mandatory Perl
 modules are installed.
         </para>
     </section>
 
     <section role="NotInToc" id="web-server-configuration">
-        <title>Step 6: Configuring the Apache web server</title>
-
-        <para>第一に、Apache2ウェブサーバおよびmod_perlをインストールするべきです;典型的にはシステム・パッケージ・マネージャーからこれをします。以下の、最も人気のあるLinuxディストリビューション上でApacheを設定するために必要なコマンドをご覧ください。
-        </para>
+        <title>ステップ6：Apache Webサーバーの設定</title>
 
         <para>
-            <screen><![CDATA[
+            First of all, you should install the Apache2 web server and mod_perl; you'd
+typically do this from your systems package manager.  Below you'll find the
+commands needed to set up Apache on the most popular Linux distributions.
+<screen><![CDATA[
 # rhel / centos:
 shell> yum install httpd mod_perl
 
@@ -161,24 +168,41 @@ shell> zypper install apache2-mod_perl
 # debian/ubuntu:
 shell> apt-get install apache2 libapache2-mod-perl2
         ]]></screen>
+
         </para>
 
         <para>
-        短いURL、エイリアスおよびScriptAliasエントリー経由でOTRSのウェブ・インターフェースにアクセスすることは必要です。ほとんどの<application>Apache</application>インストレーションは<filename>conf.d</filename>ディレクトリを含みます。Linuxシステムにおいては、通常<filename>/etc/apache</filename>あるいは<filename>/etc/apache2</filename>の下にこのディレクトリーを見つけることができます。rootとしてログインして、<filename>conf.d</filename>ディレクトリーを変更して、アパッチ構成ディレクトリー中の<filename>otrs.conf</filename>と呼ばれるファイルに<filename>/opt/otrs/scripts/apache2-httpd.include.conf</filename>の中の適切なテンプレートをコピーしてください。
+            Most <application>Apache</application> installations have a
+<filename>conf.d</filename> directory included.  On Linux systems you can
+usually find this directory under <filename>/etc/apache</filename> or
+<filename>/etc/apache2</filename>.  Log in as root, change to the
+<filename>conf.d</filename> directory and link the appropriate template in
+<filename>/opt/otrs/scripts/apache2-httpd.include.conf</filename> to a file
+called <filename>zzz_otrs.conf</filename> in the Apache configuration
+directory (to make sure it is loaded after the other configurations).
         </para>
 
         <para>
-        Restart your web server to load the new configuration settings. On most
-systems you can start/restart your web server with the command
-<command>/etc/init.d/apache2 restart</command>.
+            OTRS requires a few apache modules to be active for optimal operation. On
+most platforms you can make sure they are active via the tool
+<filename>a2enmod</filename>.  <screen><![CDATA[
+shell> a2enmod perl
+shell> a2enmod version
+shell> a2enmod deflate
+shell> a2enmod filter
+shell> a2enmod headers
+        ]]></screen>
         </para>
+
         <para>
-        ここで、ウェブサーバはOTRS用に構成されるべきです。
+            Now you can restart your web server to load the new configuration settings.
+On most systems you can do that with the command <command>systemctl restart
+apache2.service</command>.
         </para>
     </section>
 
     <section role="NotInToc">
-        <title>Step 7: File Permissions</title>
+        <title>ステップ7：ファイル権限</title>
         <para>
             File permissions need to be adjusted to allow OTRS to read and write files:
 <cmdsynopsis>
@@ -212,17 +236,28 @@ shell> bin/otrs.SetPermissions.pl --web-group=www-data
     </section>
 
     <section role="NotInToc" id="database-configuration">
-        <title>Step 8: Database Setup and Basic System Configuration</title>
+        <title>ステップ8：データベースのセットアップとシステムの基本設定</title>
         <para>
             Please use the web installer at <ulink
 url="http://yourhost/otrs/installer.pl">http://yourhost/otrs/installer.pl</ulink>
 (replace "yourhost" with your OTRS hostname) to setup your database and
 basic system settings such as email accounts.
         </para>
+        <note>
+            <para>
+                The following configuration settings are recommended for MySQL
+setups. Please add the following lines to <filename>/etc/my.cnf</filename>
+under the [mysqld] section: <screen><![CDATA[
+max_allowed_packet   = 20M
+query_cache_size     = 32M
+innodb_log_file_size = 256M
+                ]]></screen>
+            </para>
+        </note>
     </section>
 
     <section role="NotInToc">
-        <title>Step 9: First login</title>
+        <title>ステップ9：はじめてのログイン</title>
         <para>
             Now you are ready to login to your system at <ulink
 url="http://yourhost/otrs/index.pl">http://yourhost/otrs/index.pl</ulink>
@@ -243,14 +278,14 @@ recurring tasks in OTRS.  What has been in cron file definitions previously
 is now handled by the OTRS daemon, which is now required to operate
 OTRS. The daemon also handles all GenericAgent jobs and must be started from
 the <literal>otrs</literal> user.  <screen><![CDATA[
-shell> cd /opt/otrs/bin/otrs.Daemon.pl start
+shell> /opt/otrs/bin/otrs.Daemon.pl start
             ]]></screen>
 
         </para>
     </section>
 
     <section role="NotInToc">
-        <title>Step 11: Cronjobs for the OTRS user</title>
+        <title>ステップ11：OTRSユーザーのcronジョブ</title>
         <para>
             There are two default OTRS cron files in
 <filename>/opt/otrs/var/cron/*.dist</filename>, and their purpose is to make
@@ -278,21 +313,13 @@ completion for the bash shell which makes finding the right command and
 options much easier.
         </para>
         <para>
-
-            You can activate the bash autocompletion by adding this line in the
-<filename>~/.bashrc</filename> of the OTRS user: <screen><!--
-            You can register this bash completion globally (for all users):
-
-            <screen>
-<![CDATA[
-shell> ln -s /opt/otrs/bin/otrs.Console.bashrc /etc/bash_completion.d/
-            ]]></screen>
-            or locally for the OTRS user by adding this line in the <filename>~/.bashrc</filename> or
-            <filename>~/.profile</filename> of the OTRS user:
--->
-<![CDATA[
-source /opt/otrs/bin/otrs.Console.bashrc
-            ]]></screen> After restarting your shell, you can just type
+            You can activate the bash autocompletion by installing the package
+<literal>bash-completion</literal>.  It will automatically detect and load
+the file <filename>/opt/otrs/.bash_completion</filename> for the
+<literal>otrs</literal> user.
+        </para>
+        <para>
+            After restarting your shell, you can just type
 <filename>bin/otrs.Console.pl</filename> followed by TAB, and it will list
 all available commands. If you type a few characters of the command name,
 TAB will show all matching commands. After typing a complete command, all

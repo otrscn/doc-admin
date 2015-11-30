@@ -260,16 +260,16 @@ to pass it through the layers.
                                             <itemizedlist mark="round">
                                                 <listitem>
                                                     <para>
-                                                        Create a new Generic Interface (Requester)  task for the OTRS Scheduler (by
-delegating the request execution to the Scheduler, the user experience could
-be highly improved, otherwise all the time needed to prepare the request and
-the remote execution will be added to the OTRS Events that trigger those
-requests).
+                                                        Create a new Generic Interface (Requester)  task for the OTRS Daemon (by
+delegating the request execution to the Scehduler Daemon, the user
+experience could be highly improved, otherwise all the time needed to
+prepare the request and the remote execution will be added to the OTRS
+Events that trigger those requests).
                                                     </para>
                                                 </listitem>
                                                 <listitem>
                                                     <para>
-                                                        In its next cycle the Scheduler process reads the new task and creates a
+                                                        In its next cycle the OTRS daemon process reads the new task and creates a
 call to the Requester that will create a new request and then passes it
 through the layers.
                                                     </para>
@@ -368,7 +368,7 @@ Remote System format from the requester.
                                     </listitem>
                                     <listitem>
                                         <para>
-                                            Sendet die Anfrage zum Remote-System und wartet auf eine Antwort
+                                            Sends the request to the remote system and waits for the response.
                                         </para>
                                     </listitem>
                                 </itemizedlist>
@@ -402,7 +402,7 @@ Remote System format from the requester.
                             <itemizedlist mark="round">
                                 <listitem>
                                     <para>
-                                        Daten, die vom Remote-System empfangen wurden
+                                        Data as received from the Remote System.
                                     </para>
                                 </listitem>
                             </itemizedlist>
@@ -464,14 +464,13 @@ Requester zurückgeschickt.
                     </listitem>
                     <listitem>
                         <para>
-                            Event-Steuerungsprogramm oder Scheduler
+                            Event Handler or OTRS Daemon
                         </para>
                         <itemizedlist mark="round">
                             <listitem>
                                 <para>
-                                    Empfängt die Daten vom Requester, im Falle des Schedulers beinhalten die
-Daten Informationen darüber ob der Task sofort oder in der Zukunft wieder
-ausgeführt werden soll.
+                                    Receives the data from the Requester, in the case of the OTRS Daemon this
+data might contain information to create a task in the future.
                                 </para>
                             </listitem>
                         </itemizedlist>

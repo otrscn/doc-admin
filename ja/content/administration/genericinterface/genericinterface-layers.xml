@@ -18,13 +18,11 @@
         </para>
     </note>
     <para>
-        <screenshot>
-<screeninfo>グラフィカル・インターフェース・レイヤー</screeninfo> <graphic srccredit="一般インターフェイス レイヤー
-- スクリーンショット" scale="50"
-fileref="screenshots/genericinterface-layers.png"></graphic></screenshot>
-    </para>
-    <para>
-        <emphasis>図:グラフィカル・インターフェース・レイヤー</emphasis>
+        <figure>
+            <title>The graphical interface layers</title>
+<screenshot>
+<graphic scale="50"
+fileref="screenshots/administration/genericinterface/genericinterface-layers.png"></graphic></screenshot></figure>
     </para>
 
     <section>

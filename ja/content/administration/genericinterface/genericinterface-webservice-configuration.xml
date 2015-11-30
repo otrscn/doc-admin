@@ -148,7 +148,7 @@ Requester:
             <itemizedlist mark="round">
                 <listitem>
                     <para>
-                        デバッグ閾値：デバッガ・レベル
+                        DebugThreshold: the debugger level.
                     </para>
                     <itemizedlist mark="round">
                         <title>
@@ -375,7 +375,7 @@ and KeyMapRegExからの新規キーに依存する基数）
                                         </itemizedlist>
                                         <section>
                                             <title>
-                                                valueMapExact
+                                                ValueMapExact
                                             </title>
                                             <itemizedlist mark="round">
                                                 <listitem>
@@ -475,7 +475,7 @@ and KeyMapRegExからの新規キーに依存する基数）
                     <itemizedlist mark="round">
                         <listitem>
                             <para>
-                                Description（摘要）: 依頼アクションを記述する短いテキスト
+                                Description: a short text that describes the invoker.
                             </para>
                         </listitem>
                         <listitem>
@@ -504,23 +504,24 @@ and KeyMapRegExからの新規キーに依存する基数）
                         <itemizedlist mark="round">
                             <listitem>
                                 <para>
-                                    <remark>リスト要素</remark>: (基数 0 .. n)
+                                    <remark>List Element</remark>: (cardinality 0 .. n).
                                 </para>
                                 <itemizedlist mark="round">
                                     <listitem>
                                         <para>
-                                            Asynchronous（非同期）: もし依頼アクションの実行がスケジューラに可能な値を委任するならセットします。
+                                            Asynchronous: to set if the invoker execution will be delegated to the OTRS
+Daemon.
                                         </para>
                                         <itemizedlist mark="round">
                                             <title>可能な値</title>
                                             <listitem>
                                                 <para>
-                                                    0: スケジューラで取扱い不能です。
+                                                    0: not handled by the OTRS Daemon.
                                                 </para>
                                             </listitem>
                                             <listitem>
                                                 <para>
-                                                    1: スケジューラで取扱い可能です。
+                                                    1: handled by the OTRS Daemon.
                                                 </para>
                                             </listitem>
                                         </itemizedlist>
@@ -681,11 +682,6 @@ and KeyMapRegExからの新規キーに依存する基数）
                                             <title>Possible Values (for article events) (可能な値（記事イベントに関する）)</title>
                                             <listitem>
                                                 <para>
-                                                    Article Events (記事イベント)
-                                                </para>
-                                            </listitem>
-                                            <listitem>
-                                                <para>
                                                     ArticleCreate (記事作成)
                                                 </para>
                                             </listitem>
@@ -753,7 +749,7 @@ and KeyMapRegExからの新規キーに依存する基数）
                     <section>
                         <title>MappingInbound（マッピング・インバウンド）</title>
                         <para>
-                            オペレーションMappingInboundと同じ
+                            オペレーションMappingInboundと同じ。
                         </para>
                     </section>
                     <section>
@@ -789,12 +785,12 @@ and KeyMapRegExからの新規キーに依存する基数）
                                 </listitem>
                                 <listitem>
                                     <para>
-                                        Encoding(エンコーディング): SOAPメッセージ・リクエスト符号化
+                                        Encoding: the SOAP Message request encoding.
                                     </para>
                                 </listitem>
                                 <listitem>
                                     <para>
-                                        Endpoint(エンドポイント): OTRSリクエストを受け入れるリモート・サーバ・ウェブサービスのURI
+                                        Endpoint: the URI of the Remote Server web service to accept OTRS requests.
                                     </para>
                                 </listitem>
                                 <listitem>
@@ -811,7 +807,7 @@ and KeyMapRegExからの新規キーに依存する基数）
                                         <title>可能な値</title>
                                         <listitem>
                                             <para>
-                                                YES(はい): 埋まったSOAPActionヘッダーを送る。
+                                                Yes: to send a filled SOAPAction header.
                                             </para>
                                         </listitem>
                                         <listitem>

@@ -3,16 +3,18 @@
   "http://www.oasis-open.org/docbook/xml/4.4/docbookx.dtd">
 
 <section id="themes">
-<title>自分のテーマの作成</title>
+<title>Creating Your Own Themes</title>
 
 <para>
 OTRSウェブ・フロント・エンドの中で好きなレイアウトを使用するように自分のテーマを作成することができます。自分のテーマを作成するために、必要に応じた出力テンプレートをカスタマイズできます。
 </para>
 
 <para>
-出力テンプレートのシンタックスおよび構造についてはディベロッパー・マニュアル<ulink
-url="http://otrs.github.io/doc"><citetitle>http://otrs.github.io/doc</citetitle></ulink>でより多くの情報をご覧いただけます。（特に<ulink
-url="http://otrs.github.io/doc/manual/developer/3.3/en/html/TemplatingMechanism.html"><citetitle>テンプレート</citetitle></ulink>についての章の中で）
+More information on the syntax and structure of output templates can be
+found in the Developer Manual at <ulink
+url="http://otrs.github.io/doc"><citetitle>http://otrs.github.io/doc</citetitle></ulink>,
+especially in the chapter on <ulink
+url="http://otrs.github.io/doc/manual/developer/3.3/en/html/TemplatingMechanism.html"><citetitle>templates</citetitle></ulink>.
 </para>
 
 <para>
@@ -46,8 +48,8 @@ linkend="ConfigReference_Framework:Core::Web:Frontend::Themes">Frontend::Themes<
 </para>
 
 <para>
-新しいテーマは使用可能に違いありません。<link
-linkend="user-preferences">個人選択（選好）</link>ページによってそれを選択することができます。
+Now the new theme should be usable. You can select it via your <link
+linkend="user-preferences">personal preferences</link> page.
 </para>
 
 <warning>

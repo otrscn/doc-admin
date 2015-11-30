@@ -45,13 +45,11 @@
             </para>
         </note>
         <para>
-            <screenshot>
-<screeninfo>ウェブサービス概要</screeninfo> <graphic srccredit="管理者エリア ウェブサービス -
-スクリーンショット" scale="40"
-fileref="screenshots/genericinterface-webservice-overview.png"></graphic></screenshot>
-        </para>
-        <para>
-            <emphasis>図:ウェブサービス概要</emphasis>
+            <figure>
+                <title>Web services overview</title>
+<screenshot>
+<graphic scale="40"
+fileref="screenshots/administration/genericinterface/genericinterface-webservice-overview.png"></graphic></screenshot></figure>
         </para>
     </section>
 
@@ -103,13 +101,11 @@ fileref="screenshots/genericinterface-webservice-overview.png"></graphic></scree
             </para>
         </note>
         <para>
-            <screenshot>
-<screeninfo>ウェブサービスの追加</screeninfo> <graphic srccredit="管理エリア ウェブサービス追加
-- スクリーンショット" scale="40"
-fileref="screenshots/genericinterface-webservice-add.png"></graphic></screenshot>
-        </para>
-        <para>
-            <emphasis>図:ウェブサービスの追加</emphasis>
+            <figure>
+                <title>Web services add</title>
+<screenshot>
+<graphic scale="40"
+fileref="screenshots/administration/genericinterface/genericinterface-webservice-add.png"></graphic></screenshot></figure>
         </para>
     </section>
 
@@ -170,13 +166,11 @@ fileref="screenshots/genericinterface-webservice-add.png"></graphic></screenshot
             </note>
             <para>ウェブサービスのクローンを作成するために「クローン」ボタンをクリックして下さい。またはダイアログを閉じるために「キャンセル」をクリックして下さい。</para>
             <para>
-                <screenshot>
-<screeninfo>ウェブサービス・クローン</screeninfo> <graphic srccredit="管理エリア ウェブサービス
-クローン - スクリーンショット" scale="40"
-fileref="screenshots/genericinterface-webservice-clone.png"></graphic></screenshot>
-            </para>
-            <para>
-                <emphasis>図:ウェブサービスのエクスポート</emphasis>
+                <figure>
+                    <title>ウェブサービス・クローン</title>
+<screenshot>
+<graphic scale="40"
+fileref="screenshots/administration/genericinterface/genericinterface-webservice-clone.png"></graphic></screenshot></figure>
             </para>
         </section>
 
@@ -200,13 +194,11 @@ fileref="screenshots/genericinterface-webservice-clone.png"></graphic></screensh
                 </para>
             </note>
             <para>
-                <screenshot>
-<screeninfo>ウェブサービスのエクスポート</screeninfo> <graphic srccredit="管理エリア ウェブサービス
-エクスポート - スクリーンショット" scale="40"
-fileref="screenshots/genericinterface-webservice-export.png"></graphic></screenshot>
-            </para>
-            <para>
-                <emphasis>図:ウェブサービスのエクスポート</emphasis>
+                <figure>
+                    <title>Web services export</title>
+<screenshot>
+<graphic scale="40"
+fileref="screenshots/administration/genericinterface/genericinterface-webservice-export.png"></graphic></screenshot></figure>
             </para>
         </section>
 
@@ -224,13 +216,11 @@ fileref="screenshots/genericinterface-webservice-export.png"></graphic></screens
                 </para>
             </note>
             <para>
-                <screenshot>
-<screeninfo>ウェブサービスのインポート</screeninfo> <graphic srccredit="管理エリア ウェブサービス
-インポート - スクリーンショット" scale="40"
-fileref="screenshots/genericinterface-webservice-import.png"></graphic></screenshot>
-            </para>
-            <para>
-                <emphasis>図：ウェブサービスのインポート</emphasis>
+                <figure>
+                    <title>Web services import</title>
+<screenshot>
+<graphic scale="40"
+fileref="screenshots/administration/genericinterface/genericinterface-webservice-import.png"></graphic></screenshot></figure>
             </para>
         </section>
 
@@ -253,17 +243,16 @@ fileref="screenshots/genericinterface-webservice-import.png"></graphic></screens
                     ウェブサービス構成に格納されたどんなパスワードもプレインテキスト・フォーマットでエクスポートされるだろうということを覚えておいてください。
                 </para>
                 <para>
-                    構成を回復する場合は注意してください。このプロセスは不可逆です。
+                    Please be careful when you restore a configuration because this process is
+irreversible.
                 </para>
             </warning>
             <para>
-                <screenshot>
-<screeninfo>ウェブサービス履歴</screeninfo> <graphic srccredit="管理エリア ウェブサービス 履歴
-- スクリーンショット" scale="40"
-fileref="screenshots/genericinterface-webservice-history.png"></graphic></screenshot>
-            </para>
-            <para>
-                <emphasis>図:ウェブサービス履歴</emphasis>
+                <figure>
+                    <title>Web service history</title>
+<screenshot>
+<graphic scale="40"
+fileref="screenshots/administration/genericinterface/genericinterface-webservice-history.png"></graphic></screenshot></figure>
             </para>
         </section>
 
@@ -281,13 +270,11 @@ fileref="screenshots/genericinterface-webservice-history.png"></graphic></screen
                 </para>
              </warning>
             <para>
-                <screenshot>
-<screeninfo>ウェブサービスの削除</screeninfo> <graphic srccredit="管理エリア ウェブサービス 削除
-- スクリーンショット" scale="40"
-fileref="screenshots/genericinterface-webservice-delete.png"></graphic></screenshot>
-            </para>
-            <para>
-                <emphasis>図：ウェブサービスの削除</emphasis>
+                <figure>
+                    <title>ウェブサービスの削除</title>
+<screenshot>
+<graphic scale="40"
+fileref="screenshots/administration/genericinterface/genericinterface-webservice-delete.png"></graphic></screenshot></figure>
             </para>
         </section>
 
@@ -320,7 +307,7 @@ fileref="screenshots/genericinterface-webservice-delete.png"></graphic></screens
                 </listitem>
                 <listitem>
                     <para>
-                        上記すべての組み合わせ
+                        A combination of all
                     </para>
                 </listitem>
             </itemizedlist>
@@ -339,13 +326,11 @@ fileref="screenshots/genericinterface-webservice-delete.png"></graphic></screens
                 「リクエスト詳細」セクションで、選択されたコミュニケーションの詳細をすべて見ることができます。ここでは、完全なフローを追跡し、起こりうるエラーをチェックし、あるいは成功の応答を確認することができます。
             </para>
             <para>
-                <screenshot>
-<screeninfo>ウェブサービス・デバッガ</screeninfo> <graphic srccredit="管理エリア ウェブサービス
-デバッガ - スクリーンショット" scale="40"
-fileref="screenshots/genericinterface-webservice-debugger.png"></graphic></screenshot>
-            </para>
-            <para>
-                <emphasis>図:ウェブサービス・デバッガ</emphasis>
+                <figure>
+                    <title>Web service debugger</title>
+<screenshot>
+<graphic scale="40"
+fileref="screenshots/administration/genericinterface/genericinterface-webservice-debugger.png"></graphic></screenshot></figure>
             </para>
         </section>
 
@@ -367,13 +352,11 @@ fileref="screenshots/genericinterface-webservice-debugger.png"></graphic></scree
                 ウェブサービスの構成を保存し継続するために「保存」ボタンをクリックするか、あるいはウェブサービス概要画面に保存し返るために「保存して終了」をクリックするか、現在の構成レベル変更を廃棄し、かつウェブサービス概要画面に返るために「キャンセル」をクリックして下さい。
             </para>
             <para>
-                <screenshot>
-<screeninfo>ウェブサービスの変更</screeninfo> <graphic srccredit="「管理エリア ウェブサービス
-変更 - スクリーンショット」" scale="40"
-fileref="screenshots/genericinterface-webservice-change.png"></graphic></screenshot>
-            </para>
-            <para>
-                <emphasis>図:ウェブサービスの変更</emphasis>
+                <figure>
+                    <title>Web services change</title>
+<screenshot>
+<graphic scale="40"
+fileref="screenshots/administration/genericinterface/genericinterface-webservice-change.png"></graphic></screenshot></figure>
             </para>
             <note>
                 <para>
@@ -396,20 +379,17 @@ fileref="screenshots/genericinterface-webservice-change.png"></graphic></screens
                     In future the list of available network transports will be
 increased. Currently only "HTTP::SOAP" and "HTTP::REST" transports are
 available. Each transport has different configuration options to setup and
-they might use different frontend modules to configure them,
+they might use different frontend modules to configure them.
                 </para>
                 <para>
                     供給者として「HTTP::SOAP」プロトコルを構成することは全く簡単です。設定は二つのみです。:「ネームスペース」および「最大のメッセージ長」。これらのフィールドは必須です。最初のものは、曖昧さを少なくする文脈に、SOAP方法を与えるURIです。また、第2のものは、OTRSが処理する　SOAPメッセージのために最大サイズ(バイトで)を指定することができるフィールドです。
                 </para>
                 <para>
-                    <screenshot>
-<screeninfo>Web Service Provider Network Transport (HTTP::SOAP)</screeninfo> <graphic srccredit="Adminarea web
-service provider network transport HTTP::SOAP - screenshot" scale="40"
-fileref="screenshots/genericinterface-webservice-provider-transport-soap.png"></graphic></screenshot>
-                </para>
-                <para>
-                    <emphasis>Figure: Web service provider network transport
-HTTP::SOAP.</emphasis>
+                    <figure>
+                        <title>Web service provider network transport HTTP::SOAP</title>
+<screenshot>
+<graphic scale="40"
+fileref="screenshots/administration/genericinterface/genericinterface-webservice-provider-transport-soap.png"></graphic></screenshot></figure>
                 </para>
                 <para>
                     For "HTTP::REST" the configuration might be a bit more complicated, as it
@@ -543,14 +523,11 @@ correctly the operation to use on each request.
                     </listitem>
                 </itemizedlist>
                 <para>
-                    <screenshot>
-<screeninfo>Web Service Provider Network Transport (HTTP::REST)</screeninfo> <graphic srccredit="Adminarea web
-service provider network transport HTTP::REST - screenshot" scale="40"
-fileref="screenshots/genericinterface-webservice-provider-transport-rest.png"></graphic></screenshot>
-                </para>
-                <para>
-                    <emphasis>Figure: Web service provider network transport
-HTTP::REST.</emphasis>
+                    <figure>
+                        <title>Web service provider network transport HTTP::REST</title>
+<screenshot>
+<graphic scale="40"
+fileref="screenshots/administration/genericinterface/genericinterface-webservice-provider-transport-rest.png"></graphic></screenshot></figure>
                 </para>
             </section>
 
@@ -580,17 +557,15 @@ configuration dialogs to fulfill specific needs of the operation.
 "Go back to web service" (discarding all changes since the last save) and
 "Delete".  If you click on the last one, a dialog will open and ask you if
 you like to remove the operation. Click on "Delete" button to confirm the
-removal of the operation and it configuration or "Cancel" to close the
+removal of the operation and its configuration or "Cancel" to close the
 delete dialog.
                 </para>
                 <para>
-                    <screenshot>
-<screeninfo>ウェブサービス・オペレーション</screeninfo> <graphic srccredit="管理エリア ウェブサービス
-オペレーション - スクリーンショット" scale="40"
-fileref="screenshots/genericinterface-webservice-operation.png"></graphic></screenshot>
-                </para>
-                <para>
-                    <emphasis>図:ウェブサービス・オペレーション</emphasis>
+                    <figure>
+                        <title>Web service operation</title>
+<screenshot>
+<graphic scale="40"
+fileref="screenshots/administration/genericinterface/genericinterface-webservice-operation.png"></graphic></screenshot></figure>
                 </para>
             </section>
 
@@ -612,9 +587,9 @@ fileref="screenshots/genericinterface-webservice-operation.png"></graphic></scre
                         <para>
                             SOAPAction Header: you can use this to send an empty or filled SOAPAction
 header. Set to "No" and the SOAPAction header on the SOAP message will be an
-empty string, or set to "Yes" to send the soap action in Namespace#Action
+empty string, or set to "Yes" to send the SOAP action in Namespace#Action
 format and define the separator (typically "/" for .Net web services and "#"
-for the rest).
+for the REST).
                         </para>
                     </listitem>
                     <listitem>
@@ -638,17 +613,14 @@ Password to access the remote system.
                     </para>
                 </warning>
                 <para>
-                    <screenshot>
-<screeninfo>Web Service Requester Network Transport (HTTP::SOAP)</screeninfo> <graphic srccredit="Adminarea web
-service requester network transport HTTP::SOAP - screenshot" scale="40"
-fileref="screenshots/genericinterface-webservice-requester-transport-soap.png"></graphic></screenshot>
+                    <figure>
+                        <title>Web service requester network transport (HTTP::SOAP)</title>
+<screenshot>
+<graphic scale="40"
+fileref="screenshots/administration/genericinterface/genericinterface-webservice-requester-transport-soap.png"></graphic></screenshot></figure>
                 </para>
                 <para>
-                    <emphasis>Figure: Web service requester network transport
-(HTTP::SOAP).</emphasis>
-                </para>
-                <para>
-                    In the case of HTTP::Rest, this configuration also grows dynamically
+                    In the case of HTTP::REST, this configuration also grows dynamically
 depending on the configured invokers by adding "Controller mapping for
 Invoker '&lt;InvokerName&gt;':" and "Valid request command for Invoker
 '&lt;InvokerName&gt;':" for each invoke. Authentication and SSL options are
@@ -674,7 +646,7 @@ to the needs of the remote web service and following its definition.
                             Path can contain variables in the form of ':&lt;VariableName&gt;' for each
 variable name that matches the current data (to be sent), will be replaced
 by the corresponding data value. This matched variable names and values will
-be remove from the current data. Depending on the HTTP request command the
+be removed from the current data. Depending on the HTTP request command the
 remaining data could be sent as a JSON string in the request body or as
 query parameters within the URI.
                         </para>
@@ -739,19 +711,16 @@ selected, Default command is used.
                     <listitem>
                         <para>デフォルトコマンド</para>
                         <para>
-                            Used as a fall-back for all Invokers with out a defined request command
+                            Used as a fall-back for all Invokers without a defined request command.
                         </para>
                     </listitem>
                 </itemizedlist>
                 <para>
-                    <screenshot>
-<screeninfo>Web Service Requester Network Transport (HTTP::REST)</screeninfo> <graphic srccredit="Adminarea web
-service requester network transport HTTP::REST - screenshot" scale="40"
-fileref="screenshots/genericinterface-webservice-requester-transport-rest.png"></graphic></screenshot>
-                </para>
-                <para>
-                    <emphasis>Figure: Web service provider network transport
-HTTP::REST.</emphasis>
+                    <figure>
+                        <title>Web service provider network transport HTTP::REST</title>
+<screenshot>
+<graphic scale="40"
+fileref="screenshots/administration/genericinterface/genericinterface-webservice-requester-transport-rest.png"></graphic></screenshot></figure>
                 </para>
             </section>
 
@@ -782,14 +751,14 @@ etc. These can act as triggers to execute the invoker. Each invoker needs to
 have at least one event trigger registered, or the invoker will be useless,
 because it will never be called. The asynchronous property of the event
 triggers define if the OTRS process will handle the invoker or if it will be
-delegated to the OTRS Scheduler.
+delegated to the OTRS Daemon.
                 </para>
                 <note>
                     <para>
-                        The OTRS Scheduler is a separate process that executes tasks in the
+                        The OTRS Daemon is a separate set of process that executes tasks in the
 background. Using this the OTRS process itself will not be affected if the
 Remote System takes a long time to respond, if it is not available or if
-there are network problems. If you don't use the scheduler using web
+there are network problems. If you don't use the OTRS Daemons using web
 services can make OTRS slow or non-responsive. Therefore it is highly
 recommend to use asynchronous event triggers as often as possible.
                     </para>
@@ -808,13 +777,11 @@ event trigger.  Click "Delete" to remove the event trigger from the list, or
                     アクション・カラム画面の左部には、以下のオプションがあります:「ウェブサービスに戻る」（最後の保存以来変更をすべて廃棄して）と「削除」です。あなたが最後のものをクリックすれば、ダイアログは出現し、あなたが依頼アクション(Invokers)を削除したいかを尋ねます。確認するために「削除」をクリックすると、依頼アクション(Invokers)とその構成の削除する、あるいは「キャンセル」して削除ダイアログを閉じるかを確認されます。
                 </para>
                 <para>
-                    <screenshot>
-<screeninfo>ウェブサービス依頼アクション(Invokers)</screeninfo> <graphic srccredit="管理エリア ウェブサービス
-インボーカ - スクリーンショット" scale="40"
-fileref="screenshots/genericinterface-webservice-invoker.png"></graphic></screenshot>
-                </para>
-                <para>
-                    <emphasis>図:ウェブサービス依頼アクション(Invokers)</emphasis>
+                    <figure>
+                        <title>Web service invoker</title>
+<screenshot>
+<graphic scale="40"
+fileref="screenshots/administration/genericinterface/genericinterface-webservice-invoker.png"></graphic></screenshot></figure>
                 </para>
             </section>
 
@@ -873,7 +840,8 @@ accomplish this task the Generic Interface Mapping Layer exists.
                         </listitem>
                         <listitem>
                             <para>
-                                正規表現: 重要なストリングは正規表現規則に従って代替されます。
+                                Regular expression: the key string will be replaced following a regular
+expression rule.
                             </para>
                         </listitem>
                     </itemizedlist>
@@ -889,13 +857,11 @@ accomplish this task the Generic Interface Mapping Layer exists.
 対応するオペレーションか依頼アクション(Invokers)画面に戻って、以前に選択し、その値を「-」にセットするというマッピング指示を捜して、変更を適用するために構成を保存してください。
                 </para>
                 <para>
-                    <screenshot>
-<screeninfo>ウェブサービスマッピング</screeninfo> <graphic srccredit="管理エリア ウェブサービス
-マッピング - スクリーンショット" scale="40"
-fileref="screenshots/genericinterface-webservice-mapping.png"></graphic></screenshot>
-                </para>
-                <para>
-                    <emphasis>図:ウェブサービスマッピング</emphasis>
+                    <figure>
+                        <title>Web service mapping</title>
+<screenshot>
+<graphic scale="40"
+fileref="screenshots/administration/genericinterface/genericinterface-webservice-mapping.png"></graphic></screenshot></figure>
                 </para>
             </section>
         </section>

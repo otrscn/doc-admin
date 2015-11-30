@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE section PUBLIC "-//OASIS//DTD DocBook XML V4.4//EN"
+  "http://www.oasis-open.org/docbook/xml/4.4/docbookx.dtd">
+
+<section id="adminarea-smime">
+<title>S/MIME</title>
+
+<para>
+OTRS может обрабатывать зашифрованные сообщения S/MIME и подписывать
+исходящие письма. Для исползования этой возможности необходимо вначале
+активировать ее и изменить ряд <link
+linkend="ConfigReference_Framework:Crypt::SMIME"> параметров </link> в
+SysConfig/Конфигурации системы.
+</para>
+
+<para>
+The "S/MIME Certificates" link on the Admin page allows you to manage your
+S/MIME certificates (see figure below). You can add or remove certificates,
+and also search through the SMIME data.
+</para>
+
+<para>
+<figure>
+    <title>S/MIME management</title>
+<screenshot>
+<graphic scale="40"
+fileref="screenshots/administration/adminarea/admin-smime.png"></graphic></screenshot></figure>
+</para>
+
+</section>

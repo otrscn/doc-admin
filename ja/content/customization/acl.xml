@@ -21,19 +21,19 @@ based on a defined set of rules.
         </para>
         <para>
             ACLs can be directly entered into the <filename>Kernel/Config.pm</filename>
-file.  whoever this is not any more recommended as OTRS comes now with a GUI
+file.  However this is not any more recommended as OTRS comes now with a GUI
 <link linkend="adminarea-groups">Access Control Lists</link> in the Admin
 panel that allows to save the ACLs in the Database as the first step and
 then deploy them into a file when they are ready.
         </para>
         <para>
-            This chapter has some ACL examples which will walk you trough the process of
-defining ACL definitions, and a reference of all possible important ACL
+            This chapter has some ACL examples which will walk you through the process
+of defining ACL definitions, and a reference of all possible important ACL
 settings.
         </para>
 
         <warning>
-            <para>The default user 'root@localhost' is not affeced by the Ticket ACls</para>
+            <para>The default user 'root@localhost' is not affected by the Ticket ACLs</para>
         </warning>
     </section>
 
@@ -42,7 +42,7 @@ settings.
         <para>
             The ACL definition can be split into two big parts, 'Matching' and
 'Change'. In the matching sections the ACLs contains attributes that has to
-be met in order to use the ACL, if the attributes defined in the ACL does
+be met in order to use the ACL. If the attributes defined in the ACL does
 not match with the attributes that are sent, then the ACL does not take any
 affect, but any other match ACL will. The change sections contains the rules
 to reduce the possible options for a ticket.
@@ -52,9 +52,9 @@ to reduce the possible options for a ticket.
             <listitem>
                 <para>項目</para>
                 <para>
-                    This section contains matching options that can be changed on the fly, for
+                    This section contains matching options that can be changed on the fly. For
 example on a ticket creation time the data of the ticket changes dynamically
-as the agent sets the information, if an ACL is set to match a ticket
+as the agent sets the information. If an ACL is set to match a ticket
 attribute then only when the matching attribute is selected the ACL will be
 active and might reduce other ticket attributes, but as soon as another
 value is selected the ACL will not take any affect.
@@ -65,7 +65,7 @@ value is selected the ACL will not take any affect.
                 <para>
                     This section is similar to 'Properties' but does not take changes in ticket
 attributes that are not saved into the DataBase, this means that changing an
-attribute without submit will not make any affect. This section is not use
+attribute without submit will not make any effect. This section is not use
 for ticket creation screens (as tickets are not yet created in the
 Database).
                 </para>
@@ -83,7 +83,7 @@ set in this section.
             <listitem>
                 <para>PossibleAdd</para>
                 <para>
-                    Elements in PossibleAdd section add missing elements that where reduced in
+                    Elements in PossibleAdd section add missing elements that were reduced in
 other ACLs. PossibleAdd is only used in together with other ACLs that have
 Possible or PossibleNot sections.
                 </para>
@@ -100,7 +100,7 @@ PossibleAdd sections.
         <para>
             In order to make the development of ACLs easier and more powerful there is a
 set of so called modifiers for the attributes on each section. This
-modifiers as explained below:
+modifiers are explained below:
         </para>
         <itemizedlist mark="round">
             <para>Modifiers</para>
@@ -128,7 +128,7 @@ example '[RegExp]low' talking about priorities is the same as '1 very low',
                 <para>[NotRegExp]</para>
                 <para>
                     Negated regular expressions for example '[NotRegExp]low' talking about
-priorities is the same as '3 normal', '4 high', '5 very high.
+priorities is the same as '3 normal', '4 high', '5 very high'.
                 </para>
             </listitem>
             <listitem>
@@ -150,15 +150,16 @@ priorities is the same as '3 normal', '4 high', '5 very high.
                 </title>
                 <para>
                     This example shows you the basic structure of an ACL. First, it needs to
-have a name. In this case, it is "ACL-Name-2". Note that the ACLs will be
-numerically sorted before execution, so you should use the names carefully.
+have a name. In this case, it is "100-Example-ACL". Note that the ACLs will
+be numerically sorted before execution, so you should use the names
+carefully.
                 </para>
                 <para>
                     Secondly, you have a "Properties" section which is a filter for your
 tickets.  All the criteria defined here will be applied to a ticket to
 determine if the ACL must be applied or not. In our example, a ticket will
 match if it is in the queue "Raw" and has priority "5 very high". This is
-also affected by changes in the form (e.g. if the ticket is the queue "raw"
+also affected by changes in the form (e.g. if the ticket is the queue "Raw"
 and had a priority "3 normal" at this moment the ACL will not match, but
 then priority drop-down is selected and the priority is changed now to "5
 very high" then will also match).
@@ -168,10 +169,11 @@ very high" then will also match).
                 </para>
 
                 <para>
-                    <screenshot>
-<screeninfo>ACL 100-Example-ACL</screeninfo> <graphic srccredit="ACL
-100-Example-ACL - screenshot" scale="40"
-fileref="screenshots/acl-move.png"></graphic></screenshot>
+                    <figure>
+                        <title>ACL 100-Example-ACL</title>
+<screenshot>
+<graphic scale="40"
+fileref="screenshots/customization/acl-move.png"></graphic></screenshot></figure>
                 </para>
 <programlisting>
 # ticket acl
@@ -204,10 +206,11 @@ $Self->{TicketAcl}->{'100-Example-ACL'} = {
                     この例は先のものに非常に似ています。しかしながら、この例では、「生で」かつ優先度が「５：非常に高い」チケットのみが両者ともにデータベースに保存されて、マッチします。チケットがデータベースの中で実際に更新される前に、この種のACLはフォームの変更を考慮しません。
                 </para>
                 <para>
-                    <screenshot>
-<screeninfo>ACL 102-Example-ACL</screeninfo> <graphic srccredit="ACL
-102-Example-ACL - screenshot" scale="40"
-fileref="screenshots/acl-move2.png"></graphic></screenshot>
+                    <figure>
+                        <title>ACL 102-Example-ACL</title>
+<screenshot>
+<graphic scale="40"
+fileref="screenshots/customization/acl-move2.png"></graphic></screenshot></figure>
                 </para>
 <programlisting>
 # ticket acl
@@ -240,10 +243,11 @@ $Self->{TicketAcl}->{'102-Example-ACL'} = {
                     この例では、どのようにチケット・フィールド（の状態）が、（フォームを選択する１つ以上の可能な値で）フィルターされるかを理解できるでしょう。あるチケット用に実行することができる　アクションを制限することも可能です。この場合、チケットは完了できません。
                 </para>
                 <para>
-                    <screenshot>
-<screeninfo>ACL 102-Second-Example-ACL</screeninfo> <graphic srccredit="ACL
-102-Second-Example-ACL - screenshot" scale="40"
-fileref="screenshots/acl-close.png"></graphic></screenshot>
+                    <figure>
+                        <title>ACL 102-Second-Example-ACL</title>
+<screenshot>
+<graphic scale="40"
+fileref="screenshots/customization/acl-close.png"></graphic></screenshot></figure>
                 </para>
 <programlisting>
 $Self->{TicketAcl}->{'102-Second-Example-ACL'} = {
@@ -277,10 +281,11 @@ $Self->{TicketAcl}->{'102-Second-Example-ACL'} = {
                     ここの例では、否定フィルタ（状態：「完了（成功）」を取り除く）をどのようにして定義可能か例示します。チケット用のマッチ・プロパティを定義しなければ、どんなチケットでもマッチすることもわかります。例えばACLが常に当てはまります。これは、もしデフォルトで特定の値を非表示にしたくかつ、特殊な環境（例えば担当者が特定のグループにいるならば）だけにそれらを可能にしたいなら活用可能になります。
                 </para>
                  <para>
-                    <screenshot>
-<screeninfo>ACL 103-Third-ACL-Example</screeninfo> <graphic srccredit="ACL
-103-Third-ACL-Example - screenshot" scale="40"
-fileref="screenshots/acl-state.png"></graphic></screenshot>
+                    <figure>
+                        <title>ACL 103-Third-ACL-Example</title>
+<screenshot>
+<graphic scale="40"
+fileref="screenshots/customization/acl-state.png"></graphic></screenshot></figure>
                 </para>
 <programlisting>
 $Self->{TicketAcl}->{'103-Third-ACL-Example'} = {
@@ -308,10 +313,11 @@ $Self->{TicketAcl}->{'103-Third-ACL-Example'} = {
                     ここでは、マッチするチケットと利用可能なオプションのフィルタリングのための正規表現を使用することができるかについても例示します。
                 </para>
                  <para>
-                    <screenshot>
-<screeninfo>ACL 104-Only-Hardware-Services-for-HW-Queues-ACL</screeninfo> <graphic srccredit="ACL
-104-Only-Hardware-Services-for-HW-Queues-ACL - screenshot" scale="40"
-fileref="screenshots/acl-new-ticket-service.png"></graphic></screenshot>
+                    <figure>
+                        <title>ACL 104-Only-Hardware-Services-for-HW-Queues-ACL</title>
+<screenshot>
+<graphic scale="40"
+fileref="screenshots/customization/acl-new-ticket-service.png"></graphic></screenshot></figure>
                 </para>
 <programlisting>
 $Self->{TicketAcl}->{'104-Only-Hardware-Services-for-HW-Queues-ACL'} = {
@@ -339,10 +345,11 @@ $Self->{TicketAcl}->{'104-Only-Hardware-Services-for-HW-Queues-ACL'} = {
                     ACL to restrict a Process in the customer frontend using the CustomerID.
                 </title>
                  <para>
-                    <screenshot>
-<screeninfo>ACL 105-Disallow-Process-For-CustomerID</screeninfo> <graphic srccredit="ACL
-105-Disallow-Process-For-CustomerID - screenshot" scale="40"
-fileref="screenshots/acl-disallow-process-for-customerid.png"></graphic></screenshot>
+                    <figure>
+                        <title>ACL 105-Disallow-Process-For-CustomerID</title>
+<screenshot>
+<graphic scale="40"
+fileref="screenshots/customization/acl-disallow-process-for-customerid.png"></graphic></screenshot></figure>
                 </para>
 <programlisting>
 $Self->{TicketAcl}->{"105-Disallow-Process-For-CustomerID"} = {
@@ -572,7 +579,7 @@ Fields. This means that this screens you can not restrict any other
 attribute like ticket type, state, queue, etc.
             </para>
             <para>
-                From OTRS 3.4.x 'Action' parameter is not longer a hash but an array
+                From OTRS 4 the 'Action' parameter is not longer a hash but an array
 reference and it can be used in any of the Change sections using any of the
 Modifiers.
             </para>

@@ -246,12 +246,18 @@
                                             <itemizedlist mark="round">
                                                 <listitem>
                                                     <para>
-                                                        OTRSスケジューラのための新規一般インターフェース(依頼者)タスクを作成します。（スケジューラーに依頼の実行を委任することによって、ユーザー体験は非常に改善されるかもしれません。そうでなければ、常に依頼を準備する必要になってしまいます。またリモート実行はそれらの依頼のきっかけとなるOTRSエベントに追加されます。）
+                                                        Create a new Generic Interface (Requester)  task for the OTRS Daemon (by
+delegating the request execution to the Scehduler Daemon, the user
+experience could be highly improved, otherwise all the time needed to
+prepare the request and the remote execution will be added to the OTRS
+Events that trigger those requests).
                                                     </para>
                                                 </listitem>
                                                 <listitem>
                                                     <para>
-                                                        その次のサイクルでは、スケジューラ・プロセスは新規タスクを読んで、新規依頼を作成し、それをレイヤーへ渡す依頼者への呼び出しを作成します。
+                                                        In its next cycle the OTRS daemon process reads the new task and creates a
+call to the Requester that will create a new request and then passes it
+through the layers.
                                                     </para>
                                                 </listitem>
                                             </itemizedlist>
@@ -345,7 +351,7 @@
                                     </listitem>
                                     <listitem>
                                         <para>
-                                            遠隔のシステムにリクエストを送り、応答を待ちます。
+                                            Sends the request to the remote system and waits for the response.
                                         </para>
                                     </listitem>
                                 </itemizedlist>
@@ -379,7 +385,7 @@
                             <itemizedlist mark="round">
                                 <listitem>
                                     <para>
-                                        リモート・システムから受け取るデータ。
+                                        Data as received from the Remote System.
                                     </para>
                                 </listitem>
                             </itemizedlist>
@@ -437,12 +443,13 @@
                     </listitem>
                     <listitem>
                         <para>
-                            イベント・ハンドラあるいはスケジューラ
+                            Event Handler or OTRS Daemon
                         </para>
                         <itemizedlist mark="round">
                             <listitem>
                                 <para>
-                                    依頼者からのデータを受け取ります。スケジューラの場合、このデータは、タスクを直ぐにまたは将来に再スケジュールするような情報を含んでいるかもしれません。
+                                    Receives the data from the Requester, in the case of the OTRS Daemon this
+data might contain information to create a task in the future.
                                 </para>
                             </listitem>
                         </itemizedlist>

@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2015-11-16 13:32+0100\n"
+"POT-Creation-Date: 2015-11-30 11:25+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -18,7 +18,7 @@ msgstr ""
 
 #. type: Content of: <appendix><title>
 #: en/all-config-parameters.xml:6
-msgid "Overview of all configuration parameters"
+msgid "Configuration Options Reference"
 msgstr ""
 
 #. type: Content of: <appendix><para>
@@ -72,19 +72,21 @@ msgstr ""
 #: en/book.xml:33
 msgid ""
 "The source code of this document can be found at <ulink "
-"url=\"http://otrs.github.io\">github</ulink>, in the repository <ulink "
-"url=\"https://github.com/OTRS/doc-admin\">doc-admin</ulink>."
+"url=\"https://otrs.github.io\">github</ulink>, in the repository <ulink "
+"url=\"https://github.com/OTRS/doc-admin\">doc-admin</ulink>.  Contributions "
+"are more than welcome.  You can also help translating it to your language at "
+"<ulink url=\"https://www.transifex.com/otrs/OTRS/\">Transifex</ulink>."
 msgstr ""
 
 #. type: Content of: <book><bookinfo><legalnotice><para>
-#: en/book.xml:39
+#: en/book.xml:42
 msgid ""
 "UNIX is a registered trademark of X/Open Company Limited.  Linux is a "
 "registered trademark of Linus Torvalds."
 msgstr ""
 
 #. type: Content of: <book><bookinfo><legalnotice><para>
-#: en/book.xml:44
+#: en/book.xml:47
 msgid ""
 "MS-DOS, Windows, Windows 95, Windows 98, Windows NT, Windows 2000, Windows "
 "XP, Windows 2003, Windows Vista and Windows 7 are registered trademarks of "
@@ -97,14 +99,14 @@ msgid ""
 msgstr ""
 
 #. type: Content of: <book><bookinfo><legalnotice><para>
-#: en/book.xml:54
+#: en/book.xml:57
 msgid ""
 "All trade names are used without the guarantee for their free use and are "
 "possibly registered trade marks."
 msgstr ""
 
 #. type: Content of: <book><bookinfo><legalnotice><para>
-#: en/book.xml:59
+#: en/book.xml:62
 msgid ""
 "OTRS AG essentially follows the notations of the manufacturers.  Other "
 "products mentioned in this manual may be trademarks of the respective "
@@ -112,27 +114,27 @@ msgid ""
 msgstr ""
 
 #. type: Content of: <section><section><title>
-#: en/book.xml:68 en/content/customization/process-management.xml:7 en/content/customization/acl.xml:8 en/content/administration/dynamicfields.xml:7
+#: en/book.xml:71 en/content/customization/process-management.xml:7 en/content/customization/acl.xml:8 en/content/administration/dynamicfields.xml:7
 msgid "Introduction"
 msgstr ""
 
 #. type: Content of: <book><chapter><title>
-#: en/book.xml:75
+#: en/book.xml:78
 msgid "Administration"
 msgstr ""
 
 #. type: Content of: <book><chapter><section><title>
-#: en/book.xml:81
-msgid "Email settings"
+#: en/book.xml:84
+msgid "Email Settings"
 msgstr ""
 
 #. type: Content of: <book><chapter><section><title>
-#: en/book.xml:88
-msgid "Ticket settings"
+#: en/book.xml:91
+msgid "Ticket Settings"
 msgstr ""
 
 #. type: Content of: <book><chapter><title>
-#: en/book.xml:102
+#: en/book.xml:105
 msgid "Customization"
 msgstr ""
 
@@ -325,7 +327,7 @@ msgstr ""
 
 #. type: Content of: <section><section><section><title>
 #: en/content/introduction/otrs.xml:42
-msgid "User interface"
+msgid "User Interface"
 msgstr ""
 
 #. type: Content of: <section><section><section><itemizedlist><listitem><para>
@@ -380,7 +382,7 @@ msgstr ""
 
 #. type: Content of: <section><section><section><title>
 #: en/content/introduction/otrs.xml:87
-msgid "Mail interface"
+msgid "Email Interface"
 msgstr ""
 
 #. type: Content of: <section><section><section><itemizedlist><listitem><para>
@@ -538,7 +540,7 @@ msgstr ""
 
 #. type: Content of: <section><section><section><title>
 #: en/content/introduction/otrs.xml:208
-msgid "New features of OTRS 5"
+msgid "New Features of OTRS 5"
 msgstr ""
 
 #. type: Content of: <section><section><section><section><title>
@@ -705,7 +707,7 @@ msgstr ""
 
 #. type: Content of: <section><section><section><title>
 #: en/content/introduction/otrs.xml:259
-msgid "New features of OTRS 4"
+msgid "New Features of OTRS 4"
 msgstr ""
 
 #. type: Content of: <section><section><section><section><itemizedlist><listitem><para>
@@ -980,7 +982,7 @@ msgstr ""
 
 #. type: Content of: <section><section><section><title>
 #: en/content/introduction/otrs.xml:346
-msgid "New features of OTRS 3.3"
+msgid "New Features of OTRS 3.3"
 msgstr ""
 
 #. type: Content of: <section><section><section><section><itemizedlist><listitem><para>
@@ -1146,7 +1148,7 @@ msgstr ""
 
 #. type: Content of: <section><section><title>
 #: en/content/introduction/otrs.xml:392
-msgid "Hardware and software requirements"
+msgid "Hardware and Software Requirements"
 msgstr ""
 
 #. type: Content of: <section><section><para>
@@ -1300,10 +1302,10 @@ msgstr ""
 #. type: Content of: <section><section><section><para>
 #: en/content/introduction/otrs.xml:495
 msgid ""
-"We recommend always using the latest version of your browser, because it has "
-"the best JavaScript and rendering performance.  Dramatical performance "
-"varieties between the used browsers can occur with big data or big systems.  "
-"We are happy to consult you on that matter."
+"We recommend keeping your browser up-to-date. JavaScript and rendering "
+"performance in newer versions is always improved.  Dramatic performance "
+"issues can be seen in larger systems when using older versions. We are happy "
+"to consult you on that matter."
 msgstr ""
 
 #. type: Content of: <section><section><title>
@@ -1831,16 +1833,18 @@ msgstr ""
 
 #. type: Content of: <section><section><section><para><figure><screenshot>
 #: en/content/customization/process-management.xml:415
-msgid "<graphic scale='40' fileref=\"screenshots/pm-admin-sysadmin.png\"></graphic>"
+msgid ""
+"<graphic scale='40' "
+"fileref=\"screenshots/customization/pm-admin-sysadmin.png\"></graphic>"
 msgstr ""
 
 #. type: Content of: <appendix><variablelist><varlistentry><listitem><para><figure>
-#: en/content/customization/process-management.xml:414 en/content/customization/process-management.xml:426 en/content/customization/process-management.xml:438 en/content/customization/process-management.xml:455 en/content/customization/process-management.xml:472 en/content/customization/process-management.xml:486 en/content/customization/process-management.xml:650 en/content/customization/process-management.xml:664 en/content/customization/process-management.xml:727 en/content/customization/process-management.xml:777 en/content/customization/process-management.xml:884 en/content/customization/process-management.xml:972 en/content/customization/process-management.xml:986 en/content/customization/process-management.xml:1003 en/content/customization/process-management.xml:1016 en/content/customization/process-management.xml:1028 en/content/customization/process-management.xml:1287 en/content/customization/acl.xml:172 en/content/customization/acl.xml:215 en/content/customization/acl.xml:257 en/content/customization/acl.xml:302 en/content/customization/acl.xml:338 en/content/customization/acl.xml:372 en/content/administration/adminarea/basics.xml:25 en/content/administration/adminarea/agents-groups-roles.xml:24 en/content/administration/adminarea/agents-groups-roles.xml:37 en/content/administration/adminarea/agents-groups-roles.xml:101 en/content/administration/adminarea/agents-groups-roles.xml:120 en/content/administration/adminarea/agents-groups-roles.xml:133 en/content/administration/adminarea/agents-groups-roles.xml:142 en/content/administration/adminarea/agents-groups-roles.xml:317 en/content/administration/adminarea/agents-groups-roles.xml:336 en/content/administration/adminarea/agents-groups-roles.xml:350 en/content/administration/adminarea/agents-groups-roles.xml:359 en/content/administration/adminarea/agents-groups-roles.xml:372 en/content/administration/adminarea/agents-groups-roles.xml:385 en/content/administration/adminarea/agents-groups-roles.xml:394 en/content/administration/adminarea/customers-and-groups.xml:18 en/content/administration/adminarea/customers-and-groups.xml:35 en/content/administration/adminarea/customers-and-groups.xml:71 en/content/administration/adminarea/customers-and-groups.xml:84 en/content/administration/adminarea/customers-and-groups.xml:93 en/content/administration/adminarea/queues.xml:15 en/content/administration/adminarea/queues.xml:28 en/content/administration/adminarea/salutations-signatures-attachments-templates.xml:19 en/content/administration/adminarea/salutations-signatures-attachments-templates.xml:36 en/content/administration/adminarea/salutations-signatures-attachments-templates.xml:68 en/content/administration/adminarea/salutations-signatures-attachments-templates.xml:85 en/content/administration/adminarea/salutations-signatures-attachments-templates.xml:117 en/content/administration/adminarea/salutations-signatures-attachments-templates.xml:130 en/content/administration/adminarea/salutations-signatures-attachments-templates.xml:144 en/content/administration/adminarea/salutations-signatures-attachments-templates.xml:157 en/content/administration/adminarea/salutations-signatures-attachments-templates.xml:166 en/content/administration/adminarea/salutations-signatures-attachments-templates.xml:231 en/content/administration/adminarea/salutations-signatures-attachments-templates.xml:245 en/content/administration/adminarea/salutations-signatures-attachments-templates.xml:258 en/content/administration/adminarea/salutations-signatures-attachments-templates.xml:271 en/content/administration/adminarea/salutations-signatures-attachments-templates.xml:280 en/content/administration/adminarea/autoresponses.xml:15 en/content/administration/adminarea/autoresponses.xml:28 en/content/administration/adminarea/autoresponses.xml:113 en/content/administration/adminarea/autoresponses.xml:126 en/content/administration/adminarea/emailaddresses.xml:15 en/content/administration/adminarea/emailaddresses.xml:28 en/content/administration/adminarea/ticket-notifications.xml:19 en/content/administration/adminarea/ticket-notifications.xml:32 en/content/administration/adminarea/ticket-notifications.xml:53 en/content/administration/adminarea/ticket-notifications.xml:66 en/content/administration/adminarea/smime.xml:19 en/content/administration/adminarea/pgp.xml:19 en/content/administration/adminarea/states.xml:15 en/content/administration/adminarea/sysconfig.xml:19 en/content/administration/adminarea/mailaccounts.xml:15 en/content/administration/adminarea/postmasterfilter.xml:15 en/content/administration/adminarea/postmasterfilter.xml:230 en/content/administration/adminarea/genericagent.xml:19 en/content/administration/adminarea/genericagent.xml:33 en/content/administration/adminarea/administrative-messages.xml:15 en/content/administration/adminarea/session-management.xml:15 en/content/administration/adminarea/session-management.xml:28 en/content/administration/adminarea/system-maintenance.xml:18 en/content/administration/adminarea/system-maintenance.xml:30 en/content/administration/adminarea/system-log.xml:15 en/content/administration/adminarea/selectbox.xml:15 en/content/administration/adminarea/package-manager.xml:15 en/content/administration/adminarea/web-services.xml:14 en/content/administration/adminarea/dynamic-fields.xml:14 en/content/administration/daemon.xml:137 en/content/administration/daemon.xml:149 en/content/administration/email/email.xml:59 en/content/administration/ticket/monitoring-tickets.xml:29 en/content/administration/ticket/monitoring-tickets.xml:42 en/content/administration/ticket/monitoring-tickets.xml:72 en/content/administration/ticket/monitoring-tickets.xml:85 en/content/administration/ticket/monitoring-tickets.xml:98 en/content/administration/configuration.xml:41 en/content/administration/dynamicfields-configuration.xml:27 en/content/administration/dynamicfields-configuration.xml:245 en/content/administration/dynamicfields-configuration.xml:291 en/content/administration/dynamicfields-configuration.xml:322 en/content/administration/dynamicfields-configuration.xml:401 en/content/administration/dynamicfields-configuration.xml:459 en/content/administration/dynamicfields-configuration.xml:541 en/content/administration/dynamicfields-configuration.xml:624 en/content/administration/dynamicfields-configuration.xml:639 en/content/administration/dynamicfields-configuration.xml:787 en/content/administration/dynamicfields-configuration.xml:843 en/content/administration/dynamicfields-configuration.xml:923 en/content/administration/dynamicfields-configuration.xml:1003 en/content/administration/dynamicfields-configuration.xml:1059 en/content/administration/dynamicfields-configuration.xml:1115 en/content/administration/dynamicfields-configuration.xml:1323 en/content/administration/genericinterface/genericinterface-webservice-gui.xml:61 en/content/administration/genericinterface/genericinterface-webservice-gui.xml:130 en/content/administration/genericinterface/genericinterface-webservice-gui.xml:202 en/content/administration/genericinterface/genericinterface-webservice-gui.xml:239 en/content/administration/genericinterface/genericinterface-webservice-gui.xml:270 en/content/administration/genericinterface/genericinterface-webservice-gui.xml:318 en/content/administration/genericinterface/genericinterface-webservice-gui.xml:345 en/content/administration/genericinterface/genericinterface-webservice-gui.xml:413 en/content/administration/genericinterface/genericinterface-webservice-gui.xml:457 en/content/administration/genericinterface/genericinterface-webservice-gui.xml:504 en/content/administration/genericinterface/genericinterface-webservice-gui.xml:644 en/content/administration/genericinterface/genericinterface-webservice-gui.xml:691 en/content/administration/genericinterface/genericinterface-webservice-gui.xml:753 en/content/administration/genericinterface/genericinterface-webservice-gui.xml:858 en/content/administration/genericinterface/genericinterface-webservice-gui.xml:937 en/content/administration/genericinterface/genericinterface-webservice-gui.xml:1045 en/content/administration/genericinterface/genericinterface-layers.xml:27 en/content/administration/stats.xml:40 en/content/administration/stats.xml:57 en/content/administration/stats.xml:85 en/content/administration/stats.xml:133 en/content/administration/stats.xml:165 en/content/administration/stats.xml:179 en/content/administration/stats.xml:195 en/content/administration/stats.xml:208 en/content/administration/stats.xml:231 en/content/first-steps.xml:36 en/content/first-steps.xml:62 en/content/first-steps.xml:91 en/content/first-steps.xml:124 en/content/first-steps.xml:142 en/content/first-steps.xml:183 en/content/first-steps.xml:222 en/content/first-steps.xml:325 en/content/first-steps.xml:403 en/content/first-steps.xml:502 en/content/first-steps.xml:527 en/content/first-steps.xml:559 en/content/first-steps.xml:614 en/content/installation/windows.xml:54 en/content/installation/windows.xml:65 en/content/installation/windows.xml:196 en/content/installation/windows.xml:220 en/content/installation/windows.xml:240 en/content/installation/windows.xml:264 en/content/installation/windows.xml:291 en/content/installation/windows.xml:310 en/content/installation/web-installer.xml:27 en/content/installation/web-installer.xml:40 en/content/installation/web-installer.xml:56 en/content/installation/web-installer.xml:70 en/content/installation/web-installer.xml:91 en/content/installation/web-installer.xml:104 en/content/installation/web-installer.xml:117 en/content/installation/web-installer.xml:130 en/content/installation/web-installer.xml:153 en/content/additional-resources.xml:129
+#: en/content/customization/process-management.xml:414 en/content/customization/process-management.xml:426 en/content/customization/process-management.xml:438 en/content/customization/process-management.xml:455 en/content/customization/process-management.xml:472 en/content/customization/process-management.xml:486 en/content/customization/process-management.xml:650 en/content/customization/process-management.xml:664 en/content/customization/process-management.xml:727 en/content/customization/process-management.xml:777 en/content/customization/process-management.xml:884 en/content/customization/process-management.xml:972 en/content/customization/process-management.xml:986 en/content/customization/process-management.xml:1003 en/content/customization/process-management.xml:1016 en/content/customization/process-management.xml:1028 en/content/customization/process-management.xml:1287 en/content/customization/acl.xml:172 en/content/customization/acl.xml:215 en/content/customization/acl.xml:257 en/content/customization/acl.xml:302 en/content/customization/acl.xml:338 en/content/customization/acl.xml:372 en/content/administration/adminarea/basics.xml:25 en/content/administration/adminarea/agents-groups-roles.xml:24 en/content/administration/adminarea/agents-groups-roles.xml:37 en/content/administration/adminarea/agents-groups-roles.xml:101 en/content/administration/adminarea/agents-groups-roles.xml:120 en/content/administration/adminarea/agents-groups-roles.xml:133 en/content/administration/adminarea/agents-groups-roles.xml:142 en/content/administration/adminarea/agents-groups-roles.xml:317 en/content/administration/adminarea/agents-groups-roles.xml:336 en/content/administration/adminarea/agents-groups-roles.xml:350 en/content/administration/adminarea/agents-groups-roles.xml:359 en/content/administration/adminarea/agents-groups-roles.xml:372 en/content/administration/adminarea/agents-groups-roles.xml:385 en/content/administration/adminarea/agents-groups-roles.xml:394 en/content/administration/adminarea/customers-and-groups.xml:18 en/content/administration/adminarea/customers-and-groups.xml:35 en/content/administration/adminarea/customers-and-groups.xml:71 en/content/administration/adminarea/customers-and-groups.xml:84 en/content/administration/adminarea/customers-and-groups.xml:93 en/content/administration/adminarea/queues.xml:15 en/content/administration/adminarea/queues.xml:28 en/content/administration/adminarea/salutations-signatures-attachments-templates.xml:19 en/content/administration/adminarea/salutations-signatures-attachments-templates.xml:36 en/content/administration/adminarea/salutations-signatures-attachments-templates.xml:68 en/content/administration/adminarea/salutations-signatures-attachments-templates.xml:85 en/content/administration/adminarea/salutations-signatures-attachments-templates.xml:117 en/content/administration/adminarea/salutations-signatures-attachments-templates.xml:130 en/content/administration/adminarea/salutations-signatures-attachments-templates.xml:144 en/content/administration/adminarea/salutations-signatures-attachments-templates.xml:157 en/content/administration/adminarea/salutations-signatures-attachments-templates.xml:166 en/content/administration/adminarea/salutations-signatures-attachments-templates.xml:231 en/content/administration/adminarea/salutations-signatures-attachments-templates.xml:245 en/content/administration/adminarea/salutations-signatures-attachments-templates.xml:258 en/content/administration/adminarea/salutations-signatures-attachments-templates.xml:271 en/content/administration/adminarea/salutations-signatures-attachments-templates.xml:280 en/content/administration/adminarea/autoresponses.xml:15 en/content/administration/adminarea/autoresponses.xml:28 en/content/administration/adminarea/autoresponses.xml:113 en/content/administration/adminarea/autoresponses.xml:126 en/content/administration/adminarea/emailaddresses.xml:15 en/content/administration/adminarea/emailaddresses.xml:28 en/content/administration/adminarea/ticket-notifications.xml:19 en/content/administration/adminarea/ticket-notifications.xml:31 en/content/administration/adminarea/ticket-notifications.xml:55 en/content/administration/adminarea/ticket-notifications.xml:72 en/content/administration/adminarea/smime.xml:19 en/content/administration/adminarea/pgp.xml:19 en/content/administration/adminarea/states.xml:15 en/content/administration/adminarea/sysconfig.xml:19 en/content/administration/adminarea/mailaccounts.xml:15 en/content/administration/adminarea/postmasterfilter.xml:15 en/content/administration/adminarea/postmasterfilter.xml:230 en/content/administration/adminarea/genericagent.xml:19 en/content/administration/adminarea/genericagent.xml:33 en/content/administration/adminarea/administrative-messages.xml:15 en/content/administration/adminarea/session-management.xml:15 en/content/administration/adminarea/session-management.xml:28 en/content/administration/adminarea/system-maintenance.xml:18 en/content/administration/adminarea/system-maintenance.xml:30 en/content/administration/adminarea/system-log.xml:15 en/content/administration/adminarea/selectbox.xml:15 en/content/administration/adminarea/package-manager.xml:15 en/content/administration/adminarea/web-services.xml:14 en/content/administration/adminarea/dynamic-fields.xml:14 en/content/administration/daemon.xml:137 en/content/administration/daemon.xml:149 en/content/administration/email/email.xml:59 en/content/administration/ticket/monitoring-tickets.xml:29 en/content/administration/ticket/monitoring-tickets.xml:42 en/content/administration/ticket/monitoring-tickets.xml:72 en/content/administration/ticket/monitoring-tickets.xml:85 en/content/administration/ticket/monitoring-tickets.xml:98 en/content/administration/configuration.xml:41 en/content/administration/dynamicfields-configuration.xml:27 en/content/administration/dynamicfields-configuration.xml:245 en/content/administration/dynamicfields-configuration.xml:291 en/content/administration/dynamicfields-configuration.xml:322 en/content/administration/dynamicfields-configuration.xml:401 en/content/administration/dynamicfields-configuration.xml:459 en/content/administration/dynamicfields-configuration.xml:541 en/content/administration/dynamicfields-configuration.xml:624 en/content/administration/dynamicfields-configuration.xml:639 en/content/administration/dynamicfields-configuration.xml:787 en/content/administration/dynamicfields-configuration.xml:843 en/content/administration/dynamicfields-configuration.xml:923 en/content/administration/dynamicfields-configuration.xml:1003 en/content/administration/dynamicfields-configuration.xml:1059 en/content/administration/dynamicfields-configuration.xml:1115 en/content/administration/dynamicfields-configuration.xml:1323 en/content/administration/genericinterface/genericinterface-webservice-gui.xml:61 en/content/administration/genericinterface/genericinterface-webservice-gui.xml:130 en/content/administration/genericinterface/genericinterface-webservice-gui.xml:202 en/content/administration/genericinterface/genericinterface-webservice-gui.xml:239 en/content/administration/genericinterface/genericinterface-webservice-gui.xml:270 en/content/administration/genericinterface/genericinterface-webservice-gui.xml:318 en/content/administration/genericinterface/genericinterface-webservice-gui.xml:345 en/content/administration/genericinterface/genericinterface-webservice-gui.xml:413 en/content/administration/genericinterface/genericinterface-webservice-gui.xml:457 en/content/administration/genericinterface/genericinterface-webservice-gui.xml:504 en/content/administration/genericinterface/genericinterface-webservice-gui.xml:644 en/content/administration/genericinterface/genericinterface-webservice-gui.xml:691 en/content/administration/genericinterface/genericinterface-webservice-gui.xml:753 en/content/administration/genericinterface/genericinterface-webservice-gui.xml:858 en/content/administration/genericinterface/genericinterface-webservice-gui.xml:937 en/content/administration/genericinterface/genericinterface-webservice-gui.xml:1045 en/content/administration/genericinterface/genericinterface-layers.xml:27 en/content/administration/stats.xml:40 en/content/administration/stats.xml:57 en/content/administration/stats.xml:85 en/content/administration/stats.xml:133 en/content/administration/stats.xml:165 en/content/administration/stats.xml:179 en/content/administration/stats.xml:195 en/content/administration/stats.xml:208 en/content/administration/stats.xml:231 en/content/first-steps.xml:36 en/content/first-steps.xml:62 en/content/first-steps.xml:91 en/content/first-steps.xml:124 en/content/first-steps.xml:142 en/content/first-steps.xml:183 en/content/first-steps.xml:222 en/content/first-steps.xml:325 en/content/first-steps.xml:403 en/content/first-steps.xml:502 en/content/first-steps.xml:527 en/content/first-steps.xml:559 en/content/first-steps.xml:614 en/content/installation/windows.xml:54 en/content/installation/windows.xml:65 en/content/installation/windows.xml:196 en/content/installation/windows.xml:220 en/content/installation/windows.xml:240 en/content/installation/windows.xml:264 en/content/installation/windows.xml:291 en/content/installation/windows.xml:310 en/content/installation/web-installer.xml:27 en/content/installation/web-installer.xml:40 en/content/installation/web-installer.xml:56 en/content/installation/web-installer.xml:70 en/content/installation/web-installer.xml:91 en/content/installation/web-installer.xml:104 en/content/installation/web-installer.xml:117 en/content/installation/web-installer.xml:130 en/content/installation/web-installer.xml:153 en/content/additional-resources.xml:75
 msgid "<placeholder type=\"screenshot\" id=\"0\"/>"
 msgstr ""
 
 #. type: Content of: <appendix><variablelist><varlistentry><listitem><para>
-#: en/content/customization/process-management.xml:412 en/content/customization/process-management.xml:424 en/content/customization/process-management.xml:436 en/content/customization/process-management.xml:453 en/content/customization/process-management.xml:470 en/content/customization/process-management.xml:484 en/content/customization/process-management.xml:648 en/content/customization/process-management.xml:662 en/content/customization/process-management.xml:725 en/content/customization/process-management.xml:775 en/content/customization/process-management.xml:882 en/content/customization/process-management.xml:970 en/content/customization/process-management.xml:984 en/content/customization/process-management.xml:1001 en/content/customization/process-management.xml:1014 en/content/customization/process-management.xml:1026 en/content/customization/process-management.xml:1285 en/content/customization/acl.xml:170 en/content/customization/acl.xml:213 en/content/customization/acl.xml:255 en/content/customization/acl.xml:300 en/content/customization/acl.xml:336 en/content/customization/acl.xml:370 en/content/administration/adminarea/basics.xml:23 en/content/administration/adminarea/agents-groups-roles.xml:22 en/content/administration/adminarea/agents-groups-roles.xml:35 en/content/administration/adminarea/agents-groups-roles.xml:99 en/content/administration/adminarea/agents-groups-roles.xml:118 en/content/administration/adminarea/agents-groups-roles.xml:131 en/content/administration/adminarea/agents-groups-roles.xml:140 en/content/administration/adminarea/agents-groups-roles.xml:315 en/content/administration/adminarea/agents-groups-roles.xml:334 en/content/administration/adminarea/agents-groups-roles.xml:348 en/content/administration/adminarea/agents-groups-roles.xml:357 en/content/administration/adminarea/agents-groups-roles.xml:370 en/content/administration/adminarea/agents-groups-roles.xml:383 en/content/administration/adminarea/agents-groups-roles.xml:392 en/content/administration/adminarea/customers-and-groups.xml:16 en/content/administration/adminarea/customers-and-groups.xml:33 en/content/administration/adminarea/customers-and-groups.xml:69 en/content/administration/adminarea/customers-and-groups.xml:82 en/content/administration/adminarea/customers-and-groups.xml:91 en/content/administration/adminarea/queues.xml:13 en/content/administration/adminarea/queues.xml:26 en/content/administration/adminarea/salutations-signatures-attachments-templates.xml:17 en/content/administration/adminarea/salutations-signatures-attachments-templates.xml:34 en/content/administration/adminarea/salutations-signatures-attachments-templates.xml:66 en/content/administration/adminarea/salutations-signatures-attachments-templates.xml:83 en/content/administration/adminarea/salutations-signatures-attachments-templates.xml:115 en/content/administration/adminarea/salutations-signatures-attachments-templates.xml:128 en/content/administration/adminarea/salutations-signatures-attachments-templates.xml:142 en/content/administration/adminarea/salutations-signatures-attachments-templates.xml:155 en/content/administration/adminarea/salutations-signatures-attachments-templates.xml:164 en/content/administration/adminarea/salutations-signatures-attachments-templates.xml:229 en/content/administration/adminarea/salutations-signatures-attachments-templates.xml:243 en/content/administration/adminarea/salutations-signatures-attachments-templates.xml:256 en/content/administration/adminarea/salutations-signatures-attachments-templates.xml:269 en/content/administration/adminarea/salutations-signatures-attachments-templates.xml:278 en/content/administration/adminarea/autoresponses.xml:13 en/content/administration/adminarea/autoresponses.xml:26 en/content/administration/adminarea/autoresponses.xml:111 en/content/administration/adminarea/autoresponses.xml:124 en/content/administration/adminarea/emailaddresses.xml:13 en/content/administration/adminarea/emailaddresses.xml:26 en/content/administration/adminarea/ticket-notifications.xml:17 en/content/administration/adminarea/ticket-notifications.xml:30 en/content/administration/adminarea/ticket-notifications.xml:51 en/content/administration/adminarea/ticket-notifications.xml:64 en/content/administration/adminarea/smime.xml:17 en/content/administration/adminarea/pgp.xml:17 en/content/administration/adminarea/states.xml:13 en/content/administration/adminarea/sysconfig.xml:17 en/content/administration/adminarea/mailaccounts.xml:13 en/content/administration/adminarea/postmasterfilter.xml:13 en/content/administration/adminarea/postmasterfilter.xml:228 en/content/administration/adminarea/genericagent.xml:17 en/content/administration/adminarea/genericagent.xml:31 en/content/administration/adminarea/administrative-messages.xml:13 en/content/administration/adminarea/session-management.xml:13 en/content/administration/adminarea/session-management.xml:26 en/content/administration/adminarea/system-maintenance.xml:16 en/content/administration/adminarea/system-maintenance.xml:28 en/content/administration/adminarea/system-log.xml:13 en/content/administration/adminarea/selectbox.xml:13 en/content/administration/adminarea/package-manager.xml:13 en/content/administration/adminarea/web-services.xml:12 en/content/administration/adminarea/dynamic-fields.xml:12 en/content/administration/daemon.xml:135 en/content/administration/daemon.xml:147 en/content/administration/email/email.xml:57 en/content/administration/ticket/monitoring-tickets.xml:27 en/content/administration/ticket/monitoring-tickets.xml:40 en/content/administration/ticket/monitoring-tickets.xml:70 en/content/administration/ticket/monitoring-tickets.xml:83 en/content/administration/ticket/monitoring-tickets.xml:96 en/content/administration/configuration.xml:39 en/content/administration/dynamicfields-configuration.xml:25 en/content/administration/dynamicfields-configuration.xml:243 en/content/administration/dynamicfields-configuration.xml:289 en/content/administration/dynamicfields-configuration.xml:320 en/content/administration/dynamicfields-configuration.xml:399 en/content/administration/dynamicfields-configuration.xml:457 en/content/administration/dynamicfields-configuration.xml:539 en/content/administration/dynamicfields-configuration.xml:622 en/content/administration/dynamicfields-configuration.xml:637 en/content/administration/dynamicfields-configuration.xml:785 en/content/administration/dynamicfields-configuration.xml:841 en/content/administration/dynamicfields-configuration.xml:921 en/content/administration/dynamicfields-configuration.xml:1001 en/content/administration/dynamicfields-configuration.xml:1057 en/content/administration/dynamicfields-configuration.xml:1113 en/content/administration/dynamicfields-configuration.xml:1321 en/content/administration/genericinterface/genericinterface-webservice-gui.xml:59 en/content/administration/genericinterface/genericinterface-webservice-gui.xml:128 en/content/administration/genericinterface/genericinterface-webservice-gui.xml:200 en/content/administration/genericinterface/genericinterface-webservice-gui.xml:237 en/content/administration/genericinterface/genericinterface-webservice-gui.xml:268 en/content/administration/genericinterface/genericinterface-webservice-gui.xml:316 en/content/administration/genericinterface/genericinterface-webservice-gui.xml:343 en/content/administration/genericinterface/genericinterface-webservice-gui.xml:411 en/content/administration/genericinterface/genericinterface-webservice-gui.xml:455 en/content/administration/genericinterface/genericinterface-webservice-gui.xml:502 en/content/administration/genericinterface/genericinterface-webservice-gui.xml:642 en/content/administration/genericinterface/genericinterface-webservice-gui.xml:689 en/content/administration/genericinterface/genericinterface-webservice-gui.xml:751 en/content/administration/genericinterface/genericinterface-webservice-gui.xml:856 en/content/administration/genericinterface/genericinterface-webservice-gui.xml:935 en/content/administration/genericinterface/genericinterface-webservice-gui.xml:1043 en/content/administration/genericinterface/genericinterface-layers.xml:25 en/content/first-steps.xml:34 en/content/first-steps.xml:60 en/content/first-steps.xml:89 en/content/first-steps.xml:122 en/content/first-steps.xml:140 en/content/first-steps.xml:181 en/content/first-steps.xml:220 en/content/first-steps.xml:323 en/content/first-steps.xml:401 en/content/first-steps.xml:500 en/content/first-steps.xml:525 en/content/first-steps.xml:557 en/content/first-steps.xml:612 en/content/installation/windows.xml:52 en/content/installation/windows.xml:63 en/content/installation/windows.xml:194 en/content/installation/windows.xml:218 en/content/installation/windows.xml:238 en/content/installation/windows.xml:262 en/content/installation/windows.xml:289 en/content/installation/windows.xml:308 en/content/installation/web-installer.xml:25 en/content/installation/web-installer.xml:38 en/content/installation/web-installer.xml:54 en/content/installation/web-installer.xml:68 en/content/installation/web-installer.xml:89 en/content/installation/web-installer.xml:102 en/content/installation/web-installer.xml:115 en/content/installation/web-installer.xml:128 en/content/installation/web-installer.xml:151 en/content/additional-resources.xml:127
+#: en/content/customization/process-management.xml:412 en/content/customization/process-management.xml:424 en/content/customization/process-management.xml:436 en/content/customization/process-management.xml:453 en/content/customization/process-management.xml:470 en/content/customization/process-management.xml:484 en/content/customization/process-management.xml:648 en/content/customization/process-management.xml:662 en/content/customization/process-management.xml:725 en/content/customization/process-management.xml:775 en/content/customization/process-management.xml:882 en/content/customization/process-management.xml:970 en/content/customization/process-management.xml:984 en/content/customization/process-management.xml:1001 en/content/customization/process-management.xml:1014 en/content/customization/process-management.xml:1026 en/content/customization/process-management.xml:1285 en/content/customization/acl.xml:170 en/content/customization/acl.xml:213 en/content/customization/acl.xml:255 en/content/customization/acl.xml:300 en/content/customization/acl.xml:336 en/content/customization/acl.xml:370 en/content/administration/adminarea/basics.xml:23 en/content/administration/adminarea/agents-groups-roles.xml:22 en/content/administration/adminarea/agents-groups-roles.xml:35 en/content/administration/adminarea/agents-groups-roles.xml:99 en/content/administration/adminarea/agents-groups-roles.xml:118 en/content/administration/adminarea/agents-groups-roles.xml:131 en/content/administration/adminarea/agents-groups-roles.xml:140 en/content/administration/adminarea/agents-groups-roles.xml:315 en/content/administration/adminarea/agents-groups-roles.xml:334 en/content/administration/adminarea/agents-groups-roles.xml:348 en/content/administration/adminarea/agents-groups-roles.xml:357 en/content/administration/adminarea/agents-groups-roles.xml:370 en/content/administration/adminarea/agents-groups-roles.xml:383 en/content/administration/adminarea/agents-groups-roles.xml:392 en/content/administration/adminarea/customers-and-groups.xml:16 en/content/administration/adminarea/customers-and-groups.xml:33 en/content/administration/adminarea/customers-and-groups.xml:69 en/content/administration/adminarea/customers-and-groups.xml:82 en/content/administration/adminarea/customers-and-groups.xml:91 en/content/administration/adminarea/queues.xml:13 en/content/administration/adminarea/queues.xml:26 en/content/administration/adminarea/salutations-signatures-attachments-templates.xml:17 en/content/administration/adminarea/salutations-signatures-attachments-templates.xml:34 en/content/administration/adminarea/salutations-signatures-attachments-templates.xml:66 en/content/administration/adminarea/salutations-signatures-attachments-templates.xml:83 en/content/administration/adminarea/salutations-signatures-attachments-templates.xml:115 en/content/administration/adminarea/salutations-signatures-attachments-templates.xml:128 en/content/administration/adminarea/salutations-signatures-attachments-templates.xml:142 en/content/administration/adminarea/salutations-signatures-attachments-templates.xml:155 en/content/administration/adminarea/salutations-signatures-attachments-templates.xml:164 en/content/administration/adminarea/salutations-signatures-attachments-templates.xml:229 en/content/administration/adminarea/salutations-signatures-attachments-templates.xml:243 en/content/administration/adminarea/salutations-signatures-attachments-templates.xml:256 en/content/administration/adminarea/salutations-signatures-attachments-templates.xml:269 en/content/administration/adminarea/salutations-signatures-attachments-templates.xml:278 en/content/administration/adminarea/autoresponses.xml:13 en/content/administration/adminarea/autoresponses.xml:26 en/content/administration/adminarea/autoresponses.xml:111 en/content/administration/adminarea/autoresponses.xml:124 en/content/administration/adminarea/emailaddresses.xml:13 en/content/administration/adminarea/emailaddresses.xml:26 en/content/administration/adminarea/smime.xml:17 en/content/administration/adminarea/pgp.xml:17 en/content/administration/adminarea/states.xml:13 en/content/administration/adminarea/sysconfig.xml:17 en/content/administration/adminarea/mailaccounts.xml:13 en/content/administration/adminarea/postmasterfilter.xml:13 en/content/administration/adminarea/postmasterfilter.xml:228 en/content/administration/adminarea/genericagent.xml:17 en/content/administration/adminarea/genericagent.xml:31 en/content/administration/adminarea/administrative-messages.xml:13 en/content/administration/adminarea/session-management.xml:13 en/content/administration/adminarea/session-management.xml:26 en/content/administration/adminarea/system-maintenance.xml:16 en/content/administration/adminarea/system-maintenance.xml:28 en/content/administration/adminarea/system-log.xml:13 en/content/administration/adminarea/selectbox.xml:13 en/content/administration/adminarea/package-manager.xml:13 en/content/administration/adminarea/web-services.xml:12 en/content/administration/adminarea/dynamic-fields.xml:12 en/content/administration/daemon.xml:135 en/content/administration/daemon.xml:147 en/content/administration/email/email.xml:57 en/content/administration/ticket/monitoring-tickets.xml:27 en/content/administration/ticket/monitoring-tickets.xml:40 en/content/administration/ticket/monitoring-tickets.xml:70 en/content/administration/ticket/monitoring-tickets.xml:83 en/content/administration/ticket/monitoring-tickets.xml:96 en/content/administration/configuration.xml:39 en/content/administration/dynamicfields-configuration.xml:25 en/content/administration/dynamicfields-configuration.xml:243 en/content/administration/dynamicfields-configuration.xml:289 en/content/administration/dynamicfields-configuration.xml:320 en/content/administration/dynamicfields-configuration.xml:399 en/content/administration/dynamicfields-configuration.xml:457 en/content/administration/dynamicfields-configuration.xml:539 en/content/administration/dynamicfields-configuration.xml:622 en/content/administration/dynamicfields-configuration.xml:637 en/content/administration/dynamicfields-configuration.xml:785 en/content/administration/dynamicfields-configuration.xml:841 en/content/administration/dynamicfields-configuration.xml:921 en/content/administration/dynamicfields-configuration.xml:1001 en/content/administration/dynamicfields-configuration.xml:1057 en/content/administration/dynamicfields-configuration.xml:1113 en/content/administration/dynamicfields-configuration.xml:1321 en/content/administration/genericinterface/genericinterface-webservice-gui.xml:59 en/content/administration/genericinterface/genericinterface-webservice-gui.xml:128 en/content/administration/genericinterface/genericinterface-webservice-gui.xml:200 en/content/administration/genericinterface/genericinterface-webservice-gui.xml:237 en/content/administration/genericinterface/genericinterface-webservice-gui.xml:268 en/content/administration/genericinterface/genericinterface-webservice-gui.xml:316 en/content/administration/genericinterface/genericinterface-webservice-gui.xml:343 en/content/administration/genericinterface/genericinterface-webservice-gui.xml:411 en/content/administration/genericinterface/genericinterface-webservice-gui.xml:455 en/content/administration/genericinterface/genericinterface-webservice-gui.xml:502 en/content/administration/genericinterface/genericinterface-webservice-gui.xml:642 en/content/administration/genericinterface/genericinterface-webservice-gui.xml:689 en/content/administration/genericinterface/genericinterface-webservice-gui.xml:751 en/content/administration/genericinterface/genericinterface-webservice-gui.xml:856 en/content/administration/genericinterface/genericinterface-webservice-gui.xml:935 en/content/administration/genericinterface/genericinterface-webservice-gui.xml:1043 en/content/administration/genericinterface/genericinterface-layers.xml:25 en/content/first-steps.xml:34 en/content/first-steps.xml:60 en/content/first-steps.xml:89 en/content/first-steps.xml:122 en/content/first-steps.xml:140 en/content/first-steps.xml:181 en/content/first-steps.xml:220 en/content/first-steps.xml:323 en/content/first-steps.xml:401 en/content/first-steps.xml:500 en/content/first-steps.xml:525 en/content/first-steps.xml:557 en/content/first-steps.xml:612 en/content/installation/windows.xml:52 en/content/installation/windows.xml:63 en/content/installation/windows.xml:194 en/content/installation/windows.xml:218 en/content/installation/windows.xml:238 en/content/installation/windows.xml:262 en/content/installation/windows.xml:289 en/content/installation/windows.xml:308 en/content/installation/web-installer.xml:25 en/content/installation/web-installer.xml:38 en/content/installation/web-installer.xml:54 en/content/installation/web-installer.xml:68 en/content/installation/web-installer.xml:89 en/content/installation/web-installer.xml:102 en/content/installation/web-installer.xml:115 en/content/installation/web-installer.xml:128 en/content/installation/web-installer.xml:151 en/content/additional-resources.xml:73
 msgid "<placeholder type=\"figure\" id=\"0\"/>"
 msgstr ""
 
@@ -1858,7 +1862,7 @@ msgstr ""
 #: en/content/customization/process-management.xml:427
 msgid ""
 "<graphic scale='40' "
-"fileref=\"screenshots/pm-newprocess-button.png\"></graphic>"
+"fileref=\"screenshots/customization/pm-newprocess-button.png\"></graphic>"
 msgstr ""
 
 #. type: Content of: <section><section><section><para>
@@ -1878,7 +1882,7 @@ msgstr ""
 #: en/content/customization/process-management.xml:439
 msgid ""
 "<graphic scale='40' "
-"fileref=\"screenshots/pm-newprocess-info.png\"></graphic>"
+"fileref=\"screenshots/customization/pm-newprocess-info.png\"></graphic>"
 msgstr ""
 
 #. type: Content of: <section><section><section><title>
@@ -1905,7 +1909,7 @@ msgstr ""
 #: en/content/customization/process-management.xml:456
 msgid ""
 "<graphic scale='40' "
-"fileref=\"screenshots/pm-accordion-new-activitydialog.png\"></graphic>"
+"fileref=\"screenshots/customization/pm-accordion-new-activitydialog.png\"></graphic>"
 msgstr ""
 
 #. type: Content of: <section><section><section><para>
@@ -1929,7 +1933,7 @@ msgstr ""
 #: en/content/customization/process-management.xml:473
 msgid ""
 "<graphic scale='40' "
-"fileref=\"screenshots/pm-edit-activitydialog.png\"></graphic>"
+"fileref=\"screenshots/customization/pm-edit-activitydialog.png\"></graphic>"
 msgstr ""
 
 #. type: Content of: <section><section><section><para>
@@ -1950,7 +1954,7 @@ msgstr ""
 #: en/content/customization/process-management.xml:487
 msgid ""
 "<graphic scale='40' "
-"fileref=\"screenshots/pm-edit-field-article.png\"></graphic>"
+"fileref=\"screenshots/customization/pm-edit-field-article.png\"></graphic>"
 msgstr ""
 
 #. type: Content of: <section><section><section><para>
@@ -2166,7 +2170,7 @@ msgstr ""
 #: en/content/customization/process-management.xml:651
 msgid ""
 "<graphic scale='40' "
-"fileref=\"screenshots/pm-accordion-new-transition.png\"></graphic>"
+"fileref=\"screenshots/customization/pm-accordion-new-transition.png\"></graphic>"
 msgstr ""
 
 #. type: Content of: <section><section><section><para>
@@ -2187,7 +2191,7 @@ msgstr ""
 #: en/content/customization/process-management.xml:665
 msgid ""
 "<graphic scale='40' "
-"fileref=\"screenshots/pm-edit-transition.png\"></graphic>"
+"fileref=\"screenshots/customization/pm-edit-transition.png\"></graphic>"
 msgstr ""
 
 #. type: Content of: <section><section><section><para>
@@ -2283,7 +2287,7 @@ msgstr ""
 #: en/content/customization/process-management.xml:728
 msgid ""
 "<graphic scale='40' "
-"fileref=\"screenshots/pm-accordion-new-transitionaction.png\"></graphic>"
+"fileref=\"screenshots/customization/pm-accordion-new-transitionaction.png\"></graphic>"
 msgstr ""
 
 #. type: Content of: <section><section><section><para>
@@ -2400,7 +2404,7 @@ msgstr ""
 #: en/content/customization/process-management.xml:778
 msgid ""
 "<graphic scale='40' "
-"fileref=\"screenshots/pm-edit-transitionaction.png\"></graphic>"
+"fileref=\"screenshots/customization/pm-edit-transitionaction.png\"></graphic>"
 msgstr ""
 
 #. type: Content of: <section><section><section><para>
@@ -2538,7 +2542,7 @@ msgstr ""
 #: en/content/customization/process-management.xml:885
 msgid ""
 "<graphic scale='40' "
-"fileref=\"screenshots/pm-accordion-new-activity.png\"></graphic>"
+"fileref=\"screenshots/customization/pm-accordion-new-activity.png\"></graphic>"
 msgstr ""
 
 #. type: Content of: <section><section><section><para>
@@ -2677,7 +2681,7 @@ msgstr ""
 #: en/content/customization/process-management.xml:973
 msgid ""
 "<graphic scale='40' "
-"fileref=\"screenshots/pm-canvas-drag-activity.png\"></graphic>"
+"fileref=\"screenshots/customization/pm-canvas-drag-activity.png\"></graphic>"
 msgstr ""
 
 #. type: Content of: <section><section><section><para>
@@ -2698,7 +2702,7 @@ msgstr ""
 #: en/content/customization/process-management.xml:987
 msgid ""
 "<graphic scale='40' "
-"fileref=\"screenshots/pm-canvas-drag-activity2.png\"></graphic>"
+"fileref=\"screenshots/customization/pm-canvas-drag-activity2.png\"></graphic>"
 msgstr ""
 
 #. type: Content of: <section><section><section><para>
@@ -2723,7 +2727,7 @@ msgstr ""
 #: en/content/customization/process-management.xml:1004
 msgid ""
 "<graphic scale='40' "
-"fileref=\"screenshots/pm-canvas-drag-transition.png\"></graphic>"
+"fileref=\"screenshots/customization/pm-canvas-drag-transition.png\"></graphic>"
 msgstr ""
 
 #. type: Content of: <section><section><section><para>
@@ -2743,7 +2747,7 @@ msgstr ""
 #: en/content/customization/process-management.xml:1017
 msgid ""
 "<graphic scale='40' "
-"fileref=\"screenshots/pm-canvas-drag-transition2.png\"></graphic>"
+"fileref=\"screenshots/customization/pm-canvas-drag-transition2.png\"></graphic>"
 msgstr ""
 
 #. type: Content of: <section><section><section><para>
@@ -2761,7 +2765,9 @@ msgstr ""
 
 #. type: Content of: <section><section><section><para><figure><screenshot>
 #: en/content/customization/process-management.xml:1029
-msgid "<graphic scale='40' fileref=\"screenshots/pm-edit-path.png\"></graphic>"
+msgid ""
+"<graphic scale='40' "
+"fileref=\"screenshots/customization/pm-edit-path.png\"></graphic>"
 msgstr ""
 
 #. type: Content of: <section><section><section><para>
@@ -2893,7 +2899,9 @@ msgstr ""
 
 #. type: Content of: <section><section><section><para><figure><screenshot>
 #: en/content/customization/process-management.xml:1288
-msgid "<graphic scale='40' fileref=\"screenshots/pm-edit-process.png\"></graphic>"
+msgid ""
+"<graphic scale='40' "
+"fileref=\"screenshots/customization/pm-edit-process.png\"></graphic>"
 msgstr ""
 
 #. type: Content of: <section><section><section><para>
@@ -3555,8 +3563,8 @@ msgid ""
 "                    "
 msgstr ""
 
-#. type: Content of: <appendix><variablelist><varlistentry><listitem><para><table><tgroup><thead><row><entry>
-#: en/content/customization/process-management.xml:1909 en/content/customization/process-management.xml:2070 en/content/customization/process-management.xml:2185 en/content/customization/process-management.xml:2433 en/content/customization/process-management.xml:2681 en/content/administration/adminarea/autoresponses.xml:48 en/content/administration/adminarea/postmasterfilter.xml:37 en/content/administration/dynamicfields-configuration.xml:158 en/content/administration/dynamicfields-configuration.xml:1196 en/content/additional-resources.xml:37
+#. type: Content of: <section><section><example><para><itemizedlist><listitem><para><informaltable><tbody><tr><td>
+#: en/content/customization/process-management.xml:1909 en/content/customization/process-management.xml:2070 en/content/customization/process-management.xml:2185 en/content/customization/process-management.xml:2433 en/content/customization/process-management.xml:2681 en/content/administration/adminarea/autoresponses.xml:48 en/content/administration/adminarea/postmasterfilter.xml:37 en/content/administration/dynamicfields-configuration.xml:158 en/content/administration/dynamicfields-configuration.xml:1196
 msgid "Name"
 msgstr ""
 
@@ -5682,28 +5690,23 @@ msgstr ""
 
 #. type: Content of: <section><title>
 #: en/content/customization/language-translation.xml:6
-msgid "Localization of the OTRS frontend"
+msgid "Localization of the OTRS Front End"
 msgstr ""
 
 #. type: Content of: <section><para>
 #: en/content/customization/language-translation.xml:9
-msgid "OTRS offers multi-language support for its web interface."
-msgstr ""
-
-#. type: Content of: <section><para>
-#: en/content/customization/language-translation.xml:13
 msgid ""
 "Procedures for localization for the OTRS framework, steps to be followed to "
 "create a new language translation, as well as procedures for translation "
 "customizations, can be found in the <ulink "
-"url=\"http://otrs.github.io/doc/manual/developer/3.3/en/html/contributing.html#translate\">\"Language "
+"url=\"http://otrs.github.io/doc/manual/developer/stable/en/html/translate.html\">\"Language "
 "Translations\"</ulink> chapter from the developer manual on <ulink "
 "url=\"http://otrs.github.io/doc\">http://otrs.github.io/doc</ulink>."
 msgstr ""
 
 #. type: Content of: <section><title>
 #: en/content/customization/themes.xml:6
-msgid "Creating your own themes"
+msgid "Creating Your Own Themes"
 msgstr ""
 
 #. type: Content of: <section><para>
@@ -6044,7 +6047,9 @@ msgstr ""
 
 #. type: Content of: <section><section><para><example><para><figure><screenshot>
 #: en/content/customization/acl.xml:173
-msgid "<graphic scale=\"40\" fileref=\"screenshots/acl-move.png\"></graphic>"
+msgid ""
+"<graphic scale=\"40\" "
+"fileref=\"screenshots/customization/acl-move.png\"></graphic>"
 msgstr ""
 
 #. type: Content of: <section><section><para><example><programlisting>
@@ -6105,7 +6110,9 @@ msgstr ""
 
 #. type: Content of: <section><section><para><example><para><figure><screenshot>
 #: en/content/customization/acl.xml:216
-msgid "<graphic scale=\"40\" fileref=\"screenshots/acl-move2.png\"></graphic>"
+msgid ""
+"<graphic scale=\"40\" "
+"fileref=\"screenshots/customization/acl-move2.png\"></graphic>"
 msgstr ""
 
 #. type: Content of: <section><section><para><example><programlisting>
@@ -6156,7 +6163,9 @@ msgstr ""
 
 #. type: Content of: <section><section><para><example><para><figure><screenshot>
 #: en/content/customization/acl.xml:258
-msgid "<graphic scale=\"40\" fileref=\"screenshots/acl-close.png\"></graphic>"
+msgid ""
+"<graphic scale=\"40\" "
+"fileref=\"screenshots/customization/acl-close.png\"></graphic>"
 msgstr ""
 
 #. type: Content of: <section><section><para><example><programlisting>
@@ -6210,7 +6219,9 @@ msgstr ""
 
 #. type: Content of: <section><section><para><example><para><figure><screenshot>
 #: en/content/customization/acl.xml:303
-msgid "<graphic scale=\"40\" fileref=\"screenshots/acl-state.png\"></graphic>"
+msgid ""
+"<graphic scale=\"40\" "
+"fileref=\"screenshots/customization/acl-state.png\"></graphic>"
 msgstr ""
 
 #. type: Content of: <section><section><para><example><programlisting>
@@ -6256,7 +6267,7 @@ msgstr ""
 #: en/content/customization/acl.xml:339
 msgid ""
 "<graphic scale=\"40\" "
-"fileref=\"screenshots/acl-new-ticket-service.png\"></graphic>"
+"fileref=\"screenshots/customization/acl-new-ticket-service.png\"></graphic>"
 msgstr ""
 
 #. type: Content of: <section><section><para><example><programlisting>
@@ -6296,7 +6307,7 @@ msgstr ""
 #: en/content/customization/acl.xml:373
 msgid ""
 "<graphic scale=\"40\" "
-"fileref=\"screenshots/acl-disallow-process-for-customerid.png\"></graphic>"
+"fileref=\"screenshots/customization/acl-disallow-process-for-customerid.png\"></graphic>"
 msgstr ""
 
 #. type: Content of: <section><section><para><example><programlisting>
@@ -7096,7 +7107,7 @@ msgstr ""
 
 #. type: Content of: <section><title>
 #: en/content/administration/adminarea.xml:7
-msgid "The administration area of OTRS"
+msgid "The Administration Area of OTRS"
 msgstr ""
 
 #. type: Content of: <section><para>
@@ -7113,18 +7124,20 @@ msgstr ""
 msgid ""
 "Agents who are members of the <emphasis>admin</emphasis> group can access "
 "the Admin area by clicking the <emphasis>Admin</emphasis> link in the "
-"navigation bar (see Figure below). Agents without sufficiently elevated "
+"navigation bar (see figure below). Agents without sufficiently elevated "
 "access rights will not be able to access this link."
 msgstr ""
 
 #. type: Content of: <section><para><figure><title>
 #: en/content/administration/adminarea/basics.xml:24
-msgid "OTRS administration overview screen"
+msgid "OTRS Administration Overview Screen"
 msgstr ""
 
 #. type: Content of: <section><para><figure><screenshot>
 #: en/content/administration/adminarea/basics.xml:26
-msgid "<graphic scale=\"40\" fileref=\"screenshots/adminarea.png\"></graphic>"
+msgid ""
+"<graphic scale=\"40\" "
+"fileref=\"screenshots/administration/adminarea/adminarea.png\"></graphic>"
 msgstr ""
 
 #. type: Content of: <section><title>
@@ -7141,7 +7154,7 @@ msgstr ""
 #: en/content/administration/adminarea/agents-groups-roles.xml:12
 msgid ""
 "By clicking the link <emphasis>Agents</emphasis>, you get access to the "
-"agent management screen of OTRS (see Figure below). Administrators can add, "
+"agent management screen of OTRS (see figure below). Administrators can add, "
 "change or deactivate agent accounts. Furthermore they can also manage agent "
 "preferences, including the language and notification settings for the "
 "individual agent's interface."
@@ -7157,12 +7170,14 @@ msgstr ""
 
 #. type: Content of: <section><section><para><figure><title>
 #: en/content/administration/adminarea/agents-groups-roles.xml:23
-msgid "Agent management"
+msgid "Agent Management"
 msgstr ""
 
 #. type: Content of: <section><section><para><figure><screenshot>
 #: en/content/administration/adminarea/agents-groups-roles.xml:25
-msgid "<graphic scale=\"40\" fileref=\"screenshots/admin-agents.png\"></graphic>"
+msgid ""
+"<graphic scale=\"40\" "
+"fileref=\"screenshots/administration/adminarea/admin-agents.png\"></graphic>"
 msgstr ""
 
 #. type: Content of: <section><section><para>
@@ -7180,7 +7195,9 @@ msgstr ""
 
 #. type: Content of: <section><section><para><figure><screenshot>
 #: en/content/administration/adminarea/agents-groups-roles.xml:38
-msgid "<graphic scale=\"40\" fileref=\"screenshots/add-agent.png\"></graphic>"
+msgid ""
+"<graphic scale=\"40\" "
+"fileref=\"screenshots/administration/adminarea/add-agent.png\"></graphic>"
 msgstr ""
 
 #. type: Content of: <section><section><para>
@@ -7216,7 +7233,7 @@ msgid "Group"
 msgstr ""
 
 #. type: Content of: <appendix><variablelist><varlistentry><listitem><para><table><tgroup><thead><row><entry>
-#: en/content/administration/adminarea/agents-groups-roles.xml:63 en/content/administration/adminarea/agents-groups-roles.xml:162 en/content/administration/adminarea/agents-groups-roles.xml:237 en/content/administration/adminarea/autoresponses.xml:51 en/content/administration/adminarea/postmasterfilter.xml:43 en/content/additional-resources.xml:40
+#: en/content/administration/adminarea/agents-groups-roles.xml:63 en/content/administration/adminarea/agents-groups-roles.xml:162 en/content/administration/adminarea/agents-groups-roles.xml:237 en/content/administration/adminarea/autoresponses.xml:51 en/content/administration/adminarea/postmasterfilter.xml:43 en/content/additional-resources.xml:31
 msgid "Description"
 msgstr ""
 
@@ -7253,7 +7270,7 @@ msgid ""
 msgstr ""
 
 #. type: Content of: <appendix><variablelist><varlistentry><listitem><para>
-#: en/content/administration/adminarea/agents-groups-roles.xml:57 en/content/administration/adminarea/agents-groups-roles.xml:153 en/content/administration/adminarea/agents-groups-roles.xml:231 en/content/additional-resources.xml:31
+#: en/content/administration/adminarea/agents-groups-roles.xml:57 en/content/administration/adminarea/agents-groups-roles.xml:153 en/content/administration/adminarea/agents-groups-roles.xml:231 en/content/additional-resources.xml:25
 msgid "<placeholder type=\"table\" id=\"0\"/>"
 msgstr ""
 
@@ -7268,18 +7285,20 @@ msgstr ""
 #. type: Content of: <section><section><para>
 #: en/content/administration/adminarea/agents-groups-roles.xml:95
 msgid ""
-"You can access the group management page (see Figure below) by clicking the "
+"You can access the group management page (see figure below) by clicking the "
 "<emphasis>Groups</emphasis> link in the admin area."
 msgstr ""
 
 #. type: Content of: <section><section><para><figure><title>
-#: en/content/administration/adminarea/agents-groups-roles.xml:100 en/content/administration/adminarea/agents-groups-roles.xml:119
+#: en/content/administration/adminarea/agents-groups-roles.xml:100
 msgid "Group management"
 msgstr ""
 
 #. type: Content of: <section><section><para><figure><screenshot>
 #: en/content/administration/adminarea/agents-groups-roles.xml:102
-msgid "<graphic scale=\"40\" fileref=\"screenshots/admin-groups.png\"></graphic>"
+msgid ""
+"<graphic scale=\"40\" "
+"fileref=\"screenshots/administration/adminarea/admin-groups.png\"></graphic>"
 msgstr ""
 
 #. type: Content of: <section><section><note><para>
@@ -7295,14 +7314,19 @@ msgstr ""
 msgid ""
 "To add an agent to a group, or to change the agents who belong to a group, "
 "you can use the link <emphasis>Agents &lt;-&gt; Groups</emphasis> from the "
-"Admin page (see Figure below)."
+"Admin page (see figure below)."
+msgstr ""
+
+#. type: Content of: <section><section><para><figure><title>
+#: en/content/administration/adminarea/agents-groups-roles.xml:119
+msgid "Agent &lt;-&gt; group management"
 msgstr ""
 
 #. type: Content of: <section><section><para><figure><screenshot>
 #: en/content/administration/adminarea/agents-groups-roles.xml:121
 msgid ""
 "<graphic scale=\"40\" "
-"fileref=\"screenshots/admin-agents-and-groups.png\"></graphic>"
+"fileref=\"screenshots/administration/adminarea/admin-agents-and-groups.png\"></graphic>"
 msgstr ""
 
 #. type: Content of: <section><section><para>
@@ -7311,8 +7335,8 @@ msgid ""
 "An overview of all groups and agents in the system is displayed on this "
 "page. You can also use the available filters to find a specific entity. If "
 "you want to change the groups that an agent is a member of, just click on "
-"the agent's name (see Figure below). To change the agents associated with a "
-"group, just click on the group you want to edit (see Figure below)."
+"the agent's name (see figure below). To change the agents associated with a "
+"group, just click on the group you want to edit (see figure below)."
 msgstr ""
 
 #. type: Content of: <section><section><para><figure><title>
@@ -7324,7 +7348,7 @@ msgstr ""
 #: en/content/administration/adminarea/agents-groups-roles.xml:134
 msgid ""
 "<graphic scale=\"40\" "
-"fileref=\"screenshots/agent-group-relations.png\"></graphic>"
+"fileref=\"screenshots/administration/adminarea/agent-group-relations.png\"></graphic>"
 msgstr ""
 
 #. type: Content of: <section><section><para><figure><title>
@@ -7336,7 +7360,7 @@ msgstr ""
 #: en/content/administration/adminarea/agents-groups-roles.xml:143
 msgid ""
 "<graphic scale=\"40\" "
-"fileref=\"screenshots/agent-group-relations2.png\"></graphic>"
+"fileref=\"screenshots/administration/adminarea/agent-group-relations2.png\"></graphic>"
 msgstr ""
 
 #. type: Content of: <section><section><para>
@@ -7349,7 +7373,7 @@ msgstr ""
 
 #. type: Content of: <section><section><para><table><title>
 #: en/content/administration/adminarea/agents-groups-roles.xml:154
-msgid "Rights associated with OTRS Groups"
+msgid "Rights associated with OTRS groups"
 msgstr ""
 
 #. type: Content of: <section><section><para><table><tgroup><thead><row><entry>
@@ -7590,7 +7614,7 @@ msgstr ""
 #. type: Content of: <section><section><para>
 #: en/content/administration/adminarea/agents-groups-roles.xml:311
 msgid ""
-"You can access the role management section (see Figure below ) by clicking "
+"You can access the role management section (see figure below ) by clicking "
 "the <emphasis>Roles</emphasis> link on the Admin page."
 msgstr ""
 
@@ -7601,7 +7625,9 @@ msgstr ""
 
 #. type: Content of: <section><section><para><figure><screenshot>
 #: en/content/administration/adminarea/agents-groups-roles.xml:318
-msgid "<graphic scale=\"40\" fileref=\"screenshots/admin-roles.png\"></graphic>"
+msgid ""
+"<graphic scale=\"40\" "
+"fileref=\"screenshots/administration/adminarea/admin-roles.png\"></graphic>"
 msgstr ""
 
 #. type: Content of: <section><section><note><para>
@@ -7618,7 +7644,7 @@ msgid ""
 "An overview of all roles in the system is displayed. To edit a role's "
 "settings, click on the role's name. In a fresh new OTRS installation, there "
 "are no roles defined by default. To register one, click on the \"Add role\" "
-"button, provide the needed data and submit it (see Figure below)."
+"button, provide the needed data and submit it (see figure below)."
 msgstr ""
 
 #. type: Content of: <section><section><para><figure><title>
@@ -7628,7 +7654,9 @@ msgstr ""
 
 #. type: Content of: <section><section><para><figure><screenshot>
 #: en/content/administration/adminarea/agents-groups-roles.xml:337
-msgid "<graphic scale=\"40\" fileref=\"screenshots/add-role.png\"></graphic>"
+msgid ""
+"<graphic scale=\"40\" "
+"fileref=\"screenshots/administration/adminarea/add-role.png\"></graphic>"
 msgstr ""
 
 #. type: Content of: <section><section><para>
@@ -7637,33 +7665,33 @@ msgid ""
 "To get an overview of all roles and agents in the system, click on the link "
 "Roles &lt;-&gt; Agents on the Admin page. You can also use filters to find a "
 "specific element. If you want to change the roles associated with an agent, "
-"just click on the agent's name (see Figure below). To change the agents "
-"associated with a role, click on the role you want to edit (see Figure "
+"just click on the agent's name (see figure below). To change the agents "
+"associated with a role, click on the role you want to edit (see figure "
 "below)."
 msgstr ""
 
 #. type: Content of: <section><section><para><figure><title>
 #: en/content/administration/adminarea/agents-groups-roles.xml:349
-msgid "Change the Roles associated with an Agent"
+msgid "Change the roles associated with an agent"
 msgstr ""
 
 #. type: Content of: <section><section><para><figure><screenshot>
 #: en/content/administration/adminarea/agents-groups-roles.xml:351
 msgid ""
 "<graphic scale=\"40\" "
-"fileref=\"screenshots/admin-roles-agents-relation.png\"></graphic>"
+"fileref=\"screenshots/administration/adminarea/admin-roles-agents-relation.png\"></graphic>"
 msgstr ""
 
 #. type: Content of: <section><section><para><figure><title>
 #: en/content/administration/adminarea/agents-groups-roles.xml:358
-msgid "Change the Agents associated with a specific Role"
+msgid "Change the agents associated with a specific role"
 msgstr ""
 
 #. type: Content of: <section><section><para><figure><screenshot>
 #: en/content/administration/adminarea/agents-groups-roles.xml:360
 msgid ""
 "<graphic scale=\"40\" "
-"fileref=\"screenshots/admin-roles-agents-relation2.png\"></graphic>"
+"fileref=\"screenshots/administration/adminarea/admin-roles-agents-relation2.png\"></graphic>"
 msgstr ""
 
 #. type: Content of: <section><section><para>
@@ -7677,14 +7705,14 @@ msgstr ""
 
 #. type: Content of: <section><section><para><figure><title>
 #: en/content/administration/adminarea/agents-groups-roles.xml:371
-msgid "Manage Roles-Groups relations"
+msgid "Manage roles-groups relations"
 msgstr ""
 
 #. type: Content of: <section><section><para><figure><screenshot>
 #: en/content/administration/adminarea/agents-groups-roles.xml:373
 msgid ""
 "<graphic scale=\"40\" "
-"fileref=\"screenshots/admin-roles-groups.png\"></graphic>"
+"fileref=\"screenshots/administration/adminarea/admin-roles-groups.png\"></graphic>"
 msgstr ""
 
 #. type: Content of: <section><section><para>
@@ -7696,26 +7724,26 @@ msgstr ""
 
 #. type: Content of: <section><section><para><figure><title>
 #: en/content/administration/adminarea/agents-groups-roles.xml:384
-msgid "Change Group relations for a Role"
+msgid "Change group relations for a role"
 msgstr ""
 
 #. type: Content of: <section><section><para><figure><screenshot>
 #: en/content/administration/adminarea/agents-groups-roles.xml:386
 msgid ""
 "<graphic scale=\"40\" "
-"fileref=\"screenshots/groups-roles-relations.png\"></graphic>"
+"fileref=\"screenshots/administration/adminarea/groups-roles-relations.png\"></graphic>"
 msgstr ""
 
 #. type: Content of: <section><section><para><figure><title>
 #: en/content/administration/adminarea/agents-groups-roles.xml:393
-msgid "Change Role relations for a Group"
+msgid "Change role relations for a group"
 msgstr ""
 
 #. type: Content of: <section><section><para><figure><screenshot>
 #: en/content/administration/adminarea/agents-groups-roles.xml:395
 msgid ""
 "<graphic scale=\"40\" "
-"fileref=\"screenshots/groups-roles-relations2.png\"></graphic>"
+"fileref=\"screenshots/administration/adminarea/groups-roles-relations2.png\"></graphic>"
 msgstr ""
 
 #. type: Content of: <section><title>
@@ -7733,7 +7761,7 @@ msgstr ""
 msgid ""
 "OTRS supports different types of users. Using the link \"Customers\" (via "
 "the navigation bar, or the Admin page), you can manage the accounts of your "
-"customers (see Figure below), who can log into the system via the Customers "
+"customers (see figure below), who can log into the system via the Customers "
 "interface (customer.pl). Through this interface, your customers can not only "
 "create tickets but also review their past tickets for new updates. It is "
 "important to know that a customer is needed for the ticket history in the "
@@ -7747,7 +7775,9 @@ msgstr ""
 
 #. type: Content of: <section><section><para><figure><screenshot>
 #: en/content/administration/adminarea/customers-and-groups.xml:19
-msgid "<graphic scale=\"40\" fileref=\"screenshots/admin-customer.png\"></graphic>"
+msgid ""
+"<graphic scale=\"40\" "
+"fileref=\"screenshots/administration/adminarea/admin-customer.png\"></graphic>"
 msgstr ""
 
 #. type: Content of: <section><section><para>
@@ -7763,7 +7793,7 @@ msgstr ""
 #: en/content/administration/adminarea/customers-and-groups.xml:29
 msgid ""
 "To create a new customer account, click on the \"Add customer\" button (see "
-"Figure below). Some of the fields are mandatory, i.e., they have to contain "
+"figure below). Some of the fields are mandatory, i.e., they have to contain "
 "values, so if you leave one of those empty, it will be highlighted in red."
 msgstr ""
 
@@ -7774,7 +7804,9 @@ msgstr ""
 
 #. type: Content of: <section><section><para><figure><screenshot>
 #: en/content/administration/adminarea/customers-and-groups.xml:36
-msgid "<graphic scale=\"40\" fileref=\"screenshots/add-customer.png\"></graphic>"
+msgid ""
+"<graphic scale=\"40\" "
+"fileref=\"screenshots/administration/adminarea/add-customer.png\"></graphic>"
 msgstr ""
 
 #. type: Content of: <section><section><para>
@@ -7826,7 +7858,7 @@ msgstr ""
 #: en/content/administration/adminarea/customers-and-groups.xml:65
 msgid ""
 "Through the link \"Customers &lt;-&gt; Groups\" you can manage which "
-"customer shall belong to the different groups (see Figure below)."
+"customer shall belong to the different groups (see figure below)."
 msgstr ""
 
 #. type: Content of: <section><section><para><figure><title>
@@ -7838,7 +7870,7 @@ msgstr ""
 #: en/content/administration/adminarea/customers-and-groups.xml:72
 msgid ""
 "<graphic scale=\"40\" "
-"fileref=\"screenshots/admin-customer-groups.png\"></graphic>"
+"fileref=\"screenshots/administration/adminarea/admin-customer-groups.png\"></graphic>"
 msgstr ""
 
 #. type: Content of: <section><section><para>
@@ -7858,7 +7890,7 @@ msgstr ""
 #: en/content/administration/adminarea/customers-and-groups.xml:85
 msgid ""
 "<graphic scale=\"40\" "
-"fileref=\"screenshots/groups-customers-relations.png\"></graphic>"
+"fileref=\"screenshots/administration/adminarea/groups-customers-relations.png\"></graphic>"
 msgstr ""
 
 #. type: Content of: <section><section><para><figure><title>
@@ -7870,7 +7902,7 @@ msgstr ""
 #: en/content/administration/adminarea/customers-and-groups.xml:94
 msgid ""
 "<graphic scale=\"40\" "
-"fileref=\"screenshots/groups-customers-relations2.png\"></graphic>"
+"fileref=\"screenshots/administration/adminarea/groups-customers-relations2.png\"></graphic>"
 msgstr ""
 
 #. type: Content of: <chapter><section><itemizedlist><listitem><itemizedlist><listitem><para>
@@ -7882,7 +7914,7 @@ msgstr ""
 #: en/content/administration/adminarea/queues.xml:9
 msgid ""
 "Clicking on the link \"Queues\" of the Admin page, you can manage the <link "
-"linkend=\"what-is-a-queue\">queues</link> of your system (see Figure "
+"linkend=\"what-is-a-queue\">queues</link> of your system (see figure "
 "below). In a new OTRS installation there are 4 default queues: Raw, Junk, "
 "Misc and Postmaster. All incoming messages will be stored in the \"Raw\" "
 "queue if no filter rules are defined. The \"Junk\" queue can be used to "
@@ -7896,13 +7928,15 @@ msgstr ""
 
 #. type: Content of: <section><para><figure><screenshot>
 #: en/content/administration/adminarea/queues.xml:16
-msgid "<graphic scale=\"40\" fileref=\"screenshots/admin-queue.png\"></graphic>"
+msgid ""
+"<graphic scale=\"40\" "
+"fileref=\"screenshots/administration/adminarea/admin-queue.png\"></graphic>"
 msgstr ""
 
 #. type: Content of: <section><para>
 #: en/content/administration/adminarea/queues.xml:22
 msgid ""
-"Here you can add queues (see Figure below) and modify them. You can specify "
+"Here you can add queues (see figure below) and modify them. You can specify "
 "the group that should use the queue. You can also set the queue as a "
 "sub-queue of an existing queue."
 msgstr ""
@@ -7914,7 +7948,9 @@ msgstr ""
 
 #. type: Content of: <section><para><figure><screenshot>
 #: en/content/administration/adminarea/queues.xml:29
-msgid "<graphic scale=\"40\" fileref=\"screenshots/add-queue.png\"></graphic>"
+msgid ""
+"<graphic scale=\"40\" "
+"fileref=\"screenshots/administration/adminarea/add-queue.png\"></graphic>"
 msgstr ""
 
 #. type: Content of: <section><para>
@@ -8002,7 +8038,7 @@ msgstr ""
 
 #. type: Content of: <section><title>
 #: en/content/administration/adminarea/salutations-signatures-attachments-templates.xml:6
-msgid "Salutations, signatures, attachments and templates"
+msgid "Salutations, Signatures, Attachments and Templates"
 msgstr ""
 
 #. type: Content of: <section><section><title>
@@ -8018,7 +8054,7 @@ msgid ""
 "linkend=\"adminarea-queue\">queues</link>. A salutation is used only if a "
 "ticket from a queue the salutation is linked to, is answered. To manage the "
 "different salutations of your system, use the \"Salutations\" link of the "
-"admin area (see Figure below)."
+"admin area (see figure below)."
 msgstr ""
 
 #. type: Content of: <section><section><para><figure><title>
@@ -8030,7 +8066,7 @@ msgstr ""
 #: en/content/administration/adminarea/salutations-signatures-attachments-templates.xml:20
 msgid ""
 "<graphic scale=\"40\" "
-"fileref=\"screenshots/admin-salutation.png\"></graphic>"
+"fileref=\"screenshots/administration/adminarea/admin-salutation.png\"></graphic>"
 msgstr ""
 
 #. type: Content of: <section><section><para>
@@ -8044,7 +8080,7 @@ msgstr ""
 #: en/content/administration/adminarea/salutations-signatures-attachments-templates.xml:30
 msgid ""
 "To create a new salutation, press the button \"Add salutation\", provide the "
-"required data and submit it (see Figure below)."
+"required data and submit it (see figure below)."
 msgstr ""
 
 #. type: Content of: <section><section><para><figure><title>
@@ -8054,7 +8090,9 @@ msgstr ""
 
 #. type: Content of: <section><section><para><figure><screenshot>
 #: en/content/administration/adminarea/salutations-signatures-attachments-templates.xml:37
-msgid "<graphic scale=\"40\" fileref=\"screenshots/add-salutation.png\"></graphic>"
+msgid ""
+"<graphic scale=\"40\" "
+"fileref=\"screenshots/administration/adminarea/add-salutation.png\"></graphic>"
 msgstr ""
 
 #. type: Content of: <section><section><para>
@@ -8094,7 +8132,7 @@ msgid ""
 "linkend=\"adminarea-queue\">queues</link>. Please note that a signature will "
 "only be appended to a template text, if it has previously been linked to a "
 "queue. You can manage the signatures in your system by accessing the "
-"\"Signatures\" link of the Admin page, (see Figure below)."
+"\"Signatures\" link of the Admin page, (see figure below)."
 msgstr ""
 
 #. type: Content of: <section><section><para><figure><title>
@@ -8106,7 +8144,7 @@ msgstr ""
 #: en/content/administration/adminarea/salutations-signatures-attachments-templates.xml:69
 msgid ""
 "<graphic scale=\"40\" "
-"fileref=\"screenshots/admin-signatures.png\"></graphic>"
+"fileref=\"screenshots/administration/adminarea/admin-signatures.png\"></graphic>"
 msgstr ""
 
 #. type: Content of: <section><section><para>
@@ -8120,7 +8158,7 @@ msgstr ""
 #: en/content/administration/adminarea/salutations-signatures-attachments-templates.xml:79
 msgid ""
 "To create a new signature, press the button \"Add signature\", provide the "
-"needed data and submit it (see Figure below)."
+"needed data and submit it (see figure below)."
 msgstr ""
 
 #. type: Content of: <section><section><para><figure><title>
@@ -8130,7 +8168,9 @@ msgstr ""
 
 #. type: Content of: <section><section><para><figure><screenshot>
 #: en/content/administration/adminarea/salutations-signatures-attachments-templates.xml:86
-msgid "<graphic scale=\"40\" fileref=\"screenshots/add-signature.png\"></graphic>"
+msgid ""
+"<graphic scale=\"40\" "
+"fileref=\"screenshots/administration/adminarea/add-signature.png\"></graphic>"
 msgstr ""
 
 #. type: Content of: <section><section><para>
@@ -8171,7 +8211,7 @@ msgstr ""
 #: en/content/administration/adminarea/salutations-signatures-attachments-templates.xml:111
 msgid ""
 "Through the \"Attachment\" link of the Admin page, you can load the "
-"attachments into the database of the system (see Figure below)."
+"attachments into the database of the system (see figure below)."
 msgstr ""
 
 #. type: Content of: <section><section><para><figure><title>
@@ -8183,14 +8223,14 @@ msgstr ""
 #: en/content/administration/adminarea/salutations-signatures-attachments-templates.xml:118
 msgid ""
 "<graphic scale=\"40\" "
-"fileref=\"screenshots/admin-attachment.png\"></graphic>"
+"fileref=\"screenshots/administration/adminarea/admin-attachment.png\"></graphic>"
 msgstr ""
 
 #. type: Content of: <section><section><para>
 #: en/content/administration/adminarea/salutations-signatures-attachments-templates.xml:124
 msgid ""
 "To create a new attachment, press the button \"Add attachment\", provide the "
-"required data and submit it (see Figure below)."
+"required data and submit it (see figure below)."
 msgstr ""
 
 #. type: Content of: <section><section><para><figure><title>
@@ -8200,14 +8240,16 @@ msgstr ""
 
 #. type: Content of: <section><section><para><figure><screenshot>
 #: en/content/administration/adminarea/salutations-signatures-attachments-templates.xml:131
-msgid "<graphic scale=\"40\" fileref=\"screenshots/add-attachment.png\"></graphic>"
+msgid ""
+"<graphic scale=\"40\" "
+"fileref=\"screenshots/administration/adminarea/add-attachment.png\"></graphic>"
 msgstr ""
 
 #. type: Content of: <section><section><para>
 #: en/content/administration/adminarea/salutations-signatures-attachments-templates.xml:137
 msgid ""
 "If an attachment is stored it can be linked to one or more templates. Click "
-"on the \"Attachment &lt;-&gt; Templates\" link of the Admin page (see Figure "
+"on the \"Attachment &lt;-&gt; Templates\" link of the Admin page (see figure "
 "below)."
 msgstr ""
 
@@ -8220,7 +8262,7 @@ msgstr ""
 #: en/content/administration/adminarea/salutations-signatures-attachments-templates.xml:145
 msgid ""
 "<graphic scale=\"40\" "
-"fileref=\"screenshots/admin-attachment-template.png\"></graphic>"
+"fileref=\"screenshots/administration/adminarea/admin-attachment-template.png\"></graphic>"
 msgstr ""
 
 #. type: Content of: <section><section><para>
@@ -8240,7 +8282,7 @@ msgstr ""
 #: en/content/administration/adminarea/salutations-signatures-attachments-templates.xml:158
 msgid ""
 "<graphic scale=\"40\" "
-"fileref=\"screenshots/template-attachment-relations.png\"></graphic>"
+"fileref=\"screenshots/administration/adminarea/template-attachment-relations.png\"></graphic>"
 msgstr ""
 
 #. type: Content of: <section><section><para><figure><title>
@@ -8252,7 +8294,7 @@ msgstr ""
 #: en/content/administration/adminarea/salutations-signatures-attachments-templates.xml:167
 msgid ""
 "<graphic scale=\"40\" "
-"fileref=\"screenshots/template-attachment-relations2.png\"></graphic>"
+"fileref=\"screenshots/administration/adminarea/template-attachment-relations2.png\"></graphic>"
 msgstr ""
 
 #. type: Content of: <section><section><title>
@@ -8330,7 +8372,7 @@ msgstr ""
 #: en/content/administration/adminarea/salutations-signatures-attachments-templates.xml:224
 msgid ""
 "Clicking the \"Templates\" link on the Admin page brings you to the Template "
-"management screen (see Figure below)."
+"management screen (see figure below)."
 msgstr ""
 
 #. type: Content of: <section><section><para><figure><title>
@@ -8340,7 +8382,9 @@ msgstr ""
 
 #. type: Content of: <section><section><para><figure><screenshot>
 #: en/content/administration/adminarea/salutations-signatures-attachments-templates.xml:232
-msgid "<graphic scale=\"40\" fileref=\"screenshots/admin-template.png\"></graphic>"
+msgid ""
+"<graphic scale=\"40\" "
+"fileref=\"screenshots/administration/adminarea/admin-template.png\"></graphic>"
 msgstr ""
 
 #. type: Content of: <section><section><para>
@@ -8348,7 +8392,7 @@ msgstr ""
 msgid ""
 "To create a new template, click on the \"Add template\" button, provide the "
 "required data (make sure to select the appropriate template type) and submit "
-"it (see Figure below)."
+"it (see figure below)."
 msgstr ""
 
 #. type: Content of: <section><section><para><figure><title>
@@ -8358,14 +8402,16 @@ msgstr ""
 
 #. type: Content of: <section><section><para><figure><screenshot>
 #: en/content/administration/adminarea/salutations-signatures-attachments-templates.xml:246
-msgid "<graphic scale=\"40\" fileref=\"screenshots/add-template.png\"></graphic>"
+msgid ""
+"<graphic scale=\"40\" "
+"fileref=\"screenshots/administration/adminarea/add-template.png\"></graphic>"
 msgstr ""
 
 #. type: Content of: <section><section><para>
 #: en/content/administration/adminarea/salutations-signatures-attachments-templates.xml:252
 msgid ""
 "To add/remove templates to one or more queues, click on the \"Templates "
-"&lt;-&gt; Queues\" link on the Admin page (see Figure below). You can also "
+"&lt;-&gt; Queues\" link on the Admin page (see figure below). You can also "
 "use filters to get information regarding a specific entity."
 msgstr ""
 
@@ -8378,7 +8424,7 @@ msgstr ""
 #: en/content/administration/adminarea/salutations-signatures-attachments-templates.xml:259
 msgid ""
 "<graphic scale=\"40\" "
-"fileref=\"screenshots/admin-template-queue.png\"></graphic>"
+"fileref=\"screenshots/administration/adminarea/admin-template-queue.png\"></graphic>"
 msgstr ""
 
 #. type: Content of: <section><section><para>
@@ -8398,7 +8444,7 @@ msgstr ""
 #: en/content/administration/adminarea/salutations-signatures-attachments-templates.xml:272
 msgid ""
 "<graphic scale=\"40\" "
-"fileref=\"screenshots/template-queue-relations.png\"></graphic>"
+"fileref=\"screenshots/administration/adminarea/template-queue-relations.png\"></graphic>"
 msgstr ""
 
 #. type: Content of: <section><section><para><figure><title>
@@ -8410,7 +8456,7 @@ msgstr ""
 #: en/content/administration/adminarea/salutations-signatures-attachments-templates.xml:281
 msgid ""
 "<graphic scale=\"40\" "
-"fileref=\"screenshots/template-queue-relations2.png\"></graphic>"
+"fileref=\"screenshots/administration/adminarea/template-queue-relations2.png\"></graphic>"
 msgstr ""
 
 #. type: Content of: <section><section><para>
@@ -8446,7 +8492,7 @@ msgstr ""
 
 #. type: Content of: <section><title>
 #: en/content/administration/adminarea/autoresponses.xml:6
-msgid "Auto responses"
+msgid "Auto Responses"
 msgstr ""
 
 #. type: Content of: <section><para>
@@ -8456,38 +8502,38 @@ msgid ""
 "occurrence of certain events, such as the creation of a ticket in a specific "
 "queue, the receipt of a follow-up message in regards to a ticket, the "
 "closure or rejection of a ticket, etc. To manage such responses, click the "
-"link \"Auto responses\" on the Admin page (see Figure below)."
+"link \"Auto responses\" on the Admin page (see figure below)."
 msgstr ""
 
 #. type: Content of: <section><para><figure><title>
 #: en/content/administration/adminarea/autoresponses.xml:14
-msgid "Auto Response management"
+msgid "Auto response management"
 msgstr ""
 
 #. type: Content of: <section><para><figure><screenshot>
 #: en/content/administration/adminarea/autoresponses.xml:16
 msgid ""
 "<graphic scale=\"40\" "
-"fileref=\"screenshots/admin-autoresponse.png\"></graphic>"
+"fileref=\"screenshots/administration/adminarea/admin-autoresponse.png\"></graphic>"
 msgstr ""
 
 #. type: Content of: <section><para>
 #: en/content/administration/adminarea/autoresponses.xml:22
 msgid ""
 "To create an automatic response, click on the button \"Add auto response\", "
-"provide the needed data and submit it (see Figure below)."
+"provide the needed data and submit it (see figure below)."
 msgstr ""
 
 #. type: Content of: <section><para><figure><title>
 #: en/content/administration/adminarea/autoresponses.xml:27
-msgid "Adding an Auto Response"
+msgid "Adding an auto response"
 msgstr ""
 
 #. type: Content of: <section><para><figure><screenshot>
 #: en/content/administration/adminarea/autoresponses.xml:29
 msgid ""
 "<graphic scale=\"40\" "
-"fileref=\"screenshots/add-autoresponse.png\"></graphic>"
+"fileref=\"screenshots/administration/adminarea/add-autoresponse.png\"></graphic>"
 msgstr ""
 
 #. type: Content of: <section><para>
@@ -8511,7 +8557,7 @@ msgstr ""
 
 #. type: Content of: <section><table><title>
 #: en/content/administration/adminarea/autoresponses.xml:43
-msgid "Events for Auto answers"
+msgid "Events for auto responses"
 msgstr ""
 
 #. type: Content of: <section><table><tgroup><tbody><row><entry>
@@ -8578,47 +8624,47 @@ msgstr ""
 #: en/content/administration/adminarea/autoresponses.xml:107
 msgid ""
 "To add an auto response to a queue, use the \"Auto Response &lt;-&gt; "
-"Queues\" link on the Admin page (see Figure below). All system events are "
+"Queues\" link on the Admin page (see figure below). All system events are "
 "listed for every queue, and an auto answer with the same event can be "
 "selected or removed via a listbox."
 msgstr ""
 
 #. type: Content of: <section><para><figure><title>
 #: en/content/administration/adminarea/autoresponses.xml:112
-msgid "Queue-Auto Response relations management"
+msgid "Queue &lt;-&gt; auto response relations management"
 msgstr ""
 
 #. type: Content of: <section><para><figure><screenshot>
 #: en/content/administration/adminarea/autoresponses.xml:114
 msgid ""
 "<graphic scale=\"40\" "
-"fileref=\"screenshots/admin-autoresponse-queue.png\"></graphic>"
+"fileref=\"screenshots/administration/adminarea/admin-autoresponse-queue.png\"></graphic>"
 msgstr ""
 
 #. type: Content of: <section><para>
 #: en/content/administration/adminarea/autoresponses.xml:120
 msgid ""
 "To define the different auto responses that will be available for a queue, "
-"click on the corresponding queue name (see Figure below). It is also "
+"click on the corresponding queue name (see figure below). It is also "
 "possible to edit an existing auto response - to do so, click on the response "
 "and edit in the same manner as editing a new auto response."
 msgstr ""
 
 #. type: Content of: <section><para><figure><title>
 #: en/content/administration/adminarea/autoresponses.xml:125
-msgid "Change Auto Response relations for a Queue"
+msgid "Change auto response relations for a queue"
 msgstr ""
 
 #. type: Content of: <section><para><figure><screenshot>
 #: en/content/administration/adminarea/autoresponses.xml:127
 msgid ""
 "<graphic scale=\"40\" "
-"fileref=\"screenshots/autoresponses-queues-relations.png\"></graphic>"
+"fileref=\"screenshots/administration/adminarea/autoresponses-queues-relations.png\"></graphic>"
 msgstr ""
 
 #. type: Content of: <section><title>
 #: en/content/administration/adminarea/emailaddresses.xml:6
-msgid "Email addresses"
+msgid "System Email Addresses"
 msgstr ""
 
 #. type: Content of: <section><para>
@@ -8630,23 +8676,25 @@ msgid ""
 "to many email addresses, and vice versa. The address used for outgoing "
 "messages from a queue can be set when the queue is created. Use the \"Email "
 "Addresses\" link from the Admin page to manage all email addresses of the "
-"system (see Figure below)."
+"system (see figure below)."
 msgstr ""
 
 #. type: Content of: <section><para><figure><title>
 #: en/content/administration/adminarea/emailaddresses.xml:14
-msgid "System Email Addresses management"
+msgid "System email addresses management"
 msgstr ""
 
 #. type: Content of: <section><para><figure><screenshot>
 #: en/content/administration/adminarea/emailaddresses.xml:16
-msgid "<graphic scale=\"40\" fileref=\"screenshots/admin-email.png\"></graphic>"
+msgid ""
+"<graphic scale=\"40\" "
+"fileref=\"screenshots/administration/adminarea/admin-email.png\"></graphic>"
 msgstr ""
 
 #. type: Content of: <section><para>
 #: en/content/administration/adminarea/emailaddresses.xml:22
 msgid ""
-"If you create a new mail address (see Figure below),you can select the queue "
+"If you create a new mail address (see figure below),you can select the queue "
 "or sub queue to be linked with it. This link enables the system to sort "
 "incoming messages via the address in the To: field of the mail into the "
 "right queue."
@@ -8654,12 +8702,14 @@ msgstr ""
 
 #. type: Content of: <section><para><figure><title>
 #: en/content/administration/adminarea/emailaddresses.xml:27
-msgid "Adding a system Email Address"
+msgid "Adding a system email address"
 msgstr ""
 
 #. type: Content of: <section><para><figure><screenshot>
 #: en/content/administration/adminarea/emailaddresses.xml:29
-msgid "<graphic scale=\"40\" fileref=\"screenshots/add-email.png\"></graphic>"
+msgid ""
+"<graphic scale=\"40\" "
+"fileref=\"screenshots/administration/adminarea/add-email.png\"></graphic>"
 msgstr ""
 
 #. type: Content of: <section><note><para>
@@ -8678,120 +8728,119 @@ msgstr ""
 #. type: Content of: <section><para>
 #: en/content/administration/adminarea/ticket-notifications.xml:9
 msgid ""
-"OTRS allows notifications to be sent to agents and customers, based on the "
-"occurrence of certain events. Agents can set the system events for their own "
-"notifications via the <link linkend=\"user-preferences\">preferences</link> "
-"link."
-msgstr ""
-
-#. type: Content of: <section><para>
-#: en/content/administration/adminarea/ticket-notifications.xml:13
-msgid ""
-"Through the \"Agent Notifications\" link on the Admin page, you can manage "
-"the notifications of your system (see Figure below). You can use filters to "
-"list only certain notifications."
+"OTRS allows ticket notifications to be sent to agents and customers, based "
+"on the occurrence of certain events.  Agents can customize their ticket "
+"notification settings via the <link "
+"linkend=\"user-preferences\">preferences</link> link."
 msgstr ""
 
 #. type: Content of: <section><para><figure><title>
 #: en/content/administration/adminarea/ticket-notifications.xml:18
-msgid "Notification management"
+msgid "Ticket notification management"
 msgstr ""
 
 #. type: Content of: <section><para><figure><screenshot>
 #: en/content/administration/adminarea/ticket-notifications.xml:20
 msgid ""
 "<graphic scale=\"40\" "
-"fileref=\"screenshots/admin-notification.png\"></graphic>"
+"fileref=\"screenshots/administration/adminarea/admin-notification-overview.png\"></graphic>"
+msgstr ""
+
+#. type: Content of: <section><para>
+#: en/content/administration/adminarea/ticket-notifications.xml:14
+msgid ""
+"Through the \"Ticket Notifications\" link on the Admin page, you can manage "
+"the ticket notifications of your system (see figure below).  OTRS comes with "
+"a set of predefined notifications that cover a wide range of use cases.  "
+"<placeholder type=\"figure\" id=\"0\"/>"
+msgstr ""
+
+#. type: Content of: <section><para><figure><title>
+#: en/content/administration/adminarea/ticket-notifications.xml:30
+msgid "Customizing a notification"
+msgstr ""
+
+#. type: Content of: <section><para><figure><screenshot>
+#: en/content/administration/adminarea/ticket-notifications.xml:32
+msgid ""
+"<graphic scale=\"40\" "
+"fileref=\"screenshots/administration/adminarea/admin-notification-basic.png\"></graphic>"
 msgstr ""
 
 #. type: Content of: <section><para>
 #: en/content/administration/adminarea/ticket-notifications.xml:26
 msgid ""
-"You can customize the subject and the text of the notifications. Click on "
-"the notification you want to change from the list, and its content will get "
-"loaded for editing (see Figure). Please note that there is a notification "
-"with the same name for each of the available languages."
+"You can customize many aspects of the notifications.  Click on the "
+"notification you want to change, and its content will be loaded for editing "
+"(see figure below).  <placeholder type=\"figure\" id=\"0\"/> You can edit "
+"the basic data of this notification such as name and comment, and control if "
+"the agents may choose to receive this notification (per transport "
+"method). For every language, a subject and body can be added/edited to "
+"configure what will actually be sent as the notification content.  Just as "
+"with signatures and salutations, it is possible to dynamically create the "
+"content of a notification by using special variables. You can find a list of "
+"variables at the bottom of the screen."
+msgstr ""
+
+#. type: Content of: <section><para>
+#: en/content/administration/adminarea/ticket-notifications.xml:44
+msgid ""
+"You can choose which events should trigger this notification, and limit it "
+"to tickets which match certain criteria (ticket and/or article filter). This "
+"makes it possible to create different notifications for different queues, "
+"priorities or other criteria that might be relevant for your system."
 msgstr ""
 
 #. type: Content of: <section><para><figure><title>
-#: en/content/administration/adminarea/ticket-notifications.xml:31
-msgid "Customizing a Notification"
-msgstr ""
-
-#. type: Content of: <section><para><figure><screenshot>
-#: en/content/administration/adminarea/ticket-notifications.xml:33
-msgid ""
-"<graphic scale=\"40\" "
-"fileref=\"screenshots/customize-notification.png\"></graphic>"
-msgstr ""
-
-#. type: Content of: <section><para>
-#: en/content/administration/adminarea/ticket-notifications.xml:39
-msgid ""
-"Just as with signatures and salutations, it is possible to dynamically "
-"create the content of a notification, by using special variables. You can "
-"find a list of variables at the bottom of the screen shown in the Figure."
-msgstr ""
-
-#. type: Content of: <section><para>
-#: en/content/administration/adminarea/ticket-notifications.xml:43
-msgid ""
-"It is also possible to create notifications based on events. You can specify "
-"in detail when and to whom you want such a notification to be sent. You can "
-"choose from a wide variety of parameters, such as: recipient group(s), "
-"agent(s), role(s), email address(es), type of event triggering the "
-"notification, ticket-type, state, priority, queue, lock, service, SLA, etc."
-msgstr ""
-
-#. type: Content of: <section><para>
-#: en/content/administration/adminarea/ticket-notifications.xml:47
-msgid ""
-"In order to see a list of all event based notifications, click on the link "
-"\"Notifications (Event)\" on the Admin page (see Figure)."
-msgstr ""
-
-#. type: Content of: <section><para><figure><title>
-#: en/content/administration/adminarea/ticket-notifications.xml:52
-msgid "Event based Notification management"
-msgstr ""
-
-#. type: Content of: <section><para><figure><screenshot>
 #: en/content/administration/adminarea/ticket-notifications.xml:54
-msgid ""
-"<graphic scale=\"40\" "
-"fileref=\"screenshots/admin-notification-eventbased.png\"></graphic>"
-msgstr ""
-
-#. type: Content of: <section><para>
-#: en/content/administration/adminarea/ticket-notifications.xml:60
-msgid ""
-"As shown in Figure, you can create a new notification by clicking on the Add "
-"button (see Figure)."
-msgstr ""
-
-#. type: Content of: <section><para><figure><title>
-#: en/content/administration/adminarea/ticket-notifications.xml:65
-msgid "Registering an Event based Notification management"
+msgid "Customizing a notification's recipients"
 msgstr ""
 
 #. type: Content of: <section><para><figure><screenshot>
-#: en/content/administration/adminarea/ticket-notifications.xml:67
+#: en/content/administration/adminarea/ticket-notifications.xml:56
 msgid ""
 "<graphic scale=\"40\" "
-"fileref=\"screenshots/admin-notification-eventbased-new.png\"></graphic>"
+"fileref=\"screenshots/administration/adminarea/admin-notification-recipients.png\"></graphic>"
 msgstr ""
 
 #. type: Content of: <section><para>
+#: en/content/administration/adminarea/ticket-notifications.xml:50
+msgid ""
+"The recipients of the notification can be configured according to different "
+"criteria (groups, roles, individual agents etc.).  All configured recipients "
+"will receive the notification.  <placeholder type=\"figure\" id=\"0\"/> "
+"Additionally, you can specify if the notification should be sent to agents "
+"who are out of office, and limit the sending to once per day and ticket "
+"(e. g. pending reminder notification)."
+msgstr ""
+
+#. type: Content of: <section><para><figure><title>
+#: en/content/administration/adminarea/ticket-notifications.xml:71
+msgid "Customizing notification methods"
+msgstr ""
+
+#. type: Content of: <section><para><figure><screenshot>
 #: en/content/administration/adminarea/ticket-notifications.xml:73
 msgid ""
-"Please note that the content of the event based notifications can also be "
-"dynamically created by using the special variables listed at the bottom of "
-"the screen shown in the Figure."
+"<graphic scale=\"40\" "
+"fileref=\"screenshots/administration/adminarea/admin-notification-transports.png\"></graphic>"
+msgstr ""
+
+#. type: Content of: <section><para>
+#: en/content/administration/adminarea/ticket-notifications.xml:65
+msgid ""
+"Notifications can be sent with different notification methods. The \"Email\" "
+"notification method is available in OTRS Free, with <emphasis "
+"role=\"bold\">OTRS Business Solution™</emphasis> you also get the "
+"possibility to store and view the notifications in the database (so that no "
+"email client is needed to use OTRS) as well as to send them via SMS "
+"(e. g. for very important notifications).  <placeholder type=\"figure\" "
+"id=\"0\"/>"
 msgstr ""
 
 #. type: Content of: <section><title>
 #: en/content/administration/adminarea/smime.xml:6
-msgid "SMIME"
+msgid "S/MIME"
 msgstr ""
 
 #. type: Content of: <section><para>
@@ -8807,7 +8856,7 @@ msgstr ""
 #: en/content/administration/adminarea/smime.xml:13
 msgid ""
 "The \"S/MIME Certificates\" link on the Admin page allows you to manage your "
-"S/MIME certificates (see Figure below). You can add or remove certificates, "
+"S/MIME certificates (see figure below). You can add or remove certificates, "
 "and also search through the SMIME data."
 msgstr ""
 
@@ -8818,7 +8867,9 @@ msgstr ""
 
 #. type: Content of: <section><para><figure><screenshot>
 #: en/content/administration/adminarea/smime.xml:20
-msgid "<graphic scale=\"40\" fileref=\"screenshots/admin-smime.png\"></graphic>"
+msgid ""
+"<graphic scale=\"40\" "
+"fileref=\"screenshots/administration/adminarea/admin-smime.png\"></graphic>"
 msgstr ""
 
 #. type: Content of: <section><title>
@@ -8840,7 +8891,7 @@ msgstr ""
 #: en/content/administration/adminarea/pgp.xml:13
 msgid ""
 "Through the \"PGP Keys\" link on the Admin page, it is possible to manage "
-"the key ring of the user who shall be used for PGP with OTRS (see Figure "
+"the key ring of the user who shall be used for PGP with OTRS (see figure "
 "below), e.g. the local OTRS user or the web server user. It is possible to "
 "add and remove keys and signatures, and you can search through all data in "
 "your key ring."
@@ -8853,7 +8904,9 @@ msgstr ""
 
 #. type: Content of: <section><para><figure><screenshot>
 #: en/content/administration/adminarea/pgp.xml:20
-msgid "<graphic scale=\"40\" fileref=\"screenshots/admin-pgp.png\"></graphic>"
+msgid ""
+"<graphic scale=\"40\" "
+"fileref=\"screenshots/administration/adminarea/admin-pgp.png\"></graphic>"
 msgstr ""
 
 #. type: Content of: <section><title>
@@ -8865,7 +8918,7 @@ msgstr ""
 #: en/content/administration/adminarea/states.xml:9
 msgid ""
 "Through the \"States\" link on the Admin page, you can manage the different "
-"ticket states you want to use in the system (see Figure below)."
+"ticket states you want to use in the system (see figure below)."
 msgstr ""
 
 #. type: Content of: <section><para><figure><title>
@@ -8875,7 +8928,9 @@ msgstr ""
 
 #. type: Content of: <section><para><figure><screenshot>
 #: en/content/administration/adminarea/states.xml:16
-msgid "<graphic scale=\"40\" fileref=\"screenshots/admin-states.png\"></graphic>"
+msgid ""
+"<graphic scale=\"40\" "
+"fileref=\"screenshots/administration/adminarea/admin-states.png\"></graphic>"
 msgstr ""
 
 #. type: Content of: <section><para>
@@ -8961,7 +9016,7 @@ msgstr ""
 #: en/content/administration/adminarea/sysconfig.xml:13
 msgid ""
 "The SysConfig link on the Admin page loads the graphical interface for "
-"system configuration (see Figure below). You can upload your own "
+"system configuration (see figure below). You can upload your own "
 "configuration files for the system, as well as backup all your current "
 "settings into a file. Almost all configuration parameters of the OTRS "
 "framework and installed applications can be viewed and changed through this "
@@ -8978,7 +9033,9 @@ msgstr ""
 
 #. type: Content of: <section><section><para><figure><screenshot>
 #: en/content/administration/adminarea/sysconfig.xml:20 en/content/administration/configuration.xml:42
-msgid "<graphic scale=\"40\" fileref=\"screenshots/admin-sysconfig.png\"></graphic>"
+msgid ""
+"<graphic scale=\"40\" "
+"fileref=\"screenshots/administration/adminarea/admin-sysconfig.png\"></graphic>"
 msgstr ""
 
 #. type: Content of: <section><para>
@@ -8991,7 +9048,7 @@ msgstr ""
 
 #. type: Content of: <section><title>
 #: en/content/administration/adminarea/mailaccounts.xml:6
-msgid "Using mail accounts"
+msgid "Using Mail Accounts"
 msgstr ""
 
 #. type: Content of: <section><para>
@@ -9003,7 +9060,7 @@ msgid ""
 "the mails directly into the system. Another possibility is the use of mail "
 "accounts which can be administrated through the web interface. The "
 "\"PostMaster Mail Accounts\" link on the Admin page loads the management "
-"console for the mail accounts (see Figure below). OTRS supports the mail "
+"console for the mail accounts (see figure below). OTRS supports the mail "
 "protocols: POP3, POP3S, IMAP and IMAPS."
 msgstr ""
 
@@ -9016,7 +9073,7 @@ msgstr ""
 #: en/content/administration/adminarea/mailaccounts.xml:16
 msgid ""
 "<graphic scale=\"40\" "
-"fileref=\"screenshots/admin-mailaccount.png\"></graphic>"
+"fileref=\"screenshots/administration/adminarea/admin-mailaccount.png\"></graphic>"
 msgstr ""
 
 #. type: Content of: <section><para>
@@ -9028,7 +9085,7 @@ msgstr ""
 
 #. type: Content of: <section><title>
 #: en/content/administration/adminarea/postmasterfilter.xml:6
-msgid "Filtering incoming email messages"
+msgid "Filtering Incoming Email Messages"
 msgstr ""
 
 #. type: Content of: <section><para>
@@ -9038,7 +9095,7 @@ msgid ""
 "is possible to put certain emails automatically into specified queues, or to "
 "set a specific state or ticket type for some mails. The filters apply to all "
 "incoming mails. You can manage your filters via the link \"PostMaster "
-"Filter\" on the Admin page (see Figure below)."
+"Filter\" on the Admin page (see figure below)."
 msgstr ""
 
 #. type: Content of: <section><para><figure><title>
@@ -9050,7 +9107,7 @@ msgstr ""
 #: en/content/administration/adminarea/postmasterfilter.xml:16
 msgid ""
 "<graphic scale=\"40\" "
-"fileref=\"screenshots/admin-postmasterfilter.png\"></graphic>"
+"fileref=\"screenshots/administration/adminarea/admin-postmasterfilter.png\"></graphic>"
 msgstr ""
 
 #. type: Content of: <section><para>
@@ -9337,7 +9394,7 @@ msgid ""
 "filter on. In the section \"Set Email Headers\", you can choose the actions "
 "that are triggered if the filter rules match. You can select for \"Header "
 "1\", \"Header 2\" and so on to select the X-OTRS-Header and set the "
-"associated values (see Figure below).  Filter rules are evaluated in "
+"associated values (see figure below).  Filter rules are evaluated in "
 "alphabetical order, and are all executed except if the \"Stop after match\" "
 "setting has been set to \"Yes\" in one of the rule (in this case evaluation "
 "of the remaining filters is cancelled)."
@@ -9352,7 +9409,7 @@ msgstr ""
 #: en/content/administration/adminarea/postmasterfilter.xml:231
 msgid ""
 "<graphic scale=\"40\" "
-"fileref=\"screenshots/add-postmasterfilter.png\"></graphic>"
+"fileref=\"screenshots/administration/adminarea/add-postmasterfilter.png\"></graphic>"
 msgstr ""
 
 #. type: Content of: <section><example><title>
@@ -9389,7 +9446,7 @@ msgstr ""
 
 #. type: Content of: <section><title>
 #: en/content/administration/adminarea/genericagent.xml:6
-msgid "Executing automated jobs with the GenericAgent"
+msgid "Executing Automated Jobs with the GenericAgent"
 msgstr ""
 
 #. type: Content of: <section><para>
@@ -9403,7 +9460,7 @@ msgstr ""
 #. type: Content of: <section><para>
 #: en/content/administration/adminarea/genericagent.xml:13
 msgid ""
-"Click the link \"GenericAgent\" on the Admin page (see Figure below). A "
+"Click the link \"GenericAgent\" on the Admin page (see figure below). A "
 "table with all automated jobs in the system is displayed. These jobs can "
 "then be edited, run manually or removed entirely."
 msgstr ""
@@ -9417,7 +9474,7 @@ msgstr ""
 #: en/content/administration/adminarea/genericagent.xml:20
 msgid ""
 "<graphic scale=\"40\" "
-"fileref=\"screenshots/admin-genericagent.png\"></graphic>"
+"fileref=\"screenshots/administration/adminarea/admin-genericagent.png\"></graphic>"
 msgstr ""
 
 #. type: Content of: <section><para>
@@ -9441,7 +9498,7 @@ msgstr ""
 #: en/content/administration/adminarea/genericagent.xml:34
 msgid ""
 "<graphic scale=\"40\" "
-"fileref=\"screenshots/add-genericagent-job.png\"></graphic>"
+"fileref=\"screenshots/administration/adminarea/add-genericagent-job.png\"></graphic>"
 msgstr ""
 
 #. type: Content of: <section><para>
@@ -9482,7 +9539,7 @@ msgstr ""
 
 #. type: Content of: <section><title>
 #: en/content/administration/adminarea/administrative-messages.xml:6
-msgid "Administrative messages"
+msgid "Administrative Messages"
 msgstr ""
 
 #. type: Content of: <section><para>
@@ -9490,20 +9547,20 @@ msgstr ""
 msgid ""
 "OTRS administrators can send messages to specific users or groups. The "
 "\"Admin Notification\" link on the Admin page opens the screen where the "
-"agents and groups that should be notified can be selected (see Figure "
+"agents and groups that should be notified can be selected (see figure "
 "below)."
 msgstr ""
 
 #. type: Content of: <section><para><figure><title>
 #: en/content/administration/adminarea/administrative-messages.xml:14
-msgid "Admin notification"
+msgid "Admin notification screen"
 msgstr ""
 
 #. type: Content of: <section><para><figure><screenshot>
 #: en/content/administration/adminarea/administrative-messages.xml:16
 msgid ""
 "<graphic scale=\"40\" "
-"fileref=\"screenshots/send-admin-notification.png\"></graphic>"
+"fileref=\"screenshots/administration/adminarea/send-admin-notification.png\"></graphic>"
 msgstr ""
 
 #. type: Content of: <section><para>
@@ -9514,23 +9571,28 @@ msgid ""
 "receive the message."
 msgstr ""
 
-#. type: Content of: <section><para><figure><title>
-#: en/content/administration/adminarea/session-management.xml:6 en/content/administration/adminarea/session-management.xml:14
-msgid "Session management"
+#. type: Content of: <section><title>
+#: en/content/administration/adminarea/session-management.xml:6
+msgid "Session Management"
 msgstr ""
 
 #. type: Content of: <section><para>
 #: en/content/administration/adminarea/session-management.xml:9
 msgid ""
 "You can see all logged in users and their session details by clicking the "
-"\"Session Management\" link in the admin area (see Figure below)."
+"\"Session Management\" link in the admin area (see figure below)."
+msgstr ""
+
+#. type: Content of: <section><para><figure><title>
+#: en/content/administration/adminarea/session-management.xml:14
+msgid "Session management"
 msgstr ""
 
 #. type: Content of: <section><para><figure><screenshot>
 #: en/content/administration/adminarea/session-management.xml:16
 msgid ""
 "<graphic scale=\"40\" "
-"fileref=\"screenshots/admin-sessionmanagement.png\"></graphic>"
+"fileref=\"screenshots/administration/adminarea/admin-sessionmanagement.png\"></graphic>"
 msgstr ""
 
 #. type: Content of: <section><para>
@@ -9542,7 +9604,7 @@ msgid ""
 "<emphasis>Kill this session</emphasis> link on the right-hand side of the "
 "list. You also have the option to <emphasis>Kill all sessions</emphasis>, "
 "which can be useful if you want to take the system offline. Detailed "
-"information for every session is available, too (see Figure below)."
+"information for every session is available, too (see figure below)."
 msgstr ""
 
 #. type: Content of: <section><para><figure><title>
@@ -9554,7 +9616,7 @@ msgstr ""
 #: en/content/administration/adminarea/session-management.xml:29
 msgid ""
 "<graphic scale=\"40\" "
-"fileref=\"screenshots/admin-session-details.png\"></graphic>"
+"fileref=\"screenshots/administration/adminarea/admin-session-details.png\"></graphic>"
 msgstr ""
 
 #. type: Content of: <section><title>
@@ -9584,7 +9646,7 @@ msgstr ""
 #: en/content/administration/adminarea/system-maintenance.xml:19
 msgid ""
 "<graphic scale=\"40\" "
-"fileref=\"screenshots/admin-systemmaintenance-overview-screen.png\"></graphic>"
+"fileref=\"screenshots/administration/adminarea/admin-systemmaintenance-overview-screen.png\"></graphic>"
 msgstr ""
 
 #. type: Content of: <section><para>
@@ -9603,7 +9665,7 @@ msgstr ""
 #: en/content/administration/adminarea/system-maintenance.xml:31
 msgid ""
 "<graphic scale=\"40\" "
-"fileref=\"screenshots/admin-systemmaintenance-edit-screen.png\"></graphic>"
+"fileref=\"screenshots/administration/adminarea/admin-systemmaintenance-edit-screen.png\"></graphic>"
 msgstr ""
 
 #. type: Content of: <section><para>
@@ -9623,13 +9685,15 @@ msgstr ""
 #: en/content/administration/adminarea/system-log.xml:9
 msgid ""
 "The \"System Log\" link on the Admin page shows the log entries of the "
-"system, reverse chronologically sorted with most recent first (see Figure "
+"system, reverse chronologically sorted with most recent first (see figure "
 "below)."
 msgstr ""
 
 #. type: Content of: <section><para><figure><screenshot>
 #: en/content/administration/adminarea/system-log.xml:16
-msgid "<graphic scale=\"40\" fileref=\"screenshots/admin-syslog.png\"></graphic>"
+msgid ""
+"<graphic scale=\"40\" "
+"fileref=\"screenshots/administration/adminarea/admin-syslog.png\"></graphic>"
 msgstr ""
 
 #. type: Content of: <section><para>
@@ -9648,14 +9712,14 @@ msgstr ""
 
 #. type: Content of: <section><title>
 #: en/content/administration/adminarea/selectbox.xml:6
-msgid "SQL queries via the SQL box"
+msgid "SQL Queries via the SQL Box"
 msgstr ""
 
 #. type: Content of: <section><para>
 #: en/content/administration/adminarea/selectbox.xml:9
 msgid ""
 "The \"SQL Box\" link on the Admin page opens a screen that lets you query "
-"the content of the tables in the OTRS database (see Figure below). It is not "
+"the content of the tables in the OTRS database (see figure below). It is not "
 "possible to change the content of the tables, only 'select' queries are "
 "allowed."
 msgstr ""
@@ -9667,7 +9731,9 @@ msgstr ""
 
 #. type: Content of: <section><para><figure><screenshot>
 #: en/content/administration/adminarea/selectbox.xml:16
-msgid "<graphic scale=\"40\" fileref=\"screenshots/admin-selectbox.png\"></graphic>"
+msgid ""
+"<graphic scale=\"40\" "
+"fileref=\"screenshots/administration/adminarea/admin-selectbox.png\"></graphic>"
 msgstr ""
 
 #. type: Content of: <section><para><figure><title>
@@ -9679,7 +9745,7 @@ msgstr ""
 #: en/content/administration/adminarea/package-manager.xml:9
 msgid ""
 "Using the \"Package Manager\" link on the Admin page, you can install and "
-"manage packages that extend the functionality of OTRS (see Figure "
+"manage packages that extend the functionality of OTRS (see figure "
 "below). See the <link linkend=\"application\">Additional applications</link> "
 "section for a discussion on the extensions that are available from the OTRS "
 "repositories."
@@ -9689,7 +9755,7 @@ msgstr ""
 #: en/content/administration/adminarea/package-manager.xml:16
 msgid ""
 "<graphic scale=\"40\" "
-"fileref=\"screenshots/admin-packagemanager.png\"></graphic>"
+"fileref=\"screenshots/administration/adminarea/admin-packagemanager.png\"></graphic>"
 msgstr ""
 
 #. type: Content of: <section><para>
@@ -9752,7 +9818,7 @@ msgstr ""
 #: en/content/administration/adminarea/web-services.xml:8
 msgid ""
 "The Web Services link leads to the graphical interface where web services "
-"(for the OTRS Generic Interface) are created and maintained (see Figure "
+"(for the OTRS Generic Interface) are created and maintained (see figure "
 "below)."
 msgstr ""
 
@@ -9761,11 +9827,11 @@ msgstr ""
 msgid "The graphical interface for web services"
 msgstr ""
 
-#. type: Content of: <section><section><para><figure><screenshot>
-#: en/content/administration/adminarea/web-services.xml:15 en/content/administration/genericinterface/genericinterface-webservice-gui.xml:62
+#. type: Content of: <section><para><figure><screenshot>
+#: en/content/administration/adminarea/web-services.xml:15
 msgid ""
 "<graphic scale=\"40\" "
-"fileref=\"screenshots/genericinterface-webservice-overview.png\"></graphic>"
+"fileref=\"screenshots/administration/adminarea/genericinterface-webservice-overview.png\"></graphic>"
 msgstr ""
 
 #. type: Content of: <section><para>
@@ -9793,11 +9859,11 @@ msgstr ""
 msgid "The dynamic fields overview screen with some dynamic fields"
 msgstr ""
 
-#. type: Content of: <section><section><para><figure><screenshot>
-#: en/content/administration/adminarea/dynamic-fields.xml:15 en/content/administration/dynamicfields-configuration.xml:640
+#. type: Content of: <section><para><figure><screenshot>
+#: en/content/administration/adminarea/dynamic-fields.xml:15
 msgid ""
 "<graphic scale=\"40\" "
-"fileref=\"screenshots/dynamicfields-overview-filled.png\"></graphic>"
+"fileref=\"screenshots/administration/adminarea/dynamicfields-overview-filled.png\"></graphic>"
 msgstr ""
 
 #. type: Content of: <section><para>
@@ -9824,7 +9890,7 @@ msgstr ""
 
 #. type: Content of: <section><title>
 #: en/content/administration/daemon.xml:6
-msgid "OTRS Daemon"
+msgid "The OTRS Daemon"
 msgstr ""
 
 #. type: Content of: <section><para>
@@ -10027,7 +10093,9 @@ msgstr ""
 
 #. type: Content of: <section><section><para><figure><screenshot>
 #: en/content/administration/daemon.xml:138
-msgid "<graphic scale=\"40\" fileref=\"screenshots/daemon-notify.png\"></graphic>"
+msgid ""
+"<graphic scale=\"40\" "
+"fileref=\"screenshots/administration/adminarea/daemon-notify.png\"></graphic>"
 msgstr ""
 
 #. type: Content of: <section><section><para>
@@ -10044,12 +10112,14 @@ msgstr ""
 
 #. type: Content of: <section><section><para><figure><screenshot>
 #: en/content/administration/daemon.xml:150
-msgid "<graphic scale=\"40\" fileref=\"screenshots/daemon-start.png\"></graphic>"
+msgid ""
+"<graphic scale=\"40\" "
+"fileref=\"screenshots/administration/adminarea/daemon-start.png\"></graphic>"
 msgstr ""
 
 #. type: Content of: <section><section><title>
 #: en/content/administration/daemon.xml:156
-msgid "Daemon Command Line Interface"
+msgid "OTRS Daemon Command Line Interface"
 msgstr ""
 
 #. type: Content of: <section><section><para>
@@ -10062,7 +10132,7 @@ msgstr ""
 
 #. type: Content of: <section><section><section><title>
 #: en/content/administration/daemon.xml:163
-msgid "Main daemon tools"
+msgid "Main Daemon Tools"
 msgstr ""
 
 #. type: Content of: <section><section><section><para>
@@ -10137,7 +10207,7 @@ msgstr ""
 
 #. type: Content of: <section><section><section><title>
 #: en/content/administration/daemon.xml:220
-msgid "Other daemon tools"
+msgid "Other Daemon Tools"
 msgstr ""
 
 #. type: Content of: <section><section><section><para>
@@ -10183,12 +10253,12 @@ msgstr ""
 
 #. type: Content of: <section><title>
 #: en/content/administration/external-backends.xml:7
-msgid "Using external backends"
+msgid "Using External backends"
 msgstr ""
 
 #. type: Content of: <section><section><title>
 #: en/content/administration/external-backends.xml:10
-msgid "Customer data"
+msgid "Customer Data"
 msgstr ""
 
 #. type: Content of: <section><section><para>
@@ -10247,7 +10317,7 @@ msgstr ""
 
 #. type: Content of: <section><section><title>
 #: en/content/administration/external-backends.xml:62
-msgid "Customer user backend"
+msgid "Customer User Backend"
 msgstr ""
 
 #. type: Content of: <section><section><para>
@@ -10450,7 +10520,7 @@ msgstr ""
 
 #. type: Content of: <section><section><section><section><title>
 #: en/content/administration/external-backends.xml:213 en/content/administration/external-backends.xml:391
-msgid "Customer with multiple IDs (Company tickets)"
+msgid "Customer with Multiple IDs (Company Tickets)"
 msgstr ""
 
 #. type: Content of: <section><section><section><section><para>
@@ -10546,7 +10616,7 @@ msgstr ""
 
 #. type: Content of: <section><section><section><section><example><title>
 #: en/content/administration/external-backends.xml:276
-msgid "Using company tickets with a DB backend"
+msgid "Using Company Tickets with a DB Backend"
 msgstr ""
 
 #. type: Content of: <section><section><section><section><example><para>
@@ -10746,9 +10816,9 @@ msgid ""
 "directory."
 msgstr ""
 
-#. type: Content of: <section><section><section><example><title>
-#: en/content/administration/external-backends.xml:439 en/content/administration/external-backends.xml:446
-msgid "Using more than one customer backend with OTRS"
+#. type: Content of: <section><section><section><title>
+#: en/content/administration/external-backends.xml:439
+msgid "Using More than One Customer Backend with OTRS"
 msgstr ""
 
 #. type: Content of: <section><section><section><para>
@@ -10758,6 +10828,11 @@ msgid ""
 "(e.g. an LDAP and a database backend), the CustomerUser config parameter "
 "should be expanded with a number, e.g. \"CustomerUser1\", \"CustomerUser2\" "
 "(see Example below)."
+msgstr ""
+
+#. type: Content of: <section><section><section><example><title>
+#: en/content/administration/external-backends.xml:446
+msgid "Using more than one customer backend with OTRS"
 msgstr ""
 
 #. type: Content of: <section><section><section><example><para>
@@ -10946,7 +11021,7 @@ msgstr ""
 
 #. type: Content of: <section><section><section><title>
 #: en/content/administration/external-backends.xml:597
-msgid "Storing CustomerUser data in dynamic fields"
+msgid "Storing CustomerUser Data in Dynamic Fields"
 msgstr ""
 
 #. type: Content of: <section><section><section><para>
@@ -10982,7 +11057,7 @@ msgstr ""
 
 #. type: Content of: <section><section><title>
 #: en/content/administration/external-backends.xml:620
-msgid "Backends to authenticate Agents and Customers"
+msgid "Backends to Authenticate Agents and Customers"
 msgstr ""
 
 #. type: Content of: <section><section><para>
@@ -11252,7 +11327,7 @@ msgstr ""
 
 #. type: Content of: <section><section><section><title>
 #: en/content/administration/external-backends.xml:841
-msgid "Authentication backends for Customers"
+msgid "Authentication Backends for Customers"
 msgstr ""
 
 #. type: Content of: <section><section><section><section><para>
@@ -11344,7 +11419,7 @@ msgstr ""
 
 #. type: Content of: <section><section><section><section><title>
 #: en/content/administration/external-backends.xml:927
-msgid "HTTPBasicAuth for customers"
+msgid "HTTPBasicAuth for Customers"
 msgstr ""
 
 #. type: Content of: <section><section><section><section><para>
@@ -11406,7 +11481,7 @@ msgstr ""
 
 #. type: Content of: <section><section><title>
 #: en/content/administration/external-backends.xml:984
-msgid "Customizing the customer self-registration"
+msgid "Customizing the Customer Self-Registration"
 msgstr ""
 
 #. type: Content of: <section><section><para>
@@ -11426,7 +11501,7 @@ msgstr ""
 
 #. type: Content of: <section><section><section><title>
 #: en/content/administration/external-backends.xml:995
-msgid "Customizing the web interface"
+msgid "Customizing the Web Interface"
 msgstr ""
 
 #. type: Content of: <section><section><section><para>
@@ -11459,7 +11534,7 @@ msgstr ""
 
 #. type: Content of: <section><section><section><title>
 #: en/content/administration/external-backends.xml:1019
-msgid "Customer mapping"
+msgid "Customer Mapping"
 msgstr ""
 
 #. type: Content of: <section><section><section><para>
@@ -11575,7 +11650,7 @@ msgstr ""
 
 #. type: Content of: <section><section><section><title>
 #: en/content/administration/external-backends.xml:1107
-msgid "Customizing the customer_user table in the OTRS DB"
+msgid "Customizing the <literal>customer_user</literal> Table in the OTRS DB"
 msgstr ""
 
 #. type: Content of: <section><section><section><para>
@@ -11627,17 +11702,17 @@ msgstr ""
 
 #. type: Content of: <section><title>
 #: en/content/administration/email/email.xml:6
-msgid "Sending/Receiving emails"
+msgid "Sending/Receiving Emails"
 msgstr ""
 
 #. type: Content of: <section><section><title>
 #: en/content/administration/email/email.xml:9
-msgid "Sending emails"
+msgid "Sending Emails"
 msgstr ""
 
 #. type: Content of: <section><section><section><title>
 #: en/content/administration/email/email.xml:12
-msgid "Via Sendmail (default)"
+msgid "Via Sendmail (Default)"
 msgstr ""
 
 #. type: Content of: <section><section><section><para>
@@ -11660,7 +11735,7 @@ msgstr ""
 
 #. type: Content of: <section><section><section><title>
 #: en/content/administration/email/email.xml:25
-msgid "Via SMTP server or smarthost"
+msgid "Via SMTP Server or Smarthost"
 msgstr ""
 
 #. type: Content of: <section><section><section><para>
@@ -11683,12 +11758,12 @@ msgstr ""
 
 #. type: Content of: <section><section><title>
 #: en/content/administration/email/email.xml:40
-msgid "Receiving emails"
+msgid "Receiving Emails"
 msgstr ""
 
 #. type: Content of: <section><section><section><title>
 #: en/content/administration/email/email.xml:43
-msgid "Mail accounts configured via the OTRS GUI"
+msgid "Mail Accounts Configured via the OTRS GUI"
 msgstr ""
 
 #. type: Content of: <section><section><section><para>
@@ -11708,7 +11783,7 @@ msgstr ""
 #. type: Content of: <section><section><section><para>
 #: en/content/administration/email/email.xml:54
 msgid ""
-"If a new mail account is to be created (see Figure below), then its mail "
+"If a new mail account is to be created (see figure below), then its mail "
 "server name, login name and password must be specified. Also, you need to "
 "select the mail server type, which can be POP3, POP3S, IMAP or IMAPS. If you "
 "don't see your server type available as an option, the required Perl modules "
@@ -11724,7 +11799,9 @@ msgstr ""
 
 #. type: Content of: <section><section><section><para><figure><screenshot>
 #: en/content/administration/email/email.xml:60
-msgid "<graphic scale=\"40\" fileref=\"screenshots/add-mailaccount.png\"></graphic>"
+msgid ""
+"<graphic scale=\"40\" "
+"fileref=\"screenshots/administration/email/add-mailaccount.png\"></graphic>"
 msgstr ""
 
 #. type: Content of: <section><section><section><para>
@@ -11789,8 +11866,8 @@ msgstr ""
 #. type: Content of: <section><section><section><title>
 #: en/content/administration/email/email.xml:89
 msgid ""
-"Via command line program and procmail (otrs.Console.pl "
-"Maint::PostMaster::Read)"
+"Via Command Line Program and Procmail (<literal>otrs.Console.pl "
+"Maint::PostMaster::Read</literal>)"
 msgstr ""
 
 #. type: Content of: <section><section><section><para>
@@ -11833,7 +11910,7 @@ msgstr ""
 
 #. type: Content of: <section><section><section><example><title>
 #: en/content/administration/email/email.xml:117
-msgid "Routing via procmail using otrs.Console.pl"
+msgid "Routing via Procmail Using <literal>otrs.Console.pl</literal>"
 msgstr ""
 
 #. type: Content of: <section><section><section><example><para>
@@ -11940,7 +12017,7 @@ msgstr ""
 
 #. type: Content of: <section><section><section><example><title>
 #: en/content/administration/email/email.xml:190
-msgid ".fetchmailrc"
+msgid "<literal>.fetchmailrc</literal>"
 msgstr ""
 
 #. type: Content of: <section><section><section><example><para><programlisting>
@@ -11971,8 +12048,8 @@ msgstr ""
 #. type: Content of: <section><section><section><title>
 #: en/content/administration/email/email.xml:212
 msgid ""
-"Filtering/dispatching by OTRS/PostMaster modules (for more complex "
-"dispatching)"
+"Filtering/Dispatching by OTRS/PostMaster Modules (for More Complex "
+"Dispatching)"
 msgstr ""
 
 #. type: Content of: <section><section><section><para>
@@ -12290,7 +12367,7 @@ msgstr ""
 
 #. type: Content of: <section><title>
 #: en/content/administration/email/pgp.xml:6
-msgid "Secure email with PGP"
+msgid "Secure Email with PGP"
 msgstr ""
 
 #. type: Content of: <section><para>
@@ -12547,7 +12624,7 @@ msgstr ""
 
 #. type: Content of: <section><title>
 #: en/content/administration/email/smime.xml:6
-msgid "Secure email with S/MIME"
+msgid "Secure Email with S/MIME"
 msgstr ""
 
 #. type: Content of: <section><para>
@@ -12857,7 +12934,7 @@ msgstr ""
 
 #. type: Content of: <section><title>
 #: en/content/administration/time.xml:6
-msgid "Time related functions"
+msgid "Time Related Functions"
 msgstr ""
 
 #. type: Content of: <section><section><title>
@@ -12912,7 +12989,7 @@ msgstr ""
 
 #. type: Content of: <section><section><section><title>
 #: en/content/administration/time.xml:30
-msgid "Fixed date holidays"
+msgid "Fixed Date Holidays"
 msgstr ""
 
 #. type: Content of: <section><section><section><para>
@@ -12940,7 +13017,7 @@ msgstr ""
 
 #. type: Content of: <section><section><section><title>
 #: en/content/administration/time.xml:49
-msgid "TimeVacationDaysOneTime"
+msgid "Floating Holidays"
 msgstr ""
 
 #. type: Content of: <section><section><section><para>
@@ -13050,7 +13127,7 @@ msgstr ""
 
 #. type: Content of: <section><title>
 #: en/content/administration/pdf-output.xml:4
-msgid "Customizing the PDF output"
+msgid "Customizing the PDF Output"
 msgstr ""
 
 #. type: Content of: <section><para>
@@ -13136,7 +13213,7 @@ msgstr ""
 
 #. type: Content of: <section><title>
 #: en/content/administration/ticket/priorities.xml:6
-msgid "Ticket priorities"
+msgid "Ticket Priorities"
 msgstr ""
 
 #. type: Content of: <section><para>
@@ -13333,7 +13410,7 @@ msgstr ""
 #: en/content/administration/ticket/states.xml:80
 msgid ""
 "Every state has a name (state-name) and a type (state-type). Click on the "
-"<link linkend=\"adminarea-status\">States</link> link on the Admin page and "
+"<link linkend=\"adminarea-states\">States</link> link on the Admin page and "
 "press the button \"Add state\" to create a new state. You can freely choose "
 "the name of a new state. The state types can not be changed via the web "
 "interface. The database has to be directly modified if you want to add new "
@@ -13742,14 +13819,14 @@ msgstr ""
 #: en/content/administration/ticket/monitoring-tickets.xml:30
 msgid ""
 "<graphic scale=\"40\" "
-"fileref=\"screenshots/ticket-zoom-responsible.png\"></graphic>"
+"fileref=\"screenshots/administration/ticket/ticket-zoom-responsible.png\"></graphic>"
 msgstr ""
 
 #. type: Content of: <section><section><para>
 #: en/content/administration/ticket/monitoring-tickets.xml:36
 msgid ""
 "After clicking on \"Responsible\", a pop-up dialog to change the "
-"responsibility of that ticket will open (see Figure below). This dialog can "
+"responsibility of that ticket will open (see figure below). This dialog can "
 "also be used to send a message to the new responsible agent."
 msgstr ""
 
@@ -13762,7 +13839,7 @@ msgstr ""
 #: en/content/administration/ticket/monitoring-tickets.xml:43
 msgid ""
 "<graphic scale=\"40\" "
-"fileref=\"screenshots/ticket-responsible.png\"></graphic>"
+"fileref=\"screenshots/administration/ticket/ticket-responsible.png\"></graphic>"
 msgstr ""
 
 #. type: Content of: <section><section><para>
@@ -13802,7 +13879,7 @@ msgstr ""
 #: en/content/administration/ticket/monitoring-tickets.xml:66
 msgid ""
 "In order to watch a ticket, go to its zoomed view and click on the "
-"\"Subscribe\" link in the ticket activities menu (see Figure below)."
+"\"Subscribe\" link in the ticket activities menu (see figure below)."
 msgstr ""
 
 #. type: Content of: <section><section><para><figure><title>
@@ -13814,14 +13891,14 @@ msgstr ""
 #: en/content/administration/ticket/monitoring-tickets.xml:73
 msgid ""
 "<graphic scale=\"40\" "
-"fileref=\"screenshots/ticket-subscribe.png\"></graphic>"
+"fileref=\"screenshots/administration/ticket/ticket-subscribe.png\"></graphic>"
 msgstr ""
 
 #. type: Content of: <section><section><para>
 #: en/content/administration/ticket/monitoring-tickets.xml:79
 msgid ""
 "If you no longer want to watch a specific ticket, go to its zoomed view and "
-"click on the \"Unsubscribe\" link in the ticket activities menu (see Figure "
+"click on the \"Unsubscribe\" link in the ticket activities menu (see figure "
 "below)."
 msgstr ""
 
@@ -13834,14 +13911,14 @@ msgstr ""
 #: en/content/administration/ticket/monitoring-tickets.xml:86
 msgid ""
 "<graphic scale=\"40\" "
-"fileref=\"screenshots/ticket-unsubscribe.png\"></graphic>"
+"fileref=\"screenshots/administration/ticket/ticket-unsubscribe.png\"></graphic>"
 msgstr ""
 
 #. type: Content of: <section><section><para>
 #: en/content/administration/ticket/monitoring-tickets.xml:92
 msgid ""
 "The list of all watched tickets can be accessed through the Watched view of "
-"the OTRS agent interface (see Figure below), as soon as the ticket watcher "
+"the OTRS agent interface (see figure below), as soon as the ticket watcher "
 "feature gets activated."
 msgstr ""
 
@@ -13854,7 +13931,7 @@ msgstr ""
 #: en/content/administration/ticket/monitoring-tickets.xml:99
 msgid ""
 "<graphic scale=\"40\" "
-"fileref=\"screenshots/ticket-subscribe-mailbox.png\"></graphic>"
+"fileref=\"screenshots/administration/ticket/ticket-subscribe-mailbox.png\"></graphic>"
 msgstr ""
 
 #. type: Content of: <section><title>
@@ -13909,7 +13986,7 @@ msgstr ""
 
 #. type: Content of: <section><section><title>
 #: en/content/administration/configuration.xml:32
-msgid "Configuring the system through the web interface"
+msgid "Configuring the System Through the Web Interface"
 msgstr ""
 
 #. type: Content of: <section><section><para>
@@ -13919,7 +13996,7 @@ msgid ""
 "or additional installed applications, can be changed easily with the "
 "graphical interface for system configuration. Log in as OTRS administrator "
 "and follow the SysConfig link on the Admin page to execute the new "
-"configuration tool (see Figure below)."
+"configuration tool (see figure below)."
 msgstr ""
 
 #. type: Content of: <section><section><para><figure><title>
@@ -14023,7 +14100,7 @@ msgstr ""
 #: en/content/administration/dynamicfields-configuration.xml:28
 msgid ""
 "<graphic scale=\"40\" "
-"fileref=\"screenshots/dynamicfields-overview-empty.png\"></graphic>"
+"fileref=\"screenshots/administration/dynamicfields/dynamicfields-overview-empty.png\"></graphic>"
 msgstr ""
 
 #. type: Content of: <section><section><para>
@@ -14335,7 +14412,7 @@ msgstr ""
 #: en/content/administration/dynamicfields-configuration.xml:246
 msgid ""
 "<graphic scale=\"40\" "
-"fileref=\"screenshots/dynamicfields-configuration-text.png\"></graphic>"
+"fileref=\"screenshots/administration/dynamicfields/dynamicfields-configuration-text.png\"></graphic>"
 msgstr ""
 
 #. type: Content of: <section><section><title>
@@ -14391,7 +14468,7 @@ msgstr ""
 #: en/content/administration/dynamicfields-configuration.xml:292
 msgid ""
 "<graphic scale=\"40\" "
-"fileref=\"screenshots/dynamicfields-configuration-textarea.png\"></graphic>"
+"fileref=\"screenshots/administration/dynamicfields/dynamicfields-configuration-textarea.png\"></graphic>"
 msgstr ""
 
 #. type: Content of: <section><section><title>
@@ -14433,7 +14510,7 @@ msgstr ""
 #: en/content/administration/dynamicfields-configuration.xml:323
 msgid ""
 "<graphic scale=\"40\" "
-"fileref=\"screenshots/dynamicfields-configuration-checkbox.png\"></graphic>"
+"fileref=\"screenshots/administration/dynamicfields/dynamicfields-configuration-checkbox.png\"></graphic>"
 msgstr ""
 
 #. type: Content of: <section><section><title>
@@ -14506,7 +14583,7 @@ msgstr ""
 #: en/content/administration/dynamicfields-configuration.xml:402
 msgid ""
 "<graphic scale=\"40\" "
-"fileref=\"screenshots/dynamicfields-configuration-dropdown.png\"></graphic>"
+"fileref=\"screenshots/administration/dynamicfields/dynamicfields-configuration-dropdown.png\"></graphic>"
 msgstr ""
 
 #. type: Content of: <section><section><title>
@@ -14542,7 +14619,7 @@ msgstr ""
 #: en/content/administration/dynamicfields-configuration.xml:460
 msgid ""
 "<graphic scale=\"40\" "
-"fileref=\"screenshots/dynamicfields-configuration-multiselect.png\"></graphic>"
+"fileref=\"screenshots/administration/dynamicfields/dynamicfields-configuration-multiselect.png\"></graphic>"
 msgstr ""
 
 #. type: Content of: <section><section><title>
@@ -14633,7 +14710,7 @@ msgstr ""
 #: en/content/administration/dynamicfields-configuration.xml:542
 msgid ""
 "<graphic scale=\"40\" "
-"fileref=\"screenshots/dynamicfields-configuration-date.png\"></graphic>"
+"fileref=\"screenshots/administration/dynamicfields/dynamicfields-configuration-date.png\"></graphic>"
 msgstr ""
 
 #. type: Content of: <section><section><title>
@@ -14662,7 +14739,7 @@ msgstr ""
 #: en/content/administration/dynamicfields-configuration.xml:625
 msgid ""
 "<graphic scale=\"40\" "
-"fileref=\"screenshots/dynamicfields-configuration-datetime.png\"></graphic>"
+"fileref=\"screenshots/administration/dynamicfields/dynamicfields-configuration-datetime.png\"></graphic>"
 msgstr ""
 
 #. type: Content of: <section><section><title>
@@ -14680,6 +14757,13 @@ msgstr ""
 #. type: Content of: <section><section><para><figure><title>
 #: en/content/administration/dynamicfields-configuration.xml:638
 msgid "Dynamic field overview screen filled with sample data"
+msgstr ""
+
+#. type: Content of: <section><section><para><figure><screenshot>
+#: en/content/administration/dynamicfields-configuration.xml:640
+msgid ""
+"<graphic scale=\"40\" "
+"fileref=\"screenshots/administration/dynamicfields/dynamicfields-overview-filled.png\"></graphic>"
 msgstr ""
 
 #. type: Content of: <section><section><para>
@@ -14850,7 +14934,7 @@ msgstr ""
 #: en/content/administration/dynamicfields-configuration.xml:788
 msgid ""
 "<graphic scale=\"40\" "
-"fileref=\"screenshots/dynamicfields-agentticketphone-field1.png\"></graphic>"
+"fileref=\"screenshots/administration/dynamicfields/dynamicfields-agentticketphone-field1.png\"></graphic>"
 msgstr ""
 
 #. type: Content of: <section><section><section><para><example><title>
@@ -14872,7 +14956,7 @@ msgstr ""
 #: en/content/administration/dynamicfields-configuration.xml:844
 msgid ""
 "<graphic scale=\"40\" "
-"fileref=\"screenshots/dynamicfields-agentticketphone-field1-mandatory.png\"></graphic>"
+"fileref=\"screenshots/administration/dynamicfields/dynamicfields-agentticketphone-field1-mandatory.png\"></graphic>"
 msgstr ""
 
 #. type: Content of: <section><section><section><para><example><title>
@@ -14889,7 +14973,7 @@ msgstr ""
 #: en/content/administration/dynamicfields-configuration.xml:924
 msgid ""
 "<graphic scale=\"40\" "
-"fileref=\"screenshots/dynamicfields-agentticketphone-allfields.png\"></graphic>"
+"fileref=\"screenshots/administration/dynamicfields/dynamicfields-agentticketphone-allfields.png\"></graphic>"
 msgstr ""
 
 #. type: Content of: <section><section><section><para><example><title>
@@ -14911,7 +14995,7 @@ msgstr ""
 #: en/content/administration/dynamicfields-configuration.xml:1004
 msgid ""
 "<graphic scale=\"40\" "
-"fileref=\"screenshots/dynamicfields-agentticketphone-somefields.png\"></graphic>"
+"fileref=\"screenshots/administration/dynamicfields/dynamicfields-agentticketphone-somefields.png\"></graphic>"
 msgstr ""
 
 #. type: Content of: <section><section><section><para><example><title>
@@ -14940,7 +15024,7 @@ msgstr ""
 #: en/content/administration/dynamicfields-configuration.xml:1060
 msgid ""
 "<graphic scale=\"40\" "
-"fileref=\"screenshots/dynamicfields-agentticketzoom-field1.png\"></graphic>"
+"fileref=\"screenshots/administration/dynamicfields/dynamicfields-agentticketzoom-field1.png\"></graphic>"
 msgstr ""
 
 #. type: Content of: <section><section><section><para><example><title>
@@ -14967,7 +15051,7 @@ msgstr ""
 #: en/content/administration/dynamicfields-configuration.xml:1116
 msgid ""
 "<graphic scale=\"40\" "
-"fileref=\"screenshots/dynamicfields-ticketoverviewsmall-field1.png\"></graphic>"
+"fileref=\"screenshots/administration/dynamicfields/dynamicfields-ticketoverviewsmall-field1.png\"></graphic>"
 msgstr ""
 
 #. type: Content of: <section><section><section><para><example><para>
@@ -15127,7 +15211,7 @@ msgid "Column"
 msgstr ""
 
 #. type: Content of: <chapter><section><itemizedlist><title>
-#: en/content/administration/dynamicfields-configuration.xml:1288 en/content/first-steps.xml:596
+#: en/content/administration/dynamicfields-configuration.xml:1288 en/content/first-steps.xml:599
 msgid "Other Settings"
 msgstr ""
 
@@ -15195,7 +15279,7 @@ msgstr ""
 #: en/content/administration/dynamicfields-configuration.xml:1324
 msgid ""
 "<graphic scale=\"40\" "
-"fileref=\"screenshots/dynamicfields-userpreferences.png\"></graphic>"
+"fileref=\"screenshots/administration/dynamicfields/dynamicfields-userpreferences.png\"></graphic>"
 msgstr ""
 
 #. type: Content of: <section><section><para>
@@ -15268,7 +15352,7 @@ msgstr ""
 
 #. type: Content of: <section><title>
 #: en/content/administration/backup-and-restore.xml:6
-msgid "Backing up the system"
+msgid "Backing Up the System"
 msgstr ""
 
 #. type: Content of: <section><para>
@@ -15497,6 +15581,13 @@ msgstr ""
 msgid "Web services overview"
 msgstr ""
 
+#. type: Content of: <section><section><para><figure><screenshot>
+#: en/content/administration/genericinterface/genericinterface-webservice-gui.xml:62
+msgid ""
+"<graphic scale=\"40\" "
+"fileref=\"screenshots/administration/genericinterface/genericinterface-webservice-overview.png\"></graphic>"
+msgstr ""
+
 #. type: Content of: <section><section><title>
 #: en/content/administration/genericinterface/genericinterface-webservice-gui.xml:69
 msgid "Web Service Add"
@@ -15586,7 +15677,7 @@ msgstr ""
 #: en/content/administration/genericinterface/genericinterface-webservice-gui.xml:131
 msgid ""
 "<graphic scale=\"40\" "
-"fileref=\"screenshots/genericinterface-webservice-add.png\"></graphic>"
+"fileref=\"screenshots/administration/genericinterface/genericinterface-webservice-add.png\"></graphic>"
 msgstr ""
 
 #. type: Content of: <section><section><title>
@@ -15675,7 +15766,7 @@ msgstr ""
 #: en/content/administration/genericinterface/genericinterface-webservice-gui.xml:203
 msgid ""
 "<graphic scale=\"40\" "
-"fileref=\"screenshots/genericinterface-webservice-clone.png\"></graphic>"
+"fileref=\"screenshots/administration/genericinterface/genericinterface-webservice-clone.png\"></graphic>"
 msgstr ""
 
 #. type: Content of: <section><section><section><title>
@@ -15727,7 +15818,7 @@ msgstr ""
 #: en/content/administration/genericinterface/genericinterface-webservice-gui.xml:240
 msgid ""
 "<graphic scale=\"40\" "
-"fileref=\"screenshots/genericinterface-webservice-export.png\"></graphic>"
+"fileref=\"screenshots/administration/genericinterface/genericinterface-webservice-export.png\"></graphic>"
 msgstr ""
 
 #. type: Content of: <section><section><section><title>
@@ -15770,7 +15861,7 @@ msgstr ""
 #: en/content/administration/genericinterface/genericinterface-webservice-gui.xml:271
 msgid ""
 "<graphic scale=\"40\" "
-"fileref=\"screenshots/genericinterface-webservice-import.png\"></graphic>"
+"fileref=\"screenshots/administration/genericinterface/genericinterface-webservice-import.png\"></graphic>"
 msgstr ""
 
 #. type: Content of: <section><section><section><title>
@@ -15841,7 +15932,7 @@ msgstr ""
 #: en/content/administration/genericinterface/genericinterface-webservice-gui.xml:319
 msgid ""
 "<graphic scale=\"40\" "
-"fileref=\"screenshots/genericinterface-webservice-history.png\"></graphic>"
+"fileref=\"screenshots/administration/genericinterface/genericinterface-webservice-history.png\"></graphic>"
 msgstr ""
 
 #. type: Content of: <section><section><section><title>
@@ -15880,7 +15971,7 @@ msgstr ""
 #: en/content/administration/genericinterface/genericinterface-webservice-gui.xml:346
 msgid ""
 "<graphic scale=\"40\" "
-"fileref=\"screenshots/genericinterface-webservice-delete.png\"></graphic>"
+"fileref=\"screenshots/administration/genericinterface/genericinterface-webservice-delete.png\"></graphic>"
 msgstr ""
 
 #. type: Content of: <section><section><section><title>
@@ -15972,7 +16063,7 @@ msgstr ""
 #: en/content/administration/genericinterface/genericinterface-webservice-gui.xml:414
 msgid ""
 "<graphic scale=\"40\" "
-"fileref=\"screenshots/genericinterface-webservice-debugger.png\"></graphic>"
+"fileref=\"screenshots/administration/genericinterface/genericinterface-webservice-debugger.png\"></graphic>"
 msgstr ""
 
 #. type: Content of: <section><section><section><title>
@@ -16038,7 +16129,7 @@ msgstr ""
 #: en/content/administration/genericinterface/genericinterface-webservice-gui.xml:458
 msgid ""
 "<graphic scale=\"40\" "
-"fileref=\"screenshots/genericinterface-webservice-change.png\"></graphic>"
+"fileref=\"screenshots/administration/genericinterface/genericinterface-webservice-change.png\"></graphic>"
 msgstr ""
 
 #. type: Content of: <section><section><section><note><para>
@@ -16109,7 +16200,7 @@ msgstr ""
 #: en/content/administration/genericinterface/genericinterface-webservice-gui.xml:505
 msgid ""
 "<graphic scale=\"40\" "
-"fileref=\"screenshots/genericinterface-webservice-provider-transport-soap.png\"></graphic>"
+"fileref=\"screenshots/administration/genericinterface/genericinterface-webservice-provider-transport-soap.png\"></graphic>"
 msgstr ""
 
 #. type: Content of: <section><section><section><section><para>
@@ -16283,7 +16374,7 @@ msgstr ""
 #: en/content/administration/genericinterface/genericinterface-webservice-gui.xml:645
 msgid ""
 "<graphic scale=\"40\" "
-"fileref=\"screenshots/genericinterface-webservice-provider-transport-rest.png\"></graphic>"
+"fileref=\"screenshots/administration/genericinterface/genericinterface-webservice-provider-transport-rest.png\"></graphic>"
 msgstr ""
 
 #. type: Content of: <section><section><section><section><title>
@@ -16351,7 +16442,7 @@ msgstr ""
 #: en/content/administration/genericinterface/genericinterface-webservice-gui.xml:692
 msgid ""
 "<graphic scale=\"40\" "
-"fileref=\"screenshots/genericinterface-webservice-operation.png\"></graphic>"
+"fileref=\"screenshots/administration/genericinterface/genericinterface-webservice-operation.png\"></graphic>"
 msgstr ""
 
 #. type: Content of: <section><section><section><section><title>
@@ -16427,7 +16518,7 @@ msgstr ""
 #: en/content/administration/genericinterface/genericinterface-webservice-gui.xml:754
 msgid ""
 "<graphic scale=\"40\" "
-"fileref=\"screenshots/genericinterface-webservice-requester-transport-soap.png\"></graphic>"
+"fileref=\"screenshots/administration/genericinterface/genericinterface-webservice-requester-transport-soap.png\"></graphic>"
 msgstr ""
 
 #. type: Content of: <section><section><section><section><para>
@@ -16562,7 +16653,7 @@ msgstr ""
 #: en/content/administration/genericinterface/genericinterface-webservice-gui.xml:859
 msgid ""
 "<graphic scale=\"40\" "
-"fileref=\"screenshots/genericinterface-webservice-requester-transport-rest.png\"></graphic>"
+"fileref=\"screenshots/administration/genericinterface/genericinterface-webservice-requester-transport-rest.png\"></graphic>"
 msgstr ""
 
 #. type: Content of: <section><section><section><section><title>
@@ -16672,7 +16763,7 @@ msgstr ""
 #: en/content/administration/genericinterface/genericinterface-webservice-gui.xml:938
 msgid ""
 "<graphic scale=\"40\" "
-"fileref=\"screenshots/genericinterface-webservice-invoker.png\"></graphic>"
+"fileref=\"screenshots/administration/genericinterface/genericinterface-webservice-invoker.png\"></graphic>"
 msgstr ""
 
 #. type: Content of: <section><section><section><section><title>
@@ -16810,7 +16901,7 @@ msgstr ""
 #: en/content/administration/genericinterface/genericinterface-webservice-gui.xml:1046
 msgid ""
 "<graphic scale=\"40\" "
-"fileref=\"screenshots/genericinterface-webservice-mapping.png\"></graphic>"
+"fileref=\"screenshots/administration/genericinterface/genericinterface-webservice-mapping.png\"></graphic>"
 msgstr ""
 
 #. type: Content of: <section><title>
@@ -17228,7 +17319,7 @@ msgstr ""
 #: en/content/administration/genericinterface/genericinterface-layers.xml:28
 msgid ""
 "<graphic scale=\"50\" "
-"fileref=\"screenshots/genericinterface-layers.png\"></graphic>"
+"fileref=\"screenshots/administration/genericinterface/genericinterface-layers.png\"></graphic>"
 msgstr ""
 
 #. type: Content of: <section><section><para>
@@ -19625,7 +19716,9 @@ msgstr ""
 
 #. type: Content of: <section><section><section><para><figure><screenshot>
 #: en/content/administration/stats.xml:41
-msgid "<graphic fileref=\"screenshots/stats-overview.png\" scale=\"40\" />"
+msgid ""
+"<graphic fileref=\"screenshots/administration/stats/stats-overview.png\" "
+"scale=\"40\" />"
 msgstr ""
 
 #. type: Content of: <section><section><section><para>
@@ -19655,7 +19748,9 @@ msgstr ""
 
 #. type: Content of: <section><section><section><para><figure><screenshot>
 #: en/content/administration/stats.xml:58
-msgid "<graphic fileref=\"screenshots/stats-view.png\" scale=\"40\" />"
+msgid ""
+"<graphic fileref=\"screenshots/administration/stats/stats-view.png\" "
+"scale=\"40\" />"
 msgstr ""
 
 #. type: Content of: <section><section><section><para>
@@ -19690,7 +19785,10 @@ msgstr ""
 
 #. type: Content of: <section><section><section><para><figure><screenshot>
 #: en/content/administration/stats.xml:86
-msgid "<graphic fileref=\"screenshots/stats-add-typeselection.png\" scale=\"40\" />"
+msgid ""
+"<graphic "
+"fileref=\"screenshots/administration/stats/stats-add-typeselection.png\" "
+"scale=\"40\" />"
 msgstr ""
 
 #. type: Content of: <section><section><section><para>
@@ -19764,7 +19862,9 @@ msgstr ""
 
 #. type: Content of: <section><section><section><para><figure><screenshot>
 #: en/content/administration/stats.xml:134
-msgid "<graphic fileref=\"screenshots/stats-add-general.png\" scale=\"40\" />"
+msgid ""
+"<graphic fileref=\"screenshots/administration/stats/stats-add-general.png\" "
+"scale=\"40\" />"
 msgstr ""
 
 #. type: Content of: <section><section><section><para>
@@ -19824,7 +19924,9 @@ msgstr ""
 
 #. type: Content of: <section><section><section><para><figure><screenshot>
 #: en/content/administration/stats.xml:166
-msgid "<graphic fileref=\"screenshots/stats-config-xaxis.png\" scale=\"40\" />"
+msgid ""
+"<graphic fileref=\"screenshots/administration/stats/stats-config-xaxis.png\" "
+"scale=\"40\" />"
 msgstr ""
 
 #. type: Content of: <section><section><section><para>
@@ -19846,7 +19948,9 @@ msgstr ""
 
 #. type: Content of: <section><section><section><para><figure><screenshot>
 #: en/content/administration/stats.xml:180
-msgid "<graphic fileref=\"screenshots/stats-config-yaxis.png\" scale=\"40\" />"
+msgid ""
+"<graphic fileref=\"screenshots/administration/stats/stats-config-yaxis.png\" "
+"scale=\"40\" />"
 msgstr ""
 
 #. type: Content of: <section><section><section><para>
@@ -19869,7 +19973,10 @@ msgstr ""
 
 #. type: Content of: <section><section><section><para><figure><screenshot>
 #: en/content/administration/stats.xml:196
-msgid "<graphic fileref=\"screenshots/stats-config-filter.png\" scale=\"40\" />"
+msgid ""
+"<graphic "
+"fileref=\"screenshots/administration/stats/stats-config-filter.png\" "
+"scale=\"40\" />"
 msgstr ""
 
 #. type: Content of: <section><section><section><para>
@@ -19883,7 +19990,10 @@ msgstr ""
 
 #. type: Content of: <section><section><section><para><figure><screenshot>
 #: en/content/administration/stats.xml:209
-msgid "<graphic fileref=\"screenshots/stats-config-preview.png\" scale=\"40\" />"
+msgid ""
+"<graphic "
+"fileref=\"screenshots/administration/stats/stats-config-preview.png\" "
+"scale=\"40\" />"
 msgstr ""
 
 #. type: Content of: <section><section><section><para><note>
@@ -19926,7 +20036,9 @@ msgstr ""
 
 #. type: Content of: <section><section><section><para><figure><screenshot>
 #: en/content/administration/stats.xml:232
-msgid "<graphic fileref=\"screenshots/stats-import.png\" scale=\"40\" />"
+msgid ""
+"<graphic fileref=\"screenshots/administration/stats/stats-import.png\" "
+"scale=\"40\" />"
 msgstr ""
 
 #. type: Content of: <section><section><section><para>
@@ -20685,7 +20797,7 @@ msgstr ""
 
 #. type: Content of: <chapter><title>
 #: en/content/first-steps.xml:6
-msgid "First steps"
+msgid "First Steps"
 msgstr ""
 
 #. type: Content of: <chapter><abstract><para>
@@ -20699,7 +20811,7 @@ msgstr ""
 
 #. type: Content of: <chapter><section><title>
 #: en/content/first-steps.xml:15
-msgid "Agent web interface"
+msgid "Agent Web Interface"
 msgstr ""
 
 #. type: Content of: <chapter><section><para>
@@ -20719,7 +20831,7 @@ msgid ""
 "screen can be reached by using the address <ulink "
 "url=\"http://www.example.com/otrs/index.pl\"> "
 "<citetitle>http://www.example.com/otrs/index.pl</citetitle> </ulink> in a "
-"web browser (see Figure below)."
+"web browser (see figure below)."
 msgstr ""
 
 #. type: Content of: <chapter><section><para><figure><title>
@@ -20729,12 +20841,14 @@ msgstr ""
 
 #. type: Content of: <chapter><section><para><figure><screenshot>
 #: en/content/first-steps.xml:37
-msgid "<graphic scale=\"40\" fileref=\"screenshots/login.png\"></graphic>"
+msgid ""
+"<graphic scale=\"40\" "
+"fileref=\"screenshots/introduction/firststeps/login.png\"></graphic>"
 msgstr ""
 
 #. type: Content of: <chapter><section><title>
 #: en/content/first-steps.xml:45
-msgid "Customer web interface"
+msgid "Customer Web Interface"
 msgstr ""
 
 #. type: Content of: <chapter><section><para>
@@ -20751,7 +20865,7 @@ msgid ""
 "Continuing the above example, the customer login screen can be reached by "
 "using the URL <ulink url=\"http://www.example.com/otrs/customer.pl\"> "
 "<citetitle>http://www.example.com/otrs/customer.pl</citetitle> </ulink> with "
-"a web browser (see Figure below)."
+"a web browser (see figure below)."
 msgstr ""
 
 #. type: Content of: <chapter><section><para><figure><title>
@@ -20761,12 +20875,14 @@ msgstr ""
 
 #. type: Content of: <chapter><section><para><figure><screenshot>
 #: en/content/first-steps.xml:63
-msgid "<graphic scale=\"40\" fileref=\"screenshots/customer-login.png\"></graphic>"
+msgid ""
+"<graphic scale=\"40\" "
+"fileref=\"screenshots/introduction/firststeps/customer-login.png\"></graphic>"
 msgstr ""
 
-#. type: Content of: <chapter><section><para><figure><title>
-#: en/content/first-steps.xml:71 en/content/first-steps.xml:90
-msgid "Public web interface"
+#. type: Content of: <chapter><section><title>
+#: en/content/first-steps.xml:71
+msgid "Public Web Interface"
 msgstr ""
 
 #. type: Content of: <chapter><section><para>
@@ -20789,16 +20905,21 @@ msgid ""
 "<citetitle>http://www.example.com/otrs/public.pl</citetitle> </ulink>"
 msgstr ""
 
+#. type: Content of: <chapter><section><para><figure><title>
+#: en/content/first-steps.xml:90
+msgid "Public web interface"
+msgstr ""
+
 #. type: Content of: <chapter><section><para><figure><screenshot>
 #: en/content/first-steps.xml:92
 msgid ""
 "<graphic scale=\"40\" "
-"fileref=\"screenshots/public-interface.png\"></graphic>"
+"fileref=\"screenshots/introduction/firststeps/public-interface.png\"></graphic>"
 msgstr ""
 
 #. type: Content of: <chapter><section><title>
 #: en/content/first-steps.xml:100
-msgid "First login"
+msgid "First Login"
 msgstr ""
 
 #. type: Content of: <chapter><section><para>
@@ -20833,7 +20954,7 @@ msgid ""
 "In case you have forgotten your password, you can request the system for a "
 "new password. Simply press the link below the Login button, enter the mail "
 "address that is registered for your OTRS account into the input field, and "
-"press the Submit button (see Figure)."
+"press the Submit button (see figure)."
 msgstr ""
 
 #. type: Content of: <chapter><section><para><figure><title>
@@ -20845,19 +20966,19 @@ msgstr ""
 #: en/content/first-steps.xml:125
 msgid ""
 "<graphic scale=\"40\" "
-"fileref=\"screenshots/request-new-password.png\"></graphic>"
+"fileref=\"screenshots/introduction/firststeps/request-new-password.png\"></graphic>"
 msgstr ""
 
 #. type: Content of: <chapter><section><title>
 #: en/content/first-steps.xml:133
-msgid "The web interface - an overview"
+msgid "The Web Interface - an Overview"
 msgstr ""
 
 #. type: Content of: <chapter><section><para>
 #: en/content/first-steps.xml:136
 msgid ""
 "Upon successfully logging into the system, you are presented with the "
-"Dashboard page (see Figure below). It shows your locked tickets, allows "
+"Dashboard page (see figure below). It shows your locked tickets, allows "
 "direct access through menus to the queue, status and escalation views, and "
 "also holds options for creation of new phone and e-mail tickets. It also "
 "presents a quick summary of the tickets using different criteria."
@@ -20870,7 +20991,9 @@ msgstr ""
 
 #. type: Content of: <chapter><section><para><figure><screenshot>
 #: en/content/first-steps.xml:143
-msgid "<graphic scale=\"40\" fileref=\"screenshots/first-screen.png\"></graphic>"
+msgid ""
+"<graphic scale=\"40\" "
+"fileref=\"screenshots/introduction/firststeps/first-screen.png\"></graphic>"
 msgstr ""
 
 #. type: Content of: <chapter><section><para>
@@ -20937,7 +21060,7 @@ msgstr ""
 #. type: Content of: <chapter><section><para>
 #: en/content/first-steps.xml:173
 msgid ""
-"Finally at the bottom of the page, the site footer is displayed (see Figure "
+"Finally at the bottom of the page, the site footer is displayed (see figure "
 "below). It contains links to directly access the OTRS official web site, or "
 "go to the Top of the page."
 msgstr ""
@@ -20956,7 +21079,9 @@ msgstr ""
 
 #. type: Content of: <chapter><section><para><figure><screenshot>
 #: en/content/first-steps.xml:184
-msgid "<graphic scale=\"40\" fileref=\"screenshots/footer.png\"></graphic>"
+msgid ""
+"<graphic scale=\"40\" "
+"fileref=\"screenshots/introduction/firststeps/footer.png\"></graphic>"
 msgstr ""
 
 #. type: Content of: <chapter><section><title>
@@ -21007,7 +21132,7 @@ msgstr ""
 #: en/content/first-steps.xml:223
 msgid ""
 "<graphic scale=\"40\" "
-"fileref=\"screenshots/dashboard-left-column-widgets.png\"></graphic>"
+"fileref=\"screenshots/introduction/firststeps/dashboard-left-column-widgets.png\"></graphic>"
 msgstr ""
 
 #. type: Content of: <chapter><section><para>
@@ -21186,7 +21311,7 @@ msgstr ""
 #: en/content/first-steps.xml:326
 msgid ""
 "<graphic scale=\"40\" "
-"fileref=\"screenshots/events-ticket-calendar.png\"></graphic>"
+"fileref=\"screenshots/introduction/firststeps/events-ticket-calendar.png\"></graphic>"
 msgstr ""
 
 #. type: Content of: <chapter><section><itemizedlist><listitem><para>
@@ -21313,7 +21438,9 @@ msgstr ""
 
 #. type: Content of: <chapter><section><para><figure><screenshot>
 #: en/content/first-steps.xml:404
-msgid "<graphic scale=\"40\" fileref=\"screenshots/edit-settings.png\"></graphic>"
+msgid ""
+"<graphic scale=\"40\" "
+"fileref=\"screenshots/introduction/firststeps/edit-settings.png\"></graphic>"
 msgstr ""
 
 #. type: Content of: <chapter><section><para>
@@ -21376,7 +21503,7 @@ msgstr ""
 
 #. type: Content of: <chapter><section><title>
 #: en/content/first-steps.xml:451
-msgid "What is a queue?"
+msgid "What is a Queue?"
 msgstr ""
 
 #. type: Content of: <chapter><section><para>
@@ -21472,7 +21599,7 @@ msgstr ""
 
 #. type: Content of: <chapter><section><title>
 #: en/content/first-steps.xml:493
-msgid "What is the queue overview?"
+msgid "What is the Queue Overview?"
 msgstr ""
 
 #. type: Content of: <chapter><section><para>
@@ -21491,7 +21618,7 @@ msgstr ""
 #: en/content/first-steps.xml:503
 msgid ""
 "<graphic scale=\"40\" "
-"fileref=\"screenshots/agent-queue-view.png\"></graphic>"
+"fileref=\"screenshots/introduction/firststeps/agent-queue-view.png\"></graphic>"
 msgstr ""
 
 #. type: Content of: <chapter><section><para>
@@ -21535,7 +21662,7 @@ msgstr ""
 #: en/content/first-steps.xml:528
 msgid ""
 "<graphic scale=\"40\" "
-"fileref=\"screenshots/agent-queue-overview-visual-alarms.png\"></graphic>"
+"fileref=\"screenshots/introduction/firststeps/agent-queue-overview-visual-alarms.png\"></graphic>"
 msgstr ""
 
 #. type: Content of: <chapter><section><itemizedlist><title>
@@ -21573,7 +21700,7 @@ msgstr ""
 
 #. type: Content of: <chapter><section><title>
 #: en/content/first-steps.xml:551
-msgid "User preferences"
+msgid "User Preferences"
 msgstr ""
 
 #. type: Content of: <chapter><section><para>
@@ -21582,8 +21709,8 @@ msgid ""
 "OTRS users such as customers, agents and the OTRS administrator can "
 "configure their account preferences as per their needs. Agent can access the "
 "configuration screen by clicking on their login name at the top right corner "
-"of the web interface (see Figure below), and customers must click on the "
-"\"Preferences\" link (see Figure below)."
+"of the web interface (see figure below), and customers must click on the "
+"\"Preferences\" link (see figure below)."
 msgstr ""
 
 #. type: Content of: <chapter><section><para><figure><title>
@@ -21595,7 +21722,7 @@ msgstr ""
 #: en/content/first-steps.xml:560
 msgid ""
 "<graphic scale=\"40\" "
-"fileref=\"screenshots/agent-preferences.png\"></graphic>"
+"fileref=\"screenshots/introduction/firststeps/agent-preferences.png\"></graphic>"
 msgstr ""
 
 #. type: Content of: <chapter><section><para>
@@ -21622,7 +21749,7 @@ msgstr ""
 
 #. type: Content of: <chapter><section><itemizedlist><listitem><para>
 #: en/content/first-steps.xml:578
-msgid "Switch the frontend skin."
+msgid "Activate and configure the out-of-office time."
 msgstr ""
 
 #. type: Content of: <chapter><section><itemizedlist><listitem><para>
@@ -21630,34 +21757,36 @@ msgstr ""
 msgid "Shift the frontend theme."
 msgstr ""
 
-#. type: Content of: <chapter><section><itemizedlist><listitem><para>
-#: en/content/first-steps.xml:584
-msgid "Activate and configure the out-of-office time."
-msgstr ""
-
 #. type: Content of: <chapter><section><itemizedlist><title>
-#: en/content/first-steps.xml:589
-msgid "Email Settings"
+#: en/content/first-steps.xml:586
+msgid "Notification Settings"
 msgstr ""
 
 #. type: Content of: <chapter><section><itemizedlist><listitem><para>
-#: en/content/first-steps.xml:591
-msgid "Select events that trigger email notifications to the agent."
-msgstr ""
-
-#. type: Content of: <chapter><section><itemizedlist><listitem><para>
-#: en/content/first-steps.xml:598
+#: en/content/first-steps.xml:588
 msgid "Select the queues you want to monitor in \"My Queues\"."
 msgstr ""
 
 #. type: Content of: <chapter><section><itemizedlist><listitem><para>
-#: en/content/first-steps.xml:601
+#: en/content/first-steps.xml:591
 msgid "Select the services you want to monitor in \"My Services\"."
 msgstr ""
 
 #. type: Content of: <chapter><section><itemizedlist><listitem><para>
+#: en/content/first-steps.xml:594
+msgid ""
+"Configure which ticket notifications you want to receive (per transport "
+"method)."
+msgstr ""
+
+#. type: Content of: <chapter><section><itemizedlist><listitem><para>
+#: en/content/first-steps.xml:601
+msgid "Switch the frontend skin."
+msgstr ""
+
+#. type: Content of: <chapter><section><itemizedlist><listitem><para>
 #: en/content/first-steps.xml:604
-msgid "Set the refresh period for the overviews (Dashboard, LockedView, QueueView)."
+msgid "Set the refresh period for the overviews (Dashboard, Queue View etc.)."
 msgstr ""
 
 #. type: Content of: <chapter><section><itemizedlist><listitem><para>
@@ -21674,7 +21803,7 @@ msgstr ""
 #: en/content/first-steps.xml:615
 msgid ""
 "<graphic scale=\"40\" "
-"fileref=\"screenshots/customer-preferences.png\"></graphic>"
+"fileref=\"screenshots/introduction/firststeps/customer-preferences.png\"></graphic>"
 msgstr ""
 
 #. type: Content of: <chapter><section><para>
@@ -21893,46 +22022,46 @@ msgid "shell> bin/otrs.SetPermissions.pl --web-group=otrs\n"
 msgstr ""
 
 #. type: Content of: <section><section><para><itemizedlist><listitem><para>
-#: en/content/installation/upgrading.xml:143 en/content/installation/source.xml:250
+#: en/content/installation/upgrading.xml:143 en/content/installation/source.xml:249
 msgid ""
 "Web server which runs as the OTRS user: <placeholder type=\"screen\" "
 "id=\"0\"/>"
 msgstr ""
 
 #. type: CDATA
-#: en/content/installation/upgrading.xml:153 en/content/installation/source.xml:257
+#: en/content/installation/upgrading.xml:153 en/content/installation/source.xml:256
 #, no-wrap
 msgid "shell> bin/otrs.SetPermissions.pl --web-group=wwwrun\n"
 msgstr ""
 
 #. type: Content of: <section><section><para><itemizedlist><listitem><para>
-#: en/content/installation/upgrading.xml:152 en/content/installation/source.xml:256
+#: en/content/installation/upgrading.xml:152 en/content/installation/source.xml:255
 msgid ""
 "Webserver with wwwrun user (e. g. SUSE): <placeholder type=\"screen\" "
 "id=\"0\"/>"
 msgstr ""
 
 #. type: CDATA
-#: en/content/installation/upgrading.xml:162 en/content/installation/source.xml:263
+#: en/content/installation/upgrading.xml:162 en/content/installation/source.xml:262
 #, no-wrap
 msgid "shell> bin/otrs.SetPermissions.pl --web-group=apache\n"
 msgstr ""
 
 #. type: Content of: <section><section><para><itemizedlist><listitem><para>
-#: en/content/installation/upgrading.xml:161 en/content/installation/source.xml:262
+#: en/content/installation/upgrading.xml:161 en/content/installation/source.xml:261
 msgid ""
 "Webserver with apache user (e. g. Red Hat, CentOS): <placeholder "
 "type=\"screen\" id=\"0\"/>"
 msgstr ""
 
 #. type: CDATA
-#: en/content/installation/upgrading.xml:171 en/content/installation/source.xml:269
+#: en/content/installation/upgrading.xml:171 en/content/installation/source.xml:268
 #, no-wrap
 msgid "shell> bin/otrs.SetPermissions.pl --web-group=www-data\n"
 msgstr ""
 
 #. type: Content of: <section><section><para><itemizedlist><listitem><para>
-#: en/content/installation/upgrading.xml:170 en/content/installation/source.xml:268
+#: en/content/installation/upgrading.xml:170 en/content/installation/source.xml:267
 msgid ""
 "Webserver with www-data user (e. g. Debian, Ubuntu): <placeholder "
 "type=\"screen\" id=\"0\"/>"
@@ -22177,13 +22306,13 @@ msgid "Step 12: Start the OTRS Daemon"
 msgstr ""
 
 #. type: CDATA
-#: en/content/installation/upgrading.xml:357 en/content/installation/source.xml:314
+#: en/content/installation/upgrading.xml:357 en/content/installation/source.xml:313
 #, no-wrap
 msgid "shell> /opt/otrs/bin/otrs.Daemon.pl start\n"
 msgstr ""
 
 #. type: Content of: <section><section><para>
-#: en/content/installation/upgrading.xml:352 en/content/installation/source.xml:309
+#: en/content/installation/upgrading.xml:352 en/content/installation/source.xml:308
 msgid ""
 "The new OTRS daemon is responsible for handling any asynchronous and "
 "recurring tasks in OTRS.  What has been in cron file definitions previously "
@@ -22198,7 +22327,7 @@ msgid "Step 13: Update and activate cronjobs"
 msgstr ""
 
 #. type: CDATA
-#: en/content/installation/upgrading.xml:372 en/content/installation/source.xml:328
+#: en/content/installation/upgrading.xml:372 en/content/installation/source.xml:327
 #, no-wrap
 msgid ""
 "shell> cd /opt/otrs/var/cron\n"
@@ -22206,7 +22335,7 @@ msgid ""
 msgstr ""
 
 #. type: CDATA
-#: en/content/installation/upgrading.xml:380 en/content/installation/source.xml:336
+#: en/content/installation/upgrading.xml:380 en/content/installation/source.xml:335
 #, no-wrap
 msgid "shell> /opt/otrs/bin/Cron.sh start\n"
 msgstr ""
@@ -22373,7 +22502,7 @@ msgid ""
 msgstr ""
 
 #. type: Content of: <section><section><para>
-#: en/content/installation/upgrading.xml:477 en/content/installation/source.xml:356
+#: en/content/installation/upgrading.xml:477 en/content/installation/source.xml:355
 msgid ""
 "You can activate the bash autocompletion by installing the package "
 "<literal>bash-completion</literal>.  It will automatically detect and load "
@@ -22382,7 +22511,7 @@ msgid ""
 msgstr ""
 
 #. type: Content of: <section><section><para>
-#: en/content/installation/upgrading.xml:481 en/content/installation/source.xml:360
+#: en/content/installation/upgrading.xml:481 en/content/installation/source.xml:359
 msgid ""
 "After restarting your shell, you can just type "
 "<filename>bin/otrs.Console.pl</filename> followed by TAB, and it will list "
@@ -22398,7 +22527,7 @@ msgstr ""
 
 #. type: Content of: <section><title>
 #: en/content/installation/packages.xml:6
-msgid "The simple way - Installation of pre-built packages"
+msgid "The Simple Way - Installation of Pre-Built Packages"
 msgstr ""
 
 #. type: Content of: <section><para>
@@ -22463,7 +22592,7 @@ msgid "linux:~ # zypper install mysql perl-DBD-mysql\n"
 msgstr ""
 
 #. type: CDATA
-#: en/content/installation/packages.xml:49 en/content/installation/packages.xml:197 en/content/installation/source.xml:286
+#: en/content/installation/packages.xml:49 en/content/installation/packages.xml:197 en/content/installation/source.xml:285
 #, no-wrap
 msgid ""
 "max_allowed_packet   = 20M\n"
@@ -23041,7 +23170,7 @@ msgstr ""
 
 #. type: Content of: <section><title>
 #: en/content/installation/applications.xml:5
-msgid "Additional applications"
+msgid "Additional Applications"
 msgstr ""
 
 #. type: Content of: <section><abstract><para>
@@ -23070,7 +23199,7 @@ msgstr ""
 
 #. type: Content of: <section><title>
 #: en/content/installation/source.xml:7
-msgid "Installation from source (Linux, Unix)"
+msgid "Installation From Source (Linux, Unix)"
 msgstr ""
 
 #. type: Content of: <section><section><title>
@@ -23272,7 +23401,6 @@ msgstr ""
 msgid ""
 "shell> cd /opt/otrs/\n"
 "shell> cp Kernel/Config.pm.dist Kernel/Config.pm\n"
-"shell> cp Kernel/Config/GenericAgent.pm.dist Kernel/Config/GenericAgent.pm\n"
 msgstr ""
 
 #. type: Content of: <section><section><para>
@@ -23285,12 +23413,12 @@ msgid ""
 msgstr ""
 
 #. type: Content of: <section><section><title>
-#: en/content/installation/source.xml:166
+#: en/content/installation/source.xml:165
 msgid "Step 5: Check if all needed modules are installed"
 msgstr ""
 
 #. type: CDATA
-#: en/content/installation/source.xml:168
+#: en/content/installation/source.xml:167
 #, no-wrap
 msgid ""
 "shell> perl -cw /opt/otrs/bin/cgi-bin/index.pl\n"
@@ -23304,19 +23432,19 @@ msgid ""
 msgstr ""
 
 #. type: Content of: <section><section><para>
-#: en/content/installation/source.xml:168
+#: en/content/installation/source.xml:167
 msgid ""
 "<placeholder type=\"screen\" id=\"0\"/> \"syntax OK\" tells you all "
 "mandatory Perl modules are installed."
 msgstr ""
 
 #. type: Content of: <section><section><title>
-#: en/content/installation/source.xml:184
+#: en/content/installation/source.xml:183
 msgid "Step 6: Configuring the Apache web server"
 msgstr ""
 
 #. type: CDATA
-#: en/content/installation/source.xml:190
+#: en/content/installation/source.xml:189
 #, no-wrap
 msgid ""
 "# rhel / centos:\n"
@@ -23330,7 +23458,7 @@ msgid ""
 msgstr ""
 
 #. type: Content of: <section><section><para>
-#: en/content/installation/source.xml:187
+#: en/content/installation/source.xml:186
 msgid ""
 "First of all, you should install the Apache2 web server and mod_perl; you'd "
 "typically do this from your systems package manager.  Below you'll find the "
@@ -23339,7 +23467,7 @@ msgid ""
 msgstr ""
 
 #. type: Content of: <section><section><para>
-#: en/content/installation/source.xml:204
+#: en/content/installation/source.xml:203
 msgid ""
 "Most <application>Apache</application> installations have a "
 "<filename>conf.d</filename> directory included.  On Linux systems you can "
@@ -23352,7 +23480,7 @@ msgid ""
 msgstr ""
 
 #. type: CDATA
-#: en/content/installation/source.xml:215
+#: en/content/installation/source.xml:214
 #, no-wrap
 msgid ""
 "shell> a2enmod perl\n"
@@ -23363,7 +23491,7 @@ msgid ""
 msgstr ""
 
 #. type: Content of: <section><section><para>
-#: en/content/installation/source.xml:212
+#: en/content/installation/source.xml:211
 msgid ""
 "OTRS requires a few apache modules to be active for optimal operation. On "
 "most platforms you can make sure they are active via the tool "
@@ -23371,7 +23499,7 @@ msgid ""
 msgstr ""
 
 #. type: Content of: <section><section><para>
-#: en/content/installation/source.xml:225
+#: en/content/installation/source.xml:224
 msgid ""
 "Now you can restart your web server to load the new configuration settings.  "
 "On most systems you can do that with the command <command>systemctl restart "
@@ -23379,12 +23507,12 @@ msgid ""
 msgstr ""
 
 #. type: Content of: <section><section><title>
-#: en/content/installation/source.xml:231
+#: en/content/installation/source.xml:230
 msgid "Step 7: File Permissions"
 msgstr ""
 
 #. type: Content of: <section><section><para><cmdsynopsis>
-#: en/content/installation/source.xml:236
+#: en/content/installation/source.xml:235
 msgid ""
 "<command>otrs.SetPermissions.pl</command> <arg choice='opt'> --otrs-user= "
 "<replaceable>OTRS user, defaults to 'otrs'</replaceable> </arg> <arg "
@@ -23393,25 +23521,25 @@ msgid ""
 msgstr ""
 
 #. type: Content of: <section><section><para>
-#: en/content/installation/source.xml:233
+#: en/content/installation/source.xml:232
 msgid ""
 "File permissions need to be adjusted to allow OTRS to read and write files: "
 "<placeholder type=\"cmdsynopsis\" id=\"0\"/> For example:"
 msgstr ""
 
 #. type: CDATA
-#: en/content/installation/source.xml:251
+#: en/content/installation/source.xml:250
 #, no-wrap
 msgid "shell> bin/otrs.SetPermissions.pl --web-user=otrs\n"
 msgstr ""
 
 #. type: Content of: <section><section><title>
-#: en/content/installation/source.xml:278
+#: en/content/installation/source.xml:277
 msgid "Step 8: Database Setup and Basic System Configuration"
 msgstr ""
 
 #. type: Content of: <section><section><para>
-#: en/content/installation/source.xml:280
+#: en/content/installation/source.xml:279
 msgid ""
 "Please use the web installer at <ulink "
 "url=\"http://yourhost/otrs/installer.pl\">http://yourhost/otrs/installer.pl</ulink> "
@@ -23420,7 +23548,7 @@ msgid ""
 msgstr ""
 
 #. type: Content of: <section><section><note><para>
-#: en/content/installation/source.xml:284
+#: en/content/installation/source.xml:283
 msgid ""
 "The following configuration settings are recommended for MySQL "
 "setups. Please add the following lines to <filename>/etc/my.cnf</filename> "
@@ -23428,12 +23556,12 @@ msgid ""
 msgstr ""
 
 #. type: Content of: <section><section><title>
-#: en/content/installation/source.xml:296
+#: en/content/installation/source.xml:295
 msgid "Step 9: First login"
 msgstr ""
 
 #. type: Content of: <section><section><para>
-#: en/content/installation/source.xml:298
+#: en/content/installation/source.xml:297
 msgid ""
 "Now you are ready to login to your system at <ulink "
 "url=\"http://yourhost/otrs/index.pl\">http://yourhost/otrs/index.pl</ulink> "
@@ -23442,28 +23570,28 @@ msgid ""
 msgstr ""
 
 #. type: Content of: <section><section><para>
-#: en/content/installation/source.xml:301
+#: en/content/installation/source.xml:300
 msgid "With this step, the basic system setup is finished."
 msgstr ""
 
 #. type: Content of: <section><section><title>
-#: en/content/installation/source.xml:306
+#: en/content/installation/source.xml:305
 msgid "Step 10: Start the OTRS Daemon"
 msgstr ""
 
 #. type: Content of: <section><section><title>
-#: en/content/installation/source.xml:322
+#: en/content/installation/source.xml:321
 msgid "Step 11: Cronjobs for the OTRS user"
 msgstr ""
 
 #. type: CDATA
-#: en/content/installation/source.xml:342
+#: en/content/installation/source.xml:341
 #, no-wrap
 msgid "shell> /opt/otrs/bin/Cron.sh stop\n"
 msgstr ""
 
 #. type: Content of: <section><section><para>
-#: en/content/installation/source.xml:324
+#: en/content/installation/source.xml:323
 msgid ""
 "There are two default OTRS cron files in "
 "<filename>/opt/otrs/var/cron/*.dist</filename>, and their purpose is to make "
@@ -23477,12 +23605,12 @@ msgid ""
 msgstr ""
 
 #. type: Content of: <section><section><title>
-#: en/content/installation/source.xml:349
+#: en/content/installation/source.xml:348
 msgid "Step 12: Setup bash autocompletion (optional)"
 msgstr ""
 
 #. type: Content of: <section><section><para>
-#: en/content/installation/source.xml:351
+#: en/content/installation/source.xml:350
 msgid ""
 "All regular OTRS commandline operations happen via the otrs Console "
 "interface <filename>bin/otrs.Console.pl</filename>. This provides an auto "
@@ -23491,26 +23619,26 @@ msgid ""
 msgstr ""
 
 #. type: Content of: <section><section><title>
-#: en/content/installation/source.xml:368
+#: en/content/installation/source.xml:367
 msgid "Step 13: Further Information"
 msgstr ""
 
 #. type: Content of: <section><section><para>
-#: en/content/installation/source.xml:370
+#: en/content/installation/source.xml:369
 msgid ""
 "We advise you to read the OTRS <link "
 "linkend=\"performance-tuning\">performance tuning chapter</link>."
 msgstr ""
 
 #. type: Content of: <section><section><para>
-#: en/content/installation/source.xml:373
+#: en/content/installation/source.xml:372
 msgid ""
 "If you encounter problems with the installation, you can send a message to "
 "our mailing list otrs@otrs.org (http://lists.otrs.org/)."
 msgstr ""
 
 #. type: Content of: <section><section><para>
-#: en/content/installation/source.xml:377
+#: en/content/installation/source.xml:376
 msgid ""
 "You can also ask the OTRS Group to either help you in planning or deploying "
 "OTRS, or review your installed OTRS system. Our <ulink "
@@ -23633,7 +23761,7 @@ msgstr ""
 #: en/content/installation/windows.xml:55
 msgid ""
 "<graphic scale=\"80\" "
-"fileref=\"screenshots/win-download-otrsclonedb.png\"></graphic>"
+"fileref=\"screenshots/introduction/installation/win-download-otrsclonedb.png\"></graphic>"
 msgstr ""
 
 #. type: Content of: <section><section><section><para>
@@ -23650,7 +23778,7 @@ msgstr ""
 #: en/content/installation/windows.xml:66
 msgid ""
 "<graphic scale=\"80\" "
-"fileref=\"screenshots/win-install-otrsclonedb.png\"></graphic>"
+"fileref=\"screenshots/introduction/installation/win-install-otrsclonedb.png\"></graphic>"
 msgstr ""
 
 #. type: Content of: <section><section><section><para>
@@ -23878,7 +24006,7 @@ msgstr ""
 #: en/content/installation/windows.xml:197
 msgid ""
 "<graphic scale=\"80\" "
-"fileref=\"screenshots/win-gather-db-data-1.png\"></graphic>"
+"fileref=\"screenshots/introduction/installation/win-gather-db-data-1.png\"></graphic>"
 msgstr ""
 
 #. type: Content of: <section><section><section><para>
@@ -23923,7 +24051,7 @@ msgstr ""
 #: en/content/installation/windows.xml:221
 msgid ""
 "<graphic scale=\"80\" "
-"fileref=\"screenshots/win_configurate_otrsclonedb_sysconfig-1.png\"></graphic>"
+"fileref=\"screenshots/introduction/installation/win_configurate_otrsclonedb_sysconfig-1.png\"></graphic>"
 msgstr ""
 
 #. type: Content of: <section><section><section><para>
@@ -23956,7 +24084,7 @@ msgstr ""
 #: en/content/installation/windows.xml:241
 msgid ""
 "<graphic scale=\"80\" "
-"fileref=\"screenshots/win-configurate-otrsclonedb-sysconfig-2.png\"></graphic>"
+"fileref=\"screenshots/introduction/installation/win-configurate-otrsclonedb-sysconfig-2.png\"></graphic>"
 msgstr ""
 
 #. type: Content of: <section><section><section><para>
@@ -23999,7 +24127,7 @@ msgstr ""
 #: en/content/installation/windows.xml:265
 msgid ""
 "<graphic scale=\"80\" "
-"fileref=\"screenshots/win-run-otrsclonedb-1.png\"></graphic>"
+"fileref=\"screenshots/introduction/installation/win-run-otrsclonedb-1.png\"></graphic>"
 msgstr ""
 
 #. type: Content of: <section><section><section><para>
@@ -24044,7 +24172,7 @@ msgstr ""
 #: en/content/installation/windows.xml:292
 msgid ""
 "<graphic scale=\"80\" "
-"fileref=\"screenshots/win-run-otrsclonedb-2.png\"></graphic>"
+"fileref=\"screenshots/introduction/installation/win-run-otrsclonedb-2.png\"></graphic>"
 msgstr ""
 
 #. type: Content of: <section><section><section><para>
@@ -24076,7 +24204,7 @@ msgstr ""
 #: en/content/installation/windows.xml:311
 msgid ""
 "<graphic scale=\"80\" "
-"fileref=\"screenshots/win-run-otrsclonedb-3.png\"></graphic>"
+"fileref=\"screenshots/introduction/installation/win-run-otrsclonedb-3.png\"></graphic>"
 msgstr ""
 
 #. type: Content of: <section><section><section><para>
@@ -24271,7 +24399,7 @@ msgstr ""
 
 #. type: Content of: <section><title>
 #: en/content/installation/web-installer.xml:6
-msgid "Using the web installer"
+msgid "Using the Web Installer"
 msgstr ""
 
 #. type: Content of: <section><para>
@@ -24305,13 +24433,15 @@ msgstr ""
 
 #. type: Content of: <section><para><figure><screenshot>
 #: en/content/installation/web-installer.xml:28
-msgid "<graphic scale=\"40\" fileref=\"screenshots/installer1.png\"></graphic>"
+msgid ""
+"<graphic scale=\"40\" "
+"fileref=\"screenshots/introduction/installation/installer1.png\"></graphic>"
 msgstr ""
 
 #. type: Content of: <section><para>
 #: en/content/installation/web-installer.xml:34
 msgid ""
-"2. Read the GNU Affero General Public License (see Figure below) and accept "
+"2. Read the GNU Affero General Public License (see figure below) and accept "
 "it, by clicking the corresponding button at the bottom of the page."
 msgstr ""
 
@@ -24322,7 +24452,9 @@ msgstr ""
 
 #. type: Content of: <section><para><figure><screenshot>
 #: en/content/installation/web-installer.xml:41
-msgid "<graphic scale=\"40\" fileref=\"screenshots/installer2.png\"></graphic>"
+msgid ""
+"<graphic scale=\"40\" "
+"fileref=\"screenshots/introduction/installation/installer2.png\"></graphic>"
 msgstr ""
 
 #. type: Content of: <section><para>
@@ -24342,7 +24474,9 @@ msgstr ""
 
 #. type: Content of: <section><para><figure><screenshot>
 #: en/content/installation/web-installer.xml:57
-msgid "<graphic scale=\"40\" fileref=\"screenshots/installer3.png\"></graphic>"
+msgid ""
+"<graphic scale=\"40\" "
+"fileref=\"screenshots/introduction/installation/installer3.png\"></graphic>"
 msgstr ""
 
 #. type: Content of: <section><para>
@@ -24361,14 +24495,16 @@ msgstr ""
 
 #. type: Content of: <section><para><figure><screenshot>
 #: en/content/installation/web-installer.xml:71
-msgid "<graphic scale=\"40\" fileref=\"screenshots/installer4.png\"></graphic>"
+msgid ""
+"<graphic scale=\"40\" "
+"fileref=\"screenshots/introduction/installation/installer4.png\"></graphic>"
 msgstr ""
 
 #. type: Content of: <section><para>
 #: en/content/installation/web-installer.xml:77
 msgid ""
 "5. Create a new database user, choose a name for the database and click on "
-"'Next' (see Figure below)."
+"'Next' (see figure below)."
 msgstr ""
 
 #. type: Content of: <section><warning><para>
@@ -24387,7 +24523,9 @@ msgstr ""
 
 #. type: Content of: <section><para><figure><screenshot>
 #: en/content/installation/web-installer.xml:92
-msgid "<graphic scale=\"40\" fileref=\"screenshots/installer5.png\"></graphic>"
+msgid ""
+"<graphic scale=\"40\" "
+"fileref=\"screenshots/introduction/installation/installer5.png\"></graphic>"
 msgstr ""
 
 #. type: Content of: <section><para>
@@ -24404,13 +24542,15 @@ msgstr ""
 
 #. type: Content of: <section><para><figure><screenshot>
 #: en/content/installation/web-installer.xml:105
-msgid "<graphic scale=\"40\" fileref=\"screenshots/installer6.png\"></graphic>"
+msgid ""
+"<graphic scale=\"40\" "
+"fileref=\"screenshots/introduction/installation/installer6.png\"></graphic>"
 msgstr ""
 
 #. type: Content of: <section><para>
 #: en/content/installation/web-installer.xml:111
 msgid ""
-"7. Provide all the required system settings and click on 'Next' (see Figure "
+"7. Provide all the required system settings and click on 'Next' (see figure "
 "below)."
 msgstr ""
 
@@ -24421,7 +24561,9 @@ msgstr ""
 
 #. type: Content of: <section><para><figure><screenshot>
 #: en/content/installation/web-installer.xml:118
-msgid "<graphic scale=\"40\" fileref=\"screenshots/installer7.png\"></graphic>"
+msgid ""
+"<graphic scale=\"40\" "
+"fileref=\"screenshots/introduction/installation/installer7.png\"></graphic>"
 msgstr ""
 
 #. type: Content of: <section><para>
@@ -24429,7 +24571,7 @@ msgstr ""
 msgid ""
 "8. If desired, you can provide the needed data to configure your inbound and "
 "outbound mail, or skip this step by pressing the right button at the bottom "
-"of the screen (see Figure below)."
+"of the screen (see figure below)."
 msgstr ""
 
 #. type: Content of: <section><para><figure><title>
@@ -24439,14 +24581,16 @@ msgstr ""
 
 #. type: Content of: <section><para><figure><screenshot>
 #: en/content/installation/web-installer.xml:131
-msgid "<graphic scale=\"40\" fileref=\"screenshots/installer8.png\"></graphic>"
+msgid ""
+"<graphic scale=\"40\" "
+"fileref=\"screenshots/introduction/installation/installer8.png\"></graphic>"
 msgstr ""
 
 #. type: Content of: <section><para>
 #: en/content/installation/web-installer.xml:137
 msgid ""
 "9. Congratulations! Now the installation of OTRS is finished and you should "
-"be able to work with the system (see Figure below). To log into the web "
+"be able to work with the system (see figure below). To log into the web "
 "interface of OTRS, use the address <ulink "
 "url=\"http://localhost/otrs/index.pl\"> "
 "<citetitle>http://localhost/otrs/index.pl</citetitle> </ulink> from your web "
@@ -24467,28 +24611,23 @@ msgstr ""
 
 #. type: Content of: <section><para><figure><screenshot>
 #: en/content/installation/web-installer.xml:154
-msgid "<graphic scale=\"40\" fileref=\"screenshots/installer9.png\"></graphic>"
+msgid ""
+"<graphic scale=\"40\" "
+"fileref=\"screenshots/introduction/installation/installer9.png\"></graphic>"
 msgstr ""
 
 #. type: Content of: <appendix><title>
-#: en/content/additional-resources.xml:6
+#: en/content/additional-resources.xml:7
 msgid "Additional Resources"
 msgstr ""
 
-#. type: Content of: <appendix><para>
-#: en/content/additional-resources.xml:9
-msgid ""
-"We try to support you with the very latest information about OTRS. We also "
-"give you an opportunity to provide us with your feedback."
-msgstr ""
-
 #. type: Content of: <appendix><variablelist><varlistentry><term>
-#: en/content/additional-resources.xml:14
+#: en/content/additional-resources.xml:11
 msgid "otrs.com"
 msgstr ""
 
 #. type: Content of: <appendix><variablelist><varlistentry><listitem><para>
-#: en/content/additional-resources.xml:17
+#: en/content/additional-resources.xml:14
 msgid ""
 "The OTRS website with source code, documentation and news is available at "
 "<ulink url=\"http://otrs.org/\">http://www.otrs.com/</ulink>.  Here you can "
@@ -24496,162 +24635,109 @@ msgid ""
 "Group, the creator of OTRS."
 msgstr ""
 
-#. type: Content of: <appendix><variablelist><varlistentry><listitem><para>
-#: en/content/additional-resources.xml:23
-msgid ""
-"For services (support, consulting, development, and training) you can "
-"contact the company behind OTRS, OTRS AG. Our offices are located in "
-"Germany, USA, Mexico, the Netherlands, and in other countries. Visit our "
-"website for <ulink url=\"http://www.otrs.com/buy\">contact "
-"information</ulink>."
-msgstr ""
-
-#. type: Content of: <appendix><variablelist><varlistentry><term>
-#: en/content/additional-resources.xml:28
+#. type: Content of: <appendix><variablelist><varlistentry><listitem><para><table><title>
+#: en/content/additional-resources.xml:22 en/content/additional-resources.xml:26
 msgid "Mailing Lists"
 msgstr ""
 
-#. type: Content of: <appendix><variablelist><varlistentry><listitem><para><table><title>
-#: en/content/additional-resources.xml:32
-msgid "Mailinglists"
-msgstr ""
-
 #. type: Content of: <appendix><variablelist><varlistentry><listitem><para><table><tgroup><thead><row><entry>
-#: en/content/additional-resources.xml:43
-msgid "Homepage"
+#: en/content/additional-resources.xml:30
+msgid "Name &amp; URL"
 msgstr ""
 
 #. type: Content of: <appendix><variablelist><varlistentry><listitem><para><table><tgroup><tbody><row><entry>
-#: en/content/additional-resources.xml:50
-msgid "announce@otrs.org"
+#: en/content/additional-resources.xml:36
+msgid ""
+"<ulink "
+"url=\"http://lists.otrs.org/cgi-bin/listinfo/announce\">announce@otrs.org</ulink>"
 msgstr ""
 
 #. type: Content of: <appendix><variablelist><varlistentry><listitem><para><table><tgroup><tbody><row><entry>
-#: en/content/additional-resources.xml:53
+#: en/content/additional-resources.xml:37
 msgid ""
 "Low traffic list, in English, for announcements of new OTRS releases and "
 "security issues."
 msgstr ""
 
 #. type: Content of: <appendix><variablelist><varlistentry><listitem><para><table><tgroup><tbody><row><entry>
-#: en/content/additional-resources.xml:56
+#: en/content/additional-resources.xml:40
 msgid ""
-"<ulink url=\"http://lists.otrs.org/cgi-bin/listinfo/announce\"> "
-"<citetitle>http://lists.otrs.org/cgi-bin/listinfo/announce</citetitle> "
-"</ulink>"
+"<ulink "
+"url=\"http://lists.otrs.org/cgi-bin/listinfo/otrs\">otrs@otrs.org</ulink>"
 msgstr ""
 
 #. type: Content of: <appendix><variablelist><varlistentry><listitem><para><table><tgroup><tbody><row><entry>
-#: en/content/additional-resources.xml:63
-msgid "otrs@otrs.org"
-msgstr ""
-
-#. type: Content of: <appendix><variablelist><varlistentry><listitem><para><table><tgroup><tbody><row><entry>
-#: en/content/additional-resources.xml:66
+#: en/content/additional-resources.xml:41
 msgid ""
 "Medium to high traffic list, in English, where you can find all sorts of "
 "relevant questions and support for the product."
 msgstr ""
 
 #. type: Content of: <appendix><variablelist><varlistentry><listitem><para><table><tgroup><tbody><row><entry>
-#: en/content/additional-resources.xml:69
+#: en/content/additional-resources.xml:44
 msgid ""
-"<ulink url=\"http://lists.otrs.org/cgi-bin/listinfo/otrs\"> "
-"<citetitle>http://lists.otrs.org/cgi-bin/listinfo/otrs</citetitle> </ulink>"
+"<ulink "
+"url=\"http://lists.otrs.org/cgi-bin/listinfo/otrs-de\">otrs-de@otrs.org</ulink>"
 msgstr ""
 
 #. type: Content of: <appendix><variablelist><varlistentry><listitem><para><table><tgroup><tbody><row><entry>
-#: en/content/additional-resources.xml:76
-msgid "otrs-de@otrs.org"
-msgstr ""
-
-#. type: Content of: <appendix><variablelist><varlistentry><listitem><para><table><tgroup><tbody><row><entry>
-#: en/content/additional-resources.xml:79
+#: en/content/additional-resources.xml:45
 msgid ""
 "Medium to high traffic list, in German, where you can find all sorts of "
 "relevant questions and support for the product."
 msgstr ""
 
 #. type: Content of: <appendix><variablelist><varlistentry><listitem><para><table><tgroup><tbody><row><entry>
-#: en/content/additional-resources.xml:82
+#: en/content/additional-resources.xml:48
 msgid ""
-"<ulink url=\"http://lists.otrs.org/cgi-bin/listinfo/otrs-de\"> "
-"<citetitle>http://lists.otrs.org/cgi-bin/listinfo/otrs-de</citetitle> "
-"</ulink>"
+"<ulink "
+"url=\"http://lists.otrs.org/cgi-bin/listinfo/dev\">dev@otrs.org</ulink>"
 msgstr ""
 
 #. type: Content of: <appendix><variablelist><varlistentry><listitem><para><table><tgroup><tbody><row><entry>
-#: en/content/additional-resources.xml:89
-msgid "dev@otrs.org"
-msgstr ""
-
-#. type: Content of: <appendix><variablelist><varlistentry><listitem><para><table><tgroup><tbody><row><entry>
-#: en/content/additional-resources.xml:92
+#: en/content/additional-resources.xml:49
 msgid ""
 "Medium traffic list, in English, where the OTRS developers discuss various "
 "design and implementation issues."
 msgstr ""
 
-#. type: Content of: <appendix><variablelist><varlistentry><listitem><para><table><tgroup><tbody><row><entry>
-#: en/content/additional-resources.xml:95
-msgid ""
-"<ulink url=\"http://lists.otrs.org/cgi-bin/listinfo/dev\"> "
-"<citetitle>http://lists.otrs.org/cgi-bin/listinfo/dev</citetitle> </ulink>"
+#. type: Content of: <appendix><variablelist><varlistentry><term>
+#: en/content/additional-resources.xml:58
+msgid "Translations"
 msgstr ""
 
-#. type: Content of: <appendix><variablelist><varlistentry><listitem><para><table><tgroup><tbody><row><entry>
-#: en/content/additional-resources.xml:102
-msgid "i18n@otrs.org"
-msgstr ""
-
-#. type: Content of: <appendix><variablelist><varlistentry><listitem><para><table><tgroup><tbody><row><entry>
-#: en/content/additional-resources.xml:105
+#. type: Content of: <appendix><variablelist><varlistentry><listitem><para>
+#: en/content/additional-resources.xml:61
 msgid ""
-"Low traffic list, in English, for internationalization and localization "
-"questions. If you are or want to become a translator of the OTRS project or "
-"have any problems with one of our applications in an international "
-"environment, this is where you should connect."
-msgstr ""
-
-#. type: Content of: <appendix><variablelist><varlistentry><listitem><para><table><tgroup><tbody><row><entry>
-#: en/content/additional-resources.xml:108
-msgid ""
-"<ulink url=\"http://lists.otrs.org/cgi-bin/listinfo/i18n\"> "
-"<citetitle>http://lists.otrs.org/cgi-bin/listinfo/i18n</citetitle> </ulink>"
+"You can help translate OTRS to your language at <ulink "
+"url=\"https://www.transifex.com/otrs/OTRS/\">Transifex</ulink>."
 msgstr ""
 
 #. type: Content of: <appendix><variablelist><varlistentry><term>
-#: en/content/additional-resources.xml:120
+#: en/content/additional-resources.xml:66
 msgid "Bug tracking"
 msgstr ""
 
 #. type: Content of: <appendix><variablelist><varlistentry><listitem><para>
-#: en/content/additional-resources.xml:123
+#: en/content/additional-resources.xml:69
 msgid ""
 "To report software defects, please visit <ulink "
-"url=\"http://bugs.otrs.org/\">http://bugs.otrs.org/</ulink> (see Figure "
+"url=\"http://bugs.otrs.org/\">http://bugs.otrs.org/</ulink> (see figure "
 "below). Please take note of the difference between a bug and a configuration "
 "issue. Configuration issues are problems that you encounter when setting a "
 "system, or general questions regarding the use of OTRS. Bug reports should "
 "only be used for issues with the source code of OTRS or other open source "
 "OTRS modules itself. For configuration issues, you should either use the "
-"<ulink url=\"http://www.otrs.com/solutions/service-contracts/\">commercial "
-"support, available from OTRS.com</ulink>, or the public mailing lists."
+"<ulink url=\"https://www.otrs.com/solutions/\">commercial support, available "
+"from OTRS</ulink>, or the public mailing lists."
 msgstr ""
 
 #. type: Content of: <appendix><variablelist><varlistentry><listitem><para><figure><title>
-#: en/content/additional-resources.xml:128
+#: en/content/additional-resources.xml:74
 msgid "Bugtracking Tool"
 msgstr ""
 
 #. type: Content of: <appendix><variablelist><varlistentry><listitem><para><figure><screenshot>
-#: en/content/additional-resources.xml:130
+#: en/content/additional-resources.xml:76
 msgid "<graphic scale=\"40\" fileref=\"screenshots/bugs-otrs-org.png\"></graphic>"
-msgstr ""
-
-#. type: Content of: <appendix><variablelist><varlistentry><listitem><para>
-#: en/content/additional-resources.xml:135
-msgid ""
-"You help us a lot to improve the product by reporting bugs. We appreciate "
-"your input!"
 msgstr ""

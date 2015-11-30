@@ -12,10 +12,11 @@ another. To accomplish this task the Generic Interface uses YAML files as
 the web services configuration basis.
     </para>
     <para>
-        Why YAML? YAML is a markup language designed to be human friendly to read
-and write (it is easier to understand than JSON), it does not have some of
-the limitations of XML like numeric tags, it is open, standardized, and is
-complete enough to store the whole web service configuration.
+        Почему YAML? YAML это язык разметки, разработанный специально
+человекочитаемым и удобным для написания (он более понятен чем  JSON), не
+имеет некоторых ограничений XML, таких как числовые тэги, он открыт,
+стандартизован и полностью удовлетворяет задаче хранения всех настроек
+веб-сервисов.
     </para>
     <note>
         <para>
@@ -157,7 +158,7 @@ Requester:
             <itemizedlist mark="round">
                 <listitem>
                     <para>
-                        DebugThreshold: уровень отладчика
+                        DebugThreshold: the debugger level.
                     </para>
                     <itemizedlist mark="round">
                         <title>
@@ -391,7 +392,7 @@ Requester:
                                         </itemizedlist>
                                         <section>
                                             <title>
-                                                valueMapExact
+                                                ValueMapExact
                                             </title>
                                             <itemizedlist mark="round">
                                                 <listitem>
@@ -437,7 +438,7 @@ Requester:
                             </listitem>
                             <listitem>
                                 <para>
-                                    Type: the provider network transport backend.
+                                    Тип: бэкэнд транспортной сети поставщика.
                                 </para>
                             </listitem>
                         </itemizedlist>
@@ -496,7 +497,7 @@ OTRS.
                     <itemizedlist mark="round">
                         <listitem>
                             <para>
-                                Описание: короткий текст для описания вызывающей стороны
+                                Description: a short text that describes the invoker.
                             </para>
                         </listitem>
                         <listitem>
@@ -527,24 +528,24 @@ OTRS.
                         <itemizedlist mark="round">
                             <listitem>
                                 <para>
-                                    <remark>List Element</remark>: (от 0 .. n)
+                                    <remark>List Element</remark>: (cardinality 0 .. n).
                                 </para>
                                 <itemizedlist mark="round">
                                     <listitem>
                                         <para>
-                                            Asynchronous: установить если вызов вызывающей стороны будет возложен на
-Планировщика
+                                            Asynchronous: to set if the invoker execution will be delegated to the OTRS
+Daemon.
                                         </para>
                                         <itemizedlist mark="round">
                                             <title>Возможные значения</title>
                                             <listitem>
                                                 <para>
-                                                    0: не обрабатывается Планировщиком (Scheduler).
+                                                    0: not handled by the OTRS Daemon.
                                                 </para>
                                             </listitem>
                                             <listitem>
                                                 <para>
-                                                    1: Обрабатывается Планировщиком (Scheduler).
+                                                    1: handled by the OTRS Daemon.
                                                 </para>
                                             </listitem>
                                         </itemizedlist>
@@ -705,11 +706,6 @@ OTRS.
                                             <title>Возможные Значения (для действий над статьями)</title>
                                             <listitem>
                                                 <para>
-                                                    Действия над статьями
-                                                </para>
-                                            </listitem>
-                                            <listitem>
-                                                <para>
                                                     ArticleCreate
                                                 </para>
                                             </listitem>
@@ -777,7 +773,7 @@ OTRS.
                     <section>
                         <title>MappingInbound</title>
                         <para>
-                            То же что и Действие MappingInbound
+                            Тоже что и Действие MappingInbound.
                         </para>
                     </section>
                     <section>
@@ -814,12 +810,12 @@ OTRS.
                                 </listitem>
                                 <listitem>
                                     <para>
-                                        Encoding: кодирование сообщения SOAP-запроса
+                                        Encoding: the SOAP Message request encoding.
                                     </para>
                                 </listitem>
                                 <listitem>
                                     <para>
-                                        Endpoint: URI Уаделнного Сервера веб-службы для приема запросов OTRS.
+                                        Endpoint: the URI of the Remote Server web service to accept OTRS requests.
                                     </para>
                                 </listitem>
                                 <listitem>
@@ -838,7 +834,7 @@ OTRS.
                                         <title>Возможные значения</title>
                                         <listitem>
                                             <para>
-                                                YES: для отправки заполненого заголовка SOAPAction.
+                                                Yes: to send a filled SOAPAction header.
                                             </para>
                                         </listitem>
                                         <listitem>

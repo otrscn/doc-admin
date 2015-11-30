@@ -156,7 +156,7 @@ Type: HTTP::SOAP
             <itemizedlist mark="round">
                 <listitem>
                     <para>
-                        DebugThreshold: das Debugger-Level
+                        DebugThreshold: the debugger level.
                     </para>
                     <itemizedlist mark="round">
                         <title>
@@ -397,7 +397,7 @@ mehrfach).
                                         </itemizedlist>
                                         <section>
                                             <title>
-                                                valueMapExact
+                                                ValueMapExact
                                             </title>
                                             <itemizedlist mark="round">
                                                 <listitem>
@@ -504,7 +504,7 @@ können unterschiedliche Einstellungen beinhalten.
                     <itemizedlist mark="round">
                         <listitem>
                             <para>
-                                Beschreibung: ein kurzer Text, der den Aufrufer beschreibt
+                                Description: a short text that describes the invoker.
                             </para>
                         </listitem>
                         <listitem>
@@ -536,24 +536,24 @@ Anfragen.
                         <itemizedlist mark="round">
                             <listitem>
                                 <para>
-                                    <remark>Auflistung der Elemente</remark>: (Kardinalität 0 .. n)
+                                    <remark>List Element</remark>: (cardinality 0 .. n).
                                 </para>
                                 <itemizedlist mark="round">
                                     <listitem>
                                         <para>
-                                            Asynchron:  bestimmt ob die Invoker-Ausführung an den Scheduler delegiert
-werden
+                                            Asynchronous: to set if the invoker execution will be delegated to the OTRS
+Daemon.
                                         </para>
                                         <itemizedlist mark="round">
                                             <title>mögliche Werte</title>
                                             <listitem>
                                                 <para>
-                                                    0: nicht vom Scheduler verarbeitet
+                                                    0: not handled by the OTRS Daemon.
                                                 </para>
                                             </listitem>
                                             <listitem>
                                                 <para>
-                                                    1: vom Scheduler verarbeitet.
+                                                    1: handled by the OTRS Daemon.
                                                 </para>
                                             </listitem>
                                         </itemizedlist>
@@ -714,11 +714,6 @@ werden
                                             <title>Mögliche Werte (für Artikel-Events)</title>
                                             <listitem>
                                                 <para>
-                                                    Article Events
-                                                </para>
-                                            </listitem>
-                                            <listitem>
-                                                <para>
                                                     ArticleCreate
                                                 </para>
                                             </listitem>
@@ -823,12 +818,12 @@ werden
                                 </listitem>
                                 <listitem>
                                     <para>
-                                        Enkodieren: die SOAP-Nachrichtenanfrage enkodieren
+                                        Encoding: the SOAP Message request encoding.
                                     </para>
                                 </listitem>
                                 <listitem>
                                     <para>
-                                        Endpoint: the URI of the Remote Server web service to accept OTRS requests
+                                        Endpoint: the URI of the Remote Server web service to accept OTRS requests.
                                     </para>
                                 </listitem>
                                 <listitem>
@@ -846,7 +841,7 @@ web service.
                                         <title>mögliche Werte</title>
                                         <listitem>
                                             <para>
-                                                JA: um einen befüllten SOAPAction-Header zu senden.
+                                                Yes: to send a filled SOAPAction header.
                                             </para>
                                         </listitem>
                                         <listitem>

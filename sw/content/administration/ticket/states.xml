@@ -95,15 +95,15 @@ tiketi zilizofungwa.
 <section id="states-customizing">
 <title>Kugeuza hali kukufaa</title>
 <para>
-Kila hali ina jina (jina-la-hali) na aina (aina-ya-hali). Bofya kwenye
-kiungo <link linkend="adminarea-status">Hali</link> katika kurasa ya
-Msimamizi na kubonyeza kitufe "Ongeza hali" kutengeneza hali mpya. Unaweza
-kuchagua kwa uhuru jina la hali mpya. Aina ya hali haiwezi kubadilishwa
-kupitia kiolesura cha wavuti. Hifadhidata inabidi ibadilishwe moja kwa moja
-kama utataka kuongeza aina mpya au kubadilisha majina yaliyopo. Aina
-chaguo-msingi la hali halitakiwi kubadilishwa kwa kuwa inaweza kutoa majibu
-yasiyotabirika. Kwa mfano, mahesabu ya upandaji na kipengele cha kufungua
-kwa kutegemea aina maalumu ya hali.
+Every state has a name (state-name) and a type (state-type). Click on the
+<link linkend="adminarea-states">States</link> link on the Admin page and
+press the button "Add state" to create a new state. You can freely choose
+the name of a new state. The state types can not be changed via the web
+interface. The database has to be directly modified if you want to add new
+types or change existing names. The default state types should typically not
+be modified as this can yield unpredictable results. For instance,
+escalation calculations and the unlock feature are based on specific state
+types.
 </para>
 
 <para>

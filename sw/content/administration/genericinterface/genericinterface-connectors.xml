@@ -32,8 +32,8 @@ wa 3, na mengineyo.
     <section id="genericinterface-bundled-connectors">
         <title>Kifungu cha Viunganishi</title>
         <para>
-            Iliyojumuishwa na hili toleo la OTRS viunganishi vifuatavyo viko tayari
-kutumika.
+            Included with this version of OTRS the following connectors are ready to be
+used:
         </para>
         <itemizedlist>
             <listitem>
@@ -76,8 +76,8 @@ kinaweza kutumika katika operesheni nyingine yoyote.
                 <section id="generic-session-connector-operations-sessioncreate">
                     <title>TengenezaKipindi:</title>
                     <para>
-                        Inatengeneza Kitambulisho kipya halali kitakachotumika katika operesheni
-nyingine kutoka kwenye viunganishi vingine kama TengenezaTiketi.
+                        Creates a new valid SessionID to be used in other operations from other
+connectors like TicketCreate.
                     </para>
                     <note>
                         <para>
@@ -110,7 +110,7 @@ kukubali Kitambulisho cha Kipindi halali kama njia ya uthibitisho.
         <section id="generic-ticket-connector">
             <title>Kiunganishi cha Tiketi</title>
             <para>
-                Hiki kiunganishi kinatoa programu-tumizi za msingi kuwasiliana na tiketi
+                This connector supplies the basic functionality to interact with tickets.
             </para>
             <itemizedlist>
                 <para>
@@ -670,8 +670,8 @@ format to use all the Ticket Connector operations with the SOAP network
 transport.  In order to use it in OTRS you need to copy the content, save it
 into a file and call it GenericTicketConnectorSOAP.yml, and import it into
 OTRS in the Web Services screen in the Admin panel by clicking in the "Add
-web service" action from the overview screen and then clicking in the
-"Import web service" action in the add screen.
+web service" button from the overview screen and then clicking in the
+"Import web service" button in the add screen.
             </para>
             <para>
                 <programlisting>
@@ -700,7 +700,7 @@ Provider:
       MappingOutbound: {}
       Type: Ticket::TicketUpdate
     TicketGet:
-      Description: Retrieve Ticket data
+      Description: Retrieves Ticket data
       MappingInbound: {}
       MappingOutbound: {}
       Type: Ticket::TicketGet
@@ -735,8 +735,8 @@ for TicketGet and TicketUpdate (Where {TicketID} is the actual TicketID
 value of a ticket e.g.  /Ticket/123). In order to use it in OTRS you need to
 copy the content, save it into a file and call it
 GenericTicketConnectorREST.yml, and import it into OTRS in the Web Services
-screen in the Admin panel by clicking in the "Add web service" action from
-the overview screen and then clicking in the "Import web service" action in
+screen in the Admin panel by clicking in the "Add web service" button from
+the overview screen and then clicking in the "Import web service" button in
 the add screen.
             </para>
             <para>

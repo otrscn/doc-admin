@@ -29,7 +29,11 @@ OTRSは、遠隔のシステムにリクエストを送り、レスポンスを�
             Webサービスは、私たちの場合、OTRSとリモート・システムとの間のコミュニケーション方法です。
          </para>
          <para>
-            Webサービスの核心はその構成(Configuraiton)です。尚、ここで、以下が定義されます。ウェブサービスがどのアクションを内部に行なうことができるか(オペレーション)、どんなアクションが、OTRS要求がリモート・システムを実行できるか（依頼アクション(Invokers)）どのようにデータが他からひとつのシステムへ変換されるか（Mapping）そしてどのプロトコル上でコミュニケーションが発生するのはどのプロトコル上か（Transport）。
+            The heart of the Web Service is its configuration, where it is defined what
+actions the web service can perform internally (Operation), what actions the
+OTRS request can perform Remote System (Invokers), how data is converted
+from one system to the other (Mapping), and over which protocol the
+communication will take place (Transport).
          </para>
          <para>
              The Generic Interface is the framework that makes it possible to create Web

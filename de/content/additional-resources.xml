@@ -3,12 +3,8 @@
   "http://www.oasis-open.org/docbook/xml/4.4/docbookx.dtd">
 
 <appendix id="additional-resources">
-<title>Weitere Quellen</title>
 
-    <para>
-    We try to support you with the very latest information about OTRS. We also
-give you an opportunity to provide us with your feedback.
-    </para>
+    <title>Weitere Quellen</title>
 
     <variablelist>
         <varlistentry>
@@ -20,13 +16,6 @@ give you an opportunity to provide us with your feedback.
 also find information about commercial services and trainings from OTRS
 Group, the creator of OTRS.
                 </para>
-                <para>
-                    For services (support, consulting, development, and training) you can
-contact the company behind OTRS, OTRS AG. Our offices are located in
-Germany, USA, Mexico, the Netherlands, and in other countries. Visit our
-website for <ulink url="http://www.otrs.com/buy">contact
-information</ulink>.
-                </para>
             </listitem>
         </varlistentry>
         <varlistentry>
@@ -35,91 +24,47 @@ information</ulink>.
                 <para>
                     <table id="additional-resources-mailinglists-table">
                         <title>Mailinglisten</title>
-                          <tgroup cols="3">
+                        <tgroup cols="2">
                             <thead>
-                              <row>
-                                <entry>
-                                  Name
-                                </entry>
-                                <entry>
-                                  Beschreibung
-                                </entry>
-                                <entry>
-                                  Homepage
-                                </entry>
-                              </row>
+                                <row>
+                                    <entry>Name &amp; URL</entry>
+                                    <entry>Beschreibung</entry>
+                                </row>
                             </thead>
                             <tbody>
-                              <row>
-                                <entry>
-                                  announce@otrs.org
-                                </entry>
-                                <entry>
-                                  Ankündigungen zu OTRS (neue Versionen, Updates, ...) mit wenig Verkehr.
-                                </entry>
-                                <entry>
-                                  <ulink url="http://lists.otrs.org/cgi-bin/listinfo/announce">
-<citetitle>http://lists.otrs.org/cgi-bin/listinfo/announce</citetitle>
-</ulink>
-                                </entry>
-                              </row>
-                              <row>
-                                <entry>
-                                  otrs@otrs.org
-                                </entry>
-                                <entry>
-                                  Englische Benutzer-Fragen und -Diskussionen rund um OTRS mit wenigen bis
-vielen Anfragen.
-                                </entry>
-                                <entry>
-                                  <ulink url="http://lists.otrs.org/cgi-bin/listinfo/otrs">
-<citetitle>http://lists.otrs.org/cgi-bin/listinfo/otrs</citetitle> </ulink>
-                                </entry>
-                              </row>
-                              <row>
-                                <entry>
-                                  ç
-                                </entry>
-                                <entry>
-                                  Deutsche Benutzer-Fragen und -Diskussionen rund um OTRS mit wenigen bis
-vielen Anfrangen.
-                                </entry>
-                                <entry>
-                                  <ulink url="http://lists.otrs.org/cgi-bin/listinfo/otrs-de">
-<citetitle>http://lists.otrs.org/cgi-bin/listinfo/otrs-de</citetitle>
-</ulink>
-                                </entry>
-                              </row>
-                              <row>
-                                <entry>
-                                  dev@otrs.org
-                                </entry>
-                                <entry>
-                                  Mailingliste für die Entwickler von OTRS mit wenig Verkehr.
-                                </entry>
-                                <entry>
-                                  <ulink url="http://lists.otrs.org/cgi-bin/listinfo/dev">
-<citetitle>http://lists.otrs.org/cgi-bin/listinfo/dev</citetitle> </ulink>
-                                </entry>
-                              </row>
-                              <row>
-                                <entry>
-                                  i18n@otrs.org
-                                </entry>
-                                <entry>
-                                  Englische Mailingliste mit wenig Verkehr für Übersetzungs- und
-Lokalisierungsfragen. Wenn Sie OTRS übersetzen oder übersetzen wollen oder
-Probleme mit einer unserer Applikationen in einer internationalen Umgebung
-haben, sollten Sie sich in diese Liste eintragen.
-                                </entry>
-                                <entry>
-                                  <ulink url="http://lists.otrs.org/cgi-bin/listinfo/i18n">
-<citetitle>http://lists.otrs.org/cgi-bin/listinfo/i18n</citetitle> </ulink>
-                                </entry>
-                              </row>
+                                <row>
+                                    <entry><ulink
+url="http://lists.otrs.org/cgi-bin/listinfo/announce">announce@otrs.org</ulink></entry>
+                                    <entry>Ankündigungen zu OTRS (neue Versionen, Updates, ...) mit wenig Verkehr.         </entry>
+                                </row>
+                                <row>
+                                    <entry><ulink
+url="http://lists.otrs.org/cgi-bin/listinfo/otrs">otrs@otrs.org</ulink></entry>
+                                    <entry>Englische Benutzer-Fragen und -Diskussionen rund um OTRS mit wenigen bis
+vielen Anfragen.     </entry>
+                                </row>
+                                <row>
+                                    <entry><ulink
+url="http://lists.otrs.org/cgi-bin/listinfo/otrs-de">otrs-de@otrs.org</ulink></entry>
+                                    <entry>Deutsche Benutzer-Fragen und -Diskussionen rund um OTRS mit wenigen bis
+vielen Anfrangen.</entry>
+                                </row>
+                                <row>
+                                    <entry><ulink url="http://lists.otrs.org/cgi-bin/listinfo/dev">dev@otrs.org</ulink></entry>
+                                    <entry>Mailingliste für die Entwickler von OTRS mit wenig Verkehr.     </entry>
+                                </row>
                             </tbody>
-                          </tgroup>
-                        </table>
+                        </tgroup>
+                    </table>
+                </para>
+            </listitem>
+        </varlistentry>
+        <varlistentry>
+            <term>Translations</term>
+            <listitem>
+                <para>
+                    You can help translate OTRS to your language at <ulink
+url="https://www.transifex.com/otrs/OTRS/">Transifex</ulink>.
                 </para>
             </listitem>
         </varlistentry>
@@ -128,23 +73,20 @@ haben, sollten Sie sich in diese Liste eintragen.
             <listitem>
                 <para>
                     To report software defects, please visit <ulink
-url="http://bugs.otrs.org/">http://bugs.otrs.org/</ulink> (see Figure
+url="http://bugs.otrs.org/">http://bugs.otrs.org/</ulink> (see figure
 below). Please take note of the difference between a bug and a configuration
 issue. Configuration issues are problems that you encounter when setting a
 system, or general questions regarding the use of OTRS. Bug reports should
 only be used for issues with the source code of OTRS or other open source
 OTRS modules itself. For configuration issues, you should either use the
-<ulink url="http://www.otrs.com/solutions/service-contracts/">commercial
-support, available from OTRS.com</ulink>, or the public mailing lists.
+<ulink url="https://www.otrs.com/solutions/">commercial support, available
+from OTRS</ulink>, or the public mailing lists.
                 </para>
                 <para>
-                    <screenshot>
-<screeninfo>Fehlerverfolgungssystem</screeninfo> <graphic srccredit="bugtracking
-tool" scale="40" fileref="screenshots/bugs-otrs-org.png"></graphic></screenshot>
-                </para>
-                <para>
-                    Wenn Sie uns Fehler berichten, tragen Sie zur Verbesserung des Produkts
-bei. Wir freuen uns auf Ihre Mitwirkung!
+                    <figure>
+                        <title>Fehlerverfolgungssystem</title>
+<screenshot>
+<graphic scale="40" fileref="screenshots/bugs-otrs-org.png"></graphic></screenshot></figure>
                 </para>
             </listitem>
         </varlistentry>

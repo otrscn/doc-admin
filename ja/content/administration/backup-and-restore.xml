@@ -3,7 +3,7 @@
   "http://www.oasis-open.org/docbook/xml/4.4/docbookx.dtd">
 
 <section id="backup-and-restore">
-<title>システムのバックアップ</title>
+<title>Backing Up the System</title>
 
 <para>
 本章はバックアップとOTRSデータのリストアについて記述します。

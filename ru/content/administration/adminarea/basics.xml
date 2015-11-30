@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE section PUBLIC "-//OASIS//DTD DocBook XML V4.4//EN"
+  "http://www.oasis-open.org/docbook/xml/4.4/docbookx.dtd">
+
+<section id="adminarea-general">
+    <title>Основы</title>
+
+    <para>
+        Администраторы используют страницу администрирования веб-интерфейса OTRS для
+настройки системы - добавления агентов, клиентов и очередей, заявок и
+настройки почты, установки дополнительных пакетов, таких как FAQ и ITSM и
+многое другое.
+    </para>
+
+    <para>
+        Agents who are members of the <emphasis>admin</emphasis> group can access
+the Admin area by clicking the <emphasis>Admin</emphasis> link in the
+navigation bar (see figure below). Agents without sufficiently elevated
+access rights will not be able to access this link.
+    </para>
+
+    <para>
+        <figure>
+            <title>OTRS Administration Overview Screen</title>
+<screenshot>
+<graphic scale="40"
+fileref="screenshots/administration/adminarea/adminarea.png"></graphic></screenshot></figure>
+    </para>
+</section>

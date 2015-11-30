@@ -33,11 +33,11 @@ OTRS взаимодействовать с другими системами с 
 OTRS и удаленной системой/Remote System.
          </para>
          <para>
-            Основой Web Service является его конфигурация, в которой определяется, какие
-действия он может выполнить сам внутри (Operation), какие действия запроса
-OTRS может выполнить Внешняя система (Invokers), каким образом данные
-преобразуются из одной системы в другую (Mapping), и с помощью какого
-протокола будет осуществляться взаимодействие (Transport)
+            The heart of the Web Service is its configuration, where it is defined what
+actions the web service can perform internally (Operation), what actions the
+OTRS request can perform Remote System (Invokers), how data is converted
+from one system to the other (Mapping), and over which protocol the
+communication will take place (Transport).
          </para>
          <para>
              Generic Interface - это инструмент, который позволяет создавать Web-сервисы

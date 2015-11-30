@@ -3,7 +3,7 @@
   "http://www.oasis-open.org/docbook/xml/4.4/docbookx.dtd">
 
 <section id="web-installer">
-<title>Benutzen des Web-Installers</title>
+<title>Using the Web Installer</title>
 
 <para>
 You can use the OTRS Web Installer, after you installed the OTRS software,
@@ -18,52 +18,45 @@ Bildschirm.
 </para>
 
 <para>
-1. Lesen Sie die Informationen über die OTRS-Niederlassungen und klicken Sie
-auf "Weiter" um fortzufahren. (siehe untere Abbildung)
+1. Check out the information about the OTRS offices and click on 'Next' to
+continue (see figure below).
 </para>
 
 <para>
+<figure>
+    <title>Welcome screen</title>
 <screenshot>
-<screeninfo>installer.pl - Willkommensbildschirm</screeninfo> <graphic srccredit="installer.pl -
-screenshot" scale="40" fileref="screenshots/installer1.png"></graphic></screenshot>
+<graphic scale="40"
+fileref="screenshots/introduction/installation/installer1.png"></graphic></screenshot></figure>
 </para>
 
 <para>
-<emphasis>Abb.: Willkommensbildschirm.</emphasis>
+2. Read the GNU Affero General Public License (see figure below) and accept
+it, by clicking the corresponding button at the bottom of the page.
 </para>
 
 <para>
-2. Lesen Sie die GNU Affero General Public License und akzeptieren Sie sie
-durch Klick auf "Akzeptieren".
-</para>
-
-<para>
+<figure>
+    <title>GNU Affero General Public License</title>
 <screenshot>
-<screeninfo>installer. pl - Lizenz</screeninfo> <graphic srccredit="installer.pl -
-screenshot" scale="40" fileref="screenshots/installer2.png"></graphic></screenshot>
+<graphic scale="40"
+fileref="screenshots/introduction/installation/installer2.png"></graphic></screenshot></figure>
 </para>
 
 <para>
-<emphasis>Abb.: GNU Affero General Public License.</emphasis>
+3. Choose the database that you want to use with OTRS. If you choose MySQL
+or PostgreSQL as a database, you can also select here if you want the web
+installer to create a database for you or if your database administrator has
+already created an empty database for you that you would like to use.  After
+that, click the 'Next' button (see figure below).
 </para>
 
 <para>
-3. Choose the database that you want to use with OTRS. If you choose MySQL,
-PostgreSQL or Microsoft SQL Server as a database, you can also select here
-if you want the web installer to create a database for you or if your
-database administrator has already created an empty database for you that
-you would like to use.  After that, click the Next button (see figure
-below).
-</para>
-
-<para>
+<figure>
+    <title>Datenbank-Auswahl</title>
 <screenshot>
-<screeninfo>installer.pl - Datenbankeinstellungen</screeninfo> <graphic srccredit="installer.pl -
-screenshot" scale="40" fileref="screenshots/installer3.png"></graphic></screenshot>
-</para>
-
-<para>
-<emphasis>Abbildung: Datenbankeinstellungen.</emphasis>
+<graphic scale="40"
+fileref="screenshots/introduction/installation/installer3.png"></graphic></screenshot></figure>
 </para>
 
 <para>
@@ -74,18 +67,16 @@ screen.
 </para>
 
 <para>
+<figure>
+    <title>Database credentials</title>
 <screenshot>
-<screeninfo>installer.pl - Datenbankeigenschaften</screeninfo> <graphic srccredit="installer.pl -
-screenshot" scale="40" fileref="screenshots/installer4.png"></graphic></screenshot>
+<graphic scale="40"
+fileref="screenshots/introduction/installation/installer4.png"></graphic></screenshot></figure>
 </para>
 
 <para>
-<emphasis>Abbildung: Datenbank-Benutzerdaten.</emphasis>
-</para>
-
-<para>
-5. Erstellen Sie einen neuen Datenbankbenutzer, wählen Sie einen Namen für
-die Datenbank und klicken Sie auf "Weiter" (siehe untere Abbildung).
+5. Create a new database user, choose a name for the database and click on
+'Next' (see figure below).
 </para>
 
 <warning>
@@ -98,13 +89,11 @@ to remember this password.
 </warning>
 
 <para>
+<figure>
+    <title>Database settings</title>
 <screenshot>
-<screeninfo>installer.pl - Erstellen der Datenbank</screeninfo> <graphic srccredit="installer.pl -
-screenshot" scale="40" fileref="screenshots/installer5.png"></graphic></screenshot>
-</para>
-
-<para>
-<emphasis>Abb.: Datenbankeinstellungen.</emphasis>
+<graphic scale="40"
+fileref="screenshots/introduction/installation/installer5.png"></graphic></screenshot></figure>
 </para>
 
 <para>
@@ -113,50 +102,43 @@ image. Click 'Next' to go to the next screen.
 </para>
 
 <para>
+<figure>
+    <title>Successful database setup</title>
 <screenshot>
-<screeninfo>installer.pl - Erstellung der Datenbank erfolgreich</screeninfo> <graphic srccredit="installer.pl -
-screenshot" scale="40" fileref="screenshots/installer6.png"></graphic></screenshot>
+<graphic scale="40"
+fileref="screenshots/introduction/installation/installer6.png"></graphic></screenshot></figure>
 </para>
 
 <para>
-<emphasis>Abbildung: Bestätigung der erfolgreichen
-Datenbankeinrichtung.</emphasis>
+7. Provide all the required system settings and click on 'Next' (see figure
+below).
 </para>
 
 <para>
-7. Geben Sie alle benötigten Systemeinstellungen an und klicken Sie "Weiter"
-(siehe untere Abbildung).
-</para>
-
-<para>
+<figure>
+    <title>System settings</title>
 <screenshot>
-<screeninfo>installer.pl - Systemeinstellungen</screeninfo> <graphic srccredit="installer.pl -
-screenshot" scale="40" fileref="screenshots/installer7.png"></graphic></screenshot>
-</para>
-
-<para>
-<emphasis>Abb.: Systemeinstellungen.</emphasis>
+<graphic scale="40"
+fileref="screenshots/introduction/installation/installer7.png"></graphic></screenshot></figure>
 </para>
 
 <para>
 8. If desired, you can provide the needed data to configure your inbound and
 outbound mail, or skip this step by pressing the right button at the bottom
-of the screen (see Figure below).
+of the screen (see figure below).
 </para>
 
 <para>
+<figure>
+    <title>Mail configuration</title>
 <screenshot>
-<screeninfo>installer.pl - E-Mail-Konfiguration</screeninfo> <graphic srccredit="installer.pl -
-screenshot" scale="40" fileref="screenshots/installer8.png"></graphic></screenshot>
-</para>
-
-<para>
-<emphasis>Abb.: E-Mail-Konfiguration.</emphasis>
+<graphic scale="40"
+fileref="screenshots/introduction/installation/installer8.png"></graphic></screenshot></figure>
 </para>
 
 <para>
 9. Congratulations! Now the installation of OTRS is finished and you should
-be able to work with the system (see Figure below). To log into the web
+be able to work with the system (see figure below). To log into the web
 interface of OTRS, use the address <ulink
 url="http://localhost/otrs/index.pl">
 <citetitle>http://localhost/otrs/index.pl</citetitle> </ulink> from your web
@@ -173,13 +155,11 @@ Bitte notieren Sie das generierte Passwort für den Benutzer
 </warning>
 
 <para>
+<figure>
+    <title>Web installer final screen</title>
 <screenshot>
-<screeninfo>installer.pl - Abgeschlossen</screeninfo> <graphic srccredit="installer.pl -
-screenshot" scale="40" fileref="screenshots/installer9.png"></graphic></screenshot>
-</para>
-
-<para>
-<emphasis>Abbildung: Finale Meldung Webinstaller.</emphasis>
+<graphic scale="40"
+fileref="screenshots/introduction/installation/installer9.png"></graphic></screenshot></figure>
 </para>
 
 </section>

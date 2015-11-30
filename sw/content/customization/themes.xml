@@ -3,7 +3,7 @@
   "http://www.oasis-open.org/docbook/xml/4.4/docbookx.dtd">
 
 <section id="themes">
-<title>Kutengeneza mandhari yako</title>
+<title>Creating Your Own Themes</title>
 
 <para>
 Unaweza kutengeneza mandhari yako mwenyewe ili kutumia muonekano unaoupenda
@@ -12,11 +12,11 @@ unatakiwa kugeuza matokeo ya violeza kwa mahitaji yako.
 </para>
 
 <para>
-Taarifa zaidi kuhusu sintaksi na muundo wa violezo vinavyotoka zinapatikana
-katika Mwongozo wa  Msanifu <ulink
+More information on the syntax and structure of output templates can be
+found in the Developer Manual at <ulink
 url="http://otrs.github.io/doc"><citetitle>http://otrs.github.io/doc</citetitle></ulink>,
-hasa katika sura inayohusu <ulink
-url="http://otrs.github.io/doc/manual/developer/3.3/en/html/TemplatingMechanism.html"><citetitle>violezo</citetitle></ulink>.
+especially in the chapter on <ulink
+url="http://otrs.github.io/doc/manual/developer/3.3/en/html/TemplatingMechanism.html"><citetitle>templates</citetitle></ulink>.
 </para>
 
 <para>
@@ -57,9 +57,8 @@ mbele::Mandhari</link>.
 </para>
 
 <para>
-Sasa mandhari mpya inatakiwa kuweza kutumika. Unaweza kuichagua kupitia
-kiungo chako cha kurasa ya <link linkend="user-preferences">mapendeleo
-binafsi</link>.
+Now the new theme should be usable. You can select it via your <link
+linkend="user-preferences">personal preferences</link> page.
 </para>
 
 <warning>

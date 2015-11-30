@@ -157,7 +157,7 @@ Requester:
             <itemizedlist mark="round">
                 <listitem>
                     <para>
-                        EuaKizingiti: Ngazi ya anaye eua
+                        DebugThreshold: the debugger level.
                     </para>
                     <itemizedlist mark="round">
                         <title>
@@ -403,7 +403,7 @@ kawaida  (nambari ya elementi 0 .. 1).
                                         </itemizedlist>
                                         <section>
                                             <title>
-                                                thamaniUnganishaHalisi
+                                                ValueMapExact
                                             </title>
                                             <itemizedlist mark="round">
                                                 <listitem>
@@ -511,7 +511,7 @@ wengine wanaweza kuwa na mipangilio tofauti.
                     <itemizedlist mark="round">
                         <listitem>
                             <para>
-                                Maelezo: nakala fupi inayoelezea mchochezi
+                                Description: a short text that describes the invoker.
                             </para>
                         </listitem>
                         <listitem>
@@ -542,23 +542,24 @@ yanayotoka.
                         <itemizedlist mark="round">
                             <listitem>
                                 <para>
-                                    <remark>Orodhesha Elementi</remark>: (nambari ya elementi 0 .. n)
+                                    <remark>List Element</remark>: (cardinality 0 .. n).
                                 </para>
                                 <itemizedlist mark="round">
                                     <listitem>
                                         <para>
-                                            Solandanifu: inaseti kama mchochezi ataachwa kuwa jukumu la Mratibu
+                                            Asynchronous: to set if the invoker execution will be delegated to the OTRS
+Daemon.
                                         </para>
                                         <itemizedlist mark="round">
                                             <title>Thamani ziwezekanazo</title>
                                             <listitem>
                                                 <para>
-                                                    0: haijashughulikiwa na Mratibu.
+                                                    0: not handled by the OTRS Daemon.
                                                 </para>
                                             </listitem>
                                             <listitem>
                                                 <para>
-                                                    1: imeshughulikiwa na Mratibu.
+                                                    1: handled by the OTRS Daemon.
                                                 </para>
                                             </listitem>
                                         </itemizedlist>
@@ -719,11 +720,6 @@ yanayotoka.
                                             <title>Thamani Ziwezekanazo (kwa matukio ya makala)</title>
                                             <listitem>
                                                 <para>
-                                                    Matukio ya Makala
-                                                </para>
-                                            </listitem>
-                                            <listitem>
-                                                <para>
                                                     TengenezaMakala
                                                 </para>
                                             </listitem>
@@ -791,7 +787,7 @@ yanayotoka.
                     <section>
                         <title>KuunganishaZinazoingia</title>
                         <para>
-                            Sawa na Operesheni KuunganishaZinazoingia
+                            Sawa na Operesheni KuunganishaZinazoingia.
                         </para>
                     </section>
                     <section>
@@ -829,13 +825,12 @@ mtandao.
                                 </listitem>
                                 <listitem>
                                     <para>
-                                        Usimbaji: ujumbe wa SOAP usimbaji maombi
+                                        Encoding: the SOAP Message request encoding.
                                     </para>
                                 </listitem>
                                 <listitem>
                                     <para>
-                                        Pointiyamwisho: URI ya huduma ya tovuti ya Mfumo wa Mbali kukubali maombi ya
-OTRS
+                                        Endpoint: the URI of the Remote Server web service to accept OTRS requests.
                                     </para>
                                 </listitem>
                                 <listitem>
@@ -854,7 +849,7 @@ ujumbe wa SOAP (ndani ya "&lt;JinaNafasi&gt; &lt;Kigawanyo&gt;
                                         <title>Thamani ziwezekanazo</title>
                                         <listitem>
                                             <para>
-                                                NDIYO: kutuma kichwa cha SOAPAction kilichojazwa.
+                                                Yes: to send a filled SOAPAction header.
                                             </para>
                                         </listitem>
                                         <listitem>

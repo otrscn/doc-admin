@@ -15,11 +15,12 @@ ugawaji wa kazi na kufanya kazi ndani ya miundo msonge ya makundi.
 <title>Jukumu la Tiketi</title>
 
 <para>
-Kipengele cha jukumu la tiketi kinawezesha uchakatishaji kamili wa tiketi na
-wakala mwingine tofauti na mmiliki wa tiketi. Hivyo wakala ambaye amefunga
-tiketi anaweza kuiruhusu kutumika na wakala mwingine ambaye siyo mmiliki wa
-tiketi, ili wapili ajibu maombi ya mteja. Baada ya maombi kushughulikiwa,
-wakala wa kwanza anaweza kutoa jukumu la tiketi kutoka kwa wakala wa pili.
+The ticket responsibility feature facilitates the complete processing of a
+ticket by an agent other than the ticket owner. Thus an agent who has locked
+a ticket can pass it on to another agent, who is not the ticket owner, in
+order for the second to respond to a customer request. After the request has
+been dealt with, the first agent can withdraw the ticket responsibility from
+the second agent.
 </para>
 
 <para>
@@ -37,33 +38,25 @@ iliyokuzwa katika kiolesura cha wakala (ona kielelezo chini).
 </para>
 
 <para>
+<figure>
+    <title>Changing the Responsibility of a ticket in its zoomed view</title>
 <screenshot>
-<screeninfo>Kiungo kinachowajibika katika kuza tiketi</screeninfo> <graphic srccredit="index.pl -
-screenshot" scale="40"
-fileref="screenshots/ticket-zoom-responsible.png"></graphic></screenshot>
+<graphic scale="40"
+fileref="screenshots/administration/ticket/ticket-zoom-responsible.png"></graphic></screenshot></figure>
 </para>
 
 <para>
-<emphasis>Kielelezo: Kubadilisha Jukumu la tiketi katika muonekano wake
-uliokuzwa.</emphasis>
+After clicking on "Responsible", a pop-up dialog to change the
+responsibility of that ticket will open (see figure below). This dialog can
+also be used to send a message to the new responsible agent.
 </para>
 
 <para>
-Baada ya kubofya "Jukumu", kisanduku ibukizi cha kubadilisha jukumu la
-tiketi kitafunguka (ona Kielelezo chini). Haya maongezi yanaweza pia
-kutumika kutuma ujumbe kwa wakala mpya husika.
-</para>
-
-<para>
+<figure>
+    <title>Pop-up dialog to change a ticket's responsibility</title>
 <screenshot>
-<screeninfo>Maongezi ibukizi ya Jukumu la Tiketi</screeninfo> <graphic srccredit="index.pl -
-screenshot" scale="40"
-fileref="screenshots/ticket-responsible.png"></graphic></screenshot>
-</para>
-
-<para>
-<emphasis>Kielelezo: Maongezi ibukizi ya kubadilisha jukumu la
-tiketi.</emphasis>
+<graphic scale="40"
+fileref="screenshots/administration/ticket/ticket-responsible.png"></graphic></screenshot></figure>
 </para>
 
 <para>
@@ -94,54 +87,44 @@ kundi moja au zaidi lenye ruhusa ya kuangalia tiketi linaweza kufafanuliwa.
 </para>
 
 <para>
-Ili kuangalia tiketi, nenda kwenye muonekano wake uliokuzwa na bofya kwenye
-kiungo "Jiunge" katika menyu ya shughuli za tiketi (ona Kielelezo chini).
+In order to watch a ticket, go to its zoomed view and click on the
+"Subscribe" link in the ticket activities menu (see figure below).
 </para>
 
 <para>
+<figure>
+    <title>Subscribing to watching a ticket in its zoomed view</title>
 <screenshot>
-<screeninfo>Kiungo cha kujiunga kwenye kuza tiketi</screeninfo> <graphic srccredit="index.pl -
-screenshot" scale="40" fileref="screenshots/ticket-subscribe.png"></graphic></screenshot>
+<graphic scale="40"
+fileref="screenshots/administration/ticket/ticket-subscribe.png"></graphic></screenshot></figure>
 </para>
 
 <para>
-<emphasis>Kielelezo: Kujiunga kuona tiketi katika muonekano
-uliokuzwa.</emphasis>
+If you no longer want to watch a specific ticket, go to its zoomed view and
+click on the "Unsubscribe" link in the ticket activities menu (see figure
+below).
 </para>
 
 <para>
-Kama hutaki tena kuangalia tiketi fulani, nenda kwenye muonekano wake
-uliokuzwa na bofya kwenye kiungo "Jiondoe" katika menyu ya shughuli za
-tiketi (ona Kielelezo chini).
-</para>
-
-<para>
+<figure>
+    <title>Unsubscribing from watching a ticket in its zoomed view</title>
 <screenshot>
-<screeninfo>Kiungo cha kujiondoa kwenye kuza tiketi</screeninfo> <graphic srccredit="index.pl -
-screenshot" scale="40"
-fileref="screenshots/ticket-unsubscribe.png"></graphic></screenshot>
+<graphic scale="40"
+fileref="screenshots/administration/ticket/ticket-unsubscribe.png"></graphic></screenshot></figure>
 </para>
 
 <para>
-<emphasis>Kielelezo: Kujiondoa kwenye uangalizi wa tiketi katika muonekano
-wake uliokuzwa.</emphasis>
+The list of all watched tickets can be accessed through the Watched view of
+the OTRS agent interface (see figure below), as soon as the ticket watcher
+feature gets activated.
 </para>
 
 <para>
-Orodha ya tiketi zote zinazoangaliwa inaweza kupatikana kupitia muonekano wa
-Zilizoangaliwa wa wakala wa OTRS (ona Kielelezo chini), baada tu ya
-mwangalizi wa tiketi kuamilishwa.
-</para>
-
-<para>
+<figure>
+    <title>Watched tickets view</title>
 <screenshot>
-<screeninfo>Sanduku la Posta: Tiketi zilizoangaliwa</screeninfo> <graphic srccredit="index.pl -
-screenshot" scale="40"
-fileref="screenshots/ticket-subscribe-mailbox.png"></graphic></screenshot>
-</para>
-
-<para>
-<emphasis>Kielelezo: Muonekano wa tiketi zilizoangaliwa.</emphasis>
+<graphic scale="40"
+fileref="screenshots/administration/ticket/ticket-subscribe-mailbox.png"></graphic></screenshot></figure>
 </para>
 </section>
 

@@ -16,12 +16,12 @@ TicketWatcher и также позволяют работать в рамках 
 <title>Ответственность за Заявку</title>
 
 <para>
-Функция ответственности за заявку способствует ее полной обработки еагентом,
-который не является владельцем заявки. Таким образом агент, который
-заблокировал заявку может передать ее другому агенту, который не является
-владельцем заявки, для того, чтобы второй просто дал ответ на вопрос. После
-того как запрос был рассмотрен, первый агент может снять ответственность за
-заявку с второго агента.
+The ticket responsibility feature facilitates the complete processing of a
+ticket by an agent other than the ticket owner. Thus an agent who has locked
+a ticket can pass it on to another agent, who is not the ticket owner, in
+order for the second to respond to a customer request. After the request has
+been dealt with, the first agent can withdraw the ticket responsibility from
+the second agent.
 </para>
 
 <para>
@@ -39,35 +39,25 @@ linkend="ConfigReference_Ticket:Core::Ticket:Ticket::Responsible">Ticket::Respon
 </para>
 
 <para>
+<figure>
+    <title>Changing the Responsibility of a ticket in its zoomed view</title>
 <screenshot>
-<screeninfo>Ссылка на несущего ответственность в шаблоное просмотра подробной информации
-о заявке.</screeninfo> <graphic srccredit="index.pl -
-screenshot" scale="40"
-fileref="screenshots/ticket-zoom-responsible.png"></graphic></screenshot>
+<graphic scale="40"
+fileref="screenshots/administration/ticket/ticket-zoom-responsible.png"></graphic></screenshot></figure>
 </para>
 
 <para>
-<emphasis>Рисунок: Изменение Ответственного за заявку в шаблоне просмотра
-подробной инф. о заявке.</emphasis>
+After clicking on "Responsible", a pop-up dialog to change the
+responsibility of that ticket will open (see figure below). This dialog can
+also be used to send a message to the new responsible agent.
 </para>
 
 <para>
-После нажатия на кнопку "Ответственность", откроется всплывающее окно для
-изменения ответственности этой заявки (см. нижеприведенный Рисунок). Этот
-шаблон/диалог также может быть использован для отправки сообщения новому
-агенту, который будет нести ответственность за эту заявку.
-</para>
-
-<para>
+<figure>
+    <title>Pop-up dialog to change a ticket's responsibility</title>
 <screenshot>
-<screeninfo>Всплывающий диалог Ответственность за Заявку</screeninfo> <graphic srccredit="index.pl -
-screenshot" scale="40"
-fileref="screenshots/ticket-responsible.png"></graphic></screenshot>
-</para>
-
-<para>
-<emphasis>Рисунок: Всплывающий диалог для изменения ответственного за
-заявку.</emphasis>
+<graphic scale="40"
+fileref="screenshots/administration/ticket/ticket-responsible.png"></graphic></screenshot></figure>
 </para>
 
 <para>
@@ -98,56 +88,44 @@ Ticket::WatcherGroup </link> можно определить одну или н�
 </para>
 
 <para>
-Для того чтобы смотреть заявку, перейдите к шаблону просмотра подробной
-информации о заявке и нажмите ссылку "Подписатся" в меню заявки
-(см. нижеприведенный Рисунок).
+In order to watch a ticket, go to its zoomed view and click on the
+"Subscribe" link in the ticket activities menu (see figure below).
 </para>
 
 <para>
+<figure>
+    <title>Subscribing to watching a ticket in its zoomed view</title>
 <screenshot>
-<screeninfo>Ссылка "Подписатся" в шаблоне просмотра подробной информации о заявке</screeninfo> <graphic srccredit="index.pl -
-screenshot" scale="40" fileref="screenshots/ticket-subscribe.png"></graphic></screenshot>
+<graphic scale="40"
+fileref="screenshots/administration/ticket/ticket-subscribe.png"></graphic></screenshot></figure>
 </para>
 
 <para>
-<emphasis>Figure: Подписка на просмотр подробной информации о
-заявке.</emphasis>
+If you no longer want to watch a specific ticket, go to its zoomed view and
+click on the "Unsubscribe" link in the ticket activities menu (see figure
+below).
 </para>
 
 <para>
-Если вы больше не хотите просматривать определенную заявку, перейдите к
-шаблону просмотра подробной информации заявки и нажмите кнопку "Отменить
-подписку" в меню заявки (см. нижеприведенный рисунок).
-</para>
-
-<para>
+<figure>
+    <title>Unsubscribing from watching a ticket in its zoomed view</title>
 <screenshot>
-<screeninfo>Ссылка "Отказатся от подписки" в шаблоне просмотра подробной информации о
-заявке</screeninfo> <graphic srccredit="index.pl -
-screenshot" scale="40"
-fileref="screenshots/ticket-unsubscribe.png"></graphic></screenshot>
+<graphic scale="40"
+fileref="screenshots/administration/ticket/ticket-unsubscribe.png"></graphic></screenshot></figure>
 </para>
 
 <para>
-<emphasis>Рисунок: Отказ от подписи на заявку в шаблоне просмотра подробной
-информации о заявке.</emphasis>
+The list of all watched tickets can be accessed through the Watched view of
+the OTRS agent interface (see figure below), as soon as the ticket watcher
+feature gets activated.
 </para>
 
 <para>
-Как только активирована функция "просмотр заявок", то список всех
-просматриваемых заявок будет доступен в шаблоне Watched View
-(см. нижеприведенный Рисунок).
-</para>
-
-<para>
+<figure>
+    <title>Watched tickets view</title>
 <screenshot>
-<screeninfo>Почтовый ящик: Просматриваемые заявки</screeninfo> <graphic srccredit="index.pl -
-screenshot" scale="40"
-fileref="screenshots/ticket-subscribe-mailbox.png"></graphic></screenshot>
-</para>
-
-<para>
-<emphasis>Рисунок: Шаблон для просматриваемых заявок.</emphasis>
+<graphic scale="40"
+fileref="screenshots/administration/ticket/ticket-subscribe-mailbox.png"></graphic></screenshot></figure>
 </para>
 </section>
 

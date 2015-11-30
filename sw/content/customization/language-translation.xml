@@ -3,19 +3,15 @@
   "http://www.oasis-open.org/docbook/xml/4.4/docbookx.dtd">
 
 <section id="translation">
-<title>Ujanibishaji wa mazingira ya mbele ya OTRS</title>
+    <title>Localization of the OTRS Front End</title>
 
-<para>
-OTRS inatoa msaada kwa lugha nyingi kutoka kwenye kiolesura chake cha wavuti
-</para>
-
-<para>
-Utaratibu wa ujanibishaji kwa ajili ya kiunzi cha OTRS, hatua za kufwatwa
-kutengeneza lugha mpya ya tafsiri, na pia taratibu za kugeuza kukufaa
-tafsiri, zinaweza kupatikana kwenye <ulink
-url="http://otrs.github.io/doc/manual/developer/3.3/en/html/contributing.html#translate">"Tafsiri
-za Lugha"</ulink> sura ya kwenye mwongozo wa muundaji <ulink
+    <para>
+        Procedures for localization for the OTRS framework, steps to be followed to
+create a new language translation, as well as procedures for translation
+customizations, can be found in the <ulink
+url="http://otrs.github.io/doc/manual/developer/stable/en/html/translate.html">"Language
+Translations"</ulink> chapter from the developer manual on <ulink
 url="http://otrs.github.io/doc">http://otrs.github.io/doc</ulink>.
-</para>
+    </para>
 
 </section>

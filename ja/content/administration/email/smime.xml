@@ -3,7 +3,7 @@
   "http://www.oasis-open.org/docbook/xml/4.4/docbookx.dtd">
 
 <section id="smime">
-<title>S/MIMEを備えた安全なEメール</title>
+<title>Secure Email with S/MIME</title>
 
 <para>
 一見、S/MIMEを備えた暗号化はPGP鍵を備えた暗号化より少し複雑に見えます。最初に、OTRSシステムのために認証局(CA)を設立しなければなりません。後のステップは、PGP鍵で必要とされるものに非常に似ています:OTRSの構成、自身の証明書のインストール、必要な他の証明書のインポート等。

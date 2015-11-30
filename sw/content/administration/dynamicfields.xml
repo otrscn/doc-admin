@@ -15,12 +15,12 @@ inayoshikiliwa na sehemu. Kwa mfano, kuna sehemu za kushikilia nakala,
 tarehe, chaguo la vitu, na kadh.
         </para>
         <para>
-            Sehemu zinazobadilika ni mageuko ya spishi ya sehemu TiketiHuruNakala
-TiketiHuruFunguo TiketiHuruMuda, MakalaHuruNakala na MakalaHuruFunguo ambazo
-zilkuwa zikitumiwa sana katika OTRS 3.0 na kabla. Kikomo cha hizi "Sehemu
-Huru" ilikuwa ni zinaweza kufafanuliwa mpaka sehemu 16 (nakala au kunjuzi)
-na sehemu 6 za muda kwa ajili ya tiketi na sehemu 3 (nakala au kunjuzi) kwa
-kila nakala tu, sio zaidi.
+            Dynamic fields are the evolution of TicketFreeText, TicketFreeKey,
+TicketFreeTime, ArticleFreeText and ArticleFreeKey fields that where
+commonly used in OTRS 3.0 and before. The limitation of these "Free Fields"
+was that they can be defined up to 16 (text or dropdown) fields and 6 time
+fields for a ticket and 3 (text or dropdown)  fields for each article only,
+not more.
         </para>
         <para>
             Sasa kwa kutumia sehemu zinazobadilika kikomo katika nambari ya sehemu kwa

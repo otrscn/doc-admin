@@ -58,13 +58,11 @@ any time (this action will not save any changes).
             </para>
         </note>
         <para>
-            <screenshot>
-<screeninfo>Обзор Веб-интерфейса</screeninfo> <graphic srccredit="Adminarea web
-service - screenshot" scale="40"
-fileref="screenshots/genericinterface-webservice-overview.png"></graphic></screenshot>
-        </para>
-        <para>
-            <emphasis>Рисунок: Обзор Веб-сервисов</emphasis>
+            <figure>
+                <title>Web services overview</title>
+<screenshot>
+<graphic scale="40"
+fileref="screenshots/administration/genericinterface/genericinterface-webservice-overview.png"></graphic></screenshot></figure>
         </para>
     </section>
 
@@ -129,13 +127,11 @@ fileref="screenshots/genericinterface-webservice-overview.png"></graphic></scree
             </para>
         </note>
         <para>
-            <screenshot>
-<screeninfo>Добавить Веб-сервис</screeninfo> <graphic srccredit="Adminarea web
-service add - screenshot" scale="40"
-fileref="screenshots/genericinterface-webservice-add.png"></graphic></screenshot>
-        </para>
-        <para>
-            <emphasis>Рисунок: Добавление нового веб-сервиса</emphasis>
+            <figure>
+                <title>Web services add</title>
+<screenshot>
+<graphic scale="40"
+fileref="screenshots/administration/genericinterface/genericinterface-webservice-add.png"></graphic></screenshot></figure>
         </para>
     </section>
 
@@ -203,13 +199,11 @@ fileref="screenshots/genericinterface-webservice-add.png"></graphic></screenshot
             <para>Нажмите кнопку "Клонировать" чтобы создать копию веб-сервиса или кнопку
 "Отменитьl", чтобы закрыть диалоговое окно.</para>
             <para>
-                <screenshot>
-<screeninfo>Клонирование веб-сервиса</screeninfo> <graphic srccredit="Adminarea web
-service clone - screenshot" scale="40"
-fileref="screenshots/genericinterface-webservice-clone.png"></graphic></screenshot>
-            </para>
-            <para>
-                <emphasis>Рисунок: Клонирование веб-сервиса.</emphasis>
+                <figure>
+                    <title>Клонирование веб-сервиса</title>
+<screenshot>
+<graphic scale="40"
+fileref="screenshots/administration/genericinterface/genericinterface-webservice-clone.png"></graphic></screenshot></figure>
             </para>
         </section>
 
@@ -243,13 +237,11 @@ fileref="screenshots/genericinterface-webservice-clone.png"></graphic></screensh
                 </para>
             </note>
             <para>
-                <screenshot>
-<screeninfo>Экспорт веб-сервиса</screeninfo> <graphic srccredit="Adminarea web
-service export - screenshot" scale="40"
-fileref="screenshots/genericinterface-webservice-export.png"></graphic></screenshot>
-            </para>
-            <para>
-                <emphasis>Рисунок: Экспорт веб-сервиса.</emphasis>
+                <figure>
+                    <title>Web services export</title>
+<screenshot>
+<graphic scale="40"
+fileref="screenshots/administration/genericinterface/genericinterface-webservice-export.png"></graphic></screenshot></figure>
             </para>
         </section>
 
@@ -274,13 +266,11 @@ fileref="screenshots/genericinterface-webservice-export.png"></graphic></screens
                 </para>
             </note>
             <para>
-                <screenshot>
-<screeninfo>Импорт веб-сервиса</screeninfo> <graphic srccredit="Adminarea web
-service import - screenshot" scale="40"
-fileref="screenshots/genericinterface-webservice-import.png"></graphic></screenshot>
-            </para>
-            <para>
-                <emphasis>Рисунок: Импорт веб-сервиса.</emphasis>
+                <figure>
+                    <title>Web services import</title>
+<screenshot>
+<graphic scale="40"
+fileref="screenshots/administration/genericinterface/genericinterface-webservice-import.png"></graphic></screenshot></figure>
             </para>
         </section>
 
@@ -319,18 +309,16 @@ fileref="screenshots/genericinterface-webservice-import.png"></graphic></screens
 экспортироваться в виде обычного текста.
                 </para>
                 <para>
-                    Пожалуйста, будьте внимательны при восстановление параметров конфигурации,
-эта операция не может быть отменена.
+                    Please be careful when you restore a configuration because this process is
+irreversible.
                 </para>
             </warning>
             <para>
-                <screenshot>
-<screeninfo>История веб-сервиса</screeninfo> <graphic srccredit="Adminarea web
-service history - screenshot" scale="40"
-fileref="screenshots/genericinterface-webservice-history.png"></graphic></screenshot>
-            </para>
-            <para>
-                <emphasis>Рисунок: История веб-сервиса</emphasis>
+                <figure>
+                    <title>Web service history</title>
+<screenshot>
+<graphic scale="40"
+fileref="screenshots/administration/genericinterface/genericinterface-webservice-history.png"></graphic></screenshot></figure>
             </para>
         </section>
 
@@ -352,13 +340,11 @@ fileref="screenshots/genericinterface-webservice-history.png"></graphic></screen
                 </para>
              </warning>
             <para>
-                <screenshot>
-<screeninfo>Удаление веб-сервиса</screeninfo> <graphic srccredit="Adminarea web
-service delete - screenshot" scale="40"
-fileref="screenshots/genericinterface-webservice-delete.png"></graphic></screenshot>
-            </para>
-            <para>
-                <emphasis>Рисунок: Удаление веб-сервиса</emphasis>
+                <figure>
+                    <title>Удаление веб-сервиса</title>
+<screenshot>
+<graphic scale="40"
+fileref="screenshots/administration/genericinterface/genericinterface-webservice-delete.png"></graphic></screenshot></figure>
             </para>
         </section>
 
@@ -396,7 +382,7 @@ fileref="screenshots/genericinterface-webservice-delete.png"></graphic></screens
                 </listitem>
                 <listitem>
                     <para>
-                        Сочетание всех.
+                        A combination of all
                     </para>
                 </listitem>
             </itemizedlist>
@@ -423,13 +409,11 @@ fileref="screenshots/genericinterface-webservice-delete.png"></graphic></screens
 ошибки или подтвержать успешные ответы.
             </para>
             <para>
-                <screenshot>
-<screeninfo>Отладчик веб-сервиса:</screeninfo> <graphic srccredit="Adminarea web
-service debugger - screenshot" scale="40"
-fileref="screenshots/genericinterface-webservice-debugger.png"></graphic></screenshot>
-            </para>
-            <para>
-                <emphasis>Рисунок: Отладчик веб-сервиса.</emphasis>
+                <figure>
+                    <title>Web service debugger</title>
+<screenshot>
+<graphic scale="40"
+fileref="screenshots/administration/genericinterface/genericinterface-webservice-debugger.png"></graphic></screenshot></figure>
             </para>
         </section>
 
@@ -469,13 +453,11 @@ screen. After saving the new operation it will be listed in the table above.
 изменений и возврата к окну обзора веб-сервисов.
             </para>
             <para>
-                <screenshot>
-<screeninfo>Изменение веб-сервиса</screeninfo> <graphic srccredit="Adminarea web
-service change - screenshot" scale="40"
-fileref="screenshots/genericinterface-webservice-change.png"></graphic></screenshot>
-            </para>
-            <para>
-                <emphasis>Рисунок: Изменения веб-службы.</emphasis>
+                <figure>
+                    <title>Web services change</title>
+<screenshot>
+<graphic scale="40"
+fileref="screenshots/administration/genericinterface/genericinterface-webservice-change.png"></graphic></screenshot></figure>
             </para>
             <note>
                 <para>
@@ -506,7 +488,7 @@ The behavior of this feature is defined below.
                     In future the list of available network transports will be
 increased. Currently only "HTTP::SOAP" and "HTTP::REST" transports are
 available. Each transport has different configuration options to setup and
-they might use different frontend modules to configure them,
+they might use different frontend modules to configure them.
                 </para>
                 <para>
                     It is quite simple to configure the "HTTP::SOAP" protocol as provider.
@@ -516,14 +498,11 @@ reducing ambiguities, and the second one is a field where you can specify
 the maximum size (in bytes) for SOAP messages that OTRS will process.
                 </para>
                 <para>
-                    <screenshot>
-<screeninfo>Web Service Provider Network Transport (HTTP::SOAP)</screeninfo> <graphic srccredit="Adminarea web
-service provider network transport HTTP::SOAP - screenshot" scale="40"
-fileref="screenshots/genericinterface-webservice-provider-transport-soap.png"></graphic></screenshot>
-                </para>
-                <para>
-                    <emphasis>Figure: Web service provider network transport
-HTTP::SOAP.</emphasis>
+                    <figure>
+                        <title>Web service provider network transport HTTP::SOAP</title>
+<screenshot>
+<graphic scale="40"
+fileref="screenshots/administration/genericinterface/genericinterface-webservice-provider-transport-soap.png"></graphic></screenshot></figure>
                 </para>
                 <para>
                     For "HTTP::REST" the configuration might be a bit more complicated, as it
@@ -534,7 +513,7 @@ settings "Maximum message length:" and "Send Keep-Alive:"
                 </para>
                 <itemizedlist mark="round">
                     <listitem>
-                        <para>Route mapping for Operation '&lt;OperationName&gt;':</para>
+                        <para>Карта маршрута для выполнения операции '&lt;OperationName&gt;':</para>
                         <para>
                             In this setting a resource path is set. This path must be defined according
 to the needs of the web service considering that the path in conjunction
@@ -551,7 +530,7 @@ be executed.
                         </para>
                         <itemizedlist mark="round">
                             <para>
-                                Route mapping: /Resource
+                                Карта маршрута: /Resource
                             </para>
                             <listitem>
                                 <para>Допустимые запросы:</para>
@@ -577,7 +556,7 @@ be executed.
                         </itemizedlist>
                         <itemizedlist mark="round">
                             <para>
-                                Route mapping: /Resource/:ID
+                                Карта маршрута: /Resource/:ID
                             </para>
                             <listitem>
                                 <para>Допустимые запросы:</para>
@@ -606,7 +585,7 @@ JSON string in the request header.
                         </itemizedlist>
                         <itemizedlist mark="round">
                             <para>
-                                Route mapping: /Resource/OtherResource/:ID/:Color
+                                Карта маршрута: /Resource/OtherResource/:ID/:Color
                             </para>
                             <listitem>
                                 <para>Допустимые запросы:</para>
@@ -657,14 +636,11 @@ correctly the operation to use on each request.
                     </listitem>
                 </itemizedlist>
                 <para>
-                    <screenshot>
-<screeninfo>Web Service Provider Network Transport (HTTP::REST)</screeninfo> <graphic srccredit="Adminarea web
-service provider network transport HTTP::REST - screenshot" scale="40"
-fileref="screenshots/genericinterface-webservice-provider-transport-rest.png"></graphic></screenshot>
-                </para>
-                <para>
-                    <emphasis>Figure: Web service provider network transport
-HTTP::REST.</emphasis>
+                    <figure>
+                        <title>Web service provider network transport HTTP::REST</title>
+<screenshot>
+<graphic scale="40"
+fileref="screenshots/administration/genericinterface/genericinterface-webservice-provider-transport-rest.png"></graphic></screenshot></figure>
                 </para>
             </section>
 
@@ -703,17 +679,15 @@ screen. The field is only informative.
 "Go back to web service" (discarding all changes since the last save) and
 "Delete".  If you click on the last one, a dialog will open and ask you if
 you like to remove the operation. Click on "Delete" button to confirm the
-removal of the operation and it configuration or "Cancel" to close the
+removal of the operation and its configuration or "Cancel" to close the
 delete dialog.
                 </para>
                 <para>
-                    <screenshot>
-<screeninfo>Операции веб-сервиса</screeninfo> <graphic srccredit="Adminarea web
-service operation - screenshot" scale="40"
-fileref="screenshots/genericinterface-webservice-operation.png"></graphic></screenshot>
-                </para>
-                <para>
-                    <emphasis>Рисунок: Операции веб-сервиса</emphasis>
+                    <figure>
+                        <title>Web service operation</title>
+<screenshot>
+<graphic scale="40"
+fileref="screenshots/administration/genericinterface/genericinterface-webservice-operation.png"></graphic></screenshot></figure>
                 </para>
             </section>
 
@@ -740,9 +714,9 @@ SOAP-сообщений.
                         <para>
                             SOAPAction Header: you can use this to send an empty or filled SOAPAction
 header. Set to "No" and the SOAPAction header on the SOAP message will be an
-empty string, or set to "Yes" to send the soap action in Namespace#Action
+empty string, or set to "Yes" to send the SOAP action in Namespace#Action
 format and define the separator (typically "/" for .Net web services and "#"
-for the rest).
+for the REST).
                         </para>
                     </listitem>
                     <listitem>
@@ -770,17 +744,14 @@ Password to access the remote system.
                     </para>
                 </warning>
                 <para>
-                    <screenshot>
-<screeninfo>Web Service Requester Network Transport (HTTP::SOAP)</screeninfo> <graphic srccredit="Adminarea web
-service requester network transport HTTP::SOAP - screenshot" scale="40"
-fileref="screenshots/genericinterface-webservice-requester-transport-soap.png"></graphic></screenshot>
+                    <figure>
+                        <title>Web service requester network transport (HTTP::SOAP)</title>
+<screenshot>
+<graphic scale="40"
+fileref="screenshots/administration/genericinterface/genericinterface-webservice-requester-transport-soap.png"></graphic></screenshot></figure>
                 </para>
                 <para>
-                    <emphasis>Figure: Web service requester network transport
-(HTTP::SOAP).</emphasis>
-                </para>
-                <para>
-                    In the case of HTTP::Rest, this configuration also grows dynamically
+                    In the case of HTTP::REST, this configuration also grows dynamically
 depending on the configured invokers by adding "Controller mapping for
 Invoker '&lt;InvokerName&gt;':" and "Valid request command for Invoker
 '&lt;InvokerName&gt;':" for each invoke. Authentication and SSL options are
@@ -806,7 +777,7 @@ to the needs of the remote web service and following its definition.
                             Path can contain variables in the form of ':&lt;VariableName&gt;' for each
 variable name that matches the current data (to be sent), will be replaced
 by the corresponding data value. This matched variable names and values will
-be remove from the current data. Depending on the HTTP request command the
+be removed from the current data. Depending on the HTTP request command the
 remaining data could be sent as a JSON string in the request body or as
 query parameters within the URI.
                         </para>
@@ -859,7 +830,7 @@ query parameters within the URI.
                 </itemizedlist>
                 <itemizedlist mark="round">
                     <listitem>
-                        <para>Valid request command for Invoker '&lt;InvokerName&gt;':</para>
+                        <para>Допустимая команда запроса для Вызова '&lt;ИмяВызова&gt;':</para>
                         <para>
                             This determine the HTTP request method to use, possible options: CONNECT,
 DELETE, GET, HEAD, OPTIONS, PATCH, POST, PUT and TRACE. If no command is
@@ -871,19 +842,16 @@ selected, Default command is used.
                     <listitem>
                         <para>Команда по умолчанию</para>
                         <para>
-                            Used as a fall-back for all Invokers with out a defined request command
+                            Used as a fall-back for all Invokers without a defined request command.
                         </para>
                     </listitem>
                 </itemizedlist>
                 <para>
-                    <screenshot>
-<screeninfo>Web Service Requester Network Transport (HTTP::REST)</screeninfo> <graphic srccredit="Adminarea web
-service requester network transport HTTP::REST - screenshot" scale="40"
-fileref="screenshots/genericinterface-webservice-requester-transport-rest.png"></graphic></screenshot>
-                </para>
-                <para>
-                    <emphasis>Figure: Web service provider network transport
-HTTP::REST.</emphasis>
+                    <figure>
+                        <title>Web service provider network transport HTTP::REST</title>
+<screenshot>
+<graphic scale="40"
+fileref="screenshots/administration/genericinterface/genericinterface-webservice-requester-transport-rest.png"></graphic></screenshot></figure>
                 </para>
             </section>
 
@@ -923,14 +891,14 @@ etc. These can act as triggers to execute the invoker. Each invoker needs to
 have at least one event trigger registered, or the invoker will be useless,
 because it will never be called. The asynchronous property of the event
 triggers define if the OTRS process will handle the invoker or if it will be
-delegated to the OTRS Scheduler.
+delegated to the OTRS Daemon.
                 </para>
                 <note>
                     <para>
-                        The OTRS Scheduler is a separate process that executes tasks in the
+                        The OTRS Daemon is a separate set of process that executes tasks in the
 background. Using this the OTRS process itself will not be affected if the
 Remote System takes a long time to respond, if it is not available or if
-there are network problems. If you don't use the scheduler using web
+there are network problems. If you don't use the OTRS Daemons using web
 services can make OTRS slow or non-responsive. Therefore it is highly
 recommend to use asynchronous event triggers as often as possible.
                     </para>
@@ -958,13 +926,11 @@ removal of the invoker and its configuration or "Cancel" to close the delete
 dialog.
                 </para>
                 <para>
-                    <screenshot>
-<screeninfo>Вызов веб-сервиса:</screeninfo> <graphic srccredit="Adminarea web
-service invoker - screenshot" scale="40"
-fileref="screenshots/genericinterface-webservice-invoker.png"></graphic></screenshot>
-                </para>
-                <para>
-                    <emphasis>Рисунок: Web service invoker.</emphasis>
+                    <figure>
+                        <title>Web service invoker</title>
+<screenshot>
+<graphic scale="40"
+fileref="screenshots/administration/genericinterface/genericinterface-webservice-invoker.png"></graphic></screenshot></figure>
                 </para>
             </section>
 
@@ -1043,8 +1009,8 @@ single key, with the next options:
                         </listitem>
                         <listitem>
                             <para>
-                                Регулярное выражение: строки будут изменены с помощью правила
-преобразования.
+                                Regular expression: the key string will be replaced following a regular
+expression rule.
                             </para>
                         </listitem>
                     </itemizedlist>
@@ -1068,13 +1034,11 @@ that you select before and set its value to "-", and save the configuration
 to apply changes.
                 </para>
                 <para>
-                    <screenshot>
-<screeninfo>Веб Сервис</screeninfo> <graphic srccredit="Adminarea web
-service mapping - screenshot" scale="40"
-fileref="screenshots/genericinterface-webservice-mapping.png"></graphic></screenshot>
-                </para>
-                <para>
-                    <emphasis>Рисунок: Web service mapping.</emphasis>
+                    <figure>
+                        <title>Web service mapping</title>
+<screenshot>
+<graphic scale="40"
+fileref="screenshots/administration/genericinterface/genericinterface-webservice-mapping.png"></graphic></screenshot></figure>
                 </para>
             </section>
         </section>

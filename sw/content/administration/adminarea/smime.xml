@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE section PUBLIC "-//OASIS//DTD DocBook XML V4.4//EN"
+  "http://www.oasis-open.org/docbook/xml/4.4/docbookx.dtd">
+
+<section id="adminarea-smime">
+<title>S/MIME</title>
+
+<para>
+OTRS inaweza kuchakatisha ujumbe unaoingia wa S/MIME uliofanyiwa usimbaji na
+kusaini barua zinazotoka. Kabla ya kuweza kutumia hiki kipengele, unahitaji
+kukiamilisha na kubadilisha baadhi ya <link
+linkend="ConfigReference_Framework:Crypt::SMIME">parameta za usanidi</link>
+katika SysConfig.
+</para>
+
+<para>
+The "S/MIME Certificates" link on the Admin page allows you to manage your
+S/MIME certificates (see figure below). You can add or remove certificates,
+and also search through the SMIME data.
+</para>
+
+<para>
+<figure>
+    <title>S/MIME management</title>
+<screenshot>
+<graphic scale="40"
+fileref="screenshots/administration/adminarea/admin-smime.png"></graphic></screenshot></figure>
+</para>
+
+</section>

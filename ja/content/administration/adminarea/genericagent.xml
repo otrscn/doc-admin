@@ -1,0 +1,55 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE section PUBLIC "-//OASIS//DTD DocBook XML V4.4//EN"
+  "http://www.oasis-open.org/docbook/xml/4.4/docbookx.dtd">
+
+<section id="adminarea-genericagent">
+<title>Executing Automated Jobs with the GenericAgent</title>
+
+<para>
+GenericAgent（一般担当者）はタスクを自動的に実行するツールです。「一般担当者」は例えば、チケットを完了したり、移動したり、エスカレートされたチケットに対して通知を送信したりできます。
+</para>
+
+<para>
+Click the link "GenericAgent" on the Admin page (see figure below). A table
+with all automated jobs in the system is displayed. These jobs can then be
+edited, run manually or removed entirely.
+</para>
+
+<para>
+<figure>
+    <title>GenericAgent（一般担当者）のためのジョブ・リスト</title>
+<screenshot>
+<graphic scale="40"
+fileref="screenshots/administration/adminarea/admin-genericagent.png"></graphic></screenshot></figure>
+</para>
+
+<para>
+    新規ジョブを作成するために「ジョブ追加」ボタンをクリックしてください。最初に名前を提供する必要があります。その後、ジョブがどのように実行されるか特定することができます:指定時刻で自動（cronjobのようにこのモードはチケット・フィルターによってすべてのチケットで作動します。）あるいは、チケット・イベンで自動（チケット・フィルターにマッチしていれば単一のチケットが変更された直後に）。
+</para>
+
+<para>
+<figure>
+    <title>GenericAgent（一般担当者）のためのジョブ作成</title>
+<screenshot>
+<graphic scale="40"
+fileref="screenshots/administration/adminarea/add-genericagent-job.png"></graphic></screenshot></figure>
+</para>
+
+<para>
+    すべてのジョブについては、チケット・フィルタを指定することができるが、例えば、ある特定のキュー中ではチケット上でのみ作動します。フィルター条件はすべて、チケット上で実行されるジョブのために満たされなければならない。
+</para>
+<para>
+    Finally, the ticket can be modified by setting various ticket fields like a
+new queue or state. It is possible to attach a note to the ticket(s) or run
+a customized module. You also have the option to delete the ticket(s) from
+the database. This can be useful to purge outdated or invalid data from the
+system.
+    <warning>
+        <para>チケットを削除する機能を使う場合、すべての影響を受けるチケットやそれらの添付ファイルはデータベースから取り除かれ復元することはできません。
+        </para>
+    </warning>
+</para>
+<para>
+    ジョブを編集した後に、OTRSは概要画面に戻ります。そこで、どんなジョブも手動で実行できる可能性があります。ジョブを実行することを選ぶならば、ジョブが実際に走っている時に全てのチケットが影響を受けることをまず最初に見ることでしょう。このリストは、あなたが意図通りにジョブが働いていることを確認するのに役立ちます。このポイントでは、これらのチケットにまだ変更は行なわれていません。あなたが画面を確認する場合のみ、ジョブが実行されます。
+</para>
+</section>

@@ -3,159 +3,128 @@
   "http://www.oasis-open.org/docbook/xml/4.4/docbookx.dtd">
 
 <section id="installation-of-prepared-packages">
-<title>シンプルな方法 - あらかじめ構築されたパッケージのインストレーション</title>
+<title>The Simple Way - Installation of Pre-Built Packages</title>
 
 <para>
-If available for your platform you should use pre-built packages to install
+    If available for your platform you should use pre-built packages to install
 OTRS, since it is the simplest and most convenient method.  You can find
 them in the download area at <ulink
-url="http://www.otrs.com">http://www.otrs.com</ulink>.  The following
-sections describe the installation of OTRS with a pre-built or binary
-package on SUSE and Red Hat systems.  Only if you are unable to use the
-pre-built packages for some reason should you follow the manual process.
+url="https://www.otrs.com/download-open-source-help-desk-software-otrs-free/">otrs.com</ulink>.
+The following sections describe the installation of OTRS with a pre-built or
+binary package on SUSE and Red Hat systems.  Only if you are unable to use
+the pre-built packages for some reason should you follow the manual process.
 </para>
 
 <section id="installation-on-suse">
-<title>SUSE Linuxサーバ上でのRPMのインストール</title>
+    <title>SUSE Linuxサーバ上でのRPMのインストール</title>
 
-<para>
-このセクションは、SUSEリナックス・サーバーの私たちのRPMのパッケージの設置について記述します。私たちはすべての最近のSLESおよびopenSUSEバージョンに対してテストしました。インストレーションを始める前に<ulink
-url="http://www.otrs.com/downloads"><citetitle>http://www.otrs.com/downloads</citetitle>
-</ulink>を訪ね、利用可能な最新のOTRS RPMのパッケージを使用しているかをご確認下さい。
-</para>
-
-<section id="suse-preparing-database-mysql">
-<title>OTRS用データベースの準備</title>
-
-<para>
-異なるデータベース・バックエンドを使用して、OTRSを使用することができます:<application>MySQL</application>、<application>PostgreSQL</application>、<application>オラクル</application>あるいは<application>Microsoft
-SQL
-Server</application>。OTRS上に展開させる最もポピュラーなデータベースはMySQLです。本章は、SUSEベースのサーバ上のMySQLを形成するために取る必要のあるステップを示します。もちろん、もし拡張性あるいは他の目的で必要ならば、データベースを専用データベース・サーバにインストールすることができます。
-</para>
-<note>
     <para>
-        openSUSE
-12.3以上に関する本章に従って、実際に<application>MySQL</application>ではなく<application>MariaDB</application>（MySQLコードのMySQL互換フォーク）を代わりにインストールする場合。これは問題ではありません。かえって都合がよく作動するでしょう。(しかもいくつかの点で多少より良いです)
+    This section describes the installation of our RPM package on a SUSE Linux
+server.
     </para>
-</note>
-<para>
-    rootとして次のコマンドを実行しMySQLをインストールします：
-</para>
 
-<para>
-    <screen>
-        linux:~ # zypper install mysql perl-DBD-mysql
-    </screen>
-</para>
+    <section id="suse-preparing-database-mysql">
+    <title>OTRS用データベースの準備</title>
 
-<para>
-    デフォルト・オプションが付属したMySQLをシステムにインストールします。それをOTRSに適するようにデフォルトを変更する必要があるでしょう。テキストエディターで、ファイル<filename>/etc/my.cnf</filename>を開き、コマンド<command>max_allowed_packet</command>で行を変更し、以下のように一行追加しまう:
-</para>
+    <para>
+    You can use OTRS using different database back-ends:
+<application>MySQL</application>, <application>PostgreSQL</application> or
+<application>Oracle</application>. The most popular database to deploy OTRS
+on is MySQL.  This chapter shows the steps you need to take to configure
+MySQL on a SUSE-based server. Of course you can install the database on a
+dedicated database server if needed for scalability or other purposes.
+    </para>
+    <note>
+        <para>
+            openSUSE
+12.3以上に関する本章に従って、実際に<application>MySQL</application>ではなく<application>MariaDB</application>（MySQLコードのMySQL互換フォーク）を代わりにインストールする場合。これは問題ではありません。かえって都合がよく作動するでしょう。(しかもいくつかの点で多少より良いです)
+        </para>
+    </note>
+    <para>
+        rootとして次のコマンドを実行しMySQLをインストールします：
+    </para>
 
-<para>
-    <screen>
-        max_allowed_packet=20M
-        query_cache_size=32M
-    </screen>
-</para>
+    <para>
+        <screen><![CDATA[
+linux:~ # zypper install mysql perl-DBD-mysql
+        ]]></screen>
+    </para>
 
-<para>
-    まず、データベース・サーバを再起動し、かつこれらの変更を活性化するために<command>rcmysql
-restart</command>を実行します。次に、<command>/usr/bin/mysql_secure_installation</command>を実行して、データベースrootパスワードをセットし、匿名のアクセスを削除し、テスト・データベースを削除し、スクリーン上の指示に従ってください。最後に、mysqlがサーバ起動時に自動的に開始されることを確かめるために<command>chkconfig
--a mysql</command>を実行してください。
-</para>
+    <para>
+        This will install MySQL with the default options on your system. You'll need
+to change the defaults in order to make it suitable for OTRS. With a text
+editor open the file <filename>/etc/my.cnf</filename> and add following
+lines under the [mysqld] section: <screen><![CDATA[
+max_allowed_packet   = 20M
+query_cache_size     = 32M
+innodb_log_file_size = 256M
+        ]]></screen>
+    </para>
 
-</section>
+    <para>
+        Now execute <command>systemctl restart mysql.service</command> to re-start
+the database server and activate these changes. Then run
+<command>/usr/bin/mysql_secure_installation</command> and follow the
+on-screen instructions to set a database root password, remove anonymous
+access and remove the test database. Lastly, run <command>systemctl enable
+mysql.service</command> in order to make sure mysql is automatically started
+at server startup time.
+    </para>
 
-<section id="suse-installing-rpm">
-    <title>OTRSのインストール</title>
-<para>
-コマンド<command>zypper</command>を使用するコマンドラインでOTRSをインストールします。これはApacheのウェブサーバおよびいくつかのパール・モジュールのようないくつかの依存性も誘起します。カレント・ディレクトリにOTRS
+    </section>
+
+    <section id="suse-installing-rpm">
+        <title>OTRSのインストール</title>
+    <para>
+    コマンド<command>zypper</command>を使用するコマンドラインでOTRSをインストールします。これはApacheのウェブサーバおよびいくつかのパール・モジュールのようないくつかの依存性も誘起します。カレント・ディレクトリにOTRS
 RPMのファイルをコピーしたことを確かめてください。
-</para>
-<para>
-    <screen>
-otrs-sles:~ # zypper install otrs-3.3.*.rpm
+    </para>
+    <para>
+        <screen><![CDATA[
+otrs-sles:~ # zypper install otrs*.rpm
 ....
-Retrieving package otrs-3.3.3-01.noarch (1/26), 17.5 MiB (74.3 MiB unpacked)
-Installing: otrs-3.3.3-01 [done]
+Retrieving package otrs-x.x.x-01.noarch (1/26), 17.5 MiB (74.3 MiB unpacked)
+Installing: otrs-x.x.x-01 [done]
 Additional rpm output:
 Check OTRS user ... otrs added.
 
-Next steps:
-
-[start database and Apache]
- Make sure your database is running and execute 'rcapache2 restart'.
-
-[install the OTRS database]
- Use a webbrowser and open this link:
- http://myserver.example.com/otrs/installer.pl
-
-[OTRS services]
- Start OTRS 'rcotrs start-force' (rcotrs {start|stop|status|restart|start-force|                                                                                                                     stop-force}).
-
-((enjoy))
-
- Your OTRS Team
- http://otrs.org/
+...
 
 otrs-sles:~ #
-    </screen>
-</para>
+        ]]></screen> Now restart apache with the command
+<command>systemctl restart apache2.service</command> to load the
+configuration changes for OTRS.
+    </para>
+    </section>
 
-<para>
-<emphasis>図：OTRSをインストールするコマンド</emphasis>
-</para>
-
-<para>
-OTRS設置は完了しました。以下のスクリプト中で示されるように、その構成中のOTRS特有の変更をロードするためにウェブサーバを開始してください。さらにサーバのリブート時OTRSが自動的に開始されることを確認するために<command>chkconfig</command>を実行してください。
-</para>
-
-<para>
-<screen>
-otrs-sles:~ # chkconfig -a apache2
-apache2                   0:off  1:off  2:off  3:on   4:off  5:on   6:off
-otrs-sles:~ # rcapache2 start
-Starting httpd2 (prefork) httpd2-prefork: Could not reliably determine the server's fully qualified domain name, using 10.x.x.x for ServerName
-                                                                                                                                                                                          done
-otrs-sles:~ #
-</screen>
-</para>
-
-<para>
-<emphasis>スクリプト：ウェブサーバの開始</emphasis>
-</para>
-
-</section>
-
-<section id="suse-installation-perl-modules">
-    <title>追加perlモジュールのインストレーション</title>
-    <para>OTRSは、RPMによってインストールすることができるモジュールよりさらに幾つか多くのモジュールを必要とします。それらを手動で後からインストールすることができます。<filename>/opt/otrs</filename>ディレクトリーにある<filename>bin/otrs.CheckModules.pl</filename>
+    <section id="suse-installation-perl-modules">
+        <title>追加perlモジュールのインストレーション</title>
+        <para>OTRSは、RPMによってインストールすることができるモジュールよりさらに幾つか多くのモジュールを必要とします。それらを手動で後からインストールすることができます。<filename>/opt/otrs</filename>ディレクトリーにある<filename>bin/otrs.CheckModules.pl</filename>
 スクリプトを実行して、不足しているのがどのモジュールかをチェックすることができます。いくつかのモジュールは、IMAP(S)サーバーかPDF生成とのコミュニケーションのようなオプションの機能性にだけ必要とされます。SLESではシステムにモジュールを必要とするために外部リポジトリをzypper構成に追加すべきです。OSバージョンに必要とされたモジュールをここから選択してください:<ulink
 url="http://download.opensuse.org/repositories/devel:/languages:/perl/">http://download.opensuse.org/repositories/devel:/languages:/perl/</ulink>。SLE
 11 SP2用にこのようにリポジトリを追加します。
-    </para>
+        </para>
 
-    <para>
-        <screen>
-            zypper ar -f -n perl http://download.opensuse.org/repositories/devel:/languages:/perl/SLE_11_SP2 Perl
-        </screen>
-    </para>
+        <para>
+            <screen><![CDATA[
+zypper ar -f -n perl http://download.opensuse.org/repositories/devel:/languages:/perl/SLE_11_SP2 Perl
+            ]]></screen>
+        </para>
 
-    <para>
-        openSUSE
+        <para>
+            openSUSE
 12.3では、別のリポジトリがMail::IMAPClientモジュールにだけ必要とされます。TLSで安全なIMAPサーバーからメールを集める必要があるときだけ、それを必要とするでしょう。対応する行は以下ご欄ください:
-    </para>
-    <para>
-        <screen>
-            zypper ar -f -n perl http://download.opensuse.org/repositories/devel:/languages:/perl/openSUSE_12.3/ Perl
-        </screen>
-    </para>
-    <para>
-        このリポジトリ追加後、はじめてzypperを使用時、そのキーを追加するように促されるでしょう。これで以下のように、不足しているモジュールをインストールすることができます。
-    </para>
-    <para>
-        <screen>
+        </para>
+        <para>
+            <screen><![CDATA[
+zypper ar -f -n perl http://download.opensuse.org/repositories/devel:/languages:/perl/openSUSE_12.3/ Perl
+            ]]></screen>
+        </para>
+        <para>
+            このリポジトリ追加後、はじめてzypperを使用時、そのキーを追加するように促されるでしょう。これで以下のように、不足しているモジュールをインストールすることができます。
+        </para>
+        <para>
+            <screen><![CDATA[
 otrs-sles:/opt/otrs # zypper install -y "perl(YAML::LibYAML)"
 Refreshing service 'susecloud'.
 Retrieving repository 'perl' metadata [\]
@@ -185,76 +154,80 @@ The following package is not supported by its vendor:
 Retrieving package perl-YAML-LibYAML-0.38-12.4.x86_64 (1/1), 75.0 KiB (196.0 KiB unpacked)
 Retrieving: perl-YAML-LibYAML-0.38-12.4.x86_64.rpm [done (55.7 KiB/s)]
 Installing: perl-YAML-LibYAML-0.38-12.4 [done]
-        </screen>
-    </para>
+            ]]></screen>
+        </para>
 
-<para>
-次のステップでは<link
+        <para>
+        次のステップでは<link
 linkend="web-installer">このセクションで</link>記述されるように、ウェブ・インストーラーを使用して、OTRSを構成します。
-</para>
+        </para>
 
-</section>
+        <para>
+            Now you can start the OTRS daemon and activate corresponding watchdog
+cronjob (this must be done by the <literal>otrs</literal> user):
+<screen><![CDATA[
+shell> /opt/otrs/bin/otrs.Daemon.pl start
+shell> /opt/otrs/bin/Cron.sh start
+            ]]></screen> That's it, congratulations!
+        </para>
+
+    </section>
 
 </section>
 
 <section id="installation-on-centos">
-<title>Red Hat Enterprise Linux あるいは CentOS システムへのOTRSのインストール</title>
+    <title>Red Hat Enterprise Linux あるいは CentOS システムへのOTRSのインストール</title>
 
-<para>
-このセクションは、Red Hat Enterprise Linux
-(RHEL)あるいはCentOSサーバー上のRPMのパッケージの構成について記述します。OTRS 3.3以上については、RHEL 6あるいはCentOS
-6が必須です、バージョン5はサポートされません。インストールを始める前に、<ulink
-url="http://www.otrs.com/downloads"><citetitle>http://www.otrs.com/downloads</citetitle>
-</ulink>を訪れ、利用可能な最新のOTRS RPMのパッケージを使用しているかを確認してください。
-</para>
+    <para>
+    This section describes the installation of our RPM package on a Red Hat
+Enterprise Linux (RHEL) or CentOS server. For OTRS 3.3 and up, RHEL 6 or
+CentOS 6 is a requirement, version 5 is not supported.
+    </para>
 
-<section id="rhel-preparing-database-mysql">
-<title>OTRS用データベースの準備</title>
+    <section id="rhel-preparing-database-mysql">
+    <title>OTRS用データベースの準備</title>
 
-<para>
-異なるデータベースバックエンドを使用して、OTRSを使用することができます:MySQL、PostgreSQL、OracleあるいはMicrosoft
-SQL
-Server。OTRSを上に展開させる最もポピュラーなデータベースはMySQLです。本章は、RHELベースのサーバ上のMySQLを構成するために必要なステップを示します。もちろん、拡張性あるいは他の目的に必要ならばデータベースを専用データベース・サーバにインストールすることもできます。
-</para>
+    <para>
+    You can use OTRS using different database back-ends:
+<application>MySQL</application>, <application>PostgreSQL</application> or
+<application>Oracle</application>. The most popular database to deploy OTRS
+on is MySQL.  This chapter shows the steps you need to take to configure
+MySQL on a RHEL-based server.  Of course you can install the database on a
+dedicated database server if needed for scalability or other purposes.
+    </para>
 
-<para>
-    rootとして次のコマンドを実行しMySQLをインストールします：
-</para>
+    <para>
+        Install MySQL by executing the following command as root: <screen><![CDATA[
+[root@otrs-centos6 ~]# yum -y install mysql-server
+        ]]></screen> This will install MySQL with the default options on
+your system. You'll need to change the defaults in order to make it suitable
+for OTRS. With a text editor open the file <filename>/etc/my.cnf</filename>
+and add following lines under the [mysqld] section: <screen><![CDATA[
+max_allowed_packet   = 20M
+query_cache_size     = 32M
+innodb_log_file_size = 256M
+        ]]></screen>
+    </para>
 
-<para>
-    <screen>
-        [root@otrs-centos6 ~]# yum -y install mysql-server
-    </screen>
-</para>
+    <para>
+        Now execute <command>systemctl start mysqld</command> to re-start the
+database server and activate these changes. Then run
+<command>/usr/bin/mysql_secure_installation</command> and follow the
+on-screen instructions to set a database root password, remove anonymous
+access and remove the test database.
+    </para>
 
-<para>
-    これは、デフォルト・オプションを持つMySQLをシステムにインストールします。それをOTRSに適しているようにデフォルトを変更する必要があります。テキストエディターで、ファイル<filename>/etc/my.cnf</filename>を開き、[mysqld]セクションの下の次の2行を追加します:
-</para>
+    </section>
 
-<para>
-    <screen>
-        max_allowed_packet=20M
-        query_cache_size=32M
-    </screen>
-</para>
-
-<para>
-    ここで、データベース・サーバを再起動し、かつこれらの変更を活性化するために<command>service mysqld
-start</command>を実行します。次に、<command>/usr/bin/mysql_secure_installation</command>を実行して、データベースrootパスワードをセットし、匿名のアクセスを削除し、テスト・データベースを削除し、スクリーン上の指示に従ってください。最後に、mysqlがサーバ開始時に自動開始されることを確認するために<command>chkconfig
-mysqld on</command>を実行してください。
-</para>
-
-</section>
-
-<section id="rhel-installing-rpm">
-    <title>OTRSのインストール</title>
-<para>
-コマンド<command>yum</command>を使用するコマンドラインからOTRSをインストールします。これは、さらにApacheウェブサーバおよびいくつかのPerlモジュールのようないくつかの依存性を誘起するでしょう。カレント・ディレクトリにOTRS
+    <section id="rhel-installing-rpm">
+        <title>OTRSのインストール</title>
+    <para>
+    コマンド<command>yum</command>を使用するコマンドラインからOTRSをインストールします。これは、さらにApacheウェブサーバおよびいくつかのPerlモジュールのようないくつかの依存性を誘起するでしょう。カレント・ディレクトリにOTRS
 RPMのファイルをコピーしたことを確認してください。
-</para>
-<para>
-    <screen>
-[root@otrs-centos6 ~]# yum install --nogpgcheck otrs-3.3.*.rpm
+    </para>
+    <para>
+        <screen><![CDATA[
+[root@otrs-centos6 ~]# yum install --nogpgcheck otrs-x.x.*.rpm
 ...
 Dependencies Resolved
 
@@ -262,7 +235,7 @@ Dependencies Resolved
  Package                    Arch   Version                Repository       Size
 ================================================================================
 Installing:
- otrs                       noarch 3.3.3-01               /otrs-3.3.3-01.noarch
+ otrs                       noarch x.x.x-01               /otrs-x.x.x-01.noarch
                                                                            74 M
 Installing for dependencies:
  apr                        x86_64 1.3.9-5.el6_2          updates         123 k
@@ -288,77 +261,35 @@ Transaction Test Succeeded
 Running Transaction
   Installing : apr-1.3.9-5.el6_2.x86_64                               1/26
   ...
-  Installing : otrs-3.3.3-01.noarch                                   26/26
+  Installing : otrs-x.x.x-01.noarch                                   26/26
 Check OTRS user ... otrs added.
 
-Next steps:
+...
 
-[httpd services]
- Restart httpd 'service httpd restart'
-
-[install the OTRS database]
- Make sure your database server is running.
- Use a web browser and open this link:
- http://myserver.example.com/otrs/installer.pl
-
-[OTRS services]
- Start OTRS 'service otrs start' (service otrs {start|stop|status|restart).
-
-((enjoy))
-
- Your OTRS Team
-
-Installed:
-  otrs.noarch 0:3.3.3-01
-
-Dependency Installed:
-  ...
-
-Complete!
 [root@otrs-centos6 ~]#
-    </screen>
-</para>
+        ]]></screen> Now restart apache with the command
+<command>systemctl restart httpd.service</command> to load the configuration
+changes for OTRS.
+    </para>
+    </section>
 
-<para>
-<emphasis>図：OTRSをインストールするコマンド</emphasis>
-</para>
-
-<para>
-OTRS設置は完了しました。ここでApacheが開始し、サーバがリブートする場合は常に、Apacheが開始することを確認すべきです。
-</para>
-
-<para>
-<screen>
-[root@otrs-centos6 ~]# chkconfig httpd on
-[root@otrs-centos6 ~]# service httpd start
-Starting httpd: httpd: Could not reliably determine the server's fully qualified domain name, using 10.x.x.x for ServerName [  OK  ]
-[root@otrs-centos6 ~]#
-</screen>
-</para>
-
-<para>
-<emphasis>スクリプト：ウェブサーバの開始</emphasis>
-</para>
-
-</section>
-
-<section id="rhel-installation-perl-modules">
-    <title>追加perlモジュールのインストレーション</title>
-    <para>OTRSは、RPMによってインストールすることができるよりさらに幾つかのモジュールを必要とします。それらを手動で後でインストールすることができます。<filename>/opt/otrs</filename>ディレクトリーにある<filename>bin/otrs.CheckModules.pl</filename>スクリプトを実行して、不足しているのがどのモジュールかをチェックすることができます。いくつかのモジュールは、IMAP(S)サーバーかPDF生成とのコミュニケーションのようなオプションの機能性にのみ必要とされます。Red
+    <section id="rhel-installation-perl-modules">
+        <title>追加perlモジュールのインストレーション</title>
+        <para>OTRSは、RPMによってインストールすることができるよりさらに幾つかのモジュールを必要とします。それらを手動で後でインストールすることができます。<filename>/opt/otrs</filename>ディレクトリーにある<filename>bin/otrs.CheckModules.pl</filename>スクリプトを実行して、不足しているのがどのモジュールかをチェックすることができます。いくつかのモジュールは、IMAP(S)サーバーかPDF生成とのコミュニケーションのようなオプションの機能性にのみ必要とされます。Red
 HatまたはCentOSの上でEPELリポジトリからのこれらのモジュールのインストールを推奨します。そのリポジトリは、RHELとそのは派生のための高品質パッケージを供給しているFedora
 projectによって維持管理されています。より詳細な情報は以下を御覧ください。<ulink
 url="http://fedoraproject.org/wiki/EPEL">the EPELウェブサイト</ulink>。
-    </para>
+        </para>
 
-    <para>
-        RHEL 6あるいはCentOS 6をご利用の場合、EPELのために最新のパッケージを得ることができます。<ulink
+        <para>
+            RHEL 6あるいはCentOS 6をご利用の場合、EPELのために最新のパッケージを得ることができます。<ulink
 url="http://download.fedoraproject.org/pub/epel/6/i386/repoview/epel-release.html">このサイト</ulink>から。このページで見つけたRPM
 URLをコピーして、このコマンドを実行することによって、このリポジトリをyumに追加できます：
-    </para>
+        </para>
 
-    <para>
-        <screen>
- [root@otrs-centos6 otrs]# yum -y install http://download.fedoraproject.org/pub/epel/6/i386/epel-release-6-8.noarch.rpm
+        <para>
+            <screen><![CDATA[
+[root@otrs-centos6 otrs]# yum -y install http://download.fedoraproject.org/pub/epel/6/i386/epel-release-6-8.noarch.rpm
 Loaded plugins: security
 Setting up Install Process
 epel-release-6-8.noarch.rpm                                   |  14 kB     00:00
@@ -396,13 +327,13 @@ Installed:
 
 Complete!
 [root@otrs-centos6 otrs]#
-        </screen>
-    </para>
-    <para>
-        このリポジトリを追加後、yumの初回使用時、そのキーを加えるように促されます。ここで不足しているモジュールを以下のようにインストールすることができます。
-    </para>
-    <para>
-        <screen>
+            ]]></screen>
+        </para>
+        <para>
+            このリポジトリを追加後、yumの初回使用時、そのキーを加えるように促されます。ここで不足しているモジュールを以下のようにインストールすることができます。
+        </para>
+        <para>
+            <screen><![CDATA[
 [root@otrs-centos6 otrs]# yum -y install "perl(Text::CSV_XS)"
 Loaded plugins: security
 Setting up Install Process
@@ -446,36 +377,44 @@ Installed:
 
 Complete!
 [root@otrs-centos6 otrs]#
-        </screen>
-    </para>
+            ]]></screen>
+        </para>
 
-<para>
-次のステップでは<link
+        <para>
+        次のステップでは<link
 linkend="web-installer">このセクションで</link>記述されるように、ウェブ・インストーラーを使用して、OTRSを構成します。
-</para>
+        </para>
 
-</section>
+        <para>
+            Now you can start the OTRS daemon and activate corresponding watchdog
+cronjob (this must be done by the <literal>otrs</literal> user):
+<screen><![CDATA[
+shell> /opt/otrs/bin/otrs.Daemon.pl start
+shell> /opt/otrs/bin/Cron.sh start
+            ]]></screen> That's it, congratulations!
+        </para>
+    </section>
 
-<section id="rhel-installation-dbd-oracle">
-    <title>Red HatまたはCentOSでのOracleデータベース・ドライバのインストレーション</title>
-    <para>
-        Oracleデータベース上のOTRSを展開させたければ、<application>DBD::Oracle</application>データベース・ドライバをコンパイルし、インストールする必要があります。これは他のどのパッケージのインストールよりわずかに複雑です;これはオラクルが所有権のあるデータベースであり、Red
+    <section id="rhel-installation-dbd-oracle">
+        <title>Red HatまたはCentOSでのOracleデータベース・ドライバのインストレーション</title>
+        <para>
+            Oracleデータベース上のOTRSを展開させたければ、<application>DBD::Oracle</application>データベース・ドライバをコンパイルし、インストールする必要があります。これは他のどのパッケージのインストールよりわずかに複雑です;これはオラクルが所有権のあるデータベースであり、Red
 HatもCentOSもRPMレポジトリにドライバを配布することが許可されないプロジェクトだからという理由だからです。
-    </para>
-    <para>
-        まず、ドライバーをコンパイルしインストールできるように、<application>gcc</application>,
+        </para>
+        <para>
+            まず、ドライバーをコンパイルしインストールできるように、<application>gcc</application>,
 <application>make</application> 及び
 <application>CPAN</application>をインストールする必要があります。以下、CentOSに関するコマンドを見てみましょう;他のバージョンにおいては、それが少し異なっているように見えるかもしれません。
-    </para>
+        </para>
 
-    <para>
-        <screen>
+        <para>
+            <screen><![CDATA[
 [root@otrs-centos6 otrs]# yum -y install gcc make "perl(CPAN)"
-        </screen>
-    </para>
+            ]]></screen>
+        </para>
 
-    <para>
-        次のステップは、データベース・クライアントを入手しインストールすることです。これについては、オラクルのウェブサイトで無料アカウントのサインアップをする必要があるでしょう。このページからドライバをダウンロードすることができます:<ulink
+        <para>
+            次のステップは、データベース・クライアントを入手しインストールすることです。これについては、オラクルのウェブサイトで無料アカウントのサインアップをする必要があるでしょう。このページからドライバをダウンロードすることができます:<ulink
 url="http://www.oracle.com/technetwork/database/features/instant-client/index-097480.html">
 http://www.oracle.com/technetwork/database/features/instant-client/index-097480.html</ulink>システムのアーキテクチャーに対応するLinux
 x86 か x86-64バージョンを選んでください。コマンド<command>uname
@@ -483,17 +422,17 @@ x86 か x86-64バージョンを選んでください。コマンド<command>una
 Client Package - Basic', 'Instant Client Package - SQL*Plus', and 'Instant
 Client Package -
 SDK'。それらをディスクに保存してください。ここで、rootユーザーとして、次のコマンドを使用して、パッケージをインストールすることができます:
-    </para>
-    <para>
-        <screen>
+        </para>
+        <para>
+            <screen><![CDATA[
 [root@otrs-centos6 otrs]# yum install oracle-instantclient*
-        </screen>
-    </para>
-    <para>
-        この後、2つの環境変数をセットし、DBD::Oracleドライバーをコンパイルするべきです。再び、rootユーザとしてこれらのタスクを行なってください。以下にステップを概説します。コマンドが除去されたことで出力行が数行短くなっていることにお気づき下さい。
-    </para>
-    <para>
-        <screen>
+            ]]></screen>
+        </para>
+        <para>
+            この後、2つの環境変数をセットし、DBD::Oracleドライバーをコンパイルするべきです。再び、rootユーザとしてこれらのタスクを行なってください。以下にステップを概説します。コマンドが除去されたことで出力行が数行短くなっていることにお気づき下さい。
+        </para>
+        <para>
+            <screen><![CDATA[
 [root@otrs-centos6 otrs]# export ORACLE_HOME=/usr/lib/oracle/11.2/client64
 [root@otrs-centos6 otrs]# export LD_LIBRARY_PATH=$ORACLE_HOME/lib
 [root@otrs-centos6 otrs]# cpan
@@ -515,34 +454,36 @@ Working directory is /root/.cpan/build/DBD-Oracle-1.62-ZH6LNy
 cpan[2]> exit
 Terminal does not support GetHistory.
 Lockfile removed.
-        </screen>
+            ]]></screen>
+        </para>
+
+    <para>
+    Now you should edit the file <filename>Kernel/Config.pm</filename> to
+provide ORACLE_HOME.  The next step is to configure OTRS using the web
+installer, as described <link linkend="web-installer">in this
+section</link>.
     </para>
 
-<para>
-ここで、ORACLE_HOMEを提供するファイル Kernel/Config.pmを編集するべきです。次のステップは<link
-linkend="web-installer">このセクションで</link>記述されるように、ウェブ・インストーラを使用して、OTRSを構成することです。
-</para>
-
-</section>
+    </section>
 
 </section>
 
 <section id="installation-on-debian">
-<title>Debian または Ubuntuシステム上でのOTRSのインストール</title>
-<important>
-    <para>
-        OTRSは<link
+    <title>Debian または Ubuntuシステム上でのOTRSのインストール</title>
+    <important>
+        <para>
+            OTRSは<link
 linkend="manual-installation-of-otrs">ソースから</link>インストールして下さい。Debain/Ubuntuが提供するOTRSパッケージを使用しないで下さい。
-    </para>
-</important>
-<para>
-    利用可能なパッケージを使用すれば、必要なPerlモジュールのインストールはより容易です: <screen>
+        </para>
+    </important>
+    <para>
+        利用可能なパッケージを使用すれば、必要なPerlモジュールのインストールはより容易です: <screen><![CDATA[
 apt-get install libapache2-mod-perl2 libdbd-mysql-perl libtimedate-perl libnet-dns-perl \
     libnet-ldap-perl libio-socket-ssl-perl libpdf-api2-perl libdbd-mysql-perl libsoap-lite-perl \
     libgd-text-perl libtext-csv-xs-perl libjson-xs-perl libgd-graph-perl libapache-dbi-perl \
     libxml-libxml-perl libxml-xslt-perl
-    </screen>
-</para>
+        ]]></screen>
+    </para>
 </section>
 
 </section>

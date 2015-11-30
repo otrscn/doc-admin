@@ -1,0 +1,66 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE section PUBLIC "-//OASIS//DTD DocBook XML V4.4//EN"
+  "http://www.oasis-open.org/docbook/xml/4.4/docbookx.dtd">
+
+<section id="adminarea-package-manager">
+<title>Менеджер пакетов</title>
+
+<para>
+Using the "Package Manager" link on the Admin page, you can install and
+manage packages that extend the functionality of OTRS (see figure
+below). See the <link linkend="application">Additional applications</link>
+section for a discussion on the extensions that are available from the OTRS
+repositories.
+</para>
+
+<para>
+<figure>
+    <title>Менеджер пакетов</title>
+<screenshot>
+<graphic scale="40"
+fileref="screenshots/administration/adminarea/admin-packagemanager.png"></graphic></screenshot></figure>
+</para>
+
+<para>
+Менеджер Пакетов позволяет просмотреть пакеты расширения OTRS вместе с
+номерами их версий, установленные на сервере в данный момент.
+</para>
+
+<para>Пакеты можно установить из удаленного хоста, для этого, в разделе
+<emphasis>Онлайн Репозиторий</emphasis> нужно выбрать репозиторий и нажать
+кнопку <emphasis>Обновить информацию из репозитория</emphasis>. Все
+доступные пакеты будут отображены в соответствующей таблице. В правой части
+страницы отображаются доступные пакеты. Чтобы установить пакет, нажмите на
+ссылку <emphasis>Установить</emphasis>. После установки пакет будет
+отображаться в разделе <emphasis>Local Repository</emphasis>.
+</para>
+
+<para>
+Для обновления установленных пакетов можно воспользоваться списком доступных
+пакетов из он-лайн репозитория. В колонке "действие" для каждого из пакетов,
+который имеет более высокую версию, чем установленная сейчас, нажмите кнопку
+<emphasis>Обновить</emphasis>. Просто нажмите на кнопку "Обновить", и новый
+пакет будет обновлен.
+</para>
+
+<para>
+В некоторых случаях, например, когда ваша OTRS-система не подключена к
+Интернету, можно установить пакеты, которые были заранее загружены на
+локальный диск. Нажмите кнопку <emphasis> Обзор</emphasis> на боковой панели
+и выберите. opm-файл на жестком диске. Нажмите <emphasis> Открыть
+</emphasis>, а затем <emphasis> Установить пакет</emphasis>. После установки
+пакет отображается в разделе <emphasis>Локальный
+Репозиторий</emphasis>. Проделайте те же действия для того чтобы обновить
+уже установленный пакет.
+</para>
+
+<para>
+В особых случаях, можно настроить Менеджер Пакетов, например, для
+использования прокси-сервера, или локального репозитория. Перейдя по ссылке
+<link
+linkend="ConfigReference_Framework:Core::Package">Framework:Core::Package</link>,
+можно увидеть на имеющиеся варианты в разделе Конфигурация
+системы/SysConfig.
+</para>
+
+</section>

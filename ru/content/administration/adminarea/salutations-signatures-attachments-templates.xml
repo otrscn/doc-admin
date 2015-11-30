@@ -1,0 +1,340 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE section PUBLIC "-//OASIS//DTD DocBook XML V4.4//EN"
+  "http://www.oasis-open.org/docbook/xml/4.4/docbookx.dtd">
+
+<section id="adminarea-salutations-signatures-attachments-and-answers">
+<title>Salutations, Signatures, Attachments and Templates</title>
+
+<section id="adminarea-salutations">
+<title>Приветсвтия</title>
+
+<para>
+A salutation is a text module for a template. Salutations can be linked to
+one or more queues, as described in the section about <link
+linkend="adminarea-queue">queues</link>. A salutation is used only if a
+ticket from a queue the salutation is linked to, is answered. To manage the
+different salutations of your system, use the "Salutations" link of the
+admin area (see figure below).
+</para>
+
+<para>
+<figure>
+    <title>Управления приветствиями</title>
+<screenshot>
+<graphic scale="40"
+fileref="screenshots/administration/adminarea/admin-salutation.png"></graphic></screenshot></figure>
+</para>
+
+<para>
+После установки в системе есть одно предопределенное приветствие: "system
+standard salutation (en)".
+</para>
+
+<para>
+To create a new salutation, press the button "Add salutation", provide the
+required data and submit it (see figure below).
+</para>
+
+<para>
+<figure>
+    <title>Adding a new salutation</title>
+<screenshot>
+<graphic scale="40"
+fileref="screenshots/administration/adminarea/add-salutation.png"></graphic></screenshot></figure>
+</para>
+
+<para>
+В приветствиях можно использовать переменные. Когда вы отвечаете на заявку,
+имена переменных будут заменены на их значения.
+</para>
+
+<para>
+Различные переменные, которые можно использовать в ответах приведены в
+нижней части экрана приветствия. Если вы используете, например, переменную
+&lt;OTRS_LAST_NAME&gt; то в ответ будет включена фамилия отправителя заявки.
+</para>
+
+<note>
+<para>
+Как и в случае с другими сущностями системы OTRS, приветствия не можно
+удалять, только деактивировать их, установив параметр Действительный в
+значение <emphasis>не действительный</emphasis> или <emphasis>не
+действительный-временно</emphasis>.
+</para>
+</note>
+
+</section>
+
+<section id="adminarea-signatures">
+<title>Подписи</title>
+
+<para>
+Another text module for a template is the signature. Signatures can be
+linked to a queue, as described in the section about the <link
+linkend="adminarea-queue">queues</link>. Please note that a signature will
+only be appended to a template text, if it has previously been linked to a
+queue. You can manage the signatures in your system by accessing the
+"Signatures" link of the Admin page, (see figure below).
+</para>
+
+<para>
+<figure>
+    <title>Signatures management</title>
+<screenshot>
+<graphic scale="40"
+fileref="screenshots/administration/adminarea/admin-signatures.png"></graphic></screenshot></figure>
+</para>
+
+<para>
+В новой, только установленной системе OTRS есть одна предустановленная
+подпись:  "system standard signature (en)".
+</para>
+
+<para>
+To create a new signature, press the button "Add signature", provide the
+needed data and submit it (see figure below).
+</para>
+
+<para>
+<figure>
+    <title>Adding a new signature</title>
+<screenshot>
+<graphic scale="40"
+fileref="screenshots/administration/adminarea/add-signature.png"></graphic></screenshot></figure>
+</para>
+
+<para>
+Как и приветствия, подписи также могут содержать динамический контент,
+например, имя и фамилию агента, который отвечает на заявку, а также могут
+использоваться переменные для замены текста подписи каждой
+заявки. Переменные, которые можно использовать ищите в нижней части страницы
+с подписями. Если вы, к примеру, включаете переменную &lt;OTRS_LAST_NAME&gt;
+то она будет заменена фамилией агента, который отвечает на заявку.
+</para>
+
+<note>
+<para>
+Как и в случае с приветствиями, подписи не могут быть удалены, только
+деактивированы путем установки параметра Действительный в значения
+<emphasis>не действительный</emphasis> или <emphasis>не
+действительный-временно</emphasis>.
+</para>
+</note>
+
+</section>
+
+<section id="adminarea-attachments">
+<title>Вложения</title>
+
+<para>
+При желании к ответу можно добавить одно или несколько вложений. Если ответ
+выбран, вложения будут прикреплены к сообщению. При необходимости,
+непосредственно перед отправкой ответа клиенту, агент может удалить
+вложения.
+</para>
+
+<para>
+Through the "Attachment" link of the Admin page, you can load the
+attachments into the database of the system (see figure below).
+</para>
+
+<para>
+<figure>
+    <title>Attachments management</title>
+<screenshot>
+<graphic scale="40"
+fileref="screenshots/administration/adminarea/admin-attachment.png"></graphic></screenshot></figure>
+</para>
+
+<para>
+To create a new attachment, press the button "Add attachment", provide the
+required data and submit it (see figure below).
+</para>
+
+<para>
+<figure>
+    <title>Adding a new attachment</title>
+<screenshot>
+<graphic scale="40"
+fileref="screenshots/administration/adminarea/add-attachment.png"></graphic></screenshot></figure>
+</para>
+
+<para>
+If an attachment is stored it can be linked to one or more templates. Click
+on the "Attachment &lt;-&gt; Templates" link of the Admin page (see figure
+below).
+</para>
+
+<para>
+<figure>
+    <title>Связать вложения с шаблонами.</title>
+<screenshot>
+<graphic scale="40"
+fileref="screenshots/administration/adminarea/admin-attachment-template.png"></graphic></screenshot></figure>
+</para>
+
+<para>
+To associate different attachments with a specific template and vice versa,
+click on the corresponding template name or attachment (see below the
+Figures 4.29 and 4.30, respectively).
+</para>
+
+<para>
+<figure>
+    <title>Изменить связь Вложения с Шаблоном</title>
+<screenshot>
+<graphic scale="40"
+fileref="screenshots/administration/adminarea/template-attachment-relations.png"></graphic></screenshot></figure>
+</para>
+
+<para>
+<figure>
+    <title>Изменить связь Шаблона с Вложением</title>
+<screenshot>
+<graphic scale="40"
+fileref="screenshots/administration/adminarea/template-attachment-relations2.png"></graphic></screenshot></figure>
+</para>
+
+</section>
+
+<section id="adminarea-Templates">
+<title>Шаблоны</title>
+
+<para>
+    Для ускорения работы в OTRS и стандартизовать вид ответов, можно задать
+шаблоны. Шаблон может быть связан с одной или несколькими очередями и
+наоборот.
+</para>
+
+<para>
+    Существует несколько различных видов шаблонов, которые могут быть
+использованы в различных местах в OTRS и в различных целях. Ниже приведен
+список доступных типов шаблонов:
+</para>
+<itemizedlist mark="round">
+    <listitem>
+        <para>Ответ: Будет использоваться в качестве ответа на заявку</para>
+    </listitem>
+    <listitem>
+        <para>Создать: Будет использоваться в качестве Телефонной Заявки или Email заявки</para>
+    </listitem>
+    <listitem>
+        <para>Переслать: Используется для пересылки сообщения кому-то другому</para>
+    </listitem>
+    <listitem>
+        <para>Телефонный звонок: Для регистрации входящих и исходящих звонков агентом</para>
+    </listitem>
+</itemizedlist>
+
+<para>
+    Использовать шаблоны ответов можно двумя способами: при подробном просмотре
+заявки в меню сообщений/заметок, или более быстрым - с экрана Обзора
+статусов или заявок в формате предпросмотра/Large. Во вновь установленной
+OTRS, шаблон (ответа) "пустой ответ" задан для всех очередей.
+</para>
+
+<para>
+    As soon as Forward templates are added and assigned to queues, the "Forward"
+button in ticket zoom (that normally leads to a empty text forward screen)
+will change into a selection control, the selection is filled with the added
+Forward templates, by choosing one of the templates, the forward screen will
+be shown prefilled with the template text and attachments (similar to the
+reply selection box with the Answer templates).
+</para>
+
+<para>
+    Создание шаблонов типа Create/Новая и PhoneCall/Звонок клиента приводит к
+отображения поля выбора "Text Template/Текст шаблона" на соответствующих
+экранах, выбор шаблона из списка приведет к заполнению полей "Текст" и
+"Вложение" (если они доступны в шаблоне). Отметим, что любые ранее сделанные
+изменения в поле "Текст" или для вложения, будут перекрыты данными из
+шаблона.
+</para>
+
+<para>
+    Clicking the "Templates" link on the Admin page brings you to the Template
+management screen (see figure below).
+</para>
+
+<para>
+<figure>
+    <title>Template management</title>
+<screenshot>
+<graphic scale="40"
+fileref="screenshots/administration/adminarea/admin-template.png"></graphic></screenshot></figure>
+</para>
+
+<para>
+    To create a new template, click on the "Add template" button, provide the
+required data (make sure to select the appropriate template type) and submit
+it (see figure below).
+</para>
+
+<para>
+<figure>
+    <title>Adding a template</title>
+<screenshot>
+<graphic scale="40"
+fileref="screenshots/administration/adminarea/add-template.png"></graphic></screenshot></figure>
+</para>
+
+<para>
+To add/remove templates to one or more queues, click on the "Templates
+&lt;-&gt; Queues" link on the Admin page (see figure below). You can also
+use filters to get information regarding a specific entity.
+</para>
+
+<para>
+<figure>
+    <title>Template-Queue relations management</title>
+<screenshot>
+<graphic scale="40"
+fileref="screenshots/administration/adminarea/admin-template-queue.png"></graphic></screenshot></figure>
+</para>
+
+<para>
+Чтобы определить различные шаблоны для очереди и наоборот, нажмите на
+соответствующий шаблон или очередь (см. ниже Рисунки 5.32 и 5.33,
+соответственно).
+</para>
+
+<para>
+<figure>
+    <title>Изменить связь Очереди с Шаблоном</title>
+<screenshot>
+<graphic scale="40"
+fileref="screenshots/administration/adminarea/template-queue-relations.png"></graphic></screenshot></figure>
+</para>
+
+<para>
+<figure>
+    <title>Изменить связь Шаблона с Очередью</title>
+<screenshot>
+<graphic scale="40"
+fileref="screenshots/administration/adminarea/template-queue-relations2.png"></graphic></screenshot></figure>
+</para>
+
+<para>
+    При выборе шаблона, дополнительная информация должна быть добавлена к тексту
+шаблона, в зависимости от его типа:
+</para>
+<para>
+    Шаблоны типа PhoneCall/Звонок клиента и Create/Новая не добавляют никаких
+дополнительных данных к тексту шаблона, в то время как для типа New Email
+Ticket/Новая почтовая заявка добавляется подпись, связанная с очередью к
+телу окончательного тела письма (для отображения подписи открывается
+отдельный фрейм).
+</para>
+<para>
+    В текст шаблона ответа также включается приветствие, связанное с очередью
+заявки, затем, текст шаблона, после него, цитируемый текст заявки, и,
+наконец, подпись, связанная с очередью.
+</para>
+<para>
+    Шаблоны типа Forward/Переслать аналогичны шаблонам ответов, но в них не
+включается приветствие.
+</para>
+
+</section>
+
+</section>

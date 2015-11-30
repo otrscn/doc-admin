@@ -15,12 +15,12 @@ wurde. Zum Beispiel gibt es Felder, um einen Text, ein Datum, usw. eine
 Auswahl zu erfassen.
         </para>
         <para>
-            Dynamische Felder sind eine Weiterentwicklung der Felder TicketFreeText,
-TicketFreeKey, TicketFreeTime, ArticleFreeText und ArticleFreeKey welche in
-OTRS 3.0 und früher genutzt wurden. Die Limitierung dieser "FreeFields" war,
-dass lediglich bis 16 (Text oder Einfachauswahl) Felder definiert werden
-konnten und 6 Zeitfelder für ein Ticket und 3 (Text oder Dropdown) Felder
-für einen Artikel, nicht mehr.
+            Dynamic fields are the evolution of TicketFreeText, TicketFreeKey,
+TicketFreeTime, ArticleFreeText and ArticleFreeKey fields that where
+commonly used in OTRS 3.0 and before. The limitation of these "Free Fields"
+was that they can be defined up to 16 (text or dropdown) fields and 6 time
+fields for a ticket and 3 (text or dropdown)  fields for each article only,
+not more.
         </para>
         <para>
             Now with dynamic fields the limitation in the number of fields per ticket or

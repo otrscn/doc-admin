@@ -3,11 +3,8 @@
   "http://www.oasis-open.org/docbook/xml/4.4/docbookx.dtd">
 
 <appendix id="additional-resources">
-<title>追加の資料</title>
 
-    <para>
-    私達はOTRSに関する正に最新情報でサポートしようとします。さらにフィードバックを提供する機会も与えます。
-    </para>
+    <title>追加の資料</title>
 
     <variablelist>
         <varlistentry>
@@ -19,101 +16,53 @@
 also find information about commercial services and trainings from OTRS
 Group, the creator of OTRS.
                 </para>
-                <para>
-                    For services (support, consulting, development, and training) you can
-contact the company behind OTRS, OTRS AG. Our offices are located in
-Germany, USA, Mexico, the Netherlands, and in other countries. Visit our
-website for <ulink url="http://www.otrs.com/buy">contact
-information</ulink>.
-                </para>
             </listitem>
         </varlistentry>
         <varlistentry>
-            <term>Mailing Lists</term>
+            <term>メーリングリスト</term>
             <listitem>
                 <para>
                     <table id="additional-resources-mailinglists-table">
                         <title>メーリングリスト</title>
-                          <tgroup cols="3">
+                        <tgroup cols="2">
                             <thead>
-                              <row>
-                                <entry>
-                                  Name
-                                </entry>
-                                <entry>
-                                  摘要
-                                </entry>
-                                <entry>
-                                  ホームページ
-                                </entry>
-                              </row>
+                                <row>
+                                    <entry>Name &amp; URL</entry>
+                                    <entry>摘要</entry>
+                                </row>
                             </thead>
                             <tbody>
-                              <row>
-                                <entry>
-                                  announce@otrs.org
-                                </entry>
-                                <entry>
-                                  新しいOTRSリリースおよびセキュリティ問題に関するアナウンスのためリスト。英語で、転送量は少量です。
-                                </entry>
-                                <entry>
-                                  <ulink url="http://lists.otrs.org/cgi-bin/listinfo/announce">
-<citetitle>http://lists.otrs.org/cgi-bin/listinfo/announce</citetitle>
-</ulink>
-                                </entry>
-                              </row>
-                              <row>
-                                <entry>
-                                  otrs@otrs.org
-                                </entry>
-                                <entry>
-                                  全ての関連質問および製品サポートについてのリスト。英語で、流量は中/多量です。
-                                </entry>
-                                <entry>
-                                  <ulink url="http://lists.otrs.org/cgi-bin/listinfo/otrs">
-<citetitle>http://lists.otrs.org/cgi-bin/listinfo/otrs</citetitle> </ulink>
-                                </entry>
-                              </row>
-                              <row>
-                                <entry>
-                                  otrs-de@otrs.org
-                                </entry>
-                                <entry>
-                                  全ての関連質問および製品サポートについてのリスト。ドイツ語で、流量は中/多量です。
-                                </entry>
-                                <entry>
-                                  <ulink url="http://lists.otrs.org/cgi-bin/listinfo/otrs-de">
-<citetitle>http://lists.otrs.org/cgi-bin/listinfo/otrs-de</citetitle>
-</ulink>
-                                </entry>
-                              </row>
-                              <row>
-                                <entry>
-                                  dev@otrs.org
-                                </entry>
-                                <entry>
-                                  OTRS開発者がさまざまなデザインや実装の問題を議論するリスト。英語で、流量は中度です。
-                                </entry>
-                                <entry>
-                                  <ulink url="http://lists.otrs.org/cgi-bin/listinfo/dev">
-<citetitle>http://lists.otrs.org/cgi-bin/listinfo/dev</citetitle> </ulink>
-                                </entry>
-                              </row>
-                              <row>
-                                <entry>
-                                  i18n@otrs.org
-                                </entry>
-                                <entry>
-                                  国際化および現地化に関する質問に関して。OTRSプロジェクトの翻訳者になりたいか、国際的環境でアプリケーションに関してどんな問題でもあれば、接続するのはここです。英語で、流量は少量です。
-                                </entry>
-                                <entry>
-                                  <ulink url="http://lists.otrs.org/cgi-bin/listinfo/i18n">
-<citetitle>http://lists.otrs.org/cgi-bin/listinfo/i18n</citetitle> </ulink>
-                                </entry>
-                              </row>
+                                <row>
+                                    <entry><ulink
+url="http://lists.otrs.org/cgi-bin/listinfo/announce">announce@otrs.org</ulink></entry>
+                                    <entry>新しいOTRSリリースおよびセキュリティ問題に関するアナウンスのためリスト。英語で、転送量は少量です。</entry>
+                                </row>
+                                <row>
+                                    <entry><ulink
+url="http://lists.otrs.org/cgi-bin/listinfo/otrs">otrs@otrs.org</ulink></entry>
+                                    <entry>全ての関連質問および製品サポートについてのリスト。英語で、流量は中/多量です。</entry>
+                                </row>
+                                <row>
+                                    <entry><ulink
+url="http://lists.otrs.org/cgi-bin/listinfo/otrs-de">otrs-de@otrs.org</ulink></entry>
+                                    <entry>全ての関連質問および製品サポートについてのリスト。ドイツ語で、流量は中/多量です。</entry>
+                                </row>
+                                <row>
+                                    <entry><ulink url="http://lists.otrs.org/cgi-bin/listinfo/dev">dev@otrs.org</ulink></entry>
+                                    <entry>OTRS開発者がさまざまなデザインや実装の問題を議論するリスト。英語で、流量は中度です。</entry>
+                                </row>
                             </tbody>
-                          </tgroup>
-                        </table>
+                        </tgroup>
+                    </table>
+                </para>
+            </listitem>
+        </varlistentry>
+        <varlistentry>
+            <term>Translations</term>
+            <listitem>
+                <para>
+                    You can help translate OTRS to your language at <ulink
+url="https://www.transifex.com/otrs/OTRS/">Transifex</ulink>.
                 </para>
             </listitem>
         </varlistentry>
@@ -122,23 +71,20 @@ information</ulink>.
             <listitem>
                 <para>
                     To report software defects, please visit <ulink
-url="http://bugs.otrs.org/">http://bugs.otrs.org/</ulink> (see Figure
+url="http://bugs.otrs.org/">http://bugs.otrs.org/</ulink> (see figure
 below). Please take note of the difference between a bug and a configuration
 issue. Configuration issues are problems that you encounter when setting a
 system, or general questions regarding the use of OTRS. Bug reports should
 only be used for issues with the source code of OTRS or other open source
 OTRS modules itself. For configuration issues, you should either use the
-<ulink url="http://www.otrs.com/solutions/service-contracts/">commercial
-support, available from OTRS.com</ulink>, or the public mailing lists.
+<ulink url="https://www.otrs.com/solutions/">commercial support, available
+from OTRS</ulink>, or the public mailing lists.
                 </para>
                 <para>
-                    <screenshot>
-<screeninfo>バグ・トラッキング・ツール</screeninfo> <graphic srccredit="バグ・トラッキング・ツール"
-scale="40" fileref="screenshots/bugs-otrs-org.png"></graphic></screenshot>
-                </para>
-                <para>
-                    You help us a lot to improve the product by reporting bugs. We appreciate
-your input!
+                    <figure>
+                        <title>バグ・トラッキング・ツール</title>
+<screenshot>
+<graphic scale="40" fileref="screenshots/bugs-otrs-org.png"></graphic></screenshot></figure>
                 </para>
             </listitem>
         </varlistentry>

@@ -1,0 +1,297 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE section PUBLIC "-//OASIS//DTD DocBook XML V4.4//EN"
+  "http://www.oasis-open.org/docbook/xml/4.4/docbookx.dtd">
+
+<section id="adminarea-salutations-signatures-attachments-and-answers">
+<title>Salutations, Signatures, Attachments and Templates</title>
+
+<section id="adminarea-salutations">
+<title>挨拶文</title>
+
+<para>
+A salutation is a text module for a template. Salutations can be linked to
+one or more queues, as described in the section about <link
+linkend="adminarea-queue">queues</link>. A salutation is used only if a
+ticket from a queue the salutation is linked to, is answered. To manage the
+different salutations of your system, use the "Salutations" link of the
+admin area (see figure below).
+</para>
+
+<para>
+<figure>
+    <title>挨拶文管理</title>
+<screenshot>
+<graphic scale="40"
+fileref="screenshots/administration/adminarea/admin-salutation.png"></graphic></screenshot></figure>
+</para>
+
+<para>
+デフォルト・インストレーションの後、利用可能な1つの挨拶文が既にあります、「システム標準挨拶文(en)」
+</para>
+
+<para>
+To create a new salutation, press the button "Add salutation", provide the
+required data and submit it (see figure below).
+</para>
+
+<para>
+<figure>
+    <title>Adding a new salutation</title>
+<screenshot>
+<graphic scale="40"
+fileref="screenshots/administration/adminarea/add-salutation.png"></graphic></screenshot></figure>
+</para>
+
+<para>
+挨拶文の中で変数を使用することは可能です。チケットに応答する時、変数名はそれらの値と取り替えられるでしょう。
+</para>
+
+<para>
+テンプレートの中で使用することができる異なる変数は、挨拶文画面の下方部分にリストされます。例えばこれを使えば、チケット送信者の姓が変数&lt;OTRS_LAST_NAME&gt;
+が返信に含まれるでしょう。
+</para>
+
+<note>
+<para>
+他のOTRSの実体のように、挨拶文は削除できません。有効オプションを<emphasis>無効</emphasis>または<emphasis>無効-暫定</emphasis>にすることで不活性化されるだけです。
+</para>
+</note>
+
+</section>
+
+<section id="adminarea-signatures">
+<title>署名</title>
+
+<para>
+Another text module for a template is the signature. Signatures can be
+linked to a queue, as described in the section about the <link
+linkend="adminarea-queue">queues</link>. Please note that a signature will
+only be appended to a template text, if it has previously been linked to a
+queue. You can manage the signatures in your system by accessing the
+"Signatures" link of the Admin page, (see figure below).
+</para>
+
+<para>
+<figure>
+    <title>Signatures management</title>
+<screenshot>
+<graphic scale="40"
+fileref="screenshots/administration/adminarea/admin-signatures.png"></graphic></screenshot></figure>
+</para>
+
+<para>
+OTRSの新規インストール後、システムにはあらかじめ定義された署名：「システム標準署名(en)」が存在します。
+</para>
+
+<para>
+To create a new signature, press the button "Add signature", provide the
+needed data and submit it (see figure below).
+</para>
+
+<para>
+<figure>
+    <title>Adding a new signature</title>
+<screenshot>
+<graphic scale="40"
+fileref="screenshots/administration/adminarea/add-signature.png"></graphic></screenshot></figure>
+</para>
+
+<para>
+挨拶文のように、署名は、チケットに答える担当者の姓、名のような動的内容を含むことができます。またここで変数は、すべてのチケットに対して署名テキストのコンテンツを代替するために使用することができます。使う変数に関しては署名画面の下部をご覧ください。あなたが署名に例えば可変&lt;OTRS_LAST_NAME&gt;を含めば、チケットに答える担当者の姓は変数を代替します。
+</para>
+
+<note>
+<para>
+挨拶文でもそうであるように、署名も削除できません。有効オプションを<emphasis>無効</emphasis>または<emphasis>無効-一時的</emphasis>に設定してのみ非活性化することができます。
+</para>
+</note>
+
+</section>
+
+<section id="adminarea-attachments">
+<title>添付</title>
+
+<para>
+さらに、任意に1つ以上の添付をテンプレートに加えることができます。テンプレートが選択されていれば、添付はメッセージ作成ウィンドウに付けられるでしょう。必要ならば、担当者は顧客のもとへそれを送る前に個々のテンプレートから添付を取り除くことができます。
+</para>
+
+<para>
+Through the "Attachment" link of the Admin page, you can load the
+attachments into the database of the system (see figure below).
+</para>
+
+<para>
+<figure>
+    <title>Attachments management</title>
+<screenshot>
+<graphic scale="40"
+fileref="screenshots/administration/adminarea/admin-attachment.png"></graphic></screenshot></figure>
+</para>
+
+<para>
+To create a new attachment, press the button "Add attachment", provide the
+required data and submit it (see figure below).
+</para>
+
+<para>
+<figure>
+    <title>Adding a new attachment</title>
+<screenshot>
+<graphic scale="40"
+fileref="screenshots/administration/adminarea/add-attachment.png"></graphic></screenshot></figure>
+</para>
+
+<para>
+If an attachment is stored it can be linked to one or more templates. Click
+on the "Attachment &lt;-&gt; Templates" link of the Admin page (see figure
+below).
+</para>
+
+<para>
+<figure>
+    <title>添付のテンプレートへのリンク</title>
+<screenshot>
+<graphic scale="40"
+fileref="screenshots/administration/adminarea/admin-attachment-template.png"></graphic></screenshot></figure>
+</para>
+
+<para>
+To associate different attachments with a specific template and vice versa,
+click on the corresponding template name or attachment (see below the
+Figures 4.29 and 4.30, respectively).
+</para>
+
+<para>
+<figure>
+    <title>テンプレート用添付関連の変更</title>
+<screenshot>
+<graphic scale="40"
+fileref="screenshots/administration/adminarea/template-attachment-relations.png"></graphic></screenshot></figure>
+</para>
+
+<para>
+<figure>
+    <title>添付用テンプレート関連の変更</title>
+<screenshot>
+<graphic scale="40"
+fileref="screenshots/administration/adminarea/template-attachment-relations2.png"></graphic></screenshot></figure>
+</para>
+
+</section>
+
+<section id="adminarea-Templates">
+<title>テンプレート</title>
+
+<para>
+    チケット処理を促進し、かつ返答の外観を標準化するために、OTRSにテンプレートを定義することができます。テンプレートは1つ以上のキューにリンク、および逆リンクも可能です。
+</para>
+
+<para>
+    OTRSの異なる部分で使用される、異なる種類およびそれらのテンプレートがありますそれらはそれ自身の目的を持っていて、下記は可能なテンプレート・タイプのリストです。:
+</para>
+<itemizedlist mark="round">
+    <listitem>
+        <para>返答：Answer: チケット・応答として使用されるか返答します。</para>
+    </listitem>
+    <listitem>
+        <para>作成：Create: 新規電話かEメール・チケットの中で使用されます。</para>
+    </listitem>
+    <listitem>
+        <para>転送：Forward: 誰か他の人へ記事を転送するために使用されます。</para>
+    </listitem>
+    <listitem>
+        <para>電話：PhoneCall: 電話の着信および発信画面で使用されます。</para>
+    </listitem>
+</itemizedlist>
+
+<para>
+    電話の受発信画面で使うためには、返答テンプレートは二つの方法でアクセス可能です。ひとつは、記事メニューでのチケット・ズーム画面から。もうひとつ、より素早い方法なら、状態ビューやチケット・ビューのようなチケット概要の大画面から。新規のOTRS導入に関しては、テンプレート「空の答え（empty
+answer）」がすべてのキューに対してデフォルトでセットされます。
+</para>
+
+<para>
+    転送テンプレートがキューに割り当てられ加えられるとすぐに、チケット・ズーム中の「転送」ボタン（通常は空のテキスト転送画面に導かれます）は選択コントロールに変化します。ひとつのテンプレートを選択することで「選択」は、転送テンプレートに情報を与えます。転送画面は、テンプレートテキストと添付で事前に情報を与えられ表示されます。（返答テンプレートでの「返答選択ボックス」と同様です。）
+</para>
+
+<para>
+    タイプ「作成」と「電話」のテンプレートを作成することは、　それぞれの画面の中の「テキスト・テンプレート」選択ボックス」を見えるようにします。リストにテンプレートを選択することは、「テキスト」と「添付」フィールド（テンプレートで利用可能ならば）にデータを追加することになるでしょう。テキストまたは添付で何からの以前の変更が、テンプレートを選択することで上書きされることに気づいて下さい。
+</para>
+
+<para>
+    Clicking the "Templates" link on the Admin page brings you to the Template
+management screen (see figure below).
+</para>
+
+<para>
+<figure>
+    <title>Template management</title>
+<screenshot>
+<graphic scale="40"
+fileref="screenshots/administration/adminarea/admin-template.png"></graphic></screenshot></figure>
+</para>
+
+<para>
+    To create a new template, click on the "Add template" button, provide the
+required data (make sure to select the appropriate template type) and submit
+it (see figure below).
+</para>
+
+<para>
+<figure>
+    <title>Adding a template</title>
+<screenshot>
+<graphic scale="40"
+fileref="screenshots/administration/adminarea/add-template.png"></graphic></screenshot></figure>
+</para>
+
+<para>
+To add/remove templates to one or more queues, click on the "Templates
+&lt;-&gt; Queues" link on the Admin page (see figure below). You can also
+use filters to get information regarding a specific entity.
+</para>
+
+<para>
+<figure>
+    <title>Template-Queue relations management</title>
+<screenshot>
+<graphic scale="40"
+fileref="screenshots/administration/adminarea/admin-template-queue.png"></graphic></screenshot></figure>
+</para>
+
+<para>
+キューに、および逆に（and vice
+versa）利用可能になる、異なるテンプレートを定義するためには、対応するテンプレートかキューをクリックしてください(図5.32および5.33以下にそれぞれ参照)。
+</para>
+
+<para>
+<figure>
+    <title>テンプレートのためのキュー関係の変更</title>
+<screenshot>
+<graphic scale="40"
+fileref="screenshots/administration/adminarea/template-queue-relations.png"></graphic></screenshot></figure>
+</para>
+
+<para>
+<figure>
+    <title>キューのためのテンプレート関係の変更</title>
+<screenshot>
+<graphic scale="40"
+fileref="screenshots/administration/adminarea/template-queue-relations2.png"></graphic></screenshot></figure>
+</para>
+
+<para>
+    テンプレートを選択するとき追加の情報がテンプレート・テキストに追加できます。これはテンプレートのタイプに依存します：
+</para>
+<para>
+    しかしながら、「電話」とテンプレートの作成はテンプレート・テキストにいかなるコンテンツも追加しません。新規Eメールチケット画面はキューを追加し、そのキューは解決Eメール本文に署名を割り当てます。（この画面は署名を視覚化するための別のボックスを持ちます。）
+</para>
+<para>
+    返答テンプレートテキストは、選択された時、キューに関連づけられて挨拶文を含みます。　それからテンプレートはのテキスト、それから引用されたチケットのテキスト、そして最後はキューに関連付けられた署名も含みます。
+</para>
+<para>
+    転送テンプレートは返答テンプレートと同様ですが、それらは挨拶文部分を含みません。
+</para>
+
+</section>
+
+</section>

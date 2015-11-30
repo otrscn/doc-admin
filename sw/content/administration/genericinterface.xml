@@ -33,11 +33,11 @@ taarifa, kutuma maombi kwa Mifumo ya Nje, na kusubiri majibu.
 yetu ni OTRS na Mifumo ya Mbali.
          </para>
          <para>
-            Moyo wa Huduma ya Wavuti ni usanidi wake, ambapo imefafanuliwa vitendo
-ambavyo huduma ya wavuti inaweza kufanya kwa ndani (Operesheni), vitendo
-gani maombi ya OTRS inaweza kufanya Mfumo wa Mbali (Wachochezi), jinsi gani
-data inabadilishwa kutoka mfumo mmoja kwenda mwingine (Kuunganisha), na
-kupitia itifaki gani mawasiliano yatapita (Usafirishaji)
+            The heart of the Web Service is its configuration, where it is defined what
+actions the web service can perform internally (Operation), what actions the
+OTRS request can perform Remote System (Invokers), how data is converted
+from one system to the other (Mapping), and over which protocol the
+communication will take place (Transport).
          </para>
          <para>
              The Generic Interface is the framework that makes it possible to create Web

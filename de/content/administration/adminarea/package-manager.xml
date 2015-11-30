@@ -1,0 +1,65 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE section PUBLIC "-//OASIS//DTD DocBook XML V4.4//EN"
+  "http://www.oasis-open.org/docbook/xml/4.4/docbookx.dtd">
+
+<section id="adminarea-package-manager">
+<title>Paketverwaltung</title>
+
+<para>
+Using the "Package Manager" link on the Admin page, you can install and
+manage packages that extend the functionality of OTRS (see figure
+below). See the <link linkend="application">Additional applications</link>
+section for a discussion on the extensions that are available from the OTRS
+repositories.
+</para>
+
+<para>
+<figure>
+    <title>Paketverwaltung</title>
+<screenshot>
+<graphic scale="40"
+fileref="screenshots/administration/adminarea/admin-packagemanager.png"></graphic></screenshot></figure>
+</para>
+
+<para>
+In der Paketverwaltung können Sie die bereits installierten Pakete mit ihrer
+Versionsinformation einsehen.
+</para>
+
+<para>Sie können Pakete von einem entfernten Server installieren, indem Sie das
+Paketverzeichnis im Abschnitt <emphasis>Online-Paketverzeichnis</emphasis>
+auswählen und auf <emphasis>Verzeichnisinformation aktualisieren</emphasis>
+klicken. Die verfügbaren Pakete werden rechts  tabellarisch dargestellt. Um
+eines zu installieren, klicken Sie auf "Installieren". Nach der Installation
+wird das Paket im Abschnitt <emphasis>Lokales Verzeichnis</emphasis>
+dargestellt.
+</para>
+
+<para>
+To upgrade an installed package, the list of available packages in the
+online repository will show <emphasis>Upgrade</emphasis> in the Action
+column for any package that has a higher version than the one that is
+installed locally. Just click Upgrade and it will install the new package
+version on your system.
+</para>
+
+<para>
+In manchen Fällen, wenn beispielsweise ein OTRS-System nicht mit dem
+Internet verbunden ist, können Sie auch Pakete installieren, die lokal
+heruntergeladen wurden. Klicken Sie auf den <emphasis>Datei
+auswählen</emphasis>-Knopf in der "Aktionen"-Liste, und wählen Sie die
+.opm-Datei auf Ihrem Speichermedium aus. Verwenden Sie dann <emphasis>Paket
+installieren</emphasis>. Nach der Installation wird das Paket im Abschnitt
+<emphasis>Lokales Verzeichnis</emphasis> angezeigt. Auf dieselbe Weise
+können Sie ein bereits installiertes Paket aktualisieren.
+</para>
+
+<para>
+In besonderen Fällen ist es erforderlich, die Paketverwaltung zu
+konfigurieren, zum Beispiel für die Verwendung eines Proxy-Servers, oder um
+auf ein lokales Verzeichnis zuzugreifen. Verwenden Sie dazu die
+Einstellungen unter <link
+linkend="ConfigReference_Framework:Core::Package">Framework:Core::Package</link>.
+</para>
+
+</section>

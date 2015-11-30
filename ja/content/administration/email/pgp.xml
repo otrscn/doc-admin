@@ -3,7 +3,7 @@
   "http://www.oasis-open.org/docbook/xml/4.4/docbookx.dtd">
 
 <section id='configure-pgp'>
-<title>PGP鍵を備えた安全なEメール</title>
+<title>Secure Email with PGP</title>
 
 <para>
 OTRSは、PGP鍵を備えた送信メッセージに署名するか暗号化する能力を持っています。更に、暗号化された受信メッセージは解読することができます。暗号化と解読はGPLツールGnuPGで実施されます。OTRSのためのセットアップGnuPGに、次のステップを行なわなければなりません。

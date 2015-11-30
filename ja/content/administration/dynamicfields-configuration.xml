@@ -13,16 +13,16 @@
     <section id="dynamicfields-configuration-add">
         <title>動的フィールドの追加</title>
         <para>
-            ナビゲーション・バーにある「管理者」ボタンをクリックして、次に、画面の底部中央付近にある「チケット設定」ボックスの内部の「動的フィールド」リンクをクリックしてください。概要が以下のように表示する動的フィールド:
+            Click on the "Admin" button located in the navigation bar, then click on the
+"Dynamic Fields" link inside "Ticket Settings" box located in the lower
+center of the screen.  The dynamic fields overview will display as follows:
         </para>
         <para>
-            <screenshot>
-<screeninfo>動的フィールド概要画面、空</screeninfo> <graphic srccredit="管理者エリア
-dynamicfields（動的フィールド） - スクリーンショット" scale="40"
-fileref="screenshots/dynamicfields-overview-empty.png"></graphic></screenshot>
-        </para>
-        <para>
-            <emphasis>図:動的フィールド概要画面、空</emphasis>
+            <figure>
+                <title>動的フィールド概要画面、空</title>
+<screenshot>
+<graphic scale="40"
+fileref="screenshots/administration/dynamicfields/dynamicfields-overview-empty.png"></graphic></screenshot></figure>
         </para>
         <para>
             作られてた全ての動的フィールドをリストへ、あなたがさらに動的フィールドを追加すると、この画面が変化することにご留意下さい。インストレーションがOTRSのより古いバージョンから更新された場合、この画面には既にいくつかのフィールドがあるかもしれません。
@@ -42,7 +42,7 @@ fileref="screenshots/dynamicfields-overview-empty.png"></graphic></screenshot>
             </para>
             <listitem>
                 <para>
-                    アクション・サイド・バーで希望するの動的フィールドオブジェクトdropdownをクリックしてください。
+                    Click on the desired dynamic field object dropdown in the Actions side bar.
                 </para>
             </listitem>
             <listitem>
@@ -130,7 +130,9 @@ fileref="screenshots/dynamicfields-overview-empty.png"></graphic></screenshot>
                 例では、特定のフィールド・タイプの設定を各々説明するために、少数のフィールドが追加されます。これらの新規フィールドは後のセクションの中でreferenciated（参照）されるでしょう。
             </para>
             <para>
-                次の例については、記事オブジェクトのための動的フィールドを作る必要があれば、チケット・オブジェクトのためにすべての動的フィールドが作られます。単に記事ドロップダウン・リストからフィールドを選択して下さい。
+                For the following examples all the dynamic fields will be created for the
+Ticket object.  If you need to create a dynamic field for Article object,
+just choose the field from the Article dropdown list.
             </para>
         </note>
 
@@ -171,12 +173,12 @@ fileref="screenshots/dynamicfields-overview-empty.png"></graphic></screenshot>
                  </tr>
                  <tr>
                      <td>Field6</td>
-                     <td>My Field 5</td>
+                     <td>My Field 6</td>
                      <td>日付</td>
                  </tr>
                  <tr>
                      <td>Field7</td>
-                     <td>My Field 6</td>
+                     <td>My Field 7</td>
                      <td>Date / Time</td>
                  </tr>
              </tbody>
@@ -212,20 +214,18 @@ fileref="screenshots/dynamicfields-overview-empty.png"></graphic></screenshot>
                 </para>
                 <note>
                     <para>
-                        セット・リンク値中の $LQData{「NameX」}を使うなら、NameX
-があるところに、フィールドの名前がリンク参照の一部としてフィールド値を加えるでしょう。
+                        セット・リンク値中で $LQData{「NameX」} が使われた場合、NameX
+がフィールドの名前なら、リンク参照の一部としてフィールド値を加えるでしょう。
                     </para>
                 </note>
             </listitem>
         </itemizedlist>
         <para>
-            <screenshot>
-<screeninfo>動的フィールド・テキストの構成ダイアログ。</screeninfo> <graphic
-srccredit="dynamicfields（動的フィールド） - スクリーンショット" scale="40"
-fileref="screenshots/dynamicfields-configuration-text.png"></graphic></screenshot>
-        </para>
-        <para>
-            <emphasis>図:動的フィールド・テキストの構成ダイアログ</emphasis>
+            <figure>
+                <title>動的フィールド・テキストの構成ダイアログ。</title>
+<screenshot>
+<graphic scale="40"
+fileref="screenshots/administration/dynamicfields/dynamicfields-configuration-text.png"></graphic></screenshot></figure>
         </para>
     </section>
 
@@ -264,13 +264,11 @@ fileref="screenshots/dynamicfields-configuration-text.png"></graphic></screensho
             </listitem>
         </itemizedlist>
         <para>
-            <screenshot>
-<screeninfo>動的フィールドテキストエリアの構成ダイアログ。</screeninfo> <graphic
-srccredit="dynamicfields（動的フィールド） - スクリーンショット" scale="40"
-fileref="screenshots/dynamicfields-configuration-textarea.png"></graphic></screenshot>
-        </para>
-        <para>
-            <emphasis>図:動的フィールドテキストエリアの構成ダイアログ</emphasis>
+            <figure>
+                <title>動的フィールドテキストエリアの構成ダイアログ。</title>
+<screenshot>
+<graphic scale="40"
+fileref="screenshots/administration/dynamicfields/dynamicfields-configuration-textarea.png"></graphic></screenshot></figure>
         </para>
     </section>
 
@@ -293,13 +291,11 @@ fileref="screenshots/dynamicfields-configuration-textarea.png"></graphic></scree
             </listitem>
         </itemizedlist>
         <para>
-            <screenshot>
-<screeninfo>動的フィールド・チェックボックスの構成ダイアログ</screeninfo> <graphic
-srccredit="dynamicfields（動的フィールド） - スクリーンショット" scale="40"
-fileref="screenshots/dynamicfields-configuration-checkbox.png"></graphic></screenshot>
-        </para>
-        <para>
-            <emphasis>図:動的フィールド・チェックボックスの構成ダイアログ</emphasis>
+            <figure>
+                <title>動的フィールド・チェックボックスの構成ダイアログ</title>
+<screenshot>
+<graphic scale="40"
+fileref="screenshots/administration/dynamicfields/dynamicfields-configuration-checkbox.png"></graphic></screenshot></figure>
         </para>
 
     </section>
@@ -326,7 +322,7 @@ fileref="screenshots/dynamicfields-configuration-checkbox.png"></graphic></scree
                     デフォルト値:オプション。
                 </para>
                 <para>
-                    この値はデフォルトで編集画面に表示されます。(新規電話チケットあるいはチケット作成のように)このフィールドのデフォルト値は、可能な値によって定義された閉じた選択です。
+                    これは、編集画面上にデフォルトで示される値です(新規電話チケットあるいはチケット作成のように)。このフィールドのデフォルト値は、可能な値によって定義されるような閉じた選択です。
                 </para>
             </listitem>
             <listitem>
@@ -334,7 +330,7 @@ fileref="screenshots/dynamicfields-configuration-checkbox.png"></graphic></scree
                     空の値の追加：必須、(はい/いいえ）
                 </para>
                 <para>
-                    このオプションが活性化されるなら、特別な値が、可能な値のリスト中で「-」を表示されて定義されます。この特別な値は内部的には空です。
+                    このオプションが活性化される場合、特別な値が、可能な値のリスト中で「-」を表示されて定義されます。この特別な値は内部的には空です。
                 </para>
             </listitem>
             <listitem>
@@ -350,11 +346,10 @@ fileref="screenshots/dynamicfields-configuration-checkbox.png"></graphic></scree
                     リンクの表示：オプション。
                 </para>
                 <para>
-                    セットされたら、フィールド値は　表示画面（ズームや概要のように）用にクリック可能ならHTPリンクに変換されます。
+                    セットされたら、フィールド値は、表示画面用に（チケット・ズームや概要のように）クリック可能なリンクに変換されます。
                 </para>
                 <para>
-                    例えば、もし「表示」リンクが「 http://www.otrs.com
-」にセットされたら、フィールド値をクリックすればブラウザでOTRSのウェブページが開きます。
+                    例えば、「リンクを表示」を「http://www.otrs.com」にセットするなら、値を入力してクリックすれば、ブラウザでOTRSウェブページが開きます。
                 </para>
                 <note>
                     <para>
@@ -365,13 +360,11 @@ fileref="screenshots/dynamicfields-configuration-checkbox.png"></graphic></scree
             </listitem>
         </itemizedlist>
         <para>
-            <screenshot>
-<screeninfo>動的フィールド・ドロップダウンの構成ダイアログ</screeninfo> <graphic
-srccredit="dynamicfields（動的フィールド） - スクリーンショット" scale="40"
-fileref="screenshots/dynamicfields-configuration-dropdown.png"></graphic></screenshot>
-        </para>
-        <para>
-            <emphasis>図:動的フィールド・ドロップダウンの構成ダイアログ</emphasis>
+            <figure>
+                <title>動的フィールド・ドロップダウンの構成ダイアログ</title>
+<screenshot>
+<graphic scale="40"
+fileref="screenshots/administration/dynamicfields/dynamicfields-configuration-dropdown.png"></graphic></screenshot></figure>
         </para>
     </section>
 
@@ -418,13 +411,11 @@ fileref="screenshots/dynamicfields-configuration-dropdown.png"></graphic></scree
             </listitem>
         </itemizedlist>
         <para>
-            <screenshot>
-<screeninfo>動的フィールド 複数選択の構成ダイアログ</screeninfo> <graphic
-srccredit="dynamicfields（動的フィールド） - スクリーンショット" scale="40"
-fileref="screenshots/dynamicfields-configuration-multiselect.png"></graphic></screenshot>
-        </para>
-        <para>
-            <emphasis>図:動的フィールド 複数選択の構成ダイアログ</emphasis>
+            <figure>
+                <title>動的フィールド 複数選択の構成ダイアログ</title>
+<screenshot>
+<graphic scale="40"
+fileref="screenshots/administration/dynamicfields/dynamicfields-configuration-multiselect.png"></graphic></screenshot></figure>
         </para>
     </section>
 
@@ -442,15 +433,17 @@ fileref="screenshots/dynamicfields-configuration-multiselect.png"></graphic></sc
                     デフォルトの時差：オプション、整数
                 </para>
                 <para>
-                    現在の日付と選択された日付間の秒数（正でも負でも）。デフォルトで編集画面に表示されます。（新規電話チケットやチケット作成のように）
+                    編集画面でデフォルトで表示される（新規電話チケットまたはチケット作成のように）現在の日付と選択した日付間の秒数（正負可）
                 </para>
             </listitem>
             <listitem>
                 <para>
-                    年の期間を定義：必須（はい/いいえ）
+                    Define years period: Mandatory, (Yes / No).
                 </para>
                 <para>
-                    この設定は、このフィールドが翻訳可能な値であることの指標として使われます。単に翻訳される表示上の値であり、内部的な値に影響を与えるものではありません。翻訳値は手動で言語ファイルに追加する必要があります。
+                    Used to set a defined number of years in the past and the future based on
+the current date of the year select for this field. If set to Yes the
+following options are available:
                 </para>
                 <para>
                     <itemizedlist>
@@ -478,11 +471,11 @@ fileref="screenshots/dynamicfields-configuration-multiselect.png"></graphic></sc
                     リンクの表示：オプション。
                 </para>
                 <para>
-                    セットされたら、フィールド値は　表示画面（ズームや概要のように）用にクリック可能ならHTPリンクに変換されます。
+                    セットされたら、フィールド値は、表示画面用に（チケット・ズームや概要のように）クリック可能なリンクに変換されます。
                 </para>
                 <para>
-                    例えば、もし「表示」リンクが「 http://www.otrs.com
-」にセットされたら、フィールド値をクリックすればブラウザでOTRSのウェブページが開きます。
+                    For example, if "Show link" is set to "http://www.otrs.com", clicking on the
+filed value will make your browser to open the OTRS web page.
                 </para>
                 <note>
                     <para>
@@ -493,13 +486,11 @@ fileref="screenshots/dynamicfields-configuration-multiselect.png"></graphic></sc
             </listitem>
         </itemizedlist>
         <para>
-            <screenshot>
-<screeninfo>動的フィールド 日付/時刻の構成ダイアログ</screeninfo> <graphic
-srccredit="dynamicfields（動的フィールド） - スクリーンショット" scale="40"
-fileref="screenshots/dynamicfields-configuration-date.png"></graphic></screenshot>
-        </para>
-        <para>
-            <emphasis>図:動的フィールド 日付/時刻の構成ダイアログ</emphasis>
+            <figure>
+                <title>動的フィールド 日付/時刻の構成ダイアログ</title>
+<screenshot>
+<graphic scale="40"
+fileref="screenshots/administration/dynamicfields/dynamicfields-configuration-date.png"></graphic></screenshot></figure>
         </para>
     </section>
 
@@ -522,10 +513,12 @@ fileref="screenshots/dynamicfields-configuration-date.png"></graphic></screensho
             </listitem>
             <listitem>
                 <para>
-                    年の期間を定義：必須（はい/いいえ）
+                    Define years period: Mandatory, (Yes / No).
                 </para>
                 <para>
-                    このフィールドの年設定で、過去に将来（現在日から直近３日）に定義済の年数を設定するために使います。次のオプションが「はい」に設定されて利用可能ならば、：
+                    Used to set a defined number of years in the past and the future based on
+the current date of the year select for this field. If set to Yes the
+following options are available:
                 </para>
                 <para>
                     <itemizedlist>
@@ -553,11 +546,11 @@ fileref="screenshots/dynamicfields-configuration-date.png"></graphic></screensho
                     リンクの表示：オプション。
                 </para>
                 <para>
-                    セットされたら、フィールド値は　表示画面（ズームや概要のように）用にクリック可能ならHTPリンクに変換されます。
+                    セットされたら、フィールド値は、表示画面用に（チケット・ズームや概要のように）クリック可能なリンクに変換されます。
                 </para>
                 <para>
-                    例えば、もし「表示」リンクが「 http://www.otrs.com
-」にセットされたら、フィールド値をクリックすればブラウザでOTRSのウェブページが開きます。
+                    For example, if "Show link" is set to "http://www.otrs.com", clicking on the
+filed value will make your browser to open the OTRS web page.
                 </para>
                 <note>
                     <para>
@@ -568,13 +561,11 @@ fileref="screenshots/dynamicfields-configuration-date.png"></graphic></screensho
             </listitem>
         </itemizedlist>
         <para>
-            <screenshot>
-<screeninfo>動的フィールド 日付 の構成ダイアログ</screeninfo> <graphic
-srccredit="dynamicfields（動的フィールド） - スクリーンショット" scale="40"
-fileref="screenshots/dynamicfields-configuration-datetime.png"></graphic></screenshot>
-        </para>
-        <para>
-            <emphasis>図：動的フィールド 日付 の構成ダイアログ</emphasis>
+            <figure>
+                <title>動的フィールド 日付 の構成ダイアログ</title>
+<screenshot>
+<graphic scale="40"
+fileref="screenshots/administration/dynamicfields/dynamicfields-configuration-datetime.png"></graphic></screenshot></figure>
         </para>
     </section>
 
@@ -584,13 +575,11 @@ fileref="screenshots/dynamicfields-configuration-datetime.png"></graphic></scree
             入力された動的フィールドの概要画面は（前回のサンプルと）同様に見えるはずです。
         </para>
         <para>
-            <screenshot>
-<screeninfo>サンプルデータで埋められた動的フィールドの概要画面</screeninfo> <graphic
-srccredit="dynamicfields（動的フィールド） - スクリーンショット" scale="40"
-fileref="screenshots/dynamicfields-overview-filled.png"></graphic></screenshot>
-        </para>
-        <para>
-            <emphasis>図:サンプルデータで埋められた動的フィールドの概要画面</emphasis>
+            <figure>
+                <title>サンプルデータで埋められた動的フィールドの概要画面</title>
+<screenshot>
+<graphic scale="40"
+fileref="screenshots/administration/dynamicfields/dynamicfields-overview-filled.png"></graphic></screenshot></figure>
         </para>
         <para>
             動的フィールドを変更・編集するために、少なくともひとつのフィールドを定義し、動的フィールドの概要画面から既に追加済フィールドを選択し、その設定を更新しなければいけません。
@@ -661,7 +650,9 @@ fileref="screenshots/dynamicfields-overview-filled.png"></graphic></screenshot>
             </listitem>
             <listitem>
                 <para>
-                    画面底部にある「アップデート」ボタンをクリックする、及びあなたがフィールドを表示したい画面へ導いて構成を保存して下さい。
+                    Save the configuration by clicking on the "Update" button at the bottom of
+the screen and navigate to the screen where you want the field to be
+displayed.
                 </para>
             </listitem>
         </itemizedlist>
@@ -715,13 +706,11 @@ fileref="screenshots/dynamicfields-overview-filled.png"></graphic></screenshot>
                         </itemizedlist>
                     </para>
                     <para>
-                        <screenshot>
-<screeninfo>新規電話チケット画面のField1</screeninfo> <graphic
-srccredit="dynamicfields（動的フィールド） - スクリーンショット" scale="40"
-fileref="screenshots/dynamicfields-agentticketphone-field1.png"></graphic></screenshot>
-                    </para>
-                    <para>
-                        <emphasis>図:新規電話チケット画面中のField1</emphasis>
+                        <figure>
+                            <title>Field1 in New Phone Ticket Screen</title>
+<screenshot>
+<graphic scale="40"
+fileref="screenshots/administration/dynamicfields/dynamicfields-agentticketphone-field1.png"></graphic></screenshot></figure>
                     </para>
                 </example>
             </para>
@@ -769,13 +758,11 @@ fileref="screenshots/dynamicfields-agentticketphone-field1.png"></graphic></scre
                         </itemizedlist>
                     </para>
                     <para>
-                        <screenshot>
-<screeninfo>新規電話チケット画面中の必須フィールド1</screeninfo> <graphic
-srccredit="dynamicfields（動的フィールド） - スクリーンショット" scale="40"
-fileref="screenshots/dynamicfields-agentticketphone-field1-mandatory.png"></graphic></screenshot>
-                    </para>
-                    <para>
-                        <emphasis>図：新規電話チケット画面中の必須フィールド1</emphasis>
+                        <figure>
+                            <title>Field1 in New Phone Ticket Screen as mandatory</title>
+<screenshot>
+<graphic scale="40"
+fileref="screenshots/administration/dynamicfields/dynamicfields-agentticketphone-field1-mandatory.png"></graphic></screenshot></figure>
                     </para>
                 </example>
             </para>
@@ -847,13 +834,11 @@ fileref="screenshots/dynamicfields-agentticketphone-field1-mandatory.png"></grap
                         </itemizedlist>
                     </para>
                     <para>
-                        <screenshot>
-<screeninfo>新規電話チケット画面中の必須の複数フィールド</screeninfo> <graphic
-srccredit="dynamicfields（動的フィールド） - スクリーンショット" scale="40"
-fileref="screenshots/dynamicfields-agentticketphone-allfields.png"></graphic></screenshot>
-                    </para>
-                    <para>
-                        <emphasis>図:新規電話チケット画面中の必須の複数フィールド</emphasis>
+                        <figure>
+                            <title>Several fields in New Phone Ticket Screen as mandatory</title>
+<screenshot>
+<graphic scale="40"
+fileref="screenshots/administration/dynamicfields/dynamicfields-agentticketphone-allfields.png"></graphic></screenshot></figure>
                     </para>
                 </example>
             </para>
@@ -925,13 +910,11 @@ fileref="screenshots/dynamicfields-agentticketphone-allfields.png"></graphic></s
                         </itemizedlist>
                     </para>
                     <para>
-                        <screenshot>
-<screeninfo>新規電話チケット画面中の必須の複数フィールドの非活性化</screeninfo> <graphic
-srccredit="dynamicfields（動的フィールド） - スクリーンショット" scale="40"
-fileref="screenshots/dynamicfields-agentticketphone-somefields.png"></graphic></screenshot>
-                    </para>
-                    <para>
-                        <emphasis>図：新規電話チケット画面中の必須の複数フィールドの非活性化</emphasis>
+                        <figure>
+                            <title>Some deactivated fields in New Phone Ticket Screen as mandatory</title>
+<screenshot>
+<graphic scale="40"
+fileref="screenshots/administration/dynamicfields/dynamicfields-agentticketphone-somefields.png"></graphic></screenshot></figure>
                     </para>
                 </example>
             </para>
@@ -979,13 +962,11 @@ fileref="screenshots/dynamicfields-agentticketphone-somefields.png"></graphic></
                         </itemizedlist>
                     </para>
                     <para>
-                        <screenshot>
-<screeninfo>チケット・ズーム・画面中のField1</screeninfo> <graphic
-srccredit="dynamicfields（動的フィールド） - スクリーンショット" scale="40"
-fileref="screenshots/dynamicfields-agentticketzoom-field1.png"></graphic></screenshot>
-                    </para>
-                    <para>
-                        <emphasis>図:チケット・ズーム・画面中のField1</emphasis>
+                        <figure>
+                            <title>Field1 in Ticket Zoom Screen</title>
+<screenshot>
+<graphic scale="40"
+fileref="screenshots/administration/dynamicfields/dynamicfields-agentticketzoom-field1.png"></graphic></screenshot></figure>
                     </para>
                 </example>
             </para>
@@ -1033,13 +1014,11 @@ fileref="screenshots/dynamicfields-agentticketzoom-field1.png"></graphic></scree
                         </itemizedlist>
                     </para>
                     <para>
-                        <screenshot>
-<screeninfo>チケット概要小画面中のフィールド１</screeninfo> <graphic
-srccredit="dynamicfields（動的フィールド） - スクリーンショット" scale="40"
-fileref="screenshots/dynamicfields-ticketoverviewsmall-field1.png"></graphic></screenshot>
-                    </para>
-                    <para>
-                        <emphasis>図:チケット概要小画面中のフィールド１</emphasis>
+                        <figure>
+                            <title>Field1 in Ticket Overview Small Screen</title>
+<screenshot>
+<graphic scale="40"
+fileref="screenshots/administration/dynamicfields/dynamicfields-ticketoverviewsmall-field1.png"></graphic></screenshot></figure>
                     </para>
                     <para>
                         This setting affects: Escalation View, Locked View, Queue View, Responsible
@@ -1138,9 +1117,12 @@ View, Status View, Service View and Watch View screens.
         </para>
         <note>
             <para>
-                より多くのセッティングが新規XMLに追加され、各設定名がシステムの中でユニークかつ、"PreferencesGroups###DynamicField"と異なっていなければならないならば、覚えておいて下さい。例えば、PreferencesGroups###101-DynamicField-Field1,
+                Remember, if more settings are added in a new XML each setting name needs to
+be unique in the system and different than
+"PreferencesGroups###DynamicField". For example:
+PreferencesGroups###101-DynamicField-Field1,
 PreferencesGroups###102-DynamicField-Field2, PreferencesGroups###My-Field1,
-PreferencesGroups###My-Field2,等。
+PreferencesGroups###My-Field2, etc.
             </para>
         </note>
         <example id="Field1-UserPreference">
@@ -1222,13 +1204,11 @@ PreferencesGroups###My-Field2,等。
                 </itemizedlist>
             </para>
             <para>
-                <screenshot>
-<screeninfo>ユーザー選択画面中のField1</screeninfo> <graphic
-srccredit="dynamicfields（動的フィールド） - スクリーンショット" scale="40"
-fileref="screenshots/dynamicfields-userpreferences.png"></graphic></screenshot>
-            </para>
-            <para>
-                <emphasis>図:ユーザー選択画面中のField1</emphasis>
+                <figure>
+                    <title>Field1 in User preferences screen</title>
+<screenshot>
+<graphic scale="40"
+fileref="screenshots/administration/dynamicfields/dynamicfields-userpreferences.png"></graphic></screenshot></figure>
             </para>
         </example>
     </section>

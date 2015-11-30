@@ -59,13 +59,11 @@ utoe taarifa zinazotakiwa.
             </para>
         </note>
         <para>
-            <screenshot>
-<screeninfo>Mapitio ya Huduma za Tovuti</screeninfo> <graphic srccredit="Adminarea web
-service - screenshot" scale="40"
-fileref="screenshots/genericinterface-webservice-overview.png"></graphic></screenshot>
-        </para>
-        <para>
-            <emphasis>Kielelezo: Mapitio ya huduma za tovuti.</emphasis>
+            <figure>
+                <title>Web services overview</title>
+<screenshot>
+<graphic scale="40"
+fileref="screenshots/administration/genericinterface/genericinterface-webservice-overview.png"></graphic></screenshot></figure>
         </para>
     </section>
 
@@ -131,13 +129,11 @@ huduma ya tovuti kwenye skrini ya mapitio ya huduma za tovuti.
             </para>
         </note>
         <para>
-            <screenshot>
-<screeninfo>Ongeza huduma ya tovuti</screeninfo> <graphic srccredit="Adminarea web
-service add - screenshot" scale="40"
-fileref="screenshots/genericinterface-webservice-add.png"></graphic></screenshot>
-        </para>
-        <para>
-            <emphasis>Kielelezo: Ongeza huduma za tovuti.</emphasis>
+            <figure>
+                <title>Web services add</title>
+<screenshot>
+<graphic scale="40"
+fileref="screenshots/administration/genericinterface/genericinterface-webservice-add.png"></graphic></screenshot></figure>
         </para>
     </section>
 
@@ -205,13 +201,11 @@ kipekee kwenye mfumo.
             <para>Bofya kitufe cha "Nakili" kutengeneza nakala ya huduma ya tovuti au
 "Katisha" kufunga maongezi.</para>
             <para>
-                <screenshot>
-<screeninfo>Nakala ya huduma ya tovuti</screeninfo> <graphic srccredit="Adminarea web
-service clone - screenshot" scale="40"
-fileref="screenshots/genericinterface-webservice-clone.png"></graphic></screenshot>
-            </para>
-            <para>
-                <emphasis>Kielelezo: Nakala ya huduma ya tovuti.</emphasis>
+                <figure>
+                    <title>Nakala ya huduma ya tovuti</title>
+<screenshot>
+<graphic scale="40"
+fileref="screenshots/administration/genericinterface/genericinterface-webservice-clone.png"></graphic></screenshot></figure>
             </para>
         </section>
 
@@ -245,13 +239,11 @@ kivinjari chako kwa maelekezo zaidi kama inahitajika.
                 </para>
             </note>
             <para>
-                <screenshot>
-<screeninfo>Hamisha huduma ya tovuti</screeninfo> <graphic srccredit="Adminarea web
-service export - screenshot" scale="40"
-fileref="screenshots/genericinterface-webservice-export.png"></graphic></screenshot>
-            </para>
-            <para>
-                <emphasis>Kielelezo: Hamisha huduma ya tovuti.</emphasis>
+                <figure>
+                    <title>Web services export</title>
+<screenshot>
+<graphic scale="40"
+fileref="screenshots/administration/genericinterface/genericinterface-webservice-export.png"></graphic></screenshot></figure>
             </para>
         </section>
 
@@ -278,13 +270,11 @@ kubadilisha jina la huduma ya tovuti uliyoagiza.
                 </para>
             </note>
             <para>
-                <screenshot>
-<screeninfo>Agiza huduma ya tovuti</screeninfo> <graphic srccredit="Adminarea web
-service import - screenshot" scale="40"
-fileref="screenshots/genericinterface-webservice-import.png"></graphic></screenshot>
-            </para>
-            <para>
-                <emphasis>Kelelezo: Agiza huduma za tovuti.</emphasis>
+                <figure>
+                    <title>Web services import</title>
+<screenshot>
+<graphic scale="40"
+fileref="screenshots/administration/genericinterface/genericinterface-webservice-import.png"></graphic></screenshot></figure>
             </para>
         </section>
 
@@ -323,18 +313,16 @@ maongezi.
 tovuti zita hamishwa katika umbizo la nakala wazi.
                 </para>
                 <para>
-                    Tafadhali kuwa makini wakati unarudisha usanidi kwani huu mchakato
-haubadiliki.
+                    Please be careful when you restore a configuration because this process is
+irreversible.
                 </para>
             </warning>
             <para>
-                <screenshot>
-<screeninfo>Historia ya Huduma ya Tovuti</screeninfo> <graphic srccredit="Adminarea web
-service history - screenshot" scale="40"
-fileref="screenshots/genericinterface-webservice-history.png"></graphic></screenshot>
-            </para>
-            <para>
-                <emphasis>Kielelezo: Historia ya huduma ya tovuti.</emphasis>
+                <figure>
+                    <title>Web service history</title>
+<screenshot>
+<graphic scale="40"
+fileref="screenshots/administration/genericinterface/genericinterface-webservice-history.png"></graphic></screenshot></figure>
             </para>
         </section>
 
@@ -356,13 +344,11 @@ huduma ya tovuti.
                 </para>
              </warning>
             <para>
-                <screenshot>
-<screeninfo>Futa huduma ya tovuti</screeninfo> <graphic srccredit="Adminarea web
-service delete - screenshot" scale="40"
-fileref="screenshots/genericinterface-webservice-delete.png"></graphic></screenshot>
-            </para>
-            <para>
-                <emphasis>Kielelezo: Futa huduma ya tovuti.</emphasis>
+                <figure>
+                    <title>Futa huduma ya tovuti</title>
+<screenshot>
+<graphic scale="40"
+fileref="screenshots/administration/genericinterface/genericinterface-webservice-delete.png"></graphic></screenshot></figure>
             </para>
         </section>
 
@@ -400,7 +386,7 @@ wa skrini. Unaweza kuchuja na:
                 </listitem>
                 <listitem>
                     <para>
-                        Mjumuisho wa yote.
+                        A combination of all
                     </para>
                 </listitem>
             </itemizedlist>
@@ -427,13 +413,11 @@ mawasiliano yaliyochaguliwa. Hapa unaweza kufuatilia mtiririko mzima na
 kukagua kasoro zozote au kuthibitisha mafanikio ya majibu.
             </para>
             <para>
-                <screenshot>
-<screeninfo>Kieuaji cha Huduma ya Tovuti</screeninfo> <graphic srccredit="Adminarea web
-service debugger - screenshot" scale="40"
-fileref="screenshots/genericinterface-webservice-debugger.png"></graphic></screenshot>
-            </para>
-            <para>
-                <emphasis>Kielelezo: Kieuaji cha huduma ya tovuti.</emphasis>
+                <figure>
+                    <title>Web service debugger</title>
+<screenshot>
+<graphic scale="40"
+fileref="screenshots/administration/genericinterface/genericinterface-webservice-debugger.png"></graphic></screenshot></figure>
             </para>
         </section>
 
@@ -475,13 +459,11 @@ huduma za tovuti, au "Sitisha" kupuuza mabadiliko ya ngazi za usanidi wa
 sasa na kurudi kwenye skrini ya mapitio ya huduma za tovuti.
             </para>
             <para>
-                <screenshot>
-<screeninfo>Badilisha huduma ya tovuti</screeninfo> <graphic srccredit="Adminarea web
-service change - screenshot" scale="40"
-fileref="screenshots/genericinterface-webservice-change.png"></graphic></screenshot>
-            </para>
-            <para>
-                <emphasis>Kielelezo: Badilisha huduma ya tovuti.</emphasis>
+                <figure>
+                    <title>Web services change</title>
+<screenshot>
+<graphic scale="40"
+fileref="screenshots/administration/genericinterface/genericinterface-webservice-change.png"></graphic></screenshot></figure>
             </para>
             <note>
                 <para>
@@ -513,7 +495,7 @@ kwenye skrini iliyopita kwenye mfumo wa viwango wa usanidi.
                     In future the list of available network transports will be
 increased. Currently only "HTTP::SOAP" and "HTTP::REST" transports are
 available. Each transport has different configuration options to setup and
-they might use different frontend modules to configure them,
+they might use different frontend modules to configure them.
                 </para>
                 <para>
                     Ni rahisi kusanidi itifaki "HTTP::SOAP" kama mtoaji. Kuna mipangilio miwili
@@ -523,14 +505,11 @@ na ya pili ni sehemu ambayo unaweza kuweka bayana ukomo wa juu wa ukubwa
 (katina baiti) kwa ujumbe wa SOAP ambao OTRS itachakatisha.
                 </para>
                 <para>
-                    <screenshot>
-<screeninfo>Web Service Provider Network Transport (HTTP::SOAP)</screeninfo> <graphic srccredit="Adminarea web
-service provider network transport HTTP::SOAP - screenshot" scale="40"
-fileref="screenshots/genericinterface-webservice-provider-transport-soap.png"></graphic></screenshot>
-                </para>
-                <para>
-                    <emphasis>Figure: Web service provider network transport
-HTTP::SOAP.</emphasis>
+                    <figure>
+                        <title>Web service provider network transport HTTP::SOAP</title>
+<screenshot>
+<graphic scale="40"
+fileref="screenshots/administration/genericinterface/genericinterface-webservice-provider-transport-soap.png"></graphic></screenshot></figure>
                 </para>
                 <para>
                     For "HTTP::REST" the configuration might be a bit more complicated, as it
@@ -664,14 +643,11 @@ correctly the operation to use on each request.
                     </listitem>
                 </itemizedlist>
                 <para>
-                    <screenshot>
-<screeninfo>Web Service Provider Network Transport (HTTP::REST)</screeninfo> <graphic srccredit="Adminarea web
-service provider network transport HTTP::REST - screenshot" scale="40"
-fileref="screenshots/genericinterface-webservice-provider-transport-rest.png"></graphic></screenshot>
-                </para>
-                <para>
-                    <emphasis>Figure: Web service provider network transport
-HTTP::REST.</emphasis>
+                    <figure>
+                        <title>Web service provider network transport HTTP::REST</title>
+<screenshot>
+<graphic scale="40"
+fileref="screenshots/administration/genericinterface/genericinterface-webservice-provider-transport-rest.png"></graphic></screenshot></figure>
                 </para>
             </section>
 
@@ -710,17 +686,15 @@ huduma ya wavuti. Sehemu hiyo inatoa taarifa.
 "Go back to web service" (discarding all changes since the last save) and
 "Delete".  If you click on the last one, a dialog will open and ask you if
 you like to remove the operation. Click on "Delete" button to confirm the
-removal of the operation and it configuration or "Cancel" to close the
+removal of the operation and its configuration or "Cancel" to close the
 delete dialog.
                 </para>
                 <para>
-                    <screenshot>
-<screeninfo>Operesheni ya Huduma ya Tovuti</screeninfo> <graphic srccredit="Adminarea web
-service operation - screenshot" scale="40"
-fileref="screenshots/genericinterface-webservice-operation.png"></graphic></screenshot>
-                </para>
-                <para>
-                    <emphasis>Kielelezo: Operesheni ya huduma ya tovuti.</emphasis>
+                    <figure>
+                        <title>Web service operation</title>
+<screenshot>
+<graphic scale="40"
+fileref="screenshots/administration/genericinterface/genericinterface-webservice-operation.png"></graphic></screenshot></figure>
                 </para>
             </section>
 
@@ -747,9 +721,9 @@ ujumbe wa SOAP.
                         <para>
                             SOAPAction Header: you can use this to send an empty or filled SOAPAction
 header. Set to "No" and the SOAPAction header on the SOAP message will be an
-empty string, or set to "Yes" to send the soap action in Namespace#Action
+empty string, or set to "Yes" to send the SOAP action in Namespace#Action
 format and define the separator (typically "/" for .Net web services and "#"
-for the rest).
+for the REST).
                         </para>
                     </listitem>
                     <listitem>
@@ -777,17 +751,14 @@ kama ikihitajika.
                     </para>
                 </warning>
                 <para>
-                    <screenshot>
-<screeninfo>Web Service Requester Network Transport (HTTP::SOAP)</screeninfo> <graphic srccredit="Adminarea web
-service requester network transport HTTP::SOAP - screenshot" scale="40"
-fileref="screenshots/genericinterface-webservice-requester-transport-soap.png"></graphic></screenshot>
+                    <figure>
+                        <title>Web service requester network transport (HTTP::SOAP)</title>
+<screenshot>
+<graphic scale="40"
+fileref="screenshots/administration/genericinterface/genericinterface-webservice-requester-transport-soap.png"></graphic></screenshot></figure>
                 </para>
                 <para>
-                    <emphasis>Figure: Web service requester network transport
-(HTTP::SOAP).</emphasis>
-                </para>
-                <para>
-                    In the case of HTTP::Rest, this configuration also grows dynamically
+                    In the case of HTTP::REST, this configuration also grows dynamically
 depending on the configured invokers by adding "Controller mapping for
 Invoker '&lt;InvokerName&gt;':" and "Valid request command for Invoker
 '&lt;InvokerName&gt;':" for each invoke. Authentication and SSL options are
@@ -813,7 +784,7 @@ to the needs of the remote web service and following its definition.
                             Path can contain variables in the form of ':&lt;VariableName&gt;' for each
 variable name that matches the current data (to be sent), will be replaced
 by the corresponding data value. This matched variable names and values will
-be remove from the current data. Depending on the HTTP request command the
+be removed from the current data. Depending on the HTTP request command the
 remaining data could be sent as a JSON string in the request body or as
 query parameters within the URI.
                         </para>
@@ -878,19 +849,16 @@ selected, Default command is used.
                     <listitem>
                         <para>Sharti chaguo-msingi</para>
                         <para>
-                            Used as a fall-back for all Invokers with out a defined request command
+                            Used as a fall-back for all Invokers without a defined request command.
                         </para>
                     </listitem>
                 </itemizedlist>
                 <para>
-                    <screenshot>
-<screeninfo>Web Service Requester Network Transport (HTTP::REST)</screeninfo> <graphic srccredit="Adminarea web
-service requester network transport HTTP::REST - screenshot" scale="40"
-fileref="screenshots/genericinterface-webservice-requester-transport-rest.png"></graphic></screenshot>
-                </para>
-                <para>
-                    <emphasis>Figure: Web service provider network transport
-HTTP::REST.</emphasis>
+                    <figure>
+                        <title>Web service provider network transport HTTP::REST</title>
+<screenshot>
+<graphic scale="40"
+fileref="screenshots/administration/genericinterface/genericinterface-webservice-requester-transport-rest.png"></graphic></screenshot></figure>
                 </para>
             </section>
 
@@ -930,14 +898,14 @@ etc. These can act as triggers to execute the invoker. Each invoker needs to
 have at least one event trigger registered, or the invoker will be useless,
 because it will never be called. The asynchronous property of the event
 triggers define if the OTRS process will handle the invoker or if it will be
-delegated to the OTRS Scheduler.
+delegated to the OTRS Daemon.
                 </para>
                 <note>
                     <para>
-                        The OTRS Scheduler is a separate process that executes tasks in the
+                        The OTRS Daemon is a separate set of process that executes tasks in the
 background. Using this the OTRS process itself will not be affected if the
 Remote System takes a long time to respond, if it is not available or if
-there are network problems. If you don't use the scheduler using web
+there are network problems. If you don't use the OTRS Daemons using web
 services can make OTRS slow or non-responsive. Therefore it is highly
 recommend to use asynchronous event triggers as often as possible.
                     </para>
@@ -966,13 +934,11 @@ kuthibitisha uondoaji wa mchochezi na usanidi wake au "Sitisha" kufunga
 maongezi.
                 </para>
                 <para>
-                    <screenshot>
-<screeninfo>Mchochezi wa Huduma ya Wavuti</screeninfo> <graphic srccredit="Adminarea web
-service invoker - screenshot" scale="40"
-fileref="screenshots/genericinterface-webservice-invoker.png"></graphic></screenshot>
-                </para>
-                <para>
-                    <emphasis>Kielelezo: Mchochezi wa huduma ya wavuti.</emphasis>
+                    <figure>
+                        <title>Web service invoker</title>
+<screenshot>
+<graphic scale="40"
+fileref="screenshots/administration/genericinterface/genericinterface-webservice-invoker.png"></graphic></screenshot></figure>
                 </para>
             </section>
 
@@ -1054,8 +1020,8 @@ mpya kama ufunguo wa zamani utafanania kabisa.
                         </listitem>
                         <listitem>
                             <para>
-                                Usemi wa kawaida: Tungo ya ufunguo itawekwa upya baada ya sheria ya usemi wa
-kawaida.
+                                Regular expression: the key string will be replaced following a regular
+expression rule.
                             </para>
                         </listitem>
                     </itemizedlist>
@@ -1080,13 +1046,11 @@ unaouchagua kabla na seti thamani yake kuwa "-", na hifadhi usanidi kufanya
 mabadiliko.
                 </para>
                 <para>
-                    <screenshot>
-<screeninfo>Kuunganisha Huduma za Wavuti</screeninfo> <graphic srccredit="Adminarea web
-service mapping - screenshot" scale="40"
-fileref="screenshots/genericinterface-webservice-mapping.png"></graphic></screenshot>
-                </para>
-                <para>
-                    <emphasis>Kielelezo: Muunganiko wa huduma za wavuti.</emphasis>
+                    <figure>
+                        <title>Web service mapping</title>
+<screenshot>
+<graphic scale="40"
+fileref="screenshots/administration/genericinterface/genericinterface-webservice-mapping.png"></graphic></screenshot></figure>
                 </para>
             </section>
         </section>

@@ -1,0 +1,126 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE section PUBLIC "-//OASIS//DTD DocBook XML V4.4//EN"
+  "http://www.oasis-open.org/docbook/xml/4.4/docbookx.dtd">
+
+<section id="customers-and-groups">
+<title>Wateja na Makundi ya Wateja</title>
+
+<section id="adminarea-customers">
+<title>Wateja</title>
+
+<para>
+OTRS supports different types of users. Using the link "Customers" (via the
+navigation bar, or the Admin page), you can manage the accounts of your
+customers (see figure below), who can log into the system via the Customers
+interface (customer.pl). Through this interface, your customers can not only
+create tickets but also review their past tickets for new updates. It is
+important to know that a customer is needed for the ticket history in the
+system.
+</para>
+
+<para>
+<figure>
+    <title>Usimamizi wa Mteja</title>
+<screenshot>
+<graphic scale="40"
+fileref="screenshots/administration/adminarea/admin-customer.png"></graphic></screenshot></figure>
+</para>
+
+<para>
+Unaweza kutafuta mteja aliyesajiliwa, au kuhariri miangilio yake kwa kubofya
+jina lake. Pia una uwezo wa kubadilisha mazingira ya nyuma ya mteja, kwa
+maelezo zaidi tafadhali rejea kwenye sura kuhusu <link
+linkend="external-backends">mazingira ya nyuma ya nje</link>.
+</para>
+
+<para>
+To create a new customer account, click on the "Add customer" button (see
+figure below). Some of the fields are mandatory, i.e., they have to contain
+values, so if you leave one of those empty, it will be highlighted in red.
+</para>
+
+<para>
+<figure>
+    <title>Adding a customer</title>
+<screenshot>
+<graphic scale="40"
+fileref="screenshots/administration/adminarea/add-customer.png"></graphic></screenshot></figure>
+</para>
+
+<para>
+Wateja wanaweza kufikia mfumo kwa kutoa jina la mtumiaji na
+nywila. Kitambulisho cha Mteja kinahitajika na mfumo kutambua mtumiaji na
+tiketi zinazohusika. Kwa kuwa anwani ya barua pepe ni ya kipekee, inaweza
+kutumika kama kitambulisho.
+</para>
+
+<note>
+<para>
+Kama ilivyo kwa mawakala, makundi na majukumu, wateja hawawezi kufutwa
+kwenye mfumo, wanaweza kulemazwa kwa kuseti chaguo Halali kuwa
+<emphasis>batili</emphasis> au <emphasis>batili-kwa muda</emphasis>.
+</para>
+</note>
+
+</section>
+
+<section id="adminarea-customers-groups">
+<title>Makundi ya Wateja</title>
+
+<para>
+Wateja watumiaji wanaweza pia kuongezwa kwenye kundi, ambayo itakuwa na
+manufaa kama ukitaka kuongeza wateja wa kampuni moja wenye ufikivu kwa
+foleni moja ua zaidi. Kwanza tengeneza kundi ambalo wateja wako watakuwa
+wanachama, kupitia <link linkend="adminarea-groups">Moduli ya kusimamia
+kundi</link>. Kisha ongeza <link linkend="adminarea-queue">foleni</link> na
+chagua kundi jipya la foleni.
+</para>
+
+<para>
+Hatua inayofwata ni kuamilisha msaada wa kundi la mteja. Hii inaweza
+kufanywa na parameta ya usanidi <link
+linkend="ConfigReference_Framework:Frontend::Customer:CustomerGroupSupport">MsaadaKundiLaMteja</link>,
+kutoka kwenye chaguo la Msimamizi la SysConfig. Kutumia parameta <link
+linkend="ConfigReference_Framework:Frontend::Customer:CustomerGroupAlwaysGroups">MtejaKundiDaimaMakundi</link>,
+unaweza kubainisha makundi chaguo-msingi kwa mteja mpya aliyeongezwa, ili
+kila akaunti mpya iongezwe kiotomatiki kwenye haya makundi.
+</para>
+
+<para>
+Through the link "Customers &lt;-&gt; Groups" you can manage which customer
+shall belong to the different groups (see figure below).
+</para>
+
+<para>
+<figure>
+    <title>Customer-Group relations management</title>
+<screenshot>
+<graphic scale="40"
+fileref="screenshots/administration/adminarea/admin-customer-groups.png"></graphic></screenshot></figure>
+</para>
+
+<para>
+To define the different groups a customer should be part of and vice versa,
+click on the corresponding customer username or group (see below the Figures
+4.18 and 4.19, respectively).
+</para>
+
+<para>
+<figure>
+    <title>Badilisha mahusiano ya Makundi kwa Mteja</title>
+<screenshot>
+<graphic scale="40"
+fileref="screenshots/administration/adminarea/groups-customers-relations.png"></graphic></screenshot></figure>
+</para>
+
+<para>
+<figure>
+    <title>Badilisha mahusiano ya Mteja kwa Kundi</title>
+<screenshot>
+<graphic scale="40"
+fileref="screenshots/administration/adminarea/groups-customers-relations2.png"></graphic></screenshot></figure>
+</para>
+
+</section>
+
+</section>

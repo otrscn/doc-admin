@@ -1,0 +1,115 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE section PUBLIC "-//OASIS//DTD DocBook XML V4.4//EN"
+  "http://www.oasis-open.org/docbook/xml/4.4/docbookx.dtd">
+
+<section id="adminarea-states">
+<title>状態</title>
+
+<para>
+Through the "States" link on the Admin page, you can manage the different
+ticket states you want to use in the system (see figure below).
+</para>
+
+<para>
+<figure>
+    <title>State management</title>
+<screenshot>
+<graphic scale="40"
+fileref="screenshots/administration/adminarea/admin-states.png"></graphic></screenshot></figure>
+</para>
+
+<para>
+デフォルトの開始後、定義される「状態」がいくつかあります。
+</para>
+
+<itemizedlist>
+  <listitem>
+    <para>
+        完了（成功）
+    </para>
+  </listitem>
+  <listitem>
+    <para>
+        完了（不成功）
+    </para>
+  </listitem>
+  <listitem>
+    <para>
+        結合済
+    </para>
+  </listitem>
+  <listitem>
+    <para>
+        「新規」（new）
+    </para>
+  </listitem>
+  <listitem>
+    <para>
+        対応中（open）
+    </para>
+  </listitem>
+  <listitem>
+    <para>
+        保留（自動完了＋）
+    </para>
+  </listitem>
+  <listitem>
+    <para>
+        保留（自動完了-）
+    </para>
+  </listitem>
+  <listitem>
+    <para>
+        保留（期限付）
+    </para>
+  </listitem>
+  <listitem>
+    <para>
+        削除済
+    </para>
+  </listitem>
+</itemizedlist>
+
+<para>
+全ての状態はタイプにリンクされます。それは新規状態が作成されならば指定されねばなりません。デフォルトの状態タイプは次の通りです。
+</para>
+
+<itemizedlist>
+  <listitem>
+    <para>
+        完了済
+    </para>
+  </listitem>
+  <listitem>
+    <para>
+        結合済
+    </para>
+  </listitem>
+  <listitem>
+    <para>
+        「新規」（new）
+    </para>
+  </listitem>
+  <listitem>
+    <para>
+        対応中（open）
+    </para>
+  </listitem>
+  <listitem>
+    <para>
+        保留（自動）
+    </para>
+  </listitem>
+  <listitem>
+    <para>
+        保留（期限付）
+    </para>
+  </listitem>
+  <listitem>
+    <para>
+        削除済
+    </para>
+  </listitem>
+</itemizedlist>
+
+</section>

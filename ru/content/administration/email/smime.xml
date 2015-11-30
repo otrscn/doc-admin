@@ -3,7 +3,7 @@
   "http://www.oasis-open.org/docbook/xml/4.4/docbookx.dtd">
 
 <section id="smime">
-<title>Безопасность электронной почты с S/MIME</title>
+<title>Secure Email with S/MIME</title>
 
 <para>
 На первый взгляд, S/MIME-шифрование кажется более сложным чем PGP. Прежде

@@ -3,7 +3,7 @@
   "http://www.oasis-open.org/docbook/xml/4.4/docbookx.dtd">
 
 <section id="themes">
-<title>Erstellung eigener Themes</title>
+<title>Creating Your Own Themes</title>
 
 <para>
 Für OTRS können verschiedene Themes angelegt werden, also verschiedene
@@ -12,11 +12,11 @@ Templates ändern und Ihren Wünschen entsprechend anpassen.
 </para>
 
 <para>
-Mehr Informationen über die Syntax und den Aufbau von Templates finden Sie
-im Entwickler-Handbuch auf <ulink
-url="http://otrs.github.io/doc"><citetitle>http://otrs.github.io/doc</citetitle></ulink>
-innerhalb des Kapitels zu den <ulink
-url="http://otrs.github.io/doc/manual/developer/3.3/en/html/TemplatingMechanism.html"><citetitle>Templates</citetitle></ulink>.
+More information on the syntax and structure of output templates can be
+found in the Developer Manual at <ulink
+url="http://otrs.github.io/doc"><citetitle>http://otrs.github.io/doc</citetitle></ulink>,
+especially in the chapter on <ulink
+url="http://otrs.github.io/doc/manual/developer/3.3/en/html/TemplatingMechanism.html"><citetitle>templates</citetitle></ulink>.
 </para>
 
 <para>
@@ -57,9 +57,8 @@ Frontend::Themes </link> zur SysConfig hinzu.
 </para>
 
 <para>
-Ab nun sollten sie das neue Theme nutzen und über Ihre <link
-linkend="user-preferences">persönlichen Einstellungen</link> aktivieren
-können.
+Now the new theme should be usable. You can select it via your <link
+linkend="user-preferences">personal preferences</link> page.
 </para>
 
 <warning>

@@ -36,17 +36,17 @@ role="bold">OTRS Business Solution™</emphasis> Managed</ulink>.
         <section id="introduction-and-preparation">
             <title>Введение и подготовка</title>
             <para>
-                Если у вас есть OTRS, установленная на Windows и вы желаете перенести ее на
-linux, вам потребуется установить Linux server или виртуальную машину и
-установить там OTRS (смотри <link linkend="installation">инструкции по
-установке</link>). Это будет система для миграции.
+                If you have a Windows based installation and you would like to change to a
+Linux based system you will need to setup a Linux server or virtual machine
+and install OTRS there (see <link linkend="installation">the installation
+instructions</link>). This will be the target system for the migration.
             </para>
         </section>
         <section id="get-otrsclonedb-script-to-clone-databases">
             <title>Загрузите скрипт OTRSCloneDB для клонирования базы данных</title>
             <para>
-                Перейдите в меню администратора системы на Windows и установите новейшую
-версию OTRSCloneDB в OTRS:
+                Please go to the admin menu of the Windows based system and install the
+newest version of OTRSCloneDB package into your OTRS:
             </para>
             <para>
                 Вы можете установить пакет OTRSCloneDB непосредственно с помощью менеджера
@@ -66,37 +66,40 @@ url="http://ftp.otrs.org/pub/otrs/packages/">
             </para>
             <para>
                 <screen>
-OTRSCloneDB-1.0.10.opm
+OTRSCloneDB-1.0.13.opm
                 </screen>
             </para>
             <para>
-                <screenshot>
-<screeninfo>Загрузка OTRSCloneDB - скриншот</screeninfo> <graphic srccredit="Download
-OTRSCloneDB - screenshot" scale="80"
-fileref="screenshots/win-download-otrsclonedb.png"></graphic></screenshot>
+                <figure>
+                    <title>Загрузка OTRSCloneDB - скриншот</title>
+<screenshot>
+<graphic scale="80"
+fileref="screenshots/introduction/installation/win-download-otrsclonedb.png"></graphic></screenshot></figure>
             </para>
             <para>
-                и установите его в вашу систему на Windows:
+                and install it to your Windows based installation:
             </para>
             <para>
-                <screenshot>
-<screeninfo>Установка OTRSCloneDB - скриншот</screeninfo> <graphic srccredit="Install
-OTRSCloneDB - screenshot" scale="80"
-fileref="screenshots/win-install-otrsclonedb.png"></graphic></screenshot>
+                <figure>
+                    <title>Установка OTRSCloneDB - скриншот</title>
+<screenshot>
+<graphic scale="80"
+fileref="screenshots/introduction/installation/win-install-otrsclonedb.png"></graphic></screenshot></figure>
             </para>
             <para>
-                Если у вас были установлены какие-то расширения OTRS/feature addons или
-собственные разработки, проблем быть не должно. Надо только убедиться, что
-все из ваших установленных пакетов также имеют совместимость с системами на
-unix. С пакетами, предоставляемыми OTRS дело обстоит именно так.
+                It is also no problem if you have installed some additional features or
+custom developments on your OTRS.  You just need to take care that all of
+your installed packages are also compatible with Unix based systems. For
+packages provided by OTRS this is the case.
             </para>
         </section>
         <section id="enable-remote-access-for-the-linux-system">
-            <title>Включите удаленный доступ к базам postgresql вашей целевой системе</title>
+            <title>Enable remote access for the PostgreSQL database of target system</title>
             <para>
-                Скрипт OTSRCloneDB скопирует базу данных по сети, для этого должен быть
-включен удаленный доступ к базам данных. Установка различается для различных
-СУБД, мы здесь опишем включение удаленного доступа к postgresql.
+                The OTSRCloneDB script will copy the database data over the network, so we
+need to enable remote access to the database. The setup is different for the
+different databases, we will describe opening remote access for a PostgreSQL
+database here.
             </para>
             <para>
                 После входа в вашу целевую систему с использованием SSH, необходимо изменить
@@ -136,7 +139,7 @@ host all all  0.0.0.0/0 md5
                 Сохраните файл.
             </para>
             <para>
-                Перезапустите сервер postgresql
+                Restart your PostgreSQL server:
             </para>
             <para>
                 <screen>
@@ -156,7 +159,7 @@ shell> service apache2 stop
 shell> su - otrs
 shell> cd /opt/otrs/
 shell> bin/Cron.sh stop
-shell> bin/otrs.Scheduler.pl -a stop
+shell> bin/otrs.Daemon.pl -a stop
 shell> exit
                 </screen>
             </para>
@@ -190,7 +193,7 @@ shell> exit
             </para>
         </section>
         <section id="get-password-of-otrs-database">
-            <title>Получить пароль postgresql вашей БД</title>
+            <title>Get the PostgreSQL password of your database</title>
             <para>
                 Перейдите в каталог OTRS вашей целевой системы:
             </para>
@@ -211,10 +214,11 @@ shell> less Kernel/Config.pm
                 Вы найдете пароль для вашей БД если немного пролистаете файл вниз:
             </para>
             <para>
-                <screenshot>
-<screeninfo>Получение пароля БД вашей целевой системы - скриншот</screeninfo> <graphic srccredit="Получение пароля
-БД вашей целевой системы - скриншот" scale="80"
-fileref="screenshots/win-gather-db-data-1.png"></graphic></screenshot>
+                <figure>
+                    <title>Получение пароля БД вашей целевой системы - скриншот</title>
+<screenshot>
+<graphic scale="80"
+fileref="screenshots/introduction/installation/win-gather-db-data-1.png"></graphic></screenshot></figure>
             </para>
             <para>
                 В нашем примере:
@@ -222,21 +226,23 @@ fileref="screenshots/win-gather-db-data-1.png"></graphic></screenshot>
             <para>
                 <screen>
 I88cm34A1B6xrl3
-                </screen> Запишите пароль, где-нибудь.
+                </screen> Write the password down on a piece of
+paper.
             </para>
         </section>
         <section id="clone-database-into-target-system">
             <title>Скопируйте вашу БД на вашу целевую систему</title>
             <para>
-                Переключитесь обратно на систему под Windows и откройте меню
-администрирования SysConfig.
-Выберите группу "OTRSCloneDB" и подгруппу "Configuration":
+                Switch back to your Windows based installation and open the SysConfig admin
+menu.  Please select the group "OTRSCloneDB" and the subgroup
+"Configuration":
             </para>
             <para>
-                <screenshot>
-<screeninfo>Настройте OTRSCloneDB SysConfig 1 - скриншот</screeninfo> <graphic srccredit="Configurate
-OTRSCloneDB SysConfig 1 - screenshot" scale="80"
-fileref="screenshots/win_configurate_otrsclonedb_sysconfig-1.png"></graphic></screenshot>
+                <figure>
+                    <title>Настройте OTRSCloneDB SysConfig 1 - скриншот</title>
+<screenshot>
+<graphic scale="80"
+fileref="screenshots/introduction/installation/win_configurate_otrsclonedb_sysconfig-1.png"></graphic></screenshot></figure>
             </para>
             <para>
                 Нужно настроить параметр SysConfig - OTRSCloneDB::TargetSettings, со
@@ -252,14 +258,16 @@ TargetDatabaseType => postgresql
                 </screen>
             </para>
             <para>
-                <screenshot>
-<screeninfo>Настройте OTRSCloneDB SysConfig 2 - скриншот</screeninfo> <graphic srccredit="Configurate
-OTRSCloneDB SysConfig 2 - screenshot" scale="80"
-fileref="screenshots/win-configurate-otrsclonedb-sysconfig-2.png"></graphic></screenshot>
+                <figure>
+                    <title>Настройте OTRSCloneDB SysConfig 2 - скриншот</title>
+<screenshot>
+<graphic scale="80"
+fileref="screenshots/introduction/installation/win-configurate-otrsclonedb-sysconfig-2.png"></graphic></screenshot></figure>
             </para>
             <para>
-                Для запуска скрипта OTRSCloneDB необходимо переключиться в режим командной
-строки в вашей Windows otrs системе в корневой каталог:
+                To run the OTRSCloneDB script we need to switch to the command prompt of our
+Windows based OTRS and to change into the base directory of our OTRS
+installation:
             </para>
             <para>
                 <screen>
@@ -267,8 +275,8 @@ shell> cd "C:\otrs"
                 </screen>
             </para>
             <para>
-                Если вы используете StrawberryPerl, то, возможно, потребуется активировать
-оболочку perl:
+                If you are using StrawberryPerl, then you maybe need to activate your shell
+for Perl:
             </para>
             <para>
                 <screen>
@@ -276,13 +284,15 @@ shell> StrawberryPerl\portableshell.bat
                 </screen>
             </para>
             <para>
-                <screenshot>
-<screeninfo>Запуск OTRSCloneDB script 1 - скриншот</screeninfo> <graphic srccredit="Run OTRSCloneDB
-script 1 - screenshot" scale="80"
-fileref="screenshots/win-run-otrsclonedb-1.png"></graphic></screenshot>
+                <figure>
+                    <title>Запуск OTRSCloneDB script 1 - скриншот</title>
+<screenshot>
+<graphic scale="80"
+fileref="screenshots/introduction/installation/win-run-otrsclonedb-1.png"></graphic></screenshot></figure>
             </para>
             <para>
-                Скрипт OTRSCloneDB  расположен в каталоге bin каталога otrs.
+                The OTRSCloneDB script is located in the bin directory of the OTRS
+directory.
             </para>
             <para>
                 <screen>
@@ -301,10 +311,11 @@ shell> perl otrs.OTRSCloneDB.pl
                 Теперь вы можете увидеть некоторую информацию о скрипте и его параметрах.
             </para>
             <para>
-                <screenshot>
-<screeninfo>Запуск OTRSCloneDB script 2 - скриншот</screeninfo> <graphic srccredit="Run OTRSCloneDB
-script 2 - screenshot" scale="80"
-fileref="screenshots/win-run-otrsclonedb-2.png"></graphic></screenshot>
+                <figure>
+                    <title>Запуск OTRSCloneDB script 2 - скриншот</title>
+<screenshot>
+<graphic scale="80"
+fileref="screenshots/introduction/installation/win-run-otrsclonedb-2.png"></graphic></screenshot></figure>
             </para>
             <para>
                 Внимание... Ошибки которые появляются при запуске без параметров говорят о
@@ -319,10 +330,11 @@ shell> perl otrs.OTRSCloneDB.pl -n
                 </screen>
             </para>
             <para>
-                <screenshot>
-<screeninfo>Запуск OTRSCloneDB script 3 - скриншот</screeninfo> <graphic srccredit="Run OTRSCloneDB
-script 3 - screenshot" scale="80"
-fileref="screenshots/win-run-otrsclonedb-3.png"></graphic></screenshot>
+                <figure>
+                    <title>Запуск OTRSCloneDB script 3 - скриншот</title>
+<screenshot>
+<graphic scale="80"
+fileref="screenshots/introduction/installation/win-run-otrsclonedb-3.png"></graphic></screenshot></figure>
             </para>
             <para>
                 Начните копирование вашей БД и "молитесь":
@@ -349,18 +361,19 @@ done.
             </para>
         </section>
         <section id="copy-otrs-base-files-to-target-system">
-            <title>Скопируйте следующие файлы из вашей windows системы в целевую систему</title>
+            <title>Copy the following files from your Windows based system to the target system</title>
             <para>
-                Необходимо скопировать некоторые файлы из старой системы. Это можно сделать,
-например, с помощью "WinSCP" (можно найти в интернете по фразе
-"WinSCP"). Скопируйте из нее следующие файлы:
+                You need to copy some files from your Windows based system to the target
+system. You can do this for example with a free tool like "WinSCP" (just
+search the internet for "WinSCP").  Copy the following files from your
+Windows based system:
             </para>
             <para>
                 <screen>
-C:/otrs/OTRS/Kernel/Config/GenericAgent.pm
-C:/otrs/OTRS/Kernel/Config/Files/ZZZAuto.pm
-C:/otrs/OTRS/var/article/*
-C:/otrs/OTRS/var/log/TicketCounter.log
+C:\otrs\OTRS\Kernel\Config\GenericAgent.pm
+C:\otrs\OTRS\Kernel\Config\Files\ZZZAuto.pm
+C:\otrs\OTRS\var\article\*
+C:\otrs\OTRS\var\log\TicketCounter.log
                 </screen>
             </para>
             <para>
@@ -372,14 +385,16 @@ C:/otrs/OTRS/var/log/TicketCounter.log
 /opt/otrs/Kernel/Config/Files/ZZZAuto.pm
 /opt/otrs/var/article/*
 /opt/otrs/var/log/TicketCounter.log
-                </screen> Откройте файл
-/opt/otrs/Kernel/Config/Files/ZZZAuto.pm в целевой системе и замените все
-пути типа "C:/otrs/OTRS/" на "/opt/otrs/"!
+                </screen> Open the file
+<filename>/opt/otrs/Kernel/Config/Files/ZZZAuto.pm</filename> on the target
+system and replace all paths like "C:/otrs/OTRS/" with "/opt/otrs/"!
             </para>
             <para>
-                Если вы вручную правили  Kernel/Config.pm - скопируйте сделанные изменения в
-целевую систему. Не копируйте их 1:1, т.к. в новой системе другие настройки
-БД и пути к файлам!
+                If you have have manually changes in your
+<filename>Kernel/Config.pm</filename> then please copy these changes to the
+target system's <filename>Kernel/Config.pm</filename>. Don't copy it 1:1
+because you will now have different database settings and the file paths on
+the target system are different from Windows!
             </para>
         </section>
         <section>
@@ -393,9 +408,9 @@ C:/otrs/OTRS/var/log/TicketCounter.log
 shell> bin/otrs.SetPermissions.pl --otrs-user=otrs --otrs-group=otrs --web-user=www-data --web-group=www-data /opt/otrs
 shell> su - otrs
 shell> cd /opt/otrs
-shell> perl bin/otrs.DeleteCache.pl
-shell> perl bin/otrs.LoaderCache.pl -o delete
-shell> perl bin/otrs.PackageManager.pl -a reinstall-all
+shell> perl bin/otrs.Console.pl Maint::Cache::Delete
+shell> perl bin/otrs.Console.pl Maint::Loader::CacheCleanup
+shell> perl bin/otrs.Console.pl Admin::Package::ReinstallAll
 shell> exit
                 </screen>
             </para>
@@ -409,10 +424,10 @@ shell> bin/otrs.SetPermissions.pl --otrs-user=otrs --otrs-group=otrs --web-user=
             </para>
         </section>
         <section id="disable-remote-access-for-target-database">
-            <title>Выключите удаленный доступ к базам postgresql вашей целевой системе</title>
+            <title>Disable remote access for the PostgreSQL database of your target system</title>
             <para>
-                Выполните обратно все шаги, сделанные при включении удаленного доступа к
-базам postgresql в вашей целевой системе.
+                Undo all steps you did to enable the remote access for the PostgreSQL
+database to your target system.
             </para>
             <para>
                 Смените каталог на postgresql:
@@ -471,12 +486,12 @@ shell> service apache2 start
 shell> su - otrs
 shell> cd /opt/otrs/
 shell> bin/Cron.sh start
-shell> bin/otrs.Scheduler.pl -a start
+shell> bin/otrs.Daemon.pl -a start
                 </screen>
             </para>
             <para>
-                Теперь вы сможете войти в  OTRS в браузере целевой системы и работать с
-импортированными данными из старой системы на Windows.
+                Now you should be able to open the OTRS of your target system in the browser
+with the imported data of your Windows based system.
             </para>
         </section>
     </section>

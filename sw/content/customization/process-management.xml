@@ -414,14 +414,11 @@ mfumo.
                 </para>
             </note>
             <para>
-                <screenshot>
-<screeninfo>Skrini ya msimamizi wa OTRS - Usimamizi wa mfumo</screeninfo> <graphic
-srccredit="process-management - screenshot" scale='40'
-fileref="screenshots/pm-admin-sysadmin.png"></graphic></screenshot>
-            </para>
-            <para>
-                <emphasis>Kielelezo: Skrini ya Msimamizi wa OTRS - Usimamizi wa Mfumo
-.</emphasis>
+                <figure>
+                    <title>OTRS Admin screen - System Administration</title>
+<screenshot>
+<graphic scale='40'
+fileref="screenshots/customization/pm-admin-sysadmin.png"></graphic></screenshot></figure>
             </para>
 
             <para>
@@ -429,13 +426,11 @@ fileref="screenshots/pm-admin-sysadmin.png"></graphic></screenshot>
 vitendo.
             </para>
             <para>
-                <screenshot>
-<screeninfo>Kitufe cha kutengeneza mchakato mpya</screeninfo> <graphic
-srccredit="process-management - screenshot" scale='40'
-fileref="screenshots/pm-newprocess-button.png"></graphic></screenshot>
-            </para>
-            <para>
-                <emphasis>Kielelezo: Tengeneza Kitufe Kipya cha Mchakato.</emphasis>
+                <figure>
+                    <title>Kitufe cha kutengeneza mchakato mpya</title>
+<screenshot>
+<graphic scale='40'
+fileref="screenshots/customization/pm-newprocess-button.png"></graphic></screenshot></figure>
             </para>
             <para>
                 Jaza taarifa za mchakato, seti Jina la Mchakato na Undani wake, tutaacha
@@ -443,51 +438,43 @@ Hali ya mchakato kuwa iliyo "Lemazwa", mpaka tumalize kazi zote. Hifadhi
 mchakato.
             </para>
             <para>
-                <screenshot>
-<screeninfo>Ongeza mchakato mpya</screeninfo> <graphic
-srccredit="process-management - screenshot" scale='40'
-fileref="screenshots/pm-newprocess-info.png"></graphic></screenshot>
-            </para>
-            <para>
-                <emphasis>Kielelezo: Ongeza mchakato mpya.</emphasis>
+                <figure>
+                    <title>Ongeza mchakato mpya</title>
+<screenshot>
+<graphic scale='40'
+fileref="screenshots/customization/pm-newprocess-info.png"></graphic></screenshot></figure>
             </para>
         </section>
         <section>
             <title>Maongezi ya Shughuli</title>
                 <para>
-                    Bofya katika jina jipya la mchakato kwenye Skrini ya Mapitio ya Usimamizi wa
-Mchakato, kisha katika "Elemnti za Mchakato Zinazopatikana" bofya katika
-"Maongezi ya Shughuli" (hiki kitendo kitapanua machaguo ya maongezi ya
-shughuli na kukunja nyingine zote na athari za kodiani), kisha bofya
-"Tengeneza Maongezi Mapya ya Shughuli".
+                    Click on the new process name in the Process Management Overview Screen,
+then in the "Available Process Elements" click in "Activity Dialogs" (this
+action will expand the activity dialog options and will collapse all others
+doing an accordion like effect), then click on "Create New Activity Dialog".
                 </para>
                 <para>
-                    <screenshot>
-<screeninfo>Tengeneza Kitufe cha Maongezi ya Shughuli  kipya </screeninfo> <graphic
-srccredit="process-management - scale='40'screenshot" scale='40'
-fileref="screenshots/pm-accordion-new-activitydialog.png"></graphic></screenshot>
+                    <figure>
+                        <title>Tengeneza Kitufe cha Maongezi ya Shughuli  kipya </title>
+<screenshot>
+<graphic scale='40'
+fileref="screenshots/customization/pm-accordion-new-activitydialog.png"></graphic></screenshot></figure>
                 </para>
                 <para>
-                    <emphasis>Kielelezo: Tengeneza Kitufe cha Maongezi ya Shughuli
-kipya.</emphasis>
+                    In the opened popup screen fill the "Activity dialog Name" as well as the
+"Description (short)" fields, for this example we will leave all other
+fields as the default, to assign fields to the Activity Dialog simple drag
+the required field from the "Available Fields" pool and drop into the
+"Assigned Fields" pool.  The order in the "Assigned Fields" pool is the
+order as the fields will have in the screen, to modify the order simply drag
+and drop the field within the pool to rearrange it in the correct place.
                 </para>
                 <para>
-                    Katika skrini ibukizi iliyofunguliwa jaza "Jina la maongezi ya Shughuli" na
-pia "sehemu za Maelezo (mafupi)", kwa huu mfano tutaacha sehemu nyingine
-zote kama zilivyo kawaida,ili kugawia sehemu kwa Maongezi ya Shuguli kokota
-sehemu inayotakiwa kutoka kwenye bwawa la "Sehemu Zilizopo" na dondosha
-katika bwawa la "Sehemu Zilizogawiwa". Oda katika bwawa la "Sehemu
-Zilizogawiwa" ndiyo oda sehemu zitakuwa nazo katika skrini, kubadilisha oda
-kokota na kudondosha hiyo sehemu kwenye bwawa kupanga katika sehemu sawia.
-                </para>
-                <para>
-                    <screenshot>
-<screeninfo>Ongeza Maongezi ya Shughuli mapya</screeninfo> <graphic
-srccredit="process-management - screenshot" scale='40'
-fileref="screenshots/pm-edit-activitydialog.png"></graphic></screenshot>
-                </para>
-                <para>
-                    <emphasis>Kielelezo: Ongeza Maongezi ya Shughuli mapya.</emphasis>
+                    <figure>
+                        <title>Ongeza Maongezi ya Shughuli mapya</title>
+<screenshot>
+<graphic scale='40'
+fileref="screenshots/customization/pm-edit-activitydialog.png"></graphic></screenshot></figure>
                 </para>
                 <para>
                     Baada tu ya sehemu kudondoshwa katika bwawa la "Sehemu Zilizogawiwa" skrini
@@ -496,13 +483,11 @@ machaguo ya kawaida na kwa sehemu za Makala tu ndiyo tuhakikishe kwamba
 sehemu ya Aina ya Makala imesetiwa kuwa "notisi-ndani".
                 </para>
                 <para>
-                    <screenshot>
-<screeninfo>Hariri undani wa uga (Makala)</screeninfo> <graphic
-srccredit="process-management - screenshot" scale='40'
-fileref="screenshots/pm-edit-field-article.png"></graphic></screenshot>
-                </para>
-                <para>
-                    <emphasis>Kielelezo: Hariri undani wa uga (Makala).</emphasis>
+                    <figure>
+                        <title>Hariri undani wa uga (Makala)</title>
+<screenshot>
+<graphic scale='40'
+fileref="screenshots/customization/pm-edit-field-article.png"></graphic></screenshot></figure>
                 </para>
                 <para>
                     Baada ya sehemu zote kupewa thamani bofya kitufe cha kuwasilisha katika
@@ -515,10 +500,9 @@ Inayobadilika, sehemu zilizobaki ambazo zimetajwa katika mistari chini ni
 Sehemu Zinazobadilika ambazo tumefafanua kabla.
                 </para>
                 <para>
-                    Tafadhali tambua kwamba katika skrini hii Sehemu Zinazobadilika zote zina
-kiambishi awali "SehemuInayobadilika_" kama kwenye
-"SehemuInayobadilika_Kichwa", Usichanganye na sehemu "Kichwa" ambacho ni
-Kichwa cha Tiketi.
+                    Please be aware that in this screen all the Dynamic Fields has the prefix
+"DynamicField_" as in "DynamicField_Title". Do not confuse with the field
+"Title" that is the Ticket Title.
                 </para>
                 <para>
                     Tengeneza Maongezi ya Shughuli yafwatayo:
@@ -664,13 +648,11 @@ kwenye Kernel/Config/Files.
 bofya "Tengeneza Mpito Mpya"
                 </para>
                 <para>
-                    <screenshot>
-<screeninfo>Tengeneza kitufe kipya cha mpito</screeninfo> <graphic
-srccredit="process-management - screenshot" scale='40'
-fileref="screenshots/pm-accordion-new-transition.png"></graphic></screenshot>
-                </para>
-                <para>
-                    <emphasis>Kielelezo: Tengeneza kitufe kipya cha mpito.</emphasis>
+                    <figure>
+                        <title>Tengeneza kitufe kipya cha mpito</title>
+<screenshot>
+<graphic scale='40'
+fileref="screenshots/customization/pm-accordion-new-transition.png"></graphic></screenshot></figure>
                 </para>
                 <para>
                     Katika skrini ibukizi iliyofunguliwa jaza "Jina la Mpito", kisha kwenye
@@ -679,13 +661,11 @@ tunaweza kuacha Aina ya muunganiko kama "na" na tutatumia thamani ya aina ya
 kufanana kama "Tungo".
                 </para>
                 <para>
-                    <screenshot>
-<screeninfo>Ongeza mpito mpya</screeninfo> <graphic
-srccredit="process-management - screenshot" scale='40'
-fileref="screenshots/pm-edit-transition.png"></graphic></screenshot>
-                </para>
-                <para>
-                    <emphasis>Kielelezo: Ongeza mpito mpya.</emphasis>
+                    <figure>
+                        <title>Ongeza mpito mpya</title>
+<screenshot>
+<graphic scale='40'
+fileref="screenshots/customization/pm-edit-transition.png"></graphic></screenshot></figure>
                 </para>
                 <para>
                     Baada ya masharti yote kusetiwa bofya kwenye kitufe cha kuhifadhi kuhifadhi
@@ -743,24 +723,21 @@ vimepokelewa".
 kisha bofya "Tengeneza Kitendo Kipya cha Mpito".
                 </para>
                 <para>
-                    <screenshot>
-<screeninfo>Tengeneza kitufe kipya cha vitendo vya mpito</screeninfo> <graphic
-srccredit="process-management - screenshot" scale='40'
-fileref="screenshots/pm-accordion-new-transitionaction.png"></graphic></screenshot>
+                    <figure>
+                        <title>Tengeneza kitufe kipya cha vitendo vya mpito</title>
+<screenshot>
+<graphic scale='40'
+fileref="screenshots/customization/pm-accordion-new-transitionaction.png"></graphic></screenshot></figure>
                 </para>
                 <para>
-                    <emphasis>Kielelezo: Tengeneza kitufe kipya cha vitendo vya
-mpito.</emphasis>
+                    In the opened popup screen fill the "Transition Action Name", and the
+"Transition Action module" then add the required and optional parameter
+names and values.
                 </para>
                 <para>
-                    Katika skrini ibukizi iliyofunguliwa jaza "Jina la Mpito", na "Moduli ya
-Vitendo vya Mpito" kisha ongeza majina na thamani za parameta za hiari na
-zinazohitajika
-                </para>
-                <para>
-                    Moduli zote za mpito zinapatikana kwenye
-Kiini/Mfumo/UsimamiziwaMchakato/VitendovyaMpito na ifuatayo ni orodha ya
-kifungu cha Vitendo vya Mpito vilivyojumuishwa kwenye hili toleo
+                    All the Transition Action Modules are located in
+Kernel/System/ProcessManagement/TransitionAction and the following is the
+list of bundled Transition Actions included in this release:
                 </para>
                 <para>
                     <itemizedlist>
@@ -797,13 +774,11 @@ further versions.
                     </para>
                 </note>
                 <para>
-                    <screenshot>
-<screeninfo>Ongeza vitendo vya mpito mpya</screeninfo> <graphic
-srccredit="process-management - screenshot" scale='40'
-fileref="screenshots/pm-edit-transitionaction.png"></graphic></screenshot>
-                </para>
-                <para>
-                    <emphasis>Kielelezo: Ongeza vitendo vya mpito mpya.</emphasis>
+                    <figure>
+                        <title>Ongeza vitendo vya mpito mpya</title>
+<screenshot>
+<graphic scale='40'
+fileref="screenshots/customization/pm-edit-transitionaction.png"></graphic></screenshot></figure>
                 </para>
                 <para>
                     Baada ya parameta na thamani zote kusetiwa bofya kitufe kuwasilisha ili
@@ -827,7 +802,7 @@ kuhifadhi mabadiliko.
                         </para>
                     </listitem>
                     <listitem>
-                        <para>"Peleka tiketi ya mchakato kwenye Foleni ya 'Wateja'" (TA3)</para>
+                        <para>"Move process ticket into the 'Employees' queue" (TA3)</para>
                         <para>Itatekelezwa wakati:</para>
                         <itemizedlist>
                             <listitem><para>
@@ -904,25 +879,23 @@ Shughuli.
 "Tengeneza Shughuli Mpya".
             </para>
             <para>
-                <screenshot>
-<screeninfo>Tengeneza kitufe kipya cha shughuli</screeninfo> <graphic
-srccredit="process-management - screenshot" scale='40'
-fileref="screenshots/pm-accordion-new-activity.png"></graphic></screenshot>
+                <figure>
+                    <title>Tengeneza kitufe kipya cha shughuli</title>
+<screenshot>
+<graphic scale='40'
+fileref="screenshots/customization/pm-accordion-new-activity.png"></graphic></screenshot></figure>
             </para>
             <para>
-                <emphasis>Kielelezo: Tengeneza Kitufe kipya cha Shughuli .</emphasis>
+                In the opened popup screen fill the "Activity Name", then drag the required
+Activity Dialogs from the "Available Activity Dialogs" pool, and drop them
+into to the "Assigned Activity Dialogs" pool. This dialogs will be presented
+(in the ticket zoom screen) in the same order as it is defined on this
+screen translating from top to bottom, from left to right.
             </para>
             <para>
-                Katika skrini ibukizi iliyofunguliwa jaza "Jina la Shughuli", kisha kokota
-Maongezi ya Shughuli yanayotakiwa kutoka "Maongezi ya Shughuli
-Yanayopatikana" na ziweke kwenye "Maongezi ya Shughuli Yaliyogawiwa". Haya
-maongezi yataonyeshwa (katika skrini iliyokutwa ya tiketi) katika oda ile
-ile kama ilivyofafanuliwa kwenye skrini hii ikitafsiri kutoka juu kwenda
-chini, kwenda kushoto kwenda kulia.
-            </para>
-            <para>
-                Hii oda ni muhimu hasa kwa Shughuli ya kwanza, kwa kuwa Maongezi ya kwanza
-ya Shughuli kwa shughuli hii ndio ya pekee yanawasilishwa mchakato ukianza.
+                This order is specially important in the first Activity, since the first
+Activity Dialog for this activity is the only one that is presented when the
+process starts.
             </para>
             <para>
                 Tengeneza Shughuli zifuatazo
@@ -993,46 +966,41 @@ imewekwa kiotomatiki. (Hii ni Shughuli ya kwanza na Maongezi yake ya kwanza
 ya Shughuli ni skrini ya kwanza ambayo itaonyeshwa wakati mchakato unaanza).
             </para>
             <para>
-                <screenshot>
-<screeninfo>Kokota shughuli ya kwanza kwenye turubai</screeninfo> <graphic
-srccredit="process-management - screenshot" scale='40'
-fileref="screenshots/pm-canvas-drag-activity.png"></graphic></screenshot>
+                <figure>
+                    <title>Kokota shughuli ya kwanza kwenye turubai</title>
+<screenshot>
+<graphic scale='40'
+fileref="screenshots/customization/pm-canvas-drag-activity.png"></graphic></screenshot></figure>
             </para>
             <para>
-                <emphasis>Kielelezo: Kokota shughuli ya kwanza kwenye turubai.</emphasis>
+                Next, drag another Activity into the canvas too. Now we will have two
+Activities in the canvas the first one is connected to the start point and
+the second has no connections, you can hover the mouse over each activity to
+reveal their own Activity Dialogs.
             </para>
             <para>
-                Kokota shughuli nyingine kwenye turubai. sasa tuna shughuli mbili kwenye
-turubai ya kwanza imeunganishwa na pointi ya kuanza na ya pili haina
-muunganiko, unaweza kupitisha kipanya juu ya kila shughuli ku dhihirisha
-Maongezi Shughuli yao.
+                <figure>
+                    <title>Kokota shughuli ya pili kwenye turubai</title>
+<screenshot>
+<graphic scale='40'
+fileref="screenshots/customization/pm-canvas-drag-activity2.png"></graphic></screenshot></figure>
             </para>
             <para>
-                <screenshot>
-<screeninfo>Kokota shughuli ya pili kwenye turubai</screeninfo> <graphic
-srccredit="process-management - screenshot" scale='40'
-fileref="screenshots/pm-canvas-drag-activity2.png"></graphic></screenshot>
+                Then let's create the "Path" (connection) between this two Activities, for
+this we will use the Transitions. Click on Transitions in the accordion drag
+a Transition and drop it inside the first Activity. Notice that the Activity
+changes its color indicating that the Transition is attached. As soon as the
+Transition is dropped the end point of the Transition arrow will be placed
+next to the process start point. Drag the Transition arrow end point and
+drop it inside the other Activity to create the connection between the
+Activities.
             </para>
             <para>
-                <emphasis>Kielelezo: Kokota shughuli ya pilikwenye turubai.</emphasis>
-            </para>
-            <para>
-                Kisha tutengeneze "Njia" (uhusiano) kati ya shughuli hizi mbili, kwa hili
-tutatumia Mapito, Bofya kwenye Mapito kwenye kodiani kokota Mpito na
-udondoshe ndani ya Shughuli ya kwanza, tambua kwamba Shughuli inabadilisha
-rangi kuonyesha Mpito umeambatanishwa, baada tu ya mpito kudondoshwa mwisho
-wa mshale wa Mpito utawekwa karibu na pointi ya kuanza mchakato. Kokota
-mwisho wa mshale wa Mpito na udondoshe ndani ya shughuli nyingine
-kutengeneza uhusiano kati ya Shughuli hizo.
-            </para>
-            <para>
-                <screenshot>
-<screeninfo>Kokota Mapito kwenda kwenye turubai</screeninfo> <graphic
-srccredit="process-management - screenshot" scale='40'
-fileref="screenshots/pm-canvas-drag-transition.png"></graphic></screenshot>
-            </para>
-            <para>
-                <emphasis>Kielelezo: Kokota Mapito kwenda kwenye turubai.</emphasis>
+                <figure>
+                    <title>Kokota Mapito kwenda kwenye turubai</title>
+<screenshot>
+<graphic scale='40'
+fileref="screenshots/customization/pm-canvas-drag-transition.png"></graphic></screenshot></figure>
             </para>
             <para>
                 Sasa "Njia" kati ya vitendo imefafanuliwa, kisha tunahitaji kuweka Vitendo
@@ -1040,13 +1008,11 @@ vya Mpito chini ya Mpito, bofya marambili lebo ya mpito (ndani ya turubai),
 hii itafungua dirisha ibukizi jipya.
             </para>
             <para>
-                <screenshot>
-<screeninfo>Unganisha shughuli kwa kutumia Mapito</screeninfo> <graphic
-srccredit="process-management - screenshot" scale='40'
-fileref="screenshots/pm-canvas-drag-transition2.png"></graphic></screenshot>
-            </para>
-            <para>
-                <emphasis>Kielelezo: Unganisha shughuli kwa kutumia Mapito.</emphasis>
+                <figure>
+                    <title>Unganisha shughuli kwa kutumia Mapito</title>
+<screenshot>
+<graphic scale='40'
+fileref="screenshots/customization/pm-canvas-drag-transition2.png"></graphic></screenshot></figure>
             </para>
             <para>
                 Kokota Vitendo vya Mpito vinavyotakiwa kutoka bwawa la Vitendo vya Mpito
@@ -1054,49 +1020,47 @@ Vinavyopatikana na dondosha katika bwawa la Vitendo vya Mpito Vilivyogawiwa
 kisha bofya kitufe cha kuwasilisha.
             </para>
             <para>
-                <screenshot>
-<screeninfo>Vitendo vya mpito vilivyogawiwa</screeninfo> <graphic
-srccredit="process-management - screenshot" scale='40'
-fileref="screenshots/pm-edit-path.png"></graphic></screenshot>
-            </para>
-            <para>
-                <emphasis>kielelezo: Vitendo vya mpito vilivyogawiwa.</emphasis>
+                <figure>
+                    <title>Vitendo vya mpito vilivyogawiwa</title>
+<screenshot>
+<graphic scale='40'
+fileref="screenshots/customization/pm-edit-path.png"></graphic></screenshot></figure>
             </para>
             <para>
                 Kisha tukirudi kwenye skrini ya kuhariri mchakato wa msingi bofya kwenye
 kitufe cha kuhifadhi chini ya turubai kuhifadhi mabadiliko mengine yote.
             </para>
             <para>
-                Kamilisha "Njia" kwa kuongeza Shughuli zifuatazo, Mapito na Vitendo vya
-Mpito:
+                Complete the "path" adding the following Activities, Transitions and
+Transition Actions:
             </para>
             <para>Mahitaji yanarekodiwa mpaka "Kibali"</para>
             <para>
                 <itemizedlist>
                     <listitem>
-                        <para>Pointi ya kuanza: Shughuli: Mahitaji yanarekodiwa (A1)</para>
+                        <para>Starting point: Activity: "Recording the demand" (A1)</para>
                     </listitem>
                     <listitem>
-                        <para>Mpito uwezekanao: Kibali (T1)</para>
+                        <para>Possible Transition: "Approval" (T1)</para>
                         <itemizedlist>
                             <listitem>
                                 <para>
-                                    Kama masharti ya hii shughuli yamekamilishwa, tiketi itapelekwa kwa
-Shughuli: Kibali (A2)
+                                    If the condition of this activity is fulfilled, the ticket will move to
+Activity: "Approval" (A2)
                                 </para>
                             </listitem>
                             <listitem>
                                 <para>
-                                    Kwa nyongeza, VitendoVyaMpito vifwatavyo vina tekelezeka
+                                    Kwa nyongeza, Vitendo Vya Mpito vifwatavyo vina tekelezeka:
                                 </para>
                                 <itemizedlist>
                                     <listitem>
                                         <para>
-                                            "Kuhamisha tiketi kwenda kwenye foleni ya 'Usimamizi'" (TA1)
+                                            "Peleka tiketi ya mchakato kwa Foleni ya 'Usimamizi' (TA1)
                                         </para>
                                     </listitem>
                                     <listitem>
-                                        <para>"Seti tiketi iwe jukumu la 'Meneja'" (TA2)</para>
+                                        <para>"Badilisha tiketi inayowajibika kwa 'manager'" (TA2)</para>
                                     </listitem>
                                 </itemizedlist>
                             </listitem>
@@ -1105,13 +1069,13 @@ Shughuli: Kibali (A2)
                 </itemizedlist>
             </para>
             <para>
-                Shughuli: "Kurekodi mahitaji" (A1) ni hatua iliyofafanuliwa ya mchakato wa
-tiketi, ambapo kuna uwezekano wa mpito: "Kibali" (T1). Kama hii itakubali
-tiketi itapelekwa kwenye shughuli inayofuata: "Kibali" (A2), na Vitendo vya
-Mpito: "Kupeleka tiketi kwenye foleni ya 'Usimamizi'" (TA1) na "Seti tiketi
-iwe jukumu la'Meneja'" (TA2) zinatekelezeka. Kwenye Shughuli: "Approval"
-(A2), Maongezi ya Shughuli: "Kibali kimekataliwa" (AD2) na "Kubaliwa" (AD3)
-zinapatikana.
+                The Activity: "Recording the demand" (A1) is a defined step of the process
+ticket, where there is the possibility for the Transition: "Approval"
+(T1). If this applies, the ticket will move to the next Activity: "Approval"
+(A2), and the Transition Actions: "Move the process ticket into the
+'Management' queue" (TA1) and "Change ticket responsible to 'manager'" (TA2)
+are executed. In the Activity: "Approval" (A2), the Activity Dialogs:
+"Approval denied" (AD2) and "Approved" (AD3) are available.
             </para>
             <para>Kibali</para>
             <para>
@@ -1127,8 +1091,8 @@ zinapatikana.
                                     <itemizedlist>
                                         <listitem>
                                         <para>
-                                            Kama hii inalingana, tiketi ya mchakato itapelekwa kwa Shughuli: "Mchakato
-umekamilika" (A5).
+                                            If this matches, the process ticket will move to Activity: "Process
+complete" (A5).
                                         </para>
                                         </listitem>
                                         <listitem>
@@ -1138,12 +1102,12 @@ umekamilika" (A5).
                                         <itemizedlist>
                                         <listitem>
                                             <para>
-                                                "Peleka tiketi ya mchakato kwenye Foleni ya 'Wateja'" (TA3)
+                                                "Move process ticket into the 'Employees' queue" (TA3)
                                             </para>
                                         </listitem>
                                         <listitem>
                                             <para>
-                                                "Seti tiketi yenye jukumu kwa 'Mteja'" (TA4)
+                                                "Badilisha tiketi inayowajibika kwa 'Mwajiriwa'" (TA4)
                                              </para>
                                         </listitem>
                                         <listitem>
@@ -1200,8 +1164,8 @@ lengo moja la shughuli (na ikiwezekana Kitendo kimoja au zaidi cha mpito)
                                     <itemizedlist>
                                         <listitem>
                                         <para>
-                                            Kama hii inalingana, tiketi ya mchakato itapelekwa kwa Shughuli: "Mchakato
-umekamilika" (A5).
+                                            If this matches, the process ticket will move to Activity: "Process
+complete" (A5).
                                         </para>
                                         </listitem>
                                         <listitem>
@@ -1211,7 +1175,7 @@ umekamilika" (A5).
                                         <itemizedlist>
                                         <listitem>
                                             <para>
-                                                "Peleka tiketi ya mchakato kwenye Foleni ya 'Wateja'" (TA3)
+                                                "Move process ticket into the 'Employees' queue" (TA3)
                                             </para>
                                         </listitem>
                                         <listitem>
@@ -1233,8 +1197,7 @@ umekamilika" (A5).
                                     <itemizedlist>
                                         <listitem>
                                         <para>
-                                            Kama hii inalingana, tiketi ya mchakato itapelekwa kwa Shughuli:
-"zinazoingia" (A5).
+                                            If this matches, the process ticket will move to Activity: "Incoming" (A4).
                                         </para>
                                         </listitem>
                                         <listitem>
@@ -1244,7 +1207,7 @@ umekamilika" (A5).
                                             <itemizedlist>
                                             <listitem>
                                                 <para>
-                                                    "Peleka tiketi za mchakato kwa Foleni ya 'Ofisi ya posta'" (TA6)
+                                                    "Peleka tiketi za mchakato kwenye Foleni ya 'Ofisi ya posta'" (TA6)
                                                 </para>
                                             </listitem>
                                             </itemizedlist>
@@ -1269,8 +1232,8 @@ umekamilika" (A5).
                                     <itemizedlist>
                                         <listitem>
                                         <para>
-                                            Kama hii inalingana, tiketi ya mchakato itapelekwa kwa Shughuli: "Mchakato
-umekamilika" (A5).
+                                            If this matches, the process ticket will move to Activity: "Process
+complete" (A5).
                                         </para>
                                         </listitem>
                                         <listitem>
@@ -1280,7 +1243,7 @@ umekamilika" (A5).
                                         <itemizedlist>
                                         <listitem>
                                             <para>
-                                                "Peleka tiketi ya mchakato kwenye Foleni ya 'Wateja'" (TA3)
+                                                "Move process ticket into the 'Employees' queue" (TA3)
                                             </para>
                                         </listitem>
                                         <listitem>
@@ -1305,21 +1268,19 @@ umekamilika" (A5).
                 Njia kamili ya mchakato wa kuoda vitabu itaonekana kama hivi:
             </para>
             <para>
-                <screenshot>
-<screeninfo>Njia kamili ya mchakato wa kuoda vitabu</screeninfo> <graphic
-srccredit="process-management - screenshot" scale='40'
-fileref="screenshots/pm-edit-process.png"></graphic></screenshot>
+                <figure>
+                    <title>Njia kamili ya mchakato wa kuoda vitabu</title>
+<screenshot>
+<graphic scale='40'
+fileref="screenshots/customization/pm-edit-process.png"></graphic></screenshot></figure>
             </para>
             <para>
-                <emphasis>Kielelezo: Njia kamili ya mchakato wa kuoda vitabu.</emphasis>
-            </para>
-            <para>
-                Baada ya kumaliza njia ya mchakato tafadhali bonyeza kitufe cha "hifadhi"
-upande wa chini wa turubai kisha bonyeza kitufe "Landanisha Michakato
-yote". Hii itakusanya taarifa zote za michakato kutoka kwenye hifadhidata na
-kutengeneza faili la hifadhi muda (kwa lugha ya Perl). Hii hifadhi muda ni
-sanidi za michakato ambazo mfumo utatumia kutengeneza au kutumia tiketi za
-michakato.
+                After you finish the process path please click on "Save" button in the lower
+part of the canvas and then click on "Synchronize All Processes"
+button. This will gather all processes information form the Database and
+create a cache file (in Perl language). This cache file is actually the
+processes configuration that the system will use to create or use process
+tickets.
             </para>
             <para>
                 Mabadiliko yeyote yaliyofanyika kwenye michakato (katika kiolesura michoro
@@ -1336,8 +1297,8 @@ kadh. ambazo zinahitajika na kila mchakato kabla ya kuagiza.
 kusetiwa kwa mikono.
             </para>
             <para>
-                Lifwatalo ni faili kamili la YAML kwa ajili ya mfano wa mchakato wa kuoda
-kitabu:
+                The following is the complete YAML file for the book ordering process
+example:
             </para>
             <para>
                 <screen><![CDATA[
@@ -1879,14 +1840,15 @@ baadaye.
             <section>
                 <title>Sanidi ya mchakato</title>
                 <para>
-                    Usanidi wa mchakato unaweza kufanyika kkwenye faili
-<filename>Kernel/Config.pm</filename> lakini inashauriwa kutengeneza mafaili
-mapya kama <filename>Kernel/Config/Files/MyProcess.pm</filename>. Ona kwamba
-GUI inatengeneza faili
-<filename>Kernel/Config/File/ZZZProcessManagement</filename> tafadhali
-usitumie jina hilo la faili, la sivyo litaandikwa juu yake ukifanya
-ulandanishi wa michakato. Tuone mfano wa mchakato wa usanidi (kutoka kwenye
-faili la hifadhi muda ya mchakato):
+                    The Process configuration can be done in the file
+<filename>Kernel/Config.pm</filename> but it is strongly recommended to
+create new files like
+<filename>Kernel/Config/Files/MyProcess.pm</filename>. Notice that the GUI
+generates the file
+<filename>Kernel/Config/File/ZZZProcessManagement</filename> please avoid to
+use that filename, otherwise it will be overwritten when you sync
+processes.  Let's see an example process configuration (from process cache
+file):
                 </para>
                 <para>
                     <screen>
@@ -2038,13 +2000,13 @@ zinazowezekana kwenda kwenye Shughuli nyingine. Kwenye Mapito 'T1' kwenda
 ili ihamie kwenye Shughuli nyingine.
                 </para>
                 <para>
-                    Kama katika kesi hii thamani zote za tiketi ya mchakato na sehemu zake
-zinazobadilika ambazo zinahitajika kwa Mpito 'T2' ziko sawa, tiketi
-itahamishwa kutoka Shughuli 'A1' kwenda 'A3'. Baada ya MaongeziYaShughuli
-kuwasilishwa, au mabadiliko yoyote mengine yamefanywa kwenye tiketi,
-itakaguliwa kwa Mapito yawezekanayo kutoka kwenye Shughuli ya sasa. Kama
-Mapito zaidi ya moja yanawezekana, ya kwanza yatatumika (kutegemea na
-upangaji wa nambari za Vitambulisho vya Mpito).
+                    If in this case all the values of the process ticket and its dynamic fields
+that are needed for the Transition 'T2' are correct, the ticket will be
+moved from Activity 'A1' to 'A3'. After an ActivityDialog is submitted, or
+any other change is made to a ticket, it will be checked for possible
+Transitions from the current Activity. If multiple Transitions are possible,
+the first one will be used (based on numerical sorting of the
+TransitionIDs).
                 </para>
                 <para>
                     Kwa nyongeza, inawezekana kugawia Vitendo vya Mpito kwa Mapito katika
@@ -2148,7 +2110,7 @@ mbali mbali.
             <section>
                 <title>Sanidi ya MaongeziShughuli</title>
                 <para>
-                    Tuone mfano wa usanidi
+                    Let's see an example config:
                 </para>
                 <para>
                     <screen>
@@ -2173,7 +2135,7 @@ $Self->{'Process::ActivityDialog'} = {
         SubmitButtonText => 'Send request',
     },
     'AD2' => {
-        Name => 'ActivityDialog 2 optional',
+        Name             => 'ActivityDialog 2 optional',
         DescriptionShort => 'Basic info',
         DescriptionLong  => 'Please insert the necessesary basic information for Book orders',
         CreateTime       => '28-02-2012 13:37:00',
@@ -2200,10 +2162,10 @@ $Self->{'Process::ActivityDialog'} = {
                 DefaultValue     => 'Default Title',
             },
             DynamicField_Anzahl => {
-                DescriptionShort    => 'Amount',
-                DescriptionLong     => 'Enter the amount here',
-                Display             => 2,
-                DefaultValue        => '4',
+                DescriptionShort => 'Amount',
+                DescriptionLong  => 'Enter the amount here',
+                Display          => 2,
+                DefaultValue     => '4',
             },
         },
         FieldOrder       => [ 'DynamicField_Anzahl', 'StateID', 'Queue', 'Title' ],
@@ -2223,7 +2185,7 @@ $Self->{'Process::ActivityDialog'} = {
             <section>
                 <title>Tengeneza muda</title>
                 <para>
-                    Muda iliyotengenezwa.
+                    Muda ambao ilitengenezwa.
                 </para>
             </section>
             <section>
@@ -2235,7 +2197,7 @@ $Self->{'Process::ActivityDialog'} = {
             <section>
                 <title>Badilisha muda</title>
                 <para>
-                    Muda wa mwisho ilipobadilishwa
+                    Muda wa mwisho ilipo badilishwa
                 </para>
             </section>
             <section>
@@ -2724,27 +2686,26 @@ $Self->{'Process::TransitionAction'} = {
             <section>
                 <title>Usanidi</title>
                 <para>
-                    Parameta hii ina mipangilio yote inayohitajika na moduli. Maudhui yake
-yanategemea moduli maalumu ya Kitendo cha Mpito inayotumika. Tafadhali pitia
-nyaraka za moduli moja moja kwa undani zaidi. Katika mfano wetu, Foleni tu
-lazima iwekwe bayana, Hata hivyo tunatuma pia parameta ya Kitambulisho cha
-mtumiaji, kwa kutumia parameta ya kitambulisho cha mtumiaji, kitendo cha
-mpito kitatekelezwa na kumfanya mtumiaji kuwa mwenye kitambulisho cha
-mtumiji hicho.
+                    This parameter contains all settings which are required for the module. Its
+content depends on the particular Transition Action module which is
+used. Please see the documentation of the individual modules for details. In
+our example, only the Queue must be specified. Nevertheless we are also
+sending UserID parameter, by using the UserID parameter. The transition
+action will be executed impersonating the user with the given UserID.
                 </para>
                 <para>
-                    Matumizi ya Kitambulisho cha Mtumiaji ndani ya parameta  "Config" ya Kitendo
-cha Mpito inakubalika na Vitendo vyote vya Mpito (tangu OTRS 3.2.4), katika
-huu mfano inaweza kuwa muhimu zaidi kama mtumiaji anayesababisha Mpito hana
-ruhusa za kuhamisha tiketi kwenda kwenye foleni 'Taka', wakati mtumiaji
-mwenye Kitambulisho cha mtumiaji 123 anaweza kuwa nayo.
+                    The use of UserID inside the "Config" parameter of a Transition Action is
+accepted by all Transition Actions (since OTRS 3.2.4). In this example it
+could be particularly important if the user that triggers the Transition
+does not have permissions to move the ticket to the queue 'Junk', while the
+user with the UserID 123 might have.
                 </para>
             </section>
             <section>
                 <title>Kutumia Moduli za Vitendo vya Mpito kwa kurudia </title>
                 <para>
-                    Ili kutumia moduli za Kitendo cha Mpito zaidi ya mara moja, weka bayana
-VitendoVyaMpito mbali mbali kwenye usanidi wako. Mfano: <screen>
+                    To use Transition Action modules multiple times, just specify several
+Transition Actions in your configuration. Example: <screen>
     $Self->{'Process::TransitionAction'} = {
         'TA1' => {
             Name   => 'Queue Move Junk',
@@ -2787,7 +2748,7 @@ tiketi. mfano:
                         <screen><![CDATA[
 $Self->{'Process::TransitionAction'} = {
     'TA1' => {
-        Name   => 'Set DynamicField Master to Master and Approved to 1',
+        Name   => 'Set DynamicField MasterSlave to Master and Approved to 1',
         Module => 'Kernel::System::ProcessManagement::TransitionAction::DynamicFieldSet',
         Config => {
             MasterSlave => 'Master',
@@ -2862,8 +2823,8 @@ ziwezekanazo: simu, faksi, ujumbe mfupi wa maneno, notisi-ndani, notisi-nje,
 na notisi-ripoti.
                     </para>
                     <para>
-                        Aina Ya Mtumaji inafafanua aina ya mtumaji wa makala. Thamani ziwezekanazo:
-wakala, mfumo, mteja.
+                        'SenderType' defines the sender type of the article. Possible values: agent,
+system, customer.
                     </para>
                     <para>
                         'AinaMaudhui' inafafanua aina ya maudhui ya makala. Thamani ziwezekanazo:
@@ -2877,20 +2838,20 @@ halali na aina ya mime.
                         'Kiini' inafafanua maudhui ya makala. Lazima.
                     </para>
                     <para>
-                        AinaYaHistoria inafafanua aina ya ingizo la hitoria. Thamani ziwezekanazo:
-OngezaNotisi, NyarakaAlamaSasisha, Dunda, SasishaMteja, WakalaWaBaruapepe,
-MtejaWaBaruapepe, MudaWaKupandaMajibuTaarifuKabla, MudaWaKupandaMajibuAnza,
-MudaWaKupandaMajibuSitisha, MudaWaKupandaUsuluhishiTaarifuKabla,
-MudaWaKupandaUsuluhishiAnza, MudaWaKupandaUsuluhishiSitisha,
-MudaWaKupandaSasishaTaarifaKabla, MudaWaKupandaSasishaAnza,
-MudaWaKupandaSasishaSitisha, Ufwatiliaji, PelekaMbele, Funga, KitanziUlinzi,
-Unganishwa, Misc, Hamisha, TiketiMpya, MmilikiSasisha, PigaSimuWakala,
-PigaSimuMteja, KipaumbeleSasisha,  Ondoa, JukumuSasisha, TumaTaarifaWakala,
-TumaJibu, TumaUfwatiliajiOtomatiki, TumaKataaKiotomatiki,
-TumaJibuKiotomatiki, TumaTaarifaMteja, SasishaHuduma, SetiMudaKusubiri,
-SasishaSLA, SasishaHali, Jiunge, MaombiYaMfumo,
-SasishaSehemuInayobadilikaTiketi, TiketiOngezaKiungo, TiketiFutaKiungo,
-MahesabuYaMuda, SasishaAina, Fungua, Jiondoe, MaombiYaTocutiMteja.
+                        'HistoryType' defines the type of the history entry. Possible values:
+AddNote, ArchiveFlagUpdate, Bounce, CustomerUpdate, EmailAgent,
+EmailCustomer, EscalationResponseTimeNotifyBefore,
+EscalationResponseTimeStart, EscalationResponseTimeStop,
+EscalationSolutionTimeNotifyBefore, EscalationSolutionTimeStart,
+EscalationSolutionTimeStop, EscalationUpdateTimeNotifyBefore,
+EscalationUpdateTimeStart, EscalationUpdateTimeStop, FollowUp, Forward,
+Lock, LoopProtection, Merged, Misc, Move, NewTicket, OwnerUpdate,
+PhoneCallAgent, PhoneCallCustomer, PriorityUpdate, Remove,
+ResponsibleUpdate, SendAgentNotification, SendAnswer, SendAutoFollowUp,
+SendAutoReject, SendAutoReply, SendCustomerNotification, ServiceUpdate,
+SetPendingTime, SLAUpdate, StateUpdate, Subscribe, SystemRequest,
+TicketDynamicFieldUpdate, TicketLinkAdd, TicketLinkDelete, TimeAccounting,
+TypeUpdate, Unlock, Unsubscribe, WebRequestCustomer.
                     </para>
                     <para>
                         'HistoriaMaoni' inafafanua maudhui ya ingizo la historia.
@@ -2989,7 +2950,9 @@ $Self->{'Process::TransitionAction'} = {
             DynamicField_NameX => $Value,
             LinkAs => $LinkType,                                        # Normal, Parent, Child, etc. (respective original ticket)
             UserID => 123,                                              # optional, to override the UserID from the logged user
-        }
+        },
+    },
+};
                         ]]></screen>
                     </para>
                     <para>
@@ -3007,7 +2970,7 @@ new ticket.
                         'Lock' or 'LockID' sets the lock status of the ticket.
                     </para>
                     <para>
-                        'Priority' or 'PriorityID' specifies the name or od if the priority to be
+                        'Priority' or 'PriorityID' specifies the name or id if the priority to be
 used in the new ticket.
                     </para>
                     <para>
@@ -3036,7 +2999,7 @@ the new ticket.
 in the new ticket.
                     </para>
                     <para>
-                        'SLA' or 'SLaID' specifies the name or id of the SLA to be used in the new
+                        'SLA' or 'SLAID' specifies the name or id of the SLA to be used in the new
 ticket.
                     </para>
                     <para>
@@ -3045,12 +3008,12 @@ responsible.
                     </para>
                     <para>
                         'PendingTime', a predefined date to set the Ticket Pending Times, when the
-ticket state belongs to a pending state type
+ticket state belongs to a pending state type.
                     </para>
                     <para>
                         'PendingTimeDiff', a dynamically date ( expressed in seconds from current
 date/time ) to set the Ticket Pending Times, when the ticket state belongs
-to a pending state type
+to a pending state type.
                     </para>
                     <para>
                         'Aina ya Makala' inafafanua aina ya makala itakayotengenezwa. Thamani
@@ -3122,7 +3085,7 @@ seconds, minutes, hours, etc.
                     <para>
                         'DynamicField_NameX' where DynamicField_ is a required prefix and NameX is
 the name of a Dynamic Field to be set in the new ticket (on ticket level,
-not article levels)
+not article levels).
                     </para>
                     <para>
                         'LinkAs' to define the new ticket relation with originator ticket, from the
@@ -3156,10 +3119,10 @@ $Self->{'Process::TransitionAction'} = {
                         'Jina' inaweka bayana jina la KitendoChaMpito kilicho sanidiwa.
                     </para>
                     <para>
-                        Hakuna au Kitambulisho cha Mteja inaseti kitambulisho cha Mteja.
+                        'No' or 'CustomerID' set the Customer ID of the customer.
                     </para>
                     <para>
-                        Mtumiaji au KitambulishoChaMtumiajiMteja anaseti jina la mtumiaji la mteja.
+                        'User' or 'CustomerUserID' set the Username of the customer.
                     </para>
                 </section>
 
@@ -3337,7 +3300,7 @@ $Self->{'Process::TransitionAction'} = {
         Name   => 'Set MySLA SLA',
         Module => 'Kernel::System::ProcessManagement::TransitionAction::TicketSLASet',
         Config => {
-            SLA   => 'MyService',
+            SLA   => 'MySLA',
             # or
             SLAID => 123,
         },
@@ -3608,10 +3571,9 @@ orodha tangu mwanzo. Mwishoni, 'AD2' na 'AD7' zitabaki kama Maongezi ya
 Shughuli yanayowezekana ambayo mtumiaji anaweza kutumia.
                 </para>
                 <para>
-                    Pia inawezekana kuweka ukomo wa michakato ambayo inaweza kuonyeshwa katika
-skrini ya "Tiketi mpya ya mchakato", hii sifa ni sawa na kuweka ukomo wa
-MaongeziYaShughuli kwa ubaguzi mmoja: ACL zinaweza kujikita kwa watumiaji
-tu.
+                    It is also possible to limit the processes that can be displayed in the "New
+process ticket" screen. The functionality is similar to limiting the
+Activity Dialogs with one exception: The ACLs could only be based on Users.
                 </para>
                 <para>Ona mifano chini:</para>
                 <para>

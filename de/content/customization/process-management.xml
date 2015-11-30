@@ -421,26 +421,22 @@ verfügbar.
                 </para>
             </note>
             <para>
-                <screenshot>
-<screeninfo>Der OTRS-Admin-Bildschirm</screeninfo> <graphic
-srccredit="process-management - screenshot" scale='40'
-fileref="screenshots/pm-admin-sysadmin.png"></graphic></screenshot>
-            </para>
-            <para>
-                <emphasis>Abbildung.: OTRS Administrationsbereich.</emphasis>
+                <figure>
+                    <title>OTRS Admin screen - System Administration</title>
+<screenshot>
+<graphic scale='40'
+fileref="screenshots/customization/pm-admin-sysadmin.png"></graphic></screenshot></figure>
             </para>
 
             <para>
                 Klicken Sie auf "Neuen Prozess erstellen" im Adminmenü
             </para>
             <para>
-                <screenshot>
-<screeninfo>Schaltfläche: Neuen Prozess erstellen</screeninfo> <graphic
-srccredit="process-management - screenshot" scale='40'
-fileref="screenshots/pm-newprocess-button.png"></graphic></screenshot>
-            </para>
-            <para>
-                <emphasis>Abbildung.: Neuen Prozess hinzufügen.</emphasis>
+                <figure>
+                    <title>Schaltfläche: Neuen Prozess erstellen</title>
+<screenshot>
+<graphic scale='40'
+fileref="screenshots/customization/pm-newprocess-button.png"></graphic></screenshot></figure>
             </para>
             <para>
                 Füllen Sie die Prozessinformationen aus, definieren Sie einen Prozessname
@@ -448,32 +444,27 @@ und die Beschreibung für diesen Prozess, wir belassen den Prozessstatus auf
 "inaktiv", bis wir alle Aufgaben erledigt haben. Speichern Sie den Vorgang.
             </para>
             <para>
-                <screenshot>
-<screeninfo>Neuen Prozess hinzufügen</screeninfo> <graphic
-srccredit="process-management - screenshot" scale='40'
-fileref="screenshots/pm-newprocess-info.png"></graphic></screenshot>
-            </para>
-            <para>
-                <emphasis>Abb.: Neuen Prozess hinzufügen.</emphasis>
+                <figure>
+                    <title>Neuen Prozess hinzufügen</title>
+<screenshot>
+<graphic scale='40'
+fileref="screenshots/customization/pm-newprocess-info.png"></graphic></screenshot></figure>
             </para>
         </section>
         <section>
             <title>Aktivitäts-Dialoge</title>
                 <para>
-                    Klicken Sie auf den neuen Prozessnamen in der
-Prozessmanagement-Übersichtsbild, dann in den "verfügbaren Prozess
-Elementen" klicken Sie auf "Activity Dialoge" (diese Aktion wird die
-möglichen Dialogoptionen erweitern), anschließend klicken Sie auf "Neuen
-Aktivitätsdialog erstellen".
+                    Click on the new process name in the Process Management Overview Screen,
+then in the "Available Process Elements" click in "Activity Dialogs" (this
+action will expand the activity dialog options and will collapse all others
+doing an accordion like effect), then click on "Create New Activity Dialog".
                 </para>
                 <para>
-                    <screenshot>
-<screeninfo>Neue Aktivitätsdialogschaltfläche erstellen</screeninfo> <graphic
-srccredit="process-management - scale='40'screenshot" scale='40'
-fileref="screenshots/pm-accordion-new-activitydialog.png"></graphic></screenshot>
-                </para>
-                <para>
-                    <emphasis>Abbildung: Erstelle neue Aktivitätsdialog.</emphasis>
+                    <figure>
+                        <title>Neue Aktivitätsdialogschaltfläche erstellen</title>
+<screenshot>
+<graphic scale='40'
+fileref="screenshots/customization/pm-accordion-new-activitydialog.png"></graphic></screenshot></figure>
                 </para>
                 <para>
                     In the opened popup screen fill the "Activity dialog Name" as well as the
@@ -482,16 +473,14 @@ fields as the default, to assign fields to the Activity Dialog simple drag
 the required field from the "Available Fields" pool and drop into the
 "Assigned Fields" pool.  The order in the "Assigned Fields" pool is the
 order as the fields will have in the screen, to modify the order simply drag
-and drop the filed within the pool to rearrange it in the correct place.
+and drop the field within the pool to rearrange it in the correct place.
                 </para>
                 <para>
-                    <screenshot>
-<screeninfo>Neuen Aktivitätsdialog hinzufügen</screeninfo> <graphic
-srccredit="process-management - screenshot" scale='40'
-fileref="screenshots/pm-edit-activitydialog.png"></graphic></screenshot>
-                </para>
-                <para>
-                    <emphasis>Abbildung: Neuen Aktivitätsdialog hinzufügen.</emphasis>
+                    <figure>
+                        <title>Neuen Aktivitätsdialog hinzufügen</title>
+<screenshot>
+<graphic scale='40'
+fileref="screenshots/customization/pm-edit-activitydialog.png"></graphic></screenshot></figure>
                 </para>
                 <para>
                     As soon as the fields are dropped into the "Assigned Fields" pool another
@@ -500,13 +489,11 @@ default options and only for Article fields we should make sure that the
 ArticleType field is set to "note-internal".
                 </para>
                 <para>
-                    <screenshot>
-<screeninfo>Felddetails bearbeiten (Artikel)</screeninfo> <graphic
-srccredit="process-management - screenshot" scale='40'
-fileref="screenshots/pm-edit-field-article.png"></graphic></screenshot>
-                </para>
-                <para>
-                    <emphasis>Abbildung: Felddetails bearbeiten (Artikel).</emphasis>
+                    <figure>
+                        <title>Felddetails bearbeiten (Artikel)</title>
+<screenshot>
+<graphic scale='40'
+fileref="screenshots/customization/pm-edit-field-article.png"></graphic></screenshot></figure>
                 </para>
                 <para>
                     Nachdem alle Felder zugewiesen wurden, klicken Sie auf übermitteln in der
@@ -519,7 +506,7 @@ fields in the lines below are the Dynamic Fields that we define before.
                 </para>
                 <para>
                     Please be aware that in this screen all the Dynamic Fields has the prefix
-"DynamicField_" as in "DynamicField_Title", Do not confuse with the field
+"DynamicField_" as in "DynamicField_Title". Do not confuse with the field
 "Title" that is the Ticket Title.
                 </para>
                 <para>
@@ -666,13 +653,11 @@ Kernel/Config/Files.
 anschließend klicken Sie auf "Erstelle neue Übergans-Aktion".
                 </para>
                 <para>
-                    <screenshot>
-<screeninfo>Neuen Übergang hinzufügen</screeninfo> <graphic
-srccredit="process-management - screenshot" scale='40'
-fileref="screenshots/pm-accordion-new-transition.png"></graphic></screenshot>
-                </para>
-                <para>
-                    <emphasis>Abbildung: Neuen Übergang hinzufügen.</emphasis>
+                    <figure>
+                        <title>Neuen Übergang hinzufügen</title>
+<screenshot>
+<graphic scale='40'
+fileref="screenshots/customization/pm-accordion-new-transition.png"></graphic></screenshot></figure>
                 </para>
                 <para>
                     In dem öffnenden Popup füllen Sie bitte den "Übergangsnamen" aus,
@@ -682,13 +667,11 @@ lassen für den Linktyp auf "and" und wir werden den Match-Type-Wert als
 "String" nutzen.
                 </para>
                 <para>
-                    <screenshot>
-<screeninfo>Neuen Übergang hinzufügen</screeninfo> <graphic
-srccredit="process-management - screenshot" scale='40'
-fileref="screenshots/pm-edit-transition.png"></graphic></screenshot>
-                </para>
-                <para>
-                    <emphasis>Abildung: Neuen Übergang hinzufügen.</emphasis>
+                    <figure>
+                        <title>Neuen Übergang hinzufügen</title>
+<screenshot>
+<graphic scale='40'
+fileref="screenshots/customization/pm-edit-transition.png"></graphic></screenshot></figure>
                 </para>
                 <para>
                     Nachdem alle Parameter und Werte gesetzt worden sind, klicken Sie auf die
@@ -750,24 +733,21 @@ gesetzt ist.
 anschließend klicken Sie auf "Erstelle neue Übergans-Aktion".
                 </para>
                 <para>
-                    <screenshot>
-<screeninfo>Erstellen Sie eine neue Schaltfläche "Übergangs-Aktion"</screeninfo> <graphic
-srccredit="process-management - screenshot" scale='40'
-fileref="screenshots/pm-accordion-new-transitionaction.png"></graphic></screenshot>
+                    <figure>
+                        <title>Erstellen Sie eine neue Schaltfläche "Übergangs-Aktion"</title>
+<screenshot>
+<graphic scale='40'
+fileref="screenshots/customization/pm-accordion-new-transitionaction.png"></graphic></screenshot></figure>
                 </para>
                 <para>
-                    <emphasis>Abbildung: Erstelle neue Übergangsaktion.</emphasis>
+                    In the opened popup screen fill the "Transition Action Name", and the
+"Transition Action module" then add the required and optional parameter
+names and values.
                 </para>
                 <para>
-                    In dem öffnenden Popup füllen Sie bitte den "Übergangsnamen" und das
-"Übergangsaktionsmodul" aus, dann tragen Sie die benötigten und optionalen
-Parameternamen und Werte ein.
-                </para>
-                <para>
-                    Alle Übergangsaktionsmodule befinden sich in
-Kernel/System/ProcessManagement/TransitionAction und die folgende Liste
-zeigt Ihnen alle Übergangsaktionen die mit diesem Release ausgeliefert
-werden
+                    All the Transition Action Modules are located in
+Kernel/System/ProcessManagement/TransitionAction and the following is the
+list of bundled Transition Actions included in this release:
                 </para>
                 <para>
                     <itemizedlist>
@@ -804,13 +784,11 @@ further versions.
                     </para>
                 </note>
                 <para>
-                    <screenshot>
-<screeninfo>Neue Übergangs-Aktion hinzufügen</screeninfo> <graphic
-srccredit="process-management - screenshot" scale='40'
-fileref="screenshots/pm-edit-transitionaction.png"></graphic></screenshot>
-                </para>
-                <para>
-                    <emphasis>Abbildung: Hinzufügen einer Übergangsaktion.</emphasis>
+                    <figure>
+                        <title>Neue Übergangs-Aktion hinzufügen</title>
+<screenshot>
+<graphic scale='40'
+fileref="screenshots/customization/pm-edit-transitionaction.png"></graphic></screenshot></figure>
                 </para>
                 <para>
                     Nachdem alle Parameter und Werte gesetzt worden sind, klicken Sie auf die
@@ -835,7 +813,7 @@ angewandt wurde.
                         </para>
                     </listitem>
                     <listitem>
-                        <para>"Verschiebe das Prozessticket in die 'Employees'-Queue" (TA3)</para>
+                        <para>"Move process ticket into the 'Employees' queue" (TA3)</para>
                         <para>Wird ausgeführt, wenn:</para>
                         <itemizedlist>
                             <listitem><para>
@@ -857,7 +835,7 @@ angewandt wurde.
                                 Der Übergang "Approval denied" (T2) wird ausgeführt
                             </para></listitem>
                             <listitem><para>
-                                Der Übergang "Order denied" (T4) wird ausgeführt
+                                Der Übergang "Order denied" (T4) wird ausgeführt.
                             </para></listitem>
                             <listitem><para>
                                 Der Übergang "Shipment received" (T6) wird ausgeführt
@@ -889,7 +867,7 @@ angewandt wurde.
                                 Der Übergang "Approval denied" (T2) wird ausgeführt
                             </para></listitem>
                             <listitem><para>
-                                Der Übergang "Order denied" (T4) wird ausgeführt
+                                Der Übergang "Order denied" (T4) wird ausgeführt.
                             </para></listitem>
                         </itemizedlist>
                     </listitem>
@@ -912,25 +890,23 @@ more Activity Dialogs.
 anschließend klicken Sie auf "Erstelle neue Aktivität".
             </para>
             <para>
-                <screenshot>
-<screeninfo>Neue Aktivitätsschaltfläche erstellen</screeninfo> <graphic
-srccredit="process-management - screenshot" scale='40'
-fileref="screenshots/pm-accordion-new-activity.png"></graphic></screenshot>
+                <figure>
+                    <title>Neue Aktivitätsschaltfläche erstellen</title>
+<screenshot>
+<graphic scale='40'
+fileref="screenshots/customization/pm-accordion-new-activity.png"></graphic></screenshot></figure>
             </para>
             <para>
-                <emphasis>Abbildung: Erstelle neue Aktivitätsschaltfläche.</emphasis>
-            </para>
-            <para>
-                In the opened popup screen fill the "Activity Name", Then drap the required
-Activity Dialogs from the "Available Activity Dialogs" pool, and drop then
+                In the opened popup screen fill the "Activity Name", then drag the required
+Activity Dialogs from the "Available Activity Dialogs" pool, and drop them
 into to the "Assigned Activity Dialogs" pool. This dialogs will be presented
 (in the ticket zoom screen) in the same order as it is defined on this
-screen translating from top to bottom, to left to right.
+screen translating from top to bottom, from left to right.
             </para>
             <para>
                 This order is specially important in the first Activity, since the first
 Activity Dialog for this activity is the only one that is presented when the
-process starts
+process starts.
             </para>
             <para>
                 Erstellen Sie die folgenden Aktivitäten:
@@ -1004,49 +980,41 @@ automatically. (This is the first Activity and its first Activity Dialog is
 the first screen that will be shown when the process starts).
             </para>
             <para>
-                <screenshot>
-<screeninfo>Ziehen Sie die erste Aktivität in die Arbeitsfläche</screeninfo> <graphic
-srccredit="process-management - screenshot" scale='40'
-fileref="screenshots/pm-canvas-drag-activity.png"></graphic></screenshot>
+                <figure>
+                    <title>Ziehen Sie die erste Aktivität in die Arbeitsfläche</title>
+<screenshot>
+<graphic scale='40'
+fileref="screenshots/customization/pm-canvas-drag-activity.png"></graphic></screenshot></figure>
             </para>
             <para>
-                <emphasis>Abbildung: Ziehen der ersten Aktivität in die
-Arbeitsfläche.</emphasis>
-            </para>
-            <para>
-                Next, drag another Activity into the canvas too. now we will have two
+                Next, drag another Activity into the canvas too. Now we will have two
 Activities in the canvas the first one is connected to the start point and
 the second has no connections, you can hover the mouse over each activity to
 reveal their own Activity Dialogs.
             </para>
             <para>
-                <screenshot>
-<screeninfo>Ziehen Sie die zweite Aktivität in die Arbeitsfläche.</screeninfo> <graphic
-srccredit="process-management - screenshot" scale='40'
-fileref="screenshots/pm-canvas-drag-activity2.png"></graphic></screenshot>
-            </para>
-            <para>
-                <emphasis>Abbildung: Ziehen der zweiten Aktivität in die
-Arbeitsfläche.</emphasis>
+                <figure>
+                    <title>Ziehen Sie die zweite Aktivität in die Arbeitsfläche.</title>
+<screenshot>
+<graphic scale='40'
+fileref="screenshots/customization/pm-canvas-drag-activity2.png"></graphic></screenshot></figure>
             </para>
             <para>
                 Then let's create the "Path" (connection) between this two Activities, for
-this we will use the Transitions, Click on Transitions in the accordion drag
-a Transition and drop it inside the first Activity, notice that the Activity
-change its color indicating that the Transition is attached, as soon as the
+this we will use the Transitions. Click on Transitions in the accordion drag
+a Transition and drop it inside the first Activity. Notice that the Activity
+changes its color indicating that the Transition is attached. As soon as the
 Transition is dropped the end point of the Transition arrow will be placed
 next to the process start point. Drag the Transition arrow end point and
 drop it inside the other Activity to create the connection between the
 Activities.
             </para>
             <para>
-                <screenshot>
-<screeninfo>Ziehen Sie einen Übergang in die Arbeitsfläche</screeninfo> <graphic
-srccredit="process-management - screenshot" scale='40'
-fileref="screenshots/pm-canvas-drag-transition.png"></graphic></screenshot>
-            </para>
-            <para>
-                <emphasis>Abbildung: Ziehen des Überganges in die Arbeitsfläche.</emphasis>
+                <figure>
+                    <title>Ziehen Sie einen Übergang in die Arbeitsfläche</title>
+<screenshot>
+<graphic scale='40'
+fileref="screenshots/customization/pm-canvas-drag-transition.png"></graphic></screenshot></figure>
             </para>
             <para>
                 Now that the "Path" between the Actions is defined, then we need to assign
@@ -1054,13 +1022,11 @@ the Transition Actions to the Transition, double click the Transition label
 (in the canvas), this will open a new popup window.
             </para>
             <para>
-                <screenshot>
-<screeninfo>Verbinden Sie die Aktivitäten unter Verwendung von Übergängen</screeninfo> <graphic
-srccredit="process-management - screenshot" scale='40'
-fileref="screenshots/pm-canvas-drag-transition2.png"></graphic></screenshot>
-            </para>
-            <para>
-                <emphasis>Abbildung: Verbinden von Aktivitäten mit Übergängen.</emphasis>
+                <figure>
+                    <title>Verbinden Sie die Aktivitäten unter Verwendung von Übergängen</title>
+<screenshot>
+<graphic scale='40'
+fileref="screenshots/customization/pm-canvas-drag-transition2.png"></graphic></screenshot></figure>
             </para>
             <para>
                 Drag the needed Transition Actions from Available Transition Actions pool
@@ -1068,36 +1034,33 @@ and drop them into the Assigned Transition Actions pool and click on submit
 button.
             </para>
             <para>
-                <screenshot>
-<screeninfo>Zuweisen von Übergangs-Aktionen</screeninfo> <graphic
-srccredit="process-management - screenshot" scale='40'
-fileref="screenshots/pm-edit-path.png"></graphic></screenshot>
-            </para>
-            <para>
-                <emphasis>Abbildung: Zuweisen von Übergangsaktionen. Assign Transition
-Actions.</emphasis>
+                <figure>
+                    <title>Zuweisen von Übergangs-Aktionen</title>
+<screenshot>
+<graphic scale='40'
+fileref="screenshots/customization/pm-edit-path.png"></graphic></screenshot></figure>
             </para>
             <para>
                 Then back in the main process edit screen click on save button below the
 canvas to save all other changes.
             </para>
             <para>
-                Vervollständigen Sie den "Pfad" und fügen Sie folgende Aktivitäten,
-Übergänge und Übergangsaktionen hinzu:
+                Complete the "path" adding the following Activities, Transitions and
+Transition Actions:
             </para>
             <para>Aufnahme der Nachfrage bis zur "Approval"</para>
             <para>
                 <itemizedlist>
                     <listitem>
-                        <para>Startpunkt: Aktivität "Aufnahme der Nachfrage" (A1)</para>
+                        <para>Starting point: Activity: "Recording the demand" (A1)</para>
                     </listitem>
                     <listitem>
-                        <para>Möglicher Übergang: Approval (T1)</para>
+                        <para>Possible Transition: "Approval" (T1)</para>
                         <itemizedlist>
                             <listitem>
                                 <para>
-                                    Wenn die Bedingung der Aktivität erfüllt ist, wird das Ticket in die
-Aktivität: Approval (A2) geschoben.
+                                    If the condition of this activity is fulfilled, the ticket will move to
+Activity: "Approval" (A2)
                                 </para>
                             </listitem>
                             <listitem>
@@ -1107,11 +1070,11 @@ Aktivität: Approval (A2) geschoben.
                                 <itemizedlist>
                                     <listitem>
                                         <para>
-                                            "Verschiebe das Ticket in die 'Managment' Queue (TA1)
+                                            "Verschiebe das Prozessticket in die Management-Queue" (TA1)
                                         </para>
                                     </listitem>
                                     <listitem>
-                                        <para>"Setze den Ticketverantwortlichen auf 'Manager'" (TA2)</para>
+                                        <para>"Ändere den Ticket-Verantwortlichen zu 'Manager'" (TA2)</para>
                                     </listitem>
                                 </itemizedlist>
                             </listitem>
@@ -1123,10 +1086,10 @@ Aktivität: Approval (A2) geschoben.
                 The Activity: "Recording the demand" (A1) is a defined step of the process
 ticket, where there is the possibility for the Transition: "Approval"
 (T1). If this applies, the ticket will move to the next Activity: "Approval"
-(A2), and the Transition Actions: "Moving the ticket into the 'Management'
-Queue" (TA1) and "Set ticket responsible to 'manager'" (TA2) are
-executed. In the Activity: "Approval" (A2), the Activity Dialogs: "Approval
-denied" (AD2) and "Approved" (AD3) are available.
+(A2), and the Transition Actions: "Move the process ticket into the
+'Management' queue" (TA1) and "Change ticket responsible to 'manager'" (TA2)
+are executed. In the Activity: "Approval" (A2), the Activity Dialogs:
+"Approval denied" (AD2) and "Approved" (AD3) are available.
             </para>
             <para>Genehmigung</para>
             <para>
@@ -1142,8 +1105,8 @@ denied" (AD2) and "Approved" (AD3) are available.
                                     <itemizedlist>
                                         <listitem>
                                         <para>
-                                            Wenn dies zutrifft, wird das Ticket in die Aktivität: "Process complete (A5)
-geschoben.
+                                            If this matches, the process ticket will move to Activity: "Process
+complete" (A5).
                                         </para>
                                         </listitem>
                                         <listitem>
@@ -1153,12 +1116,12 @@ geschoben.
                                         <itemizedlist>
                                         <listitem>
                                             <para>
-                                                "Verschiebe das Ticket in die 'Employees' Queue (TA3)
+                                                "Move process ticket into the 'Employees' queue" (TA3)
                                             </para>
                                         </listitem>
                                         <listitem>
                                             <para>
-                                                "Setze den Ticketverantwortlichen auf 'Employee'" (TA4)
+                                                Ändere den Ticket-Verantwortlichen zu 'Employee'" (TA4)
                                              </para>
                                         </listitem>
                                         <listitem>
@@ -1186,7 +1149,7 @@ geschoben.
                                             <itemizedlist>
                                             <listitem>
                                                 <para>
-                                                    "Verschiebe das Ticket in die 'Purchasing' Queue (TA5)
+                                                    "Verschiebe das Prozessticket in die 'Purchasing'-Queue" (TA5)
                                                 </para>
                                             </listitem>
                                             </itemizedlist>
@@ -1217,8 +1180,8 @@ Actions).
                                     <itemizedlist>
                                         <listitem>
                                         <para>
-                                            Wenn dies zutrifft, wird das Ticket in die Aktivität: "Process complete (A5)
-geschoben.
+                                            If this matches, the process ticket will move to Activity: "Process
+complete" (A5).
                                         </para>
                                         </listitem>
                                         <listitem>
@@ -1228,7 +1191,7 @@ geschoben.
                                         <itemizedlist>
                                         <listitem>
                                             <para>
-                                                "Verschiebe das Ticket in die 'Employees' Queue (TA3)
+                                                "Move process ticket into the 'Employees' queue" (TA3)
                                             </para>
                                         </listitem>
                                         <listitem>
@@ -1250,8 +1213,7 @@ geschoben.
                                     <itemizedlist>
                                         <listitem>
                                         <para>
-                                            Wenn dies zutrifft, wird das Ticket in die Aktivität: "Incoming" (A5)
-geschoben.
+                                            If this matches, the process ticket will move to Activity: "Incoming" (A4).
                                         </para>
                                         </listitem>
                                         <listitem>
@@ -1261,7 +1223,7 @@ geschoben.
                                             <itemizedlist>
                                             <listitem>
                                                 <para>
-                                                    "Verschiebe das Ticket in die 'Post office' Queue (TA6)
+                                                    "Verschiebe das Prozessticket in die 'Post office'-Queue" (TA6)
                                                 </para>
                                             </listitem>
                                             </itemizedlist>
@@ -1286,8 +1248,8 @@ geschoben.
                                     <itemizedlist>
                                         <listitem>
                                         <para>
-                                            Wenn dies zutrifft, wird das Ticket in die Aktivität: "Process complete (A5)
-geschoben.
+                                            If this matches, the process ticket will move to Activity: "Process
+complete" (A5).
                                         </para>
                                         </listitem>
                                         <listitem>
@@ -1297,7 +1259,7 @@ geschoben.
                                         <itemizedlist>
                                         <listitem>
                                             <para>
-                                                "Verschiebe das Ticket in die 'Employees' Queue (TA3)
+                                                "Move process ticket into the 'Employees' queue" (TA3)
                                             </para>
                                         </listitem>
                                         <listitem>
@@ -1322,19 +1284,17 @@ geschoben.
                 Der komplette Pfad für den Buchbestellprozess schaut wie folgt aus:
             </para>
             <para>
-                <screenshot>
-<screeninfo>vollständiger Buchbestellprozesspfad</screeninfo> <graphic
-srccredit="process-management - screenshot" scale='40'
-fileref="screenshots/pm-edit-process.png"></graphic></screenshot>
-            </para>
-            <para>
-                <emphasis>Abbildung: vollständiger Buchbestellprozesspfad.</emphasis>
+                <figure>
+                    <title>vollständiger Buchbestellprozesspfad</title>
+<screenshot>
+<graphic scale='40'
+fileref="screenshots/customization/pm-edit-process.png"></graphic></screenshot></figure>
             </para>
             <para>
                 After you finish the process path please click on "Save" button in the lower
 part of the canvas and then click on "Synchronize All Processes"
 button. This will gather all processes information form the Database and
-create a cache file (in Perl language). This cache file is acctually the
+create a cache file (in Perl language). This cache file is actually the
 processes configuration that the system will use to create or use process
 tickets.
             </para>
@@ -1353,7 +1313,8 @@ needed by each process before the import.
 be set manually.
             </para>
             <para>
-                Im folgenden sehen Sie die komplette YAML-Datei für den Buchbestellprozess:
+                The following is the complete YAML file for the book ordering process
+example:
             </para>
             <para>
                 <screen><![CDATA[
@@ -1895,16 +1856,15 @@ noch genauer eingegangen.
             <section>
                 <title>Prozesskonfiguration</title>
                 <para>
-                    Die Prozesskonfiguration kann in der Datei
-<filename>Kernel/Config.pm</filename> vorgenommen werden, aber es wird
-dringend empfohlen neue Dateien, wie
-<filename>Kernel/Config/Files/MeinProzess.pm</filename>, zu
-erstellen. Beachten Sie das die GUI die Datei
-<filename>Kernel/Config/File/ZZZProcessManagement</filename> automatisch
-generiert, somit sollte dieser Dateiname nicht für eigene Prozesse verwendet
-werden. Andererseits wird diese Datei überschrieben, sobald Sie Prozesse
-synchronisieren. Anbei eine Beispielprozesskonfiguration (aus dem
-Prozesscache):
+                    The Process configuration can be done in the file
+<filename>Kernel/Config.pm</filename> but it is strongly recommended to
+create new files like
+<filename>Kernel/Config/Files/MyProcess.pm</filename>. Notice that the GUI
+generates the file
+<filename>Kernel/Config/File/ZZZProcessManagement</filename> please avoid to
+use that filename, otherwise it will be overwritten when you sync
+processes.  Let's see an example process configuration (from process cache
+file):
                 </para>
                 <para>
                     <screen>
@@ -2059,7 +2019,7 @@ that are needed for the Transition 'T2' are correct, the ticket will be
 moved from Activity 'A1' to 'A3'. After an ActivityDialog is submitted, or
 any other change is made to a ticket, it will be checked for possible
 Transitions from the current Activity. If multiple Transitions are possible,
-the first one will be used (based on nummerical sorting of the
+the first one will be used (based on numerical sorting of the
 TransitionIDs).
                 </para>
                 <para>
@@ -2163,69 +2123,70 @@ Aktivitäten wiederverwendet werden.
             <section>
                 <title>Aktivitätsdialog-Konfiguration</title>
                 <para>
-                    Hier sehen Sie eine Beispiel Konfiguration:
+                    Let's see an example config:
                 </para>
                 <para>
                     <screen>
 $Self->{'Process::ActivityDialog'} = {
-'AD1' => {
-Name => 'ActivityDialog 1 optional',
-DescriptionShort => 'Basic info',
-DescriptionLong => 'Please insert the necessesary basic information for IT orders',
-CreateTime => '28-02-2012 13:37:00',
-CreateBy => '1',
-ChangeTime => '29-02-2012 13:37:00',
-ChangeBy => '1',
-Fields => {
-PriorityID => {
-DescriptionShort => 'Priority ID',
-DescriptionLong => 'Enter the priority here',
-Display => 2,
-},
-},
-FieldOrder => [ 'PriorityID' ],
-SubmitAdviceText => 'Note: If you submit the form...',
-SubmitButtonText => 'Send request',
-},
-'AD2' => {
-Name => 'ActivityDialog 2 optional',
-DescriptionShort => 'Basic info',
-DescriptionLong => 'Please insert the necessesary basic information for Book orders',
-CreateTime => '28-02-2012 13:37:00',
-CreateBy => '1',
-ChangeTime => '29-02-2012 13:37:00',
-ChangeBy => '1',
-Fields => {
-StateID => {
-DescriptionShort => 'State ID',
-DescriptionLong => 'Enter the state here',
-Display => 2,
-DefaultValue => '2',
-},
-Queue => {
-DescriptionShort => 'Queue ID',
-DescriptionLong => 'Enter the queue here',
-Display => 2,
-DefaultValue => 'Raw',
-},
-Title => {
-DescriptionShort => 'Title',
-DescriptionLong => 'Enter the title here',
-Display => 1,
-DefaultValue => 'Default Title',
-},
-DynamicField_Anzahl => {
-DescriptionShort => 'Amount',
-DescriptionLong => 'Enter the amount here',
-Display => 2,
-DefaultValue => '4',
-},
-},
-FieldOrder => [ 'DynamicField_Anzahl', 'StateID', 'Queue', 'Title' ],
-SubmitAdviceText => 'Note: If you submit the form...',
-SubmitButtonText => 'Send request',
-},
-};</screen>
+    'AD1' => {
+        Name             => 'ActivityDialog 1 optional',
+        DescriptionShort => 'Basic info',
+        DescriptionLong  => 'Please insert the necessesary basic information for IT orders',
+        CreateTime       => '28-02-2012 13:37:00',
+        CreateBy         => '1',
+        ChangeTime       => '29-02-2012 13:37:00',
+        ChangeBy         => '1',
+        Fields => {
+            PriorityID => {
+                DescriptionShort => 'Priority ID',
+                DescriptionLong  => 'Enter the priority here',
+                Display          => 2,
+            },
+        },
+        FieldOrder       => [ 'PriorityID' ],
+        SubmitAdviceText => 'Note: If you submit the form...',
+        SubmitButtonText => 'Send request',
+    },
+    'AD2' => {
+        Name             => 'ActivityDialog 2 optional',
+        DescriptionShort => 'Basic info',
+        DescriptionLong  => 'Please insert the necessesary basic information for Book orders',
+        CreateTime       => '28-02-2012 13:37:00',
+        CreateBy         => '1',
+        ChangeTime       => '29-02-2012 13:37:00',
+        ChangeBy         => '1',
+        Fields => {
+            StateID => {
+                DescriptionShort => 'State ID',
+                DescriptionLong  => 'Enter the state here',
+                Display          => 2,
+                DefaultValue     => '2',
+            },
+            Queue => {
+                DescriptionShort => 'Queue ID',
+                DescriptionLong  => 'Enter the queue here',
+                Display          => 2,
+                DefaultValue     => 'Raw',
+            },
+            Title => {
+                DescriptionShort => 'Title',
+                DescriptionLong  => 'Enter the title here',
+                Display          => 1,
+                DefaultValue     => 'Default Title',
+            },
+            DynamicField_Anzahl => {
+                DescriptionShort => 'Amount',
+                DescriptionLong  => 'Enter the amount here',
+                Display          => 2,
+                DefaultValue     => '4',
+            },
+        },
+        FieldOrder       => [ 'DynamicField_Anzahl', 'StateID', 'Queue', 'Title' ],
+        SubmitAdviceText => 'Note: If you submit the form...',
+        SubmitButtonText => 'Send request',
+    },
+};
+                    </screen>
                 </para>
             </section>
             <section>
@@ -2237,7 +2198,7 @@ SubmitButtonText => 'Send request',
             <section>
                 <title>CreateTime</title>
                 <para>
-                    Die Zeit, wann er erstellt wurde.
+                    Die Erstellzeit.
                 </para>
             </section>
             <section>
@@ -2249,7 +2210,7 @@ SubmitButtonText => 'Send request',
             <section>
                 <title>ChangeTime</title>
                 <para>
-                    Die letzte Änderung
+                    Die letzte Änderung.
                 </para>
             </section>
             <section>
@@ -2733,13 +2694,13 @@ $Self->{'Process::TransitionAction'} = {
                     This parameter contains all settings which are required for the module. Its
 content depends on the particular Transition Action module which is
 used. Please see the documentation of the individual modules for details. In
-our example, only the Queue must be specified, Nevertheless we are also
-sending UserID parameter, by using the UserID parameter, the transition
+our example, only the Queue must be specified. Nevertheless we are also
+sending UserID parameter, by using the UserID parameter. The transition
 action will be executed impersonating the user with the given UserID.
                 </para>
                 <para>
                     The use of UserID inside the "Config" parameter of a Transition Action is
-accepted by all Transition Actions (since OTRS 3.2.4), in this example it
+accepted by all Transition Actions (since OTRS 3.2.4). In this example it
 could be particularly important if the user that triggers the Transition
 does not have permissions to move the ticket to the queue 'Junk', while the
 user with the UserID 123 might have.
@@ -2748,8 +2709,8 @@ user with the UserID 123 might have.
             <section>
                 <title>Wiederverwendung von Übergangs-Aktionsmodulen</title>
                 <para>
-                    Um Übergangs-Aktions-Module mehrfach zu verwenden, können Sie einfach
-verschiedene Übergangsaktionen konfigurieren. Beispiel: <screen>
+                    To use Transition Action modules multiple times, just specify several
+Transition Actions in your configuration. Example: <screen>
     $Self->{'Process::TransitionAction'} = {
         'TA1' => {
             Name   => 'Queue Move Junk',
@@ -2792,7 +2753,7 @@ configured.
                         <screen><![CDATA[
 $Self->{'Process::TransitionAction'} = {
     'TA1' => {
-        Name   => 'Set DynamicField Master to Master and Approved to 1',
+        Name   => 'Set DynamicField MasterSlave to Master and Approved to 1',
         Module => 'Kernel::System::ProcessManagement::TransitionAction::DynamicFieldSet',
         Config => {
             MasterSlave => 'Master',
@@ -2867,8 +2828,8 @@ soll. Mögliche Werte: phone, fax, sms, webrequest, note-internal,
 note-external and note-report.
                     </para>
                     <para>
-                        SenderType definiert den Absendertyp des Artikel. Mögliche Werte sind:
-Agent, System, Customer.
+                        'SenderType' defines the sender type of the article. Possible values: agent,
+system, customer.
                     </para>
                     <para>
                         'ContentType' definiert den Inhaltstyp des Artikels. Mögliche Werte:
@@ -2881,8 +2842,8 @@ Agent, System, Customer.
                         'Body' definiert den Artikelinhalt. Verpflichtend
                     </para>
                     <para>
-                        Der Historientyp definiert den Typ des Historieneintrages. Mögliche Werte
-sind: AddNote, ArchiveFlagUpdate, Bounce, CustomerUpdate, EmailAgent,
+                        'HistoryType' definiert den Typ des Historien-Eintrages. Möglich Werte:
+AddNote, ArchiveFlagUpdate, Bounce, CustomerUpdate, EmailAgent,
 EmailCustomer, EscalationResponseTimeNotifyBefore,
 EscalationResponseTimeStart, EscalationResponseTimeStop,
 EscalationSolutionTimeNotifyBefore, EscalationSolutionTimeStart,
@@ -2991,7 +2952,9 @@ $Self->{'Process::TransitionAction'} = {
             DynamicField_NameX => $Value,
             LinkAs => $LinkType,                                        # Normal, Parent, Child, etc. (respective original ticket)
             UserID => 123,                                              # optional, to override the UserID from the logged user
-        }
+        },
+    },
+};
                         ]]></screen>
                     </para>
                     <para>
@@ -3009,8 +2972,8 @@ neue Ticket erstellt werden soll
                         'Lock' oder 'LockID' setzt den "gesperrt"-Status des Tickets.
                     </para>
                     <para>
-                        'Priority' oder 'PriorityID' gibt den Namen oder die ID der Priorität des
-neuen Tickets an.
+                        'Priority' or 'PriorityID' specifies the name or id if the priority to be
+used in the new ticket.
                     </para>
                     <para>
                         'State' oder 'StateID' gibt den Namen oder die ID des Status des neuen
@@ -3037,21 +3000,21 @@ neuen Ticket verwendet werden soll.
 im neuen Ticket verwendet wird.
                     </para>
                     <para>
-                        'SLA' oder 'SLAID' gibt den Namen oder die ID an, die im neuen Ticket
-verwendet werden soll.
+                        'SLA' or 'SLAID' specifies the name or id of the SLA to be used in the new
+ticket.
                     </para>
                     <para>
                         'ResponsibleID', die ID des Agenten, der Verantwortlich für das neue TIcket
 ist.
                     </para>
                     <para>
-                        'PendingTime', eine vordefinierte Zeit um die Warten-Zeiten zu setzen, wenn
-der Ticket-Status zu einem Warten-Statustyp gehört.
+                        'PendingTime', a predefined date to set the Ticket Pending Times, when the
+ticket state belongs to a pending state type.
                     </para>
                     <para>
-                        'PendingTime', ist eine dynamische vordefinierte Zeit (in Sekunden vom
-aktuellen Datum/Zeit) um die Warten-Zeiten zu setzen, wenn der Ticket-Status
-zu einem Warten-Statustyp gehört.
+                        'PendingTimeDiff', a dynamically date ( expressed in seconds from current
+date/time ) to set the Ticket Pending Times, when the ticket state belongs
+to a pending state type.
                     </para>
                     <para>
                         'ArticleType' definiert den Typ des Artikels, der erstellt werden
@@ -3120,7 +3083,7 @@ Sekunden, Minuten, Stunden, etc. ausgedrückt wird.
                     <para>
                         'DynamicField_NameX' where DynamicField_ is a required prefix and NameX is
 the name of a Dynamic Field to be set in the new ticket (on ticket level,
-not article levels)
+not article levels).
                     </para>
                     <para>
                         'LinkAs' to define the new ticket relation with originator ticket, from the
@@ -3154,10 +3117,10 @@ User => 'client-user-123',
                         'Name' definiert den Namen der konfigurierten Übergangsaktion.
                     </para>
                     <para>
-                        No oder CustomerID setzt die Kundennummer des Kunden.
+                        'No' or 'CustomerID' set the Customer ID of the customer.
                     </para>
                     <para>
-                        User oder CustomerUserID setzt den Benutzernamen des Kunden
+                        'User' or 'CustomerUserID' set the Username of the customer.
                     </para>
                 </section>
 
@@ -3329,15 +3292,15 @@ sein. Beispiel:
                     <para>
                         <screen><![CDATA[
 $Self->{'Process::TransitionAction'} = {
-'TA1' => {
-Name => 'Set MySLA SLA',
-Module => 'Kernel::System::ProcessManagement::TransitionAction::TicketSLASet',
-Config => {
-SLA => 'MyService',
-# or
-SLAID => 123,
-},
-},
+    'TA1' => {
+        Name   => 'Set MySLA SLA',
+        Module => 'Kernel::System::ProcessManagement::TransitionAction::TicketSLASet',
+        Config => {
+            SLA   => 'MySLA',
+            # or
+            SLAID => 123,
+        },
+    },
 };
                         ]]></screen>
                     </para>
@@ -3603,8 +3566,8 @@ er in der Liste nicht an erster Stelle steht. Am Ende bleiben 'AD2' und 'AD
                 </para>
                 <para>
                     It is also possible to limit the processes that can be displayed in the "New
-process ticket" screen, the functionality is similar to limiting the
-ActivityDialogs with one exception: The ACLs could only be based on Users.
+process ticket" screen. The functionality is similar to limiting the
+Activity Dialogs with one exception: The ACLs could only be based on Users.
                 </para>
                 <para>Siehe Beispiele:</para>
                 <para>

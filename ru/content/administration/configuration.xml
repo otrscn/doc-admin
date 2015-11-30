@@ -46,25 +46,22 @@
 </section>
 
 <section id="sysconfig">
-<title>Настройка системы через графический веб-интерфейс</title>
+<title>Configuring the System Through the Web Interface</title>
 
 <para>
-Начиная с версии OTRS 2.0 и в последующих версиях, с помощью графического
-веб-интерфейса для настройки системы можно легко изменить почти все
-конфигурационные параметры центального фреймворка и дополнительно
-установленных модулей . Для его использования, войдите в систему как
-OTRS-администратор и перейдите по ссылке Конфигурация системы/SysConfig в
-Панели Администрирования (см. Рисунок ниже).
+Since OTRS 2.0, nearly all configuration parameters of the central framework
+or additional installed applications, can be changed easily with the
+graphical interface for system configuration. Log in as OTRS administrator
+and follow the SysConfig link on the Admin page to execute the new
+configuration tool (see figure below).
 </para>
 
 <para>
+<figure>
+    <title>Графический интерфейс для настройки системы</title>
 <screenshot>
-<screeninfo>Графический интерфейс для настройки системы</screeninfo> <graphic srccredit="sysconfig -
-screenshot" scale="40" fileref="screenshots/admin-sysconfig.png"></graphic></screenshot>
-</para>
-
-<para>
-    <emphasis>Рисунок: Графический интерфейс для настройки системы.</emphasis>
+<graphic scale="40"
+fileref="screenshots/administration/adminarea/admin-sysconfig.png"></graphic></screenshot></figure>
 </para>
 
 <para>

@@ -1,0 +1,128 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE section PUBLIC "-//OASIS//DTD DocBook XML V4.4//EN"
+  "http://www.oasis-open.org/docbook/xml/4.4/docbookx.dtd">
+
+<section id="customers-and-groups">
+<title>Kundenbenutzer und Kundengruppen</title>
+
+<section id="adminarea-customers">
+<title>Kunden</title>
+
+<para>
+OTRS supports different types of users. Using the link "Customers" (via the
+navigation bar, or the Admin page), you can manage the accounts of your
+customers (see figure below), who can log into the system via the Customers
+interface (customer.pl). Through this interface, your customers can not only
+create tickets but also review their past tickets for new updates. It is
+important to know that a customer is needed for the ticket history in the
+system.
+</para>
+
+<para>
+<figure>
+    <title>Kundenverwaltung</title>
+<screenshot>
+<graphic scale="40"
+fileref="screenshots/administration/adminarea/admin-customer.png"></graphic></screenshot></figure>
+</para>
+
+<para>
+Neben der Möglichkeit in der Datenbank nach einem bestimmten Kunden zu
+suchen, kann das Backend umgestellt werden, über das auf die Kundendaten
+zugegriffen wird. In OTRS lassen sich mehrere Datenbanken mit Kundendaten
+einbinden, genauere Informationen hierzu finden Sie im Abschnitt <link
+linkend="external-backends">Einbinden externer Backends für Agents und
+Customer</link>.
+</para>
+
+<para>
+To create a new customer account, click on the "Add customer" button (see
+figure below). Some of the fields are mandatory, i.e., they have to contain
+values, so if you leave one of those empty, it will be highlighted in red.
+</para>
+
+<para>
+<figure>
+    <title>Adding a customer</title>
+<screenshot>
+<graphic scale="40"
+fileref="screenshots/administration/adminarea/add-customer.png"></graphic></screenshot></figure>
+</para>
+
+<para>
+Der Kunde kann mit Benutzername und Passwort auf das System zugreifen. Die
+Kundennummer wird vom System benötigt, um den Kunden und seine Tickets zu
+erkennen. Da E-Mail-Adressen eindeutig sind, können sie als ID verwendet
+werden.
+</para>
+
+<note>
+<para>
+In OTRS können Kunden deaktivert, aber nicht gelöscht werden. Sie können
+einen Kunden deaktivieren, indem Sie den Wert für "Gültig" auf "ungültig"
+oder "ungültig-temporär" setzen.
+</para>
+</note>
+
+</section>
+
+<section id="adminarea-customers-groups">
+<title>Kundengruppen</title>
+
+<para>
+Kunden können auch Gruppen zugeordnet werden. Das ist nützlich, wenn Kunden
+nur auf bestimmte Queues zugreifen können sollen. Legen Sie zuerst die
+benötigten Gruppen in der <link linkend="adminarea-groups">
+Gruppenverwaltung </link> an . Fügen Sie dann die <link
+linkend="adminarea-queue"> Queues </link> hinzu und ordnen Sie diese der
+neuen Gruppe zu.
+</para>
+
+<para>
+The next step is to activate the customer group support. This can be done
+with the configuration parameter <link
+linkend="ConfigReference_Framework:Frontend::Customer:CustomerGroupSupport">CustomerGroupSupport</link>,
+from the Admin SysConfig option. Using the parameter <link
+linkend="ConfigReference_Framework:Frontend::Customer:CustomerGroupAlwaysGroups">CustomerGroupAlwaysGroups</link>,
+you can specify the default groups for a newly added customer, so that every
+new account will be automatically added to these groups.
+</para>
+
+<para>
+Through the link "Customers &lt;-&gt; Groups" you can manage which customer
+shall belong to the different groups (see figure below).
+</para>
+
+<para>
+<figure>
+    <title>Customer-Group relations management</title>
+<screenshot>
+<graphic scale="40"
+fileref="screenshots/administration/adminarea/admin-customer-groups.png"></graphic></screenshot></figure>
+</para>
+
+<para>
+To define the different groups a customer should be part of and vice versa,
+click on the corresponding customer username or group (see below the Figures
+4.18 and 4.19, respectively).
+</para>
+
+<para>
+<figure>
+    <title>Gruppenzuordnungen eines Kunden bearbeiten</title>
+<screenshot>
+<graphic scale="40"
+fileref="screenshots/administration/adminarea/groups-customers-relations.png"></graphic></screenshot></figure>
+</para>
+
+<para>
+<figure>
+    <title>Kundenzuordnungen einer Gruppe bearbeiten</title>
+<screenshot>
+<graphic scale="40"
+fileref="screenshots/administration/adminarea/groups-customers-relations2.png"></graphic></screenshot></figure>
+</para>
+
+</section>
+
+</section>
