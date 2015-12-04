@@ -12,7 +12,7 @@
         <figure>
             <title>The dynamic fields overview screen with some dynamic fields</title>
             <screenshot>
-                 <graphic scale="40" fileref="screenshots/administration/adminarea/dynamicfields-overview-filled.png"></graphic>
+                 <graphic fileref="screenshots/administration/adminarea/dynamicfields-overview-filled.png" scalefit="1" width="100%" contentdepth="100%"></graphic>
             </screenshot>
         </figure>
     </para>

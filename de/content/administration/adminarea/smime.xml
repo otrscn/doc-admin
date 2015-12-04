@@ -22,8 +22,8 @@ and also search through the SMIME data.
 <figure>
     <title>S/MIME management</title>
 <screenshot>
-<graphic scale="40"
-fileref="screenshots/administration/adminarea/admin-smime.png"></graphic></screenshot></figure>
+<graphic fileref="screenshots/administration/adminarea/admin-smime.png"
+scalefit="1" width="100%" contentdepth="100%"></graphic></screenshot></figure>
 </para>
 
 </section>

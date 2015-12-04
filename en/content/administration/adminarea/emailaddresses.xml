@@ -13,7 +13,7 @@ To enable OTRS to send emails, you need a valid email address to be used by the 
 <figure>
     <title>System email addresses management</title>
     <screenshot>
-         <graphic scale="40" fileref="screenshots/administration/adminarea/admin-email.png"></graphic>
+         <graphic fileref="screenshots/administration/adminarea/admin-email.png" scalefit="1" width="100%" contentdepth="100%"></graphic>
     </screenshot>
 </figure>
 </para>
@@ -26,7 +26,7 @@ If you create a new mail address (see figure below),you can select the queue or 
 <figure>
     <title>Adding a system email address</title>
     <screenshot>
-         <graphic scale="40" fileref="screenshots/administration/adminarea/add-email.png"></graphic>
+         <graphic fileref="screenshots/administration/adminarea/add-email.png" scalefit="1" width="100%" contentdepth="100%"></graphic>
     </screenshot>
 </figure>
 </para>

@@ -40,8 +40,8 @@ web browser (see figure below).
 <figure>
     <title>Login screen of the agent interface</title>
 <screenshot>
-<graphic scale="40"
-fileref="screenshots/introduction/firststeps/login.png"></graphic></screenshot></figure>
+<graphic fileref="screenshots/introduction/firststeps/login.png"
+scalefit="1" width="100%" contentdepth="100%"></graphic></screenshot></figure>
 </para>
 
 </section>
@@ -66,8 +66,8 @@ a web browser (see figure below).
 <figure>
     <title>Login screen of the customer interface</title>
 <screenshot>
-<graphic scale="40"
-fileref="screenshots/introduction/firststeps/customer-login.png"></graphic></screenshot></figure>
+<graphic fileref="screenshots/introduction/firststeps/customer-login.png"
+scalefit="1" width="100%" contentdepth="100%"></graphic></screenshot></figure>
 </para>
 
 </section>
@@ -95,8 +95,8 @@ url="http://www.example.com/otrs/public.pl">
 <figure>
     <title>Öffentliche Weboberfläche</title>
 <screenshot>
-<graphic scale="40"
-fileref="screenshots/introduction/firststeps/public-interface.png"></graphic></screenshot></figure>
+<graphic fileref="screenshots/introduction/firststeps/public-interface.png"
+scalefit="1" width="100%" contentdepth="100%"></graphic></screenshot></figure>
 </para>
 
 </section>
@@ -139,8 +139,9 @@ press the Submit button (see figure).
 <figure>
     <title>Neues Passwort beantragen</title>
 <screenshot>
-<graphic scale="40"
-fileref="screenshots/introduction/firststeps/request-new-password.png"></graphic></screenshot></figure>
+<graphic
+fileref="screenshots/introduction/firststeps/request-new-password.png"
+scalefit="1" width="100%" contentdepth="100%"></graphic></screenshot></figure>
 </para>
 
 </section>
@@ -160,8 +161,8 @@ presents a quick summary of the tickets using different criteria.
 <figure>
     <title>Dashboard of the agent interface</title>
 <screenshot>
-<graphic scale="40"
-fileref="screenshots/introduction/firststeps/first-screen.png"></graphic></screenshot></figure>
+<graphic fileref="screenshots/introduction/firststeps/first-screen.png"
+scalefit="1" width="100%" contentdepth="100%"></graphic></screenshot></figure>
 </para>
 
 <para>
@@ -229,8 +230,8 @@ Normalerweise sehen die "icon row", die "navigation bar" und die Fußzeile
 <figure>
     <title>Fußzeile</title>
 <screenshot>
-<graphic scale="40"
-fileref="screenshots/introduction/firststeps/footer.png"></graphic></screenshot></figure>
+<graphic fileref="screenshots/introduction/firststeps/footer.png"
+scalefit="1" width="100%" contentdepth="100%"></graphic></screenshot></figure>
 </para>
 
 </section>
@@ -270,8 +271,9 @@ column and they are all described below.
     <figure>
         <title>Übersichtsseiten-Widgets</title>
 <screenshot>
-<graphic scale="40"
-fileref="screenshots/introduction/firststeps/dashboard-left-column-widgets.png"></graphic></screenshot></figure>
+<graphic
+fileref="screenshots/introduction/firststeps/dashboard-left-column-widgets.png"
+scalefit="1" width="100%" contentdepth="100%"></graphic></screenshot></figure>
 </para>
 
 <para>
@@ -375,8 +377,9 @@ necessary.
             <figure>
                 <title>Ticket Ereigniskalender Widget</title>
 <screenshot>
-<graphic scale="40"
-fileref="screenshots/introduction/firststeps/events-ticket-calendar.png"></graphic></screenshot></figure>
+<graphic
+fileref="screenshots/introduction/firststeps/events-ticket-calendar.png"
+scalefit="1" width="100%" contentdepth="100%"></graphic></screenshot></figure>
         </para>
         <para>
             Further configurations for this widget could be found under the
@@ -455,8 +458,8 @@ can't drag and drop it, or close it.
     <figure>
         <title>Dashboard Settings</title>
 <screenshot>
-<graphic scale="40"
-fileref="screenshots/introduction/firststeps/edit-settings.png"></graphic></screenshot></figure>
+<graphic fileref="screenshots/introduction/firststeps/edit-settings.png"
+scalefit="1" width="100%" contentdepth="100%"></graphic></screenshot></figure>
 </para>
 
 <para>
@@ -599,8 +602,8 @@ and for which the user has RW permissions.
 <figure>
     <title>Queue-Ansicht (Standard) für Agenten</title>
 <screenshot>
-<graphic scale="40"
-fileref="screenshots/introduction/firststeps/agent-queue-view.png"></graphic></screenshot></figure>
+<graphic fileref="screenshots/introduction/firststeps/agent-queue-view.png"
+scalefit="1" width="100%" contentdepth="100%"></graphic></screenshot></figure>
 </para>
 
 <para>
@@ -632,8 +635,9 @@ Es gibt visuelle Alarme, um den Agent zu unterstützen
 <figure>
     <title>Visuelle Alarme der Queueansicht </title>
 <screenshot>
-<graphic scale="40"
-fileref="screenshots/introduction/firststeps/agent-queue-overview-visual-alarms.png"></graphic></screenshot></figure>
+<graphic
+fileref="screenshots/introduction/firststeps/agent-queue-overview-visual-alarms.png"
+scalefit="1" width="100%" contentdepth="100%"></graphic></screenshot></figure>
 </para>
 
 <itemizedlist>
@@ -672,8 +676,8 @@ of the web interface (see figure below), and customers must click on the
 <figure>
     <title>Agent's personal preferences</title>
 <screenshot>
-<graphic scale="40"
-fileref="screenshots/introduction/firststeps/agent-preferences.png"></graphic></screenshot></figure>
+<graphic fileref="screenshots/introduction/firststeps/agent-preferences.png"
+scalefit="1" width="100%" contentdepth="100%"></graphic></screenshot></figure>
 </para>
 
 <para>
@@ -728,8 +732,9 @@ method).</para>
 <figure>
     <title>Customer's personal preferences</title>
 <screenshot>
-<graphic scale="40"
-fileref="screenshots/introduction/firststeps/customer-preferences.png"></graphic></screenshot></figure>
+<graphic
+fileref="screenshots/introduction/firststeps/customer-preferences.png"
+scalefit="1" width="100%" contentdepth="100%"></graphic></screenshot></figure>
 </para>
 
 <para>

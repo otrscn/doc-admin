@@ -172,8 +172,8 @@ very high" then will also match).
                     <figure>
                         <title>ACL 100-Example-ACL</title>
 <screenshot>
-<graphic scale="40"
-fileref="screenshots/customization/acl-move.png"></graphic></screenshot></figure>
+<graphic fileref="screenshots/customization/acl-move.png" scalefit="1"
+width="100%" contentdepth="100%"></graphic></screenshot></figure>
                 </para>
 <programlisting>
 # ticket acl
@@ -209,8 +209,8 @@ $Self->{TicketAcl}->{'100-Example-ACL'} = {
                     <figure>
                         <title>ACL 102-Example-ACL</title>
 <screenshot>
-<graphic scale="40"
-fileref="screenshots/customization/acl-move2.png"></graphic></screenshot></figure>
+<graphic fileref="screenshots/customization/acl-move2.png" scalefit="1"
+width="100%" contentdepth="100%"></graphic></screenshot></figure>
                 </para>
 <programlisting>
 # ticket acl
@@ -246,8 +246,8 @@ $Self->{TicketAcl}->{'102-Example-ACL'} = {
                     <figure>
                         <title>ACL 102-Second-Example-ACL</title>
 <screenshot>
-<graphic scale="40"
-fileref="screenshots/customization/acl-close.png"></graphic></screenshot></figure>
+<graphic fileref="screenshots/customization/acl-close.png" scalefit="1"
+width="100%" contentdepth="100%"></graphic></screenshot></figure>
                 </para>
 <programlisting>
 $Self->{TicketAcl}->{'102-Second-Example-ACL'} = {
@@ -284,8 +284,8 @@ $Self->{TicketAcl}->{'102-Second-Example-ACL'} = {
                     <figure>
                         <title>ACL 103-Third-ACL-Example</title>
 <screenshot>
-<graphic scale="40"
-fileref="screenshots/customization/acl-state.png"></graphic></screenshot></figure>
+<graphic fileref="screenshots/customization/acl-state.png" scalefit="1"
+width="100%" contentdepth="100%"></graphic></screenshot></figure>
                 </para>
 <programlisting>
 $Self->{TicketAcl}->{'103-Third-ACL-Example'} = {
@@ -316,8 +316,8 @@ $Self->{TicketAcl}->{'103-Third-ACL-Example'} = {
                     <figure>
                         <title>ACL 104-Only-Hardware-Services-for-HW-Queues-ACL</title>
 <screenshot>
-<graphic scale="40"
-fileref="screenshots/customization/acl-new-ticket-service.png"></graphic></screenshot></figure>
+<graphic fileref="screenshots/customization/acl-new-ticket-service.png"
+scalefit="1" width="100%" contentdepth="100%"></graphic></screenshot></figure>
                 </para>
 <programlisting>
 $Self->{TicketAcl}->{'104-Only-Hardware-Services-for-HW-Queues-ACL'} = {
@@ -348,8 +348,9 @@ $Self->{TicketAcl}->{'104-Only-Hardware-Services-for-HW-Queues-ACL'} = {
                     <figure>
                         <title>ACL 105-Disallow-Process-For-CustomerID</title>
 <screenshot>
-<graphic scale="40"
-fileref="screenshots/customization/acl-disallow-process-for-customerid.png"></graphic></screenshot></figure>
+<graphic
+fileref="screenshots/customization/acl-disallow-process-for-customerid.png"
+scalefit="1" width="100%" contentdepth="100%"></graphic></screenshot></figure>
                 </para>
 <programlisting>
 $Self->{TicketAcl}->{"105-Disallow-Process-For-CustomerID"} = {

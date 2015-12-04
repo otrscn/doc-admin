@@ -59,7 +59,7 @@
             <figure>
                 <title>Web services overview</title>
                 <screenshot>
-                     <graphic scale="40" fileref="screenshots/administration/genericinterface/genericinterface-webservice-overview.png"></graphic>
+                     <graphic fileref="screenshots/administration/genericinterface/genericinterface-webservice-overview.png" scalefit="1" width="100%" contentdepth="100%"></graphic>
                 </screenshot>
             </figure>
         </para>
@@ -128,7 +128,7 @@
             <figure>
                 <title>Web services add</title>
                 <screenshot>
-                     <graphic scale="40" fileref="screenshots/administration/genericinterface/genericinterface-webservice-add.png"></graphic>
+                     <graphic fileref="screenshots/administration/genericinterface/genericinterface-webservice-add.png" scalefit="1" width="100%" contentdepth="100%"></graphic>
                 </screenshot>
             </figure>
         </para>
@@ -200,7 +200,7 @@
                 <figure>
                     <title>Web service clone</title>
                     <screenshot>
-                         <graphic scale="40" fileref="screenshots/administration/genericinterface/genericinterface-webservice-clone.png"></graphic>
+                         <graphic fileref="screenshots/administration/genericinterface/genericinterface-webservice-clone.png" scalefit="1" width="100%" contentdepth="100%"></graphic>
                     </screenshot>
                 </figure>
             </para>
@@ -237,7 +237,7 @@
                 <figure>
                     <title>Web services export</title>
                     <screenshot>
-                         <graphic scale="40" fileref="screenshots/administration/genericinterface/genericinterface-webservice-export.png"></graphic>
+                         <graphic fileref="screenshots/administration/genericinterface/genericinterface-webservice-export.png" scalefit="1" width="100%" contentdepth="100%"></graphic>
                     </screenshot>
                 </figure>
             </para>
@@ -268,7 +268,7 @@
                 <figure>
                     <title>Web services import</title>
                     <screenshot>
-                         <graphic scale="40" fileref="screenshots/administration/genericinterface/genericinterface-webservice-import.png"></graphic>
+                         <graphic fileref="screenshots/administration/genericinterface/genericinterface-webservice-import.png" scalefit="1" width="100%" contentdepth="100%"></graphic>
                     </screenshot>
                 </figure>
             </para>
@@ -316,7 +316,7 @@
                 <figure>
                     <title>Web service history</title>
                     <screenshot>
-                         <graphic scale="40" fileref="screenshots/administration/genericinterface/genericinterface-webservice-history.png"></graphic>
+                         <graphic fileref="screenshots/administration/genericinterface/genericinterface-webservice-history.png" scalefit="1" width="100%" contentdepth="100%"></graphic>
                     </screenshot>
                 </figure>
             </para>
@@ -343,7 +343,7 @@
                 <figure>
                     <title>Web service delete</title>
                     <screenshot>
-                         <graphic scale="40" fileref="screenshots/administration/genericinterface/genericinterface-webservice-delete.png"></graphic>
+                         <graphic fileref="screenshots/administration/genericinterface/genericinterface-webservice-delete.png" scalefit="1" width="100%" contentdepth="100%"></graphic>
                     </screenshot>
                 </figure>
             </para>
@@ -411,7 +411,7 @@
                 <figure>
                     <title>Web service debugger</title>
                     <screenshot>
-                         <graphic scale="40" fileref="screenshots/administration/genericinterface/genericinterface-webservice-debugger.png"></graphic>
+                         <graphic fileref="screenshots/administration/genericinterface/genericinterface-webservice-debugger.png" scalefit="1" width="100%" contentdepth="100%"></graphic>
                     </screenshot>
                 </figure>
             </para>
@@ -455,7 +455,7 @@
                 <figure>
                     <title>Web services change</title>
                     <screenshot>
-                         <graphic scale="40" fileref="screenshots/administration/genericinterface/genericinterface-webservice-change.png"></graphic>
+                         <graphic fileref="screenshots/administration/genericinterface/genericinterface-webservice-change.png" scalefit="1" width="100%" contentdepth="100%"></graphic>
                     </screenshot>
                 </figure>
             </para>
@@ -502,7 +502,7 @@
                     <figure>
                         <title>Web service provider network transport HTTP::SOAP</title>
                         <screenshot>
-                             <graphic scale="40" fileref="screenshots/administration/genericinterface/genericinterface-webservice-provider-transport-soap.png"></graphic>
+                             <graphic fileref="screenshots/administration/genericinterface/genericinterface-webservice-provider-transport-soap.png" scalefit="1" width="100%" contentdepth="100%"></graphic>
                         </screenshot>
                     </figure>
                 </para>
@@ -642,7 +642,7 @@
                     <figure>
                         <title>Web service provider network transport HTTP::REST</title>
                         <screenshot>
-                             <graphic scale="40" fileref="screenshots/administration/genericinterface/genericinterface-webservice-provider-transport-rest.png"></graphic>
+                             <graphic fileref="screenshots/administration/genericinterface/genericinterface-webservice-provider-transport-rest.png" scalefit="1" width="100%" contentdepth="100%"></graphic>
                         </screenshot>
                     </figure>
                 </para>
@@ -689,7 +689,7 @@
                     <figure>
                         <title>Web service operation</title>
                         <screenshot>
-                             <graphic scale="40" fileref="screenshots/administration/genericinterface/genericinterface-webservice-operation.png"></graphic>
+                             <graphic fileref="screenshots/administration/genericinterface/genericinterface-webservice-operation.png" scalefit="1" width="100%" contentdepth="100%"></graphic>
                         </screenshot>
                     </figure>
                 </para>
@@ -751,7 +751,7 @@
                     <figure>
                         <title>Web service requester network transport (HTTP::SOAP)</title>
                         <screenshot>
-                             <graphic scale="40" fileref="screenshots/administration/genericinterface/genericinterface-webservice-requester-transport-soap.png"></graphic>
+                             <graphic fileref="screenshots/administration/genericinterface/genericinterface-webservice-requester-transport-soap.png" scalefit="1" width="100%" contentdepth="100%"></graphic>
                         </screenshot>
                     </figure>
                 </para>
@@ -856,7 +856,7 @@
                     <figure>
                         <title>Web service provider network transport HTTP::REST</title>
                         <screenshot>
-                             <graphic scale="40" fileref="screenshots/administration/genericinterface/genericinterface-webservice-requester-transport-rest.png"></graphic>
+                             <graphic fileref="screenshots/administration/genericinterface/genericinterface-webservice-requester-transport-rest.png" scalefit="1" width="100%" contentdepth="100%"></graphic>
                         </screenshot>
                     </figure>
                 </para>
@@ -935,7 +935,7 @@
                     <figure>
                         <title>Web service invoker</title>
                         <screenshot>
-                             <graphic scale="40" fileref="screenshots/administration/genericinterface/genericinterface-webservice-invoker.png"></graphic>
+                             <graphic fileref="screenshots/administration/genericinterface/genericinterface-webservice-invoker.png" scalefit="1" width="100%" contentdepth="100%"></graphic>
                         </screenshot>
                     </figure>
                 </para>
@@ -1043,7 +1043,7 @@
                     <figure>
                         <title>Web service mapping</title>
                         <screenshot>
-                             <graphic scale="40" fileref="screenshots/administration/genericinterface/genericinterface-webservice-mapping.png"></graphic>
+                             <graphic fileref="screenshots/administration/genericinterface/genericinterface-webservice-mapping.png" scalefit="1" width="100%" contentdepth="100%"></graphic>
                         </screenshot>
                     </figure>
                 </para>

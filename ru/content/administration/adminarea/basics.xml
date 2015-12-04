@@ -23,7 +23,7 @@ access rights will not be able to access this link.
         <figure>
             <title>OTRS Administration Overview Screen</title>
 <screenshot>
-<graphic scale="40"
-fileref="screenshots/administration/adminarea/adminarea.png"></graphic></screenshot></figure>
+<graphic fileref="screenshots/administration/adminarea/adminarea.png"
+scalefit="1" width="100%" contentdepth="100%"></graphic></screenshot></figure>
     </para>
 </section>

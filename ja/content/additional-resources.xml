@@ -84,7 +84,8 @@ from OTRS</ulink>, or the public mailing lists.
                     <figure>
                         <title>バグ・トラッキング・ツール</title>
 <screenshot>
-<graphic scale="40" fileref="screenshots/bugs-otrs-org.png"></graphic></screenshot></figure>
+<graphic fileref="screenshots/bugs-otrs-org.png" scalefit="1" width="100%"
+contentdepth="100%"></graphic></screenshot></figure>
                 </para>
             </listitem>
         </varlistentry>

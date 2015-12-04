@@ -412,7 +412,7 @@ ISBN: 3527703713
                 <figure>
                     <title>OTRS Admin screen - System Administration</title>
                     <screenshot>
-                         <graphic scale='40' fileref="screenshots/customization/pm-admin-sysadmin.png"></graphic>
+                         <graphic fileref="screenshots/customization/pm-admin-sysadmin.png" scalefit="1" width="100%" contentdepth="100%"></graphic>
                     </screenshot>
                 </figure>
             </para>
@@ -424,7 +424,7 @@ ISBN: 3527703713
                 <figure>
                     <title>Create New Process button</title>
                     <screenshot>
-                         <graphic scale='40' fileref="screenshots/customization/pm-newprocess-button.png"></graphic>
+                         <graphic fileref="screenshots/customization/pm-newprocess-button.png" scalefit="1" width="100%" contentdepth="100%"></graphic>
                     </screenshot>
                 </figure>
             </para>
@@ -436,7 +436,7 @@ ISBN: 3527703713
                 <figure>
                     <title>Add new process</title>
                     <screenshot>
-                         <graphic scale='40' fileref="screenshots/customization/pm-newprocess-info.png"></graphic>
+                         <graphic fileref="screenshots/customization/pm-newprocess-info.png" scalefit="1" width="100%" contentdepth="100%"></graphic>
                     </screenshot>
                 </figure>
             </para>
@@ -453,7 +453,7 @@ ISBN: 3527703713
                     <figure>
                         <title>Create New Activity Dialog button</title>
                         <screenshot>
-                             <graphic scale='40' fileref="screenshots/customization/pm-accordion-new-activitydialog.png"></graphic>
+                             <graphic fileref="screenshots/customization/pm-accordion-new-activitydialog.png" scalefit="1" width="100%" contentdepth="100%"></graphic>
                         </screenshot>
                     </figure>
                 </para>
@@ -470,7 +470,7 @@ ISBN: 3527703713
                     <figure>
                         <title>Add new Activity Dialog</title>
                         <screenshot>
-                             <graphic scale='40' fileref="screenshots/customization/pm-edit-activitydialog.png"></graphic>
+                             <graphic fileref="screenshots/customization/pm-edit-activitydialog.png" scalefit="1" width="100%" contentdepth="100%"></graphic>
                         </screenshot>
                     </figure>
                 </para>
@@ -484,7 +484,7 @@ ISBN: 3527703713
                     <figure>
                         <title>Edit field details (Article)</title>
                         <screenshot>
-                             <graphic scale='40' fileref="screenshots/customization/pm-edit-field-article.png"></graphic>
+                             <graphic fileref="screenshots/customization/pm-edit-field-article.png" scalefit="1" width="100%" contentdepth="100%"></graphic>
                         </screenshot>
                     </figure>
                 </para>
@@ -648,7 +648,7 @@ ISBN: 3527703713
                     <figure>
                         <title>Create New Transition button</title>
                         <screenshot>
-                             <graphic scale='40' fileref="screenshots/customization/pm-accordion-new-transition.png"></graphic>
+                             <graphic fileref="screenshots/customization/pm-accordion-new-transition.png" scalefit="1" width="100%" contentdepth="100%"></graphic>
                         </screenshot>
                     </figure>
                 </para>
@@ -662,7 +662,7 @@ ISBN: 3527703713
                     <figure>
                         <title>Add new Transition</title>
                         <screenshot>
-                             <graphic scale='40' fileref="screenshots/customization/pm-edit-transition.png"></graphic>
+                             <graphic fileref="screenshots/customization/pm-edit-transition.png" scalefit="1" width="100%" contentdepth="100%"></graphic>
                         </screenshot>
                     </figure>
                 </para>
@@ -725,7 +725,7 @@ ISBN: 3527703713
                     <figure>
                         <title>Create New Transition Action button</title>
                         <screenshot>
-                             <graphic scale='40' fileref="screenshots/customization/pm-accordion-new-transitionaction.png"></graphic>
+                             <graphic fileref="screenshots/customization/pm-accordion-new-transitionaction.png" scalefit="1" width="100%" contentdepth="100%"></graphic>
                         </screenshot>
                     </figure>
                 </para>
@@ -775,7 +775,7 @@ ISBN: 3527703713
                     <figure>
                         <title>Add new Transition Action</title>
                         <screenshot>
-                             <graphic scale='40' fileref="screenshots/customization/pm-edit-transitionaction.png"></graphic>
+                             <graphic fileref="screenshots/customization/pm-edit-transitionaction.png" scalefit="1" width="100%" contentdepth="100%"></graphic>
                         </screenshot>
                     </figure>
                 </para>
@@ -882,7 +882,7 @@ ISBN: 3527703713
                 <figure>
                     <title>Create New Activity button</title>
                     <screenshot>
-                         <graphic scale='40' fileref="screenshots/customization/pm-accordion-new-activity.png"></graphic>
+                         <graphic fileref="screenshots/customization/pm-accordion-new-activity.png" scalefit="1" width="100%" contentdepth="100%"></graphic>
                     </screenshot>
                 </figure>
             </para>
@@ -970,7 +970,7 @@ ISBN: 3527703713
                 <figure>
                     <title>Drag first Activity into the canvas</title>
                     <screenshot>
-                         <graphic scale='40' fileref="screenshots/customization/pm-canvas-drag-activity.png"></graphic>
+                         <graphic fileref="screenshots/customization/pm-canvas-drag-activity.png" scalefit="1" width="100%" contentdepth="100%"></graphic>
                     </screenshot>
                 </figure>
             </para>
@@ -984,7 +984,7 @@ ISBN: 3527703713
                 <figure>
                     <title>Drag second Activity into the canvas</title>
                     <screenshot>
-                         <graphic scale='40' fileref="screenshots/customization/pm-canvas-drag-activity2.png"></graphic>
+                         <graphic fileref="screenshots/customization/pm-canvas-drag-activity2.png" scalefit="1" width="100%" contentdepth="100%"></graphic>
                     </screenshot>
                 </figure>
             </para>
@@ -1001,7 +1001,7 @@ ISBN: 3527703713
                 <figure>
                     <title>Drag a Transition into the canvas</title>
                     <screenshot>
-                         <graphic scale='40' fileref="screenshots/customization/pm-canvas-drag-transition.png"></graphic>
+                         <graphic fileref="screenshots/customization/pm-canvas-drag-transition.png" scalefit="1" width="100%" contentdepth="100%"></graphic>
                     </screenshot>
                 </figure>
             </para>
@@ -1014,7 +1014,7 @@ ISBN: 3527703713
                 <figure>
                     <title>Connect Activities using Transitions</title>
                     <screenshot>
-                         <graphic scale='40' fileref="screenshots/customization/pm-canvas-drag-transition2.png"></graphic>
+                         <graphic fileref="screenshots/customization/pm-canvas-drag-transition2.png" scalefit="1" width="100%" contentdepth="100%"></graphic>
                     </screenshot>
                 </figure>
             </para>
@@ -1026,7 +1026,7 @@ ISBN: 3527703713
                 <figure>
                     <title>Assign Transition Actions</title>
                     <screenshot>
-                         <graphic scale='40' fileref="screenshots/customization/pm-edit-path.png"></graphic>
+                         <graphic fileref="screenshots/customization/pm-edit-path.png" scalefit="1" width="100%" contentdepth="100%"></graphic>
                     </screenshot>
                 </figure>
             </para>
@@ -1285,7 +1285,7 @@ ISBN: 3527703713
                 <figure>
                     <title>Book ordering complete process path</title>
                     <screenshot>
-                         <graphic scale='40' fileref="screenshots/customization/pm-edit-process.png"></graphic>
+                         <graphic fileref="screenshots/customization/pm-edit-process.png" scalefit="1" width="100%" contentdepth="100%"></graphic>
                     </screenshot>
                 </figure>
             </para>

@@ -143,8 +143,8 @@ notification groups, please edit the
             <figure>
                 <title>Daemon notification</title>
 <screenshot>
-<graphic scale="40"
-fileref="screenshots/administration/adminarea/daemon-notify.png"></graphic></screenshot></figure>
+<graphic fileref="screenshots/administration/adminarea/daemon-notify.png"
+scalefit="1" width="100%" contentdepth="100%"></graphic></screenshot></figure>
         </para>
         <para>
             Clicking the notification the system presents an overlay window explaining
@@ -154,8 +154,8 @@ the steps to bring the OTRS Daemon up and running.
             <figure>
                 <title>Start Daemon</title>
 <screenshot>
-<graphic scale="40"
-fileref="screenshots/administration/adminarea/daemon-start.png"></graphic></screenshot></figure>
+<graphic fileref="screenshots/administration/adminarea/daemon-start.png"
+scalefit="1" width="100%" contentdepth="100%"></graphic></screenshot></figure>
         </para>
     </section>
     <section id="daemon-cli">

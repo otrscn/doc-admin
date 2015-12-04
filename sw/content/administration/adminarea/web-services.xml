@@ -13,8 +13,9 @@ below).
         <figure>
             <title>Kiolesura mchoro cha huduma za tovuti</title>
 <screenshot>
-<graphic scale="40"
-fileref="screenshots/administration/adminarea/genericinterface-webservice-overview.png"></graphic></screenshot></figure>
+<graphic
+fileref="screenshots/administration/adminarea/genericinterface-webservice-overview.png"
+scalefit="1" width="100%" contentdepth="100%"></graphic></screenshot></figure>
     </para>
     <para>
         Kiolesura michoro cha huduma za wavuti kinaelezewa kwa undani zaidi katika

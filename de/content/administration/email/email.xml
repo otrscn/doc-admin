@@ -78,8 +78,8 @@ required for OTRS"</link> for instructions.</para>
 <figure>
     <title>Einen E-Mail-Account hinzufügen</title>
 <screenshot>
-<graphic scale="40"
-fileref="screenshots/administration/email/add-mailaccount.png"></graphic></screenshot></figure>
+<graphic fileref="screenshots/administration/email/add-mailaccount.png"
+scalefit="1" width="100%" contentdepth="100%"></graphic></screenshot></figure>
 </para>
 
 <para>Wählen Sie für "Vertraut" den Wert "Ja" aus, dann werden die

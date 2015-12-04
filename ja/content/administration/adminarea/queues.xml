@@ -18,8 +18,8 @@ messages.
 <figure>
     <title>キュー管理</title>
 <screenshot>
-<graphic scale="40"
-fileref="screenshots/administration/adminarea/admin-queue.png"></graphic></screenshot></figure>
+<graphic fileref="screenshots/administration/adminarea/admin-queue.png"
+scalefit="1" width="100%" contentdepth="100%"></graphic></screenshot></figure>
 </para>
 
 <para>
@@ -32,8 +32,8 @@ sub-queue of an existing queue.
 <figure>
     <title>Adding a new queue</title>
 <screenshot>
-<graphic scale="40"
-fileref="screenshots/administration/adminarea/add-queue.png"></graphic></screenshot></figure>
+<graphic fileref="screenshots/administration/adminarea/add-queue.png"
+scalefit="1" width="100%" contentdepth="100%"></graphic></screenshot></figure>
 </para>
 
 <para>

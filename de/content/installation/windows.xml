@@ -74,8 +74,9 @@ OTRSCloneDB-1.0.13.opm
                 <figure>
                     <title>Download des OTRSCloneDB-Skript - Screenshot</title>
 <screenshot>
-<graphic scale="80"
-fileref="screenshots/introduction/installation/win-download-otrsclonedb.png"></graphic></screenshot></figure>
+<graphic
+fileref="screenshots/introduction/installation/win-download-otrsclonedb.png"
+scalefit="1" width="100%" contentdepth="100%"></graphic></screenshot></figure>
             </para>
             <para>
                 and install it to your Windows based installation:
@@ -84,8 +85,9 @@ fileref="screenshots/introduction/installation/win-download-otrsclonedb.png"></g
                 <figure>
                     <title>Installieren des OTRSCloneDB-Skripts - Screenshot</title>
 <screenshot>
-<graphic scale="80"
-fileref="screenshots/introduction/installation/win-install-otrsclonedb.png"></graphic></screenshot></figure>
+<graphic
+fileref="screenshots/introduction/installation/win-install-otrsclonedb.png"
+scalefit="1" width="100%" contentdepth="100%"></graphic></screenshot></figure>
             </para>
             <para>
                 It is also no problem if you have installed some additional features or
@@ -218,8 +220,9 @@ Shell> less Kernel/Config.pm
                 <figure>
                     <title>Zieldatenbankpasswort holen - Bildschirmfoto</title>
 <screenshot>
-<graphic scale="80"
-fileref="screenshots/introduction/installation/win-gather-db-data-1.png"></graphic></screenshot></figure>
+<graphic
+fileref="screenshots/introduction/installation/win-gather-db-data-1.png"
+scalefit="1" width="100%" contentdepth="100%"></graphic></screenshot></figure>
             </para>
             <para>
                 In unserem Beispiel:
@@ -242,8 +245,9 @@ menu.  Please select the group "OTRSCloneDB" and the subgroup
                 <figure>
                     <title>Konfiguration der OTRSCloneDB Sysconfig 1 - screenshot</title>
 <screenshot>
-<graphic scale="80"
-fileref="screenshots/introduction/installation/win_configurate_otrsclonedb_sysconfig-1.png"></graphic></screenshot></figure>
+<graphic
+fileref="screenshots/introduction/installation/win_configurate_otrsclonedb_sysconfig-1.png"
+scalefit="1" width="100%" contentdepth="100%"></graphic></screenshot></figure>
             </para>
             <para>
                 Sie müssen in der SysConfig die Option OTRSCloneDB::TargetSettings mit den
@@ -262,8 +266,9 @@ TargetDatabaseType => postgresql
                 <figure>
                     <title>Konfiguration der OTRSCloneDB Sysconfig 2 - screenshot</title>
 <screenshot>
-<graphic scale="80"
-fileref="screenshots/introduction/installation/win-configurate-otrsclonedb-sysconfig-2.png"></graphic></screenshot></figure>
+<graphic
+fileref="screenshots/introduction/installation/win-configurate-otrsclonedb-sysconfig-2.png"
+scalefit="1" width="100%" contentdepth="100%"></graphic></screenshot></figure>
             </para>
             <para>
                 To run the OTRSCloneDB script we need to switch to the command prompt of our
@@ -288,8 +293,9 @@ Shell> StrawberryPerl\portableshell.bat
                 <figure>
                     <title>Ausführen des OTRSCloneDB-Skript 1 - screenshot</title>
 <screenshot>
-<graphic scale="80"
-fileref="screenshots/introduction/installation/win-run-otrsclonedb-1.png"></graphic></screenshot></figure>
+<graphic
+fileref="screenshots/introduction/installation/win-run-otrsclonedb-1.png"
+scalefit="1" width="100%" contentdepth="100%"></graphic></screenshot></figure>
             </para>
             <para>
                 The OTRSCloneDB script is located in the bin directory of the OTRS
@@ -315,8 +321,9 @@ Shell> perl otrs.OTRSCloneDB.pl
                 <figure>
                     <title>Run OTRSCloneDB script 2 - screenshot</title>
 <screenshot>
-<graphic scale="80"
-fileref="screenshots/introduction/installation/win-run-otrsclonedb-2.png"></graphic></screenshot></figure>
+<graphic
+fileref="screenshots/introduction/installation/win-run-otrsclonedb-2.png"
+scalefit="1" width="100%" contentdepth="100%"></graphic></screenshot></figure>
             </para>
             <para>
                 Anmerkung... Fehler die während einer Ausführung ohne Parameter auftreten,
@@ -335,8 +342,9 @@ Shell> perl otrs.OTRSCloneDB.pl -n
                 <figure>
                     <title>Run OTRSCloneDB script 3 - screenshot</title>
 <screenshot>
-<graphic scale="80"
-fileref="screenshots/introduction/installation/win-run-otrsclonedb-3.png"></graphic></screenshot></figure>
+<graphic
+fileref="screenshots/introduction/installation/win-run-otrsclonedb-3.png"
+scalefit="1" width="100%" contentdepth="100%"></graphic></screenshot></figure>
             </para>
             <para>
                 Starten Sie das Klonen der Datenbank:

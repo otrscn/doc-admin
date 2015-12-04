@@ -17,7 +17,7 @@ link of the admin area (see figure below).
 <figure>
     <title>Salutation management</title>
     <screenshot>
-         <graphic scale="40" fileref="screenshots/administration/adminarea/admin-salutation.png"></graphic>
+         <graphic fileref="screenshots/administration/adminarea/admin-salutation.png" scalefit="1" width="100%" contentdepth="100%"></graphic>
     </screenshot>
 </figure>
 </para>
@@ -34,7 +34,7 @@ To create a new salutation, press the button "Add salutation", provide the requi
 <figure>
     <title>Adding a new salutation</title>
     <screenshot>
-         <graphic scale="40" fileref="screenshots/administration/adminarea/add-salutation.png"></graphic>
+         <graphic fileref="screenshots/administration/adminarea/add-salutation.png" scalefit="1" width="100%" contentdepth="100%"></graphic>
     </screenshot>
 </figure>
 </para>
@@ -66,7 +66,7 @@ Another text module for a template is the signature. Signatures can be linked to
 <figure>
     <title>Signatures management</title>
     <screenshot>
-         <graphic scale="40" fileref="screenshots/administration/adminarea/admin-signatures.png"></graphic>
+         <graphic fileref="screenshots/administration/adminarea/admin-signatures.png" scalefit="1" width="100%" contentdepth="100%"></graphic>
     </screenshot>
 </figure>
 </para>
@@ -83,7 +83,7 @@ To create a new signature, press the button "Add signature", provide the needed 
 <figure>
     <title>Adding a new signature</title>
     <screenshot>
-         <graphic scale="40" fileref="screenshots/administration/adminarea/add-signature.png"></graphic>
+         <graphic fileref="screenshots/administration/adminarea/add-signature.png" scalefit="1" width="100%" contentdepth="100%"></graphic>
     </screenshot>
 </figure>
 </para>
@@ -115,7 +115,7 @@ Through the "Attachment" link of the Admin page, you can load the attachments in
 <figure>
     <title>Attachments management</title>
     <screenshot>
-         <graphic scale="40" fileref="screenshots/administration/adminarea/admin-attachment.png"></graphic>
+         <graphic fileref="screenshots/administration/adminarea/admin-attachment.png" scalefit="1" width="100%" contentdepth="100%"></graphic>
     </screenshot>
 </figure>
 </para>
@@ -128,7 +128,7 @@ To create a new attachment, press the button "Add attachment", provide the requi
 <figure>
     <title>Adding a new attachment</title>
     <screenshot>
-         <graphic scale="40" fileref="screenshots/administration/adminarea/add-attachment.png"></graphic>
+         <graphic fileref="screenshots/administration/adminarea/add-attachment.png" scalefit="1" width="100%" contentdepth="100%"></graphic>
     </screenshot>
 </figure>
 </para>
@@ -142,7 +142,7 @@ link of the Admin page (see figure below).
 <figure>
     <title>Linking Attachments to Templates</title>
     <screenshot>
-         <graphic scale="40" fileref="screenshots/administration/adminarea/admin-attachment-template.png"></graphic>
+         <graphic fileref="screenshots/administration/adminarea/admin-attachment-template.png" scalefit="1" width="100%" contentdepth="100%"></graphic>
     </screenshot>
 </figure>
 </para>
@@ -155,7 +155,7 @@ To associate different attachments with a specific template and vice versa, clic
 <figure>
     <title>Change Attachment relations for a Template</title>
     <screenshot>
-         <graphic scale="40" fileref="screenshots/administration/adminarea/template-attachment-relations.png"></graphic>
+         <graphic fileref="screenshots/administration/adminarea/template-attachment-relations.png" scalefit="1" width="100%" contentdepth="100%"></graphic>
     </screenshot>
 </figure>
 </para>
@@ -164,7 +164,7 @@ To associate different attachments with a specific template and vice versa, clic
 <figure>
     <title>Change Template relations for an Attachment</title>
     <screenshot>
-         <graphic scale="40" fileref="screenshots/administration/adminarea/template-attachment-relations2.png"></graphic>
+         <graphic fileref="screenshots/administration/adminarea/template-attachment-relations2.png" scalefit="1" width="100%" contentdepth="100%"></graphic>
     </screenshot>
 </figure>
 </para>
@@ -229,7 +229,7 @@ To associate different attachments with a specific template and vice versa, clic
 <figure>
     <title>Template management</title>
     <screenshot>
-         <graphic scale="40" fileref="screenshots/administration/adminarea/admin-template.png"></graphic>
+         <graphic fileref="screenshots/administration/adminarea/admin-template.png" scalefit="1" width="100%" contentdepth="100%"></graphic>
     </screenshot>
 </figure>
 </para>
@@ -243,7 +243,7 @@ To associate different attachments with a specific template and vice versa, clic
 <figure>
     <title>Adding a template</title>
     <screenshot>
-         <graphic scale="40" fileref="screenshots/administration/adminarea/add-template.png"></graphic>
+         <graphic fileref="screenshots/administration/adminarea/add-template.png" scalefit="1" width="100%" contentdepth="100%"></graphic>
     </screenshot>
 </figure>
 </para>
@@ -256,7 +256,7 @@ To add/remove templates to one or more queues, click on the "Templates &lt;-&gt;
 <figure>
     <title>Template-Queue relations management</title>
     <screenshot>
-         <graphic scale="40" fileref="screenshots/administration/adminarea/admin-template-queue.png"></graphic>
+         <graphic fileref="screenshots/administration/adminarea/admin-template-queue.png" scalefit="1" width="100%" contentdepth="100%"></graphic>
     </screenshot>
 </figure>
 </para>
@@ -269,7 +269,7 @@ To define the different templates that will be available for a queue and vice ve
 <figure>
     <title>Change Queue relations for a Template</title>
     <screenshot>
-         <graphic scale="40" fileref="screenshots/administration/adminarea/template-queue-relations.png"></graphic>
+         <graphic fileref="screenshots/administration/adminarea/template-queue-relations.png" scalefit="1" width="100%" contentdepth="100%"></graphic>
     </screenshot>
 </figure>
 </para>
@@ -278,7 +278,7 @@ To define the different templates that will be available for a queue and vice ve
 <figure>
     <title>Change Template relations for a Queue</title>
     <screenshot>
-         <graphic scale="40" fileref="screenshots/administration/adminarea/template-queue-relations2.png"></graphic>
+         <graphic fileref="screenshots/administration/adminarea/template-queue-relations2.png" scalefit="1" width="100%" contentdepth="100%"></graphic>
     </screenshot>
 </figure>
 </para>

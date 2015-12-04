@@ -21,8 +21,9 @@ edited, run manually or removed entirely.
 <figure>
     <title>Список заданий для GenericAgent</title>
 <screenshot>
-<graphic scale="40"
-fileref="screenshots/administration/adminarea/admin-genericagent.png"></graphic></screenshot></figure>
+<graphic
+fileref="screenshots/administration/adminarea/admin-genericagent.png"
+scalefit="1" width="100%" contentdepth="100%"></graphic></screenshot></figure>
 </para>
 
 <para>
@@ -40,8 +41,9 @@ fileref="screenshots/administration/adminarea/admin-genericagent.png"></graphic>
 <figure>
     <title>Создание заданий для GenericAgent</title>
 <screenshot>
-<graphic scale="40"
-fileref="screenshots/administration/adminarea/add-genericagent-job.png"></graphic></screenshot></figure>
+<graphic
+fileref="screenshots/administration/adminarea/add-genericagent-job.png"
+scalefit="1" width="100%" contentdepth="100%"></graphic></screenshot></figure>
 </para>
 
 <para>

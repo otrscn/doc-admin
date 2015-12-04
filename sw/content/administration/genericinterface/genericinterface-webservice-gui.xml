@@ -62,8 +62,9 @@ utoe taarifa zinazotakiwa.
             <figure>
                 <title>Web services overview</title>
 <screenshot>
-<graphic scale="40"
-fileref="screenshots/administration/genericinterface/genericinterface-webservice-overview.png"></graphic></screenshot></figure>
+<graphic
+fileref="screenshots/administration/genericinterface/genericinterface-webservice-overview.png"
+scalefit="1" width="100%" contentdepth="100%"></graphic></screenshot></figure>
         </para>
     </section>
 
@@ -132,8 +133,9 @@ huduma ya tovuti kwenye skrini ya mapitio ya huduma za tovuti.
             <figure>
                 <title>Web services add</title>
 <screenshot>
-<graphic scale="40"
-fileref="screenshots/administration/genericinterface/genericinterface-webservice-add.png"></graphic></screenshot></figure>
+<graphic
+fileref="screenshots/administration/genericinterface/genericinterface-webservice-add.png"
+scalefit="1" width="100%" contentdepth="100%"></graphic></screenshot></figure>
         </para>
     </section>
 
@@ -204,8 +206,9 @@ kipekee kwenye mfumo.
                 <figure>
                     <title>Nakala ya huduma ya tovuti</title>
 <screenshot>
-<graphic scale="40"
-fileref="screenshots/administration/genericinterface/genericinterface-webservice-clone.png"></graphic></screenshot></figure>
+<graphic
+fileref="screenshots/administration/genericinterface/genericinterface-webservice-clone.png"
+scalefit="1" width="100%" contentdepth="100%"></graphic></screenshot></figure>
             </para>
         </section>
 
@@ -242,8 +245,9 @@ kivinjari chako kwa maelekezo zaidi kama inahitajika.
                 <figure>
                     <title>Web services export</title>
 <screenshot>
-<graphic scale="40"
-fileref="screenshots/administration/genericinterface/genericinterface-webservice-export.png"></graphic></screenshot></figure>
+<graphic
+fileref="screenshots/administration/genericinterface/genericinterface-webservice-export.png"
+scalefit="1" width="100%" contentdepth="100%"></graphic></screenshot></figure>
             </para>
         </section>
 
@@ -273,8 +277,9 @@ kubadilisha jina la huduma ya tovuti uliyoagiza.
                 <figure>
                     <title>Web services import</title>
 <screenshot>
-<graphic scale="40"
-fileref="screenshots/administration/genericinterface/genericinterface-webservice-import.png"></graphic></screenshot></figure>
+<graphic
+fileref="screenshots/administration/genericinterface/genericinterface-webservice-import.png"
+scalefit="1" width="100%" contentdepth="100%"></graphic></screenshot></figure>
             </para>
         </section>
 
@@ -321,8 +326,9 @@ irreversible.
                 <figure>
                     <title>Web service history</title>
 <screenshot>
-<graphic scale="40"
-fileref="screenshots/administration/genericinterface/genericinterface-webservice-history.png"></graphic></screenshot></figure>
+<graphic
+fileref="screenshots/administration/genericinterface/genericinterface-webservice-history.png"
+scalefit="1" width="100%" contentdepth="100%"></graphic></screenshot></figure>
             </para>
         </section>
 
@@ -347,8 +353,9 @@ huduma ya tovuti.
                 <figure>
                     <title>Futa huduma ya tovuti</title>
 <screenshot>
-<graphic scale="40"
-fileref="screenshots/administration/genericinterface/genericinterface-webservice-delete.png"></graphic></screenshot></figure>
+<graphic
+fileref="screenshots/administration/genericinterface/genericinterface-webservice-delete.png"
+scalefit="1" width="100%" contentdepth="100%"></graphic></screenshot></figure>
             </para>
         </section>
 
@@ -416,8 +423,9 @@ kukagua kasoro zozote au kuthibitisha mafanikio ya majibu.
                 <figure>
                     <title>Web service debugger</title>
 <screenshot>
-<graphic scale="40"
-fileref="screenshots/administration/genericinterface/genericinterface-webservice-debugger.png"></graphic></screenshot></figure>
+<graphic
+fileref="screenshots/administration/genericinterface/genericinterface-webservice-debugger.png"
+scalefit="1" width="100%" contentdepth="100%"></graphic></screenshot></figure>
             </para>
         </section>
 
@@ -462,8 +470,9 @@ sasa na kurudi kwenye skrini ya mapitio ya huduma za tovuti.
                 <figure>
                     <title>Web services change</title>
 <screenshot>
-<graphic scale="40"
-fileref="screenshots/administration/genericinterface/genericinterface-webservice-change.png"></graphic></screenshot></figure>
+<graphic
+fileref="screenshots/administration/genericinterface/genericinterface-webservice-change.png"
+scalefit="1" width="100%" contentdepth="100%"></graphic></screenshot></figure>
             </para>
             <note>
                 <para>
@@ -508,8 +517,9 @@ na ya pili ni sehemu ambayo unaweza kuweka bayana ukomo wa juu wa ukubwa
                     <figure>
                         <title>Web service provider network transport HTTP::SOAP</title>
 <screenshot>
-<graphic scale="40"
-fileref="screenshots/administration/genericinterface/genericinterface-webservice-provider-transport-soap.png"></graphic></screenshot></figure>
+<graphic
+fileref="screenshots/administration/genericinterface/genericinterface-webservice-provider-transport-soap.png"
+scalefit="1" width="100%" contentdepth="100%"></graphic></screenshot></figure>
                 </para>
                 <para>
                     For "HTTP::REST" the configuration might be a bit more complicated, as it
@@ -646,8 +656,9 @@ correctly the operation to use on each request.
                     <figure>
                         <title>Web service provider network transport HTTP::REST</title>
 <screenshot>
-<graphic scale="40"
-fileref="screenshots/administration/genericinterface/genericinterface-webservice-provider-transport-rest.png"></graphic></screenshot></figure>
+<graphic
+fileref="screenshots/administration/genericinterface/genericinterface-webservice-provider-transport-rest.png"
+scalefit="1" width="100%" contentdepth="100%"></graphic></screenshot></figure>
                 </para>
             </section>
 
@@ -693,8 +704,9 @@ delete dialog.
                     <figure>
                         <title>Web service operation</title>
 <screenshot>
-<graphic scale="40"
-fileref="screenshots/administration/genericinterface/genericinterface-webservice-operation.png"></graphic></screenshot></figure>
+<graphic
+fileref="screenshots/administration/genericinterface/genericinterface-webservice-operation.png"
+scalefit="1" width="100%" contentdepth="100%"></graphic></screenshot></figure>
                 </para>
             </section>
 
@@ -754,8 +766,9 @@ kama ikihitajika.
                     <figure>
                         <title>Web service requester network transport (HTTP::SOAP)</title>
 <screenshot>
-<graphic scale="40"
-fileref="screenshots/administration/genericinterface/genericinterface-webservice-requester-transport-soap.png"></graphic></screenshot></figure>
+<graphic
+fileref="screenshots/administration/genericinterface/genericinterface-webservice-requester-transport-soap.png"
+scalefit="1" width="100%" contentdepth="100%"></graphic></screenshot></figure>
                 </para>
                 <para>
                     In the case of HTTP::REST, this configuration also grows dynamically
@@ -857,8 +870,9 @@ selected, Default command is used.
                     <figure>
                         <title>Web service provider network transport HTTP::REST</title>
 <screenshot>
-<graphic scale="40"
-fileref="screenshots/administration/genericinterface/genericinterface-webservice-requester-transport-rest.png"></graphic></screenshot></figure>
+<graphic
+fileref="screenshots/administration/genericinterface/genericinterface-webservice-requester-transport-rest.png"
+scalefit="1" width="100%" contentdepth="100%"></graphic></screenshot></figure>
                 </para>
             </section>
 
@@ -937,8 +951,9 @@ maongezi.
                     <figure>
                         <title>Web service invoker</title>
 <screenshot>
-<graphic scale="40"
-fileref="screenshots/administration/genericinterface/genericinterface-webservice-invoker.png"></graphic></screenshot></figure>
+<graphic
+fileref="screenshots/administration/genericinterface/genericinterface-webservice-invoker.png"
+scalefit="1" width="100%" contentdepth="100%"></graphic></screenshot></figure>
                 </para>
             </section>
 
@@ -1049,8 +1064,9 @@ mabadiliko.
                     <figure>
                         <title>Web service mapping</title>
 <screenshot>
-<graphic scale="40"
-fileref="screenshots/administration/genericinterface/genericinterface-webservice-mapping.png"></graphic></screenshot></figure>
+<graphic
+fileref="screenshots/administration/genericinterface/genericinterface-webservice-mapping.png"
+scalefit="1" width="100%" contentdepth="100%"></graphic></screenshot></figure>
                 </para>
             </section>
         </section>

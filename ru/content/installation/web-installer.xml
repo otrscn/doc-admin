@@ -26,8 +26,8 @@ continue (see figure below).
 <figure>
     <title>Welcome screen</title>
 <screenshot>
-<graphic scale="40"
-fileref="screenshots/introduction/installation/installer1.png"></graphic></screenshot></figure>
+<graphic fileref="screenshots/introduction/installation/installer1.png"
+scalefit="1" width="100%" contentdepth="100%"></graphic></screenshot></figure>
 </para>
 
 <para>
@@ -39,8 +39,8 @@ it, by clicking the corresponding button at the bottom of the page.
 <figure>
     <title>GNU Affero General Public License</title>
 <screenshot>
-<graphic scale="40"
-fileref="screenshots/introduction/installation/installer2.png"></graphic></screenshot></figure>
+<graphic fileref="screenshots/introduction/installation/installer2.png"
+scalefit="1" width="100%" contentdepth="100%"></graphic></screenshot></figure>
 </para>
 
 <para>
@@ -55,8 +55,8 @@ that, click the 'Next' button (see figure below).
 <figure>
     <title>Выбор базы данных</title>
 <screenshot>
-<graphic scale="40"
-fileref="screenshots/introduction/installation/installer3.png"></graphic></screenshot></figure>
+<graphic fileref="screenshots/introduction/installation/installer3.png"
+scalefit="1" width="100%" contentdepth="100%"></graphic></screenshot></figure>
 </para>
 
 <para>
@@ -70,8 +70,8 @@ fileref="screenshots/introduction/installation/installer3.png"></graphic></scree
 <figure>
     <title>Database credentials</title>
 <screenshot>
-<graphic scale="40"
-fileref="screenshots/introduction/installation/installer4.png"></graphic></screenshot></figure>
+<graphic fileref="screenshots/introduction/installation/installer4.png"
+scalefit="1" width="100%" contentdepth="100%"></graphic></screenshot></figure>
 </para>
 
 <para>
@@ -91,8 +91,8 @@ OTRS сгенерирует надежный пароль для вас. Мож�
 <figure>
     <title>Database settings</title>
 <screenshot>
-<graphic scale="40"
-fileref="screenshots/introduction/installation/installer5.png"></graphic></screenshot></figure>
+<graphic fileref="screenshots/introduction/installation/installer5.png"
+scalefit="1" width="100%" contentdepth="100%"></graphic></screenshot></figure>
 </para>
 
 <para>
@@ -104,8 +104,8 @@ fileref="screenshots/introduction/installation/installer5.png"></graphic></scree
 <figure>
     <title>Successful database setup</title>
 <screenshot>
-<graphic scale="40"
-fileref="screenshots/introduction/installation/installer6.png"></graphic></screenshot></figure>
+<graphic fileref="screenshots/introduction/installation/installer6.png"
+scalefit="1" width="100%" contentdepth="100%"></graphic></screenshot></figure>
 </para>
 
 <para>
@@ -117,8 +117,8 @@ below).
 <figure>
     <title>System settings</title>
 <screenshot>
-<graphic scale="40"
-fileref="screenshots/introduction/installation/installer7.png"></graphic></screenshot></figure>
+<graphic fileref="screenshots/introduction/installation/installer7.png"
+scalefit="1" width="100%" contentdepth="100%"></graphic></screenshot></figure>
 </para>
 
 <para>
@@ -131,8 +131,8 @@ of the screen (see figure below).
 <figure>
     <title>Mail configuration</title>
 <screenshot>
-<graphic scale="40"
-fileref="screenshots/introduction/installation/installer8.png"></graphic></screenshot></figure>
+<graphic fileref="screenshots/introduction/installation/installer8.png"
+scalefit="1" width="100%" contentdepth="100%"></graphic></screenshot></figure>
 </para>
 
 <para>
@@ -157,8 +157,8 @@ your needs.
 <figure>
     <title>Web installer final screen</title>
 <screenshot>
-<graphic scale="40"
-fileref="screenshots/introduction/installation/installer9.png"></graphic></screenshot></figure>
+<graphic fileref="screenshots/introduction/installation/installer9.png"
+scalefit="1" width="100%" contentdepth="100%"></graphic></screenshot></figure>
 </para>
 
 </section>

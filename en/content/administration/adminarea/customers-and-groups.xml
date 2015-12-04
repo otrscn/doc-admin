@@ -16,7 +16,7 @@ OTRS supports different types of users. Using the link "Customers" (via the navi
 <figure>
     <title>Customer management</title>
     <screenshot>
-         <graphic scale="40" fileref="screenshots/administration/adminarea/admin-customer.png"></graphic>
+         <graphic fileref="screenshots/administration/adminarea/admin-customer.png" scalefit="1" width="100%" contentdepth="100%"></graphic>
     </screenshot>
 </figure>
 </para>
@@ -33,7 +33,7 @@ To create a new customer account, click on the "Add customer" button (see figure
 <figure>
     <title>Adding a customer</title>
     <screenshot>
-         <graphic scale="40" fileref="screenshots/administration/adminarea/add-customer.png"></graphic>
+         <graphic fileref="screenshots/administration/adminarea/add-customer.png" scalefit="1" width="100%" contentdepth="100%"></graphic>
     </screenshot>
 </figure>
 </para>
@@ -69,7 +69,7 @@ Through the link "Customers &lt;-&gt; Groups" you can manage which customer shal
 <figure>
     <title>Customer-Group relations management</title>
     <screenshot>
-         <graphic scale="40" fileref="screenshots/administration/adminarea/admin-customer-groups.png"></graphic>
+         <graphic fileref="screenshots/administration/adminarea/admin-customer-groups.png" scalefit="1" width="100%" contentdepth="100%"></graphic>
     </screenshot>
 </figure>
 </para>
@@ -82,7 +82,7 @@ To define the different groups a customer should be part of and vice versa, clic
 <figure>
     <title>Change Group relations for a Customer</title>
     <screenshot>
-         <graphic scale="40" fileref="screenshots/administration/adminarea/groups-customers-relations.png"></graphic>
+         <graphic fileref="screenshots/administration/adminarea/groups-customers-relations.png" scalefit="1" width="100%" contentdepth="100%"></graphic>
     </screenshot>
 </figure>
 </para>
@@ -91,7 +91,7 @@ To define the different groups a customer should be part of and vice versa, clic
 <figure>
     <title>Change Customer relations for a Group</title>
     <screenshot>
-         <graphic scale="40" fileref="screenshots/administration/adminarea/groups-customers-relations2.png"></graphic>
+         <graphic fileref="screenshots/administration/adminarea/groups-customers-relations2.png" scalefit="1" width="100%" contentdepth="100%"></graphic>
     </screenshot>
 </figure>
 </para>

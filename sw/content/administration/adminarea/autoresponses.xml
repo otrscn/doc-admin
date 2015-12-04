@@ -17,8 +17,9 @@ link "Auto responses" on the Admin page (see figure below).
 <figure>
     <title>Auto response management</title>
 <screenshot>
-<graphic scale="40"
-fileref="screenshots/administration/adminarea/admin-autoresponse.png"></graphic></screenshot></figure>
+<graphic
+fileref="screenshots/administration/adminarea/admin-autoresponse.png"
+scalefit="1" width="100%" contentdepth="100%"></graphic></screenshot></figure>
 </para>
 
 <para>
@@ -30,8 +31,8 @@ provide the needed data and submit it (see figure below).
 <figure>
     <title>Adding an auto response</title>
 <screenshot>
-<graphic scale="40"
-fileref="screenshots/administration/adminarea/add-autoresponse.png"></graphic></screenshot></figure>
+<graphic fileref="screenshots/administration/adminarea/add-autoresponse.png"
+scalefit="1" width="100%" contentdepth="100%"></graphic></screenshot></figure>
 </para>
 
 <para>
@@ -126,8 +127,9 @@ removed via a listbox.
 <figure>
     <title>Queue &lt;-&gt; auto response relations management</title>
 <screenshot>
-<graphic scale="40"
-fileref="screenshots/administration/adminarea/admin-autoresponse-queue.png"></graphic></screenshot></figure>
+<graphic
+fileref="screenshots/administration/adminarea/admin-autoresponse-queue.png"
+scalefit="1" width="100%" contentdepth="100%"></graphic></screenshot></figure>
 </para>
 
 <para>
@@ -141,8 +143,9 @@ and edit in the same manner as editing a new auto response.
 <figure>
     <title>Change auto response relations for a queue</title>
 <screenshot>
-<graphic scale="40"
-fileref="screenshots/administration/adminarea/autoresponses-queues-relations.png"></graphic></screenshot></figure>
+<graphic
+fileref="screenshots/administration/adminarea/autoresponses-queues-relations.png"
+scalefit="1" width="100%" contentdepth="100%"></graphic></screenshot></figure>
 </para>
 
 </section>

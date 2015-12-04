@@ -39,7 +39,7 @@ Since OTRS 2.0, nearly all configuration parameters of the central framework or 
 <figure>
     <title>The graphical interface for system configuration</title>
     <screenshot>
-         <graphic scale="40" fileref="screenshots/administration/adminarea/admin-sysconfig.png"></graphic>
+         <graphic fileref="screenshots/administration/adminarea/admin-sysconfig.png" scalefit="1" width="100%" contentdepth="100%"></graphic>
     </screenshot>
 </figure>
 </para>

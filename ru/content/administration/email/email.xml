@@ -78,8 +78,8 @@ required for OTRS"</link> for instructions.</para>
 <figure>
     <title>Добавление учетной записи электронной почты</title>
 <screenshot>
-<graphic scale="40"
-fileref="screenshots/administration/email/add-mailaccount.png"></graphic></screenshot></figure>
+<graphic fileref="screenshots/administration/email/add-mailaccount.png"
+scalefit="1" width="100%" contentdepth="100%"></graphic></screenshot></figure>
 </para>
 
 <para>Если для опции "Trusted" выбрано значение "Да", будут оцениваться и

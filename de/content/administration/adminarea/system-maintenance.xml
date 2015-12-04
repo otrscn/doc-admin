@@ -18,8 +18,9 @@ environment.
         <figure>
             <title>The system maintenance overview screen with some scheduled periods</title>
 <screenshot>
-<graphic scale="40"
-fileref="screenshots/administration/adminarea/admin-systemmaintenance-overview-screen.png"></graphic></screenshot></figure>
+<graphic
+fileref="screenshots/administration/adminarea/admin-systemmaintenance-overview-screen.png"
+scalefit="1" width="100%" contentdepth="100%"></graphic></screenshot></figure>
     </para>
     <para>
         The Start Date and the Stop Date are required fields, and the only rule for
@@ -29,8 +30,9 @@ this combination is that Start Date can not be a date after the Stop Date.
         <figure>
             <title>The system maintenance edit screen</title>
 <screenshot>
-<graphic scale="40"
-fileref="screenshots/administration/adminarea/admin-systemmaintenance-edit-screen.png"></graphic></screenshot></figure>
+<graphic
+fileref="screenshots/administration/adminarea/admin-systemmaintenance-edit-screen.png"
+scalefit="1" width="100%" contentdepth="100%"></graphic></screenshot></figure>
     </para>
     <para>
         Nachdem eine neue Wartungszeit angelegt wurde, wird eine Übersicht mit

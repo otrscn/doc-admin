@@ -48,8 +48,9 @@
             <figure>
                 <title>Web services overview</title>
 <screenshot>
-<graphic scale="40"
-fileref="screenshots/administration/genericinterface/genericinterface-webservice-overview.png"></graphic></screenshot></figure>
+<graphic
+fileref="screenshots/administration/genericinterface/genericinterface-webservice-overview.png"
+scalefit="1" width="100%" contentdepth="100%"></graphic></screenshot></figure>
         </para>
     </section>
 
@@ -104,8 +105,9 @@ fileref="screenshots/administration/genericinterface/genericinterface-webservice
             <figure>
                 <title>Web services add</title>
 <screenshot>
-<graphic scale="40"
-fileref="screenshots/administration/genericinterface/genericinterface-webservice-add.png"></graphic></screenshot></figure>
+<graphic
+fileref="screenshots/administration/genericinterface/genericinterface-webservice-add.png"
+scalefit="1" width="100%" contentdepth="100%"></graphic></screenshot></figure>
         </para>
     </section>
 
@@ -169,8 +171,9 @@ fileref="screenshots/administration/genericinterface/genericinterface-webservice
                 <figure>
                     <title>ウェブサービス・クローン</title>
 <screenshot>
-<graphic scale="40"
-fileref="screenshots/administration/genericinterface/genericinterface-webservice-clone.png"></graphic></screenshot></figure>
+<graphic
+fileref="screenshots/administration/genericinterface/genericinterface-webservice-clone.png"
+scalefit="1" width="100%" contentdepth="100%"></graphic></screenshot></figure>
             </para>
         </section>
 
@@ -197,8 +200,9 @@ fileref="screenshots/administration/genericinterface/genericinterface-webservice
                 <figure>
                     <title>Web services export</title>
 <screenshot>
-<graphic scale="40"
-fileref="screenshots/administration/genericinterface/genericinterface-webservice-export.png"></graphic></screenshot></figure>
+<graphic
+fileref="screenshots/administration/genericinterface/genericinterface-webservice-export.png"
+scalefit="1" width="100%" contentdepth="100%"></graphic></screenshot></figure>
             </para>
         </section>
 
@@ -219,8 +223,9 @@ fileref="screenshots/administration/genericinterface/genericinterface-webservice
                 <figure>
                     <title>Web services import</title>
 <screenshot>
-<graphic scale="40"
-fileref="screenshots/administration/genericinterface/genericinterface-webservice-import.png"></graphic></screenshot></figure>
+<graphic
+fileref="screenshots/administration/genericinterface/genericinterface-webservice-import.png"
+scalefit="1" width="100%" contentdepth="100%"></graphic></screenshot></figure>
             </para>
         </section>
 
@@ -251,8 +256,9 @@ irreversible.
                 <figure>
                     <title>Web service history</title>
 <screenshot>
-<graphic scale="40"
-fileref="screenshots/administration/genericinterface/genericinterface-webservice-history.png"></graphic></screenshot></figure>
+<graphic
+fileref="screenshots/administration/genericinterface/genericinterface-webservice-history.png"
+scalefit="1" width="100%" contentdepth="100%"></graphic></screenshot></figure>
             </para>
         </section>
 
@@ -273,8 +279,9 @@ fileref="screenshots/administration/genericinterface/genericinterface-webservice
                 <figure>
                     <title>ウェブサービスの削除</title>
 <screenshot>
-<graphic scale="40"
-fileref="screenshots/administration/genericinterface/genericinterface-webservice-delete.png"></graphic></screenshot></figure>
+<graphic
+fileref="screenshots/administration/genericinterface/genericinterface-webservice-delete.png"
+scalefit="1" width="100%" contentdepth="100%"></graphic></screenshot></figure>
             </para>
         </section>
 
@@ -329,8 +336,9 @@ fileref="screenshots/administration/genericinterface/genericinterface-webservice
                 <figure>
                     <title>Web service debugger</title>
 <screenshot>
-<graphic scale="40"
-fileref="screenshots/administration/genericinterface/genericinterface-webservice-debugger.png"></graphic></screenshot></figure>
+<graphic
+fileref="screenshots/administration/genericinterface/genericinterface-webservice-debugger.png"
+scalefit="1" width="100%" contentdepth="100%"></graphic></screenshot></figure>
             </para>
         </section>
 
@@ -355,8 +363,9 @@ fileref="screenshots/administration/genericinterface/genericinterface-webservice
                 <figure>
                     <title>Web services change</title>
 <screenshot>
-<graphic scale="40"
-fileref="screenshots/administration/genericinterface/genericinterface-webservice-change.png"></graphic></screenshot></figure>
+<graphic
+fileref="screenshots/administration/genericinterface/genericinterface-webservice-change.png"
+scalefit="1" width="100%" contentdepth="100%"></graphic></screenshot></figure>
             </para>
             <note>
                 <para>
@@ -388,8 +397,9 @@ they might use different frontend modules to configure them.
                     <figure>
                         <title>Web service provider network transport HTTP::SOAP</title>
 <screenshot>
-<graphic scale="40"
-fileref="screenshots/administration/genericinterface/genericinterface-webservice-provider-transport-soap.png"></graphic></screenshot></figure>
+<graphic
+fileref="screenshots/administration/genericinterface/genericinterface-webservice-provider-transport-soap.png"
+scalefit="1" width="100%" contentdepth="100%"></graphic></screenshot></figure>
                 </para>
                 <para>
                     For "HTTP::REST" the configuration might be a bit more complicated, as it
@@ -526,8 +536,9 @@ correctly the operation to use on each request.
                     <figure>
                         <title>Web service provider network transport HTTP::REST</title>
 <screenshot>
-<graphic scale="40"
-fileref="screenshots/administration/genericinterface/genericinterface-webservice-provider-transport-rest.png"></graphic></screenshot></figure>
+<graphic
+fileref="screenshots/administration/genericinterface/genericinterface-webservice-provider-transport-rest.png"
+scalefit="1" width="100%" contentdepth="100%"></graphic></screenshot></figure>
                 </para>
             </section>
 
@@ -564,8 +575,9 @@ delete dialog.
                     <figure>
                         <title>Web service operation</title>
 <screenshot>
-<graphic scale="40"
-fileref="screenshots/administration/genericinterface/genericinterface-webservice-operation.png"></graphic></screenshot></figure>
+<graphic
+fileref="screenshots/administration/genericinterface/genericinterface-webservice-operation.png"
+scalefit="1" width="100%" contentdepth="100%"></graphic></screenshot></figure>
                 </para>
             </section>
 
@@ -616,8 +628,9 @@ Password to access the remote system.
                     <figure>
                         <title>Web service requester network transport (HTTP::SOAP)</title>
 <screenshot>
-<graphic scale="40"
-fileref="screenshots/administration/genericinterface/genericinterface-webservice-requester-transport-soap.png"></graphic></screenshot></figure>
+<graphic
+fileref="screenshots/administration/genericinterface/genericinterface-webservice-requester-transport-soap.png"
+scalefit="1" width="100%" contentdepth="100%"></graphic></screenshot></figure>
                 </para>
                 <para>
                     In the case of HTTP::REST, this configuration also grows dynamically
@@ -719,8 +732,9 @@ selected, Default command is used.
                     <figure>
                         <title>Web service provider network transport HTTP::REST</title>
 <screenshot>
-<graphic scale="40"
-fileref="screenshots/administration/genericinterface/genericinterface-webservice-requester-transport-rest.png"></graphic></screenshot></figure>
+<graphic
+fileref="screenshots/administration/genericinterface/genericinterface-webservice-requester-transport-rest.png"
+scalefit="1" width="100%" contentdepth="100%"></graphic></screenshot></figure>
                 </para>
             </section>
 
@@ -780,8 +794,9 @@ event trigger.  Click "Delete" to remove the event trigger from the list, or
                     <figure>
                         <title>Web service invoker</title>
 <screenshot>
-<graphic scale="40"
-fileref="screenshots/administration/genericinterface/genericinterface-webservice-invoker.png"></graphic></screenshot></figure>
+<graphic
+fileref="screenshots/administration/genericinterface/genericinterface-webservice-invoker.png"
+scalefit="1" width="100%" contentdepth="100%"></graphic></screenshot></figure>
                 </para>
             </section>
 
@@ -860,8 +875,9 @@ expression rule.
                     <figure>
                         <title>Web service mapping</title>
 <screenshot>
-<graphic scale="40"
-fileref="screenshots/administration/genericinterface/genericinterface-webservice-mapping.png"></graphic></screenshot></figure>
+<graphic
+fileref="screenshots/administration/genericinterface/genericinterface-webservice-mapping.png"
+scalefit="1" width="100%" contentdepth="100%"></graphic></screenshot></figure>
                 </para>
             </section>
         </section>

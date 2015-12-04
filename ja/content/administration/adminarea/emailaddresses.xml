@@ -19,8 +19,8 @@ system (see figure below).
 <figure>
     <title>System email addresses management</title>
 <screenshot>
-<graphic scale="40"
-fileref="screenshots/administration/adminarea/admin-email.png"></graphic></screenshot></figure>
+<graphic fileref="screenshots/administration/adminarea/admin-email.png"
+scalefit="1" width="100%" contentdepth="100%"></graphic></screenshot></figure>
 </para>
 
 <para>
@@ -34,8 +34,8 @@ right queue.
 <figure>
     <title>Adding a system email address</title>
 <screenshot>
-<graphic scale="40"
-fileref="screenshots/administration/adminarea/add-email.png"></graphic></screenshot></figure>
+<graphic fileref="screenshots/administration/adminarea/add-email.png"
+scalefit="1" width="100%" contentdepth="100%"></graphic></screenshot></figure>
 </para>
 
 <note>

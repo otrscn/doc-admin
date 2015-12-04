@@ -14,8 +14,8 @@ ticket states you want to use in the system (see figure below).
 <figure>
     <title>State management</title>
 <screenshot>
-<graphic scale="40"
-fileref="screenshots/administration/adminarea/admin-states.png"></graphic></screenshot></figure>
+<graphic fileref="screenshots/administration/adminarea/admin-states.png"
+scalefit="1" width="100%" contentdepth="100%"></graphic></screenshot></figure>
 </para>
 
 <para>

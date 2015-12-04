@@ -38,8 +38,8 @@ web browser (see figure below).
 <figure>
     <title>Login screen of the agent interface</title>
 <screenshot>
-<graphic scale="40"
-fileref="screenshots/introduction/firststeps/login.png"></graphic></screenshot></figure>
+<graphic fileref="screenshots/introduction/firststeps/login.png"
+scalefit="1" width="100%" contentdepth="100%"></graphic></screenshot></figure>
 </para>
 
 </section>
@@ -65,8 +65,8 @@ a web browser (see figure below).
 <figure>
     <title>Login screen of the customer interface</title>
 <screenshot>
-<graphic scale="40"
-fileref="screenshots/introduction/firststeps/customer-login.png"></graphic></screenshot></figure>
+<graphic fileref="screenshots/introduction/firststeps/customer-login.png"
+scalefit="1" width="100%" contentdepth="100%"></graphic></screenshot></figure>
 </para>
 
 </section>
@@ -93,8 +93,8 @@ url="http://www.example.com/otrs/public.pl">
 <figure>
     <title>Общедоступный веб-интерфейс</title>
 <screenshot>
-<graphic scale="40"
-fileref="screenshots/introduction/firststeps/public-interface.png"></graphic></screenshot></figure>
+<graphic fileref="screenshots/introduction/firststeps/public-interface.png"
+scalefit="1" width="100%" contentdepth="100%"></graphic></screenshot></figure>
 </para>
 
 </section>
@@ -137,8 +137,9 @@ press the Submit button (see figure).
 <figure>
     <title>Прислать новый пароль</title>
 <screenshot>
-<graphic scale="40"
-fileref="screenshots/introduction/firststeps/request-new-password.png"></graphic></screenshot></figure>
+<graphic
+fileref="screenshots/introduction/firststeps/request-new-password.png"
+scalefit="1" width="100%" contentdepth="100%"></graphic></screenshot></figure>
 </para>
 
 </section>
@@ -158,8 +159,8 @@ presents a quick summary of the tickets using different criteria.
 <figure>
     <title>Dashboard of the agent interface</title>
 <screenshot>
-<graphic scale="40"
-fileref="screenshots/introduction/firststeps/first-screen.png"></graphic></screenshot></figure>
+<graphic fileref="screenshots/introduction/firststeps/first-screen.png"
+scalefit="1" width="100%" contentdepth="100%"></graphic></screenshot></figure>
 </para>
 
 <para>
@@ -227,8 +228,8 @@ go to the Top of the page.
 <figure>
     <title>Нижний колонтитул/"подвал"</title>
 <screenshot>
-<graphic scale="40"
-fileref="screenshots/introduction/firststeps/footer.png"></graphic></screenshot></figure>
+<graphic fileref="screenshots/introduction/firststeps/footer.png"
+scalefit="1" width="100%" contentdepth="100%"></graphic></screenshot></figure>
 </para>
 
 </section>
@@ -264,8 +265,9 @@ fileref="screenshots/introduction/firststeps/footer.png"></graphic></screenshot>
     <figure>
         <title>Виджеты Панели Управления</title>
 <screenshot>
-<graphic scale="40"
-fileref="screenshots/introduction/firststeps/dashboard-left-column-widgets.png"></graphic></screenshot></figure>
+<graphic
+fileref="screenshots/introduction/firststeps/dashboard-left-column-widgets.png"
+scalefit="1" width="100%" contentdepth="100%"></graphic></screenshot></figure>
 </para>
 
 <para>
@@ -369,8 +371,9 @@ scroll through the pages by using the right and left arrows.
             <figure>
                 <title>Виджет "Календарь событий по заявкам"</title>
 <screenshot>
-<graphic scale="40"
-fileref="screenshots/introduction/firststeps/events-ticket-calendar.png"></graphic></screenshot></figure>
+<graphic
+fileref="screenshots/introduction/firststeps/events-ticket-calendar.png"
+scalefit="1" width="100%" contentdepth="100%"></graphic></screenshot></figure>
         </para>
         <para>
             Дальнейшие настройки для этого виджета можно найти в подгруппе
@@ -451,8 +454,8 @@ can't drag and drop it, or close it.
     <figure>
         <title>Dashboard Settings</title>
 <screenshot>
-<graphic scale="40"
-fileref="screenshots/introduction/firststeps/edit-settings.png"></graphic></screenshot></figure>
+<graphic fileref="screenshots/introduction/firststeps/edit-settings.png"
+scalefit="1" width="100%" contentdepth="100%"></graphic></screenshot></figure>
 </para>
 
 <para>
@@ -596,8 +599,8 @@ OTRS поддерживает управление доступом для по�
 <figure>
     <title>Обзор очередей (по умолчанию) для агентов</title>
 <screenshot>
-<graphic scale="40"
-fileref="screenshots/introduction/firststeps/agent-queue-view.png"></graphic></screenshot></figure>
+<graphic fileref="screenshots/introduction/firststeps/agent-queue-view.png"
+scalefit="1" width="100%" contentdepth="100%"></graphic></screenshot></figure>
 </para>
 
 <para>
@@ -630,8 +633,9 @@ new, pending reminder, pending auto'.
 <figure>
     <title>Визуальные предупреждения для обзора очередей. </title>
 <screenshot>
-<graphic scale="40"
-fileref="screenshots/introduction/firststeps/agent-queue-overview-visual-alarms.png"></graphic></screenshot></figure>
+<graphic
+fileref="screenshots/introduction/firststeps/agent-queue-overview-visual-alarms.png"
+scalefit="1" width="100%" contentdepth="100%"></graphic></screenshot></figure>
 </para>
 
 <itemizedlist>
@@ -672,8 +676,8 @@ of the web interface (see figure below), and customers must click on the
 <figure>
     <title>Agent's personal preferences</title>
 <screenshot>
-<graphic scale="40"
-fileref="screenshots/introduction/firststeps/agent-preferences.png"></graphic></screenshot></figure>
+<graphic fileref="screenshots/introduction/firststeps/agent-preferences.png"
+scalefit="1" width="100%" contentdepth="100%"></graphic></screenshot></figure>
 </para>
 
 <para>
@@ -729,8 +733,9 @@ method).</para>
 <figure>
     <title>Customer's personal preferences</title>
 <screenshot>
-<graphic scale="40"
-fileref="screenshots/introduction/firststeps/customer-preferences.png"></graphic></screenshot></figure>
+<graphic
+fileref="screenshots/introduction/firststeps/customer-preferences.png"
+scalefit="1" width="100%" contentdepth="100%"></graphic></screenshot></figure>
 </para>
 
 <para>

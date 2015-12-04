@@ -27,8 +27,9 @@ center of the screen.  The dynamic fields overview will display as follows:
             <figure>
                 <title>Skrini ya mapitio ya Sehemu zinazobadilika, wazi</title>
 <screenshot>
-<graphic scale="40"
-fileref="screenshots/administration/dynamicfields/dynamicfields-overview-empty.png"></graphic></screenshot></figure>
+<graphic
+fileref="screenshots/administration/dynamicfields/dynamicfields-overview-empty.png"
+scalefit="1" width="100%" contentdepth="100%"></graphic></screenshot></figure>
         </para>
         <para>
             Tambua kwamba hii skrini itabadilika kadri uongezavyo sehemu zinazobadilka
@@ -253,8 +254,9 @@ jina la sehemu, itaongeza sehemu hiyo kama sehemu ya marejeo ya kiungo.
             <figure>
                 <title>Maongezi ya usanidi wa Nakala ya Sehemu inayobadilika.</title>
 <screenshot>
-<graphic scale="40"
-fileref="screenshots/administration/dynamicfields/dynamicfields-configuration-text.png"></graphic></screenshot></figure>
+<graphic
+fileref="screenshots/administration/dynamicfields/dynamicfields-configuration-text.png"
+scalefit="1" width="100%" contentdepth="100%"></graphic></screenshot></figure>
         </para>
     </section>
 
@@ -299,8 +301,9 @@ Mpya ya Tiketi au Tunga Tiketi).
             <figure>
                 <title>Usanidi wa maongezi ya sehemu zinazobadilika za eneo la nakala</title>
 <screenshot>
-<graphic scale="40"
-fileref="screenshots/administration/dynamicfields/dynamicfields-configuration-textarea.png"></graphic></screenshot></figure>
+<graphic
+fileref="screenshots/administration/dynamicfields/dynamicfields-configuration-textarea.png"
+scalefit="1" width="100%" contentdepth="100%"></graphic></screenshot></figure>
         </para>
     </section>
 
@@ -329,8 +332,9 @@ sehemu ni uchaguzi uliofungwa ambao unaweza kutikiwa au kutotikiwa.
             <figure>
                 <title>Usanidi wa maongezi wa sehemu inayobadilika ya kisanduku tiki</title>
 <screenshot>
-<graphic scale="40"
-fileref="screenshots/administration/dynamicfields/dynamicfields-configuration-checkbox.png"></graphic></screenshot></figure>
+<graphic
+fileref="screenshots/administration/dynamicfields/dynamicfields-configuration-checkbox.png"
+scalefit="1" width="100%" contentdepth="100%"></graphic></screenshot></figure>
         </para>
 
     </section>
@@ -411,8 +415,9 @@ jina la sehemu, itaongeza sehemu hiyo kama sehemu ya marejeo ya kiungo.
             <figure>
                 <title>Maongezi ya usanidi wa Kikunjuzi cha Sehemu inayobadilika</title>
 <screenshot>
-<graphic scale="40"
-fileref="screenshots/administration/dynamicfields/dynamicfields-configuration-dropdown.png"></graphic></screenshot></figure>
+<graphic
+fileref="screenshots/administration/dynamicfields/dynamicfields-configuration-dropdown.png"
+scalefit="1" width="100%" contentdepth="100%"></graphic></screenshot></figure>
         </para>
     </section>
 
@@ -472,8 +477,9 @@ mafaili ya lugha.
             <figure>
                 <title>Maongezi ya usanidi wa Uteuzi Anuwai wa Sehemu inayobadilika</title>
 <screenshot>
-<graphic scale="40"
-fileref="screenshots/administration/dynamicfields/dynamicfields-configuration-multiselect.png"></graphic></screenshot></figure>
+<graphic
+fileref="screenshots/administration/dynamicfields/dynamicfields-configuration-multiselect.png"
+scalefit="1" width="100%" contentdepth="100%"></graphic></screenshot></figure>
         </para>
     </section>
 
@@ -554,8 +560,9 @@ jina la sehemu litaongeza sehemu hiyo kama sehemu ya marejeo ya kiungo.
             <figure>
                 <title>Maongezi ya usanidi wa Tarehe ya Sehemu inayobadilika</title>
 <screenshot>
-<graphic scale="40"
-fileref="screenshots/administration/dynamicfields/dynamicfields-configuration-date.png"></graphic></screenshot></figure>
+<graphic
+fileref="screenshots/administration/dynamicfields/dynamicfields-configuration-date.png"
+scalefit="1" width="100%" contentdepth="100%"></graphic></screenshot></figure>
         </para>
     </section>
 
@@ -636,8 +643,9 @@ jina la sehemu litaongeza sehemu hiyo kama sehemu ya marejeo ya kiungo.
             <figure>
                 <title>Maongezi ya usanidi wa Tarehe / Muda wa Sehemu inayobadilika</title>
 <screenshot>
-<graphic scale="40"
-fileref="screenshots/administration/dynamicfields/dynamicfields-configuration-datetime.png"></graphic></screenshot></figure>
+<graphic
+fileref="screenshots/administration/dynamicfields/dynamicfields-configuration-datetime.png"
+scalefit="1" width="100%" contentdepth="100%"></graphic></screenshot></figure>
         </para>
     </section>
 
@@ -651,8 +659,9 @@ inatakiwa ionekane kama:
             <figure>
                 <title>Skrini ya mapitio ya sehemu zinazobadilika iliyojazwa na data za sampuli</title>
 <screenshot>
-<graphic scale="40"
-fileref="screenshots/administration/dynamicfields/dynamicfields-overview-filled.png"></graphic></screenshot></figure>
+<graphic
+fileref="screenshots/administration/dynamicfields/dynamicfields-overview-filled.png"
+scalefit="1" width="100%" contentdepth="100%"></graphic></screenshot></figure>
         </para>
         <para>
             Kubadilisha au kuhariri sehemu inayobadilika lazima uwe na sehemu moja
@@ -803,8 +812,9 @@ mbele::WakalaTiketiSimu###SehemuInayobadilika
                         <figure>
                             <title>Field1 in New Phone Ticket Screen</title>
 <screenshot>
-<graphic scale="40"
-fileref="screenshots/administration/dynamicfields/dynamicfields-agentticketphone-field1.png"></graphic></screenshot></figure>
+<graphic
+fileref="screenshots/administration/dynamicfields/dynamicfields-agentticketphone-field1.png"
+scalefit="1" width="100%" contentdepth="100%"></graphic></screenshot></figure>
                     </para>
                 </example>
             </para>
@@ -857,8 +867,9 @@ mbele::WakalaTiketiSimu###SehemuInayobadilika
                         <figure>
                             <title>Field1 in New Phone Ticket Screen as mandatory</title>
 <screenshot>
-<graphic scale="40"
-fileref="screenshots/administration/dynamicfields/dynamicfields-agentticketphone-field1-mandatory.png"></graphic></screenshot></figure>
+<graphic
+fileref="screenshots/administration/dynamicfields/dynamicfields-agentticketphone-field1-mandatory.png"
+scalefit="1" width="100%" contentdepth="100%"></graphic></screenshot></figure>
                     </para>
                 </example>
             </para>
@@ -935,8 +946,9 @@ mbele::WakalaTiketiSimu###SehemuInayobadilika
                         <figure>
                             <title>Several fields in New Phone Ticket Screen as mandatory</title>
 <screenshot>
-<graphic scale="40"
-fileref="screenshots/administration/dynamicfields/dynamicfields-agentticketphone-allfields.png"></graphic></screenshot></figure>
+<graphic
+fileref="screenshots/administration/dynamicfields/dynamicfields-agentticketphone-allfields.png"
+scalefit="1" width="100%" contentdepth="100%"></graphic></screenshot></figure>
                     </para>
                 </example>
             </para>
@@ -1013,8 +1025,9 @@ mbele::WakalaTiketiSimu###SehemuInayobadilika
                         <figure>
                             <title>Some deactivated fields in New Phone Ticket Screen as mandatory</title>
 <screenshot>
-<graphic scale="40"
-fileref="screenshots/administration/dynamicfields/dynamicfields-agentticketphone-somefields.png"></graphic></screenshot></figure>
+<graphic
+fileref="screenshots/administration/dynamicfields/dynamicfields-agentticketphone-somefields.png"
+scalefit="1" width="100%" contentdepth="100%"></graphic></screenshot></figure>
                     </para>
                 </example>
             </para>
@@ -1066,8 +1079,9 @@ mbele::WakalaTiketiKuza###SehemuInayobadilika
                         <figure>
                             <title>Field1 in Ticket Zoom Screen</title>
 <screenshot>
-<graphic scale="40"
-fileref="screenshots/administration/dynamicfields/dynamicfields-agentticketzoom-field1.png"></graphic></screenshot></figure>
+<graphic
+fileref="screenshots/administration/dynamicfields/dynamicfields-agentticketzoom-field1.png"
+scalefit="1" width="100%" contentdepth="100%"></graphic></screenshot></figure>
                     </para>
                 </example>
             </para>
@@ -1119,8 +1133,9 @@ mbele::MapitioMadogo###SehemuInayobadilika
                         <figure>
                             <title>Field1 in Ticket Overview Small Screen</title>
 <screenshot>
-<graphic scale="40"
-fileref="screenshots/administration/dynamicfields/dynamicfields-ticketoverviewsmall-field1.png"></graphic></screenshot></figure>
+<graphic
+fileref="screenshots/administration/dynamicfields/dynamicfields-ticketoverviewsmall-field1.png"
+scalefit="1" width="100%" contentdepth="100%"></graphic></screenshot></figure>
                     </para>
                     <para>
                         This setting affects: Escalation View, Locked View, Queue View, Responsible
@@ -1329,8 +1344,9 @@ MakundiMapendeleo###101-SehemuInayobadilika-Sehemu1
                 <figure>
                     <title>Field1 in User preferences screen</title>
 <screenshot>
-<graphic scale="40"
-fileref="screenshots/administration/dynamicfields/dynamicfields-userpreferences.png"></graphic></screenshot></figure>
+<graphic
+fileref="screenshots/administration/dynamicfields/dynamicfields-userpreferences.png"
+scalefit="1" width="100%" contentdepth="100%"></graphic></screenshot></figure>
             </para>
         </example>
     </section>

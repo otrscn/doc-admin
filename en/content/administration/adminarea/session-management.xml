@@ -13,7 +13,7 @@ You can see all logged in users and their session details by clicking the "Sessi
 <figure>
     <title>Session management</title>
     <screenshot>
-         <graphic scale="40" fileref="screenshots/administration/adminarea/admin-sessionmanagement.png"></graphic>
+         <graphic fileref="screenshots/administration/adminarea/admin-sessionmanagement.png" scalefit="1" width="100%" contentdepth="100%"></graphic>
     </screenshot>
 </figure>
 </para>
@@ -26,7 +26,7 @@ Some statistics about all active sessions are displayed, e.g. how many agents an
 <figure>
     <title>Session details</title>
     <screenshot>
-         <graphic scale="40" fileref="screenshots/administration/adminarea/admin-session-details.png"></graphic>
+         <graphic fileref="screenshots/administration/adminarea/admin-session-details.png" scalefit="1" width="100%" contentdepth="100%"></graphic>
     </screenshot>
 </figure>
 </para>

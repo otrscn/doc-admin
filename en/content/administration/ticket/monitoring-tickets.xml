@@ -27,7 +27,7 @@ Ticket responsibility can be assigned by calling up the ticket content and click
 <figure>
     <title>Changing the Responsibility of a ticket in its zoomed view</title>
     <screenshot>
-         <graphic scale="40" fileref="screenshots/administration/ticket/ticket-zoom-responsible.png"></graphic>
+         <graphic fileref="screenshots/administration/ticket/ticket-zoom-responsible.png" scalefit="1" width="100%" contentdepth="100%"></graphic>
     </screenshot>
 </figure>
 </para>
@@ -40,7 +40,7 @@ After clicking on "Responsible", a pop-up dialog to change the responsibility of
 <figure>
     <title>Pop-up dialog to change a ticket's responsibility</title>
     <screenshot>
-         <graphic scale="40" fileref="screenshots/administration/ticket/ticket-responsible.png"></graphic>
+         <graphic fileref="screenshots/administration/ticket/ticket-responsible.png" scalefit="1" width="100%" contentdepth="100%"></graphic>
     </screenshot>
 </figure>
 </para>
@@ -70,7 +70,7 @@ In order to watch a ticket, go to its zoomed view and click on the "Subscribe" l
 <figure>
     <title>Subscribing to watching a ticket in its zoomed view</title>
     <screenshot>
-         <graphic scale="40" fileref="screenshots/administration/ticket/ticket-subscribe.png"></graphic>
+         <graphic fileref="screenshots/administration/ticket/ticket-subscribe.png" scalefit="1" width="100%" contentdepth="100%"></graphic>
     </screenshot>
 </figure>
 </para>
@@ -83,7 +83,7 @@ If you no longer want to watch a specific ticket, go to its zoomed view and clic
 <figure>
     <title>Unsubscribing from watching a ticket in its zoomed view</title>
     <screenshot>
-         <graphic scale="40" fileref="screenshots/administration/ticket/ticket-unsubscribe.png"></graphic>
+         <graphic fileref="screenshots/administration/ticket/ticket-unsubscribe.png" scalefit="1" width="100%" contentdepth="100%"></graphic>
     </screenshot>
 </figure>
 </para>
@@ -96,7 +96,7 @@ The list of all watched tickets can be accessed through the Watched view of the 
 <figure>
     <title>Watched tickets view</title>
     <screenshot>
-         <graphic scale="40" fileref="screenshots/administration/ticket/ticket-subscribe-mailbox.png"></graphic>
+         <graphic fileref="screenshots/administration/ticket/ticket-subscribe-mailbox.png" scalefit="1" width="100%" contentdepth="100%"></graphic>
     </screenshot>
 </figure>
 </para>

@@ -21,8 +21,8 @@ admin area (see figure below).
 <figure>
     <title>Usimamizi wa Salamu</title>
 <screenshot>
-<graphic scale="40"
-fileref="screenshots/administration/adminarea/admin-salutation.png"></graphic></screenshot></figure>
+<graphic fileref="screenshots/administration/adminarea/admin-salutation.png"
+scalefit="1" width="100%" contentdepth="100%"></graphic></screenshot></figure>
 </para>
 
 <para>
@@ -39,8 +39,8 @@ required data and submit it (see figure below).
 <figure>
     <title>Adding a new salutation</title>
 <screenshot>
-<graphic scale="40"
-fileref="screenshots/administration/adminarea/add-salutation.png"></graphic></screenshot></figure>
+<graphic fileref="screenshots/administration/adminarea/add-salutation.png"
+scalefit="1" width="100%" contentdepth="100%"></graphic></screenshot></figure>
 </para>
 
 <para>
@@ -81,8 +81,8 @@ queue. You can manage the signatures in your system by accessing the
 <figure>
     <title>Signatures management</title>
 <screenshot>
-<graphic scale="40"
-fileref="screenshots/administration/adminarea/admin-signatures.png"></graphic></screenshot></figure>
+<graphic fileref="screenshots/administration/adminarea/admin-signatures.png"
+scalefit="1" width="100%" contentdepth="100%"></graphic></screenshot></figure>
 </para>
 
 <para>
@@ -99,8 +99,8 @@ needed data and submit it (see figure below).
 <figure>
     <title>Adding a new signature</title>
 <screenshot>
-<graphic scale="40"
-fileref="screenshots/administration/adminarea/add-signature.png"></graphic></screenshot></figure>
+<graphic fileref="screenshots/administration/adminarea/add-signature.png"
+scalefit="1" width="100%" contentdepth="100%"></graphic></screenshot></figure>
 </para>
 
 <para>
@@ -142,8 +142,8 @@ attachments into the database of the system (see figure below).
 <figure>
     <title>Attachments management</title>
 <screenshot>
-<graphic scale="40"
-fileref="screenshots/administration/adminarea/admin-attachment.png"></graphic></screenshot></figure>
+<graphic fileref="screenshots/administration/adminarea/admin-attachment.png"
+scalefit="1" width="100%" contentdepth="100%"></graphic></screenshot></figure>
 </para>
 
 <para>
@@ -155,8 +155,8 @@ required data and submit it (see figure below).
 <figure>
     <title>Adding a new attachment</title>
 <screenshot>
-<graphic scale="40"
-fileref="screenshots/administration/adminarea/add-attachment.png"></graphic></screenshot></figure>
+<graphic fileref="screenshots/administration/adminarea/add-attachment.png"
+scalefit="1" width="100%" contentdepth="100%"></graphic></screenshot></figure>
 </para>
 
 <para>
@@ -169,8 +169,9 @@ below).
 <figure>
     <title>Kuunganisha Viambatanisho kwa Violezo</title>
 <screenshot>
-<graphic scale="40"
-fileref="screenshots/administration/adminarea/admin-attachment-template.png"></graphic></screenshot></figure>
+<graphic
+fileref="screenshots/administration/adminarea/admin-attachment-template.png"
+scalefit="1" width="100%" contentdepth="100%"></graphic></screenshot></figure>
 </para>
 
 <para>
@@ -183,16 +184,18 @@ Figures 4.29 and 4.30, respectively).
 <figure>
     <title>Badilisha mahusiano ya Kiambatanisho kwa Kiolezo</title>
 <screenshot>
-<graphic scale="40"
-fileref="screenshots/administration/adminarea/template-attachment-relations.png"></graphic></screenshot></figure>
+<graphic
+fileref="screenshots/administration/adminarea/template-attachment-relations.png"
+scalefit="1" width="100%" contentdepth="100%"></graphic></screenshot></figure>
 </para>
 
 <para>
 <figure>
     <title>Badilisha mahusiano ya Kiolezo kwa Kiambatanisho</title>
 <screenshot>
-<graphic scale="40"
-fileref="screenshots/administration/adminarea/template-attachment-relations2.png"></graphic></screenshot></figure>
+<graphic
+fileref="screenshots/administration/adminarea/template-attachment-relations2.png"
+scalefit="1" width="100%" contentdepth="100%"></graphic></screenshot></figure>
 </para>
 
 </section>
@@ -260,8 +263,8 @@ management screen (see figure below).
 <figure>
     <title>Template management</title>
 <screenshot>
-<graphic scale="40"
-fileref="screenshots/administration/adminarea/admin-template.png"></graphic></screenshot></figure>
+<graphic fileref="screenshots/administration/adminarea/admin-template.png"
+scalefit="1" width="100%" contentdepth="100%"></graphic></screenshot></figure>
 </para>
 
 <para>
@@ -274,8 +277,8 @@ it (see figure below).
 <figure>
     <title>Adding a template</title>
 <screenshot>
-<graphic scale="40"
-fileref="screenshots/administration/adminarea/add-template.png"></graphic></screenshot></figure>
+<graphic fileref="screenshots/administration/adminarea/add-template.png"
+scalefit="1" width="100%" contentdepth="100%"></graphic></screenshot></figure>
 </para>
 
 <para>
@@ -288,8 +291,9 @@ use filters to get information regarding a specific entity.
 <figure>
     <title>Template-Queue relations management</title>
 <screenshot>
-<graphic scale="40"
-fileref="screenshots/administration/adminarea/admin-template-queue.png"></graphic></screenshot></figure>
+<graphic
+fileref="screenshots/administration/adminarea/admin-template-queue.png"
+scalefit="1" width="100%" contentdepth="100%"></graphic></screenshot></figure>
 </para>
 
 <para>
@@ -302,16 +306,18 @@ mtiririko).
 <figure>
     <title>Badilisha mahusiano ya Foleni kwa Kiolezo</title>
 <screenshot>
-<graphic scale="40"
-fileref="screenshots/administration/adminarea/template-queue-relations.png"></graphic></screenshot></figure>
+<graphic
+fileref="screenshots/administration/adminarea/template-queue-relations.png"
+scalefit="1" width="100%" contentdepth="100%"></graphic></screenshot></figure>
 </para>
 
 <para>
 <figure>
     <title>Badilisha mahusiano ya Kiolezo kwa Foleni</title>
 <screenshot>
-<graphic scale="40"
-fileref="screenshots/administration/adminarea/template-queue-relations2.png"></graphic></screenshot></figure>
+<graphic
+fileref="screenshots/administration/adminarea/template-queue-relations2.png"
+scalefit="1" width="100%" contentdepth="100%"></graphic></screenshot></figure>
 </para>
 
 <para>

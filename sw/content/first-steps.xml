@@ -37,8 +37,8 @@ web browser (see figure below).
 <figure>
     <title>Login screen of the agent interface</title>
 <screenshot>
-<graphic scale="40"
-fileref="screenshots/introduction/firststeps/login.png"></graphic></screenshot></figure>
+<graphic fileref="screenshots/introduction/firststeps/login.png"
+scalefit="1" width="100%" contentdepth="100%"></graphic></screenshot></figure>
 </para>
 
 </section>
@@ -63,8 +63,8 @@ a web browser (see figure below).
 <figure>
     <title>Login screen of the customer interface</title>
 <screenshot>
-<graphic scale="40"
-fileref="screenshots/introduction/firststeps/customer-login.png"></graphic></screenshot></figure>
+<graphic fileref="screenshots/introduction/firststeps/customer-login.png"
+scalefit="1" width="100%" contentdepth="100%"></graphic></screenshot></figure>
 </para>
 
 </section>
@@ -94,8 +94,8 @@ url="http://www.example.com/otrs/public.pl">
 <figure>
     <title>Kiolesura cha tovuti cha uma</title>
 <screenshot>
-<graphic scale="40"
-fileref="screenshots/introduction/firststeps/public-interface.png"></graphic></screenshot></figure>
+<graphic fileref="screenshots/introduction/firststeps/public-interface.png"
+scalefit="1" width="100%" contentdepth="100%"></graphic></screenshot></figure>
 </para>
 
 </section>
@@ -137,8 +137,9 @@ press the Submit button (see figure).
 <figure>
     <title>Ombi la neno la siri jipya</title>
 <screenshot>
-<graphic scale="40"
-fileref="screenshots/introduction/firststeps/request-new-password.png"></graphic></screenshot></figure>
+<graphic
+fileref="screenshots/introduction/firststeps/request-new-password.png"
+scalefit="1" width="100%" contentdepth="100%"></graphic></screenshot></figure>
 </para>
 
 </section>
@@ -158,8 +159,8 @@ presents a quick summary of the tickets using different criteria.
 <figure>
     <title>Dashboard of the agent interface</title>
 <screenshot>
-<graphic scale="40"
-fileref="screenshots/introduction/firststeps/first-screen.png"></graphic></screenshot></figure>
+<graphic fileref="screenshots/introduction/firststeps/first-screen.png"
+scalefit="1" width="100%" contentdepth="100%"></graphic></screenshot></figure>
 </para>
 
 <para>
@@ -228,8 +229,8 @@ hivyo katika skrini zote kwenye kiolesura cha tovuti.
 <figure>
     <title>Kijachini</title>
 <screenshot>
-<graphic scale="40"
-fileref="screenshots/introduction/firststeps/footer.png"></graphic></screenshot></figure>
+<graphic fileref="screenshots/introduction/firststeps/footer.png"
+scalefit="1" width="100%" contentdepth="100%"></graphic></screenshot></figure>
 </para>
 
 </section>
@@ -270,8 +271,9 @@ vimefafanuliwa chini.
     <figure>
         <title>Vifaa vya dashibodi</title>
 <screenshot>
-<graphic scale="40"
-fileref="screenshots/introduction/firststeps/dashboard-left-column-widgets.png"></graphic></screenshot></figure>
+<graphic
+fileref="screenshots/introduction/firststeps/dashboard-left-column-widgets.png"
+scalefit="1" width="100%" contentdepth="100%"></graphic></screenshot></figure>
 </para>
 
 <para>
@@ -377,8 +379,9 @@ kama ukiifikiria kama muhimu.
             <figure>
                 <title>Kifaa cha Matukio ya Kalenda ya Tiketi</title>
 <screenshot>
-<graphic scale="40"
-fileref="screenshots/introduction/firststeps/events-ticket-calendar.png"></graphic></screenshot></figure>
+<graphic
+fileref="screenshots/introduction/firststeps/events-ticket-calendar.png"
+scalefit="1" width="100%" contentdepth="100%"></graphic></screenshot></figure>
         </para>
         <para>
             Zaidi usanidi wa hiki kifaa unaweza kupatikana chini ya
@@ -460,8 +463,8 @@ can't drag and drop it, or close it.
     <figure>
         <title>Dashboard Settings</title>
 <screenshot>
-<graphic scale="40"
-fileref="screenshots/introduction/firststeps/edit-settings.png"></graphic></screenshot></figure>
+<graphic fileref="screenshots/introduction/firststeps/edit-settings.png"
+scalefit="1" width="100%" contentdepth="100%"></graphic></screenshot></figure>
 </para>
 
 <para>
@@ -600,8 +603,8 @@ ambamo mtumiaji ana haki za kusoma na kuandika.
 <figure>
     <title>Muonekano wa Foleni kwa Mawakala (Chaguo-msingi)</title>
 <screenshot>
-<graphic scale="40"
-fileref="screenshots/introduction/firststeps/agent-queue-view.png"></graphic></screenshot></figure>
+<graphic fileref="screenshots/introduction/firststeps/agent-queue-view.png"
+scalefit="1" width="100%" contentdepth="100%"></graphic></screenshot></figure>
 </para>
 
 <para>
@@ -633,8 +636,9 @@ Kuna kengele zinazoonekana, kumsaidia mtumiaji.
 <figure>
     <title>Wakala Foleni Ona kengele zinazoonekana. </title>
 <screenshot>
-<graphic scale="40"
-fileref="screenshots/introduction/firststeps/agent-queue-overview-visual-alarms.png"></graphic></screenshot></figure>
+<graphic
+fileref="screenshots/introduction/firststeps/agent-queue-overview-visual-alarms.png"
+scalefit="1" width="100%" contentdepth="100%"></graphic></screenshot></figure>
 </para>
 
 <itemizedlist>
@@ -675,8 +679,8 @@ of the web interface (see figure below), and customers must click on the
 <figure>
     <title>Agent's personal preferences</title>
 <screenshot>
-<graphic scale="40"
-fileref="screenshots/introduction/firststeps/agent-preferences.png"></graphic></screenshot></figure>
+<graphic fileref="screenshots/introduction/firststeps/agent-preferences.png"
+scalefit="1" width="100%" contentdepth="100%"></graphic></screenshot></figure>
 </para>
 
 <para>
@@ -731,8 +735,9 @@ method).</para>
 <figure>
     <title>Customer's personal preferences</title>
 <screenshot>
-<graphic scale="40"
-fileref="screenshots/introduction/firststeps/customer-preferences.png"></graphic></screenshot></figure>
+<graphic
+fileref="screenshots/introduction/firststeps/customer-preferences.png"
+scalefit="1" width="100%" contentdepth="100%"></graphic></screenshot></figure>
 </para>
 
 <para>

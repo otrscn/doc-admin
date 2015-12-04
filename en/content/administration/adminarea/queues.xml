@@ -13,7 +13,7 @@ Clicking on the link "Queues" of the Admin page, you can manage the <link linken
 <figure>
     <title>Queue management</title>
     <screenshot>
-         <graphic scale="40" fileref="screenshots/administration/adminarea/admin-queue.png"></graphic>
+         <graphic fileref="screenshots/administration/adminarea/admin-queue.png" scalefit="1" width="100%" contentdepth="100%"></graphic>
     </screenshot>
 </figure>
 </para>
@@ -26,7 +26,7 @@ Here you can add queues (see figure below) and modify them. You can specify the 
 <figure>
     <title>Adding a new queue</title>
     <screenshot>
-         <graphic scale="40" fileref="screenshots/administration/adminarea/add-queue.png"></graphic>
+         <graphic fileref="screenshots/administration/adminarea/add-queue.png" scalefit="1" width="100%" contentdepth="100%"></graphic>
     </screenshot>
 </figure>
 </para>

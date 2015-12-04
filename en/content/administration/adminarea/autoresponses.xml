@@ -13,7 +13,7 @@ OTRS allows you to send automatic responses to customers based on the occurrence
 <figure>
     <title>Auto response management</title>
     <screenshot>
-         <graphic scale="40" fileref="screenshots/administration/adminarea/admin-autoresponse.png"></graphic>
+         <graphic fileref="screenshots/administration/adminarea/admin-autoresponse.png" scalefit="1" width="100%" contentdepth="100%"></graphic>
     </screenshot>
 </figure>
 </para>
@@ -26,7 +26,7 @@ To create an automatic response, click on the button "Add auto response", provid
 <figure>
     <title>Adding an auto response</title>
     <screenshot>
-         <graphic scale="40" fileref="screenshots/administration/adminarea/add-autoresponse.png"></graphic>
+         <graphic fileref="screenshots/administration/adminarea/add-autoresponse.png" scalefit="1" width="100%" contentdepth="100%"></graphic>
     </screenshot>
 </figure>
 </para>
@@ -111,7 +111,7 @@ To add an auto response to a queue, use the "Auto Response &lt;-&gt; Queues" lin
 <figure>
     <title>Queue &lt;-&gt; auto response relations management</title>
     <screenshot>
-         <graphic scale="40" fileref="screenshots/administration/adminarea/admin-autoresponse-queue.png"></graphic>
+         <graphic fileref="screenshots/administration/adminarea/admin-autoresponse-queue.png" scalefit="1" width="100%" contentdepth="100%"></graphic>
     </screenshot>
 </figure>
 </para>
@@ -124,7 +124,7 @@ To define the different auto responses that will be available for a queue, click
 <figure>
     <title>Change auto response relations for a queue</title>
     <screenshot>
-         <graphic scale="40" fileref="screenshots/administration/adminarea/autoresponses-queues-relations.png"></graphic>
+         <graphic fileref="screenshots/administration/adminarea/autoresponses-queues-relations.png" scalefit="1" width="100%" contentdepth="100%"></graphic>
     </screenshot>
 </figure>
 </para>

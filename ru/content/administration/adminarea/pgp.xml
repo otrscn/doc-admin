@@ -25,8 +25,8 @@ ring.
 <figure>
     <title>PGP management</title>
 <screenshot>
-<graphic scale="40"
-fileref="screenshots/administration/adminarea/admin-pgp.png"></graphic></screenshot></figure>
+<graphic fileref="screenshots/administration/adminarea/admin-pgp.png"
+scalefit="1" width="100%" contentdepth="100%"></graphic></screenshot></figure>
 </para>
 
 </section>

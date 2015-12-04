@@ -17,7 +17,7 @@ Through the "PGP Keys" link on the Admin page, it is possible to manage the key 
 <figure>
     <title>PGP management</title>
     <screenshot>
-         <graphic scale="40" fileref="screenshots/administration/adminarea/admin-pgp.png"></graphic>
+         <graphic fileref="screenshots/administration/adminarea/admin-pgp.png" scalefit="1" width="100%" contentdepth="100%"></graphic>
     </screenshot>
 </figure>
 </para>

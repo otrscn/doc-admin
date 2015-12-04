@@ -16,8 +16,8 @@ allowed.
 <figure>
     <title>SQL-запросы</title>
 <screenshot>
-<graphic scale="40"
-fileref="screenshots/administration/adminarea/admin-selectbox.png"></graphic></screenshot></figure>
+<graphic fileref="screenshots/administration/adminarea/admin-selectbox.png"
+scalefit="1" width="100%" contentdepth="100%"></graphic></screenshot></figure>
 </para>
 
 </section>

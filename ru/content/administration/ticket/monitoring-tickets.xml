@@ -42,8 +42,9 @@ linkend="ConfigReference_Ticket:Core::Ticket:Ticket::Responsible">Ticket::Respon
 <figure>
     <title>Changing the Responsibility of a ticket in its zoomed view</title>
 <screenshot>
-<graphic scale="40"
-fileref="screenshots/administration/ticket/ticket-zoom-responsible.png"></graphic></screenshot></figure>
+<graphic
+fileref="screenshots/administration/ticket/ticket-zoom-responsible.png"
+scalefit="1" width="100%" contentdepth="100%"></graphic></screenshot></figure>
 </para>
 
 <para>
@@ -56,8 +57,8 @@ also be used to send a message to the new responsible agent.
 <figure>
     <title>Pop-up dialog to change a ticket's responsibility</title>
 <screenshot>
-<graphic scale="40"
-fileref="screenshots/administration/ticket/ticket-responsible.png"></graphic></screenshot></figure>
+<graphic fileref="screenshots/administration/ticket/ticket-responsible.png"
+scalefit="1" width="100%" contentdepth="100%"></graphic></screenshot></figure>
 </para>
 
 <para>
@@ -96,8 +97,8 @@ In order to watch a ticket, go to its zoomed view and click on the
 <figure>
     <title>Subscribing to watching a ticket in its zoomed view</title>
 <screenshot>
-<graphic scale="40"
-fileref="screenshots/administration/ticket/ticket-subscribe.png"></graphic></screenshot></figure>
+<graphic fileref="screenshots/administration/ticket/ticket-subscribe.png"
+scalefit="1" width="100%" contentdepth="100%"></graphic></screenshot></figure>
 </para>
 
 <para>
@@ -110,8 +111,8 @@ below).
 <figure>
     <title>Unsubscribing from watching a ticket in its zoomed view</title>
 <screenshot>
-<graphic scale="40"
-fileref="screenshots/administration/ticket/ticket-unsubscribe.png"></graphic></screenshot></figure>
+<graphic fileref="screenshots/administration/ticket/ticket-unsubscribe.png"
+scalefit="1" width="100%" contentdepth="100%"></graphic></screenshot></figure>
 </para>
 
 <para>
@@ -124,8 +125,9 @@ feature gets activated.
 <figure>
     <title>Watched tickets view</title>
 <screenshot>
-<graphic scale="40"
-fileref="screenshots/administration/ticket/ticket-subscribe-mailbox.png"></graphic></screenshot></figure>
+<graphic
+fileref="screenshots/administration/ticket/ticket-subscribe-mailbox.png"
+scalefit="1" width="100%" contentdepth="100%"></graphic></screenshot></figure>
 </para>
 </section>
 

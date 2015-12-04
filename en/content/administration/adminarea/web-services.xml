@@ -12,7 +12,7 @@
         <figure>
             <title>The graphical interface for web services</title>
             <screenshot>
-                 <graphic scale="40" fileref="screenshots/administration/adminarea/genericinterface-webservice-overview.png"></graphic>
+                 <graphic fileref="screenshots/administration/adminarea/genericinterface-webservice-overview.png" scalefit="1" width="100%" contentdepth="100%"></graphic>
             </screenshot>
         </figure>
     </para>

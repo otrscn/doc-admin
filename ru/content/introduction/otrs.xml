@@ -42,7 +42,7 @@
         </para>
 
         <section>
-        <title>User Interface</title>
+        <title>Пользовательский интерфейс</title>
             <itemizedlist>
               <listitem>
                 <para>
@@ -94,7 +94,7 @@
             </itemizedlist>
         </section>
         <section>
-            <title>Email Interface</title>
+            <title>Почтовый интерфейс</title>
             <itemizedlist>
               <listitem>
                 <para>
@@ -242,88 +242,89 @@ Connetctor позволяет создание, обновление и поис
         </section>
 
         <section id="new-features-of-otrs-5">
-            <title>New Features of OTRS 5</title>
+            <title>Новые возможности OTRS 5</title>
             <section>
                 <title>Продуктивность</title>
                 <itemizedlist>
-                    <listitem><para>OTRS is now optimized for use on different types and sizes of mobile
-devices.</para></listitem>
-                    <listitem><para>Single-select and multi-select input fields have been modernized and provide
-advanced searching and filtering capabilities (thanks to Dusan Vuckovic at
-Mühlbauer).</para></listitem>
-                    <listitem><para>Images can now be added/uploaded to the WYSIWYG editor using Copy&amp;Paste
-and Drag&amp;Drop from anywhere outside the application (in all browsers,
-without additional Add-On).</para></listitem>
-                    <listitem><para>Improved ticket notification system. It is now possible to configure own
-ticket notifications with own trigger conditions and recipients. With OTRS
-Business Solution™, notifications can also be delivered via SMS and/or
-Notification Web View. The latter is a special screen in OTRS that holds all
-notifications of the agent; with this OTRS can be used entirely without an
-email client.</para></listitem>
-                    <listitem><para>Statistics received a new graphical user interface which is much better
-accessible and helps to create great statistics quickly and easily.</para></listitem>
-                    <listitem><para>Additionally, statistics support the new time periods “quarter” and
-“half-year”</para></listitem>
-                    <listitem><para>It is now possible to group action menu items in the ticket zoom
-screen. Less often used items can be grouped in a submenu, improving screen
-usage and clarity.</para></listitem>
-                    <listitem><para>Ticket overviews can now display customer company data, thanks to Renée
+                    <listitem><para>OTRS теперь оптимизирован для использования с мобильными устройствами
+различного типа и размера экрана.</para></listitem>
+                    <listitem><para>Поля ввода для прямого или множественного выбора модернизированы и
+предоставляют возможность расширенного поиска и фильтрации (спасибо Dusan
+Vuckovic из Mühlbauer).</para></listitem>
+                    <listitem><para>Теперь, вы можете добавить/загрузить изображение непосредственно в WYSIWYG
+редактор, используя приемы Copy&amp;Paste и Drag&amp;Drop из любого внешнего
+приложения (во всех браузерах, без всяких дополнений).</para></listitem>
+                    <listitem><para>Улучшена/расширена система уведомлений. Теперь можно настраивать собственные
+уведомления с собственными триггерами условий и получателями. В OTRS
+Business Solution™, уведомления также могут быть доставлены с помощью SMS
+и/или уведомления Web View. Последняя возможность - это специальный экран в
+OTRS, который содержит все уведомления агента; с её помощью OTRS может
+использоваться вообще без почтового клиента.</para></listitem>
+                    <listitem><para>Система отчетов получила новый графический интерфейс, более дружественный,
+помогающий создавать великолепные отчеты быстро и легко.</para></listitem>
+                    <listitem><para>Дополнительно, в отчетах введены новые временНые периоды - "квартал" и
+"полугодие"</para></listitem>
+                    <listitem><para>Появилась новая возможность - группировка пунктов меню на экране полного
+просмотра заявок. Менее часто используемые элементы меню могут быть
+объединены в подменю, улучшая обзор экрана и его использование.</para></listitem>
+                    <listitem><para>Обзоры заявок могут теперь отображать данные компаний клиента, спасибо Renée
 Bäcker.</para></listitem>
-                    <listitem><para>The ticket process TransitionAction “TicketCreate” can now create tickets
-without articles.</para></listitem>
+                    <listitem><para>В процессных заявках теперь можно в TransitionAction “TicketCreate”
+создавать заявки без заметок.</para></listitem>
                 </itemizedlist>
             </section>
             <section>
                 <title>Масштабируемость и Производительность</title>
                 <itemizedlist>
-                    <listitem><para>The new OTRS Daemon handles all asynchronous and periodic tasks and replaces
-all previous OTRS cron jobs. In a clustered environment the load is
-automatically distributed over the nodes.</para></listitem>
-                    <listitem><para>It is now possible to specify multiple readonly mirror (slave) databases for
-expensive computations such as statistics or fulltext searches to distribute
-the load among these database servers.</para></listitem>
+                    <listitem><para>Новый OTRS Daemon управляет всеми асинхронными и периодическими задачами и
+заменяет все OTRS cron jobs прежних версий. В кластерных конфигурациях,
+нагрузка автоматически распределяется/выравнивается по узлам.</para></listitem>
+                    <listitem><para>Появилась возможность задать несколько зеркальных (подчиненных) БД для
+эффективности вычислений, таких как получение отчетов или полнотекстовый
+поиск для распределения нагрузки между серверами БД.</para></listitem>
                 </itemizedlist>
             </section>
             <section>
-                <title>Security</title>
+                <title>Безопасность</title>
                 <itemizedlist>
                     <listitem>
-                        <para>A new two-factor authentication layer allows added login security.</para>
+                        <para>Новый механизм двухфакторной аутентификации позволяет повысить безопасность
+при входе.</para>
                         <itemizedlist>
-                            <listitem><para>If entering a fixed username and password doesn’t satisfy your requirements,
-you can now additionally use the open standard for time based one-time
-passwords (RfC 6238, also known as Google Authenticator).</para></listitem>
-                            <listitem><para>After having enabled the two-factor authentication, agents and customers can
-add a shared secret to their preferences and immediately start logging in
-using one-time passwords created by a compatible method of their choice
-(e.g. the Android Google Authenticator app).</para></listitem>
+                            <listitem><para>Если ввод фиксированных логина и пароля не удовлетворяет вашим требованиям,
+вы можете дополнительно использовать открытый стандарт для временных
+одноразовых паролей (RfC 6238, также известный как Google Authenticator).</para></listitem>
+                            <listitem><para>После включения двухфакторной аутентификации, агенты и клиенты могут
+добавить разделяемый секретный ключ в свои личные настройки и сразу начать
+использование одноразовых паролей созданных выбранным ими методом (например,
+Android Google Authenticator).</para></listitem>
                         </itemizedlist>
                     </listitem>
                 </itemizedlist>
             </section>
             <section>
-                <title>Working with External Systems</title>
+                <title>Работа с внешними системами</title>
                 <itemizedlist>
                     <listitem><para>A new XSLT based GenericInterface mapping module allows for arbitrarily
 complex user-defined data mapping.</para></listitem>
                 </itemizedlist>
             </section>
             <section>
-                <title>Установка и Администрирование</title>
+                <title>Установка &amp; Администрирование</title>
                 <itemizedlist>
-                    <listitem><para>The new OTRS console makes working on the commandline easy and fun. All
-commands have a consistent interface, useful documentation and provide
-helpful colored output.</para></listitem>
-                    <listitem><para>Administrators can now specify a minimum log level to reduce logging volume,
-thanks to Renée Bäcker.</para></listitem>
-                    <listitem><para>Overview screens in the admin area now show invalid entities in gray, making
-it easy to focus on active elements.</para></listitem>
+                    <listitem><para>Новая консоль OTRS делает работу с командной строкой простой и забавной. Все
+команды имеют единый интерфейс, полезную документацию и предоставляют
+полезную цветную раскраску результатов вывода.</para></listitem>
+                    <listitem><para>Администраторы теперь могут выбрать минимальный уровень вывода в журнал для
+уменьшения объемов протоколирования, спасибо Renée Bäcker.</para></listitem>
+                    <listitem><para>Экраны обзора в интерфейсе администратора теперь помечают ошибочные значения
+серым, позволяя легко сфокусироваться на них.</para></listitem>
                 </itemizedlist>
             </section>
         </section>
 
         <section id="new-features-of-otrs-4">
-            <title>New Features of OTRS 4</title>
+            <title>Новые возможности OTRS 5 </title>
             <section>
                 <title>Продуктивность</title>
                 <itemizedlist>
@@ -366,7 +367,7 @@ it easy to focus on active elements.</para></listitem>
                 </itemizedlist>
             </section>
             <section>
-                <title>Установка и Администрирование</title>
+                <title>Установка &amp; Администрирование</title>
                 <itemizedlist>
                     <listitem><para>Фильры Postmaster больше не ограничены количеством из 4 полей
 проверки. Теперь можно настроить количество таких полей (от 12 по умолчанию,
@@ -428,8 +429,8 @@ Maintenance в определенное (в настройках) время з�
                     </listitem>
                     <listitem><para>Добавлена возможность запретить импорт конфигурации с помощью параметров
 настройки.</para></listitem>
-                    <listitem><para>Added Apache MD5 as a new password hashing backend, thanks to Norihiro
-Tanaka.</para></listitem>
+                    <listitem><para>Добавлен Apache MD5 в качестве нового способа хэширования паролей, спасибо
+Norihiro Tanaka.</para></listitem>
                     <listitem><para>Добавлена возможность ограничить саморегистрацию клиентов с помощью белых и
 черных спиской почтовых адресов, спасибо Renee Backer.</para></listitem>
                     <listitem><para>Добавлен новый модуль Дайджеста, отображающий результат выполнения внешних
@@ -455,7 +456,7 @@ Template::Toolkit.</para></listitem>
         </section>
 
         <section id="new-features-of-otrs-3.3">
-            <title>New Features of OTRS 3.3</title>
+            <title>Новые возможности OTRS 3.3</title>
             <section>
                 <title>Продуктивность</title>
                 <itemizedlist>
@@ -504,7 +505,7 @@ eligible ticket columns, and the shown columns are configurable.</para></listite
                 </itemizedlist>
             </section>
             <section>
-                <title>Установка и Администрирование</title>
+                <title>Установка &amp; Администрирование</title>
                 <itemizedlist>
                     <listitem><para>Теперь Веб-Установщик может устанавливать OTRS с такими базами данных как
 PostgreSQL, Oracle и SQL Server, а также MySQL.</para></listitem>
@@ -531,7 +532,7 @@ Renée Bäcker.</para></listitem>
     </section>
 
     <section id="software-requirements">
-        <title>Hardware and Software Requirements</title>
+        <title>Требования к апаратному и програмному обеспечению</title>
 
         <para>
         OTRS может быть установлен на многих операционных системах. OTRS работает
@@ -561,12 +562,12 @@ Perl с некоторыми дополнительными модулями. В
         </para>
 
         <para>
-        You can deploy OTRS on different databases. You can choose between
-<application>MySQL</application>, <application>PostgreSQL</application> or
-<application>Oracle</application>.  If you use
-<application>MySQL</application> or <application>PostgreSQL</application>
-you have the advantage that the database and some system settings can be
-configured during the installation, through a web front-end.
+        В качестве базы данных, можно использовать <application>MySQL</application>,
+<application>PostgreSQL</application> или
+<application>Oracle</application>. В случае использования
+<application>MySQL</application> или <application>PostgreSQL</application> в
+качестве сервера базы данных - есть возможность задать некоторые настройки
+СУБД и системы посредством веб-интерфейса, при установке системы.
         </para>
 
         <para>
@@ -632,7 +633,7 @@ Perl-модулей</link> более подробно описывает как
             </para>
             <itemizedlist>
                 <listitem>
-                      <para>Internet Explorer before version 10</para>
+                      <para>Браузер Internet Explorer до 10 версии</para>
                 </listitem>
                 <listitem>
                       <para>Браузер Firefox до 10 версии</para>
@@ -642,10 +643,11 @@ Perl-модулей</link> более подробно описывает как
                 </listitem>
             </itemizedlist>
             <para>
-                We recommend keeping your browser up-to-date. JavaScript and rendering
-performance in newer versions is always improved.  Dramatic performance
-issues can be seen in larger systems when using older versions. We are happy
-to consult you on that matter.
+                Мы рекомендуем использовать самые последние версии браузеров, т.к. они
+всегда обладают наилучшей производительностью JavaScript и
+рендеринга. Критическая разница в производительности может возникать при
+больших объемах данных при использовании старых версий. Мы всегда рады
+оказать помощь в таких случаях.
             </para>
         </section>
     </section>

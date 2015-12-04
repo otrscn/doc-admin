@@ -41,8 +41,8 @@ configuration tool (see figure below).
 <figure>
     <title>システム構成用のグラフィカル・インターフェース</title>
 <screenshot>
-<graphic scale="40"
-fileref="screenshots/administration/adminarea/admin-sysconfig.png"></graphic></screenshot></figure>
+<graphic fileref="screenshots/administration/adminarea/admin-sysconfig.png"
+scalefit="1" width="100%" contentdepth="100%"></graphic></screenshot></figure>
 </para>
 
 <para>

@@ -21,8 +21,9 @@ center of the screen.  The dynamic fields overview will display as follows:
             <figure>
                 <title>動的フィールド概要画面、空</title>
 <screenshot>
-<graphic scale="40"
-fileref="screenshots/administration/dynamicfields/dynamicfields-overview-empty.png"></graphic></screenshot></figure>
+<graphic
+fileref="screenshots/administration/dynamicfields/dynamicfields-overview-empty.png"
+scalefit="1" width="100%" contentdepth="100%"></graphic></screenshot></figure>
         </para>
         <para>
             作られてた全ての動的フィールドをリストへ、あなたがさらに動的フィールドを追加すると、この画面が変化することにご留意下さい。インストレーションがOTRSのより古いバージョンから更新された場合、この画面には既にいくつかのフィールドがあるかもしれません。
@@ -224,8 +225,9 @@ just choose the field from the Article dropdown list.
             <figure>
                 <title>動的フィールド・テキストの構成ダイアログ。</title>
 <screenshot>
-<graphic scale="40"
-fileref="screenshots/administration/dynamicfields/dynamicfields-configuration-text.png"></graphic></screenshot></figure>
+<graphic
+fileref="screenshots/administration/dynamicfields/dynamicfields-configuration-text.png"
+scalefit="1" width="100%" contentdepth="100%"></graphic></screenshot></figure>
         </para>
     </section>
 
@@ -267,8 +269,9 @@ fileref="screenshots/administration/dynamicfields/dynamicfields-configuration-te
             <figure>
                 <title>動的フィールドテキストエリアの構成ダイアログ。</title>
 <screenshot>
-<graphic scale="40"
-fileref="screenshots/administration/dynamicfields/dynamicfields-configuration-textarea.png"></graphic></screenshot></figure>
+<graphic
+fileref="screenshots/administration/dynamicfields/dynamicfields-configuration-textarea.png"
+scalefit="1" width="100%" contentdepth="100%"></graphic></screenshot></figure>
         </para>
     </section>
 
@@ -294,8 +297,9 @@ fileref="screenshots/administration/dynamicfields/dynamicfields-configuration-te
             <figure>
                 <title>動的フィールド・チェックボックスの構成ダイアログ</title>
 <screenshot>
-<graphic scale="40"
-fileref="screenshots/administration/dynamicfields/dynamicfields-configuration-checkbox.png"></graphic></screenshot></figure>
+<graphic
+fileref="screenshots/administration/dynamicfields/dynamicfields-configuration-checkbox.png"
+scalefit="1" width="100%" contentdepth="100%"></graphic></screenshot></figure>
         </para>
 
     </section>
@@ -363,8 +367,9 @@ fileref="screenshots/administration/dynamicfields/dynamicfields-configuration-ch
             <figure>
                 <title>動的フィールド・ドロップダウンの構成ダイアログ</title>
 <screenshot>
-<graphic scale="40"
-fileref="screenshots/administration/dynamicfields/dynamicfields-configuration-dropdown.png"></graphic></screenshot></figure>
+<graphic
+fileref="screenshots/administration/dynamicfields/dynamicfields-configuration-dropdown.png"
+scalefit="1" width="100%" contentdepth="100%"></graphic></screenshot></figure>
         </para>
     </section>
 
@@ -414,8 +419,9 @@ fileref="screenshots/administration/dynamicfields/dynamicfields-configuration-dr
             <figure>
                 <title>動的フィールド 複数選択の構成ダイアログ</title>
 <screenshot>
-<graphic scale="40"
-fileref="screenshots/administration/dynamicfields/dynamicfields-configuration-multiselect.png"></graphic></screenshot></figure>
+<graphic
+fileref="screenshots/administration/dynamicfields/dynamicfields-configuration-multiselect.png"
+scalefit="1" width="100%" contentdepth="100%"></graphic></screenshot></figure>
         </para>
     </section>
 
@@ -489,8 +495,9 @@ filed value will make your browser to open the OTRS web page.
             <figure>
                 <title>動的フィールド 日付/時刻の構成ダイアログ</title>
 <screenshot>
-<graphic scale="40"
-fileref="screenshots/administration/dynamicfields/dynamicfields-configuration-date.png"></graphic></screenshot></figure>
+<graphic
+fileref="screenshots/administration/dynamicfields/dynamicfields-configuration-date.png"
+scalefit="1" width="100%" contentdepth="100%"></graphic></screenshot></figure>
         </para>
     </section>
 
@@ -564,8 +571,9 @@ filed value will make your browser to open the OTRS web page.
             <figure>
                 <title>動的フィールド 日付 の構成ダイアログ</title>
 <screenshot>
-<graphic scale="40"
-fileref="screenshots/administration/dynamicfields/dynamicfields-configuration-datetime.png"></graphic></screenshot></figure>
+<graphic
+fileref="screenshots/administration/dynamicfields/dynamicfields-configuration-datetime.png"
+scalefit="1" width="100%" contentdepth="100%"></graphic></screenshot></figure>
         </para>
     </section>
 
@@ -578,8 +586,9 @@ fileref="screenshots/administration/dynamicfields/dynamicfields-configuration-da
             <figure>
                 <title>サンプルデータで埋められた動的フィールドの概要画面</title>
 <screenshot>
-<graphic scale="40"
-fileref="screenshots/administration/dynamicfields/dynamicfields-overview-filled.png"></graphic></screenshot></figure>
+<graphic
+fileref="screenshots/administration/dynamicfields/dynamicfields-overview-filled.png"
+scalefit="1" width="100%" contentdepth="100%"></graphic></screenshot></figure>
         </para>
         <para>
             動的フィールドを変更・編集するために、少なくともひとつのフィールドを定義し、動的フィールドの概要画面から既に追加済フィールドを選択し、その設定を更新しなければいけません。
@@ -709,8 +718,9 @@ displayed.
                         <figure>
                             <title>Field1 in New Phone Ticket Screen</title>
 <screenshot>
-<graphic scale="40"
-fileref="screenshots/administration/dynamicfields/dynamicfields-agentticketphone-field1.png"></graphic></screenshot></figure>
+<graphic
+fileref="screenshots/administration/dynamicfields/dynamicfields-agentticketphone-field1.png"
+scalefit="1" width="100%" contentdepth="100%"></graphic></screenshot></figure>
                     </para>
                 </example>
             </para>
@@ -761,8 +771,9 @@ fileref="screenshots/administration/dynamicfields/dynamicfields-agentticketphone
                         <figure>
                             <title>Field1 in New Phone Ticket Screen as mandatory</title>
 <screenshot>
-<graphic scale="40"
-fileref="screenshots/administration/dynamicfields/dynamicfields-agentticketphone-field1-mandatory.png"></graphic></screenshot></figure>
+<graphic
+fileref="screenshots/administration/dynamicfields/dynamicfields-agentticketphone-field1-mandatory.png"
+scalefit="1" width="100%" contentdepth="100%"></graphic></screenshot></figure>
                     </para>
                 </example>
             </para>
@@ -837,8 +848,9 @@ fileref="screenshots/administration/dynamicfields/dynamicfields-agentticketphone
                         <figure>
                             <title>Several fields in New Phone Ticket Screen as mandatory</title>
 <screenshot>
-<graphic scale="40"
-fileref="screenshots/administration/dynamicfields/dynamicfields-agentticketphone-allfields.png"></graphic></screenshot></figure>
+<graphic
+fileref="screenshots/administration/dynamicfields/dynamicfields-agentticketphone-allfields.png"
+scalefit="1" width="100%" contentdepth="100%"></graphic></screenshot></figure>
                     </para>
                 </example>
             </para>
@@ -913,8 +925,9 @@ fileref="screenshots/administration/dynamicfields/dynamicfields-agentticketphone
                         <figure>
                             <title>Some deactivated fields in New Phone Ticket Screen as mandatory</title>
 <screenshot>
-<graphic scale="40"
-fileref="screenshots/administration/dynamicfields/dynamicfields-agentticketphone-somefields.png"></graphic></screenshot></figure>
+<graphic
+fileref="screenshots/administration/dynamicfields/dynamicfields-agentticketphone-somefields.png"
+scalefit="1" width="100%" contentdepth="100%"></graphic></screenshot></figure>
                     </para>
                 </example>
             </para>
@@ -965,8 +978,9 @@ fileref="screenshots/administration/dynamicfields/dynamicfields-agentticketphone
                         <figure>
                             <title>Field1 in Ticket Zoom Screen</title>
 <screenshot>
-<graphic scale="40"
-fileref="screenshots/administration/dynamicfields/dynamicfields-agentticketzoom-field1.png"></graphic></screenshot></figure>
+<graphic
+fileref="screenshots/administration/dynamicfields/dynamicfields-agentticketzoom-field1.png"
+scalefit="1" width="100%" contentdepth="100%"></graphic></screenshot></figure>
                     </para>
                 </example>
             </para>
@@ -1017,8 +1031,9 @@ fileref="screenshots/administration/dynamicfields/dynamicfields-agentticketzoom-
                         <figure>
                             <title>Field1 in Ticket Overview Small Screen</title>
 <screenshot>
-<graphic scale="40"
-fileref="screenshots/administration/dynamicfields/dynamicfields-ticketoverviewsmall-field1.png"></graphic></screenshot></figure>
+<graphic
+fileref="screenshots/administration/dynamicfields/dynamicfields-ticketoverviewsmall-field1.png"
+scalefit="1" width="100%" contentdepth="100%"></graphic></screenshot></figure>
                     </para>
                     <para>
                         This setting affects: Escalation View, Locked View, Queue View, Responsible
@@ -1207,8 +1222,9 @@ PreferencesGroups###My-Field2, etc.
                 <figure>
                     <title>Field1 in User preferences screen</title>
 <screenshot>
-<graphic scale="40"
-fileref="screenshots/administration/dynamicfields/dynamicfields-userpreferences.png"></graphic></screenshot></figure>
+<graphic
+fileref="screenshots/administration/dynamicfields/dynamicfields-userpreferences.png"
+scalefit="1" width="100%" contentdepth="100%"></graphic></screenshot></figure>
             </para>
         </example>
     </section>

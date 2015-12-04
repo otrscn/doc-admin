@@ -28,8 +28,9 @@ center of the screen.  The dynamic fields overview will display as follows:
             <figure>
                 <title>Leere Übersichtsseite der dynamischen Felder</title>
 <screenshot>
-<graphic scale="40"
-fileref="screenshots/administration/dynamicfields/dynamicfields-overview-empty.png"></graphic></screenshot></figure>
+<graphic
+fileref="screenshots/administration/dynamicfields/dynamicfields-overview-empty.png"
+scalefit="1" width="100%" contentdepth="100%"></graphic></screenshot></figure>
         </para>
         <para>
             Beachten Sie das sich diese Übersicht ändern wird, wenn Sie dynamische
@@ -253,8 +254,9 @@ ist, wird den Feldwert als Teil des Links hinzufügen.
             <figure>
                 <title>Konfigurationsdialog für Textfelder indynamischen Feldern</title>
 <screenshot>
-<graphic scale="40"
-fileref="screenshots/administration/dynamicfields/dynamicfields-configuration-text.png"></graphic></screenshot></figure>
+<graphic
+fileref="screenshots/administration/dynamicfields/dynamicfields-configuration-text.png"
+scalefit="1" width="100%" contentdepth="100%"></graphic></screenshot></figure>
         </para>
     </section>
 
@@ -300,8 +302,9 @@ wird (kann ein mehrzeiliges Textfeld sein).
             <figure>
                 <title>Konfigurationsdialog für Textfelder in dynamischen Feldern</title>
 <screenshot>
-<graphic scale="40"
-fileref="screenshots/administration/dynamicfields/dynamicfields-configuration-textarea.png"></graphic></screenshot></figure>
+<graphic
+fileref="screenshots/administration/dynamicfields/dynamicfields-configuration-textarea.png"
+scalefit="1" width="100%" contentdepth="100%"></graphic></screenshot></figure>
         </para>
     </section>
 
@@ -331,8 +334,9 @@ Feld kann 'Aktiviert' oder 'Deaktiviert' sein.
             <figure>
                 <title>Konfigurationsdialog für Checkboxen in dynamischen Feldern</title>
 <screenshot>
-<graphic scale="40"
-fileref="screenshots/administration/dynamicfields/dynamicfields-configuration-checkbox.png"></graphic></screenshot></figure>
+<graphic
+fileref="screenshots/administration/dynamicfields/dynamicfields-configuration-checkbox.png"
+scalefit="1" width="100%" contentdepth="100%"></graphic></screenshot></figure>
         </para>
 
     </section>
@@ -412,8 +416,9 @@ ist, wird den Feldwert als Teil des Links hinzufügen.
             <figure>
                 <title>Konfigurationsdialog für Einfachauswahl in dynamischen Feldern</title>
 <screenshot>
-<graphic scale="40"
-fileref="screenshots/administration/dynamicfields/dynamicfields-configuration-dropdown.png"></graphic></screenshot></figure>
+<graphic
+fileref="screenshots/administration/dynamicfields/dynamicfields-configuration-dropdown.png"
+scalefit="1" width="100%" contentdepth="100%"></graphic></screenshot></figure>
         </para>
     </section>
 
@@ -473,8 +478,9 @@ manuell in den Übersetzungsdateien hinzugefügt werden.
             <figure>
                 <title>Konfigurationsdialog für Mehrfachauswahlen in dynamischen Feldern</title>
 <screenshot>
-<graphic scale="40"
-fileref="screenshots/administration/dynamicfields/dynamicfields-configuration-multiselect.png"></graphic></screenshot></figure>
+<graphic
+fileref="screenshots/administration/dynamicfields/dynamicfields-configuration-multiselect.png"
+scalefit="1" width="100%" contentdepth="100%"></graphic></screenshot></figure>
         </para>
     </section>
 
@@ -554,8 +560,9 @@ ist, wird den Feldwert als Teil des Links hinzufügen.
             <figure>
                 <title>Konfigurationsdialog für Datum in dynamischen Feldern.</title>
 <screenshot>
-<graphic scale="40"
-fileref="screenshots/administration/dynamicfields/dynamicfields-configuration-date.png"></graphic></screenshot></figure>
+<graphic
+fileref="screenshots/administration/dynamicfields/dynamicfields-configuration-date.png"
+scalefit="1" width="100%" contentdepth="100%"></graphic></screenshot></figure>
         </para>
     </section>
 
@@ -635,8 +642,9 @@ ist, wird den Feldwert als Teil des Links hinzufügen.
             <figure>
                 <title>Konfigurationsdialog für Datum / Zeit in dynamischen Feldern</title>
 <screenshot>
-<graphic scale="40"
-fileref="screenshots/administration/dynamicfields/dynamicfields-configuration-datetime.png"></graphic></screenshot></figure>
+<graphic
+fileref="screenshots/administration/dynamicfields/dynamicfields-configuration-datetime.png"
+scalefit="1" width="100%" contentdepth="100%"></graphic></screenshot></figure>
         </para>
     </section>
 
@@ -650,8 +658,9 @@ Beispielen) sollte so aussehen:
             <figure>
                 <title>Übersichtsseite der dynamischen Felder mit Beispieldaten</title>
 <screenshot>
-<graphic scale="40"
-fileref="screenshots/administration/dynamicfields/dynamicfields-overview-filled.png"></graphic></screenshot></figure>
+<graphic
+fileref="screenshots/administration/dynamicfields/dynamicfields-overview-filled.png"
+scalefit="1" width="100%" contentdepth="100%"></graphic></screenshot></figure>
         </para>
         <para>
             Um ein dynamisches Feld zu ändern oder zu editieren, muss mindestens ein
@@ -804,8 +813,9 @@ Ticket::Frontend::AgentTicketPhone###DynamicField
                         <figure>
                             <title>Field1 in New Phone Ticket Screen</title>
 <screenshot>
-<graphic scale="40"
-fileref="screenshots/administration/dynamicfields/dynamicfields-agentticketphone-field1.png"></graphic></screenshot></figure>
+<graphic
+fileref="screenshots/administration/dynamicfields/dynamicfields-agentticketphone-field1.png"
+scalefit="1" width="100%" contentdepth="100%"></graphic></screenshot></figure>
                     </para>
                 </example>
             </para>
@@ -858,8 +868,9 @@ Ticket::Frontend::AgentTicketPhone###DynamicField
                         <figure>
                             <title>Field1 in New Phone Ticket Screen as mandatory</title>
 <screenshot>
-<graphic scale="40"
-fileref="screenshots/administration/dynamicfields/dynamicfields-agentticketphone-field1-mandatory.png"></graphic></screenshot></figure>
+<graphic
+fileref="screenshots/administration/dynamicfields/dynamicfields-agentticketphone-field1-mandatory.png"
+scalefit="1" width="100%" contentdepth="100%"></graphic></screenshot></figure>
                     </para>
                 </example>
             </para>
@@ -936,8 +947,9 @@ Ticket::Frontend::AgentTicketPhone###DynamicField
                         <figure>
                             <title>Several fields in New Phone Ticket Screen as mandatory</title>
 <screenshot>
-<graphic scale="40"
-fileref="screenshots/administration/dynamicfields/dynamicfields-agentticketphone-allfields.png"></graphic></screenshot></figure>
+<graphic
+fileref="screenshots/administration/dynamicfields/dynamicfields-agentticketphone-allfields.png"
+scalefit="1" width="100%" contentdepth="100%"></graphic></screenshot></figure>
                     </para>
                 </example>
             </para>
@@ -1013,8 +1025,9 @@ Ticket::Frontend::AgentTicketPhone###DynamicField
                         <figure>
                             <title>Some deactivated fields in New Phone Ticket Screen as mandatory</title>
 <screenshot>
-<graphic scale="40"
-fileref="screenshots/administration/dynamicfields/dynamicfields-agentticketphone-somefields.png"></graphic></screenshot></figure>
+<graphic
+fileref="screenshots/administration/dynamicfields/dynamicfields-agentticketphone-somefields.png"
+scalefit="1" width="100%" contentdepth="100%"></graphic></screenshot></figure>
                     </para>
                 </example>
             </para>
@@ -1066,8 +1079,9 @@ Ticket::Frontend::AgentTicketZoom###DynamicField
                         <figure>
                             <title>Field1 in Ticket Zoom Screen</title>
 <screenshot>
-<graphic scale="40"
-fileref="screenshots/administration/dynamicfields/dynamicfields-agentticketzoom-field1.png"></graphic></screenshot></figure>
+<graphic
+fileref="screenshots/administration/dynamicfields/dynamicfields-agentticketzoom-field1.png"
+scalefit="1" width="100%" contentdepth="100%"></graphic></screenshot></figure>
                     </para>
                 </example>
             </para>
@@ -1119,8 +1133,9 @@ Ticket::Frontend::OverviewSmall###DynamicField
                         <figure>
                             <title>Field1 in Ticket Overview Small Screen</title>
 <screenshot>
-<graphic scale="40"
-fileref="screenshots/administration/dynamicfields/dynamicfields-ticketoverviewsmall-field1.png"></graphic></screenshot></figure>
+<graphic
+fileref="screenshots/administration/dynamicfields/dynamicfields-ticketoverviewsmall-field1.png"
+scalefit="1" width="100%" contentdepth="100%"></graphic></screenshot></figure>
                     </para>
                     <para>
                         Diese Einstellung betrifft: Eskalationsübersichten, Übersicht über gesperrte
@@ -1329,8 +1344,9 @@ PreferencesGroups###101-DynamicField-Field1
                 <figure>
                     <title>Field1 in User preferences screen</title>
 <screenshot>
-<graphic scale="40"
-fileref="screenshots/administration/dynamicfields/dynamicfields-userpreferences.png"></graphic></screenshot></figure>
+<graphic
+fileref="screenshots/administration/dynamicfields/dynamicfields-userpreferences.png"
+scalefit="1" width="100%" contentdepth="100%"></graphic></screenshot></figure>
             </para>
         </example>
     </section>

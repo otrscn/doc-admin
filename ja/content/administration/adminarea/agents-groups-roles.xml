@@ -26,8 +26,8 @@ OTRSの担当者アカウントは非活性化されますが、ここでは削�
 <figure>
     <title>担当者管理</title>
 <screenshot>
-<graphic scale="40"
-fileref="screenshots/administration/adminarea/admin-agents.png"></graphic></screenshot></figure>
+<graphic fileref="screenshots/administration/adminarea/admin-agents.png"
+scalefit="1" width="100%" contentdepth="100%"></graphic></screenshot></figure>
 </para>
 
 <para>
@@ -38,8 +38,8 @@ fileref="screenshots/administration/adminarea/admin-agents.png"></graphic></scre
 <figure>
     <title>Adding a new agent</title>
 <screenshot>
-<graphic scale="40"
-fileref="screenshots/administration/adminarea/add-agent.png"></graphic></screenshot></figure>
+<graphic fileref="screenshots/administration/adminarea/add-agent.png"
+scalefit="1" width="100%" contentdepth="100%"></graphic></screenshot></figure>
 </para>
 
 <para>
@@ -106,8 +106,8 @@ You can access the group management page (see figure below) by clicking the
 <figure>
     <title>グループ管理</title>
 <screenshot>
-<graphic scale="40"
-fileref="screenshots/administration/adminarea/admin-groups.png"></graphic></screenshot></figure>
+<graphic fileref="screenshots/administration/adminarea/admin-groups.png"
+scalefit="1" width="100%" contentdepth="100%"></graphic></screenshot></figure>
 </para>
 
 <note>
@@ -126,8 +126,9 @@ Admin page (see figure below).
 <figure>
     <title>Agent &lt;-&gt; group management</title>
 <screenshot>
-<graphic scale="40"
-fileref="screenshots/administration/adminarea/admin-agents-and-groups.png"></graphic></screenshot></figure>
+<graphic
+fileref="screenshots/administration/adminarea/admin-agents-and-groups.png"
+scalefit="1" width="100%" contentdepth="100%"></graphic></screenshot></figure>
 </para>
 
 <para>
@@ -142,16 +143,18 @@ group, just click on the group you want to edit (see figure below).
 <figure>
     <title>Change the groups an agent belongs to</title>
 <screenshot>
-<graphic scale="40"
-fileref="screenshots/administration/adminarea/agent-group-relations.png"></graphic></screenshot></figure>
+<graphic
+fileref="screenshots/administration/adminarea/agent-group-relations.png"
+scalefit="1" width="100%" contentdepth="100%"></graphic></screenshot></figure>
 </para>
 
 <para>
 <figure>
     <title>Change the agents that belong to a specific group</title>
 <screenshot>
-<graphic scale="40"
-fileref="screenshots/administration/adminarea/agent-group-relations2.png"></graphic></screenshot></figure>
+<graphic
+fileref="screenshots/administration/adminarea/agent-group-relations2.png"
+scalefit="1" width="100%" contentdepth="100%"></graphic></screenshot></figure>
 </para>
 
 <para>
@@ -339,8 +342,8 @@ the <emphasis>Roles</emphasis> link on the Admin page.
 <figure>
     <title>役割管理</title>
 <screenshot>
-<graphic scale="40"
-fileref="screenshots/administration/adminarea/admin-roles.png"></graphic></screenshot></figure>
+<graphic fileref="screenshots/administration/adminarea/admin-roles.png"
+scalefit="1" width="100%" contentdepth="100%"></graphic></screenshot></figure>
 </para>
 
 <note>
@@ -360,8 +363,8 @@ button, provide the needed data and submit it (see figure below).
 <figure>
     <title>Adding a new role</title>
 <screenshot>
-<graphic scale="40"
-fileref="screenshots/administration/adminarea/add-role.png"></graphic></screenshot></figure>
+<graphic fileref="screenshots/administration/adminarea/add-role.png"
+scalefit="1" width="100%" contentdepth="100%"></graphic></screenshot></figure>
 </para>
 
 <para>
@@ -377,16 +380,18 @@ below).
 <figure>
     <title>Change the roles associated with an agent</title>
 <screenshot>
-<graphic scale="40"
-fileref="screenshots/administration/adminarea/admin-roles-agents-relation.png"></graphic></screenshot></figure>
+<graphic
+fileref="screenshots/administration/adminarea/admin-roles-agents-relation.png"
+scalefit="1" width="100%" contentdepth="100%"></graphic></screenshot></figure>
 </para>
 
 <para>
 <figure>
     <title>Change the agents associated with a specific role</title>
 <screenshot>
-<graphic scale="40"
-fileref="screenshots/administration/adminarea/admin-roles-agents-relation2.png"></graphic></screenshot></figure>
+<graphic
+fileref="screenshots/administration/adminarea/admin-roles-agents-relation2.png"
+scalefit="1" width="100%" contentdepth="100%"></graphic></screenshot></figure>
 </para>
 
 <para>
@@ -397,8 +402,9 @@ fileref="screenshots/administration/adminarea/admin-roles-agents-relation2.png">
 <figure>
     <title>Manage roles-groups relations</title>
 <screenshot>
-<graphic scale="40"
-fileref="screenshots/administration/adminarea/admin-roles-groups.png"></graphic></screenshot></figure>
+<graphic
+fileref="screenshots/administration/adminarea/admin-roles-groups.png"
+scalefit="1" width="100%" contentdepth="100%"></graphic></screenshot></figure>
 </para>
 
 <para>
@@ -410,16 +416,18 @@ role or a group (see below the Figures 4.13 and 4.14, respectively).
 <figure>
     <title>Change group relations for a role</title>
 <screenshot>
-<graphic scale="40"
-fileref="screenshots/administration/adminarea/groups-roles-relations.png"></graphic></screenshot></figure>
+<graphic
+fileref="screenshots/administration/adminarea/groups-roles-relations.png"
+scalefit="1" width="100%" contentdepth="100%"></graphic></screenshot></figure>
 </para>
 
 <para>
 <figure>
     <title>Change role relations for a group</title>
 <screenshot>
-<graphic scale="40"
-fileref="screenshots/administration/adminarea/groups-roles-relations2.png"></graphic></screenshot></figure>
+<graphic
+fileref="screenshots/administration/adminarea/groups-roles-relations2.png"
+scalefit="1" width="100%" contentdepth="100%"></graphic></screenshot></figure>
 </para>
 
 </section>

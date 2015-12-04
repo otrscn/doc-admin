@@ -7,6 +7,7 @@
 # andronati <ipfound@gmail.com>, 2014
 # Antonio Kless, 2015
 # Grigoriy <mr.bg.prodix@gmail.com>, 2015
+# SLRover <ilya.sapunov@gmail.com>, 2015
 # andronati <ipfound@gmail.com>, 2014
 # Martin Gruner <martin.gruner@otrs.com>, 2014-2015
 # Yuri Kolesniov <ynkolesnikov@gmail.com>, 2014
@@ -15,8 +16,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: OTRS\n"
-"POT-Creation-Date: 2015-11-30 13:51+0100\n"
-"PO-Revision-Date: 2015-11-30 12:52+0000\n"
+"POT-Creation-Date: 2015-12-04 14:02+0100\n"
+"PO-Revision-Date: 2015-12-04 13:33+0000\n"
 "Last-Translator: Martin Gruner <martin.gruner@otrs.com>\n"
 "Language-Team: Russian (http://www.transifex.com/otrs/OTRS/language/ru/)\n"
 "Language: ru\n"
@@ -30,7 +31,7 @@ msgstr ""
 #. type: Content of: <appendix><title>
 #: en/all-config-parameters.xml:6
 msgid "Configuration Options Reference"
-msgstr ""
+msgstr "Справочник опций конфигурации  "
 
 #. type: Content of: <appendix><para>
 #: en/all-config-parameters.xml:9
@@ -47,7 +48,7 @@ msgstr "en"
 #. type: Content of: <book><bookinfo><title>
 #: en/book.xml:7
 msgid "OTRS 5 - Admin Manual"
-msgstr ""
+msgstr "OTRS v.5 - Руководство Администратора"
 
 #.         <edition>
 #. Cancún Beach (México)</edition> 
@@ -100,6 +101,11 @@ msgid ""
 "welcome.  You can also help translating it to your language at <ulink url="
 "\"https://www.transifex.com/otrs/OTRS/\">Transifex</ulink>."
 msgstr ""
+"Исходный код этого документа можно найти на <ulink url=\"https://otrs.github."
+"io\">github</ulink>, в репозитории <ulink url=\"https://github.com/OTRS/doc-"
+"admin\">doc-admin</ulink>. Любой вклад приветствуется. Вы также можете "
+"помочь в переводе на ваш язык на сайте <ulink url=\"https://www.transifex."
+"com/otrs/OTRS/\">Transifex</ulink>."
 
 #. type: Content of: <book><bookinfo><legalnotice><para>
 #: en/book.xml:42
@@ -476,7 +482,7 @@ msgstr ""
 #. type: Content of: <section><section><section><title>
 #: en/content/introduction/otrs.xml:42
 msgid "User Interface"
-msgstr ""
+msgstr "Пользовательский интерфейс"
 
 #. type: Content of: <section><section><section><itemizedlist><listitem><para>
 #: en/content/introduction/otrs.xml:46
@@ -545,7 +551,7 @@ msgstr "Поддержка более 30 языков и разных часов
 #. type: Content of: <section><section><section><title>
 #: en/content/introduction/otrs.xml:87
 msgid "Email Interface"
-msgstr ""
+msgstr "Почтовый интерфейс"
 
 #. type: Content of: <section><section><section><itemizedlist><listitem><para>
 #: en/content/introduction/otrs.xml:91
@@ -752,7 +758,7 @@ msgstr "Рассмотрим изменения в последних верси
 #. type: Content of: <section><section><section><title>
 #: en/content/introduction/otrs.xml:208
 msgid "New Features of OTRS 5"
-msgstr ""
+msgstr "Новые возможности OTRS 5"
 
 #. type: Content of: <section><section><section><section><title>
 #: en/content/introduction/otrs.xml:210 en/content/introduction/otrs.xml:261
@@ -765,6 +771,8 @@ msgstr "Продуктивность"
 msgid ""
 "OTRS is now optimized for use on different types and sizes of mobile devices."
 msgstr ""
+"OTRS теперь оптимизирован для использования с мобильными устройствами "
+"различного типа и размера экрана."
 
 #. type: Content of: <section><section><section><section><itemizedlist><listitem><para>
 #: en/content/introduction/otrs.xml:213
@@ -773,6 +781,9 @@ msgid ""
 "advanced searching and filtering capabilities (thanks to Dusan Vuckovic at "
 "Mühlbauer)."
 msgstr ""
+"Поля ввода для прямого или множественного выбора модернизированы и "
+"предоставляют возможность расширенного поиска и фильтрации (спасибо Dusan "
+"Vuckovic из Mühlbauer)."
 
 #. type: Content of: <section><section><section><section><itemizedlist><listitem><para>
 #: en/content/introduction/otrs.xml:214
@@ -781,6 +792,9 @@ msgid ""
 "and Drag&amp;Drop from anywhere outside the application (in all browsers, "
 "without additional Add-On)."
 msgstr ""
+"Теперь, вы можете добавить/загрузить изображение непосредственно в WYSIWYG "
+"редактор, используя приемы Copy&amp;Paste и Drag&amp;Drop из любого внешнего "
+"приложения (во всех браузерах, без всяких дополнений)."
 
 #. type: Content of: <section><section><section><section><itemizedlist><listitem><para>
 #: en/content/introduction/otrs.xml:215
@@ -792,6 +806,12 @@ msgid ""
 "notifications of the agent; with this OTRS can be used entirely without an "
 "email client."
 msgstr ""
+"Улучшена/расширена система уведомлений. Теперь можно настраивать собственные "
+"уведомления с собственными триггерами условий и получателями. В OTRS "
+"Business Solution™, уведомления также могут быть доставлены с помощью SMS и/"
+"или уведомления Web View. Последняя возможность - это специальный экран в "
+"OTRS, который содержит все уведомления агента; с её помощью OTRS может "
+"использоваться вообще без почтового клиента."
 
 #. type: Content of: <section><section><section><section><itemizedlist><listitem><para>
 #: en/content/introduction/otrs.xml:216
@@ -799,6 +819,8 @@ msgid ""
 "Statistics received a new graphical user interface which is much better "
 "accessible and helps to create great statistics quickly and easily."
 msgstr ""
+"Система отчетов получила новый графический интерфейс, более дружественный, "
+"помогающий создавать великолепные отчеты быстро и легко."
 
 #. type: Content of: <section><section><section><section><itemizedlist><listitem><para>
 #: en/content/introduction/otrs.xml:217
@@ -806,6 +828,8 @@ msgid ""
 "Additionally, statistics support the new time periods “quarter” and “half-"
 "year”"
 msgstr ""
+"Дополнительно, в отчетах введены новые временНые периоды - \"квартал\" и "
+"\"полугодие\""
 
 #. type: Content of: <section><section><section><section><itemizedlist><listitem><para>
 #: en/content/introduction/otrs.xml:218
@@ -814,6 +838,9 @@ msgid ""
 "Less often used items can be grouped in a submenu, improving screen usage "
 "and clarity."
 msgstr ""
+"Появилась новая возможность - группировка пунктов меню на экране полного "
+"просмотра заявок. Менее часто используемые элементы меню могут быть "
+"объединены в подменю, улучшая обзор экрана и его использование."
 
 #. type: Content of: <section><section><section><section><itemizedlist><listitem><para>
 #: en/content/introduction/otrs.xml:219
@@ -821,6 +848,8 @@ msgid ""
 "Ticket overviews can now display customer company data, thanks to Renée "
 "Bäcker."
 msgstr ""
+"Обзоры заявок могут теперь отображать данные компаний клиента, спасибо Renée "
+"Bäcker."
 
 #. type: Content of: <section><section><section><section><itemizedlist><listitem><para>
 #: en/content/introduction/otrs.xml:220
@@ -828,6 +857,8 @@ msgid ""
 "The ticket process TransitionAction “TicketCreate” can now create tickets "
 "without articles."
 msgstr ""
+"В процессных заявках теперь можно в TransitionAction “TicketCreate” "
+"создавать заявки без заметок."
 
 #. type: Content of: <section><section><section><section><title>
 #: en/content/introduction/otrs.xml:224 en/content/introduction/otrs.xml:278
@@ -841,6 +872,9 @@ msgid ""
 "all previous OTRS cron jobs. In a clustered environment the load is "
 "automatically distributed over the nodes."
 msgstr ""
+"Новый OTRS Daemon управляет всеми асинхронными и периодическими задачами и "
+"заменяет все OTRS cron jobs прежних версий. В кластерных конфигурациях, "
+"нагрузка автоматически распределяется/выравнивается по узлам."
 
 #. type: Content of: <section><section><section><section><itemizedlist><listitem><para>
 #: en/content/introduction/otrs.xml:227
@@ -849,16 +883,21 @@ msgid ""
 "expensive computations such as statistics or fulltext searches to distribute "
 "the load among these database servers."
 msgstr ""
+"Появилась возможность задать несколько зеркальных (подчиненных) БД для "
+"эффективности вычислений, таких как получение отчетов или полнотекстовый "
+"поиск для распределения нагрузки между серверами БД."
 
 #. type: Content of: <section><section><section><section><title>
 #: en/content/introduction/otrs.xml:231
 msgid "Security"
-msgstr ""
+msgstr "Безопасность"
 
 #. type: Content of: <section><section><section><section><itemizedlist><listitem><para>
 #: en/content/introduction/otrs.xml:234
 msgid "A new two-factor authentication layer allows added login security."
 msgstr ""
+"Новый механизм двухфакторной аутентификации позволяет повысить безопасность "
+"при входе."
 
 #. type: Content of: <section><section><section><section><itemizedlist><listitem><itemizedlist><listitem><para>
 #: en/content/introduction/otrs.xml:236
@@ -867,6 +906,9 @@ msgid ""
 "you can now additionally use the open standard for time based one-time "
 "passwords (RfC 6238, also known as Google Authenticator)."
 msgstr ""
+"Если ввод фиксированных логина и пароля не удовлетворяет вашим требованиям, "
+"вы можете дополнительно использовать открытый стандарт для временных "
+"одноразовых паролей (RfC 6238, также известный как Google Authenticator)."
 
 #. type: Content of: <section><section><section><section><itemizedlist><listitem><itemizedlist><listitem><para>
 #: en/content/introduction/otrs.xml:237
@@ -876,11 +918,15 @@ msgid ""
 "using one-time passwords created by a compatible method of their choice (e."
 "g. the Android Google Authenticator app)."
 msgstr ""
+"После включения двухфакторной аутентификации, агенты и клиенты могут "
+"добавить разделяемый секретный ключ в свои личные настройки и сразу начать "
+"использование одноразовых паролей созданных выбранным ими методом (например, "
+"Android Google Authenticator)."
 
 #. type: Content of: <section><section><section><section><title>
 #: en/content/introduction/otrs.xml:243
 msgid "Working with External Systems"
-msgstr ""
+msgstr "Работа с внешними системами"
 
 #. type: Content of: <section><section><section><section><itemizedlist><listitem><para>
 #: en/content/introduction/otrs.xml:245
@@ -893,7 +939,7 @@ msgstr ""
 #: en/content/introduction/otrs.xml:249 en/content/introduction/otrs.xml:290
 #: en/content/introduction/otrs.xml:375
 msgid "Installation &amp; Administration"
-msgstr "Установка и Администрирование"
+msgstr "Установка &amp; Администрирование"
 
 #. type: Content of: <section><section><section><section><itemizedlist><listitem><para>
 #: en/content/introduction/otrs.xml:251
@@ -902,6 +948,9 @@ msgid ""
 "commands have a consistent interface, useful documentation and provide "
 "helpful colored output."
 msgstr ""
+"Новая консоль OTRS делает работу с командной строкой простой и забавной. Все "
+"команды имеют единый интерфейс, полезную документацию и предоставляют "
+"полезную цветную раскраску результатов вывода."
 
 #. type: Content of: <section><section><section><section><itemizedlist><listitem><para>
 #: en/content/introduction/otrs.xml:252
@@ -909,6 +958,8 @@ msgid ""
 "Administrators can now specify a minimum log level to reduce logging volume, "
 "thanks to Renée Bäcker."
 msgstr ""
+"Администраторы теперь могут выбрать минимальный уровень вывода в журнал для "
+"уменьшения объемов протоколирования, спасибо Renée Bäcker."
 
 #. type: Content of: <section><section><section><section><itemizedlist><listitem><para>
 #: en/content/introduction/otrs.xml:253
@@ -916,11 +967,13 @@ msgid ""
 "Overview screens in the admin area now show invalid entities in gray, making "
 "it easy to focus on active elements."
 msgstr ""
+"Экраны обзора в интерфейсе администратора теперь помечают ошибочные значения "
+"серым, позволяя легко сфокусироваться на них."
 
 #. type: Content of: <section><section><section><title>
 #: en/content/introduction/otrs.xml:259
 msgid "New Features of OTRS 4"
-msgstr ""
+msgstr "Новые возможности OTRS 5 "
 
 #. type: Content of: <section><section><section><section><itemizedlist><listitem><para>
 #: en/content/introduction/otrs.xml:263
@@ -1203,6 +1256,8 @@ msgid ""
 "Added Apache MD5 as a new password hashing backend, thanks to Norihiro "
 "Tanaka."
 msgstr ""
+"Добавлен Apache MD5 в качестве нового способа хэширования паролей, спасибо "
+"Norihiro Tanaka."
 
 #. type: Content of: <section><section><section><section><itemizedlist><listitem><para>
 #: en/content/introduction/otrs.xml:329
@@ -1272,7 +1327,7 @@ msgstr "Добавлен скрипт оценки производительн�
 #. type: Content of: <section><section><section><title>
 #: en/content/introduction/otrs.xml:346
 msgid "New Features of OTRS 3.3"
-msgstr ""
+msgstr "Новые возможности OTRS 3.3"
 
 #. type: Content of: <section><section><section><section><itemizedlist><listitem><para>
 #: en/content/introduction/otrs.xml:350
@@ -1280,6 +1335,8 @@ msgid ""
 "Dashboard ticket lists and regular ticket overviews can now be filtered by "
 "eligible ticket columns, and the shown columns are configurable."
 msgstr ""
+"Dashboard ticket lists and regular ticket overviews can now be filtered by "
+"eligible ticket columns, and the shown columns are configurable."
 
 #. type: Content of: <section><section><section><section><itemizedlist><listitem><para>
 #: en/content/introduction/otrs.xml:351
@@ -1488,7 +1545,7 @@ msgstr ""
 #. type: Content of: <section><section><title>
 #: en/content/introduction/otrs.xml:392
 msgid "Hardware and Software Requirements"
-msgstr ""
+msgstr "Требования к апаратному и програмному обеспечению"
 
 #. type: Content of: <section><section><para>
 #: en/content/introduction/otrs.xml:395
@@ -1546,6 +1603,12 @@ msgid ""
 "that the database and some system settings can be configured during the "
 "installation, through a web front-end."
 msgstr ""
+"В качестве базы данных, можно использовать <application>MySQL</application>, "
+"<application>PostgreSQL</application> или <application>Oracle</application>. "
+"В случае использования <application>MySQL</application> или "
+"<application>PostgreSQL</application> в качестве сервера базы данных - есть "
+"возможность задать некоторые настройки  СУБД и системы посредством веб-"
+"интерфейса, при установке системы."
 
 #. type: Content of: <section><section><para>
 #: en/content/introduction/otrs.xml:424
@@ -1658,7 +1721,7 @@ msgstr ""
 #. type: Content of: <section><section><section><itemizedlist><listitem><para>
 #: en/content/introduction/otrs.xml:485
 msgid "Internet Explorer before version 10"
-msgstr ""
+msgstr "Браузер Internet Explorer до 10 версии"
 
 #. type: Content of: <section><section><section><itemizedlist><listitem><para>
 #: en/content/introduction/otrs.xml:488
@@ -1678,6 +1741,11 @@ msgid ""
 "issues can be seen in larger systems when using older versions. We are happy "
 "to consult you on that matter."
 msgstr ""
+"Мы рекомендуем использовать самые последние версии браузеров, т.к. они "
+"всегда обладают наилучшей производительностью JavaScript и рендеринга. "
+"Критическая разница в производительности может возникать при больших объемах "
+"данных при использовании старых версий. Мы всегда рады оказать помощь в "
+"таких случаях."
 
 #. type: Content of: <section><section><title>
 #: en/content/introduction/otrs.xml:503
@@ -2457,11 +2525,11 @@ msgstr ""
 #. type: Content of: <section><section><section><para><figure><screenshot>
 #: en/content/customization/process-management.xml:415
 msgid ""
-"<graphic scale='40' fileref=\"screenshots/customization/pm-admin-sysadmin.png"
-"\"></graphic>"
+"<graphic fileref=\"screenshots/customization/pm-admin-sysadmin.png\" "
+"scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 msgstr ""
-"<graphic scale='40' fileref=\"screenshots/customization/pm-admin-sysadmin.png"
-"\"></graphic>"
+"<graphic fileref=\"screenshots/customization/pm-admin-sysadmin.png\" "
+"scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 
 #. type: Content of: <appendix><variablelist><varlistentry><listitem><para><figure>
 #: en/content/customization/process-management.xml:414
@@ -2789,11 +2857,11 @@ msgstr "Создать Новую кнопку Процесса"
 #. type: Content of: <section><section><section><para><figure><screenshot>
 #: en/content/customization/process-management.xml:427
 msgid ""
-"<graphic scale='40' fileref=\"screenshots/customization/pm-newprocess-button."
-"png\"></graphic>"
+"<graphic fileref=\"screenshots/customization/pm-newprocess-button.png\" "
+"scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 msgstr ""
-"<graphic scale='40' fileref=\"screenshots/customization/pm-newprocess-button."
-"png\"></graphic>"
+"<graphic fileref=\"screenshots/customization/pm-newprocess-button.png\" "
+"scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 
 #. type: Content of: <section><section><section><para>
 #: en/content/customization/process-management.xml:432
@@ -2814,11 +2882,11 @@ msgstr "Добавить новый процесс"
 #. type: Content of: <section><section><section><para><figure><screenshot>
 #: en/content/customization/process-management.xml:439
 msgid ""
-"<graphic scale='40' fileref=\"screenshots/customization/pm-newprocess-info."
-"png\"></graphic>"
+"<graphic fileref=\"screenshots/customization/pm-newprocess-info.png\" "
+"scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 msgstr ""
-"<graphic scale='40' fileref=\"screenshots/customization/pm-newprocess-info."
-"png\"></graphic>"
+"<graphic fileref=\"screenshots/customization/pm-newprocess-info.png\" "
+"scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 
 #. type: Content of: <section><section><section><title>
 #: en/content/customization/process-management.xml:445
@@ -2843,11 +2911,11 @@ msgstr "Кнопка создания нового Диалога Активно
 #. type: Content of: <section><section><section><para><figure><screenshot>
 #: en/content/customization/process-management.xml:456
 msgid ""
-"<graphic scale='40' fileref=\"screenshots/customization/pm-accordion-new-"
-"activitydialog.png\"></graphic>"
+"<graphic fileref=\"screenshots/customization/pm-accordion-new-activitydialog."
+"png\" scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 msgstr ""
-"<graphic scale='40' fileref=\"screenshots/customization/pm-accordion-new-"
-"activitydialog.png\"></graphic>"
+"<graphic fileref=\"screenshots/customization/pm-accordion-new-activitydialog."
+"png\" scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 
 #. type: Content of: <section><section><section><para>
 #: en/content/customization/process-management.xml:461
@@ -2869,11 +2937,11 @@ msgstr "Добавить новый Диалог Активности"
 #. type: Content of: <section><section><section><para><figure><screenshot>
 #: en/content/customization/process-management.xml:473
 msgid ""
-"<graphic scale='40' fileref=\"screenshots/customization/pm-edit-"
-"activitydialog.png\"></graphic>"
+"<graphic fileref=\"screenshots/customization/pm-edit-activitydialog.png\" "
+"scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 msgstr ""
-"<graphic scale='40' fileref=\"screenshots/customization/pm-edit-"
-"activitydialog.png\"></graphic>"
+"<graphic fileref=\"screenshots/customization/pm-edit-activitydialog.png\" "
+"scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 
 #. type: Content of: <section><section><section><para>
 #: en/content/customization/process-management.xml:478
@@ -2896,11 +2964,11 @@ msgstr "Редактировать элементы поля (Article)"
 #. type: Content of: <section><section><section><para><figure><screenshot>
 #: en/content/customization/process-management.xml:487
 msgid ""
-"<graphic scale='40' fileref=\"screenshots/customization/pm-edit-field-"
-"article.png\"></graphic>"
+"<graphic fileref=\"screenshots/customization/pm-edit-field-article.png\" "
+"scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 msgstr ""
-"<graphic scale='40' fileref=\"screenshots/customization/pm-edit-field-"
-"article.png\"></graphic>"
+"<graphic fileref=\"screenshots/customization/pm-edit-field-article.png\" "
+"scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 
 #. type: Content of: <section><section><section><para>
 #: en/content/customization/process-management.xml:492
@@ -3214,11 +3282,11 @@ msgstr "Создать Новую кнопку Перехода"
 #. type: Content of: <section><section><section><para><figure><screenshot>
 #: en/content/customization/process-management.xml:651
 msgid ""
-"<graphic scale='40' fileref=\"screenshots/customization/pm-accordion-new-"
-"transition.png\"></graphic>"
+"<graphic fileref=\"screenshots/customization/pm-accordion-new-transition.png"
+"\" scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 msgstr ""
-"<graphic scale='40' fileref=\"screenshots/customization/pm-accordion-new-"
-"transition.png\"></graphic>"
+"<graphic fileref=\"screenshots/customization/pm-accordion-new-transition.png"
+"\" scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 
 #. type: Content of: <section><section><section><para>
 #: en/content/customization/process-management.xml:656
@@ -3242,11 +3310,11 @@ msgstr "Добавить новый Переход"
 #. type: Content of: <section><section><section><para><figure><screenshot>
 #: en/content/customization/process-management.xml:665
 msgid ""
-"<graphic scale='40' fileref=\"screenshots/customization/pm-edit-transition."
-"png\"></graphic>"
+"<graphic fileref=\"screenshots/customization/pm-edit-transition.png\" "
+"scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 msgstr ""
-"<graphic scale='40' fileref=\"screenshots/customization/pm-edit-transition."
-"png\"></graphic>"
+"<graphic fileref=\"screenshots/customization/pm-edit-transition.png\" "
+"scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 
 #. type: Content of: <section><section><section><para>
 #: en/content/customization/process-management.xml:670
@@ -3359,11 +3427,13 @@ msgstr "Кнопка создания нового Действие Перехо
 #. type: Content of: <section><section><section><para><figure><screenshot>
 #: en/content/customization/process-management.xml:728
 msgid ""
-"<graphic scale='40' fileref=\"screenshots/customization/pm-accordion-new-"
-"transitionaction.png\"></graphic>"
+"<graphic fileref=\"screenshots/customization/pm-accordion-new-"
+"transitionaction.png\" scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></"
+"graphic>"
 msgstr ""
-"<graphic scale='40' fileref=\"screenshots/customization/pm-accordion-new-"
-"transitionaction.png\"></graphic>"
+"<graphic fileref=\"screenshots/customization/pm-accordion-new-"
+"transitionaction.png\" scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></"
+"graphic>"
 
 #. type: Content of: <section><section><section><para>
 #: en/content/customization/process-management.xml:733
@@ -3506,11 +3576,11 @@ msgstr "Добавить новый Переход"
 #. type: Content of: <section><section><section><para><figure><screenshot>
 #: en/content/customization/process-management.xml:778
 msgid ""
-"<graphic scale='40' fileref=\"screenshots/customization/pm-edit-"
-"transitionaction.png\"></graphic>"
+"<graphic fileref=\"screenshots/customization/pm-edit-transitionaction.png\" "
+"scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 msgstr ""
-"<graphic scale='40' fileref=\"screenshots/customization/pm-edit-"
-"transitionaction.png\"></graphic>"
+"<graphic fileref=\"screenshots/customization/pm-edit-transitionaction.png\" "
+"scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 
 #. type: Content of: <section><section><section><para>
 #: en/content/customization/process-management.xml:783
@@ -3678,11 +3748,11 @@ msgstr "Создать Новую кнопку Деятельности"
 #. type: Content of: <section><section><section><para><figure><screenshot>
 #: en/content/customization/process-management.xml:885
 msgid ""
-"<graphic scale='40' fileref=\"screenshots/customization/pm-accordion-new-"
-"activity.png\"></graphic>"
+"<graphic fileref=\"screenshots/customization/pm-accordion-new-activity.png\" "
+"scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 msgstr ""
-"<graphic scale='40' fileref=\"screenshots/customization/pm-accordion-new-"
-"activity.png\"></graphic>"
+"<graphic fileref=\"screenshots/customization/pm-accordion-new-activity.png\" "
+"scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 
 #. type: Content of: <section><section><section><para>
 #: en/content/customization/process-management.xml:890
@@ -3854,11 +3924,11 @@ msgstr "Перетащите первую Активность на полотн
 #. type: Content of: <section><section><section><para><figure><screenshot>
 #: en/content/customization/process-management.xml:973
 msgid ""
-"<graphic scale='40' fileref=\"screenshots/customization/pm-canvas-drag-"
-"activity.png\"></graphic>"
+"<graphic fileref=\"screenshots/customization/pm-canvas-drag-activity.png\" "
+"scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 msgstr ""
-"<graphic scale='40' fileref=\"screenshots/customization/pm-canvas-drag-"
-"activity.png\"></graphic>"
+"<graphic fileref=\"screenshots/customization/pm-canvas-drag-activity.png\" "
+"scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 
 #. type: Content of: <section><section><section><para>
 #: en/content/customization/process-management.xml:978
@@ -3877,11 +3947,11 @@ msgstr "Перетащите вторую Активность на полотн
 #. type: Content of: <section><section><section><para><figure><screenshot>
 #: en/content/customization/process-management.xml:987
 msgid ""
-"<graphic scale='40' fileref=\"screenshots/customization/pm-canvas-drag-"
-"activity2.png\"></graphic>"
+"<graphic fileref=\"screenshots/customization/pm-canvas-drag-activity2.png\" "
+"scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 msgstr ""
-"<graphic scale='40' fileref=\"screenshots/customization/pm-canvas-drag-"
-"activity2.png\"></graphic>"
+"<graphic fileref=\"screenshots/customization/pm-canvas-drag-activity2.png\" "
+"scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 
 #. type: Content of: <section><section><section><para>
 #: en/content/customization/process-management.xml:992
@@ -3904,11 +3974,11 @@ msgstr "Перетащите Transition/Переход на полотно сх�
 #. type: Content of: <section><section><section><para><figure><screenshot>
 #: en/content/customization/process-management.xml:1004
 msgid ""
-"<graphic scale='40' fileref=\"screenshots/customization/pm-canvas-drag-"
-"transition.png\"></graphic>"
+"<graphic fileref=\"screenshots/customization/pm-canvas-drag-transition.png\" "
+"scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 msgstr ""
-"<graphic scale='40' fileref=\"screenshots/customization/pm-canvas-drag-"
-"transition.png\"></graphic>"
+"<graphic fileref=\"screenshots/customization/pm-canvas-drag-transition.png\" "
+"scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 
 #. type: Content of: <section><section><section><para>
 #: en/content/customization/process-management.xml:1009
@@ -3930,11 +4000,11 @@ msgstr "Связать Активности используя Переходы"
 #. type: Content of: <section><section><section><para><figure><screenshot>
 #: en/content/customization/process-management.xml:1017
 msgid ""
-"<graphic scale='40' fileref=\"screenshots/customization/pm-canvas-drag-"
-"transition2.png\"></graphic>"
+"<graphic fileref=\"screenshots/customization/pm-canvas-drag-transition2.png"
+"\" scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 msgstr ""
-"<graphic scale='40' fileref=\"screenshots/customization/pm-canvas-drag-"
-"transition2.png\"></graphic>"
+"<graphic fileref=\"screenshots/customization/pm-canvas-drag-transition2.png"
+"\" scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 
 #. type: Content of: <section><section><section><para>
 #: en/content/customization/process-management.xml:1022
@@ -3955,11 +4025,11 @@ msgstr "Назначить Действия Перехода"
 #. type: Content of: <section><section><section><para><figure><screenshot>
 #: en/content/customization/process-management.xml:1029
 msgid ""
-"<graphic scale='40' fileref=\"screenshots/customization/pm-edit-path.png\"></"
-"graphic>"
+"<graphic fileref=\"screenshots/customization/pm-edit-path.png\" scalefit="
+"\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 msgstr ""
-"<graphic scale='40' fileref=\"screenshots/customization/pm-edit-path.png\"></"
-"graphic>"
+"<graphic fileref=\"screenshots/customization/pm-edit-path.png\" scalefit="
+"\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 
 #. type: Content of: <section><section><section><para>
 #: en/content/customization/process-management.xml:1034
@@ -4110,11 +4180,11 @@ msgstr "Законченная/полная схема процесса зака
 #. type: Content of: <section><section><section><para><figure><screenshot>
 #: en/content/customization/process-management.xml:1288
 msgid ""
-"<graphic scale='40' fileref=\"screenshots/customization/pm-edit-process.png"
-"\"></graphic>"
+"<graphic fileref=\"screenshots/customization/pm-edit-process.png\" scalefit="
+"\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 msgstr ""
-"<graphic scale='40' fileref=\"screenshots/customization/pm-edit-process.png"
-"\"></graphic>"
+"<graphic fileref=\"screenshots/customization/pm-edit-process.png\" scalefit="
+"\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 
 #. type: Content of: <section><section><section><para>
 #: en/content/customization/process-management.xml:1293
@@ -7291,7 +7361,7 @@ msgstr ""
 #. type: Content of: <section><section><section><section><section><para>
 #: en/content/customization/process-management.xml:3121
 msgid "'User' or 'CustomerUserID' set the Username of the customer."
-msgstr ""
+msgstr "'User' или 'CustomerUserID' задает имя пользователя клиента."
 
 #. type: Content of: <section><section><section><section><section><para>
 #: en/content/customization/process-management.xml:3128
@@ -8125,7 +8195,7 @@ msgstr ""
 #. type: Content of: <section><title>
 #: en/content/customization/language-translation.xml:6
 msgid "Localization of the OTRS Front End"
-msgstr ""
+msgstr "Локализация интерфейса OTRS"
 
 #. type: Content of: <section><para>
 #: en/content/customization/language-translation.xml:9
@@ -8530,11 +8600,11 @@ msgstr "ACL 100-Example-ACL"
 #. type: Content of: <section><section><para><example><para><figure><screenshot>
 #: en/content/customization/acl.xml:173
 msgid ""
-"<graphic scale=\"40\" fileref=\"screenshots/customization/acl-move.png\"></"
-"graphic>"
+"<graphic fileref=\"screenshots/customization/acl-move.png\" scalefit=\"1\" "
+"width=\"100%\" contentdepth=\"100%\"></graphic>"
 msgstr ""
-"<graphic scale=\"40\" fileref=\"screenshots/customization/acl-move.png\"></"
-"graphic>"
+"<graphic fileref=\"screenshots/customization/acl-move.png\" scalefit=\"1\" "
+"width=\"100%\" contentdepth=\"100%\"></graphic>"
 
 #. type: Content of: <section><section><para><example><programlisting>
 #: en/content/customization/acl.xml:178
@@ -8669,11 +8739,11 @@ msgstr "ACL 102-Example-ACL"
 #. type: Content of: <section><section><para><example><para><figure><screenshot>
 #: en/content/customization/acl.xml:216
 msgid ""
-"<graphic scale=\"40\" fileref=\"screenshots/customization/acl-move2.png\"></"
-"graphic>"
+"<graphic fileref=\"screenshots/customization/acl-move2.png\" scalefit=\"1\" "
+"width=\"100%\" contentdepth=\"100%\"></graphic>"
 msgstr ""
-"<graphic scale=\"40\" fileref=\"screenshots/customization/acl-move2.png\"></"
-"graphic>"
+"<graphic fileref=\"screenshots/customization/acl-move2.png\" scalefit=\"1\" "
+"width=\"100%\" contentdepth=\"100%\"></graphic>"
 
 #. type: Content of: <section><section><para><example><programlisting>
 #: en/content/customization/acl.xml:221
@@ -8749,11 +8819,11 @@ msgstr "ACL 102-Second-Example-ACL"
 #. type: Content of: <section><section><para><example><para><figure><screenshot>
 #: en/content/customization/acl.xml:258
 msgid ""
-"<graphic scale=\"40\" fileref=\"screenshots/customization/acl-close.png\"></"
-"graphic>"
+"<graphic fileref=\"screenshots/customization/acl-close.png\" scalefit=\"1\" "
+"width=\"100%\" contentdepth=\"100%\"></graphic>"
 msgstr ""
-"<graphic scale=\"40\" fileref=\"screenshots/customization/acl-close.png\"></"
-"graphic>"
+"<graphic fileref=\"screenshots/customization/acl-close.png\" scalefit=\"1\" "
+"width=\"100%\" contentdepth=\"100%\"></graphic>"
 
 #. type: Content of: <section><section><para><example><programlisting>
 #: en/content/customization/acl.xml:263
@@ -8815,11 +8885,11 @@ msgstr "ACL 103-Third-ACL-Example"
 #. type: Content of: <section><section><para><example><para><figure><screenshot>
 #: en/content/customization/acl.xml:303
 msgid ""
-"<graphic scale=\"40\" fileref=\"screenshots/customization/acl-state.png\"></"
-"graphic>"
+"<graphic fileref=\"screenshots/customization/acl-state.png\" scalefit=\"1\" "
+"width=\"100%\" contentdepth=\"100%\"></graphic>"
 msgstr ""
-"<graphic scale=\"40\" fileref=\"screenshots/customization/acl-state.png\"></"
-"graphic>"
+"<graphic fileref=\"screenshots/customization/acl-state.png\" scalefit=\"1\" "
+"width=\"100%\" contentdepth=\"100%\"></graphic>"
 
 #. type: Content of: <section><section><para><example><programlisting>
 #: en/content/customization/acl.xml:308
@@ -8881,11 +8951,11 @@ msgstr "ACL 104-Only-Hardware-Services-for-HW-Queues-ACL"
 #. type: Content of: <section><section><para><example><para><figure><screenshot>
 #: en/content/customization/acl.xml:339
 msgid ""
-"<graphic scale=\"40\" fileref=\"screenshots/customization/acl-new-ticket-"
-"service.png\"></graphic>"
+"<graphic fileref=\"screenshots/customization/acl-new-ticket-service.png\" "
+"scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 msgstr ""
-"<graphic scale=\"40\" fileref=\"screenshots/customization/acl-new-ticket-"
-"service.png\"></graphic>"
+"<graphic fileref=\"screenshots/customization/acl-new-ticket-service.png\" "
+"scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 
 #. type: Content of: <section><section><para><example><programlisting>
 #: en/content/customization/acl.xml:344
@@ -8944,11 +9014,13 @@ msgstr ""
 #. type: Content of: <section><section><para><example><para><figure><screenshot>
 #: en/content/customization/acl.xml:373
 msgid ""
-"<graphic scale=\"40\" fileref=\"screenshots/customization/acl-disallow-"
-"process-for-customerid.png\"></graphic>"
+"<graphic fileref=\"screenshots/customization/acl-disallow-process-for-"
+"customerid.png\" scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></"
+"graphic>"
 msgstr ""
-"<graphic scale=\"40\" fileref=\"screenshots/customization/acl-disallow-"
-"process-for-customerid.png\"></graphic>"
+"<graphic fileref=\"screenshots/customization/acl-disallow-process-for-"
+"customerid.png\" scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></"
+"graphic>"
 
 #. type: Content of: <section><section><para><example><programlisting>
 #: en/content/customization/acl.xml:378
@@ -10090,11 +10162,11 @@ msgstr ""
 #. type: Content of: <section><para><figure><screenshot>
 #: en/content/administration/adminarea/basics.xml:26
 msgid ""
-"<graphic scale=\"40\" fileref=\"screenshots/administration/adminarea/"
-"adminarea.png\"></graphic>"
+"<graphic fileref=\"screenshots/administration/adminarea/adminarea.png\" "
+"scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 msgstr ""
-"<graphic scale=\"40\" fileref=\"screenshots/administration/adminarea/"
-"adminarea.png\"></graphic>"
+"<graphic fileref=\"screenshots/administration/adminarea/adminarea.png\" "
+"scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 
 #. type: Content of: <section><title>
 #: en/content/administration/adminarea/agents-groups-roles.xml:6
@@ -10136,11 +10208,11 @@ msgstr "Управление агентами"
 #. type: Content of: <section><section><para><figure><screenshot>
 #: en/content/administration/adminarea/agents-groups-roles.xml:25
 msgid ""
-"<graphic scale=\"40\" fileref=\"screenshots/administration/adminarea/admin-"
-"agents.png\"></graphic>"
+"<graphic fileref=\"screenshots/administration/adminarea/admin-agents.png\" "
+"scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 msgstr ""
-"<graphic scale=\"40\" fileref=\"screenshots/administration/adminarea/admin-"
-"agents.png\"></graphic>"
+"<graphic fileref=\"screenshots/administration/adminarea/admin-agents.png\" "
+"scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 
 #. type: Content of: <section><section><para>
 #: en/content/administration/adminarea/agents-groups-roles.xml:31
@@ -10156,16 +10228,16 @@ msgstr ""
 #. type: Content of: <section><section><para><figure><title>
 #: en/content/administration/adminarea/agents-groups-roles.xml:36
 msgid "Adding a new agent"
-msgstr ""
+msgstr "Добавление нового агента"
 
 #. type: Content of: <section><section><para><figure><screenshot>
 #: en/content/administration/adminarea/agents-groups-roles.xml:38
 msgid ""
-"<graphic scale=\"40\" fileref=\"screenshots/administration/adminarea/add-"
-"agent.png\"></graphic>"
+"<graphic fileref=\"screenshots/administration/adminarea/add-agent.png\" "
+"scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 msgstr ""
-"<graphic scale=\"40\" fileref=\"screenshots/administration/adminarea/add-"
-"agent.png\"></graphic>"
+"<graphic fileref=\"screenshots/administration/adminarea/add-agent.png\" "
+"scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 
 #. type: Content of: <section><section><para>
 #: en/content/administration/adminarea/agents-groups-roles.xml:44
@@ -10285,11 +10357,11 @@ msgstr "Управление Группами"
 #. type: Content of: <section><section><para><figure><screenshot>
 #: en/content/administration/adminarea/agents-groups-roles.xml:102
 msgid ""
-"<graphic scale=\"40\" fileref=\"screenshots/administration/adminarea/admin-"
-"groups.png\"></graphic>"
+"<graphic fileref=\"screenshots/administration/adminarea/admin-groups.png\" "
+"scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 msgstr ""
-"<graphic scale=\"40\" fileref=\"screenshots/administration/adminarea/admin-"
-"groups.png\"></graphic>"
+"<graphic fileref=\"screenshots/administration/adminarea/admin-groups.png\" "
+"scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 
 #. type: Content of: <section><section><note><para>
 #: en/content/administration/adminarea/agents-groups-roles.xml:109
@@ -10319,11 +10391,11 @@ msgstr ""
 #. type: Content of: <section><section><para><figure><screenshot>
 #: en/content/administration/adminarea/agents-groups-roles.xml:121
 msgid ""
-"<graphic scale=\"40\" fileref=\"screenshots/administration/adminarea/admin-"
-"agents-and-groups.png\"></graphic>"
+"<graphic fileref=\"screenshots/administration/adminarea/admin-agents-and-"
+"groups.png\" scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 msgstr ""
-"<graphic scale=\"40\" fileref=\"screenshots/administration/adminarea/admin-"
-"agents-and-groups.png\"></graphic>"
+"<graphic fileref=\"screenshots/administration/adminarea/admin-agents-and-"
+"groups.png\" scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 
 #. type: Content of: <section><section><para>
 #: en/content/administration/adminarea/agents-groups-roles.xml:127
@@ -10343,11 +10415,13 @@ msgstr ""
 #. type: Content of: <section><section><para><figure><screenshot>
 #: en/content/administration/adminarea/agents-groups-roles.xml:134
 msgid ""
-"<graphic scale=\"40\" fileref=\"screenshots/administration/adminarea/agent-"
-"group-relations.png\"></graphic>"
+"<graphic fileref=\"screenshots/administration/adminarea/agent-group-"
+"relations.png\" scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></"
+"graphic>"
 msgstr ""
-"<graphic scale=\"40\" fileref=\"screenshots/administration/adminarea/agent-"
-"group-relations.png\"></graphic>"
+"<graphic fileref=\"screenshots/administration/adminarea/agent-group-"
+"relations.png\" scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></"
+"graphic>"
 
 #. type: Content of: <section><section><para><figure><title>
 #: en/content/administration/adminarea/agents-groups-roles.xml:141
@@ -10357,11 +10431,13 @@ msgstr ""
 #. type: Content of: <section><section><para><figure><screenshot>
 #: en/content/administration/adminarea/agents-groups-roles.xml:143
 msgid ""
-"<graphic scale=\"40\" fileref=\"screenshots/administration/adminarea/agent-"
-"group-relations2.png\"></graphic>"
+"<graphic fileref=\"screenshots/administration/adminarea/agent-group-"
+"relations2.png\" scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></"
+"graphic>"
 msgstr ""
-"<graphic scale=\"40\" fileref=\"screenshots/administration/adminarea/agent-"
-"group-relations2.png\"></graphic>"
+"<graphic fileref=\"screenshots/administration/adminarea/agent-group-"
+"relations2.png\" scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></"
+"graphic>"
 
 #. type: Content of: <section><section><para>
 #: en/content/administration/adminarea/agents-groups-roles.xml:149
@@ -10686,11 +10762,11 @@ msgstr "Управление Ролями"
 #. type: Content of: <section><section><para><figure><screenshot>
 #: en/content/administration/adminarea/agents-groups-roles.xml:318
 msgid ""
-"<graphic scale=\"40\" fileref=\"screenshots/administration/adminarea/admin-"
-"roles.png\"></graphic>"
+"<graphic fileref=\"screenshots/administration/adminarea/admin-roles.png\" "
+"scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 msgstr ""
-"<graphic scale=\"40\" fileref=\"screenshots/administration/adminarea/admin-"
-"roles.png\"></graphic>"
+"<graphic fileref=\"screenshots/administration/adminarea/admin-roles.png\" "
+"scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 
 #. type: Content of: <section><section><note><para>
 #: en/content/administration/adminarea/agents-groups-roles.xml:325
@@ -10716,16 +10792,16 @@ msgstr ""
 #. type: Content of: <section><section><para><figure><title>
 #: en/content/administration/adminarea/agents-groups-roles.xml:335
 msgid "Adding a new role"
-msgstr ""
+msgstr "Добавление новой роли"
 
 #. type: Content of: <section><section><para><figure><screenshot>
 #: en/content/administration/adminarea/agents-groups-roles.xml:337
 msgid ""
-"<graphic scale=\"40\" fileref=\"screenshots/administration/adminarea/add-"
-"role.png\"></graphic>"
+"<graphic fileref=\"screenshots/administration/adminarea/add-role.png\" "
+"scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 msgstr ""
-"<graphic scale=\"40\" fileref=\"screenshots/administration/adminarea/add-"
-"role.png\"></graphic>"
+"<graphic fileref=\"screenshots/administration/adminarea/add-role.png\" "
+"scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 
 #. type: Content of: <section><section><para>
 #: en/content/administration/adminarea/agents-groups-roles.xml:343
@@ -10746,11 +10822,11 @@ msgstr ""
 #. type: Content of: <section><section><para><figure><screenshot>
 #: en/content/administration/adminarea/agents-groups-roles.xml:351
 msgid ""
-"<graphic scale=\"40\" fileref=\"screenshots/administration/adminarea/admin-"
-"roles-agents-relation.png\"></graphic>"
+"<graphic fileref=\"screenshots/administration/adminarea/admin-roles-agents-"
+"relation.png\" scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 msgstr ""
-"<graphic scale=\"40\" fileref=\"screenshots/administration/adminarea/admin-"
-"roles-agents-relation.png\"></graphic>"
+"<graphic fileref=\"screenshots/administration/adminarea/admin-roles-agents-"
+"relation.png\" scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 
 #. type: Content of: <section><section><para><figure><title>
 #: en/content/administration/adminarea/agents-groups-roles.xml:358
@@ -10760,11 +10836,13 @@ msgstr ""
 #. type: Content of: <section><section><para><figure><screenshot>
 #: en/content/administration/adminarea/agents-groups-roles.xml:360
 msgid ""
-"<graphic scale=\"40\" fileref=\"screenshots/administration/adminarea/admin-"
-"roles-agents-relation2.png\"></graphic>"
+"<graphic fileref=\"screenshots/administration/adminarea/admin-roles-agents-"
+"relation2.png\" scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></"
+"graphic>"
 msgstr ""
-"<graphic scale=\"40\" fileref=\"screenshots/administration/adminarea/admin-"
-"roles-agents-relation2.png\"></graphic>"
+"<graphic fileref=\"screenshots/administration/adminarea/admin-roles-agents-"
+"relation2.png\" scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></"
+"graphic>"
 
 #. type: Content of: <section><section><para>
 #: en/content/administration/adminarea/agents-groups-roles.xml:366
@@ -10782,16 +10860,16 @@ msgstr ""
 #. type: Content of: <section><section><para><figure><title>
 #: en/content/administration/adminarea/agents-groups-roles.xml:371
 msgid "Manage roles-groups relations"
-msgstr ""
+msgstr "Управление связями Роли-Группы"
 
 #. type: Content of: <section><section><para><figure><screenshot>
 #: en/content/administration/adminarea/agents-groups-roles.xml:373
 msgid ""
-"<graphic scale=\"40\" fileref=\"screenshots/administration/adminarea/admin-"
-"roles-groups.png\"></graphic>"
+"<graphic fileref=\"screenshots/administration/adminarea/admin-roles-groups."
+"png\" scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 msgstr ""
-"<graphic scale=\"40\" fileref=\"screenshots/administration/adminarea/admin-"
-"roles-groups.png\"></graphic>"
+"<graphic fileref=\"screenshots/administration/adminarea/admin-roles-groups."
+"png\" scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 
 #. type: Content of: <section><section><para>
 #: en/content/administration/adminarea/agents-groups-roles.xml:379
@@ -10803,30 +10881,34 @@ msgstr ""
 #. type: Content of: <section><section><para><figure><title>
 #: en/content/administration/adminarea/agents-groups-roles.xml:384
 msgid "Change group relations for a role"
-msgstr ""
+msgstr "Изменить связи группы для роли"
 
 #. type: Content of: <section><section><para><figure><screenshot>
 #: en/content/administration/adminarea/agents-groups-roles.xml:386
 msgid ""
-"<graphic scale=\"40\" fileref=\"screenshots/administration/adminarea/groups-"
-"roles-relations.png\"></graphic>"
+"<graphic fileref=\"screenshots/administration/adminarea/groups-roles-"
+"relations.png\" scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></"
+"graphic>"
 msgstr ""
-"<graphic scale=\"40\" fileref=\"screenshots/administration/adminarea/groups-"
-"roles-relations.png\"></graphic>"
+"<graphic fileref=\"screenshots/administration/adminarea/groups-roles-"
+"relations.png\" scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></"
+"graphic>"
 
 #. type: Content of: <section><section><para><figure><title>
 #: en/content/administration/adminarea/agents-groups-roles.xml:393
 msgid "Change role relations for a group"
-msgstr ""
+msgstr "Изменить связи роли для группы"
 
 #. type: Content of: <section><section><para><figure><screenshot>
 #: en/content/administration/adminarea/agents-groups-roles.xml:395
 msgid ""
-"<graphic scale=\"40\" fileref=\"screenshots/administration/adminarea/groups-"
-"roles-relations2.png\"></graphic>"
+"<graphic fileref=\"screenshots/administration/adminarea/groups-roles-"
+"relations2.png\" scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></"
+"graphic>"
 msgstr ""
-"<graphic scale=\"40\" fileref=\"screenshots/administration/adminarea/groups-"
-"roles-relations2.png\"></graphic>"
+"<graphic fileref=\"screenshots/administration/adminarea/groups-roles-"
+"relations2.png\" scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></"
+"graphic>"
 
 #. type: Content of: <section><title>
 #: en/content/administration/adminarea/customers-and-groups.xml:6
@@ -10858,11 +10940,11 @@ msgstr "Управления Клиентами"
 #. type: Content of: <section><section><para><figure><screenshot>
 #: en/content/administration/adminarea/customers-and-groups.xml:19
 msgid ""
-"<graphic scale=\"40\" fileref=\"screenshots/administration/adminarea/admin-"
-"customer.png\"></graphic>"
+"<graphic fileref=\"screenshots/administration/adminarea/admin-customer.png\" "
+"scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 msgstr ""
-"<graphic scale=\"40\" fileref=\"screenshots/administration/adminarea/admin-"
-"customer.png\"></graphic>"
+"<graphic fileref=\"screenshots/administration/adminarea/admin-customer.png\" "
+"scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 
 #. type: Content of: <section><section><para>
 #: en/content/administration/adminarea/customers-and-groups.xml:25
@@ -10888,16 +10970,16 @@ msgstr ""
 #. type: Content of: <section><section><para><figure><title>
 #: en/content/administration/adminarea/customers-and-groups.xml:34
 msgid "Adding a customer"
-msgstr ""
+msgstr "Добавление клиента"
 
 #. type: Content of: <section><section><para><figure><screenshot>
 #: en/content/administration/adminarea/customers-and-groups.xml:36
 msgid ""
-"<graphic scale=\"40\" fileref=\"screenshots/administration/adminarea/add-"
-"customer.png\"></graphic>"
+"<graphic fileref=\"screenshots/administration/adminarea/add-customer.png\" "
+"scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 msgstr ""
-"<graphic scale=\"40\" fileref=\"screenshots/administration/adminarea/add-"
-"customer.png\"></graphic>"
+"<graphic fileref=\"screenshots/administration/adminarea/add-customer.png\" "
+"scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 
 #. type: Content of: <section><section><para>
 #: en/content/administration/adminarea/customers-and-groups.xml:42
@@ -10976,16 +11058,16 @@ msgstr ""
 #. type: Content of: <section><section><para><figure><title>
 #: en/content/administration/adminarea/customers-and-groups.xml:70
 msgid "Customer-Group relations management"
-msgstr ""
+msgstr "Управление связями Клиент-Группа"
 
 #. type: Content of: <section><section><para><figure><screenshot>
 #: en/content/administration/adminarea/customers-and-groups.xml:72
 msgid ""
-"<graphic scale=\"40\" fileref=\"screenshots/administration/adminarea/admin-"
-"customer-groups.png\"></graphic>"
+"<graphic fileref=\"screenshots/administration/adminarea/admin-customer-"
+"groups.png\" scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 msgstr ""
-"<graphic scale=\"40\" fileref=\"screenshots/administration/adminarea/admin-"
-"customer-groups.png\"></graphic>"
+"<graphic fileref=\"screenshots/administration/adminarea/admin-customer-"
+"groups.png\" scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 
 #. type: Content of: <section><section><para>
 #: en/content/administration/adminarea/customers-and-groups.xml:78
@@ -11003,11 +11085,13 @@ msgstr "Изменение связи между Группой и Пользо�
 #. type: Content of: <section><section><para><figure><screenshot>
 #: en/content/administration/adminarea/customers-and-groups.xml:85
 msgid ""
-"<graphic scale=\"40\" fileref=\"screenshots/administration/adminarea/groups-"
-"customers-relations.png\"></graphic>"
+"<graphic fileref=\"screenshots/administration/adminarea/groups-customers-"
+"relations.png\" scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></"
+"graphic>"
 msgstr ""
-"<graphic scale=\"40\" fileref=\"screenshots/administration/adminarea/groups-"
-"customers-relations.png\"></graphic>"
+"<graphic fileref=\"screenshots/administration/adminarea/groups-customers-"
+"relations.png\" scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></"
+"graphic>"
 
 #. type: Content of: <section><section><para><figure><title>
 #: en/content/administration/adminarea/customers-and-groups.xml:92
@@ -11017,11 +11101,13 @@ msgstr "Изменение связи между Клиентом и Групп�
 #. type: Content of: <section><section><para><figure><screenshot>
 #: en/content/administration/adminarea/customers-and-groups.xml:94
 msgid ""
-"<graphic scale=\"40\" fileref=\"screenshots/administration/adminarea/groups-"
-"customers-relations2.png\"></graphic>"
+"<graphic fileref=\"screenshots/administration/adminarea/groups-customers-"
+"relations2.png\" scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></"
+"graphic>"
 msgstr ""
-"<graphic scale=\"40\" fileref=\"screenshots/administration/adminarea/groups-"
-"customers-relations2.png\"></graphic>"
+"<graphic fileref=\"screenshots/administration/adminarea/groups-customers-"
+"relations2.png\" scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></"
+"graphic>"
 
 #. type: Content of: <chapter><section><itemizedlist><listitem><itemizedlist><listitem><para>
 #: en/content/administration/adminarea/queues.xml:6
@@ -11048,11 +11134,11 @@ msgstr "Управления очередями"
 #. type: Content of: <section><para><figure><screenshot>
 #: en/content/administration/adminarea/queues.xml:16
 msgid ""
-"<graphic scale=\"40\" fileref=\"screenshots/administration/adminarea/admin-"
-"queue.png\"></graphic>"
+"<graphic fileref=\"screenshots/administration/adminarea/admin-queue.png\" "
+"scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 msgstr ""
-"<graphic scale=\"40\" fileref=\"screenshots/administration/adminarea/admin-"
-"queue.png\"></graphic>"
+"<graphic fileref=\"screenshots/administration/adminarea/admin-queue.png\" "
+"scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 
 #. type: Content of: <section><para>
 #: en/content/administration/adminarea/queues.xml:22
@@ -11065,16 +11151,16 @@ msgstr ""
 #. type: Content of: <section><para><figure><title>
 #: en/content/administration/adminarea/queues.xml:27
 msgid "Adding a new queue"
-msgstr ""
+msgstr "Добавление новой очереди"
 
 #. type: Content of: <section><para><figure><screenshot>
 #: en/content/administration/adminarea/queues.xml:29
 msgid ""
-"<graphic scale=\"40\" fileref=\"screenshots/administration/adminarea/add-"
-"queue.png\"></graphic>"
+"<graphic fileref=\"screenshots/administration/adminarea/add-queue.png\" "
+"scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 msgstr ""
-"<graphic scale=\"40\" fileref=\"screenshots/administration/adminarea/add-"
-"queue.png\"></graphic>"
+"<graphic fileref=\"screenshots/administration/adminarea/add-queue.png\" "
+"scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 
 #. type: Content of: <section><para>
 #: en/content/administration/adminarea/queues.xml:35
@@ -11191,7 +11277,7 @@ msgstr ""
 #. type: Content of: <section><title>
 #: en/content/administration/adminarea/salutations-signatures-attachments-templates.xml:6
 msgid "Salutations, Signatures, Attachments and Templates"
-msgstr ""
+msgstr "Приветствия, Подписи, Вложения и Шаблоны"
 
 #. type: Content of: <section><section><title>
 #: en/content/administration/adminarea/salutations-signatures-attachments-templates.xml:9
@@ -11217,11 +11303,11 @@ msgstr "Управления приветствиями"
 #. type: Content of: <section><section><para><figure><screenshot>
 #: en/content/administration/adminarea/salutations-signatures-attachments-templates.xml:20
 msgid ""
-"<graphic scale=\"40\" fileref=\"screenshots/administration/adminarea/admin-"
-"salutation.png\"></graphic>"
+"<graphic fileref=\"screenshots/administration/adminarea/admin-salutation.png"
+"\" scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 msgstr ""
-"<graphic scale=\"40\" fileref=\"screenshots/administration/adminarea/admin-"
-"salutation.png\"></graphic>"
+"<graphic fileref=\"screenshots/administration/adminarea/admin-salutation.png"
+"\" scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 
 #. type: Content of: <section><section><para>
 #: en/content/administration/adminarea/salutations-signatures-attachments-templates.xml:26
@@ -11238,20 +11324,22 @@ msgid ""
 "To create a new salutation, press the button \"Add salutation\", provide the "
 "required data and submit it (see figure below)."
 msgstr ""
+"Чтобы создать новое приветствие, нажмите на кнопку \"Добавить приветствие\", "
+"введите необходимые данные и нажмите кнопку \"Отправить\" (см. Рисунок ниже)"
 
 #. type: Content of: <section><section><para><figure><title>
 #: en/content/administration/adminarea/salutations-signatures-attachments-templates.xml:35
 msgid "Adding a new salutation"
-msgstr ""
+msgstr "Добавление нового приветствия"
 
 #. type: Content of: <section><section><para><figure><screenshot>
 #: en/content/administration/adminarea/salutations-signatures-attachments-templates.xml:37
 msgid ""
-"<graphic scale=\"40\" fileref=\"screenshots/administration/adminarea/add-"
-"salutation.png\"></graphic>"
+"<graphic fileref=\"screenshots/administration/adminarea/add-salutation.png\" "
+"scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 msgstr ""
-"<graphic scale=\"40\" fileref=\"screenshots/administration/adminarea/add-"
-"salutation.png\"></graphic>"
+"<graphic fileref=\"screenshots/administration/adminarea/add-salutation.png\" "
+"scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 
 #. type: Content of: <section><section><para>
 #: en/content/administration/adminarea/salutations-signatures-attachments-templates.xml:43
@@ -11305,16 +11393,16 @@ msgstr ""
 #. type: Content of: <section><section><para><figure><title>
 #: en/content/administration/adminarea/salutations-signatures-attachments-templates.xml:67
 msgid "Signatures management"
-msgstr ""
+msgstr "Управление подписями"
 
 #. type: Content of: <section><section><para><figure><screenshot>
 #: en/content/administration/adminarea/salutations-signatures-attachments-templates.xml:69
 msgid ""
-"<graphic scale=\"40\" fileref=\"screenshots/administration/adminarea/admin-"
-"signatures.png\"></graphic>"
+"<graphic fileref=\"screenshots/administration/adminarea/admin-signatures.png"
+"\" scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 msgstr ""
-"<graphic scale=\"40\" fileref=\"screenshots/administration/adminarea/admin-"
-"signatures.png\"></graphic>"
+"<graphic fileref=\"screenshots/administration/adminarea/admin-signatures.png"
+"\" scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 
 #. type: Content of: <section><section><para>
 #: en/content/administration/adminarea/salutations-signatures-attachments-templates.xml:75
@@ -11331,20 +11419,22 @@ msgid ""
 "To create a new signature, press the button \"Add signature\", provide the "
 "needed data and submit it (see figure below)."
 msgstr ""
+"Чтобы создать новую подпись, нажмите кнопку \"Добавить подпись\", введите "
+"все необходимые данные и нажмите кнопку \"Отправить\" (см. Рисунок ниже)."
 
 #. type: Content of: <section><section><para><figure><title>
 #: en/content/administration/adminarea/salutations-signatures-attachments-templates.xml:84
 msgid "Adding a new signature"
-msgstr ""
+msgstr "Добавление новой подписи"
 
 #. type: Content of: <section><section><para><figure><screenshot>
 #: en/content/administration/adminarea/salutations-signatures-attachments-templates.xml:86
 msgid ""
-"<graphic scale=\"40\" fileref=\"screenshots/administration/adminarea/add-"
-"signature.png\"></graphic>"
+"<graphic fileref=\"screenshots/administration/adminarea/add-signature.png\" "
+"scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 msgstr ""
-"<graphic scale=\"40\" fileref=\"screenshots/administration/adminarea/add-"
-"signature.png\"></graphic>"
+"<graphic fileref=\"screenshots/administration/adminarea/add-signature.png\" "
+"scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 
 #. type: Content of: <section><section><para>
 #: en/content/administration/adminarea/salutations-signatures-attachments-templates.xml:92
@@ -11403,16 +11493,16 @@ msgstr ""
 #. type: Content of: <section><section><para><figure><title>
 #: en/content/administration/adminarea/salutations-signatures-attachments-templates.xml:116
 msgid "Attachments management"
-msgstr ""
+msgstr "Управление вложениями"
 
 #. type: Content of: <section><section><para><figure><screenshot>
 #: en/content/administration/adminarea/salutations-signatures-attachments-templates.xml:118
 msgid ""
-"<graphic scale=\"40\" fileref=\"screenshots/administration/adminarea/admin-"
-"attachment.png\"></graphic>"
+"<graphic fileref=\"screenshots/administration/adminarea/admin-attachment.png"
+"\" scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 msgstr ""
-"<graphic scale=\"40\" fileref=\"screenshots/administration/adminarea/admin-"
-"attachment.png\"></graphic>"
+"<graphic fileref=\"screenshots/administration/adminarea/admin-attachment.png"
+"\" scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 
 #. type: Content of: <section><section><para>
 #: en/content/administration/adminarea/salutations-signatures-attachments-templates.xml:124
@@ -11420,20 +11510,23 @@ msgid ""
 "To create a new attachment, press the button \"Add attachment\", provide the "
 "required data and submit it (see figure below)."
 msgstr ""
+"Чтобы создать новое вложение, нажмите кнопку \"Добавить вложение\", введите "
+"всю необходимую информацию и нажмите кнопку \"Отправить\" (см.  Рисунок "
+"ниже)."
 
 #. type: Content of: <section><section><para><figure><title>
 #: en/content/administration/adminarea/salutations-signatures-attachments-templates.xml:129
 msgid "Adding a new attachment"
-msgstr ""
+msgstr "Добавление нового вложения"
 
 #. type: Content of: <section><section><para><figure><screenshot>
 #: en/content/administration/adminarea/salutations-signatures-attachments-templates.xml:131
 msgid ""
-"<graphic scale=\"40\" fileref=\"screenshots/administration/adminarea/add-"
-"attachment.png\"></graphic>"
+"<graphic fileref=\"screenshots/administration/adminarea/add-attachment.png\" "
+"scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 msgstr ""
-"<graphic scale=\"40\" fileref=\"screenshots/administration/adminarea/add-"
-"attachment.png\"></graphic>"
+"<graphic fileref=\"screenshots/administration/adminarea/add-attachment.png\" "
+"scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 
 #. type: Content of: <section><section><para>
 #: en/content/administration/adminarea/salutations-signatures-attachments-templates.xml:137
@@ -11451,11 +11544,11 @@ msgstr "Связать вложения с шаблонами."
 #. type: Content of: <section><section><para><figure><screenshot>
 #: en/content/administration/adminarea/salutations-signatures-attachments-templates.xml:145
 msgid ""
-"<graphic scale=\"40\" fileref=\"screenshots/administration/adminarea/admin-"
-"attachment-template.png\"></graphic>"
+"<graphic fileref=\"screenshots/administration/adminarea/admin-attachment-"
+"template.png\" scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 msgstr ""
-"<graphic scale=\"40\" fileref=\"screenshots/administration/adminarea/admin-"
-"attachment-template.png\"></graphic>"
+"<graphic fileref=\"screenshots/administration/adminarea/admin-attachment-"
+"template.png\" scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 
 #. type: Content of: <section><section><para>
 #: en/content/administration/adminarea/salutations-signatures-attachments-templates.xml:151
@@ -11473,11 +11566,13 @@ msgstr "Изменить связь Вложения с Шаблоном"
 #. type: Content of: <section><section><para><figure><screenshot>
 #: en/content/administration/adminarea/salutations-signatures-attachments-templates.xml:158
 msgid ""
-"<graphic scale=\"40\" fileref=\"screenshots/administration/adminarea/"
-"template-attachment-relations.png\"></graphic>"
+"<graphic fileref=\"screenshots/administration/adminarea/template-attachment-"
+"relations.png\" scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></"
+"graphic>"
 msgstr ""
-"<graphic scale=\"40\" fileref=\"screenshots/administration/adminarea/"
-"template-attachment-relations.png\"></graphic>"
+"<graphic fileref=\"screenshots/administration/adminarea/template-attachment-"
+"relations.png\" scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></"
+"graphic>"
 
 #. type: Content of: <section><section><para><figure><title>
 #: en/content/administration/adminarea/salutations-signatures-attachments-templates.xml:165
@@ -11487,11 +11582,13 @@ msgstr "Изменить связь Шаблона с Вложением"
 #. type: Content of: <section><section><para><figure><screenshot>
 #: en/content/administration/adminarea/salutations-signatures-attachments-templates.xml:167
 msgid ""
-"<graphic scale=\"40\" fileref=\"screenshots/administration/adminarea/"
-"template-attachment-relations2.png\"></graphic>"
+"<graphic fileref=\"screenshots/administration/adminarea/template-attachment-"
+"relations2.png\" scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></"
+"graphic>"
 msgstr ""
-"<graphic scale=\"40\" fileref=\"screenshots/administration/adminarea/"
-"template-attachment-relations2.png\"></graphic>"
+"<graphic fileref=\"screenshots/administration/adminarea/template-attachment-"
+"relations2.png\" scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></"
+"graphic>"
 
 #. type: Content of: <section><section><title>
 #: en/content/administration/adminarea/salutations-signatures-attachments-templates.xml:175
@@ -11592,16 +11689,16 @@ msgstr ""
 #. type: Content of: <section><section><para><figure><title>
 #: en/content/administration/adminarea/salutations-signatures-attachments-templates.xml:230
 msgid "Template management"
-msgstr ""
+msgstr "Управление шаблонами"
 
 #. type: Content of: <section><section><para><figure><screenshot>
 #: en/content/administration/adminarea/salutations-signatures-attachments-templates.xml:232
 msgid ""
-"<graphic scale=\"40\" fileref=\"screenshots/administration/adminarea/admin-"
-"template.png\"></graphic>"
+"<graphic fileref=\"screenshots/administration/adminarea/admin-template.png\" "
+"scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 msgstr ""
-"<graphic scale=\"40\" fileref=\"screenshots/administration/adminarea/admin-"
-"template.png\"></graphic>"
+"<graphic fileref=\"screenshots/administration/adminarea/admin-template.png\" "
+"scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 
 #. type: Content of: <section><section><para>
 #: en/content/administration/adminarea/salutations-signatures-attachments-templates.xml:238
@@ -11619,11 +11716,11 @@ msgstr ""
 #. type: Content of: <section><section><para><figure><screenshot>
 #: en/content/administration/adminarea/salutations-signatures-attachments-templates.xml:246
 msgid ""
-"<graphic scale=\"40\" fileref=\"screenshots/administration/adminarea/add-"
-"template.png\"></graphic>"
+"<graphic fileref=\"screenshots/administration/adminarea/add-template.png\" "
+"scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 msgstr ""
-"<graphic scale=\"40\" fileref=\"screenshots/administration/adminarea/add-"
-"template.png\"></graphic>"
+"<graphic fileref=\"screenshots/administration/adminarea/add-template.png\" "
+"scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 
 #. type: Content of: <section><section><para>
 #: en/content/administration/adminarea/salutations-signatures-attachments-templates.xml:252
@@ -11641,11 +11738,11 @@ msgstr ""
 #. type: Content of: <section><section><para><figure><screenshot>
 #: en/content/administration/adminarea/salutations-signatures-attachments-templates.xml:259
 msgid ""
-"<graphic scale=\"40\" fileref=\"screenshots/administration/adminarea/admin-"
-"template-queue.png\"></graphic>"
+"<graphic fileref=\"screenshots/administration/adminarea/admin-template-queue."
+"png\" scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 msgstr ""
-"<graphic scale=\"40\" fileref=\"screenshots/administration/adminarea/admin-"
-"template-queue.png\"></graphic>"
+"<graphic fileref=\"screenshots/administration/adminarea/admin-template-queue."
+"png\" scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 
 #. type: Content of: <section><section><para>
 #: en/content/administration/adminarea/salutations-signatures-attachments-templates.xml:265
@@ -11666,11 +11763,13 @@ msgstr "Изменить связь Очереди с Шаблоном"
 #. type: Content of: <section><section><para><figure><screenshot>
 #: en/content/administration/adminarea/salutations-signatures-attachments-templates.xml:272
 msgid ""
-"<graphic scale=\"40\" fileref=\"screenshots/administration/adminarea/"
-"template-queue-relations.png\"></graphic>"
+"<graphic fileref=\"screenshots/administration/adminarea/template-queue-"
+"relations.png\" scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></"
+"graphic>"
 msgstr ""
-"<graphic scale=\"40\" fileref=\"screenshots/administration/adminarea/"
-"template-queue-relations.png\"></graphic>"
+"<graphic fileref=\"screenshots/administration/adminarea/template-queue-"
+"relations.png\" scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></"
+"graphic>"
 
 #. type: Content of: <section><section><para><figure><title>
 #: en/content/administration/adminarea/salutations-signatures-attachments-templates.xml:279
@@ -11680,11 +11779,13 @@ msgstr "Изменить связь Шаблона с Очередью"
 #. type: Content of: <section><section><para><figure><screenshot>
 #: en/content/administration/adminarea/salutations-signatures-attachments-templates.xml:281
 msgid ""
-"<graphic scale=\"40\" fileref=\"screenshots/administration/adminarea/"
-"template-queue-relations2.png\"></graphic>"
+"<graphic fileref=\"screenshots/administration/adminarea/template-queue-"
+"relations2.png\" scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></"
+"graphic>"
 msgstr ""
-"<graphic scale=\"40\" fileref=\"screenshots/administration/adminarea/"
-"template-queue-relations2.png\"></graphic>"
+"<graphic fileref=\"screenshots/administration/adminarea/template-queue-"
+"relations2.png\" scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></"
+"graphic>"
 
 #. type: Content of: <section><section><para>
 #: en/content/administration/adminarea/salutations-signatures-attachments-templates.xml:287
@@ -11752,11 +11853,11 @@ msgstr ""
 #. type: Content of: <section><para><figure><screenshot>
 #: en/content/administration/adminarea/autoresponses.xml:16
 msgid ""
-"<graphic scale=\"40\" fileref=\"screenshots/administration/adminarea/admin-"
-"autoresponse.png\"></graphic>"
+"<graphic fileref=\"screenshots/administration/adminarea/admin-autoresponse."
+"png\" scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 msgstr ""
-"<graphic scale=\"40\" fileref=\"screenshots/administration/adminarea/admin-"
-"autoresponse.png\"></graphic>"
+"<graphic fileref=\"screenshots/administration/adminarea/admin-autoresponse."
+"png\" scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 
 #. type: Content of: <section><para>
 #: en/content/administration/adminarea/autoresponses.xml:22
@@ -11773,11 +11874,11 @@ msgstr ""
 #. type: Content of: <section><para><figure><screenshot>
 #: en/content/administration/adminarea/autoresponses.xml:29
 msgid ""
-"<graphic scale=\"40\" fileref=\"screenshots/administration/adminarea/add-"
-"autoresponse.png\"></graphic>"
+"<graphic fileref=\"screenshots/administration/adminarea/add-autoresponse.png"
+"\" scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 msgstr ""
-"<graphic scale=\"40\" fileref=\"screenshots/administration/adminarea/add-"
-"autoresponse.png\"></graphic>"
+"<graphic fileref=\"screenshots/administration/adminarea/add-autoresponse.png"
+"\" scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 
 #. type: Content of: <section><para>
 #: en/content/administration/adminarea/autoresponses.xml:35
@@ -11892,11 +11993,11 @@ msgstr ""
 #. type: Content of: <section><para><figure><screenshot>
 #: en/content/administration/adminarea/autoresponses.xml:114
 msgid ""
-"<graphic scale=\"40\" fileref=\"screenshots/administration/adminarea/admin-"
-"autoresponse-queue.png\"></graphic>"
+"<graphic fileref=\"screenshots/administration/adminarea/admin-autoresponse-"
+"queue.png\" scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 msgstr ""
-"<graphic scale=\"40\" fileref=\"screenshots/administration/adminarea/admin-"
-"autoresponse-queue.png\"></graphic>"
+"<graphic fileref=\"screenshots/administration/adminarea/admin-autoresponse-"
+"queue.png\" scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 
 #. type: Content of: <section><para>
 #: en/content/administration/adminarea/autoresponses.xml:120
@@ -11915,11 +12016,13 @@ msgstr ""
 #. type: Content of: <section><para><figure><screenshot>
 #: en/content/administration/adminarea/autoresponses.xml:127
 msgid ""
-"<graphic scale=\"40\" fileref=\"screenshots/administration/adminarea/"
-"autoresponses-queues-relations.png\"></graphic>"
+"<graphic fileref=\"screenshots/administration/adminarea/autoresponses-queues-"
+"relations.png\" scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></"
+"graphic>"
 msgstr ""
-"<graphic scale=\"40\" fileref=\"screenshots/administration/adminarea/"
-"autoresponses-queues-relations.png\"></graphic>"
+"<graphic fileref=\"screenshots/administration/adminarea/autoresponses-queues-"
+"relations.png\" scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></"
+"graphic>"
 
 #. type: Content of: <section><title>
 #: en/content/administration/adminarea/emailaddresses.xml:6
@@ -11946,11 +12049,11 @@ msgstr ""
 #. type: Content of: <section><para><figure><screenshot>
 #: en/content/administration/adminarea/emailaddresses.xml:16
 msgid ""
-"<graphic scale=\"40\" fileref=\"screenshots/administration/adminarea/admin-"
-"email.png\"></graphic>"
+"<graphic fileref=\"screenshots/administration/adminarea/admin-email.png\" "
+"scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 msgstr ""
-"<graphic scale=\"40\" fileref=\"screenshots/administration/adminarea/admin-"
-"email.png\"></graphic>"
+"<graphic fileref=\"screenshots/administration/adminarea/admin-email.png\" "
+"scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 
 #. type: Content of: <section><para>
 #: en/content/administration/adminarea/emailaddresses.xml:22
@@ -11969,11 +12072,11 @@ msgstr ""
 #. type: Content of: <section><para><figure><screenshot>
 #: en/content/administration/adminarea/emailaddresses.xml:29
 msgid ""
-"<graphic scale=\"40\" fileref=\"screenshots/administration/adminarea/add-"
-"email.png\"></graphic>"
+"<graphic fileref=\"screenshots/administration/adminarea/add-email.png\" "
+"scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 msgstr ""
-"<graphic scale=\"40\" fileref=\"screenshots/administration/adminarea/add-"
-"email.png\"></graphic>"
+"<graphic fileref=\"screenshots/administration/adminarea/add-email.png\" "
+"scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 
 #. type: Content of: <section><note><para>
 #: en/content/administration/adminarea/emailaddresses.xml:36
@@ -12009,11 +12112,11 @@ msgstr ""
 #. type: Content of: <section><para><figure><screenshot>
 #: en/content/administration/adminarea/ticket-notifications.xml:20
 msgid ""
-"<graphic scale=\"40\" fileref=\"screenshots/administration/adminarea/admin-"
-"notification-overview.png\"></graphic>"
+"<graphic fileref=\"screenshots/administration/adminarea/admin-notification-"
+"overview.png\" scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 msgstr ""
-"<graphic scale=\"40\" fileref=\"screenshots/administration/adminarea/admin-"
-"notification-overview.png\"></graphic>"
+"<graphic fileref=\"screenshots/administration/adminarea/admin-notification-"
+"overview.png\" scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 
 #. type: Content of: <section><para>
 #: en/content/administration/adminarea/ticket-notifications.xml:14
@@ -12032,11 +12135,11 @@ msgstr ""
 #. type: Content of: <section><para><figure><screenshot>
 #: en/content/administration/adminarea/ticket-notifications.xml:32
 msgid ""
-"<graphic scale=\"40\" fileref=\"screenshots/administration/adminarea/admin-"
-"notification-basic.png\"></graphic>"
+"<graphic fileref=\"screenshots/administration/adminarea/admin-notification-"
+"basic.png\" scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 msgstr ""
-"<graphic scale=\"40\" fileref=\"screenshots/administration/adminarea/admin-"
-"notification-basic.png\"></graphic>"
+"<graphic fileref=\"screenshots/administration/adminarea/admin-notification-"
+"basic.png\" scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 
 #. type: Content of: <section><para>
 #: en/content/administration/adminarea/ticket-notifications.xml:26
@@ -12070,11 +12173,13 @@ msgstr ""
 #. type: Content of: <section><para><figure><screenshot>
 #: en/content/administration/adminarea/ticket-notifications.xml:56
 msgid ""
-"<graphic scale=\"40\" fileref=\"screenshots/administration/adminarea/admin-"
-"notification-recipients.png\"></graphic>"
+"<graphic fileref=\"screenshots/administration/adminarea/admin-notification-"
+"recipients.png\" scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></"
+"graphic>"
 msgstr ""
-"<graphic scale=\"40\" fileref=\"screenshots/administration/adminarea/admin-"
-"notification-recipients.png\"></graphic>"
+"<graphic fileref=\"screenshots/administration/adminarea/admin-notification-"
+"recipients.png\" scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></"
+"graphic>"
 
 #. type: Content of: <section><para>
 #: en/content/administration/adminarea/ticket-notifications.xml:50
@@ -12095,11 +12200,13 @@ msgstr ""
 #. type: Content of: <section><para><figure><screenshot>
 #: en/content/administration/adminarea/ticket-notifications.xml:73
 msgid ""
-"<graphic scale=\"40\" fileref=\"screenshots/administration/adminarea/admin-"
-"notification-transports.png\"></graphic>"
+"<graphic fileref=\"screenshots/administration/adminarea/admin-notification-"
+"transports.png\" scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></"
+"graphic>"
 msgstr ""
-"<graphic scale=\"40\" fileref=\"screenshots/administration/adminarea/admin-"
-"notification-transports.png\"></graphic>"
+"<graphic fileref=\"screenshots/administration/adminarea/admin-notification-"
+"transports.png\" scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></"
+"graphic>"
 
 #. type: Content of: <section><para>
 #: en/content/administration/adminarea/ticket-notifications.xml:65
@@ -12146,11 +12253,11 @@ msgstr ""
 #. type: Content of: <section><para><figure><screenshot>
 #: en/content/administration/adminarea/smime.xml:20
 msgid ""
-"<graphic scale=\"40\" fileref=\"screenshots/administration/adminarea/admin-"
-"smime.png\"></graphic>"
+"<graphic fileref=\"screenshots/administration/adminarea/admin-smime.png\" "
+"scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 msgstr ""
-"<graphic scale=\"40\" fileref=\"screenshots/administration/adminarea/admin-"
-"smime.png\"></graphic>"
+"<graphic fileref=\"screenshots/administration/adminarea/admin-smime.png\" "
+"scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 
 #. type: Content of: <section><title>
 #: en/content/administration/adminarea/pgp.xml:6
@@ -12189,11 +12296,11 @@ msgstr ""
 #. type: Content of: <section><para><figure><screenshot>
 #: en/content/administration/adminarea/pgp.xml:20
 msgid ""
-"<graphic scale=\"40\" fileref=\"screenshots/administration/adminarea/admin-"
-"pgp.png\"></graphic>"
+"<graphic fileref=\"screenshots/administration/adminarea/admin-pgp.png\" "
+"scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 msgstr ""
-"<graphic scale=\"40\" fileref=\"screenshots/administration/adminarea/admin-"
-"pgp.png\"></graphic>"
+"<graphic fileref=\"screenshots/administration/adminarea/admin-pgp.png\" "
+"scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 
 #. type: Content of: <section><title>
 #: en/content/administration/adminarea/states.xml:6
@@ -12215,11 +12322,11 @@ msgstr ""
 #. type: Content of: <section><para><figure><screenshot>
 #: en/content/administration/adminarea/states.xml:16
 msgid ""
-"<graphic scale=\"40\" fileref=\"screenshots/administration/adminarea/admin-"
-"states.png\"></graphic>"
+"<graphic fileref=\"screenshots/administration/adminarea/admin-states.png\" "
+"scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 msgstr ""
-"<graphic scale=\"40\" fileref=\"screenshots/administration/adminarea/admin-"
-"states.png\"></graphic>"
+"<graphic fileref=\"screenshots/administration/adminarea/admin-states.png\" "
+"scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 
 #. type: Content of: <section><para>
 #: en/content/administration/adminarea/states.xml:22
@@ -12332,11 +12439,11 @@ msgstr "Графический интерфейс для настройки си
 #: en/content/administration/adminarea/sysconfig.xml:20
 #: en/content/administration/configuration.xml:42
 msgid ""
-"<graphic scale=\"40\" fileref=\"screenshots/administration/adminarea/admin-"
-"sysconfig.png\"></graphic>"
+"<graphic fileref=\"screenshots/administration/adminarea/admin-sysconfig.png"
+"\" scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 msgstr ""
-"<graphic scale=\"40\" fileref=\"screenshots/administration/adminarea/admin-"
-"sysconfig.png\"></graphic>"
+"<graphic fileref=\"screenshots/administration/adminarea/admin-sysconfig.png"
+"\" scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 
 #. type: Content of: <section><para>
 #: en/content/administration/adminarea/sysconfig.xml:26
@@ -12375,11 +12482,11 @@ msgstr "Управление почтовыми ящиками"
 #. type: Content of: <section><para><figure><screenshot>
 #: en/content/administration/adminarea/mailaccounts.xml:16
 msgid ""
-"<graphic scale=\"40\" fileref=\"screenshots/administration/adminarea/admin-"
-"mailaccount.png\"></graphic>"
+"<graphic fileref=\"screenshots/administration/adminarea/admin-mailaccount.png"
+"\" scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 msgstr ""
-"<graphic scale=\"40\" fileref=\"screenshots/administration/adminarea/admin-"
-"mailaccount.png\"></graphic>"
+"<graphic fileref=\"screenshots/administration/adminarea/admin-mailaccount.png"
+"\" scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 
 #. type: Content of: <section><para>
 #: en/content/administration/adminarea/mailaccounts.xml:22
@@ -12413,11 +12520,13 @@ msgstr ""
 #. type: Content of: <section><para><figure><screenshot>
 #: en/content/administration/adminarea/postmasterfilter.xml:16
 msgid ""
-"<graphic scale=\"40\" fileref=\"screenshots/administration/adminarea/admin-"
-"postmasterfilter.png\"></graphic>"
+"<graphic fileref=\"screenshots/administration/adminarea/admin-"
+"postmasterfilter.png\" scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></"
+"graphic>"
 msgstr ""
-"<graphic scale=\"40\" fileref=\"screenshots/administration/adminarea/admin-"
-"postmasterfilter.png\"></graphic>"
+"<graphic fileref=\"screenshots/administration/adminarea/admin-"
+"postmasterfilter.png\" scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></"
+"graphic>"
 
 #. type: Content of: <section><para>
 #: en/content/administration/adminarea/postmasterfilter.xml:22
@@ -12743,11 +12852,11 @@ msgstr ""
 #. type: Content of: <section><para><figure><screenshot>
 #: en/content/administration/adminarea/postmasterfilter.xml:231
 msgid ""
-"<graphic scale=\"40\" fileref=\"screenshots/administration/adminarea/add-"
-"postmasterfilter.png\"></graphic>"
+"<graphic fileref=\"screenshots/administration/adminarea/add-postmasterfilter."
+"png\" scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 msgstr ""
-"<graphic scale=\"40\" fileref=\"screenshots/administration/adminarea/add-"
-"postmasterfilter.png\"></graphic>"
+"<graphic fileref=\"screenshots/administration/adminarea/add-postmasterfilter."
+"png\" scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 
 #. type: Content of: <section><example><title>
 #: en/content/administration/adminarea/postmasterfilter.xml:237
@@ -12815,11 +12924,11 @@ msgstr "Список заданий для GenericAgent"
 #. type: Content of: <section><para><figure><screenshot>
 #: en/content/administration/adminarea/genericagent.xml:20
 msgid ""
-"<graphic scale=\"40\" fileref=\"screenshots/administration/adminarea/admin-"
-"genericagent.png\"></graphic>"
+"<graphic fileref=\"screenshots/administration/adminarea/admin-genericagent."
+"png\" scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 msgstr ""
-"<graphic scale=\"40\" fileref=\"screenshots/administration/adminarea/admin-"
-"genericagent.png\"></graphic>"
+"<graphic fileref=\"screenshots/administration/adminarea/admin-genericagent."
+"png\" scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 
 #. type: Content of: <section><para>
 #: en/content/administration/adminarea/genericagent.xml:26
@@ -12849,11 +12958,11 @@ msgstr "Создание заданий для GenericAgent"
 #. type: Content of: <section><para><figure><screenshot>
 #: en/content/administration/adminarea/genericagent.xml:34
 msgid ""
-"<graphic scale=\"40\" fileref=\"screenshots/administration/adminarea/add-"
-"genericagent-job.png\"></graphic>"
+"<graphic fileref=\"screenshots/administration/adminarea/add-genericagent-job."
+"png\" scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 msgstr ""
-"<graphic scale=\"40\" fileref=\"screenshots/administration/adminarea/add-"
-"genericagent-job.png\"></graphic>"
+"<graphic fileref=\"screenshots/administration/adminarea/add-genericagent-job."
+"png\" scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 
 #. type: Content of: <section><para>
 #: en/content/administration/adminarea/genericagent.xml:40
@@ -12923,11 +13032,13 @@ msgstr ""
 #. type: Content of: <section><para><figure><screenshot>
 #: en/content/administration/adminarea/administrative-messages.xml:16
 msgid ""
-"<graphic scale=\"40\" fileref=\"screenshots/administration/adminarea/send-"
-"admin-notification.png\"></graphic>"
+"<graphic fileref=\"screenshots/administration/adminarea/send-admin-"
+"notification.png\" scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></"
+"graphic>"
 msgstr ""
-"<graphic scale=\"40\" fileref=\"screenshots/administration/adminarea/send-"
-"admin-notification.png\"></graphic>"
+"<graphic fileref=\"screenshots/administration/adminarea/send-admin-"
+"notification.png\" scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></"
+"graphic>"
 
 #. type: Content of: <section><para>
 #: en/content/administration/adminarea/administrative-messages.xml:22
@@ -12959,11 +13070,13 @@ msgstr "Управление сеансами"
 #. type: Content of: <section><para><figure><screenshot>
 #: en/content/administration/adminarea/session-management.xml:16
 msgid ""
-"<graphic scale=\"40\" fileref=\"screenshots/administration/adminarea/admin-"
-"sessionmanagement.png\"></graphic>"
+"<graphic fileref=\"screenshots/administration/adminarea/admin-"
+"sessionmanagement.png\" scalefit=\"1\" width=\"100%\" contentdepth=\"100%"
+"\"></graphic>"
 msgstr ""
-"<graphic scale=\"40\" fileref=\"screenshots/administration/adminarea/admin-"
-"sessionmanagement.png\"></graphic>"
+"<graphic fileref=\"screenshots/administration/adminarea/admin-"
+"sessionmanagement.png\" scalefit=\"1\" width=\"100%\" contentdepth=\"100%"
+"\"></graphic>"
 
 #. type: Content of: <section><para>
 #: en/content/administration/adminarea/session-management.xml:22
@@ -12985,11 +13098,11 @@ msgstr "Подробности сеанса/сессии"
 #. type: Content of: <section><para><figure><screenshot>
 #: en/content/administration/adminarea/session-management.xml:29
 msgid ""
-"<graphic scale=\"40\" fileref=\"screenshots/administration/adminarea/admin-"
-"session-details.png\"></graphic>"
+"<graphic fileref=\"screenshots/administration/adminarea/admin-session-"
+"details.png\" scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 msgstr ""
-"<graphic scale=\"40\" fileref=\"screenshots/administration/adminarea/admin-"
-"session-details.png\"></graphic>"
+"<graphic fileref=\"screenshots/administration/adminarea/admin-session-"
+"details.png\" scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 
 #. type: Content of: <section><title>
 #: en/content/administration/adminarea/system-maintenance.xml:6
@@ -13026,11 +13139,13 @@ msgstr ""
 #. type: Content of: <section><para><figure><screenshot>
 #: en/content/administration/adminarea/system-maintenance.xml:19
 msgid ""
-"<graphic scale=\"40\" fileref=\"screenshots/administration/adminarea/admin-"
-"systemmaintenance-overview-screen.png\"></graphic>"
+"<graphic fileref=\"screenshots/administration/adminarea/admin-"
+"systemmaintenance-overview-screen.png\" scalefit=\"1\" width=\"100%\" "
+"contentdepth=\"100%\"></graphic>"
 msgstr ""
-"<graphic scale=\"40\" fileref=\"screenshots/administration/adminarea/admin-"
-"systemmaintenance-overview-screen.png\"></graphic>"
+"<graphic fileref=\"screenshots/administration/adminarea/admin-"
+"systemmaintenance-overview-screen.png\" scalefit=\"1\" width=\"100%\" "
+"contentdepth=\"100%\"></graphic>"
 
 #. type: Content of: <section><para>
 #: en/content/administration/adminarea/system-maintenance.xml:24
@@ -13047,11 +13162,13 @@ msgstr ""
 #. type: Content of: <section><para><figure><screenshot>
 #: en/content/administration/adminarea/system-maintenance.xml:31
 msgid ""
-"<graphic scale=\"40\" fileref=\"screenshots/administration/adminarea/admin-"
-"systemmaintenance-edit-screen.png\"></graphic>"
+"<graphic fileref=\"screenshots/administration/adminarea/admin-"
+"systemmaintenance-edit-screen.png\" scalefit=\"1\" width=\"100%\" "
+"contentdepth=\"100%\"></graphic>"
 msgstr ""
-"<graphic scale=\"40\" fileref=\"screenshots/administration/adminarea/admin-"
-"systemmaintenance-edit-screen.png\"></graphic>"
+"<graphic fileref=\"screenshots/administration/adminarea/admin-"
+"systemmaintenance-edit-screen.png\" scalefit=\"1\" width=\"100%\" "
+"contentdepth=\"100%\"></graphic>"
 
 #. type: Content of: <section><para>
 #: en/content/administration/adminarea/system-maintenance.xml:36
@@ -13081,11 +13198,11 @@ msgstr ""
 #. type: Content of: <section><para><figure><screenshot>
 #: en/content/administration/adminarea/system-log.xml:16
 msgid ""
-"<graphic scale=\"40\" fileref=\"screenshots/administration/adminarea/admin-"
-"syslog.png\"></graphic>"
+"<graphic fileref=\"screenshots/administration/adminarea/admin-syslog.png\" "
+"scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 msgstr ""
-"<graphic scale=\"40\" fileref=\"screenshots/administration/adminarea/admin-"
-"syslog.png\"></graphic>"
+"<graphic fileref=\"screenshots/administration/adminarea/admin-syslog.png\" "
+"scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 
 #. type: Content of: <section><para>
 #: en/content/administration/adminarea/system-log.xml:22
@@ -13126,11 +13243,11 @@ msgstr "SQL-запросы"
 #. type: Content of: <section><para><figure><screenshot>
 #: en/content/administration/adminarea/selectbox.xml:16
 msgid ""
-"<graphic scale=\"40\" fileref=\"screenshots/administration/adminarea/admin-"
-"selectbox.png\"></graphic>"
+"<graphic fileref=\"screenshots/administration/adminarea/admin-selectbox.png"
+"\" scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 msgstr ""
-"<graphic scale=\"40\" fileref=\"screenshots/administration/adminarea/admin-"
-"selectbox.png\"></graphic>"
+"<graphic fileref=\"screenshots/administration/adminarea/admin-selectbox.png"
+"\" scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 
 #. type: Content of: <section><para><figure><title>
 #: en/content/administration/adminarea/package-manager.xml:6
@@ -13151,11 +13268,11 @@ msgstr ""
 #. type: Content of: <section><para><figure><screenshot>
 #: en/content/administration/adminarea/package-manager.xml:16
 msgid ""
-"<graphic scale=\"40\" fileref=\"screenshots/administration/adminarea/admin-"
-"packagemanager.png\"></graphic>"
+"<graphic fileref=\"screenshots/administration/adminarea/admin-packagemanager."
+"png\" scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 msgstr ""
-"<graphic scale=\"40\" fileref=\"screenshots/administration/adminarea/admin-"
-"packagemanager.png\"></graphic>"
+"<graphic fileref=\"screenshots/administration/adminarea/admin-packagemanager."
+"png\" scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 
 #. type: Content of: <section><para>
 #: en/content/administration/adminarea/package-manager.xml:22
@@ -13256,11 +13373,13 @@ msgstr "Графический интерфейс для веб-сервисов
 #. type: Content of: <section><para><figure><screenshot>
 #: en/content/administration/adminarea/web-services.xml:15
 msgid ""
-"<graphic scale=\"40\" fileref=\"screenshots/administration/adminarea/"
-"genericinterface-webservice-overview.png\"></graphic>"
+"<graphic fileref=\"screenshots/administration/adminarea/genericinterface-"
+"webservice-overview.png\" scalefit=\"1\" width=\"100%\" contentdepth=\"100%"
+"\"></graphic>"
 msgstr ""
-"<graphic scale=\"40\" fileref=\"screenshots/administration/adminarea/"
-"genericinterface-webservice-overview.png\"></graphic>"
+"<graphic fileref=\"screenshots/administration/adminarea/genericinterface-"
+"webservice-overview.png\" scalefit=\"1\" width=\"100%\" contentdepth=\"100%"
+"\"></graphic>"
 
 #. type: Content of: <section><para>
 #: en/content/administration/adminarea/web-services.xml:20
@@ -13296,11 +13415,13 @@ msgstr ""
 #. type: Content of: <section><para><figure><screenshot>
 #: en/content/administration/adminarea/dynamic-fields.xml:15
 msgid ""
-"<graphic scale=\"40\" fileref=\"screenshots/administration/adminarea/"
-"dynamicfields-overview-filled.png\"></graphic>"
+"<graphic fileref=\"screenshots/administration/adminarea/dynamicfields-"
+"overview-filled.png\" scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></"
+"graphic>"
 msgstr ""
-"<graphic scale=\"40\" fileref=\"screenshots/administration/adminarea/"
-"dynamicfields-overview-filled.png\"></graphic>"
+"<graphic fileref=\"screenshots/administration/adminarea/dynamicfields-"
+"overview-filled.png\" scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></"
+"graphic>"
 
 #. type: Content of: <section><para>
 #: en/content/administration/adminarea/dynamic-fields.xml:20
@@ -13539,11 +13660,11 @@ msgstr ""
 #. type: Content of: <section><section><para><figure><screenshot>
 #: en/content/administration/daemon.xml:138
 msgid ""
-"<graphic scale=\"40\" fileref=\"screenshots/administration/adminarea/daemon-"
-"notify.png\"></graphic>"
+"<graphic fileref=\"screenshots/administration/adminarea/daemon-notify.png\" "
+"scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 msgstr ""
-"<graphic scale=\"40\" fileref=\"screenshots/administration/adminarea/daemon-"
-"notify.png\"></graphic>"
+"<graphic fileref=\"screenshots/administration/adminarea/daemon-notify.png\" "
+"scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 
 #. type: Content of: <section><section><para>
 #: en/content/administration/daemon.xml:143
@@ -13560,11 +13681,11 @@ msgstr ""
 #. type: Content of: <section><section><para><figure><screenshot>
 #: en/content/administration/daemon.xml:150
 msgid ""
-"<graphic scale=\"40\" fileref=\"screenshots/administration/adminarea/daemon-"
-"start.png\"></graphic>"
+"<graphic fileref=\"screenshots/administration/adminarea/daemon-start.png\" "
+"scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 msgstr ""
-"<graphic scale=\"40\" fileref=\"screenshots/administration/adminarea/daemon-"
-"start.png\"></graphic>"
+"<graphic fileref=\"screenshots/administration/adminarea/daemon-start.png\" "
+"scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 
 #. type: Content of: <section><section><title>
 #: en/content/administration/daemon.xml:156
@@ -15815,11 +15936,11 @@ msgstr "Добавление учетной записи электронной 
 #. type: Content of: <section><section><section><para><figure><screenshot>
 #: en/content/administration/email/email.xml:60
 msgid ""
-"<graphic scale=\"40\" fileref=\"screenshots/administration/email/add-"
-"mailaccount.png\"></graphic>"
+"<graphic fileref=\"screenshots/administration/email/add-mailaccount.png\" "
+"scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 msgstr ""
-"<graphic scale=\"40\" fileref=\"screenshots/administration/email/add-"
-"mailaccount.png\"></graphic>"
+"<graphic fileref=\"screenshots/administration/email/add-mailaccount.png\" "
+"scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 
 #. type: Content of: <section><section><section><para>
 #: en/content/administration/email/email.xml:65
@@ -18534,11 +18655,11 @@ msgstr ""
 #. type: Content of: <section><section><para><figure><screenshot>
 #: en/content/administration/ticket/monitoring-tickets.xml:30
 msgid ""
-"<graphic scale=\"40\" fileref=\"screenshots/administration/ticket/ticket-"
-"zoom-responsible.png\"></graphic>"
+"<graphic fileref=\"screenshots/administration/ticket/ticket-zoom-responsible."
+"png\" scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 msgstr ""
-"<graphic scale=\"40\" fileref=\"screenshots/administration/ticket/ticket-"
-"zoom-responsible.png\"></graphic>"
+"<graphic fileref=\"screenshots/administration/ticket/ticket-zoom-responsible."
+"png\" scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 
 #. type: Content of: <section><section><para>
 #: en/content/administration/ticket/monitoring-tickets.xml:36
@@ -18556,11 +18677,11 @@ msgstr ""
 #. type: Content of: <section><section><para><figure><screenshot>
 #: en/content/administration/ticket/monitoring-tickets.xml:43
 msgid ""
-"<graphic scale=\"40\" fileref=\"screenshots/administration/ticket/ticket-"
-"responsible.png\"></graphic>"
+"<graphic fileref=\"screenshots/administration/ticket/ticket-responsible.png"
+"\" scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 msgstr ""
-"<graphic scale=\"40\" fileref=\"screenshots/administration/ticket/ticket-"
-"responsible.png\"></graphic>"
+"<graphic fileref=\"screenshots/administration/ticket/ticket-responsible.png"
+"\" scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 
 #. type: Content of: <section><section><para>
 #: en/content/administration/ticket/monitoring-tickets.xml:49
@@ -18622,11 +18743,11 @@ msgstr ""
 #. type: Content of: <section><section><para><figure><screenshot>
 #: en/content/administration/ticket/monitoring-tickets.xml:73
 msgid ""
-"<graphic scale=\"40\" fileref=\"screenshots/administration/ticket/ticket-"
-"subscribe.png\"></graphic>"
+"<graphic fileref=\"screenshots/administration/ticket/ticket-subscribe.png\" "
+"scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 msgstr ""
-"<graphic scale=\"40\" fileref=\"screenshots/administration/ticket/ticket-"
-"subscribe.png\"></graphic>"
+"<graphic fileref=\"screenshots/administration/ticket/ticket-subscribe.png\" "
+"scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 
 #. type: Content of: <section><section><para>
 #: en/content/administration/ticket/monitoring-tickets.xml:79
@@ -18644,11 +18765,11 @@ msgstr ""
 #. type: Content of: <section><section><para><figure><screenshot>
 #: en/content/administration/ticket/monitoring-tickets.xml:86
 msgid ""
-"<graphic scale=\"40\" fileref=\"screenshots/administration/ticket/ticket-"
-"unsubscribe.png\"></graphic>"
+"<graphic fileref=\"screenshots/administration/ticket/ticket-unsubscribe.png"
+"\" scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 msgstr ""
-"<graphic scale=\"40\" fileref=\"screenshots/administration/ticket/ticket-"
-"unsubscribe.png\"></graphic>"
+"<graphic fileref=\"screenshots/administration/ticket/ticket-unsubscribe.png"
+"\" scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 
 #. type: Content of: <section><section><para>
 #: en/content/administration/ticket/monitoring-tickets.xml:92
@@ -18666,11 +18787,11 @@ msgstr ""
 #. type: Content of: <section><section><para><figure><screenshot>
 #: en/content/administration/ticket/monitoring-tickets.xml:99
 msgid ""
-"<graphic scale=\"40\" fileref=\"screenshots/administration/ticket/ticket-"
-"subscribe-mailbox.png\"></graphic>"
+"<graphic fileref=\"screenshots/administration/ticket/ticket-subscribe-"
+"mailbox.png\" scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 msgstr ""
-"<graphic scale=\"40\" fileref=\"screenshots/administration/ticket/ticket-"
-"subscribe-mailbox.png\"></graphic>"
+"<graphic fileref=\"screenshots/administration/ticket/ticket-subscribe-"
+"mailbox.png\" scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 
 #. type: Content of: <section><title>
 #: en/content/administration/configuration.xml:6
@@ -18899,11 +19020,13 @@ msgstr "Экран обзора динамических полей пуст"
 #. type: Content of: <section><section><para><figure><screenshot>
 #: en/content/administration/dynamicfields-configuration.xml:28
 msgid ""
-"<graphic scale=\"40\" fileref=\"screenshots/administration/dynamicfields/"
-"dynamicfields-overview-empty.png\"></graphic>"
+"<graphic fileref=\"screenshots/administration/dynamicfields/dynamicfields-"
+"overview-empty.png\" scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></"
+"graphic>"
 msgstr ""
-"<graphic scale=\"40\" fileref=\"screenshots/administration/dynamicfields/"
-"dynamicfields-overview-empty.png\"></graphic>"
+"<graphic fileref=\"screenshots/administration/dynamicfields/dynamicfields-"
+"overview-empty.png\" scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></"
+"graphic>"
 
 #. type: Content of: <section><section><para>
 #: en/content/administration/dynamicfields-configuration.xml:33
@@ -19288,11 +19411,13 @@ msgstr "Окно конфигурации Динамического поля Te
 #. type: Content of: <section><section><para><figure><screenshot>
 #: en/content/administration/dynamicfields-configuration.xml:246
 msgid ""
-"<graphic scale=\"40\" fileref=\"screenshots/administration/dynamicfields/"
-"dynamicfields-configuration-text.png\"></graphic>"
+"<graphic fileref=\"screenshots/administration/dynamicfields/dynamicfields-"
+"configuration-text.png\" scalefit=\"1\" width=\"100%\" contentdepth=\"100%"
+"\"></graphic>"
 msgstr ""
-"<graphic scale=\"40\" fileref=\"screenshots/administration/dynamicfields/"
-"dynamicfields-configuration-text.png\"></graphic>"
+"<graphic fileref=\"screenshots/administration/dynamicfields/dynamicfields-"
+"configuration-text.png\" scalefit=\"1\" width=\"100%\" contentdepth=\"100%"
+"\"></graphic>"
 
 #. type: Content of: <section><section><title>
 #: en/content/administration/dynamicfields-configuration.xml:253
@@ -19351,11 +19476,13 @@ msgstr "Окно конфигурации Динамического поля Te
 #. type: Content of: <section><section><para><figure><screenshot>
 #: en/content/administration/dynamicfields-configuration.xml:292
 msgid ""
-"<graphic scale=\"40\" fileref=\"screenshots/administration/dynamicfields/"
-"dynamicfields-configuration-textarea.png\"></graphic>"
+"<graphic fileref=\"screenshots/administration/dynamicfields/dynamicfields-"
+"configuration-textarea.png\" scalefit=\"1\" width=\"100%\" contentdepth="
+"\"100%\"></graphic>"
 msgstr ""
-"<graphic scale=\"40\" fileref=\"screenshots/administration/dynamicfields/"
-"dynamicfields-configuration-textarea.png\"></graphic>"
+"<graphic fileref=\"screenshots/administration/dynamicfields/dynamicfields-"
+"configuration-textarea.png\" scalefit=\"1\" width=\"100%\" contentdepth="
+"\"100%\"></graphic>"
 
 #. type: Content of: <section><section><title>
 #: en/content/administration/dynamicfields-configuration.xml:299
@@ -19401,11 +19528,13 @@ msgstr "Диалог настройки Динамического поля Chec
 #. type: Content of: <section><section><para><figure><screenshot>
 #: en/content/administration/dynamicfields-configuration.xml:323
 msgid ""
-"<graphic scale=\"40\" fileref=\"screenshots/administration/dynamicfields/"
-"dynamicfields-configuration-checkbox.png\"></graphic>"
+"<graphic fileref=\"screenshots/administration/dynamicfields/dynamicfields-"
+"configuration-checkbox.png\" scalefit=\"1\" width=\"100%\" contentdepth="
+"\"100%\"></graphic>"
 msgstr ""
-"<graphic scale=\"40\" fileref=\"screenshots/administration/dynamicfields/"
-"dynamicfields-configuration-checkbox.png\"></graphic>"
+"<graphic fileref=\"screenshots/administration/dynamicfields/dynamicfields-"
+"configuration-checkbox.png\" scalefit=\"1\" width=\"100%\" contentdepth="
+"\"100%\"></graphic>"
 
 #. type: Content of: <section><section><title>
 #: en/content/administration/dynamicfields-configuration.xml:331
@@ -19499,11 +19628,13 @@ msgstr "Окно настройки динамического поля Dropdown
 #. type: Content of: <section><section><para><figure><screenshot>
 #: en/content/administration/dynamicfields-configuration.xml:402
 msgid ""
-"<graphic scale=\"40\" fileref=\"screenshots/administration/dynamicfields/"
-"dynamicfields-configuration-dropdown.png\"></graphic>"
+"<graphic fileref=\"screenshots/administration/dynamicfields/dynamicfields-"
+"configuration-dropdown.png\" scalefit=\"1\" width=\"100%\" contentdepth="
+"\"100%\"></graphic>"
 msgstr ""
-"<graphic scale=\"40\" fileref=\"screenshots/administration/dynamicfields/"
-"dynamicfields-configuration-dropdown.png\"></graphic>"
+"<graphic fileref=\"screenshots/administration/dynamicfields/dynamicfields-"
+"configuration-dropdown.png\" scalefit=\"1\" width=\"100%\" contentdepth="
+"\"100%\"></graphic>"
 
 #. type: Content of: <section><section><title>
 #: en/content/administration/dynamicfields-configuration.xml:409
@@ -19543,11 +19674,13 @@ msgstr ""
 #. type: Content of: <section><section><para><figure><screenshot>
 #: en/content/administration/dynamicfields-configuration.xml:460
 msgid ""
-"<graphic scale=\"40\" fileref=\"screenshots/administration/dynamicfields/"
-"dynamicfields-configuration-multiselect.png\"></graphic>"
+"<graphic fileref=\"screenshots/administration/dynamicfields/dynamicfields-"
+"configuration-multiselect.png\" scalefit=\"1\" width=\"100%\" contentdepth="
+"\"100%\"></graphic>"
 msgstr ""
-"<graphic scale=\"40\" fileref=\"screenshots/administration/dynamicfields/"
-"dynamicfields-configuration-multiselect.png\"></graphic>"
+"<graphic fileref=\"screenshots/administration/dynamicfields/dynamicfields-"
+"configuration-multiselect.png\" scalefit=\"1\" width=\"100%\" contentdepth="
+"\"100%\"></graphic>"
 
 #. type: Content of: <section><section><title>
 #: en/content/administration/dynamicfields-configuration.xml:467
@@ -19658,11 +19791,13 @@ msgstr "Окно настройки динамического поля поля
 #. type: Content of: <section><section><para><figure><screenshot>
 #: en/content/administration/dynamicfields-configuration.xml:542
 msgid ""
-"<graphic scale=\"40\" fileref=\"screenshots/administration/dynamicfields/"
-"dynamicfields-configuration-date.png\"></graphic>"
+"<graphic fileref=\"screenshots/administration/dynamicfields/dynamicfields-"
+"configuration-date.png\" scalefit=\"1\" width=\"100%\" contentdepth=\"100%"
+"\"></graphic>"
 msgstr ""
-"<graphic scale=\"40\" fileref=\"screenshots/administration/dynamicfields/"
-"dynamicfields-configuration-date.png\"></graphic>"
+"<graphic fileref=\"screenshots/administration/dynamicfields/dynamicfields-"
+"configuration-date.png\" scalefit=\"1\" width=\"100%\" contentdepth=\"100%"
+"\"></graphic>"
 
 #. type: Content of: <section><section><title>
 #: en/content/administration/dynamicfields-configuration.xml:549
@@ -19691,11 +19826,13 @@ msgstr "Диалог настройки динамического поля Date
 #. type: Content of: <section><section><para><figure><screenshot>
 #: en/content/administration/dynamicfields-configuration.xml:625
 msgid ""
-"<graphic scale=\"40\" fileref=\"screenshots/administration/dynamicfields/"
-"dynamicfields-configuration-datetime.png\"></graphic>"
+"<graphic fileref=\"screenshots/administration/dynamicfields/dynamicfields-"
+"configuration-datetime.png\" scalefit=\"1\" width=\"100%\" contentdepth="
+"\"100%\"></graphic>"
 msgstr ""
-"<graphic scale=\"40\" fileref=\"screenshots/administration/dynamicfields/"
-"dynamicfields-configuration-datetime.png\"></graphic>"
+"<graphic fileref=\"screenshots/administration/dynamicfields/dynamicfields-"
+"configuration-datetime.png\" scalefit=\"1\" width=\"100%\" contentdepth="
+"\"100%\"></graphic>"
 
 #. type: Content of: <section><section><title>
 #: en/content/administration/dynamicfields-configuration.xml:632
@@ -19719,11 +19856,13 @@ msgstr "Страница просмотра заполненого динами�
 #. type: Content of: <section><section><para><figure><screenshot>
 #: en/content/administration/dynamicfields-configuration.xml:640
 msgid ""
-"<graphic scale=\"40\" fileref=\"screenshots/administration/dynamicfields/"
-"dynamicfields-overview-filled.png\"></graphic>"
+"<graphic fileref=\"screenshots/administration/dynamicfields/dynamicfields-"
+"overview-filled.png\" scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></"
+"graphic>"
 msgstr ""
-"<graphic scale=\"40\" fileref=\"screenshots/administration/dynamicfields/"
-"dynamicfields-overview-filled.png\"></graphic>"
+"<graphic fileref=\"screenshots/administration/dynamicfields/dynamicfields-"
+"overview-filled.png\" scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></"
+"graphic>"
 
 #. type: Content of: <section><section><para>
 #: en/content/administration/dynamicfields-configuration.xml:645
@@ -19964,11 +20103,13 @@ msgstr ""
 #. type: Content of: <section><section><section><para><example><para><figure><screenshot>
 #: en/content/administration/dynamicfields-configuration.xml:788
 msgid ""
-"<graphic scale=\"40\" fileref=\"screenshots/administration/dynamicfields/"
-"dynamicfields-agentticketphone-field1.png\"></graphic>"
+"<graphic fileref=\"screenshots/administration/dynamicfields/dynamicfields-"
+"agentticketphone-field1.png\" scalefit=\"1\" width=\"100%\" contentdepth="
+"\"100%\"></graphic>"
 msgstr ""
-"<graphic scale=\"40\" fileref=\"screenshots/administration/dynamicfields/"
-"dynamicfields-agentticketphone-field1.png\"></graphic>"
+"<graphic fileref=\"screenshots/administration/dynamicfields/dynamicfields-"
+"agentticketphone-field1.png\" scalefit=\"1\" width=\"100%\" contentdepth="
+"\"100%\"></graphic>"
 
 #. type: Content of: <section><section><section><para><example><title>
 #: en/content/administration/dynamicfields-configuration.xml:796
@@ -19990,11 +20131,13 @@ msgstr ""
 #. type: Content of: <section><section><section><para><example><para><figure><screenshot>
 #: en/content/administration/dynamicfields-configuration.xml:844
 msgid ""
-"<graphic scale=\"40\" fileref=\"screenshots/administration/dynamicfields/"
-"dynamicfields-agentticketphone-field1-mandatory.png\"></graphic>"
+"<graphic fileref=\"screenshots/administration/dynamicfields/dynamicfields-"
+"agentticketphone-field1-mandatory.png\" scalefit=\"1\" width=\"100%\" "
+"contentdepth=\"100%\"></graphic>"
 msgstr ""
-"<graphic scale=\"40\" fileref=\"screenshots/administration/dynamicfields/"
-"dynamicfields-agentticketphone-field1-mandatory.png\"></graphic>"
+"<graphic fileref=\"screenshots/administration/dynamicfields/dynamicfields-"
+"agentticketphone-field1-mandatory.png\" scalefit=\"1\" width=\"100%\" "
+"contentdepth=\"100%\"></graphic>"
 
 #. type: Content of: <section><section><section><para><example><title>
 #: en/content/administration/dynamicfields-configuration.xml:852
@@ -20010,11 +20153,13 @@ msgstr ""
 #. type: Content of: <section><section><section><para><example><para><figure><screenshot>
 #: en/content/administration/dynamicfields-configuration.xml:924
 msgid ""
-"<graphic scale=\"40\" fileref=\"screenshots/administration/dynamicfields/"
-"dynamicfields-agentticketphone-allfields.png\"></graphic>"
+"<graphic fileref=\"screenshots/administration/dynamicfields/dynamicfields-"
+"agentticketphone-allfields.png\" scalefit=\"1\" width=\"100%\" contentdepth="
+"\"100%\"></graphic>"
 msgstr ""
-"<graphic scale=\"40\" fileref=\"screenshots/administration/dynamicfields/"
-"dynamicfields-agentticketphone-allfields.png\"></graphic>"
+"<graphic fileref=\"screenshots/administration/dynamicfields/dynamicfields-"
+"agentticketphone-allfields.png\" scalefit=\"1\" width=\"100%\" contentdepth="
+"\"100%\"></graphic>"
 
 #. type: Content of: <section><section><section><para><example><title>
 #: en/content/administration/dynamicfields-configuration.xml:932
@@ -20038,11 +20183,13 @@ msgstr ""
 #. type: Content of: <section><section><section><para><example><para><figure><screenshot>
 #: en/content/administration/dynamicfields-configuration.xml:1004
 msgid ""
-"<graphic scale=\"40\" fileref=\"screenshots/administration/dynamicfields/"
-"dynamicfields-agentticketphone-somefields.png\"></graphic>"
+"<graphic fileref=\"screenshots/administration/dynamicfields/dynamicfields-"
+"agentticketphone-somefields.png\" scalefit=\"1\" width=\"100%\" contentdepth="
+"\"100%\"></graphic>"
 msgstr ""
-"<graphic scale=\"40\" fileref=\"screenshots/administration/dynamicfields/"
-"dynamicfields-agentticketphone-somefields.png\"></graphic>"
+"<graphic fileref=\"screenshots/administration/dynamicfields/dynamicfields-"
+"agentticketphone-somefields.png\" scalefit=\"1\" width=\"100%\" contentdepth="
+"\"100%\"></graphic>"
 
 #. type: Content of: <section><section><section><para><example><title>
 #: en/content/administration/dynamicfields-configuration.xml:1012
@@ -20072,11 +20219,13 @@ msgstr ""
 #. type: Content of: <section><section><section><para><example><para><figure><screenshot>
 #: en/content/administration/dynamicfields-configuration.xml:1060
 msgid ""
-"<graphic scale=\"40\" fileref=\"screenshots/administration/dynamicfields/"
-"dynamicfields-agentticketzoom-field1.png\"></graphic>"
+"<graphic fileref=\"screenshots/administration/dynamicfields/dynamicfields-"
+"agentticketzoom-field1.png\" scalefit=\"1\" width=\"100%\" contentdepth="
+"\"100%\"></graphic>"
 msgstr ""
-"<graphic scale=\"40\" fileref=\"screenshots/administration/dynamicfields/"
-"dynamicfields-agentticketzoom-field1.png\"></graphic>"
+"<graphic fileref=\"screenshots/administration/dynamicfields/dynamicfields-"
+"agentticketzoom-field1.png\" scalefit=\"1\" width=\"100%\" contentdepth="
+"\"100%\"></graphic>"
 
 #. type: Content of: <section><section><section><para><example><title>
 #: en/content/administration/dynamicfields-configuration.xml:1068
@@ -20106,11 +20255,13 @@ msgstr ""
 #. type: Content of: <section><section><section><para><example><para><figure><screenshot>
 #: en/content/administration/dynamicfields-configuration.xml:1116
 msgid ""
-"<graphic scale=\"40\" fileref=\"screenshots/administration/dynamicfields/"
-"dynamicfields-ticketoverviewsmall-field1.png\"></graphic>"
+"<graphic fileref=\"screenshots/administration/dynamicfields/dynamicfields-"
+"ticketoverviewsmall-field1.png\" scalefit=\"1\" width=\"100%\" contentdepth="
+"\"100%\"></graphic>"
 msgstr ""
-"<graphic scale=\"40\" fileref=\"screenshots/administration/dynamicfields/"
-"dynamicfields-ticketoverviewsmall-field1.png\"></graphic>"
+"<graphic fileref=\"screenshots/administration/dynamicfields/dynamicfields-"
+"ticketoverviewsmall-field1.png\" scalefit=\"1\" width=\"100%\" contentdepth="
+"\"100%\"></graphic>"
 
 #. type: Content of: <section><section><section><para><example><para>
 #: en/content/administration/dynamicfields-configuration.xml:1121
@@ -20368,11 +20519,13 @@ msgstr ""
 #. type: Content of: <section><section><example><para><figure><screenshot>
 #: en/content/administration/dynamicfields-configuration.xml:1324
 msgid ""
-"<graphic scale=\"40\" fileref=\"screenshots/administration/dynamicfields/"
-"dynamicfields-userpreferences.png\"></graphic>"
+"<graphic fileref=\"screenshots/administration/dynamicfields/dynamicfields-"
+"userpreferences.png\" scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></"
+"graphic>"
 msgstr ""
-"<graphic scale=\"40\" fileref=\"screenshots/administration/dynamicfields/"
-"dynamicfields-userpreferences.png\"></graphic>"
+"<graphic fileref=\"screenshots/administration/dynamicfields/dynamicfields-"
+"userpreferences.png\" scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></"
+"graphic>"
 
 #. type: Content of: <section><section><para>
 #: en/content/administration/dynamicfields.xml:9
@@ -20759,11 +20912,13 @@ msgstr ""
 #. type: Content of: <section><section><para><figure><screenshot>
 #: en/content/administration/genericinterface/genericinterface-webservice-gui.xml:62
 msgid ""
-"<graphic scale=\"40\" fileref=\"screenshots/administration/genericinterface/"
-"genericinterface-webservice-overview.png\"></graphic>"
+"<graphic fileref=\"screenshots/administration/genericinterface/"
+"genericinterface-webservice-overview.png\" scalefit=\"1\" width=\"100%\" "
+"contentdepth=\"100%\"></graphic>"
 msgstr ""
-"<graphic scale=\"40\" fileref=\"screenshots/administration/genericinterface/"
-"genericinterface-webservice-overview.png\"></graphic>"
+"<graphic fileref=\"screenshots/administration/genericinterface/"
+"genericinterface-webservice-overview.png\" scalefit=\"1\" width=\"100%\" "
+"contentdepth=\"100%\"></graphic>"
 
 #. type: Content of: <section><section><title>
 #: en/content/administration/genericinterface/genericinterface-webservice-gui.xml:69
@@ -20872,11 +21027,13 @@ msgstr ""
 #. type: Content of: <section><section><para><figure><screenshot>
 #: en/content/administration/genericinterface/genericinterface-webservice-gui.xml:131
 msgid ""
-"<graphic scale=\"40\" fileref=\"screenshots/administration/genericinterface/"
-"genericinterface-webservice-add.png\"></graphic>"
+"<graphic fileref=\"screenshots/administration/genericinterface/"
+"genericinterface-webservice-add.png\" scalefit=\"1\" width=\"100%\" "
+"contentdepth=\"100%\"></graphic>"
 msgstr ""
-"<graphic scale=\"40\" fileref=\"screenshots/administration/genericinterface/"
-"genericinterface-webservice-add.png\"></graphic>"
+"<graphic fileref=\"screenshots/administration/genericinterface/"
+"genericinterface-webservice-add.png\" scalefit=\"1\" width=\"100%\" "
+"contentdepth=\"100%\"></graphic>"
 
 #. type: Content of: <section><section><title>
 #: en/content/administration/genericinterface/genericinterface-webservice-gui.xml:138
@@ -20975,11 +21132,13 @@ msgstr "Клонирование веб-сервиса"
 #. type: Content of: <section><section><section><para><figure><screenshot>
 #: en/content/administration/genericinterface/genericinterface-webservice-gui.xml:203
 msgid ""
-"<graphic scale=\"40\" fileref=\"screenshots/administration/genericinterface/"
-"genericinterface-webservice-clone.png\"></graphic>"
+"<graphic fileref=\"screenshots/administration/genericinterface/"
+"genericinterface-webservice-clone.png\" scalefit=\"1\" width=\"100%\" "
+"contentdepth=\"100%\"></graphic>"
 msgstr ""
-"<graphic scale=\"40\" fileref=\"screenshots/administration/genericinterface/"
-"genericinterface-webservice-clone.png\"></graphic>"
+"<graphic fileref=\"screenshots/administration/genericinterface/"
+"genericinterface-webservice-clone.png\" scalefit=\"1\" width=\"100%\" "
+"contentdepth=\"100%\"></graphic>"
 
 #. type: Content of: <section><section><section><title>
 #: en/content/administration/genericinterface/genericinterface-webservice-gui.xml:210
@@ -21044,11 +21203,13 @@ msgstr ""
 #. type: Content of: <section><section><section><para><figure><screenshot>
 #: en/content/administration/genericinterface/genericinterface-webservice-gui.xml:240
 msgid ""
-"<graphic scale=\"40\" fileref=\"screenshots/administration/genericinterface/"
-"genericinterface-webservice-export.png\"></graphic>"
+"<graphic fileref=\"screenshots/administration/genericinterface/"
+"genericinterface-webservice-export.png\" scalefit=\"1\" width=\"100%\" "
+"contentdepth=\"100%\"></graphic>"
 msgstr ""
-"<graphic scale=\"40\" fileref=\"screenshots/administration/genericinterface/"
-"genericinterface-webservice-export.png\"></graphic>"
+"<graphic fileref=\"screenshots/administration/genericinterface/"
+"genericinterface-webservice-export.png\" scalefit=\"1\" width=\"100%\" "
+"contentdepth=\"100%\"></graphic>"
 
 #. type: Content of: <section><section><section><title>
 #: en/content/administration/genericinterface/genericinterface-webservice-gui.xml:247
@@ -21099,11 +21260,13 @@ msgstr ""
 #. type: Content of: <section><section><section><para><figure><screenshot>
 #: en/content/administration/genericinterface/genericinterface-webservice-gui.xml:271
 msgid ""
-"<graphic scale=\"40\" fileref=\"screenshots/administration/genericinterface/"
-"genericinterface-webservice-import.png\"></graphic>"
+"<graphic fileref=\"screenshots/administration/genericinterface/"
+"genericinterface-webservice-import.png\" scalefit=\"1\" width=\"100%\" "
+"contentdepth=\"100%\"></graphic>"
 msgstr ""
-"<graphic scale=\"40\" fileref=\"screenshots/administration/genericinterface/"
-"genericinterface-webservice-import.png\"></graphic>"
+"<graphic fileref=\"screenshots/administration/genericinterface/"
+"genericinterface-webservice-import.png\" scalefit=\"1\" width=\"100%\" "
+"contentdepth=\"100%\"></graphic>"
 
 #. type: Content of: <section><section><section><title>
 #: en/content/administration/genericinterface/genericinterface-webservice-gui.xml:278
@@ -21193,11 +21356,13 @@ msgstr ""
 #. type: Content of: <section><section><section><para><figure><screenshot>
 #: en/content/administration/genericinterface/genericinterface-webservice-gui.xml:319
 msgid ""
-"<graphic scale=\"40\" fileref=\"screenshots/administration/genericinterface/"
-"genericinterface-webservice-history.png\"></graphic>"
+"<graphic fileref=\"screenshots/administration/genericinterface/"
+"genericinterface-webservice-history.png\" scalefit=\"1\" width=\"100%\" "
+"contentdepth=\"100%\"></graphic>"
 msgstr ""
-"<graphic scale=\"40\" fileref=\"screenshots/administration/genericinterface/"
-"genericinterface-webservice-history.png\"></graphic>"
+"<graphic fileref=\"screenshots/administration/genericinterface/"
+"genericinterface-webservice-history.png\" scalefit=\"1\" width=\"100%\" "
+"contentdepth=\"100%\"></graphic>"
 
 #. type: Content of: <section><section><section><title>
 #: en/content/administration/genericinterface/genericinterface-webservice-gui.xml:326
@@ -21241,11 +21406,13 @@ msgstr "Удаление веб-сервиса"
 #. type: Content of: <section><section><section><para><figure><screenshot>
 #: en/content/administration/genericinterface/genericinterface-webservice-gui.xml:346
 msgid ""
-"<graphic scale=\"40\" fileref=\"screenshots/administration/genericinterface/"
-"genericinterface-webservice-delete.png\"></graphic>"
+"<graphic fileref=\"screenshots/administration/genericinterface/"
+"genericinterface-webservice-delete.png\" scalefit=\"1\" width=\"100%\" "
+"contentdepth=\"100%\"></graphic>"
 msgstr ""
-"<graphic scale=\"40\" fileref=\"screenshots/administration/genericinterface/"
-"genericinterface-webservice-delete.png\"></graphic>"
+"<graphic fileref=\"screenshots/administration/genericinterface/"
+"genericinterface-webservice-delete.png\" scalefit=\"1\" width=\"100%\" "
+"contentdepth=\"100%\"></graphic>"
 
 #. type: Content of: <section><section><section><title>
 #: en/content/administration/genericinterface/genericinterface-webservice-gui.xml:353
@@ -21355,11 +21522,13 @@ msgstr ""
 #. type: Content of: <section><section><section><para><figure><screenshot>
 #: en/content/administration/genericinterface/genericinterface-webservice-gui.xml:414
 msgid ""
-"<graphic scale=\"40\" fileref=\"screenshots/administration/genericinterface/"
-"genericinterface-webservice-debugger.png\"></graphic>"
+"<graphic fileref=\"screenshots/administration/genericinterface/"
+"genericinterface-webservice-debugger.png\" scalefit=\"1\" width=\"100%\" "
+"contentdepth=\"100%\"></graphic>"
 msgstr ""
-"<graphic scale=\"40\" fileref=\"screenshots/administration/genericinterface/"
-"genericinterface-webservice-debugger.png\"></graphic>"
+"<graphic fileref=\"screenshots/administration/genericinterface/"
+"genericinterface-webservice-debugger.png\" scalefit=\"1\" width=\"100%\" "
+"contentdepth=\"100%\"></graphic>"
 
 #. type: Content of: <section><section><section><title>
 #: en/content/administration/genericinterface/genericinterface-webservice-gui.xml:421
@@ -21434,11 +21603,13 @@ msgstr ""
 #. type: Content of: <section><section><section><para><figure><screenshot>
 #: en/content/administration/genericinterface/genericinterface-webservice-gui.xml:458
 msgid ""
-"<graphic scale=\"40\" fileref=\"screenshots/administration/genericinterface/"
-"genericinterface-webservice-change.png\"></graphic>"
+"<graphic fileref=\"screenshots/administration/genericinterface/"
+"genericinterface-webservice-change.png\" scalefit=\"1\" width=\"100%\" "
+"contentdepth=\"100%\"></graphic>"
 msgstr ""
-"<graphic scale=\"40\" fileref=\"screenshots/administration/genericinterface/"
-"genericinterface-webservice-change.png\"></graphic>"
+"<graphic fileref=\"screenshots/administration/genericinterface/"
+"genericinterface-webservice-change.png\" scalefit=\"1\" width=\"100%\" "
+"contentdepth=\"100%\"></graphic>"
 
 #. type: Content of: <section><section><section><note><para>
 #: en/content/administration/genericinterface/genericinterface-webservice-gui.xml:464
@@ -21513,11 +21684,13 @@ msgstr ""
 #. type: Content of: <section><section><section><section><para><figure><screenshot>
 #: en/content/administration/genericinterface/genericinterface-webservice-gui.xml:505
 msgid ""
-"<graphic scale=\"40\" fileref=\"screenshots/administration/genericinterface/"
-"genericinterface-webservice-provider-transport-soap.png\"></graphic>"
+"<graphic fileref=\"screenshots/administration/genericinterface/"
+"genericinterface-webservice-provider-transport-soap.png\" scalefit=\"1\" "
+"width=\"100%\" contentdepth=\"100%\"></graphic>"
 msgstr ""
-"<graphic scale=\"40\" fileref=\"screenshots/administration/genericinterface/"
-"genericinterface-webservice-provider-transport-soap.png\"></graphic>"
+"<graphic fileref=\"screenshots/administration/genericinterface/"
+"genericinterface-webservice-provider-transport-soap.png\" scalefit=\"1\" "
+"width=\"100%\" contentdepth=\"100%\"></graphic>"
 
 #. type: Content of: <section><section><section><section><para>
 #: en/content/administration/genericinterface/genericinterface-webservice-gui.xml:510
@@ -21739,11 +21912,13 @@ msgstr ""
 #. type: Content of: <section><section><section><section><para><figure><screenshot>
 #: en/content/administration/genericinterface/genericinterface-webservice-gui.xml:645
 msgid ""
-"<graphic scale=\"40\" fileref=\"screenshots/administration/genericinterface/"
-"genericinterface-webservice-provider-transport-rest.png\"></graphic>"
+"<graphic fileref=\"screenshots/administration/genericinterface/"
+"genericinterface-webservice-provider-transport-rest.png\" scalefit=\"1\" "
+"width=\"100%\" contentdepth=\"100%\"></graphic>"
 msgstr ""
-"<graphic scale=\"40\" fileref=\"screenshots/administration/genericinterface/"
-"genericinterface-webservice-provider-transport-rest.png\"></graphic>"
+"<graphic fileref=\"screenshots/administration/genericinterface/"
+"genericinterface-webservice-provider-transport-rest.png\" scalefit=\"1\" "
+"width=\"100%\" contentdepth=\"100%\"></graphic>"
 
 #. type: Content of: <section><section><section><section><title>
 #: en/content/administration/genericinterface/genericinterface-webservice-gui.xml:652
@@ -21808,11 +21983,13 @@ msgstr ""
 #. type: Content of: <section><section><section><section><para><figure><screenshot>
 #: en/content/administration/genericinterface/genericinterface-webservice-gui.xml:692
 msgid ""
-"<graphic scale=\"40\" fileref=\"screenshots/administration/genericinterface/"
-"genericinterface-webservice-operation.png\"></graphic>"
+"<graphic fileref=\"screenshots/administration/genericinterface/"
+"genericinterface-webservice-operation.png\" scalefit=\"1\" width=\"100%\" "
+"contentdepth=\"100%\"></graphic>"
 msgstr ""
-"<graphic scale=\"40\" fileref=\"screenshots/administration/genericinterface/"
-"genericinterface-webservice-operation.png\"></graphic>"
+"<graphic fileref=\"screenshots/administration/genericinterface/"
+"genericinterface-webservice-operation.png\" scalefit=\"1\" width=\"100%\" "
+"contentdepth=\"100%\"></graphic>"
 
 #. type: Content of: <section><section><section><section><title>
 #: en/content/administration/genericinterface/genericinterface-webservice-gui.xml:699
@@ -21895,11 +22072,13 @@ msgstr ""
 #. type: Content of: <section><section><section><section><para><figure><screenshot>
 #: en/content/administration/genericinterface/genericinterface-webservice-gui.xml:754
 msgid ""
-"<graphic scale=\"40\" fileref=\"screenshots/administration/genericinterface/"
-"genericinterface-webservice-requester-transport-soap.png\"></graphic>"
+"<graphic fileref=\"screenshots/administration/genericinterface/"
+"genericinterface-webservice-requester-transport-soap.png\" scalefit=\"1\" "
+"width=\"100%\" contentdepth=\"100%\"></graphic>"
 msgstr ""
-"<graphic scale=\"40\" fileref=\"screenshots/administration/genericinterface/"
-"genericinterface-webservice-requester-transport-soap.png\"></graphic>"
+"<graphic fileref=\"screenshots/administration/genericinterface/"
+"genericinterface-webservice-requester-transport-soap.png\" scalefit=\"1\" "
+"width=\"100%\" contentdepth=\"100%\"></graphic>"
 
 #. type: Content of: <section><section><section><section><para>
 #: en/content/administration/genericinterface/genericinterface-webservice-gui.xml:759
@@ -22038,11 +22217,13 @@ msgstr ""
 #. type: Content of: <section><section><section><section><para><figure><screenshot>
 #: en/content/administration/genericinterface/genericinterface-webservice-gui.xml:859
 msgid ""
-"<graphic scale=\"40\" fileref=\"screenshots/administration/genericinterface/"
-"genericinterface-webservice-requester-transport-rest.png\"></graphic>"
+"<graphic fileref=\"screenshots/administration/genericinterface/"
+"genericinterface-webservice-requester-transport-rest.png\" scalefit=\"1\" "
+"width=\"100%\" contentdepth=\"100%\"></graphic>"
 msgstr ""
-"<graphic scale=\"40\" fileref=\"screenshots/administration/genericinterface/"
-"genericinterface-webservice-requester-transport-rest.png\"></graphic>"
+"<graphic fileref=\"screenshots/administration/genericinterface/"
+"genericinterface-webservice-requester-transport-rest.png\" scalefit=\"1\" "
+"width=\"100%\" contentdepth=\"100%\"></graphic>"
 
 #. type: Content of: <section><section><section><section><title>
 #: en/content/administration/genericinterface/genericinterface-webservice-gui.xml:866
@@ -22150,11 +22331,13 @@ msgstr ""
 #. type: Content of: <section><section><section><section><para><figure><screenshot>
 #: en/content/administration/genericinterface/genericinterface-webservice-gui.xml:938
 msgid ""
-"<graphic scale=\"40\" fileref=\"screenshots/administration/genericinterface/"
-"genericinterface-webservice-invoker.png\"></graphic>"
+"<graphic fileref=\"screenshots/administration/genericinterface/"
+"genericinterface-webservice-invoker.png\" scalefit=\"1\" width=\"100%\" "
+"contentdepth=\"100%\"></graphic>"
 msgstr ""
-"<graphic scale=\"40\" fileref=\"screenshots/administration/genericinterface/"
-"genericinterface-webservice-invoker.png\"></graphic>"
+"<graphic fileref=\"screenshots/administration/genericinterface/"
+"genericinterface-webservice-invoker.png\" scalefit=\"1\" width=\"100%\" "
+"contentdepth=\"100%\"></graphic>"
 
 #. type: Content of: <section><section><section><section><title>
 #: en/content/administration/genericinterface/genericinterface-webservice-gui.xml:945
@@ -22297,11 +22480,13 @@ msgstr ""
 #. type: Content of: <section><section><section><section><para><figure><screenshot>
 #: en/content/administration/genericinterface/genericinterface-webservice-gui.xml:1046
 msgid ""
-"<graphic scale=\"40\" fileref=\"screenshots/administration/genericinterface/"
-"genericinterface-webservice-mapping.png\"></graphic>"
+"<graphic fileref=\"screenshots/administration/genericinterface/"
+"genericinterface-webservice-mapping.png\" scalefit=\"1\" width=\"100%\" "
+"contentdepth=\"100%\"></graphic>"
 msgstr ""
-"<graphic scale=\"40\" fileref=\"screenshots/administration/genericinterface/"
-"genericinterface-webservice-mapping.png\"></graphic>"
+"<graphic fileref=\"screenshots/administration/genericinterface/"
+"genericinterface-webservice-mapping.png\" scalefit=\"1\" width=\"100%\" "
+"contentdepth=\"100%\"></graphic>"
 
 #. type: Content of: <section><title>
 #: en/content/administration/genericinterface/genericinterface-communication-flow.xml:5
@@ -22756,11 +22941,13 @@ msgstr ""
 #. type: Content of: <section><para><figure><screenshot>
 #: en/content/administration/genericinterface/genericinterface-layers.xml:28
 msgid ""
-"<graphic scale=\"50\" fileref=\"screenshots/administration/genericinterface/"
-"genericinterface-layers.png\"></graphic>"
+"<graphic fileref=\"screenshots/administration/genericinterface/"
+"genericinterface-layers.png\" scalefit=\"1\" width=\"100%\" contentdepth="
+"\"100%\"></graphic>"
 msgstr ""
-"<graphic scale=\"50\" fileref=\"screenshots/administration/genericinterface/"
-"genericinterface-layers.png\"></graphic>"
+"<graphic fileref=\"screenshots/administration/genericinterface/"
+"genericinterface-layers.png\" scalefit=\"1\" width=\"100%\" contentdepth="
+"\"100%\"></graphic>"
 
 #. type: Content of: <section><section><para>
 #: en/content/administration/genericinterface/genericinterface-layers.xml:36
@@ -25644,8 +25831,10 @@ msgstr ""
 #: en/content/administration/stats.xml:41
 msgid ""
 "<graphic fileref=\"screenshots/administration/stats/stats-overview.png\" "
-"scale=\"40\" />"
+"scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"/>"
 msgstr ""
+"<graphic fileref=\"screenshots/administration/stats/stats-overview.png\" "
+"scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"/>"
 
 #. type: Content of: <section><section><section><para>
 #: en/content/administration/stats.xml:36
@@ -25675,9 +25864,11 @@ msgstr ""
 #. type: Content of: <section><section><section><para><figure><screenshot>
 #: en/content/administration/stats.xml:58
 msgid ""
-"<graphic fileref=\"screenshots/administration/stats/stats-view.png\" scale="
-"\"40\" />"
+"<graphic fileref=\"screenshots/administration/stats/stats-view.png\" "
+"scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"/>"
 msgstr ""
+"<graphic fileref=\"screenshots/administration/stats/stats-view.png\" "
+"scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"/>"
 
 #. type: Content of: <section><section><section><para>
 #: en/content/administration/stats.xml:53
@@ -25713,8 +25904,10 @@ msgstr ""
 #: en/content/administration/stats.xml:86
 msgid ""
 "<graphic fileref=\"screenshots/administration/stats/stats-add-typeselection."
-"png\" scale=\"40\" />"
+"png\" scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"/>"
 msgstr ""
+"<graphic fileref=\"screenshots/administration/stats/stats-add-typeselection."
+"png\" scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"/>"
 
 #. type: Content of: <section><section><section><para>
 #: en/content/administration/stats.xml:78
@@ -25789,8 +25982,10 @@ msgstr ""
 #: en/content/administration/stats.xml:134
 msgid ""
 "<graphic fileref=\"screenshots/administration/stats/stats-add-general.png\" "
-"scale=\"40\" />"
+"scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"/>"
 msgstr ""
+"<graphic fileref=\"screenshots/administration/stats/stats-add-general.png\" "
+"scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"/>"
 
 #. type: Content of: <section><section><section><para>
 #: en/content/administration/stats.xml:131
@@ -25851,8 +26046,10 @@ msgstr ""
 #: en/content/administration/stats.xml:166
 msgid ""
 "<graphic fileref=\"screenshots/administration/stats/stats-config-xaxis.png\" "
-"scale=\"40\" />"
+"scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"/>"
 msgstr ""
+"<graphic fileref=\"screenshots/administration/stats/stats-config-xaxis.png\" "
+"scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"/>"
 
 #. type: Content of: <section><section><section><para>
 #: en/content/administration/stats.xml:160
@@ -25875,8 +26072,10 @@ msgstr ""
 #: en/content/administration/stats.xml:180
 msgid ""
 "<graphic fileref=\"screenshots/administration/stats/stats-config-yaxis.png\" "
-"scale=\"40\" />"
+"scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"/>"
 msgstr ""
+"<graphic fileref=\"screenshots/administration/stats/stats-config-yaxis.png\" "
+"scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"/>"
 
 #. type: Content of: <section><section><section><para>
 #: en/content/administration/stats.xml:175
@@ -25901,8 +26100,10 @@ msgstr ""
 #: en/content/administration/stats.xml:196
 msgid ""
 "<graphic fileref=\"screenshots/administration/stats/stats-config-filter.png"
-"\" scale=\"40\" />"
+"\" scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"/>"
 msgstr ""
+"<graphic fileref=\"screenshots/administration/stats/stats-config-filter.png"
+"\" scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"/>"
 
 #. type: Content of: <section><section><section><para>
 #: en/content/administration/stats.xml:190
@@ -25917,8 +26118,10 @@ msgstr ""
 #: en/content/administration/stats.xml:209
 msgid ""
 "<graphic fileref=\"screenshots/administration/stats/stats-config-preview.png"
-"\" scale=\"40\" />"
+"\" scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"/>"
 msgstr ""
+"<graphic fileref=\"screenshots/administration/stats/stats-config-preview.png"
+"\" scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"/>"
 
 #. type: Content of: <section><section><section><para><note>
 #: en/content/administration/stats.xml:203
@@ -25963,9 +26166,11 @@ msgstr ""
 #. type: Content of: <section><section><section><para><figure><screenshot>
 #: en/content/administration/stats.xml:232
 msgid ""
-"<graphic fileref=\"screenshots/administration/stats/stats-import.png\" scale="
-"\"40\" />"
+"<graphic fileref=\"screenshots/administration/stats/stats-import.png\" "
+"scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"/>"
 msgstr ""
+"<graphic fileref=\"screenshots/administration/stats/stats-import.png\" "
+"scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"/>"
 
 #. type: Content of: <section><section><section><para>
 #: en/content/administration/stats.xml:227
@@ -27049,11 +27254,11 @@ msgstr ""
 #. type: Content of: <chapter><section><para><figure><screenshot>
 #: en/content/first-steps.xml:37
 msgid ""
-"<graphic scale=\"40\" fileref=\"screenshots/introduction/firststeps/login.png"
-"\"></graphic>"
+"<graphic fileref=\"screenshots/introduction/firststeps/login.png\" scalefit="
+"\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 msgstr ""
-"<graphic scale=\"40\" fileref=\"screenshots/introduction/firststeps/login.png"
-"\"></graphic>"
+"<graphic fileref=\"screenshots/introduction/firststeps/login.png\" scalefit="
+"\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 
 #. type: Content of: <chapter><section><title>
 #: en/content/first-steps.xml:45
@@ -27089,11 +27294,11 @@ msgstr ""
 #. type: Content of: <chapter><section><para><figure><screenshot>
 #: en/content/first-steps.xml:63
 msgid ""
-"<graphic scale=\"40\" fileref=\"screenshots/introduction/firststeps/customer-"
-"login.png\"></graphic>"
+"<graphic fileref=\"screenshots/introduction/firststeps/customer-login.png\" "
+"scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 msgstr ""
-"<graphic scale=\"40\" fileref=\"screenshots/introduction/firststeps/customer-"
-"login.png\"></graphic>"
+"<graphic fileref=\"screenshots/introduction/firststeps/customer-login.png\" "
+"scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 
 #. type: Content of: <chapter><section><title>
 #: en/content/first-steps.xml:71
@@ -27137,11 +27342,11 @@ msgstr "Общедоступный веб-интерфейс"
 #. type: Content of: <chapter><section><para><figure><screenshot>
 #: en/content/first-steps.xml:92
 msgid ""
-"<graphic scale=\"40\" fileref=\"screenshots/introduction/firststeps/public-"
-"interface.png\"></graphic>"
+"<graphic fileref=\"screenshots/introduction/firststeps/public-interface.png"
+"\" scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 msgstr ""
-"<graphic scale=\"40\" fileref=\"screenshots/introduction/firststeps/public-"
-"interface.png\"></graphic>"
+"<graphic fileref=\"screenshots/introduction/firststeps/public-interface.png"
+"\" scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 
 #. type: Content of: <chapter><section><title>
 #: en/content/first-steps.xml:100
@@ -27204,11 +27409,11 @@ msgstr "Прислать новый пароль"
 #. type: Content of: <chapter><section><para><figure><screenshot>
 #: en/content/first-steps.xml:125
 msgid ""
-"<graphic scale=\"40\" fileref=\"screenshots/introduction/firststeps/request-"
-"new-password.png\"></graphic>"
+"<graphic fileref=\"screenshots/introduction/firststeps/request-new-password."
+"png\" scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 msgstr ""
-"<graphic scale=\"40\" fileref=\"screenshots/introduction/firststeps/request-"
-"new-password.png\"></graphic>"
+"<graphic fileref=\"screenshots/introduction/firststeps/request-new-password."
+"png\" scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 
 #. type: Content of: <chapter><section><title>
 #: en/content/first-steps.xml:133
@@ -27233,11 +27438,11 @@ msgstr ""
 #. type: Content of: <chapter><section><para><figure><screenshot>
 #: en/content/first-steps.xml:143
 msgid ""
-"<graphic scale=\"40\" fileref=\"screenshots/introduction/firststeps/first-"
-"screen.png\"></graphic>"
+"<graphic fileref=\"screenshots/introduction/firststeps/first-screen.png\" "
+"scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 msgstr ""
-"<graphic scale=\"40\" fileref=\"screenshots/introduction/firststeps/first-"
-"screen.png\"></graphic>"
+"<graphic fileref=\"screenshots/introduction/firststeps/first-screen.png\" "
+"scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 
 #. type: Content of: <chapter><section><para>
 #: en/content/first-steps.xml:149
@@ -27357,11 +27562,11 @@ msgstr "Нижний колонтитул/\"подвал\""
 #. type: Content of: <chapter><section><para><figure><screenshot>
 #: en/content/first-steps.xml:184
 msgid ""
-"<graphic scale=\"40\" fileref=\"screenshots/introduction/firststeps/footer."
-"png\"></graphic>"
+"<graphic fileref=\"screenshots/introduction/firststeps/footer.png\" scalefit="
+"\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 msgstr ""
-"<graphic scale=\"40\" fileref=\"screenshots/introduction/firststeps/footer."
-"png\"></graphic>"
+"<graphic fileref=\"screenshots/introduction/firststeps/footer.png\" scalefit="
+"\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 
 #. type: Content of: <chapter><section><title>
 #: en/content/first-steps.xml:192
@@ -27425,11 +27630,11 @@ msgstr "Виджеты Панели Управления"
 #. type: Content of: <chapter><section><para><figure><screenshot>
 #: en/content/first-steps.xml:223
 msgid ""
-"<graphic scale=\"40\" fileref=\"screenshots/introduction/firststeps/"
-"dashboard-left-column-widgets.png\"></graphic>"
+"<graphic fileref=\"screenshots/introduction/firststeps/dashboard-left-column-"
+"widgets.png\" scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 msgstr ""
-"<graphic scale=\"40\" fileref=\"screenshots/introduction/firststeps/"
-"dashboard-left-column-widgets.png\"></graphic>"
+"<graphic fileref=\"screenshots/introduction/firststeps/dashboard-left-column-"
+"widgets.png\" scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 
 #. type: Content of: <chapter><section><para>
 #: en/content/first-steps.xml:229
@@ -27627,11 +27832,11 @@ msgstr "Виджет \"Календарь событий по заявкам\""
 #. type: Content of: <chapter><section><itemizedlist><listitem><para><figure><screenshot>
 #: en/content/first-steps.xml:326
 msgid ""
-"<graphic scale=\"40\" fileref=\"screenshots/introduction/firststeps/events-"
-"ticket-calendar.png\"></graphic>"
+"<graphic fileref=\"screenshots/introduction/firststeps/events-ticket-"
+"calendar.png\" scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 msgstr ""
-"<graphic scale=\"40\" fileref=\"screenshots/introduction/firststeps/events-"
-"ticket-calendar.png\"></graphic>"
+"<graphic fileref=\"screenshots/introduction/firststeps/events-ticket-"
+"calendar.png\" scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 
 #. type: Content of: <chapter><section><itemizedlist><listitem><para>
 #: en/content/first-steps.xml:331
@@ -27777,11 +27982,11 @@ msgstr ""
 #. type: Content of: <chapter><section><para><figure><screenshot>
 #: en/content/first-steps.xml:404
 msgid ""
-"<graphic scale=\"40\" fileref=\"screenshots/introduction/firststeps/edit-"
-"settings.png\"></graphic>"
+"<graphic fileref=\"screenshots/introduction/firststeps/edit-settings.png\" "
+"scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 msgstr ""
-"<graphic scale=\"40\" fileref=\"screenshots/introduction/firststeps/edit-"
-"settings.png\"></graphic>"
+"<graphic fileref=\"screenshots/introduction/firststeps/edit-settings.png\" "
+"scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 
 #. type: Content of: <chapter><section><para>
 #: en/content/first-steps.xml:410
@@ -28026,11 +28231,11 @@ msgstr "Обзор очередей (по умолчанию) для агент�
 #. type: Content of: <chapter><section><para><figure><screenshot>
 #: en/content/first-steps.xml:503
 msgid ""
-"<graphic scale=\"40\" fileref=\"screenshots/introduction/firststeps/agent-"
-"queue-view.png\"></graphic>"
+"<graphic fileref=\"screenshots/introduction/firststeps/agent-queue-view.png"
+"\" scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 msgstr ""
-"<graphic scale=\"40\" fileref=\"screenshots/introduction/firststeps/agent-"
-"queue-view.png\"></graphic>"
+"<graphic fileref=\"screenshots/introduction/firststeps/agent-queue-view.png"
+"\" scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 
 #. type: Content of: <chapter><section><para>
 #: en/content/first-steps.xml:509
@@ -28075,11 +28280,13 @@ msgstr "Визуальные предупреждения для обзора о
 #. type: Content of: <chapter><section><para><figure><screenshot>
 #: en/content/first-steps.xml:528
 msgid ""
-"<graphic scale=\"40\" fileref=\"screenshots/introduction/firststeps/agent-"
-"queue-overview-visual-alarms.png\"></graphic>"
+"<graphic fileref=\"screenshots/introduction/firststeps/agent-queue-overview-"
+"visual-alarms.png\" scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></"
+"graphic>"
 msgstr ""
-"<graphic scale=\"40\" fileref=\"screenshots/introduction/firststeps/agent-"
-"queue-overview-visual-alarms.png\"></graphic>"
+"<graphic fileref=\"screenshots/introduction/firststeps/agent-queue-overview-"
+"visual-alarms.png\" scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></"
+"graphic>"
 
 #. type: Content of: <chapter><section><itemizedlist><title>
 #: en/content/first-steps.xml:534
@@ -28149,11 +28356,11 @@ msgstr ""
 #. type: Content of: <chapter><section><para><figure><screenshot>
 #: en/content/first-steps.xml:560
 msgid ""
-"<graphic scale=\"40\" fileref=\"screenshots/introduction/firststeps/agent-"
-"preferences.png\"></graphic>"
+"<graphic fileref=\"screenshots/introduction/firststeps/agent-preferences.png"
+"\" scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 msgstr ""
-"<graphic scale=\"40\" fileref=\"screenshots/introduction/firststeps/agent-"
-"preferences.png\"></graphic>"
+"<graphic fileref=\"screenshots/introduction/firststeps/agent-preferences.png"
+"\" scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 
 #. type: Content of: <chapter><section><para>
 #: en/content/first-steps.xml:566
@@ -28235,11 +28442,11 @@ msgstr ""
 #. type: Content of: <chapter><section><para><figure><screenshot>
 #: en/content/first-steps.xml:615
 msgid ""
-"<graphic scale=\"40\" fileref=\"screenshots/introduction/firststeps/customer-"
-"preferences.png\"></graphic>"
+"<graphic fileref=\"screenshots/introduction/firststeps/customer-preferences."
+"png\" scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 msgstr ""
-"<graphic scale=\"40\" fileref=\"screenshots/introduction/firststeps/customer-"
-"preferences.png\"></graphic>"
+"<graphic fileref=\"screenshots/introduction/firststeps/customer-preferences."
+"png\" scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 
 #. type: Content of: <chapter><section><para>
 #: en/content/first-steps.xml:621
@@ -30420,11 +30627,13 @@ msgstr "Загрузка OTRSCloneDB - скриншот"
 #. type: Content of: <section><section><section><para><figure><screenshot>
 #: en/content/installation/windows.xml:55
 msgid ""
-"<graphic scale=\"80\" fileref=\"screenshots/introduction/installation/win-"
-"download-otrsclonedb.png\"></graphic>"
+"<graphic fileref=\"screenshots/introduction/installation/win-download-"
+"otrsclonedb.png\" scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></"
+"graphic>"
 msgstr ""
-"<graphic scale=\"80\" fileref=\"screenshots/introduction/installation/win-"
-"download-otrsclonedb.png\"></graphic>"
+"<graphic fileref=\"screenshots/introduction/installation/win-download-"
+"otrsclonedb.png\" scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></"
+"graphic>"
 
 #. type: Content of: <section><section><section><para>
 #: en/content/installation/windows.xml:60
@@ -30439,11 +30648,13 @@ msgstr "Установка OTRSCloneDB - скриншот"
 #. type: Content of: <section><section><section><para><figure><screenshot>
 #: en/content/installation/windows.xml:66
 msgid ""
-"<graphic scale=\"80\" fileref=\"screenshots/introduction/installation/win-"
-"install-otrsclonedb.png\"></graphic>"
+"<graphic fileref=\"screenshots/introduction/installation/win-install-"
+"otrsclonedb.png\" scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></"
+"graphic>"
 msgstr ""
-"<graphic scale=\"80\" fileref=\"screenshots/introduction/installation/win-"
-"install-otrsclonedb.png\"></graphic>"
+"<graphic fileref=\"screenshots/introduction/installation/win-install-"
+"otrsclonedb.png\" scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></"
+"graphic>"
 
 #. type: Content of: <section><section><section><para>
 #: en/content/installation/windows.xml:71
@@ -30712,11 +30923,11 @@ msgstr "Получение пароля БД вашей целевой сист�
 #. type: Content of: <section><section><section><para><figure><screenshot>
 #: en/content/installation/windows.xml:197
 msgid ""
-"<graphic scale=\"80\" fileref=\"screenshots/introduction/installation/win-"
-"gather-db-data-1.png\"></graphic>"
+"<graphic fileref=\"screenshots/introduction/installation/win-gather-db-"
+"data-1.png\" scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 msgstr ""
-"<graphic scale=\"80\" fileref=\"screenshots/introduction/installation/win-"
-"gather-db-data-1.png\"></graphic>"
+"<graphic fileref=\"screenshots/introduction/installation/win-gather-db-"
+"data-1.png\" scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 
 #. type: Content of: <section><section><section><para>
 #: en/content/installation/windows.xml:202
@@ -30761,11 +30972,13 @@ msgstr "Настройте OTRSCloneDB SysConfig 1 - скриншот"
 #. type: Content of: <section><section><section><para><figure><screenshot>
 #: en/content/installation/windows.xml:221
 msgid ""
-"<graphic scale=\"80\" fileref=\"screenshots/introduction/installation/"
-"win_configurate_otrsclonedb_sysconfig-1.png\"></graphic>"
+"<graphic fileref=\"screenshots/introduction/installation/"
+"win_configurate_otrsclonedb_sysconfig-1.png\" scalefit=\"1\" width=\"100%\" "
+"contentdepth=\"100%\"></graphic>"
 msgstr ""
-"<graphic scale=\"80\" fileref=\"screenshots/introduction/installation/"
-"win_configurate_otrsclonedb_sysconfig-1.png\"></graphic>"
+"<graphic fileref=\"screenshots/introduction/installation/"
+"win_configurate_otrsclonedb_sysconfig-1.png\" scalefit=\"1\" width=\"100%\" "
+"contentdepth=\"100%\"></graphic>"
 
 #. type: Content of: <section><section><section><para>
 #: en/content/installation/windows.xml:226
@@ -30802,11 +31015,13 @@ msgstr "Настройте OTRSCloneDB SysConfig 2 - скриншот"
 #. type: Content of: <section><section><section><para><figure><screenshot>
 #: en/content/installation/windows.xml:241
 msgid ""
-"<graphic scale=\"80\" fileref=\"screenshots/introduction/installation/win-"
-"configurate-otrsclonedb-sysconfig-2.png\"></graphic>"
+"<graphic fileref=\"screenshots/introduction/installation/win-configurate-"
+"otrsclonedb-sysconfig-2.png\" scalefit=\"1\" width=\"100%\" contentdepth="
+"\"100%\"></graphic>"
 msgstr ""
-"<graphic scale=\"80\" fileref=\"screenshots/introduction/installation/win-"
-"configurate-otrsclonedb-sysconfig-2.png\"></graphic>"
+"<graphic fileref=\"screenshots/introduction/installation/win-configurate-"
+"otrsclonedb-sysconfig-2.png\" scalefit=\"1\" width=\"100%\" contentdepth="
+"\"100%\"></graphic>"
 
 #. type: Content of: <section><section><section><para>
 #: en/content/installation/windows.xml:246
@@ -30851,11 +31066,13 @@ msgstr "Запуск OTRSCloneDB script 1 - скриншот"
 #. type: Content of: <section><section><section><para><figure><screenshot>
 #: en/content/installation/windows.xml:265
 msgid ""
-"<graphic scale=\"80\" fileref=\"screenshots/introduction/installation/win-"
-"run-otrsclonedb-1.png\"></graphic>"
+"<graphic fileref=\"screenshots/introduction/installation/win-run-"
+"otrsclonedb-1.png\" scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></"
+"graphic>"
 msgstr ""
-"<graphic scale=\"80\" fileref=\"screenshots/introduction/installation/win-"
-"run-otrsclonedb-1.png\"></graphic>"
+"<graphic fileref=\"screenshots/introduction/installation/win-run-"
+"otrsclonedb-1.png\" scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></"
+"graphic>"
 
 #. type: Content of: <section><section><section><para>
 #: en/content/installation/windows.xml:270
@@ -30903,11 +31120,13 @@ msgstr "Запуск OTRSCloneDB script 2 - скриншот"
 #. type: Content of: <section><section><section><para><figure><screenshot>
 #: en/content/installation/windows.xml:292
 msgid ""
-"<graphic scale=\"80\" fileref=\"screenshots/introduction/installation/win-"
-"run-otrsclonedb-2.png\"></graphic>"
+"<graphic fileref=\"screenshots/introduction/installation/win-run-"
+"otrsclonedb-2.png\" scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></"
+"graphic>"
 msgstr ""
-"<graphic scale=\"80\" fileref=\"screenshots/introduction/installation/win-"
-"run-otrsclonedb-2.png\"></graphic>"
+"<graphic fileref=\"screenshots/introduction/installation/win-run-"
+"otrsclonedb-2.png\" scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></"
+"graphic>"
 
 #. type: Content of: <section><section><section><para>
 #: en/content/installation/windows.xml:297
@@ -30942,11 +31161,13 @@ msgstr "Запуск OTRSCloneDB script 3 - скриншот"
 #. type: Content of: <section><section><section><para><figure><screenshot>
 #: en/content/installation/windows.xml:311
 msgid ""
-"<graphic scale=\"80\" fileref=\"screenshots/introduction/installation/win-"
-"run-otrsclonedb-3.png\"></graphic>"
+"<graphic fileref=\"screenshots/introduction/installation/win-run-"
+"otrsclonedb-3.png\" scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></"
+"graphic>"
 msgstr ""
-"<graphic scale=\"80\" fileref=\"screenshots/introduction/installation/win-"
-"run-otrsclonedb-3.png\"></graphic>"
+"<graphic fileref=\"screenshots/introduction/installation/win-run-"
+"otrsclonedb-3.png\" scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></"
+"graphic>"
 
 #. type: Content of: <section><section><section><para>
 #: en/content/installation/windows.xml:316
@@ -31201,11 +31422,11 @@ msgstr ""
 #. type: Content of: <section><para><figure><screenshot>
 #: en/content/installation/web-installer.xml:28
 msgid ""
-"<graphic scale=\"40\" fileref=\"screenshots/introduction/installation/"
-"installer1.png\"></graphic>"
+"<graphic fileref=\"screenshots/introduction/installation/installer1.png\" "
+"scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 msgstr ""
-"<graphic scale=\"40\" fileref=\"screenshots/introduction/installation/"
-"installer1.png\"></graphic>"
+"<graphic fileref=\"screenshots/introduction/installation/installer1.png\" "
+"scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 
 #. type: Content of: <section><para>
 #: en/content/installation/web-installer.xml:34
@@ -31222,11 +31443,11 @@ msgstr ""
 #. type: Content of: <section><para><figure><screenshot>
 #: en/content/installation/web-installer.xml:41
 msgid ""
-"<graphic scale=\"40\" fileref=\"screenshots/introduction/installation/"
-"installer2.png\"></graphic>"
+"<graphic fileref=\"screenshots/introduction/installation/installer2.png\" "
+"scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 msgstr ""
-"<graphic scale=\"40\" fileref=\"screenshots/introduction/installation/"
-"installer2.png\"></graphic>"
+"<graphic fileref=\"screenshots/introduction/installation/installer2.png\" "
+"scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 
 #. type: Content of: <section><para>
 #: en/content/installation/web-installer.xml:47
@@ -31246,11 +31467,11 @@ msgstr "Выбор базы данных"
 #. type: Content of: <section><para><figure><screenshot>
 #: en/content/installation/web-installer.xml:57
 msgid ""
-"<graphic scale=\"40\" fileref=\"screenshots/introduction/installation/"
-"installer3.png\"></graphic>"
+"<graphic fileref=\"screenshots/introduction/installation/installer3.png\" "
+"scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 msgstr ""
-"<graphic scale=\"40\" fileref=\"screenshots/introduction/installation/"
-"installer3.png\"></graphic>"
+"<graphic fileref=\"screenshots/introduction/installation/installer3.png\" "
+"scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 
 #. type: Content of: <section><para>
 #: en/content/installation/web-installer.xml:63
@@ -31273,11 +31494,11 @@ msgstr ""
 #. type: Content of: <section><para><figure><screenshot>
 #: en/content/installation/web-installer.xml:71
 msgid ""
-"<graphic scale=\"40\" fileref=\"screenshots/introduction/installation/"
-"installer4.png\"></graphic>"
+"<graphic fileref=\"screenshots/introduction/installation/installer4.png\" "
+"scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 msgstr ""
-"<graphic scale=\"40\" fileref=\"screenshots/introduction/installation/"
-"installer4.png\"></graphic>"
+"<graphic fileref=\"screenshots/introduction/installation/installer4.png\" "
+"scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 
 #. type: Content of: <section><para>
 #: en/content/installation/web-installer.xml:77
@@ -31306,11 +31527,11 @@ msgstr ""
 #. type: Content of: <section><para><figure><screenshot>
 #: en/content/installation/web-installer.xml:92
 msgid ""
-"<graphic scale=\"40\" fileref=\"screenshots/introduction/installation/"
-"installer5.png\"></graphic>"
+"<graphic fileref=\"screenshots/introduction/installation/installer5.png\" "
+"scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 msgstr ""
-"<graphic scale=\"40\" fileref=\"screenshots/introduction/installation/"
-"installer5.png\"></graphic>"
+"<graphic fileref=\"screenshots/introduction/installation/installer5.png\" "
+"scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 
 #. type: Content of: <section><para>
 #: en/content/installation/web-installer.xml:98
@@ -31329,11 +31550,11 @@ msgstr ""
 #. type: Content of: <section><para><figure><screenshot>
 #: en/content/installation/web-installer.xml:105
 msgid ""
-"<graphic scale=\"40\" fileref=\"screenshots/introduction/installation/"
-"installer6.png\"></graphic>"
+"<graphic fileref=\"screenshots/introduction/installation/installer6.png\" "
+"scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 msgstr ""
-"<graphic scale=\"40\" fileref=\"screenshots/introduction/installation/"
-"installer6.png\"></graphic>"
+"<graphic fileref=\"screenshots/introduction/installation/installer6.png\" "
+"scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 
 #. type: Content of: <section><para>
 #: en/content/installation/web-installer.xml:111
@@ -31350,11 +31571,11 @@ msgstr ""
 #. type: Content of: <section><para><figure><screenshot>
 #: en/content/installation/web-installer.xml:118
 msgid ""
-"<graphic scale=\"40\" fileref=\"screenshots/introduction/installation/"
-"installer7.png\"></graphic>"
+"<graphic fileref=\"screenshots/introduction/installation/installer7.png\" "
+"scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 msgstr ""
-"<graphic scale=\"40\" fileref=\"screenshots/introduction/installation/"
-"installer7.png\"></graphic>"
+"<graphic fileref=\"screenshots/introduction/installation/installer7.png\" "
+"scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 
 #. type: Content of: <section><para>
 #: en/content/installation/web-installer.xml:124
@@ -31372,11 +31593,11 @@ msgstr ""
 #. type: Content of: <section><para><figure><screenshot>
 #: en/content/installation/web-installer.xml:131
 msgid ""
-"<graphic scale=\"40\" fileref=\"screenshots/introduction/installation/"
-"installer8.png\"></graphic>"
+"<graphic fileref=\"screenshots/introduction/installation/installer8.png\" "
+"scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 msgstr ""
-"<graphic scale=\"40\" fileref=\"screenshots/introduction/installation/"
-"installer8.png\"></graphic>"
+"<graphic fileref=\"screenshots/introduction/installation/installer8.png\" "
+"scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 
 #. type: Content of: <section><para>
 #: en/content/installation/web-installer.xml:137
@@ -31406,11 +31627,11 @@ msgstr ""
 #. type: Content of: <section><para><figure><screenshot>
 #: en/content/installation/web-installer.xml:154
 msgid ""
-"<graphic scale=\"40\" fileref=\"screenshots/introduction/installation/"
-"installer9.png\"></graphic>"
+"<graphic fileref=\"screenshots/introduction/installation/installer9.png\" "
+"scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 msgstr ""
-"<graphic scale=\"40\" fileref=\"screenshots/introduction/installation/"
-"installer9.png\"></graphic>"
+"<graphic fileref=\"screenshots/introduction/installation/installer9.png\" "
+"scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 
 #. type: Content of: <appendix><title>
 #: en/content/additional-resources.xml:7
@@ -31545,6 +31766,8 @@ msgstr "Инструмент отслеживания информации об 
 #. type: Content of: <appendix><variablelist><varlistentry><listitem><para><figure><screenshot>
 #: en/content/additional-resources.xml:76
 msgid ""
-"<graphic scale=\"40\" fileref=\"screenshots/bugs-otrs-org.png\"></graphic>"
+"<graphic fileref=\"screenshots/bugs-otrs-org.png\" scalefit=\"1\" width="
+"\"100%\" contentdepth=\"100%\"></graphic>"
 msgstr ""
-"<graphic scale=\"40\" fileref=\"screenshots/bugs-otrs-org.png\"></graphic>"
+"<graphic fileref=\"screenshots/bugs-otrs-org.png\" scalefit=\"1\" width="
+"\"100%\" contentdepth=\"100%\"></graphic>"

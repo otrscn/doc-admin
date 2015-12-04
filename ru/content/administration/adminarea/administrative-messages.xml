@@ -16,8 +16,9 @@ below).
 <figure>
     <title>Admin notification screen</title>
 <screenshot>
-<graphic scale="40"
-fileref="screenshots/administration/adminarea/send-admin-notification.png"></graphic></screenshot></figure>
+<graphic
+fileref="screenshots/administration/adminarea/send-admin-notification.png"
+scalefit="1" width="100%" contentdepth="100%"></graphic></screenshot></figure>
 </para>
 
 <para>

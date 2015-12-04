@@ -17,7 +17,7 @@ Click the link "GenericAgent" on the Admin page (see figure below). A table with
 <figure>
     <title>Job list for the GenericAgent</title>
     <screenshot>
-         <graphic scale="40" fileref="screenshots/administration/adminarea/admin-genericagent.png"></graphic>
+         <graphic fileref="screenshots/administration/adminarea/admin-genericagent.png" scalefit="1" width="100%" contentdepth="100%"></graphic>
     </screenshot>
 </figure>
 </para>
@@ -31,7 +31,7 @@ Click the link "GenericAgent" on the Admin page (see figure below). A table with
 <figure>
     <title>Creating a job for the GenericAgent</title>
     <screenshot>
-         <graphic scale="40" fileref="screenshots/administration/adminarea/add-genericagent-job.png"></graphic>
+         <graphic fileref="screenshots/administration/adminarea/add-genericagent-job.png" scalefit="1" width="100%" contentdepth="100%"></graphic>
     </screenshot>
 </figure>
 </para>

@@ -28,8 +28,9 @@ updated and increased over time.
         <figure>
             <title>The graphical interface layers</title>
 <screenshot>
-<graphic scale="50"
-fileref="screenshots/administration/genericinterface/genericinterface-layers.png"></graphic></screenshot></figure>
+<graphic
+fileref="screenshots/administration/genericinterface/genericinterface-layers.png"
+scalefit="1" width="100%" contentdepth="100%"></graphic></screenshot></figure>
     </para>
 
     <section>

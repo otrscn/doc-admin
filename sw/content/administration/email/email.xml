@@ -77,8 +77,8 @@ required for OTRS"</link> for instructions.</para>
 <figure>
     <title>Kuongeza akaunti ya barua pepe</title>
 <screenshot>
-<graphic scale="40"
-fileref="screenshots/administration/email/add-mailaccount.png"></graphic></screenshot></figure>
+<graphic fileref="screenshots/administration/email/add-mailaccount.png"
+scalefit="1" width="100%" contentdepth="100%"></graphic></screenshot></figure>
 </para>
 
 <para>Kama ukichagua Ndiyo kwa thamani ya chaguo linaloaminiwa, kichwa chochote

@@ -22,8 +22,8 @@ system.
 <figure>
     <title>Управления Клиентами</title>
 <screenshot>
-<graphic scale="40"
-fileref="screenshots/administration/adminarea/admin-customer.png"></graphic></screenshot></figure>
+<graphic fileref="screenshots/administration/adminarea/admin-customer.png"
+scalefit="1" width="100%" contentdepth="100%"></graphic></screenshot></figure>
 </para>
 
 <para>
@@ -41,10 +41,10 @@ values, so if you leave one of those empty, it will be highlighted in red.
 
 <para>
 <figure>
-    <title>Adding a customer</title>
+    <title>Добавление клиента</title>
 <screenshot>
-<graphic scale="40"
-fileref="screenshots/administration/adminarea/add-customer.png"></graphic></screenshot></figure>
+<graphic fileref="screenshots/administration/adminarea/add-customer.png"
+scalefit="1" width="100%" contentdepth="100%"></graphic></screenshot></figure>
 </para>
 
 <para>
@@ -96,10 +96,11 @@ shall belong to the different groups (see figure below).
 
 <para>
 <figure>
-    <title>Customer-Group relations management</title>
+    <title>Управление связями Клиент-Группа</title>
 <screenshot>
-<graphic scale="40"
-fileref="screenshots/administration/adminarea/admin-customer-groups.png"></graphic></screenshot></figure>
+<graphic
+fileref="screenshots/administration/adminarea/admin-customer-groups.png"
+scalefit="1" width="100%" contentdepth="100%"></graphic></screenshot></figure>
 </para>
 
 <para>
@@ -112,16 +113,18 @@ click on the corresponding customer username or group (see below the Figures
 <figure>
     <title>Изменение связи между Группой и Пользователем</title>
 <screenshot>
-<graphic scale="40"
-fileref="screenshots/administration/adminarea/groups-customers-relations.png"></graphic></screenshot></figure>
+<graphic
+fileref="screenshots/administration/adminarea/groups-customers-relations.png"
+scalefit="1" width="100%" contentdepth="100%"></graphic></screenshot></figure>
 </para>
 
 <para>
 <figure>
     <title>Изменение связи между Клиентом и Группой</title>
 <screenshot>
-<graphic scale="40"
-fileref="screenshots/administration/adminarea/groups-customers-relations2.png"></graphic></screenshot></figure>
+<graphic
+fileref="screenshots/administration/adminarea/groups-customers-relations2.png"
+scalefit="1" width="100%" contentdepth="100%"></graphic></screenshot></figure>
 </para>
 
 </section>

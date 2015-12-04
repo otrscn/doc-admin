@@ -13,7 +13,7 @@ OTRS has the capability to filter incoming email messages. For example, it is po
 <figure>
     <title>PostMaster filter management</title>
     <screenshot>
-         <graphic scale="40" fileref="screenshots/administration/adminarea/admin-postmasterfilter.png"></graphic>
+         <graphic fileref="screenshots/administration/adminarea/admin-postmasterfilter.png" scalefit="1" width="100%" contentdepth="100%"></graphic>
     </screenshot>
 </figure>
 </para>
@@ -228,7 +228,7 @@ Filter rules are evaluated in alphabetical order, and are all executed except if
 <figure>
     <title>Add a PostMaster filter</title>
     <screenshot>
-         <graphic scale="40" fileref="screenshots/administration/adminarea/add-postmasterfilter.png"></graphic>
+         <graphic fileref="screenshots/administration/adminarea/add-postmasterfilter.png" scalefit="1" width="100%" contentdepth="100%"></graphic>
     </screenshot>
 </figure>
 </para>

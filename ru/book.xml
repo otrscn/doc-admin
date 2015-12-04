@@ -4,7 +4,7 @@
 
 <book lang="en">
     <bookinfo>
-        <title>OTRS 5 - Admin Manual</title>
+        <title>OTRS v.5 - Руководство Администратора</title>
 
         <!--        <edition>
 Cancún Beach (México)</edition> -->
@@ -31,10 +31,10 @@ Thiessmeier, Daniel Zamorano.
             </para>
 
             <para>
-                The source code of this document can be found at <ulink
-url="https://otrs.github.io">github</ulink>, in the repository <ulink
-url="https://github.com/OTRS/doc-admin">doc-admin</ulink>.  Contributions
-are more than welcome.  You can also help translating it to your language at
+                Исходный код этого документа можно найти на <ulink
+url="https://otrs.github.io">github</ulink>, в репозитории <ulink
+url="https://github.com/OTRS/doc-admin">doc-admin</ulink>. Любой вклад
+приветствуется. Вы также можете помочь в переводе на ваш язык на сайте
 <ulink url="https://www.transifex.com/otrs/OTRS/">Transifex</ulink>.
             </para>
 

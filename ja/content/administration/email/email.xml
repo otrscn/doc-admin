@@ -73,8 +73,8 @@ required for OTRS"</link> for instructions.</para>
 <figure>
     <title>メールアカウントの追加。</title>
 <screenshot>
-<graphic scale="40"
-fileref="screenshots/administration/email/add-mailaccount.png"></graphic></screenshot></figure>
+<graphic fileref="screenshots/administration/email/add-mailaccount.png"
+scalefit="1" width="100%" contentdepth="100%"></graphic></screenshot></figure>
 </para>
 
 <para>信頼済オプションの値にYesを選べば、受信メッセージに付けられたどんなX-OTRSヘッダーも評価され実行されます。X-OTRSヘッダーがチケットシステムの中のいくつかのアクションを実行することができるので既知の送信者だけに信頼済オプションをYesにセットするべきです。X-OTRSヘッダーはOTRSでは<link

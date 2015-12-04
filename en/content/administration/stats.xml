@@ -38,7 +38,7 @@ When signed on as an agent, the statistics module can be opened by selecting "Re
     <figure>
         <title>Overview of the standard statistics.</title>
         <screenshot>
-            <graphic fileref="screenshots/administration/stats/stats-overview.png" scale="40" />
+            <graphic fileref="screenshots/administration/stats/stats-overview.png" scalefit="1" width="100%" contentdepth="100%"/>
         </screenshot>
     </figure>
 
@@ -55,7 +55,7 @@ When signed on as an agent, the statistics module can be opened by selecting "Re
     <figure>
         <title>Viewing a specific statistic.</title>
         <screenshot id="stats-view-screenshot" >
-            <graphic fileref="screenshots/administration/stats/stats-view.png" scale="40" />
+            <graphic fileref="screenshots/administration/stats/stats-view.png" scalefit="1" width="100%" contentdepth="100%"/>
         </screenshot>
     </figure>
 
@@ -83,7 +83,7 @@ When signed on as an agent, the statistics module can be opened by selecting "Re
     <figure>
         <title>Adding a new statistic, first step.</title>
         <screenshot>
-            <graphic fileref="screenshots/administration/stats/stats-add-typeselection.png" scale="40" />
+            <graphic fileref="screenshots/administration/stats/stats-add-typeselection.png" scalefit="1" width="100%" contentdepth="100%"/>
         </screenshot>
     </figure>
 
@@ -131,7 +131,7 @@ When signed on as an agent, the statistics module can be opened by selecting "Re
         <figure>
             <title>Adding a new statistic, second step.</title>
             <screenshot>
-                <graphic fileref="screenshots/administration/stats/stats-add-general.png" scale="40" />
+                <graphic fileref="screenshots/administration/stats/stats-add-general.png" scalefit="1" width="100%" contentdepth="100%"/>
             </screenshot>
         </figure>
 
@@ -163,7 +163,7 @@ When signed on as an agent, the statistics module can be opened by selecting "Re
         <figure>
             <title>Configuring the x-axis of a statistic.</title>
             <screenshot>
-                <graphic fileref="screenshots/administration/stats/stats-config-xaxis.png" scale="40" />
+                <graphic fileref="screenshots/administration/stats/stats-config-xaxis.png" scalefit="1" width="100%" contentdepth="100%"/>
             </screenshot>
         </figure>
 
@@ -177,7 +177,7 @@ When signed on as an agent, the statistics module can be opened by selecting "Re
         <figure>
             <title>Configuring the y-axis of a statistic.</title>
             <screenshot>
-                <graphic fileref="screenshots/administration/stats/stats-config-yaxis.png" scale="40" />
+                <graphic fileref="screenshots/administration/stats/stats-config-yaxis.png" scalefit="1" width="100%" contentdepth="100%"/>
             </screenshot>
         </figure>
 
@@ -193,7 +193,7 @@ When signed on as an agent, the statistics module can be opened by selecting "Re
         <figure>
             <title>Configuring the data filter of a statistic.</title>
             <screenshot>
-                <graphic fileref="screenshots/administration/stats/stats-config-filter.png" scale="40" />
+                <graphic fileref="screenshots/administration/stats/stats-config-filter.png" scalefit="1" width="100%" contentdepth="100%"/>
             </screenshot>
         </figure>
 
@@ -206,7 +206,7 @@ When signed on as an agent, the statistics module can be opened by selecting "Re
         <figure>
             <title>Configuring the data filter of a statistic.</title>
             <screenshot>
-                <graphic fileref="screenshots/administration/stats/stats-config-preview.png" scale="40" />
+                <graphic fileref="screenshots/administration/stats/stats-config-preview.png" scalefit="1" width="100%" contentdepth="100%"/>
             </screenshot>
         </figure>
 
@@ -229,7 +229,7 @@ When signed on as an agent, the statistics module can be opened by selecting "Re
         <figure>
             <title>Statistics import</title>
             <screenshot>
-            <graphic fileref="screenshots/administration/stats/stats-import.png" scale="40" />
+            <graphic fileref="screenshots/administration/stats/stats-import.png" scalefit="1" width="100%" contentdepth="100%"/>
             </screenshot>
         </figure>
 

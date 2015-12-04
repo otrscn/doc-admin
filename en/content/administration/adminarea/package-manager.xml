@@ -13,7 +13,7 @@ Using the "Package Manager" link on the Admin page, you can install and manage p
 <figure>
     <title>Package Manager</title>
     <screenshot>
-         <graphic scale="40" fileref="screenshots/administration/adminarea/admin-packagemanager.png"></graphic>
+         <graphic fileref="screenshots/administration/adminarea/admin-packagemanager.png" scalefit="1" width="100%" contentdepth="100%"></graphic>
     </screenshot>
 </figure>
 </para>

@@ -14,8 +14,8 @@ reverse chronologically sorted with most recent first (see figure below).
 <figure>
     <title>Системный журнал</title>
 <screenshot>
-<graphic scale="40"
-fileref="screenshots/administration/adminarea/admin-syslog.png"></graphic></screenshot></figure>
+<graphic fileref="screenshots/administration/adminarea/admin-syslog.png"
+scalefit="1" width="100%" contentdepth="100%"></graphic></screenshot></figure>
 </para>
 
 <para>

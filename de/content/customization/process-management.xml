@@ -424,8 +424,8 @@ verfügbar.
                 <figure>
                     <title>OTRS Admin screen - System Administration</title>
 <screenshot>
-<graphic scale='40'
-fileref="screenshots/customization/pm-admin-sysadmin.png"></graphic></screenshot></figure>
+<graphic fileref="screenshots/customization/pm-admin-sysadmin.png"
+scalefit="1" width="100%" contentdepth="100%"></graphic></screenshot></figure>
             </para>
 
             <para>
@@ -435,8 +435,8 @@ fileref="screenshots/customization/pm-admin-sysadmin.png"></graphic></screenshot
                 <figure>
                     <title>Schaltfläche: Neuen Prozess erstellen</title>
 <screenshot>
-<graphic scale='40'
-fileref="screenshots/customization/pm-newprocess-button.png"></graphic></screenshot></figure>
+<graphic fileref="screenshots/customization/pm-newprocess-button.png"
+scalefit="1" width="100%" contentdepth="100%"></graphic></screenshot></figure>
             </para>
             <para>
                 Füllen Sie die Prozessinformationen aus, definieren Sie einen Prozessname
@@ -447,8 +447,8 @@ und die Beschreibung für diesen Prozess, wir belassen den Prozessstatus auf
                 <figure>
                     <title>Neuen Prozess hinzufügen</title>
 <screenshot>
-<graphic scale='40'
-fileref="screenshots/customization/pm-newprocess-info.png"></graphic></screenshot></figure>
+<graphic fileref="screenshots/customization/pm-newprocess-info.png"
+scalefit="1" width="100%" contentdepth="100%"></graphic></screenshot></figure>
             </para>
         </section>
         <section>
@@ -463,8 +463,9 @@ doing an accordion like effect), then click on "Create New Activity Dialog".
                     <figure>
                         <title>Neue Aktivitätsdialogschaltfläche erstellen</title>
 <screenshot>
-<graphic scale='40'
-fileref="screenshots/customization/pm-accordion-new-activitydialog.png"></graphic></screenshot></figure>
+<graphic
+fileref="screenshots/customization/pm-accordion-new-activitydialog.png"
+scalefit="1" width="100%" contentdepth="100%"></graphic></screenshot></figure>
                 </para>
                 <para>
                     In the opened popup screen fill the "Activity dialog Name" as well as the
@@ -479,8 +480,8 @@ and drop the field within the pool to rearrange it in the correct place.
                     <figure>
                         <title>Neuen Aktivitätsdialog hinzufügen</title>
 <screenshot>
-<graphic scale='40'
-fileref="screenshots/customization/pm-edit-activitydialog.png"></graphic></screenshot></figure>
+<graphic fileref="screenshots/customization/pm-edit-activitydialog.png"
+scalefit="1" width="100%" contentdepth="100%"></graphic></screenshot></figure>
                 </para>
                 <para>
                     As soon as the fields are dropped into the "Assigned Fields" pool another
@@ -492,8 +493,8 @@ ArticleType field is set to "note-internal".
                     <figure>
                         <title>Felddetails bearbeiten (Artikel)</title>
 <screenshot>
-<graphic scale='40'
-fileref="screenshots/customization/pm-edit-field-article.png"></graphic></screenshot></figure>
+<graphic fileref="screenshots/customization/pm-edit-field-article.png"
+scalefit="1" width="100%" contentdepth="100%"></graphic></screenshot></figure>
                 </para>
                 <para>
                     Nachdem alle Felder zugewiesen wurden, klicken Sie auf übermitteln in der
@@ -656,8 +657,8 @@ anschließend klicken Sie auf "Erstelle neue Übergans-Aktion".
                     <figure>
                         <title>Neuen Übergang hinzufügen</title>
 <screenshot>
-<graphic scale='40'
-fileref="screenshots/customization/pm-accordion-new-transition.png"></graphic></screenshot></figure>
+<graphic fileref="screenshots/customization/pm-accordion-new-transition.png"
+scalefit="1" width="100%" contentdepth="100%"></graphic></screenshot></figure>
                 </para>
                 <para>
                     In dem öffnenden Popup füllen Sie bitte den "Übergangsnamen" aus,
@@ -670,8 +671,8 @@ lassen für den Linktyp auf "and" und wir werden den Match-Type-Wert als
                     <figure>
                         <title>Neuen Übergang hinzufügen</title>
 <screenshot>
-<graphic scale='40'
-fileref="screenshots/customization/pm-edit-transition.png"></graphic></screenshot></figure>
+<graphic fileref="screenshots/customization/pm-edit-transition.png"
+scalefit="1" width="100%" contentdepth="100%"></graphic></screenshot></figure>
                 </para>
                 <para>
                     Nachdem alle Parameter und Werte gesetzt worden sind, klicken Sie auf die
@@ -736,8 +737,9 @@ anschließend klicken Sie auf "Erstelle neue Übergans-Aktion".
                     <figure>
                         <title>Erstellen Sie eine neue Schaltfläche "Übergangs-Aktion"</title>
 <screenshot>
-<graphic scale='40'
-fileref="screenshots/customization/pm-accordion-new-transitionaction.png"></graphic></screenshot></figure>
+<graphic
+fileref="screenshots/customization/pm-accordion-new-transitionaction.png"
+scalefit="1" width="100%" contentdepth="100%"></graphic></screenshot></figure>
                 </para>
                 <para>
                     In the opened popup screen fill the "Transition Action Name", and the
@@ -787,8 +789,8 @@ further versions.
                     <figure>
                         <title>Neue Übergangs-Aktion hinzufügen</title>
 <screenshot>
-<graphic scale='40'
-fileref="screenshots/customization/pm-edit-transitionaction.png"></graphic></screenshot></figure>
+<graphic fileref="screenshots/customization/pm-edit-transitionaction.png"
+scalefit="1" width="100%" contentdepth="100%"></graphic></screenshot></figure>
                 </para>
                 <para>
                     Nachdem alle Parameter und Werte gesetzt worden sind, klicken Sie auf die
@@ -893,8 +895,8 @@ anschließend klicken Sie auf "Erstelle neue Aktivität".
                 <figure>
                     <title>Neue Aktivitätsschaltfläche erstellen</title>
 <screenshot>
-<graphic scale='40'
-fileref="screenshots/customization/pm-accordion-new-activity.png"></graphic></screenshot></figure>
+<graphic fileref="screenshots/customization/pm-accordion-new-activity.png"
+scalefit="1" width="100%" contentdepth="100%"></graphic></screenshot></figure>
             </para>
             <para>
                 In the opened popup screen fill the "Activity Name", then drag the required
@@ -983,8 +985,8 @@ the first screen that will be shown when the process starts).
                 <figure>
                     <title>Ziehen Sie die erste Aktivität in die Arbeitsfläche</title>
 <screenshot>
-<graphic scale='40'
-fileref="screenshots/customization/pm-canvas-drag-activity.png"></graphic></screenshot></figure>
+<graphic fileref="screenshots/customization/pm-canvas-drag-activity.png"
+scalefit="1" width="100%" contentdepth="100%"></graphic></screenshot></figure>
             </para>
             <para>
                 Next, drag another Activity into the canvas too. Now we will have two
@@ -996,8 +998,8 @@ reveal their own Activity Dialogs.
                 <figure>
                     <title>Ziehen Sie die zweite Aktivität in die Arbeitsfläche.</title>
 <screenshot>
-<graphic scale='40'
-fileref="screenshots/customization/pm-canvas-drag-activity2.png"></graphic></screenshot></figure>
+<graphic fileref="screenshots/customization/pm-canvas-drag-activity2.png"
+scalefit="1" width="100%" contentdepth="100%"></graphic></screenshot></figure>
             </para>
             <para>
                 Then let's create the "Path" (connection) between this two Activities, for
@@ -1013,8 +1015,8 @@ Activities.
                 <figure>
                     <title>Ziehen Sie einen Übergang in die Arbeitsfläche</title>
 <screenshot>
-<graphic scale='40'
-fileref="screenshots/customization/pm-canvas-drag-transition.png"></graphic></screenshot></figure>
+<graphic fileref="screenshots/customization/pm-canvas-drag-transition.png"
+scalefit="1" width="100%" contentdepth="100%"></graphic></screenshot></figure>
             </para>
             <para>
                 Now that the "Path" between the Actions is defined, then we need to assign
@@ -1025,8 +1027,8 @@ the Transition Actions to the Transition, double click the Transition label
                 <figure>
                     <title>Verbinden Sie die Aktivitäten unter Verwendung von Übergängen</title>
 <screenshot>
-<graphic scale='40'
-fileref="screenshots/customization/pm-canvas-drag-transition2.png"></graphic></screenshot></figure>
+<graphic fileref="screenshots/customization/pm-canvas-drag-transition2.png"
+scalefit="1" width="100%" contentdepth="100%"></graphic></screenshot></figure>
             </para>
             <para>
                 Drag the needed Transition Actions from Available Transition Actions pool
@@ -1037,8 +1039,8 @@ button.
                 <figure>
                     <title>Zuweisen von Übergangs-Aktionen</title>
 <screenshot>
-<graphic scale='40'
-fileref="screenshots/customization/pm-edit-path.png"></graphic></screenshot></figure>
+<graphic fileref="screenshots/customization/pm-edit-path.png" scalefit="1"
+width="100%" contentdepth="100%"></graphic></screenshot></figure>
             </para>
             <para>
                 Then back in the main process edit screen click on save button below the
@@ -1287,8 +1289,8 @@ complete" (A5).
                 <figure>
                     <title>vollständiger Buchbestellprozesspfad</title>
 <screenshot>
-<graphic scale='40'
-fileref="screenshots/customization/pm-edit-process.png"></graphic></screenshot></figure>
+<graphic fileref="screenshots/customization/pm-edit-process.png"
+scalefit="1" width="100%" contentdepth="100%"></graphic></screenshot></figure>
             </para>
             <para>
                 After you finish the process path please click on "Save" button in the lower

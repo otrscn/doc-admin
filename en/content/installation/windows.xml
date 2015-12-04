@@ -52,7 +52,7 @@ OTRSCloneDB-1.0.13.opm
                 <figure>
                     <title>Download OTRSCloneDB - screenshot</title>
                     <screenshot>
-                         <graphic scale="80" fileref="screenshots/introduction/installation/win-download-otrsclonedb.png"></graphic>
+                         <graphic fileref="screenshots/introduction/installation/win-download-otrsclonedb.png" scalefit="1" width="100%" contentdepth="100%"></graphic>
                     </screenshot>
                 </figure>
             </para>
@@ -63,7 +63,7 @@ OTRSCloneDB-1.0.13.opm
                 <figure>
                     <title>Install OTRSCloneDB - screenshot</title>
                     <screenshot>
-                         <graphic scale="80" fileref="screenshots/introduction/installation/win-install-otrsclonedb.png"></graphic>
+                         <graphic fileref="screenshots/introduction/installation/win-install-otrsclonedb.png" scalefit="1" width="100%" contentdepth="100%"></graphic>
                     </screenshot>
                 </figure>
             </para>
@@ -194,7 +194,7 @@ shell> less Kernel/Config.pm
                 <figure>
                     <title>Get target database password - screenshot</title>
                     <screenshot>
-                         <graphic scale="80" fileref="screenshots/introduction/installation/win-gather-db-data-1.png"></graphic>
+                         <graphic fileref="screenshots/introduction/installation/win-gather-db-data-1.png" scalefit="1" width="100%" contentdepth="100%"></graphic>
                     </screenshot>
                 </figure>
             </para>
@@ -218,7 +218,7 @@ I88cm34A1B6xrl3
                 <figure>
                     <title>Configurate OTRSCloneDB SysConfig 1 - screenshot</title>
                     <screenshot>
-                         <graphic scale="80" fileref="screenshots/introduction/installation/win_configurate_otrsclonedb_sysconfig-1.png"></graphic>
+                         <graphic fileref="screenshots/introduction/installation/win_configurate_otrsclonedb_sysconfig-1.png" scalefit="1" width="100%" contentdepth="100%"></graphic>
                     </screenshot>
                 </figure>
             </para>
@@ -238,7 +238,7 @@ TargetDatabaseType => postgresql
                 <figure>
                     <title>Configurate OTRSCloneDB SysConfig 2 - screenshot</title>
                     <screenshot>
-                         <graphic scale="80" fileref="screenshots/introduction/installation/win-configurate-otrsclonedb-sysconfig-2.png"></graphic>
+                         <graphic fileref="screenshots/introduction/installation/win-configurate-otrsclonedb-sysconfig-2.png" scalefit="1" width="100%" contentdepth="100%"></graphic>
                     </screenshot>
                 </figure>
             </para>
@@ -262,7 +262,7 @@ shell> StrawberryPerl\portableshell.bat
                 <figure>
                     <title>Run OTRSCloneDB script 1 - screenshot</title>
                     <screenshot>
-                         <graphic scale="80" fileref="screenshots/introduction/installation/win-run-otrsclonedb-1.png"></graphic>
+                         <graphic fileref="screenshots/introduction/installation/win-run-otrsclonedb-1.png" scalefit="1" width="100%" contentdepth="100%"></graphic>
                     </screenshot>
                 </figure>
             </para>
@@ -289,7 +289,7 @@ shell> perl otrs.OTRSCloneDB.pl
                 <figure>
                     <title>Run OTRSCloneDB script 2 - screenshot</title>
                     <screenshot>
-                         <graphic scale="80" fileref="screenshots/introduction/installation/win-run-otrsclonedb-2.png"></graphic>
+                         <graphic fileref="screenshots/introduction/installation/win-run-otrsclonedb-2.png" scalefit="1" width="100%" contentdepth="100%"></graphic>
                     </screenshot>
                 </figure>
             </para>
@@ -308,7 +308,7 @@ shell> perl otrs.OTRSCloneDB.pl -n
                 <figure>
                     <title>Run OTRSCloneDB script 3 - screenshot</title>
                     <screenshot>
-                         <graphic scale="80" fileref="screenshots/introduction/installation/win-run-otrsclonedb-3.png"></graphic>
+                         <graphic fileref="screenshots/introduction/installation/win-run-otrsclonedb-3.png" scalefit="1" width="100%" contentdepth="100%"></graphic>
                     </screenshot>
                 </figure>
             </para>

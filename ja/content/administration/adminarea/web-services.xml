@@ -13,8 +13,9 @@ below).
         <figure>
             <title>ウェブサービスのためのグラフィカル・インターフェース</title>
 <screenshot>
-<graphic scale="40"
-fileref="screenshots/administration/adminarea/genericinterface-webservice-overview.png"></graphic></screenshot></figure>
+<graphic
+fileref="screenshots/administration/adminarea/genericinterface-webservice-overview.png"
+scalefit="1" width="100%" contentdepth="100%"></graphic></screenshot></figure>
     </para>
     <para>
         ウェブサービス構成用のグラフィカル・インターフェースは、セクション<link

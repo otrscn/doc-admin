@@ -11,8 +11,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: OTRS\n"
-"POT-Creation-Date: 2015-11-30 13:51+0100\n"
-"PO-Revision-Date: 2015-11-30 12:52+0000\n"
+"POT-Creation-Date: 2015-12-04 14:02+0100\n"
+"PO-Revision-Date: 2015-12-04 13:10+0000\n"
 "Last-Translator: Martin Gruner <martin.gruner@otrs.com>\n"
 "Language-Team: Japanese (http://www.transifex.com/otrs/OTRS/language/ja/)\n"
 "Language: ja\n"
@@ -2316,11 +2316,11 @@ msgstr ""
 #. type: Content of: <section><section><section><para><figure><screenshot>
 #: en/content/customization/process-management.xml:415
 msgid ""
-"<graphic scale='40' fileref=\"screenshots/customization/pm-admin-sysadmin.png"
-"\"></graphic>"
+"<graphic fileref=\"screenshots/customization/pm-admin-sysadmin.png\" "
+"scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 msgstr ""
-"<graphic scale='40' fileref=\"screenshots/customization/pm-admin-sysadmin.png"
-"\"></graphic>"
+"<graphic fileref=\"screenshots/customization/pm-admin-sysadmin.png\" "
+"scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 
 #. type: Content of: <appendix><variablelist><varlistentry><listitem><para><figure>
 #: en/content/customization/process-management.xml:414
@@ -2650,11 +2650,11 @@ msgstr "新しいプロセス・ボタンの作成"
 #. type: Content of: <section><section><section><para><figure><screenshot>
 #: en/content/customization/process-management.xml:427
 msgid ""
-"<graphic scale='40' fileref=\"screenshots/customization/pm-newprocess-button."
-"png\"></graphic>"
+"<graphic fileref=\"screenshots/customization/pm-newprocess-button.png\" "
+"scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 msgstr ""
-"<graphic scale='40' fileref=\"screenshots/customization/pm-newprocess-button."
-"png\"></graphic>"
+"<graphic fileref=\"screenshots/customization/pm-newprocess-button.png\" "
+"scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 
 #. type: Content of: <section><section><section><para>
 #: en/content/customization/process-management.xml:432
@@ -2674,11 +2674,11 @@ msgstr "新しいプロセスの追加"
 #. type: Content of: <section><section><section><para><figure><screenshot>
 #: en/content/customization/process-management.xml:439
 msgid ""
-"<graphic scale='40' fileref=\"screenshots/customization/pm-newprocess-info."
-"png\"></graphic>"
+"<graphic fileref=\"screenshots/customization/pm-newprocess-info.png\" "
+"scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 msgstr ""
-"<graphic scale='40' fileref=\"screenshots/customization/pm-newprocess-info."
-"png\"></graphic>"
+"<graphic fileref=\"screenshots/customization/pm-newprocess-info.png\" "
+"scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 
 #. type: Content of: <section><section><section><title>
 #: en/content/customization/process-management.xml:445
@@ -2703,11 +2703,11 @@ msgstr "新しいアクティビティ・ダイアログ・ボタンの作成"
 #. type: Content of: <section><section><section><para><figure><screenshot>
 #: en/content/customization/process-management.xml:456
 msgid ""
-"<graphic scale='40' fileref=\"screenshots/customization/pm-accordion-new-"
-"activitydialog.png\"></graphic>"
+"<graphic fileref=\"screenshots/customization/pm-accordion-new-activitydialog."
+"png\" scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 msgstr ""
-"<graphic scale='40' fileref=\"screenshots/customization/pm-accordion-new-"
-"activitydialog.png\"></graphic>"
+"<graphic fileref=\"screenshots/customization/pm-accordion-new-activitydialog."
+"png\" scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 
 #. type: Content of: <section><section><section><para>
 #: en/content/customization/process-management.xml:461
@@ -2729,11 +2729,11 @@ msgstr "新規アクティビティ・ダイアログの追加"
 #. type: Content of: <section><section><section><para><figure><screenshot>
 #: en/content/customization/process-management.xml:473
 msgid ""
-"<graphic scale='40' fileref=\"screenshots/customization/pm-edit-"
-"activitydialog.png\"></graphic>"
+"<graphic fileref=\"screenshots/customization/pm-edit-activitydialog.png\" "
+"scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 msgstr ""
-"<graphic scale='40' fileref=\"screenshots/customization/pm-edit-"
-"activitydialog.png\"></graphic>"
+"<graphic fileref=\"screenshots/customization/pm-edit-activitydialog.png\" "
+"scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 
 #. type: Content of: <section><section><section><para>
 #: en/content/customization/process-management.xml:478
@@ -2757,11 +2757,11 @@ msgstr "フィールド詳細(記事)の編集"
 #. type: Content of: <section><section><section><para><figure><screenshot>
 #: en/content/customization/process-management.xml:487
 msgid ""
-"<graphic scale='40' fileref=\"screenshots/customization/pm-edit-field-"
-"article.png\"></graphic>"
+"<graphic fileref=\"screenshots/customization/pm-edit-field-article.png\" "
+"scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 msgstr ""
-"<graphic scale='40' fileref=\"screenshots/customization/pm-edit-field-"
-"article.png\"></graphic>"
+"<graphic fileref=\"screenshots/customization/pm-edit-field-article.png\" "
+"scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 
 #. type: Content of: <section><section><section><para>
 #: en/content/customization/process-management.xml:492
@@ -3075,11 +3075,11 @@ msgstr "新規推移ボタンの作成"
 #. type: Content of: <section><section><section><para><figure><screenshot>
 #: en/content/customization/process-management.xml:651
 msgid ""
-"<graphic scale='40' fileref=\"screenshots/customization/pm-accordion-new-"
-"transition.png\"></graphic>"
+"<graphic fileref=\"screenshots/customization/pm-accordion-new-transition.png"
+"\" scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 msgstr ""
-"<graphic scale='40' fileref=\"screenshots/customization/pm-accordion-new-"
-"transition.png\"></graphic>"
+"<graphic fileref=\"screenshots/customization/pm-accordion-new-transition.png"
+"\" scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 
 #. type: Content of: <section><section><section><para>
 #: en/content/customization/process-management.xml:656
@@ -3102,11 +3102,11 @@ msgstr "新規推移の追加"
 #. type: Content of: <section><section><section><para><figure><screenshot>
 #: en/content/customization/process-management.xml:665
 msgid ""
-"<graphic scale='40' fileref=\"screenshots/customization/pm-edit-transition."
-"png\"></graphic>"
+"<graphic fileref=\"screenshots/customization/pm-edit-transition.png\" "
+"scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 msgstr ""
-"<graphic scale='40' fileref=\"screenshots/customization/pm-edit-transition."
-"png\"></graphic>"
+"<graphic fileref=\"screenshots/customization/pm-edit-transition.png\" "
+"scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 
 #. type: Content of: <section><section><section><para>
 #: en/content/customization/process-management.xml:670
@@ -3213,11 +3213,13 @@ msgstr "新規推移アクションボタンの作成"
 #. type: Content of: <section><section><section><para><figure><screenshot>
 #: en/content/customization/process-management.xml:728
 msgid ""
-"<graphic scale='40' fileref=\"screenshots/customization/pm-accordion-new-"
-"transitionaction.png\"></graphic>"
+"<graphic fileref=\"screenshots/customization/pm-accordion-new-"
+"transitionaction.png\" scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></"
+"graphic>"
 msgstr ""
-"<graphic scale='40' fileref=\"screenshots/customization/pm-accordion-new-"
-"transitionaction.png\"></graphic>"
+"<graphic fileref=\"screenshots/customization/pm-accordion-new-"
+"transitionaction.png\" scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></"
+"graphic>"
 
 #. type: Content of: <section><section><section><para>
 #: en/content/customization/process-management.xml:733
@@ -3353,11 +3355,11 @@ msgstr "新規推移アクションの追加"
 #. type: Content of: <section><section><section><para><figure><screenshot>
 #: en/content/customization/process-management.xml:778
 msgid ""
-"<graphic scale='40' fileref=\"screenshots/customization/pm-edit-"
-"transitionaction.png\"></graphic>"
+"<graphic fileref=\"screenshots/customization/pm-edit-transitionaction.png\" "
+"scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 msgstr ""
-"<graphic scale='40' fileref=\"screenshots/customization/pm-edit-"
-"transitionaction.png\"></graphic>"
+"<graphic fileref=\"screenshots/customization/pm-edit-transitionaction.png\" "
+"scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 
 #. type: Content of: <section><section><section><para>
 #: en/content/customization/process-management.xml:783
@@ -3520,11 +3522,11 @@ msgstr "新規アクティビティボタンの作成"
 #. type: Content of: <section><section><section><para><figure><screenshot>
 #: en/content/customization/process-management.xml:885
 msgid ""
-"<graphic scale='40' fileref=\"screenshots/customization/pm-accordion-new-"
-"activity.png\"></graphic>"
+"<graphic fileref=\"screenshots/customization/pm-accordion-new-activity.png\" "
+"scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 msgstr ""
-"<graphic scale='40' fileref=\"screenshots/customization/pm-accordion-new-"
-"activity.png\"></graphic>"
+"<graphic fileref=\"screenshots/customization/pm-accordion-new-activity.png\" "
+"scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 
 #. type: Content of: <section><section><section><para>
 #: en/content/customization/process-management.xml:890
@@ -3689,11 +3691,11 @@ msgstr "キャンバスに第1のアクティビティをドラッグしてく�
 #. type: Content of: <section><section><section><para><figure><screenshot>
 #: en/content/customization/process-management.xml:973
 msgid ""
-"<graphic scale='40' fileref=\"screenshots/customization/pm-canvas-drag-"
-"activity.png\"></graphic>"
+"<graphic fileref=\"screenshots/customization/pm-canvas-drag-activity.png\" "
+"scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 msgstr ""
-"<graphic scale='40' fileref=\"screenshots/customization/pm-canvas-drag-"
-"activity.png\"></graphic>"
+"<graphic fileref=\"screenshots/customization/pm-canvas-drag-activity.png\" "
+"scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 
 #. type: Content of: <section><section><section><para>
 #: en/content/customization/process-management.xml:978
@@ -3712,11 +3714,11 @@ msgstr "第二のアクティビティをキャンバスにドラッグします
 #. type: Content of: <section><section><section><para><figure><screenshot>
 #: en/content/customization/process-management.xml:987
 msgid ""
-"<graphic scale='40' fileref=\"screenshots/customization/pm-canvas-drag-"
-"activity2.png\"></graphic>"
+"<graphic fileref=\"screenshots/customization/pm-canvas-drag-activity2.png\" "
+"scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 msgstr ""
-"<graphic scale='40' fileref=\"screenshots/customization/pm-canvas-drag-"
-"activity2.png\"></graphic>"
+"<graphic fileref=\"screenshots/customization/pm-canvas-drag-activity2.png\" "
+"scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 
 #. type: Content of: <section><section><section><para>
 #: en/content/customization/process-management.xml:992
@@ -3739,11 +3741,11 @@ msgstr "キャンバスに推移をドラッグします。"
 #. type: Content of: <section><section><section><para><figure><screenshot>
 #: en/content/customization/process-management.xml:1004
 msgid ""
-"<graphic scale='40' fileref=\"screenshots/customization/pm-canvas-drag-"
-"transition.png\"></graphic>"
+"<graphic fileref=\"screenshots/customization/pm-canvas-drag-transition.png\" "
+"scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 msgstr ""
-"<graphic scale='40' fileref=\"screenshots/customization/pm-canvas-drag-"
-"transition.png\"></graphic>"
+"<graphic fileref=\"screenshots/customization/pm-canvas-drag-transition.png\" "
+"scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 
 #. type: Content of: <section><section><section><para>
 #: en/content/customization/process-management.xml:1009
@@ -3764,11 +3766,11 @@ msgstr "推移を使用して、アクティビティを接続します。"
 #. type: Content of: <section><section><section><para><figure><screenshot>
 #: en/content/customization/process-management.xml:1017
 msgid ""
-"<graphic scale='40' fileref=\"screenshots/customization/pm-canvas-drag-"
-"transition2.png\"></graphic>"
+"<graphic fileref=\"screenshots/customization/pm-canvas-drag-transition2.png"
+"\" scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 msgstr ""
-"<graphic scale='40' fileref=\"screenshots/customization/pm-canvas-drag-"
-"transition2.png\"></graphic>"
+"<graphic fileref=\"screenshots/customization/pm-canvas-drag-transition2.png"
+"\" scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 
 #. type: Content of: <section><section><section><para>
 #: en/content/customization/process-management.xml:1022
@@ -3788,11 +3790,11 @@ msgstr "推移アクションを割り当てます。"
 #. type: Content of: <section><section><section><para><figure><screenshot>
 #: en/content/customization/process-management.xml:1029
 msgid ""
-"<graphic scale='40' fileref=\"screenshots/customization/pm-edit-path.png\"></"
-"graphic>"
+"<graphic fileref=\"screenshots/customization/pm-edit-path.png\" scalefit="
+"\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 msgstr ""
-"<graphic scale='40' fileref=\"screenshots/customization/pm-edit-path.png\"></"
-"graphic>"
+"<graphic fileref=\"screenshots/customization/pm-edit-path.png\" scalefit="
+"\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 
 #. type: Content of: <section><section><section><para>
 #: en/content/customization/process-management.xml:1034
@@ -3941,11 +3943,11 @@ msgstr "本の注文の完全なプロセス・パス"
 #. type: Content of: <section><section><section><para><figure><screenshot>
 #: en/content/customization/process-management.xml:1288
 msgid ""
-"<graphic scale='40' fileref=\"screenshots/customization/pm-edit-process.png"
-"\"></graphic>"
+"<graphic fileref=\"screenshots/customization/pm-edit-process.png\" scalefit="
+"\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 msgstr ""
-"<graphic scale='40' fileref=\"screenshots/customization/pm-edit-process.png"
-"\"></graphic>"
+"<graphic fileref=\"screenshots/customization/pm-edit-process.png\" scalefit="
+"\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 
 #. type: Content of: <section><section><section><para>
 #: en/content/customization/process-management.xml:1293
@@ -8277,11 +8279,11 @@ msgstr ""
 #. type: Content of: <section><section><para><example><para><figure><screenshot>
 #: en/content/customization/acl.xml:173
 msgid ""
-"<graphic scale=\"40\" fileref=\"screenshots/customization/acl-move.png\"></"
-"graphic>"
+"<graphic fileref=\"screenshots/customization/acl-move.png\" scalefit=\"1\" "
+"width=\"100%\" contentdepth=\"100%\"></graphic>"
 msgstr ""
-"<graphic scale=\"40\" fileref=\"screenshots/customization/acl-move.png\"></"
-"graphic>"
+"<graphic fileref=\"screenshots/customization/acl-move.png\" scalefit=\"1\" "
+"width=\"100%\" contentdepth=\"100%\"></graphic>"
 
 #. type: Content of: <section><section><para><example><programlisting>
 #: en/content/customization/acl.xml:178
@@ -8395,11 +8397,11 @@ msgstr ""
 #. type: Content of: <section><section><para><example><para><figure><screenshot>
 #: en/content/customization/acl.xml:216
 msgid ""
-"<graphic scale=\"40\" fileref=\"screenshots/customization/acl-move2.png\"></"
-"graphic>"
+"<graphic fileref=\"screenshots/customization/acl-move2.png\" scalefit=\"1\" "
+"width=\"100%\" contentdepth=\"100%\"></graphic>"
 msgstr ""
-"<graphic scale=\"40\" fileref=\"screenshots/customization/acl-move2.png\"></"
-"graphic>"
+"<graphic fileref=\"screenshots/customization/acl-move2.png\" scalefit=\"1\" "
+"width=\"100%\" contentdepth=\"100%\"></graphic>"
 
 #. type: Content of: <section><section><para><example><programlisting>
 #: en/content/customization/acl.xml:221
@@ -8454,11 +8456,11 @@ msgstr ""
 #. type: Content of: <section><section><para><example><para><figure><screenshot>
 #: en/content/customization/acl.xml:258
 msgid ""
-"<graphic scale=\"40\" fileref=\"screenshots/customization/acl-close.png\"></"
-"graphic>"
+"<graphic fileref=\"screenshots/customization/acl-close.png\" scalefit=\"1\" "
+"width=\"100%\" contentdepth=\"100%\"></graphic>"
 msgstr ""
-"<graphic scale=\"40\" fileref=\"screenshots/customization/acl-close.png\"></"
-"graphic>"
+"<graphic fileref=\"screenshots/customization/acl-close.png\" scalefit=\"1\" "
+"width=\"100%\" contentdepth=\"100%\"></graphic>"
 
 #. type: Content of: <section><section><para><example><programlisting>
 #: en/content/customization/acl.xml:263
@@ -8518,11 +8520,11 @@ msgstr ""
 #. type: Content of: <section><section><para><example><para><figure><screenshot>
 #: en/content/customization/acl.xml:303
 msgid ""
-"<graphic scale=\"40\" fileref=\"screenshots/customization/acl-state.png\"></"
-"graphic>"
+"<graphic fileref=\"screenshots/customization/acl-state.png\" scalefit=\"1\" "
+"width=\"100%\" contentdepth=\"100%\"></graphic>"
 msgstr ""
-"<graphic scale=\"40\" fileref=\"screenshots/customization/acl-state.png\"></"
-"graphic>"
+"<graphic fileref=\"screenshots/customization/acl-state.png\" scalefit=\"1\" "
+"width=\"100%\" contentdepth=\"100%\"></graphic>"
 
 #. type: Content of: <section><section><para><example><programlisting>
 #: en/content/customization/acl.xml:308
@@ -8570,11 +8572,11 @@ msgstr ""
 #. type: Content of: <section><section><para><example><para><figure><screenshot>
 #: en/content/customization/acl.xml:339
 msgid ""
-"<graphic scale=\"40\" fileref=\"screenshots/customization/acl-new-ticket-"
-"service.png\"></graphic>"
+"<graphic fileref=\"screenshots/customization/acl-new-ticket-service.png\" "
+"scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 msgstr ""
-"<graphic scale=\"40\" fileref=\"screenshots/customization/acl-new-ticket-"
-"service.png\"></graphic>"
+"<graphic fileref=\"screenshots/customization/acl-new-ticket-service.png\" "
+"scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 
 #. type: Content of: <section><section><para><example><programlisting>
 #: en/content/customization/acl.xml:344
@@ -8613,11 +8615,13 @@ msgstr ""
 #. type: Content of: <section><section><para><example><para><figure><screenshot>
 #: en/content/customization/acl.xml:373
 msgid ""
-"<graphic scale=\"40\" fileref=\"screenshots/customization/acl-disallow-"
-"process-for-customerid.png\"></graphic>"
+"<graphic fileref=\"screenshots/customization/acl-disallow-process-for-"
+"customerid.png\" scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></"
+"graphic>"
 msgstr ""
-"<graphic scale=\"40\" fileref=\"screenshots/customization/acl-disallow-"
-"process-for-customerid.png\"></graphic>"
+"<graphic fileref=\"screenshots/customization/acl-disallow-process-for-"
+"customerid.png\" scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></"
+"graphic>"
 
 #. type: Content of: <section><section><para><example><programlisting>
 #: en/content/customization/acl.xml:378
@@ -9538,11 +9542,11 @@ msgstr ""
 #. type: Content of: <section><para><figure><screenshot>
 #: en/content/administration/adminarea/basics.xml:26
 msgid ""
-"<graphic scale=\"40\" fileref=\"screenshots/administration/adminarea/"
-"adminarea.png\"></graphic>"
+"<graphic fileref=\"screenshots/administration/adminarea/adminarea.png\" "
+"scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 msgstr ""
-"<graphic scale=\"40\" fileref=\"screenshots/administration/adminarea/"
-"adminarea.png\"></graphic>"
+"<graphic fileref=\"screenshots/administration/adminarea/adminarea.png\" "
+"scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 
 #. type: Content of: <section><title>
 #: en/content/administration/adminarea/agents-groups-roles.xml:6
@@ -9583,11 +9587,11 @@ msgstr "担当者管理"
 #. type: Content of: <section><section><para><figure><screenshot>
 #: en/content/administration/adminarea/agents-groups-roles.xml:25
 msgid ""
-"<graphic scale=\"40\" fileref=\"screenshots/administration/adminarea/admin-"
-"agents.png\"></graphic>"
+"<graphic fileref=\"screenshots/administration/adminarea/admin-agents.png\" "
+"scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 msgstr ""
-"<graphic scale=\"40\" fileref=\"screenshots/administration/adminarea/admin-"
-"agents.png\"></graphic>"
+"<graphic fileref=\"screenshots/administration/adminarea/admin-agents.png\" "
+"scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 
 #. type: Content of: <section><section><para>
 #: en/content/administration/adminarea/agents-groups-roles.xml:31
@@ -9607,11 +9611,11 @@ msgstr ""
 #. type: Content of: <section><section><para><figure><screenshot>
 #: en/content/administration/adminarea/agents-groups-roles.xml:38
 msgid ""
-"<graphic scale=\"40\" fileref=\"screenshots/administration/adminarea/add-"
-"agent.png\"></graphic>"
+"<graphic fileref=\"screenshots/administration/adminarea/add-agent.png\" "
+"scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 msgstr ""
-"<graphic scale=\"40\" fileref=\"screenshots/administration/adminarea/add-"
-"agent.png\"></graphic>"
+"<graphic fileref=\"screenshots/administration/adminarea/add-agent.png\" "
+"scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 
 #. type: Content of: <section><section><para>
 #: en/content/administration/adminarea/agents-groups-roles.xml:44
@@ -9728,11 +9732,11 @@ msgstr "グループ管理"
 #. type: Content of: <section><section><para><figure><screenshot>
 #: en/content/administration/adminarea/agents-groups-roles.xml:102
 msgid ""
-"<graphic scale=\"40\" fileref=\"screenshots/administration/adminarea/admin-"
-"groups.png\"></graphic>"
+"<graphic fileref=\"screenshots/administration/adminarea/admin-groups.png\" "
+"scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 msgstr ""
-"<graphic scale=\"40\" fileref=\"screenshots/administration/adminarea/admin-"
-"groups.png\"></graphic>"
+"<graphic fileref=\"screenshots/administration/adminarea/admin-groups.png\" "
+"scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 
 #. type: Content of: <section><section><note><para>
 #: en/content/administration/adminarea/agents-groups-roles.xml:109
@@ -9761,11 +9765,11 @@ msgstr ""
 #. type: Content of: <section><section><para><figure><screenshot>
 #: en/content/administration/adminarea/agents-groups-roles.xml:121
 msgid ""
-"<graphic scale=\"40\" fileref=\"screenshots/administration/adminarea/admin-"
-"agents-and-groups.png\"></graphic>"
+"<graphic fileref=\"screenshots/administration/adminarea/admin-agents-and-"
+"groups.png\" scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 msgstr ""
-"<graphic scale=\"40\" fileref=\"screenshots/administration/adminarea/admin-"
-"agents-and-groups.png\"></graphic>"
+"<graphic fileref=\"screenshots/administration/adminarea/admin-agents-and-"
+"groups.png\" scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 
 #. type: Content of: <section><section><para>
 #: en/content/administration/adminarea/agents-groups-roles.xml:127
@@ -9785,11 +9789,13 @@ msgstr ""
 #. type: Content of: <section><section><para><figure><screenshot>
 #: en/content/administration/adminarea/agents-groups-roles.xml:134
 msgid ""
-"<graphic scale=\"40\" fileref=\"screenshots/administration/adminarea/agent-"
-"group-relations.png\"></graphic>"
+"<graphic fileref=\"screenshots/administration/adminarea/agent-group-"
+"relations.png\" scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></"
+"graphic>"
 msgstr ""
-"<graphic scale=\"40\" fileref=\"screenshots/administration/adminarea/agent-"
-"group-relations.png\"></graphic>"
+"<graphic fileref=\"screenshots/administration/adminarea/agent-group-"
+"relations.png\" scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></"
+"graphic>"
 
 #. type: Content of: <section><section><para><figure><title>
 #: en/content/administration/adminarea/agents-groups-roles.xml:141
@@ -9799,11 +9805,13 @@ msgstr ""
 #. type: Content of: <section><section><para><figure><screenshot>
 #: en/content/administration/adminarea/agents-groups-roles.xml:143
 msgid ""
-"<graphic scale=\"40\" fileref=\"screenshots/administration/adminarea/agent-"
-"group-relations2.png\"></graphic>"
+"<graphic fileref=\"screenshots/administration/adminarea/agent-group-"
+"relations2.png\" scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></"
+"graphic>"
 msgstr ""
-"<graphic scale=\"40\" fileref=\"screenshots/administration/adminarea/agent-"
-"group-relations2.png\"></graphic>"
+"<graphic fileref=\"screenshots/administration/adminarea/agent-group-"
+"relations2.png\" scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></"
+"graphic>"
 
 #. type: Content of: <section><section><para>
 #: en/content/administration/adminarea/agents-groups-roles.xml:149
@@ -10107,11 +10115,11 @@ msgstr "役割管理"
 #. type: Content of: <section><section><para><figure><screenshot>
 #: en/content/administration/adminarea/agents-groups-roles.xml:318
 msgid ""
-"<graphic scale=\"40\" fileref=\"screenshots/administration/adminarea/admin-"
-"roles.png\"></graphic>"
+"<graphic fileref=\"screenshots/administration/adminarea/admin-roles.png\" "
+"scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 msgstr ""
-"<graphic scale=\"40\" fileref=\"screenshots/administration/adminarea/admin-"
-"roles.png\"></graphic>"
+"<graphic fileref=\"screenshots/administration/adminarea/admin-roles.png\" "
+"scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 
 #. type: Content of: <section><section><note><para>
 #: en/content/administration/adminarea/agents-groups-roles.xml:325
@@ -10142,11 +10150,11 @@ msgstr ""
 #. type: Content of: <section><section><para><figure><screenshot>
 #: en/content/administration/adminarea/agents-groups-roles.xml:337
 msgid ""
-"<graphic scale=\"40\" fileref=\"screenshots/administration/adminarea/add-"
-"role.png\"></graphic>"
+"<graphic fileref=\"screenshots/administration/adminarea/add-role.png\" "
+"scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 msgstr ""
-"<graphic scale=\"40\" fileref=\"screenshots/administration/adminarea/add-"
-"role.png\"></graphic>"
+"<graphic fileref=\"screenshots/administration/adminarea/add-role.png\" "
+"scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 
 #. type: Content of: <section><section><para>
 #: en/content/administration/adminarea/agents-groups-roles.xml:343
@@ -10167,11 +10175,11 @@ msgstr ""
 #. type: Content of: <section><section><para><figure><screenshot>
 #: en/content/administration/adminarea/agents-groups-roles.xml:351
 msgid ""
-"<graphic scale=\"40\" fileref=\"screenshots/administration/adminarea/admin-"
-"roles-agents-relation.png\"></graphic>"
+"<graphic fileref=\"screenshots/administration/adminarea/admin-roles-agents-"
+"relation.png\" scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 msgstr ""
-"<graphic scale=\"40\" fileref=\"screenshots/administration/adminarea/admin-"
-"roles-agents-relation.png\"></graphic>"
+"<graphic fileref=\"screenshots/administration/adminarea/admin-roles-agents-"
+"relation.png\" scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 
 #. type: Content of: <section><section><para><figure><title>
 #: en/content/administration/adminarea/agents-groups-roles.xml:358
@@ -10181,11 +10189,13 @@ msgstr ""
 #. type: Content of: <section><section><para><figure><screenshot>
 #: en/content/administration/adminarea/agents-groups-roles.xml:360
 msgid ""
-"<graphic scale=\"40\" fileref=\"screenshots/administration/adminarea/admin-"
-"roles-agents-relation2.png\"></graphic>"
+"<graphic fileref=\"screenshots/administration/adminarea/admin-roles-agents-"
+"relation2.png\" scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></"
+"graphic>"
 msgstr ""
-"<graphic scale=\"40\" fileref=\"screenshots/administration/adminarea/admin-"
-"roles-agents-relation2.png\"></graphic>"
+"<graphic fileref=\"screenshots/administration/adminarea/admin-roles-agents-"
+"relation2.png\" scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></"
+"graphic>"
 
 #. type: Content of: <section><section><para>
 #: en/content/administration/adminarea/agents-groups-roles.xml:366
@@ -10208,11 +10218,11 @@ msgstr ""
 #. type: Content of: <section><section><para><figure><screenshot>
 #: en/content/administration/adminarea/agents-groups-roles.xml:373
 msgid ""
-"<graphic scale=\"40\" fileref=\"screenshots/administration/adminarea/admin-"
-"roles-groups.png\"></graphic>"
+"<graphic fileref=\"screenshots/administration/adminarea/admin-roles-groups."
+"png\" scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 msgstr ""
-"<graphic scale=\"40\" fileref=\"screenshots/administration/adminarea/admin-"
-"roles-groups.png\"></graphic>"
+"<graphic fileref=\"screenshots/administration/adminarea/admin-roles-groups."
+"png\" scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 
 #. type: Content of: <section><section><para>
 #: en/content/administration/adminarea/agents-groups-roles.xml:379
@@ -10229,11 +10239,13 @@ msgstr ""
 #. type: Content of: <section><section><para><figure><screenshot>
 #: en/content/administration/adminarea/agents-groups-roles.xml:386
 msgid ""
-"<graphic scale=\"40\" fileref=\"screenshots/administration/adminarea/groups-"
-"roles-relations.png\"></graphic>"
+"<graphic fileref=\"screenshots/administration/adminarea/groups-roles-"
+"relations.png\" scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></"
+"graphic>"
 msgstr ""
-"<graphic scale=\"40\" fileref=\"screenshots/administration/adminarea/groups-"
-"roles-relations.png\"></graphic>"
+"<graphic fileref=\"screenshots/administration/adminarea/groups-roles-"
+"relations.png\" scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></"
+"graphic>"
 
 #. type: Content of: <section><section><para><figure><title>
 #: en/content/administration/adminarea/agents-groups-roles.xml:393
@@ -10243,11 +10255,13 @@ msgstr ""
 #. type: Content of: <section><section><para><figure><screenshot>
 #: en/content/administration/adminarea/agents-groups-roles.xml:395
 msgid ""
-"<graphic scale=\"40\" fileref=\"screenshots/administration/adminarea/groups-"
-"roles-relations2.png\"></graphic>"
+"<graphic fileref=\"screenshots/administration/adminarea/groups-roles-"
+"relations2.png\" scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></"
+"graphic>"
 msgstr ""
-"<graphic scale=\"40\" fileref=\"screenshots/administration/adminarea/groups-"
-"roles-relations2.png\"></graphic>"
+"<graphic fileref=\"screenshots/administration/adminarea/groups-roles-"
+"relations2.png\" scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></"
+"graphic>"
 
 #. type: Content of: <section><title>
 #: en/content/administration/adminarea/customers-and-groups.xml:6
@@ -10279,11 +10293,11 @@ msgstr "顧客管理"
 #. type: Content of: <section><section><para><figure><screenshot>
 #: en/content/administration/adminarea/customers-and-groups.xml:19
 msgid ""
-"<graphic scale=\"40\" fileref=\"screenshots/administration/adminarea/admin-"
-"customer.png\"></graphic>"
+"<graphic fileref=\"screenshots/administration/adminarea/admin-customer.png\" "
+"scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 msgstr ""
-"<graphic scale=\"40\" fileref=\"screenshots/administration/adminarea/admin-"
-"customer.png\"></graphic>"
+"<graphic fileref=\"screenshots/administration/adminarea/admin-customer.png\" "
+"scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 
 #. type: Content of: <section><section><para>
 #: en/content/administration/adminarea/customers-and-groups.xml:25
@@ -10313,11 +10327,11 @@ msgstr ""
 #. type: Content of: <section><section><para><figure><screenshot>
 #: en/content/administration/adminarea/customers-and-groups.xml:36
 msgid ""
-"<graphic scale=\"40\" fileref=\"screenshots/administration/adminarea/add-"
-"customer.png\"></graphic>"
+"<graphic fileref=\"screenshots/administration/adminarea/add-customer.png\" "
+"scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 msgstr ""
-"<graphic scale=\"40\" fileref=\"screenshots/administration/adminarea/add-"
-"customer.png\"></graphic>"
+"<graphic fileref=\"screenshots/administration/adminarea/add-customer.png\" "
+"scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 
 #. type: Content of: <section><section><para>
 #: en/content/administration/adminarea/customers-and-groups.xml:42
@@ -10391,11 +10405,11 @@ msgstr ""
 #. type: Content of: <section><section><para><figure><screenshot>
 #: en/content/administration/adminarea/customers-and-groups.xml:72
 msgid ""
-"<graphic scale=\"40\" fileref=\"screenshots/administration/adminarea/admin-"
-"customer-groups.png\"></graphic>"
+"<graphic fileref=\"screenshots/administration/adminarea/admin-customer-"
+"groups.png\" scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 msgstr ""
-"<graphic scale=\"40\" fileref=\"screenshots/administration/adminarea/admin-"
-"customer-groups.png\"></graphic>"
+"<graphic fileref=\"screenshots/administration/adminarea/admin-customer-"
+"groups.png\" scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 
 #. type: Content of: <section><section><para>
 #: en/content/administration/adminarea/customers-and-groups.xml:78
@@ -10413,11 +10427,13 @@ msgstr "顧客用グループ関係の変更"
 #. type: Content of: <section><section><para><figure><screenshot>
 #: en/content/administration/adminarea/customers-and-groups.xml:85
 msgid ""
-"<graphic scale=\"40\" fileref=\"screenshots/administration/adminarea/groups-"
-"customers-relations.png\"></graphic>"
+"<graphic fileref=\"screenshots/administration/adminarea/groups-customers-"
+"relations.png\" scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></"
+"graphic>"
 msgstr ""
-"<graphic scale=\"40\" fileref=\"screenshots/administration/adminarea/groups-"
-"customers-relations.png\"></graphic>"
+"<graphic fileref=\"screenshots/administration/adminarea/groups-customers-"
+"relations.png\" scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></"
+"graphic>"
 
 #. type: Content of: <section><section><para><figure><title>
 #: en/content/administration/adminarea/customers-and-groups.xml:92
@@ -10427,11 +10443,13 @@ msgstr "グループのための顧客関係の変更"
 #. type: Content of: <section><section><para><figure><screenshot>
 #: en/content/administration/adminarea/customers-and-groups.xml:94
 msgid ""
-"<graphic scale=\"40\" fileref=\"screenshots/administration/adminarea/groups-"
-"customers-relations2.png\"></graphic>"
+"<graphic fileref=\"screenshots/administration/adminarea/groups-customers-"
+"relations2.png\" scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></"
+"graphic>"
 msgstr ""
-"<graphic scale=\"40\" fileref=\"screenshots/administration/adminarea/groups-"
-"customers-relations2.png\"></graphic>"
+"<graphic fileref=\"screenshots/administration/adminarea/groups-customers-"
+"relations2.png\" scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></"
+"graphic>"
 
 #. type: Content of: <chapter><section><itemizedlist><listitem><itemizedlist><listitem><para>
 #: en/content/administration/adminarea/queues.xml:6
@@ -10458,11 +10476,11 @@ msgstr "キュー管理"
 #. type: Content of: <section><para><figure><screenshot>
 #: en/content/administration/adminarea/queues.xml:16
 msgid ""
-"<graphic scale=\"40\" fileref=\"screenshots/administration/adminarea/admin-"
-"queue.png\"></graphic>"
+"<graphic fileref=\"screenshots/administration/adminarea/admin-queue.png\" "
+"scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 msgstr ""
-"<graphic scale=\"40\" fileref=\"screenshots/administration/adminarea/admin-"
-"queue.png\"></graphic>"
+"<graphic fileref=\"screenshots/administration/adminarea/admin-queue.png\" "
+"scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 
 #. type: Content of: <section><para>
 #: en/content/administration/adminarea/queues.xml:22
@@ -10480,11 +10498,11 @@ msgstr ""
 #. type: Content of: <section><para><figure><screenshot>
 #: en/content/administration/adminarea/queues.xml:29
 msgid ""
-"<graphic scale=\"40\" fileref=\"screenshots/administration/adminarea/add-"
-"queue.png\"></graphic>"
+"<graphic fileref=\"screenshots/administration/adminarea/add-queue.png\" "
+"scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 msgstr ""
-"<graphic scale=\"40\" fileref=\"screenshots/administration/adminarea/add-"
-"queue.png\"></graphic>"
+"<graphic fileref=\"screenshots/administration/adminarea/add-queue.png\" "
+"scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 
 #. type: Content of: <section><para>
 #: en/content/administration/adminarea/queues.xml:35
@@ -10622,11 +10640,11 @@ msgstr "挨拶文管理"
 #. type: Content of: <section><section><para><figure><screenshot>
 #: en/content/administration/adminarea/salutations-signatures-attachments-templates.xml:20
 msgid ""
-"<graphic scale=\"40\" fileref=\"screenshots/administration/adminarea/admin-"
-"salutation.png\"></graphic>"
+"<graphic fileref=\"screenshots/administration/adminarea/admin-salutation.png"
+"\" scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 msgstr ""
-"<graphic scale=\"40\" fileref=\"screenshots/administration/adminarea/admin-"
-"salutation.png\"></graphic>"
+"<graphic fileref=\"screenshots/administration/adminarea/admin-salutation.png"
+"\" scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 
 #. type: Content of: <section><section><para>
 #: en/content/administration/adminarea/salutations-signatures-attachments-templates.xml:26
@@ -10652,11 +10670,11 @@ msgstr ""
 #. type: Content of: <section><section><para><figure><screenshot>
 #: en/content/administration/adminarea/salutations-signatures-attachments-templates.xml:37
 msgid ""
-"<graphic scale=\"40\" fileref=\"screenshots/administration/adminarea/add-"
-"salutation.png\"></graphic>"
+"<graphic fileref=\"screenshots/administration/adminarea/add-salutation.png\" "
+"scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 msgstr ""
-"<graphic scale=\"40\" fileref=\"screenshots/administration/adminarea/add-"
-"salutation.png\"></graphic>"
+"<graphic fileref=\"screenshots/administration/adminarea/add-salutation.png\" "
+"scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 
 #. type: Content of: <section><section><para>
 #: en/content/administration/adminarea/salutations-signatures-attachments-templates.xml:43
@@ -10714,11 +10732,11 @@ msgstr ""
 #. type: Content of: <section><section><para><figure><screenshot>
 #: en/content/administration/adminarea/salutations-signatures-attachments-templates.xml:69
 msgid ""
-"<graphic scale=\"40\" fileref=\"screenshots/administration/adminarea/admin-"
-"signatures.png\"></graphic>"
+"<graphic fileref=\"screenshots/administration/adminarea/admin-signatures.png"
+"\" scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 msgstr ""
-"<graphic scale=\"40\" fileref=\"screenshots/administration/adminarea/admin-"
-"signatures.png\"></graphic>"
+"<graphic fileref=\"screenshots/administration/adminarea/admin-signatures.png"
+"\" scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 
 #. type: Content of: <section><section><para>
 #: en/content/administration/adminarea/salutations-signatures-attachments-templates.xml:75
@@ -10744,11 +10762,11 @@ msgstr ""
 #. type: Content of: <section><section><para><figure><screenshot>
 #: en/content/administration/adminarea/salutations-signatures-attachments-templates.xml:86
 msgid ""
-"<graphic scale=\"40\" fileref=\"screenshots/administration/adminarea/add-"
-"signature.png\"></graphic>"
+"<graphic fileref=\"screenshots/administration/adminarea/add-signature.png\" "
+"scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 msgstr ""
-"<graphic scale=\"40\" fileref=\"screenshots/administration/adminarea/add-"
-"signature.png\"></graphic>"
+"<graphic fileref=\"screenshots/administration/adminarea/add-signature.png\" "
+"scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 
 #. type: Content of: <section><section><para>
 #: en/content/administration/adminarea/salutations-signatures-attachments-templates.xml:92
@@ -10811,11 +10829,11 @@ msgstr ""
 #. type: Content of: <section><section><para><figure><screenshot>
 #: en/content/administration/adminarea/salutations-signatures-attachments-templates.xml:118
 msgid ""
-"<graphic scale=\"40\" fileref=\"screenshots/administration/adminarea/admin-"
-"attachment.png\"></graphic>"
+"<graphic fileref=\"screenshots/administration/adminarea/admin-attachment.png"
+"\" scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 msgstr ""
-"<graphic scale=\"40\" fileref=\"screenshots/administration/adminarea/admin-"
-"attachment.png\"></graphic>"
+"<graphic fileref=\"screenshots/administration/adminarea/admin-attachment.png"
+"\" scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 
 #. type: Content of: <section><section><para>
 #: en/content/administration/adminarea/salutations-signatures-attachments-templates.xml:124
@@ -10832,11 +10850,11 @@ msgstr ""
 #. type: Content of: <section><section><para><figure><screenshot>
 #: en/content/administration/adminarea/salutations-signatures-attachments-templates.xml:131
 msgid ""
-"<graphic scale=\"40\" fileref=\"screenshots/administration/adminarea/add-"
-"attachment.png\"></graphic>"
+"<graphic fileref=\"screenshots/administration/adminarea/add-attachment.png\" "
+"scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 msgstr ""
-"<graphic scale=\"40\" fileref=\"screenshots/administration/adminarea/add-"
-"attachment.png\"></graphic>"
+"<graphic fileref=\"screenshots/administration/adminarea/add-attachment.png\" "
+"scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 
 #. type: Content of: <section><section><para>
 #: en/content/administration/adminarea/salutations-signatures-attachments-templates.xml:137
@@ -10854,11 +10872,11 @@ msgstr "添付のテンプレートへのリンク"
 #. type: Content of: <section><section><para><figure><screenshot>
 #: en/content/administration/adminarea/salutations-signatures-attachments-templates.xml:145
 msgid ""
-"<graphic scale=\"40\" fileref=\"screenshots/administration/adminarea/admin-"
-"attachment-template.png\"></graphic>"
+"<graphic fileref=\"screenshots/administration/adminarea/admin-attachment-"
+"template.png\" scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 msgstr ""
-"<graphic scale=\"40\" fileref=\"screenshots/administration/adminarea/admin-"
-"attachment-template.png\"></graphic>"
+"<graphic fileref=\"screenshots/administration/adminarea/admin-attachment-"
+"template.png\" scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 
 #. type: Content of: <section><section><para>
 #: en/content/administration/adminarea/salutations-signatures-attachments-templates.xml:151
@@ -10876,11 +10894,13 @@ msgstr "テンプレート用添付関連の変更"
 #. type: Content of: <section><section><para><figure><screenshot>
 #: en/content/administration/adminarea/salutations-signatures-attachments-templates.xml:158
 msgid ""
-"<graphic scale=\"40\" fileref=\"screenshots/administration/adminarea/"
-"template-attachment-relations.png\"></graphic>"
+"<graphic fileref=\"screenshots/administration/adminarea/template-attachment-"
+"relations.png\" scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></"
+"graphic>"
 msgstr ""
-"<graphic scale=\"40\" fileref=\"screenshots/administration/adminarea/"
-"template-attachment-relations.png\"></graphic>"
+"<graphic fileref=\"screenshots/administration/adminarea/template-attachment-"
+"relations.png\" scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></"
+"graphic>"
 
 #. type: Content of: <section><section><para><figure><title>
 #: en/content/administration/adminarea/salutations-signatures-attachments-templates.xml:165
@@ -10890,11 +10910,13 @@ msgstr "添付用テンプレート関連の変更"
 #. type: Content of: <section><section><para><figure><screenshot>
 #: en/content/administration/adminarea/salutations-signatures-attachments-templates.xml:167
 msgid ""
-"<graphic scale=\"40\" fileref=\"screenshots/administration/adminarea/"
-"template-attachment-relations2.png\"></graphic>"
+"<graphic fileref=\"screenshots/administration/adminarea/template-attachment-"
+"relations2.png\" scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></"
+"graphic>"
 msgstr ""
-"<graphic scale=\"40\" fileref=\"screenshots/administration/adminarea/"
-"template-attachment-relations2.png\"></graphic>"
+"<graphic fileref=\"screenshots/administration/adminarea/template-attachment-"
+"relations2.png\" scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></"
+"graphic>"
 
 #. type: Content of: <section><section><title>
 #: en/content/administration/adminarea/salutations-signatures-attachments-templates.xml:175
@@ -11004,11 +11026,11 @@ msgstr ""
 #. type: Content of: <section><section><para><figure><screenshot>
 #: en/content/administration/adminarea/salutations-signatures-attachments-templates.xml:232
 msgid ""
-"<graphic scale=\"40\" fileref=\"screenshots/administration/adminarea/admin-"
-"template.png\"></graphic>"
+"<graphic fileref=\"screenshots/administration/adminarea/admin-template.png\" "
+"scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 msgstr ""
-"<graphic scale=\"40\" fileref=\"screenshots/administration/adminarea/admin-"
-"template.png\"></graphic>"
+"<graphic fileref=\"screenshots/administration/adminarea/admin-template.png\" "
+"scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 
 #. type: Content of: <section><section><para>
 #: en/content/administration/adminarea/salutations-signatures-attachments-templates.xml:238
@@ -11026,11 +11048,11 @@ msgstr ""
 #. type: Content of: <section><section><para><figure><screenshot>
 #: en/content/administration/adminarea/salutations-signatures-attachments-templates.xml:246
 msgid ""
-"<graphic scale=\"40\" fileref=\"screenshots/administration/adminarea/add-"
-"template.png\"></graphic>"
+"<graphic fileref=\"screenshots/administration/adminarea/add-template.png\" "
+"scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 msgstr ""
-"<graphic scale=\"40\" fileref=\"screenshots/administration/adminarea/add-"
-"template.png\"></graphic>"
+"<graphic fileref=\"screenshots/administration/adminarea/add-template.png\" "
+"scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 
 #. type: Content of: <section><section><para>
 #: en/content/administration/adminarea/salutations-signatures-attachments-templates.xml:252
@@ -11048,11 +11070,11 @@ msgstr ""
 #. type: Content of: <section><section><para><figure><screenshot>
 #: en/content/administration/adminarea/salutations-signatures-attachments-templates.xml:259
 msgid ""
-"<graphic scale=\"40\" fileref=\"screenshots/administration/adminarea/admin-"
-"template-queue.png\"></graphic>"
+"<graphic fileref=\"screenshots/administration/adminarea/admin-template-queue."
+"png\" scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 msgstr ""
-"<graphic scale=\"40\" fileref=\"screenshots/administration/adminarea/admin-"
-"template-queue.png\"></graphic>"
+"<graphic fileref=\"screenshots/administration/adminarea/admin-template-queue."
+"png\" scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 
 #. type: Content of: <section><section><para>
 #: en/content/administration/adminarea/salutations-signatures-attachments-templates.xml:265
@@ -11073,11 +11095,13 @@ msgstr "テンプレートのためのキュー関係の変更"
 #. type: Content of: <section><section><para><figure><screenshot>
 #: en/content/administration/adminarea/salutations-signatures-attachments-templates.xml:272
 msgid ""
-"<graphic scale=\"40\" fileref=\"screenshots/administration/adminarea/"
-"template-queue-relations.png\"></graphic>"
+"<graphic fileref=\"screenshots/administration/adminarea/template-queue-"
+"relations.png\" scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></"
+"graphic>"
 msgstr ""
-"<graphic scale=\"40\" fileref=\"screenshots/administration/adminarea/"
-"template-queue-relations.png\"></graphic>"
+"<graphic fileref=\"screenshots/administration/adminarea/template-queue-"
+"relations.png\" scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></"
+"graphic>"
 
 #. type: Content of: <section><section><para><figure><title>
 #: en/content/administration/adminarea/salutations-signatures-attachments-templates.xml:279
@@ -11087,11 +11111,13 @@ msgstr "キューのためのテンプレート関係の変更"
 #. type: Content of: <section><section><para><figure><screenshot>
 #: en/content/administration/adminarea/salutations-signatures-attachments-templates.xml:281
 msgid ""
-"<graphic scale=\"40\" fileref=\"screenshots/administration/adminarea/"
-"template-queue-relations2.png\"></graphic>"
+"<graphic fileref=\"screenshots/administration/adminarea/template-queue-"
+"relations2.png\" scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></"
+"graphic>"
 msgstr ""
-"<graphic scale=\"40\" fileref=\"screenshots/administration/adminarea/"
-"template-queue-relations2.png\"></graphic>"
+"<graphic fileref=\"screenshots/administration/adminarea/template-queue-"
+"relations2.png\" scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></"
+"graphic>"
 
 #. type: Content of: <section><section><para>
 #: en/content/administration/adminarea/salutations-signatures-attachments-templates.xml:287
@@ -11158,11 +11184,11 @@ msgstr ""
 #. type: Content of: <section><para><figure><screenshot>
 #: en/content/administration/adminarea/autoresponses.xml:16
 msgid ""
-"<graphic scale=\"40\" fileref=\"screenshots/administration/adminarea/admin-"
-"autoresponse.png\"></graphic>"
+"<graphic fileref=\"screenshots/administration/adminarea/admin-autoresponse."
+"png\" scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 msgstr ""
-"<graphic scale=\"40\" fileref=\"screenshots/administration/adminarea/admin-"
-"autoresponse.png\"></graphic>"
+"<graphic fileref=\"screenshots/administration/adminarea/admin-autoresponse."
+"png\" scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 
 #. type: Content of: <section><para>
 #: en/content/administration/adminarea/autoresponses.xml:22
@@ -11179,11 +11205,11 @@ msgstr ""
 #. type: Content of: <section><para><figure><screenshot>
 #: en/content/administration/adminarea/autoresponses.xml:29
 msgid ""
-"<graphic scale=\"40\" fileref=\"screenshots/administration/adminarea/add-"
-"autoresponse.png\"></graphic>"
+"<graphic fileref=\"screenshots/administration/adminarea/add-autoresponse.png"
+"\" scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 msgstr ""
-"<graphic scale=\"40\" fileref=\"screenshots/administration/adminarea/add-"
-"autoresponse.png\"></graphic>"
+"<graphic fileref=\"screenshots/administration/adminarea/add-autoresponse.png"
+"\" scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 
 #. type: Content of: <section><para>
 #: en/content/administration/adminarea/autoresponses.xml:35
@@ -11294,11 +11320,11 @@ msgstr ""
 #. type: Content of: <section><para><figure><screenshot>
 #: en/content/administration/adminarea/autoresponses.xml:114
 msgid ""
-"<graphic scale=\"40\" fileref=\"screenshots/administration/adminarea/admin-"
-"autoresponse-queue.png\"></graphic>"
+"<graphic fileref=\"screenshots/administration/adminarea/admin-autoresponse-"
+"queue.png\" scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 msgstr ""
-"<graphic scale=\"40\" fileref=\"screenshots/administration/adminarea/admin-"
-"autoresponse-queue.png\"></graphic>"
+"<graphic fileref=\"screenshots/administration/adminarea/admin-autoresponse-"
+"queue.png\" scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 
 #. type: Content of: <section><para>
 #: en/content/administration/adminarea/autoresponses.xml:120
@@ -11317,11 +11343,13 @@ msgstr ""
 #. type: Content of: <section><para><figure><screenshot>
 #: en/content/administration/adminarea/autoresponses.xml:127
 msgid ""
-"<graphic scale=\"40\" fileref=\"screenshots/administration/adminarea/"
-"autoresponses-queues-relations.png\"></graphic>"
+"<graphic fileref=\"screenshots/administration/adminarea/autoresponses-queues-"
+"relations.png\" scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></"
+"graphic>"
 msgstr ""
-"<graphic scale=\"40\" fileref=\"screenshots/administration/adminarea/"
-"autoresponses-queues-relations.png\"></graphic>"
+"<graphic fileref=\"screenshots/administration/adminarea/autoresponses-queues-"
+"relations.png\" scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></"
+"graphic>"
 
 #. type: Content of: <section><title>
 #: en/content/administration/adminarea/emailaddresses.xml:6
@@ -11348,11 +11376,11 @@ msgstr ""
 #. type: Content of: <section><para><figure><screenshot>
 #: en/content/administration/adminarea/emailaddresses.xml:16
 msgid ""
-"<graphic scale=\"40\" fileref=\"screenshots/administration/adminarea/admin-"
-"email.png\"></graphic>"
+"<graphic fileref=\"screenshots/administration/adminarea/admin-email.png\" "
+"scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 msgstr ""
-"<graphic scale=\"40\" fileref=\"screenshots/administration/adminarea/admin-"
-"email.png\"></graphic>"
+"<graphic fileref=\"screenshots/administration/adminarea/admin-email.png\" "
+"scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 
 #. type: Content of: <section><para>
 #: en/content/administration/adminarea/emailaddresses.xml:22
@@ -11371,11 +11399,11 @@ msgstr ""
 #. type: Content of: <section><para><figure><screenshot>
 #: en/content/administration/adminarea/emailaddresses.xml:29
 msgid ""
-"<graphic scale=\"40\" fileref=\"screenshots/administration/adminarea/add-"
-"email.png\"></graphic>"
+"<graphic fileref=\"screenshots/administration/adminarea/add-email.png\" "
+"scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 msgstr ""
-"<graphic scale=\"40\" fileref=\"screenshots/administration/adminarea/add-"
-"email.png\"></graphic>"
+"<graphic fileref=\"screenshots/administration/adminarea/add-email.png\" "
+"scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 
 #. type: Content of: <section><note><para>
 #: en/content/administration/adminarea/emailaddresses.xml:36
@@ -11410,11 +11438,11 @@ msgstr ""
 #. type: Content of: <section><para><figure><screenshot>
 #: en/content/administration/adminarea/ticket-notifications.xml:20
 msgid ""
-"<graphic scale=\"40\" fileref=\"screenshots/administration/adminarea/admin-"
-"notification-overview.png\"></graphic>"
+"<graphic fileref=\"screenshots/administration/adminarea/admin-notification-"
+"overview.png\" scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 msgstr ""
-"<graphic scale=\"40\" fileref=\"screenshots/administration/adminarea/admin-"
-"notification-overview.png\"></graphic>"
+"<graphic fileref=\"screenshots/administration/adminarea/admin-notification-"
+"overview.png\" scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 
 #. type: Content of: <section><para>
 #: en/content/administration/adminarea/ticket-notifications.xml:14
@@ -11433,11 +11461,11 @@ msgstr ""
 #. type: Content of: <section><para><figure><screenshot>
 #: en/content/administration/adminarea/ticket-notifications.xml:32
 msgid ""
-"<graphic scale=\"40\" fileref=\"screenshots/administration/adminarea/admin-"
-"notification-basic.png\"></graphic>"
+"<graphic fileref=\"screenshots/administration/adminarea/admin-notification-"
+"basic.png\" scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 msgstr ""
-"<graphic scale=\"40\" fileref=\"screenshots/administration/adminarea/admin-"
-"notification-basic.png\"></graphic>"
+"<graphic fileref=\"screenshots/administration/adminarea/admin-notification-"
+"basic.png\" scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 
 #. type: Content of: <section><para>
 #: en/content/administration/adminarea/ticket-notifications.xml:26
@@ -11471,11 +11499,13 @@ msgstr ""
 #. type: Content of: <section><para><figure><screenshot>
 #: en/content/administration/adminarea/ticket-notifications.xml:56
 msgid ""
-"<graphic scale=\"40\" fileref=\"screenshots/administration/adminarea/admin-"
-"notification-recipients.png\"></graphic>"
+"<graphic fileref=\"screenshots/administration/adminarea/admin-notification-"
+"recipients.png\" scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></"
+"graphic>"
 msgstr ""
-"<graphic scale=\"40\" fileref=\"screenshots/administration/adminarea/admin-"
-"notification-recipients.png\"></graphic>"
+"<graphic fileref=\"screenshots/administration/adminarea/admin-notification-"
+"recipients.png\" scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></"
+"graphic>"
 
 #. type: Content of: <section><para>
 #: en/content/administration/adminarea/ticket-notifications.xml:50
@@ -11496,11 +11526,13 @@ msgstr ""
 #. type: Content of: <section><para><figure><screenshot>
 #: en/content/administration/adminarea/ticket-notifications.xml:73
 msgid ""
-"<graphic scale=\"40\" fileref=\"screenshots/administration/adminarea/admin-"
-"notification-transports.png\"></graphic>"
+"<graphic fileref=\"screenshots/administration/adminarea/admin-notification-"
+"transports.png\" scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></"
+"graphic>"
 msgstr ""
-"<graphic scale=\"40\" fileref=\"screenshots/administration/adminarea/admin-"
-"notification-transports.png\"></graphic>"
+"<graphic fileref=\"screenshots/administration/adminarea/admin-notification-"
+"transports.png\" scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></"
+"graphic>"
 
 #. type: Content of: <section><para>
 #: en/content/administration/adminarea/ticket-notifications.xml:65
@@ -11543,11 +11575,11 @@ msgstr ""
 #. type: Content of: <section><para><figure><screenshot>
 #: en/content/administration/adminarea/smime.xml:20
 msgid ""
-"<graphic scale=\"40\" fileref=\"screenshots/administration/adminarea/admin-"
-"smime.png\"></graphic>"
+"<graphic fileref=\"screenshots/administration/adminarea/admin-smime.png\" "
+"scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 msgstr ""
-"<graphic scale=\"40\" fileref=\"screenshots/administration/adminarea/admin-"
-"smime.png\"></graphic>"
+"<graphic fileref=\"screenshots/administration/adminarea/admin-smime.png\" "
+"scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 
 #. type: Content of: <section><title>
 #: en/content/administration/adminarea/pgp.xml:6
@@ -11581,11 +11613,11 @@ msgstr ""
 #. type: Content of: <section><para><figure><screenshot>
 #: en/content/administration/adminarea/pgp.xml:20
 msgid ""
-"<graphic scale=\"40\" fileref=\"screenshots/administration/adminarea/admin-"
-"pgp.png\"></graphic>"
+"<graphic fileref=\"screenshots/administration/adminarea/admin-pgp.png\" "
+"scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 msgstr ""
-"<graphic scale=\"40\" fileref=\"screenshots/administration/adminarea/admin-"
-"pgp.png\"></graphic>"
+"<graphic fileref=\"screenshots/administration/adminarea/admin-pgp.png\" "
+"scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 
 #. type: Content of: <section><title>
 #: en/content/administration/adminarea/states.xml:6
@@ -11607,11 +11639,11 @@ msgstr ""
 #. type: Content of: <section><para><figure><screenshot>
 #: en/content/administration/adminarea/states.xml:16
 msgid ""
-"<graphic scale=\"40\" fileref=\"screenshots/administration/adminarea/admin-"
-"states.png\"></graphic>"
+"<graphic fileref=\"screenshots/administration/adminarea/admin-states.png\" "
+"scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 msgstr ""
-"<graphic scale=\"40\" fileref=\"screenshots/administration/adminarea/admin-"
-"states.png\"></graphic>"
+"<graphic fileref=\"screenshots/administration/adminarea/admin-states.png\" "
+"scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 
 #. type: Content of: <section><para>
 #: en/content/administration/adminarea/states.xml:22
@@ -11724,11 +11756,11 @@ msgstr "システム構成(SysConfig)用のグラフィカル・インターフ�
 #: en/content/administration/adminarea/sysconfig.xml:20
 #: en/content/administration/configuration.xml:42
 msgid ""
-"<graphic scale=\"40\" fileref=\"screenshots/administration/adminarea/admin-"
-"sysconfig.png\"></graphic>"
+"<graphic fileref=\"screenshots/administration/adminarea/admin-sysconfig.png"
+"\" scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 msgstr ""
-"<graphic scale=\"40\" fileref=\"screenshots/administration/adminarea/admin-"
-"sysconfig.png\"></graphic>"
+"<graphic fileref=\"screenshots/administration/adminarea/admin-sysconfig.png"
+"\" scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 
 #. type: Content of: <section><para>
 #: en/content/administration/adminarea/sysconfig.xml:26
@@ -11767,11 +11799,11 @@ msgstr "Eメールアカウント管理"
 #. type: Content of: <section><para><figure><screenshot>
 #: en/content/administration/adminarea/mailaccounts.xml:16
 msgid ""
-"<graphic scale=\"40\" fileref=\"screenshots/administration/adminarea/admin-"
-"mailaccount.png\"></graphic>"
+"<graphic fileref=\"screenshots/administration/adminarea/admin-mailaccount.png"
+"\" scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 msgstr ""
-"<graphic scale=\"40\" fileref=\"screenshots/administration/adminarea/admin-"
-"mailaccount.png\"></graphic>"
+"<graphic fileref=\"screenshots/administration/adminarea/admin-mailaccount.png"
+"\" scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 
 #. type: Content of: <section><para>
 #: en/content/administration/adminarea/mailaccounts.xml:22
@@ -11805,11 +11837,13 @@ msgstr ""
 #. type: Content of: <section><para><figure><screenshot>
 #: en/content/administration/adminarea/postmasterfilter.xml:16
 msgid ""
-"<graphic scale=\"40\" fileref=\"screenshots/administration/adminarea/admin-"
-"postmasterfilter.png\"></graphic>"
+"<graphic fileref=\"screenshots/administration/adminarea/admin-"
+"postmasterfilter.png\" scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></"
+"graphic>"
 msgstr ""
-"<graphic scale=\"40\" fileref=\"screenshots/administration/adminarea/admin-"
-"postmasterfilter.png\"></graphic>"
+"<graphic fileref=\"screenshots/administration/adminarea/admin-"
+"postmasterfilter.png\" scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></"
+"graphic>"
 
 #. type: Content of: <section><para>
 #: en/content/administration/adminarea/postmasterfilter.xml:22
@@ -12135,11 +12169,11 @@ msgstr ""
 #. type: Content of: <section><para><figure><screenshot>
 #: en/content/administration/adminarea/postmasterfilter.xml:231
 msgid ""
-"<graphic scale=\"40\" fileref=\"screenshots/administration/adminarea/add-"
-"postmasterfilter.png\"></graphic>"
+"<graphic fileref=\"screenshots/administration/adminarea/add-postmasterfilter."
+"png\" scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 msgstr ""
-"<graphic scale=\"40\" fileref=\"screenshots/administration/adminarea/add-"
-"postmasterfilter.png\"></graphic>"
+"<graphic fileref=\"screenshots/administration/adminarea/add-postmasterfilter."
+"png\" scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 
 #. type: Content of: <section><example><title>
 #: en/content/administration/adminarea/postmasterfilter.xml:237
@@ -12208,11 +12242,11 @@ msgstr "GenericAgent（一般担当者）のためのジョブ・リスト"
 #. type: Content of: <section><para><figure><screenshot>
 #: en/content/administration/adminarea/genericagent.xml:20
 msgid ""
-"<graphic scale=\"40\" fileref=\"screenshots/administration/adminarea/admin-"
-"genericagent.png\"></graphic>"
+"<graphic fileref=\"screenshots/administration/adminarea/admin-genericagent."
+"png\" scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 msgstr ""
-"<graphic scale=\"40\" fileref=\"screenshots/administration/adminarea/admin-"
-"genericagent.png\"></graphic>"
+"<graphic fileref=\"screenshots/administration/adminarea/admin-genericagent."
+"png\" scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 
 #. type: Content of: <section><para>
 #: en/content/administration/adminarea/genericagent.xml:26
@@ -12239,11 +12273,11 @@ msgstr "GenericAgent（一般担当者）のためのジョブ作成"
 #. type: Content of: <section><para><figure><screenshot>
 #: en/content/administration/adminarea/genericagent.xml:34
 msgid ""
-"<graphic scale=\"40\" fileref=\"screenshots/administration/adminarea/add-"
-"genericagent-job.png\"></graphic>"
+"<graphic fileref=\"screenshots/administration/adminarea/add-genericagent-job."
+"png\" scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 msgstr ""
-"<graphic scale=\"40\" fileref=\"screenshots/administration/adminarea/add-"
-"genericagent-job.png\"></graphic>"
+"<graphic fileref=\"screenshots/administration/adminarea/add-genericagent-job."
+"png\" scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 
 #. type: Content of: <section><para>
 #: en/content/administration/adminarea/genericagent.xml:40
@@ -12313,11 +12347,13 @@ msgstr ""
 #. type: Content of: <section><para><figure><screenshot>
 #: en/content/administration/adminarea/administrative-messages.xml:16
 msgid ""
-"<graphic scale=\"40\" fileref=\"screenshots/administration/adminarea/send-"
-"admin-notification.png\"></graphic>"
+"<graphic fileref=\"screenshots/administration/adminarea/send-admin-"
+"notification.png\" scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></"
+"graphic>"
 msgstr ""
-"<graphic scale=\"40\" fileref=\"screenshots/administration/adminarea/send-"
-"admin-notification.png\"></graphic>"
+"<graphic fileref=\"screenshots/administration/adminarea/send-admin-"
+"notification.png\" scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></"
+"graphic>"
 
 #. type: Content of: <section><para>
 #: en/content/administration/adminarea/administrative-messages.xml:22
@@ -12349,11 +12385,13 @@ msgstr "セッション管理"
 #. type: Content of: <section><para><figure><screenshot>
 #: en/content/administration/adminarea/session-management.xml:16
 msgid ""
-"<graphic scale=\"40\" fileref=\"screenshots/administration/adminarea/admin-"
-"sessionmanagement.png\"></graphic>"
+"<graphic fileref=\"screenshots/administration/adminarea/admin-"
+"sessionmanagement.png\" scalefit=\"1\" width=\"100%\" contentdepth=\"100%"
+"\"></graphic>"
 msgstr ""
-"<graphic scale=\"40\" fileref=\"screenshots/administration/adminarea/admin-"
-"sessionmanagement.png\"></graphic>"
+"<graphic fileref=\"screenshots/administration/adminarea/admin-"
+"sessionmanagement.png\" scalefit=\"1\" width=\"100%\" contentdepth=\"100%"
+"\"></graphic>"
 
 #. type: Content of: <section><para>
 #: en/content/administration/adminarea/session-management.xml:22
@@ -12375,11 +12413,11 @@ msgstr "セッション詳細"
 #. type: Content of: <section><para><figure><screenshot>
 #: en/content/administration/adminarea/session-management.xml:29
 msgid ""
-"<graphic scale=\"40\" fileref=\"screenshots/administration/adminarea/admin-"
-"session-details.png\"></graphic>"
+"<graphic fileref=\"screenshots/administration/adminarea/admin-session-"
+"details.png\" scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 msgstr ""
-"<graphic scale=\"40\" fileref=\"screenshots/administration/adminarea/admin-"
-"session-details.png\"></graphic>"
+"<graphic fileref=\"screenshots/administration/adminarea/admin-session-"
+"details.png\" scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 
 #. type: Content of: <section><title>
 #: en/content/administration/adminarea/system-maintenance.xml:6
@@ -12407,11 +12445,13 @@ msgstr ""
 #. type: Content of: <section><para><figure><screenshot>
 #: en/content/administration/adminarea/system-maintenance.xml:19
 msgid ""
-"<graphic scale=\"40\" fileref=\"screenshots/administration/adminarea/admin-"
-"systemmaintenance-overview-screen.png\"></graphic>"
+"<graphic fileref=\"screenshots/administration/adminarea/admin-"
+"systemmaintenance-overview-screen.png\" scalefit=\"1\" width=\"100%\" "
+"contentdepth=\"100%\"></graphic>"
 msgstr ""
-"<graphic scale=\"40\" fileref=\"screenshots/administration/adminarea/admin-"
-"systemmaintenance-overview-screen.png\"></graphic>"
+"<graphic fileref=\"screenshots/administration/adminarea/admin-"
+"systemmaintenance-overview-screen.png\" scalefit=\"1\" width=\"100%\" "
+"contentdepth=\"100%\"></graphic>"
 
 #. type: Content of: <section><para>
 #: en/content/administration/adminarea/system-maintenance.xml:24
@@ -12428,11 +12468,13 @@ msgstr ""
 #. type: Content of: <section><para><figure><screenshot>
 #: en/content/administration/adminarea/system-maintenance.xml:31
 msgid ""
-"<graphic scale=\"40\" fileref=\"screenshots/administration/adminarea/admin-"
-"systemmaintenance-edit-screen.png\"></graphic>"
+"<graphic fileref=\"screenshots/administration/adminarea/admin-"
+"systemmaintenance-edit-screen.png\" scalefit=\"1\" width=\"100%\" "
+"contentdepth=\"100%\"></graphic>"
 msgstr ""
-"<graphic scale=\"40\" fileref=\"screenshots/administration/adminarea/admin-"
-"systemmaintenance-edit-screen.png\"></graphic>"
+"<graphic fileref=\"screenshots/administration/adminarea/admin-"
+"systemmaintenance-edit-screen.png\" scalefit=\"1\" width=\"100%\" "
+"contentdepth=\"100%\"></graphic>"
 
 #. type: Content of: <section><para>
 #: en/content/administration/adminarea/system-maintenance.xml:36
@@ -12459,11 +12501,11 @@ msgstr ""
 #. type: Content of: <section><para><figure><screenshot>
 #: en/content/administration/adminarea/system-log.xml:16
 msgid ""
-"<graphic scale=\"40\" fileref=\"screenshots/administration/adminarea/admin-"
-"syslog.png\"></graphic>"
+"<graphic fileref=\"screenshots/administration/adminarea/admin-syslog.png\" "
+"scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 msgstr ""
-"<graphic scale=\"40\" fileref=\"screenshots/administration/adminarea/admin-"
-"syslog.png\"></graphic>"
+"<graphic fileref=\"screenshots/administration/adminarea/admin-syslog.png\" "
+"scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 
 #. type: Content of: <section><para>
 #: en/content/administration/adminarea/system-log.xml:22
@@ -12502,11 +12544,11 @@ msgstr "SQLボックス"
 #. type: Content of: <section><para><figure><screenshot>
 #: en/content/administration/adminarea/selectbox.xml:16
 msgid ""
-"<graphic scale=\"40\" fileref=\"screenshots/administration/adminarea/admin-"
-"selectbox.png\"></graphic>"
+"<graphic fileref=\"screenshots/administration/adminarea/admin-selectbox.png"
+"\" scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 msgstr ""
-"<graphic scale=\"40\" fileref=\"screenshots/administration/adminarea/admin-"
-"selectbox.png\"></graphic>"
+"<graphic fileref=\"screenshots/administration/adminarea/admin-selectbox.png"
+"\" scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 
 #. type: Content of: <section><para><figure><title>
 #: en/content/administration/adminarea/package-manager.xml:6
@@ -12527,11 +12569,11 @@ msgstr ""
 #. type: Content of: <section><para><figure><screenshot>
 #: en/content/administration/adminarea/package-manager.xml:16
 msgid ""
-"<graphic scale=\"40\" fileref=\"screenshots/administration/adminarea/admin-"
-"packagemanager.png\"></graphic>"
+"<graphic fileref=\"screenshots/administration/adminarea/admin-packagemanager."
+"png\" scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 msgstr ""
-"<graphic scale=\"40\" fileref=\"screenshots/administration/adminarea/admin-"
-"packagemanager.png\"></graphic>"
+"<graphic fileref=\"screenshots/administration/adminarea/admin-packagemanager."
+"png\" scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 
 #. type: Content of: <section><para>
 #: en/content/administration/adminarea/package-manager.xml:22
@@ -12629,11 +12671,13 @@ msgstr "ウェブサービスのためのグラフィカル・インターフェ
 #. type: Content of: <section><para><figure><screenshot>
 #: en/content/administration/adminarea/web-services.xml:15
 msgid ""
-"<graphic scale=\"40\" fileref=\"screenshots/administration/adminarea/"
-"genericinterface-webservice-overview.png\"></graphic>"
+"<graphic fileref=\"screenshots/administration/adminarea/genericinterface-"
+"webservice-overview.png\" scalefit=\"1\" width=\"100%\" contentdepth=\"100%"
+"\"></graphic>"
 msgstr ""
-"<graphic scale=\"40\" fileref=\"screenshots/administration/adminarea/"
-"genericinterface-webservice-overview.png\"></graphic>"
+"<graphic fileref=\"screenshots/administration/adminarea/genericinterface-"
+"webservice-overview.png\" scalefit=\"1\" width=\"100%\" contentdepth=\"100%"
+"\"></graphic>"
 
 #. type: Content of: <section><para>
 #: en/content/administration/adminarea/web-services.xml:20
@@ -12669,11 +12713,13 @@ msgstr ""
 #. type: Content of: <section><para><figure><screenshot>
 #: en/content/administration/adminarea/dynamic-fields.xml:15
 msgid ""
-"<graphic scale=\"40\" fileref=\"screenshots/administration/adminarea/"
-"dynamicfields-overview-filled.png\"></graphic>"
+"<graphic fileref=\"screenshots/administration/adminarea/dynamicfields-"
+"overview-filled.png\" scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></"
+"graphic>"
 msgstr ""
-"<graphic scale=\"40\" fileref=\"screenshots/administration/adminarea/"
-"dynamicfields-overview-filled.png\"></graphic>"
+"<graphic fileref=\"screenshots/administration/adminarea/dynamicfields-"
+"overview-filled.png\" scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></"
+"graphic>"
 
 #. type: Content of: <section><para>
 #: en/content/administration/adminarea/dynamic-fields.xml:20
@@ -12911,11 +12957,11 @@ msgstr ""
 #. type: Content of: <section><section><para><figure><screenshot>
 #: en/content/administration/daemon.xml:138
 msgid ""
-"<graphic scale=\"40\" fileref=\"screenshots/administration/adminarea/daemon-"
-"notify.png\"></graphic>"
+"<graphic fileref=\"screenshots/administration/adminarea/daemon-notify.png\" "
+"scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 msgstr ""
-"<graphic scale=\"40\" fileref=\"screenshots/administration/adminarea/daemon-"
-"notify.png\"></graphic>"
+"<graphic fileref=\"screenshots/administration/adminarea/daemon-notify.png\" "
+"scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 
 #. type: Content of: <section><section><para>
 #: en/content/administration/daemon.xml:143
@@ -12932,11 +12978,11 @@ msgstr ""
 #. type: Content of: <section><section><para><figure><screenshot>
 #: en/content/administration/daemon.xml:150
 msgid ""
-"<graphic scale=\"40\" fileref=\"screenshots/administration/adminarea/daemon-"
-"start.png\"></graphic>"
+"<graphic fileref=\"screenshots/administration/adminarea/daemon-start.png\" "
+"scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 msgstr ""
-"<graphic scale=\"40\" fileref=\"screenshots/administration/adminarea/daemon-"
-"start.png\"></graphic>"
+"<graphic fileref=\"screenshots/administration/adminarea/daemon-start.png\" "
+"scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 
 #. type: Content of: <section><section><title>
 #: en/content/administration/daemon.xml:156
@@ -14854,11 +14900,11 @@ msgstr "メールアカウントの追加。"
 #. type: Content of: <section><section><section><para><figure><screenshot>
 #: en/content/administration/email/email.xml:60
 msgid ""
-"<graphic scale=\"40\" fileref=\"screenshots/administration/email/add-"
-"mailaccount.png\"></graphic>"
+"<graphic fileref=\"screenshots/administration/email/add-mailaccount.png\" "
+"scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 msgstr ""
-"<graphic scale=\"40\" fileref=\"screenshots/administration/email/add-"
-"mailaccount.png\"></graphic>"
+"<graphic fileref=\"screenshots/administration/email/add-mailaccount.png\" "
+"scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 
 #. type: Content of: <section><section><section><para>
 #: en/content/administration/email/email.xml:65
@@ -17350,11 +17396,11 @@ msgstr ""
 #. type: Content of: <section><section><para><figure><screenshot>
 #: en/content/administration/ticket/monitoring-tickets.xml:30
 msgid ""
-"<graphic scale=\"40\" fileref=\"screenshots/administration/ticket/ticket-"
-"zoom-responsible.png\"></graphic>"
+"<graphic fileref=\"screenshots/administration/ticket/ticket-zoom-responsible."
+"png\" scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 msgstr ""
-"<graphic scale=\"40\" fileref=\"screenshots/administration/ticket/ticket-"
-"zoom-responsible.png\"></graphic>"
+"<graphic fileref=\"screenshots/administration/ticket/ticket-zoom-responsible."
+"png\" scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 
 #. type: Content of: <section><section><para>
 #: en/content/administration/ticket/monitoring-tickets.xml:36
@@ -17372,11 +17418,11 @@ msgstr ""
 #. type: Content of: <section><section><para><figure><screenshot>
 #: en/content/administration/ticket/monitoring-tickets.xml:43
 msgid ""
-"<graphic scale=\"40\" fileref=\"screenshots/administration/ticket/ticket-"
-"responsible.png\"></graphic>"
+"<graphic fileref=\"screenshots/administration/ticket/ticket-responsible.png"
+"\" scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 msgstr ""
-"<graphic scale=\"40\" fileref=\"screenshots/administration/ticket/ticket-"
-"responsible.png\"></graphic>"
+"<graphic fileref=\"screenshots/administration/ticket/ticket-responsible.png"
+"\" scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 
 #. type: Content of: <section><section><para>
 #: en/content/administration/ticket/monitoring-tickets.xml:49
@@ -17430,11 +17476,11 @@ msgstr ""
 #. type: Content of: <section><section><para><figure><screenshot>
 #: en/content/administration/ticket/monitoring-tickets.xml:73
 msgid ""
-"<graphic scale=\"40\" fileref=\"screenshots/administration/ticket/ticket-"
-"subscribe.png\"></graphic>"
+"<graphic fileref=\"screenshots/administration/ticket/ticket-subscribe.png\" "
+"scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 msgstr ""
-"<graphic scale=\"40\" fileref=\"screenshots/administration/ticket/ticket-"
-"subscribe.png\"></graphic>"
+"<graphic fileref=\"screenshots/administration/ticket/ticket-subscribe.png\" "
+"scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 
 #. type: Content of: <section><section><para>
 #: en/content/administration/ticket/monitoring-tickets.xml:79
@@ -17452,11 +17498,11 @@ msgstr ""
 #. type: Content of: <section><section><para><figure><screenshot>
 #: en/content/administration/ticket/monitoring-tickets.xml:86
 msgid ""
-"<graphic scale=\"40\" fileref=\"screenshots/administration/ticket/ticket-"
-"unsubscribe.png\"></graphic>"
+"<graphic fileref=\"screenshots/administration/ticket/ticket-unsubscribe.png"
+"\" scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 msgstr ""
-"<graphic scale=\"40\" fileref=\"screenshots/administration/ticket/ticket-"
-"unsubscribe.png\"></graphic>"
+"<graphic fileref=\"screenshots/administration/ticket/ticket-unsubscribe.png"
+"\" scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 
 #. type: Content of: <section><section><para>
 #: en/content/administration/ticket/monitoring-tickets.xml:92
@@ -17474,11 +17520,11 @@ msgstr ""
 #. type: Content of: <section><section><para><figure><screenshot>
 #: en/content/administration/ticket/monitoring-tickets.xml:99
 msgid ""
-"<graphic scale=\"40\" fileref=\"screenshots/administration/ticket/ticket-"
-"subscribe-mailbox.png\"></graphic>"
+"<graphic fileref=\"screenshots/administration/ticket/ticket-subscribe-"
+"mailbox.png\" scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 msgstr ""
-"<graphic scale=\"40\" fileref=\"screenshots/administration/ticket/ticket-"
-"subscribe-mailbox.png\"></graphic>"
+"<graphic fileref=\"screenshots/administration/ticket/ticket-subscribe-"
+"mailbox.png\" scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 
 #. type: Content of: <section><title>
 #: en/content/administration/configuration.xml:6
@@ -17701,11 +17747,13 @@ msgstr "動的フィールド概要画面、空"
 #. type: Content of: <section><section><para><figure><screenshot>
 #: en/content/administration/dynamicfields-configuration.xml:28
 msgid ""
-"<graphic scale=\"40\" fileref=\"screenshots/administration/dynamicfields/"
-"dynamicfields-overview-empty.png\"></graphic>"
+"<graphic fileref=\"screenshots/administration/dynamicfields/dynamicfields-"
+"overview-empty.png\" scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></"
+"graphic>"
 msgstr ""
-"<graphic scale=\"40\" fileref=\"screenshots/administration/dynamicfields/"
-"dynamicfields-overview-empty.png\"></graphic>"
+"<graphic fileref=\"screenshots/administration/dynamicfields/dynamicfields-"
+"overview-empty.png\" scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></"
+"graphic>"
 
 #. type: Content of: <section><section><para>
 #: en/content/administration/dynamicfields-configuration.xml:33
@@ -18083,11 +18131,13 @@ msgstr "動的フィールド・テキストの構成ダイアログ。"
 #. type: Content of: <section><section><para><figure><screenshot>
 #: en/content/administration/dynamicfields-configuration.xml:246
 msgid ""
-"<graphic scale=\"40\" fileref=\"screenshots/administration/dynamicfields/"
-"dynamicfields-configuration-text.png\"></graphic>"
+"<graphic fileref=\"screenshots/administration/dynamicfields/dynamicfields-"
+"configuration-text.png\" scalefit=\"1\" width=\"100%\" contentdepth=\"100%"
+"\"></graphic>"
 msgstr ""
-"<graphic scale=\"40\" fileref=\"screenshots/administration/dynamicfields/"
-"dynamicfields-configuration-text.png\"></graphic>"
+"<graphic fileref=\"screenshots/administration/dynamicfields/dynamicfields-"
+"configuration-text.png\" scalefit=\"1\" width=\"100%\" contentdepth=\"100%"
+"\"></graphic>"
 
 #. type: Content of: <section><section><title>
 #: en/content/administration/dynamicfields-configuration.xml:253
@@ -18146,11 +18196,13 @@ msgstr "動的フィールドテキストエリアの構成ダイアログ。"
 #. type: Content of: <section><section><para><figure><screenshot>
 #: en/content/administration/dynamicfields-configuration.xml:292
 msgid ""
-"<graphic scale=\"40\" fileref=\"screenshots/administration/dynamicfields/"
-"dynamicfields-configuration-textarea.png\"></graphic>"
+"<graphic fileref=\"screenshots/administration/dynamicfields/dynamicfields-"
+"configuration-textarea.png\" scalefit=\"1\" width=\"100%\" contentdepth="
+"\"100%\"></graphic>"
 msgstr ""
-"<graphic scale=\"40\" fileref=\"screenshots/administration/dynamicfields/"
-"dynamicfields-configuration-textarea.png\"></graphic>"
+"<graphic fileref=\"screenshots/administration/dynamicfields/dynamicfields-"
+"configuration-textarea.png\" scalefit=\"1\" width=\"100%\" contentdepth="
+"\"100%\"></graphic>"
 
 #. type: Content of: <section><section><title>
 #: en/content/administration/dynamicfields-configuration.xml:299
@@ -18195,11 +18247,13 @@ msgstr "動的フィールド・チェックボックスの構成ダイアログ
 #. type: Content of: <section><section><para><figure><screenshot>
 #: en/content/administration/dynamicfields-configuration.xml:323
 msgid ""
-"<graphic scale=\"40\" fileref=\"screenshots/administration/dynamicfields/"
-"dynamicfields-configuration-checkbox.png\"></graphic>"
+"<graphic fileref=\"screenshots/administration/dynamicfields/dynamicfields-"
+"configuration-checkbox.png\" scalefit=\"1\" width=\"100%\" contentdepth="
+"\"100%\"></graphic>"
 msgstr ""
-"<graphic scale=\"40\" fileref=\"screenshots/administration/dynamicfields/"
-"dynamicfields-configuration-checkbox.png\"></graphic>"
+"<graphic fileref=\"screenshots/administration/dynamicfields/dynamicfields-"
+"configuration-checkbox.png\" scalefit=\"1\" width=\"100%\" contentdepth="
+"\"100%\"></graphic>"
 
 #. type: Content of: <section><section><title>
 #: en/content/administration/dynamicfields-configuration.xml:331
@@ -18289,11 +18343,13 @@ msgstr "動的フィールド・ドロップダウンの構成ダイアログ"
 #. type: Content of: <section><section><para><figure><screenshot>
 #: en/content/administration/dynamicfields-configuration.xml:402
 msgid ""
-"<graphic scale=\"40\" fileref=\"screenshots/administration/dynamicfields/"
-"dynamicfields-configuration-dropdown.png\"></graphic>"
+"<graphic fileref=\"screenshots/administration/dynamicfields/dynamicfields-"
+"configuration-dropdown.png\" scalefit=\"1\" width=\"100%\" contentdepth="
+"\"100%\"></graphic>"
 msgstr ""
-"<graphic scale=\"40\" fileref=\"screenshots/administration/dynamicfields/"
-"dynamicfields-configuration-dropdown.png\"></graphic>"
+"<graphic fileref=\"screenshots/administration/dynamicfields/dynamicfields-"
+"configuration-dropdown.png\" scalefit=\"1\" width=\"100%\" contentdepth="
+"\"100%\"></graphic>"
 
 #. type: Content of: <section><section><title>
 #: en/content/administration/dynamicfields-configuration.xml:409
@@ -18331,11 +18387,13 @@ msgstr "動的フィールド 複数選択の構成ダイアログ"
 #. type: Content of: <section><section><para><figure><screenshot>
 #: en/content/administration/dynamicfields-configuration.xml:460
 msgid ""
-"<graphic scale=\"40\" fileref=\"screenshots/administration/dynamicfields/"
-"dynamicfields-configuration-multiselect.png\"></graphic>"
+"<graphic fileref=\"screenshots/administration/dynamicfields/dynamicfields-"
+"configuration-multiselect.png\" scalefit=\"1\" width=\"100%\" contentdepth="
+"\"100%\"></graphic>"
 msgstr ""
-"<graphic scale=\"40\" fileref=\"screenshots/administration/dynamicfields/"
-"dynamicfields-configuration-multiselect.png\"></graphic>"
+"<graphic fileref=\"screenshots/administration/dynamicfields/dynamicfields-"
+"configuration-multiselect.png\" scalefit=\"1\" width=\"100%\" contentdepth="
+"\"100%\"></graphic>"
 
 #. type: Content of: <section><section><title>
 #: en/content/administration/dynamicfields-configuration.xml:467
@@ -18440,11 +18498,13 @@ msgstr "動的フィールド 日付/時刻の構成ダイアログ"
 #. type: Content of: <section><section><para><figure><screenshot>
 #: en/content/administration/dynamicfields-configuration.xml:542
 msgid ""
-"<graphic scale=\"40\" fileref=\"screenshots/administration/dynamicfields/"
-"dynamicfields-configuration-date.png\"></graphic>"
+"<graphic fileref=\"screenshots/administration/dynamicfields/dynamicfields-"
+"configuration-date.png\" scalefit=\"1\" width=\"100%\" contentdepth=\"100%"
+"\"></graphic>"
 msgstr ""
-"<graphic scale=\"40\" fileref=\"screenshots/administration/dynamicfields/"
-"dynamicfields-configuration-date.png\"></graphic>"
+"<graphic fileref=\"screenshots/administration/dynamicfields/dynamicfields-"
+"configuration-date.png\" scalefit=\"1\" width=\"100%\" contentdepth=\"100%"
+"\"></graphic>"
 
 #. type: Content of: <section><section><title>
 #: en/content/administration/dynamicfields-configuration.xml:549
@@ -18473,11 +18533,13 @@ msgstr "動的フィールド 日付 の構成ダイアログ"
 #. type: Content of: <section><section><para><figure><screenshot>
 #: en/content/administration/dynamicfields-configuration.xml:625
 msgid ""
-"<graphic scale=\"40\" fileref=\"screenshots/administration/dynamicfields/"
-"dynamicfields-configuration-datetime.png\"></graphic>"
+"<graphic fileref=\"screenshots/administration/dynamicfields/dynamicfields-"
+"configuration-datetime.png\" scalefit=\"1\" width=\"100%\" contentdepth="
+"\"100%\"></graphic>"
 msgstr ""
-"<graphic scale=\"40\" fileref=\"screenshots/administration/dynamicfields/"
-"dynamicfields-configuration-datetime.png\"></graphic>"
+"<graphic fileref=\"screenshots/administration/dynamicfields/dynamicfields-"
+"configuration-datetime.png\" scalefit=\"1\" width=\"100%\" contentdepth="
+"\"100%\"></graphic>"
 
 #. type: Content of: <section><section><title>
 #: en/content/administration/dynamicfields-configuration.xml:632
@@ -18501,11 +18563,13 @@ msgstr "サンプルデータで埋められた動的フィールドの概要画
 #. type: Content of: <section><section><para><figure><screenshot>
 #: en/content/administration/dynamicfields-configuration.xml:640
 msgid ""
-"<graphic scale=\"40\" fileref=\"screenshots/administration/dynamicfields/"
-"dynamicfields-overview-filled.png\"></graphic>"
+"<graphic fileref=\"screenshots/administration/dynamicfields/dynamicfields-"
+"overview-filled.png\" scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></"
+"graphic>"
 msgstr ""
-"<graphic scale=\"40\" fileref=\"screenshots/administration/dynamicfields/"
-"dynamicfields-overview-filled.png\"></graphic>"
+"<graphic fileref=\"screenshots/administration/dynamicfields/dynamicfields-"
+"overview-filled.png\" scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></"
+"graphic>"
 
 #. type: Content of: <section><section><para>
 #: en/content/administration/dynamicfields-configuration.xml:645
@@ -18739,11 +18803,13 @@ msgstr ""
 #. type: Content of: <section><section><section><para><example><para><figure><screenshot>
 #: en/content/administration/dynamicfields-configuration.xml:788
 msgid ""
-"<graphic scale=\"40\" fileref=\"screenshots/administration/dynamicfields/"
-"dynamicfields-agentticketphone-field1.png\"></graphic>"
+"<graphic fileref=\"screenshots/administration/dynamicfields/dynamicfields-"
+"agentticketphone-field1.png\" scalefit=\"1\" width=\"100%\" contentdepth="
+"\"100%\"></graphic>"
 msgstr ""
-"<graphic scale=\"40\" fileref=\"screenshots/administration/dynamicfields/"
-"dynamicfields-agentticketphone-field1.png\"></graphic>"
+"<graphic fileref=\"screenshots/administration/dynamicfields/dynamicfields-"
+"agentticketphone-field1.png\" scalefit=\"1\" width=\"100%\" contentdepth="
+"\"100%\"></graphic>"
 
 #. type: Content of: <section><section><section><para><example><title>
 #: en/content/administration/dynamicfields-configuration.xml:796
@@ -18763,11 +18829,13 @@ msgstr ""
 #. type: Content of: <section><section><section><para><example><para><figure><screenshot>
 #: en/content/administration/dynamicfields-configuration.xml:844
 msgid ""
-"<graphic scale=\"40\" fileref=\"screenshots/administration/dynamicfields/"
-"dynamicfields-agentticketphone-field1-mandatory.png\"></graphic>"
+"<graphic fileref=\"screenshots/administration/dynamicfields/dynamicfields-"
+"agentticketphone-field1-mandatory.png\" scalefit=\"1\" width=\"100%\" "
+"contentdepth=\"100%\"></graphic>"
 msgstr ""
-"<graphic scale=\"40\" fileref=\"screenshots/administration/dynamicfields/"
-"dynamicfields-agentticketphone-field1-mandatory.png\"></graphic>"
+"<graphic fileref=\"screenshots/administration/dynamicfields/dynamicfields-"
+"agentticketphone-field1-mandatory.png\" scalefit=\"1\" width=\"100%\" "
+"contentdepth=\"100%\"></graphic>"
 
 #. type: Content of: <section><section><section><para><example><title>
 #: en/content/administration/dynamicfields-configuration.xml:852
@@ -18782,11 +18850,13 @@ msgstr ""
 #. type: Content of: <section><section><section><para><example><para><figure><screenshot>
 #: en/content/administration/dynamicfields-configuration.xml:924
 msgid ""
-"<graphic scale=\"40\" fileref=\"screenshots/administration/dynamicfields/"
-"dynamicfields-agentticketphone-allfields.png\"></graphic>"
+"<graphic fileref=\"screenshots/administration/dynamicfields/dynamicfields-"
+"agentticketphone-allfields.png\" scalefit=\"1\" width=\"100%\" contentdepth="
+"\"100%\"></graphic>"
 msgstr ""
-"<graphic scale=\"40\" fileref=\"screenshots/administration/dynamicfields/"
-"dynamicfields-agentticketphone-allfields.png\"></graphic>"
+"<graphic fileref=\"screenshots/administration/dynamicfields/dynamicfields-"
+"agentticketphone-allfields.png\" scalefit=\"1\" width=\"100%\" contentdepth="
+"\"100%\"></graphic>"
 
 #. type: Content of: <section><section><section><para><example><title>
 #: en/content/administration/dynamicfields-configuration.xml:932
@@ -18808,11 +18878,13 @@ msgstr ""
 #. type: Content of: <section><section><section><para><example><para><figure><screenshot>
 #: en/content/administration/dynamicfields-configuration.xml:1004
 msgid ""
-"<graphic scale=\"40\" fileref=\"screenshots/administration/dynamicfields/"
-"dynamicfields-agentticketphone-somefields.png\"></graphic>"
+"<graphic fileref=\"screenshots/administration/dynamicfields/dynamicfields-"
+"agentticketphone-somefields.png\" scalefit=\"1\" width=\"100%\" contentdepth="
+"\"100%\"></graphic>"
 msgstr ""
-"<graphic scale=\"40\" fileref=\"screenshots/administration/dynamicfields/"
-"dynamicfields-agentticketphone-somefields.png\"></graphic>"
+"<graphic fileref=\"screenshots/administration/dynamicfields/dynamicfields-"
+"agentticketphone-somefields.png\" scalefit=\"1\" width=\"100%\" contentdepth="
+"\"100%\"></graphic>"
 
 #. type: Content of: <section><section><section><para><example><title>
 #: en/content/administration/dynamicfields-configuration.xml:1012
@@ -18840,11 +18912,13 @@ msgstr ""
 #. type: Content of: <section><section><section><para><example><para><figure><screenshot>
 #: en/content/administration/dynamicfields-configuration.xml:1060
 msgid ""
-"<graphic scale=\"40\" fileref=\"screenshots/administration/dynamicfields/"
-"dynamicfields-agentticketzoom-field1.png\"></graphic>"
+"<graphic fileref=\"screenshots/administration/dynamicfields/dynamicfields-"
+"agentticketzoom-field1.png\" scalefit=\"1\" width=\"100%\" contentdepth="
+"\"100%\"></graphic>"
 msgstr ""
-"<graphic scale=\"40\" fileref=\"screenshots/administration/dynamicfields/"
-"dynamicfields-agentticketzoom-field1.png\"></graphic>"
+"<graphic fileref=\"screenshots/administration/dynamicfields/dynamicfields-"
+"agentticketzoom-field1.png\" scalefit=\"1\" width=\"100%\" contentdepth="
+"\"100%\"></graphic>"
 
 #. type: Content of: <section><section><section><para><example><title>
 #: en/content/administration/dynamicfields-configuration.xml:1068
@@ -18871,11 +18945,13 @@ msgstr ""
 #. type: Content of: <section><section><section><para><example><para><figure><screenshot>
 #: en/content/administration/dynamicfields-configuration.xml:1116
 msgid ""
-"<graphic scale=\"40\" fileref=\"screenshots/administration/dynamicfields/"
-"dynamicfields-ticketoverviewsmall-field1.png\"></graphic>"
+"<graphic fileref=\"screenshots/administration/dynamicfields/dynamicfields-"
+"ticketoverviewsmall-field1.png\" scalefit=\"1\" width=\"100%\" contentdepth="
+"\"100%\"></graphic>"
 msgstr ""
-"<graphic scale=\"40\" fileref=\"screenshots/administration/dynamicfields/"
-"dynamicfields-ticketoverviewsmall-field1.png\"></graphic>"
+"<graphic fileref=\"screenshots/administration/dynamicfields/dynamicfields-"
+"ticketoverviewsmall-field1.png\" scalefit=\"1\" width=\"100%\" contentdepth="
+"\"100%\"></graphic>"
 
 #. type: Content of: <section><section><section><para><example><para>
 #: en/content/administration/dynamicfields-configuration.xml:1121
@@ -19125,11 +19201,13 @@ msgstr ""
 #. type: Content of: <section><section><example><para><figure><screenshot>
 #: en/content/administration/dynamicfields-configuration.xml:1324
 msgid ""
-"<graphic scale=\"40\" fileref=\"screenshots/administration/dynamicfields/"
-"dynamicfields-userpreferences.png\"></graphic>"
+"<graphic fileref=\"screenshots/administration/dynamicfields/dynamicfields-"
+"userpreferences.png\" scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></"
+"graphic>"
 msgstr ""
-"<graphic scale=\"40\" fileref=\"screenshots/administration/dynamicfields/"
-"dynamicfields-userpreferences.png\"></graphic>"
+"<graphic fileref=\"screenshots/administration/dynamicfields/dynamicfields-"
+"userpreferences.png\" scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></"
+"graphic>"
 
 #. type: Content of: <section><section><para>
 #: en/content/administration/dynamicfields.xml:9
@@ -19508,11 +19586,13 @@ msgstr ""
 #. type: Content of: <section><section><para><figure><screenshot>
 #: en/content/administration/genericinterface/genericinterface-webservice-gui.xml:62
 msgid ""
-"<graphic scale=\"40\" fileref=\"screenshots/administration/genericinterface/"
-"genericinterface-webservice-overview.png\"></graphic>"
+"<graphic fileref=\"screenshots/administration/genericinterface/"
+"genericinterface-webservice-overview.png\" scalefit=\"1\" width=\"100%\" "
+"contentdepth=\"100%\"></graphic>"
 msgstr ""
-"<graphic scale=\"40\" fileref=\"screenshots/administration/genericinterface/"
-"genericinterface-webservice-overview.png\"></graphic>"
+"<graphic fileref=\"screenshots/administration/genericinterface/"
+"genericinterface-webservice-overview.png\" scalefit=\"1\" width=\"100%\" "
+"contentdepth=\"100%\"></graphic>"
 
 #. type: Content of: <section><section><title>
 #: en/content/administration/genericinterface/genericinterface-webservice-gui.xml:69
@@ -19621,11 +19701,13 @@ msgstr ""
 #. type: Content of: <section><section><para><figure><screenshot>
 #: en/content/administration/genericinterface/genericinterface-webservice-gui.xml:131
 msgid ""
-"<graphic scale=\"40\" fileref=\"screenshots/administration/genericinterface/"
-"genericinterface-webservice-add.png\"></graphic>"
+"<graphic fileref=\"screenshots/administration/genericinterface/"
+"genericinterface-webservice-add.png\" scalefit=\"1\" width=\"100%\" "
+"contentdepth=\"100%\"></graphic>"
 msgstr ""
-"<graphic scale=\"40\" fileref=\"screenshots/administration/genericinterface/"
-"genericinterface-webservice-add.png\"></graphic>"
+"<graphic fileref=\"screenshots/administration/genericinterface/"
+"genericinterface-webservice-add.png\" scalefit=\"1\" width=\"100%\" "
+"contentdepth=\"100%\"></graphic>"
 
 #. type: Content of: <section><section><title>
 #: en/content/administration/genericinterface/genericinterface-webservice-gui.xml:138
@@ -19722,11 +19804,13 @@ msgstr "ウェブサービス・クローン"
 #. type: Content of: <section><section><section><para><figure><screenshot>
 #: en/content/administration/genericinterface/genericinterface-webservice-gui.xml:203
 msgid ""
-"<graphic scale=\"40\" fileref=\"screenshots/administration/genericinterface/"
-"genericinterface-webservice-clone.png\"></graphic>"
+"<graphic fileref=\"screenshots/administration/genericinterface/"
+"genericinterface-webservice-clone.png\" scalefit=\"1\" width=\"100%\" "
+"contentdepth=\"100%\"></graphic>"
 msgstr ""
-"<graphic scale=\"40\" fileref=\"screenshots/administration/genericinterface/"
-"genericinterface-webservice-clone.png\"></graphic>"
+"<graphic fileref=\"screenshots/administration/genericinterface/"
+"genericinterface-webservice-clone.png\" scalefit=\"1\" width=\"100%\" "
+"contentdepth=\"100%\"></graphic>"
 
 #. type: Content of: <section><section><section><title>
 #: en/content/administration/genericinterface/genericinterface-webservice-gui.xml:210
@@ -19790,11 +19874,13 @@ msgstr ""
 #. type: Content of: <section><section><section><para><figure><screenshot>
 #: en/content/administration/genericinterface/genericinterface-webservice-gui.xml:240
 msgid ""
-"<graphic scale=\"40\" fileref=\"screenshots/administration/genericinterface/"
-"genericinterface-webservice-export.png\"></graphic>"
+"<graphic fileref=\"screenshots/administration/genericinterface/"
+"genericinterface-webservice-export.png\" scalefit=\"1\" width=\"100%\" "
+"contentdepth=\"100%\"></graphic>"
 msgstr ""
-"<graphic scale=\"40\" fileref=\"screenshots/administration/genericinterface/"
-"genericinterface-webservice-export.png\"></graphic>"
+"<graphic fileref=\"screenshots/administration/genericinterface/"
+"genericinterface-webservice-export.png\" scalefit=\"1\" width=\"100%\" "
+"contentdepth=\"100%\"></graphic>"
 
 #. type: Content of: <section><section><section><title>
 #: en/content/administration/genericinterface/genericinterface-webservice-gui.xml:247
@@ -19845,11 +19931,13 @@ msgstr ""
 #. type: Content of: <section><section><section><para><figure><screenshot>
 #: en/content/administration/genericinterface/genericinterface-webservice-gui.xml:271
 msgid ""
-"<graphic scale=\"40\" fileref=\"screenshots/administration/genericinterface/"
-"genericinterface-webservice-import.png\"></graphic>"
+"<graphic fileref=\"screenshots/administration/genericinterface/"
+"genericinterface-webservice-import.png\" scalefit=\"1\" width=\"100%\" "
+"contentdepth=\"100%\"></graphic>"
 msgstr ""
-"<graphic scale=\"40\" fileref=\"screenshots/administration/genericinterface/"
-"genericinterface-webservice-import.png\"></graphic>"
+"<graphic fileref=\"screenshots/administration/genericinterface/"
+"genericinterface-webservice-import.png\" scalefit=\"1\" width=\"100%\" "
+"contentdepth=\"100%\"></graphic>"
 
 #. type: Content of: <section><section><section><title>
 #: en/content/administration/genericinterface/genericinterface-webservice-gui.xml:278
@@ -19937,11 +20025,13 @@ msgstr ""
 #. type: Content of: <section><section><section><para><figure><screenshot>
 #: en/content/administration/genericinterface/genericinterface-webservice-gui.xml:319
 msgid ""
-"<graphic scale=\"40\" fileref=\"screenshots/administration/genericinterface/"
-"genericinterface-webservice-history.png\"></graphic>"
+"<graphic fileref=\"screenshots/administration/genericinterface/"
+"genericinterface-webservice-history.png\" scalefit=\"1\" width=\"100%\" "
+"contentdepth=\"100%\"></graphic>"
 msgstr ""
-"<graphic scale=\"40\" fileref=\"screenshots/administration/genericinterface/"
-"genericinterface-webservice-history.png\"></graphic>"
+"<graphic fileref=\"screenshots/administration/genericinterface/"
+"genericinterface-webservice-history.png\" scalefit=\"1\" width=\"100%\" "
+"contentdepth=\"100%\"></graphic>"
 
 #. type: Content of: <section><section><section><title>
 #: en/content/administration/genericinterface/genericinterface-webservice-gui.xml:326
@@ -19985,11 +20075,13 @@ msgstr "ウェブサービスの削除"
 #. type: Content of: <section><section><section><para><figure><screenshot>
 #: en/content/administration/genericinterface/genericinterface-webservice-gui.xml:346
 msgid ""
-"<graphic scale=\"40\" fileref=\"screenshots/administration/genericinterface/"
-"genericinterface-webservice-delete.png\"></graphic>"
+"<graphic fileref=\"screenshots/administration/genericinterface/"
+"genericinterface-webservice-delete.png\" scalefit=\"1\" width=\"100%\" "
+"contentdepth=\"100%\"></graphic>"
 msgstr ""
-"<graphic scale=\"40\" fileref=\"screenshots/administration/genericinterface/"
-"genericinterface-webservice-delete.png\"></graphic>"
+"<graphic fileref=\"screenshots/administration/genericinterface/"
+"genericinterface-webservice-delete.png\" scalefit=\"1\" width=\"100%\" "
+"contentdepth=\"100%\"></graphic>"
 
 #. type: Content of: <section><section><section><title>
 #: en/content/administration/genericinterface/genericinterface-webservice-gui.xml:353
@@ -20100,11 +20192,13 @@ msgstr ""
 #. type: Content of: <section><section><section><para><figure><screenshot>
 #: en/content/administration/genericinterface/genericinterface-webservice-gui.xml:414
 msgid ""
-"<graphic scale=\"40\" fileref=\"screenshots/administration/genericinterface/"
-"genericinterface-webservice-debugger.png\"></graphic>"
+"<graphic fileref=\"screenshots/administration/genericinterface/"
+"genericinterface-webservice-debugger.png\" scalefit=\"1\" width=\"100%\" "
+"contentdepth=\"100%\"></graphic>"
 msgstr ""
-"<graphic scale=\"40\" fileref=\"screenshots/administration/genericinterface/"
-"genericinterface-webservice-debugger.png\"></graphic>"
+"<graphic fileref=\"screenshots/administration/genericinterface/"
+"genericinterface-webservice-debugger.png\" scalefit=\"1\" width=\"100%\" "
+"contentdepth=\"100%\"></graphic>"
 
 #. type: Content of: <section><section><section><title>
 #: en/content/administration/genericinterface/genericinterface-webservice-gui.xml:421
@@ -20191,11 +20285,13 @@ msgstr ""
 #. type: Content of: <section><section><section><para><figure><screenshot>
 #: en/content/administration/genericinterface/genericinterface-webservice-gui.xml:458
 msgid ""
-"<graphic scale=\"40\" fileref=\"screenshots/administration/genericinterface/"
-"genericinterface-webservice-change.png\"></graphic>"
+"<graphic fileref=\"screenshots/administration/genericinterface/"
+"genericinterface-webservice-change.png\" scalefit=\"1\" width=\"100%\" "
+"contentdepth=\"100%\"></graphic>"
 msgstr ""
-"<graphic scale=\"40\" fileref=\"screenshots/administration/genericinterface/"
-"genericinterface-webservice-change.png\"></graphic>"
+"<graphic fileref=\"screenshots/administration/genericinterface/"
+"genericinterface-webservice-change.png\" scalefit=\"1\" width=\"100%\" "
+"contentdepth=\"100%\"></graphic>"
 
 #. type: Content of: <section><section><section><note><para>
 #: en/content/administration/genericinterface/genericinterface-webservice-gui.xml:464
@@ -20280,11 +20376,13 @@ msgstr ""
 #. type: Content of: <section><section><section><section><para><figure><screenshot>
 #: en/content/administration/genericinterface/genericinterface-webservice-gui.xml:505
 msgid ""
-"<graphic scale=\"40\" fileref=\"screenshots/administration/genericinterface/"
-"genericinterface-webservice-provider-transport-soap.png\"></graphic>"
+"<graphic fileref=\"screenshots/administration/genericinterface/"
+"genericinterface-webservice-provider-transport-soap.png\" scalefit=\"1\" "
+"width=\"100%\" contentdepth=\"100%\"></graphic>"
 msgstr ""
-"<graphic scale=\"40\" fileref=\"screenshots/administration/genericinterface/"
-"genericinterface-webservice-provider-transport-soap.png\"></graphic>"
+"<graphic fileref=\"screenshots/administration/genericinterface/"
+"genericinterface-webservice-provider-transport-soap.png\" scalefit=\"1\" "
+"width=\"100%\" contentdepth=\"100%\"></graphic>"
 
 #. type: Content of: <section><section><section><section><para>
 #: en/content/administration/genericinterface/genericinterface-webservice-gui.xml:510
@@ -20483,11 +20581,13 @@ msgstr ""
 #. type: Content of: <section><section><section><section><para><figure><screenshot>
 #: en/content/administration/genericinterface/genericinterface-webservice-gui.xml:645
 msgid ""
-"<graphic scale=\"40\" fileref=\"screenshots/administration/genericinterface/"
-"genericinterface-webservice-provider-transport-rest.png\"></graphic>"
+"<graphic fileref=\"screenshots/administration/genericinterface/"
+"genericinterface-webservice-provider-transport-rest.png\" scalefit=\"1\" "
+"width=\"100%\" contentdepth=\"100%\"></graphic>"
 msgstr ""
-"<graphic scale=\"40\" fileref=\"screenshots/administration/genericinterface/"
-"genericinterface-webservice-provider-transport-rest.png\"></graphic>"
+"<graphic fileref=\"screenshots/administration/genericinterface/"
+"genericinterface-webservice-provider-transport-rest.png\" scalefit=\"1\" "
+"width=\"100%\" contentdepth=\"100%\"></graphic>"
 
 #. type: Content of: <section><section><section><section><title>
 #: en/content/administration/genericinterface/genericinterface-webservice-gui.xml:652
@@ -20562,11 +20662,13 @@ msgstr ""
 #. type: Content of: <section><section><section><section><para><figure><screenshot>
 #: en/content/administration/genericinterface/genericinterface-webservice-gui.xml:692
 msgid ""
-"<graphic scale=\"40\" fileref=\"screenshots/administration/genericinterface/"
-"genericinterface-webservice-operation.png\"></graphic>"
+"<graphic fileref=\"screenshots/administration/genericinterface/"
+"genericinterface-webservice-operation.png\" scalefit=\"1\" width=\"100%\" "
+"contentdepth=\"100%\"></graphic>"
 msgstr ""
-"<graphic scale=\"40\" fileref=\"screenshots/administration/genericinterface/"
-"genericinterface-webservice-operation.png\"></graphic>"
+"<graphic fileref=\"screenshots/administration/genericinterface/"
+"genericinterface-webservice-operation.png\" scalefit=\"1\" width=\"100%\" "
+"contentdepth=\"100%\"></graphic>"
 
 #. type: Content of: <section><section><section><section><title>
 #: en/content/administration/genericinterface/genericinterface-webservice-gui.xml:699
@@ -20652,11 +20754,13 @@ msgstr ""
 #. type: Content of: <section><section><section><section><para><figure><screenshot>
 #: en/content/administration/genericinterface/genericinterface-webservice-gui.xml:754
 msgid ""
-"<graphic scale=\"40\" fileref=\"screenshots/administration/genericinterface/"
-"genericinterface-webservice-requester-transport-soap.png\"></graphic>"
+"<graphic fileref=\"screenshots/administration/genericinterface/"
+"genericinterface-webservice-requester-transport-soap.png\" scalefit=\"1\" "
+"width=\"100%\" contentdepth=\"100%\"></graphic>"
 msgstr ""
-"<graphic scale=\"40\" fileref=\"screenshots/administration/genericinterface/"
-"genericinterface-webservice-requester-transport-soap.png\"></graphic>"
+"<graphic fileref=\"screenshots/administration/genericinterface/"
+"genericinterface-webservice-requester-transport-soap.png\" scalefit=\"1\" "
+"width=\"100%\" contentdepth=\"100%\"></graphic>"
 
 #. type: Content of: <section><section><section><section><para>
 #: en/content/administration/genericinterface/genericinterface-webservice-gui.xml:759
@@ -20793,11 +20897,13 @@ msgstr ""
 #. type: Content of: <section><section><section><section><para><figure><screenshot>
 #: en/content/administration/genericinterface/genericinterface-webservice-gui.xml:859
 msgid ""
-"<graphic scale=\"40\" fileref=\"screenshots/administration/genericinterface/"
-"genericinterface-webservice-requester-transport-rest.png\"></graphic>"
+"<graphic fileref=\"screenshots/administration/genericinterface/"
+"genericinterface-webservice-requester-transport-rest.png\" scalefit=\"1\" "
+"width=\"100%\" contentdepth=\"100%\"></graphic>"
 msgstr ""
-"<graphic scale=\"40\" fileref=\"screenshots/administration/genericinterface/"
-"genericinterface-webservice-requester-transport-rest.png\"></graphic>"
+"<graphic fileref=\"screenshots/administration/genericinterface/"
+"genericinterface-webservice-requester-transport-rest.png\" scalefit=\"1\" "
+"width=\"100%\" contentdepth=\"100%\"></graphic>"
 
 #. type: Content of: <section><section><section><section><title>
 #: en/content/administration/genericinterface/genericinterface-webservice-gui.xml:866
@@ -20926,11 +21032,13 @@ msgstr ""
 #. type: Content of: <section><section><section><section><para><figure><screenshot>
 #: en/content/administration/genericinterface/genericinterface-webservice-gui.xml:938
 msgid ""
-"<graphic scale=\"40\" fileref=\"screenshots/administration/genericinterface/"
-"genericinterface-webservice-invoker.png\"></graphic>"
+"<graphic fileref=\"screenshots/administration/genericinterface/"
+"genericinterface-webservice-invoker.png\" scalefit=\"1\" width=\"100%\" "
+"contentdepth=\"100%\"></graphic>"
 msgstr ""
-"<graphic scale=\"40\" fileref=\"screenshots/administration/genericinterface/"
-"genericinterface-webservice-invoker.png\"></graphic>"
+"<graphic fileref=\"screenshots/administration/genericinterface/"
+"genericinterface-webservice-invoker.png\" scalefit=\"1\" width=\"100%\" "
+"contentdepth=\"100%\"></graphic>"
 
 #. type: Content of: <section><section><section><section><title>
 #: en/content/administration/genericinterface/genericinterface-webservice-gui.xml:945
@@ -21105,11 +21213,13 @@ msgstr ""
 #. type: Content of: <section><section><section><section><para><figure><screenshot>
 #: en/content/administration/genericinterface/genericinterface-webservice-gui.xml:1046
 msgid ""
-"<graphic scale=\"40\" fileref=\"screenshots/administration/genericinterface/"
-"genericinterface-webservice-mapping.png\"></graphic>"
+"<graphic fileref=\"screenshots/administration/genericinterface/"
+"genericinterface-webservice-mapping.png\" scalefit=\"1\" width=\"100%\" "
+"contentdepth=\"100%\"></graphic>"
 msgstr ""
-"<graphic scale=\"40\" fileref=\"screenshots/administration/genericinterface/"
-"genericinterface-webservice-mapping.png\"></graphic>"
+"<graphic fileref=\"screenshots/administration/genericinterface/"
+"genericinterface-webservice-mapping.png\" scalefit=\"1\" width=\"100%\" "
+"contentdepth=\"100%\"></graphic>"
 
 #. type: Content of: <section><title>
 #: en/content/administration/genericinterface/genericinterface-communication-flow.xml:5
@@ -21588,11 +21698,13 @@ msgstr ""
 #. type: Content of: <section><para><figure><screenshot>
 #: en/content/administration/genericinterface/genericinterface-layers.xml:28
 msgid ""
-"<graphic scale=\"50\" fileref=\"screenshots/administration/genericinterface/"
-"genericinterface-layers.png\"></graphic>"
+"<graphic fileref=\"screenshots/administration/genericinterface/"
+"genericinterface-layers.png\" scalefit=\"1\" width=\"100%\" contentdepth="
+"\"100%\"></graphic>"
 msgstr ""
-"<graphic scale=\"50\" fileref=\"screenshots/administration/genericinterface/"
-"genericinterface-layers.png\"></graphic>"
+"<graphic fileref=\"screenshots/administration/genericinterface/"
+"genericinterface-layers.png\" scalefit=\"1\" width=\"100%\" contentdepth="
+"\"100%\"></graphic>"
 
 #. type: Content of: <section><section><para>
 #: en/content/administration/genericinterface/genericinterface-layers.xml:36
@@ -24341,8 +24453,10 @@ msgstr ""
 #: en/content/administration/stats.xml:41
 msgid ""
 "<graphic fileref=\"screenshots/administration/stats/stats-overview.png\" "
-"scale=\"40\" />"
+"scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"/>"
 msgstr ""
+"<graphic fileref=\"screenshots/administration/stats/stats-overview.png\" "
+"scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"/>"
 
 #. type: Content of: <section><section><section><para>
 #: en/content/administration/stats.xml:36
@@ -24372,9 +24486,11 @@ msgstr ""
 #. type: Content of: <section><section><section><para><figure><screenshot>
 #: en/content/administration/stats.xml:58
 msgid ""
-"<graphic fileref=\"screenshots/administration/stats/stats-view.png\" scale="
-"\"40\" />"
+"<graphic fileref=\"screenshots/administration/stats/stats-view.png\" "
+"scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"/>"
 msgstr ""
+"<graphic fileref=\"screenshots/administration/stats/stats-view.png\" "
+"scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"/>"
 
 #. type: Content of: <section><section><section><para>
 #: en/content/administration/stats.xml:53
@@ -24410,8 +24526,10 @@ msgstr ""
 #: en/content/administration/stats.xml:86
 msgid ""
 "<graphic fileref=\"screenshots/administration/stats/stats-add-typeselection."
-"png\" scale=\"40\" />"
+"png\" scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"/>"
 msgstr ""
+"<graphic fileref=\"screenshots/administration/stats/stats-add-typeselection."
+"png\" scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"/>"
 
 #. type: Content of: <section><section><section><para>
 #: en/content/administration/stats.xml:78
@@ -24486,8 +24604,10 @@ msgstr ""
 #: en/content/administration/stats.xml:134
 msgid ""
 "<graphic fileref=\"screenshots/administration/stats/stats-add-general.png\" "
-"scale=\"40\" />"
+"scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"/>"
 msgstr ""
+"<graphic fileref=\"screenshots/administration/stats/stats-add-general.png\" "
+"scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"/>"
 
 #. type: Content of: <section><section><section><para>
 #: en/content/administration/stats.xml:131
@@ -24548,8 +24668,10 @@ msgstr ""
 #: en/content/administration/stats.xml:166
 msgid ""
 "<graphic fileref=\"screenshots/administration/stats/stats-config-xaxis.png\" "
-"scale=\"40\" />"
+"scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"/>"
 msgstr ""
+"<graphic fileref=\"screenshots/administration/stats/stats-config-xaxis.png\" "
+"scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"/>"
 
 #. type: Content of: <section><section><section><para>
 #: en/content/administration/stats.xml:160
@@ -24572,8 +24694,10 @@ msgstr ""
 #: en/content/administration/stats.xml:180
 msgid ""
 "<graphic fileref=\"screenshots/administration/stats/stats-config-yaxis.png\" "
-"scale=\"40\" />"
+"scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"/>"
 msgstr ""
+"<graphic fileref=\"screenshots/administration/stats/stats-config-yaxis.png\" "
+"scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"/>"
 
 #. type: Content of: <section><section><section><para>
 #: en/content/administration/stats.xml:175
@@ -24598,8 +24722,10 @@ msgstr ""
 #: en/content/administration/stats.xml:196
 msgid ""
 "<graphic fileref=\"screenshots/administration/stats/stats-config-filter.png"
-"\" scale=\"40\" />"
+"\" scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"/>"
 msgstr ""
+"<graphic fileref=\"screenshots/administration/stats/stats-config-filter.png"
+"\" scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"/>"
 
 #. type: Content of: <section><section><section><para>
 #: en/content/administration/stats.xml:190
@@ -24614,8 +24740,10 @@ msgstr ""
 #: en/content/administration/stats.xml:209
 msgid ""
 "<graphic fileref=\"screenshots/administration/stats/stats-config-preview.png"
-"\" scale=\"40\" />"
+"\" scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"/>"
 msgstr ""
+"<graphic fileref=\"screenshots/administration/stats/stats-config-preview.png"
+"\" scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"/>"
 
 #. type: Content of: <section><section><section><para><note>
 #: en/content/administration/stats.xml:203
@@ -24658,9 +24786,11 @@ msgstr ""
 #. type: Content of: <section><section><section><para><figure><screenshot>
 #: en/content/administration/stats.xml:232
 msgid ""
-"<graphic fileref=\"screenshots/administration/stats/stats-import.png\" scale="
-"\"40\" />"
+"<graphic fileref=\"screenshots/administration/stats/stats-import.png\" "
+"scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"/>"
 msgstr ""
+"<graphic fileref=\"screenshots/administration/stats/stats-import.png\" "
+"scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"/>"
 
 #. type: Content of: <section><section><section><para>
 #: en/content/administration/stats.xml:227
@@ -25721,11 +25851,11 @@ msgstr ""
 #. type: Content of: <chapter><section><para><figure><screenshot>
 #: en/content/first-steps.xml:37
 msgid ""
-"<graphic scale=\"40\" fileref=\"screenshots/introduction/firststeps/login.png"
-"\"></graphic>"
+"<graphic fileref=\"screenshots/introduction/firststeps/login.png\" scalefit="
+"\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 msgstr ""
-"<graphic scale=\"40\" fileref=\"screenshots/introduction/firststeps/login.png"
-"\"></graphic>"
+"<graphic fileref=\"screenshots/introduction/firststeps/login.png\" scalefit="
+"\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 
 #. type: Content of: <chapter><section><title>
 #: en/content/first-steps.xml:45
@@ -25760,11 +25890,11 @@ msgstr ""
 #. type: Content of: <chapter><section><para><figure><screenshot>
 #: en/content/first-steps.xml:63
 msgid ""
-"<graphic scale=\"40\" fileref=\"screenshots/introduction/firststeps/customer-"
-"login.png\"></graphic>"
+"<graphic fileref=\"screenshots/introduction/firststeps/customer-login.png\" "
+"scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 msgstr ""
-"<graphic scale=\"40\" fileref=\"screenshots/introduction/firststeps/customer-"
-"login.png\"></graphic>"
+"<graphic fileref=\"screenshots/introduction/firststeps/customer-login.png\" "
+"scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 
 #. type: Content of: <chapter><section><title>
 #: en/content/first-steps.xml:71
@@ -25808,11 +25938,11 @@ msgstr "公開ウェブインターフェイス"
 #. type: Content of: <chapter><section><para><figure><screenshot>
 #: en/content/first-steps.xml:92
 msgid ""
-"<graphic scale=\"40\" fileref=\"screenshots/introduction/firststeps/public-"
-"interface.png\"></graphic>"
+"<graphic fileref=\"screenshots/introduction/firststeps/public-interface.png"
+"\" scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 msgstr ""
-"<graphic scale=\"40\" fileref=\"screenshots/introduction/firststeps/public-"
-"interface.png\"></graphic>"
+"<graphic fileref=\"screenshots/introduction/firststeps/public-interface.png"
+"\" scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 
 #. type: Content of: <chapter><section><title>
 #: en/content/first-steps.xml:100
@@ -25872,11 +26002,11 @@ msgstr "新規パスワードを申請"
 #. type: Content of: <chapter><section><para><figure><screenshot>
 #: en/content/first-steps.xml:125
 msgid ""
-"<graphic scale=\"40\" fileref=\"screenshots/introduction/firststeps/request-"
-"new-password.png\"></graphic>"
+"<graphic fileref=\"screenshots/introduction/firststeps/request-new-password."
+"png\" scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 msgstr ""
-"<graphic scale=\"40\" fileref=\"screenshots/introduction/firststeps/request-"
-"new-password.png\"></graphic>"
+"<graphic fileref=\"screenshots/introduction/firststeps/request-new-password."
+"png\" scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 
 #. type: Content of: <chapter><section><title>
 #: en/content/first-steps.xml:133
@@ -25901,11 +26031,11 @@ msgstr ""
 #. type: Content of: <chapter><section><para><figure><screenshot>
 #: en/content/first-steps.xml:143
 msgid ""
-"<graphic scale=\"40\" fileref=\"screenshots/introduction/firststeps/first-"
-"screen.png\"></graphic>"
+"<graphic fileref=\"screenshots/introduction/firststeps/first-screen.png\" "
+"scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 msgstr ""
-"<graphic scale=\"40\" fileref=\"screenshots/introduction/firststeps/first-"
-"screen.png\"></graphic>"
+"<graphic fileref=\"screenshots/introduction/firststeps/first-screen.png\" "
+"scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 
 #. type: Content of: <chapter><section><para>
 #: en/content/first-steps.xml:149
@@ -26023,11 +26153,11 @@ msgstr "フッター"
 #. type: Content of: <chapter><section><para><figure><screenshot>
 #: en/content/first-steps.xml:184
 msgid ""
-"<graphic scale=\"40\" fileref=\"screenshots/introduction/firststeps/footer."
-"png\"></graphic>"
+"<graphic fileref=\"screenshots/introduction/firststeps/footer.png\" scalefit="
+"\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 msgstr ""
-"<graphic scale=\"40\" fileref=\"screenshots/introduction/firststeps/footer."
-"png\"></graphic>"
+"<graphic fileref=\"screenshots/introduction/firststeps/footer.png\" scalefit="
+"\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 
 #. type: Content of: <chapter><section><title>
 #: en/content/first-steps.xml:192
@@ -26095,11 +26225,11 @@ msgstr "ダッシュボード・ウィジェット"
 #. type: Content of: <chapter><section><para><figure><screenshot>
 #: en/content/first-steps.xml:223
 msgid ""
-"<graphic scale=\"40\" fileref=\"screenshots/introduction/firststeps/"
-"dashboard-left-column-widgets.png\"></graphic>"
+"<graphic fileref=\"screenshots/introduction/firststeps/dashboard-left-column-"
+"widgets.png\" scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 msgstr ""
-"<graphic scale=\"40\" fileref=\"screenshots/introduction/firststeps/"
-"dashboard-left-column-widgets.png\"></graphic>"
+"<graphic fileref=\"screenshots/introduction/firststeps/dashboard-left-column-"
+"widgets.png\" scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 
 #. type: Content of: <chapter><section><para>
 #: en/content/first-steps.xml:229
@@ -26293,11 +26423,11 @@ msgstr "イベント・チケット・カレンダー・ウィジェット"
 #. type: Content of: <chapter><section><itemizedlist><listitem><para><figure><screenshot>
 #: en/content/first-steps.xml:326
 msgid ""
-"<graphic scale=\"40\" fileref=\"screenshots/introduction/firststeps/events-"
-"ticket-calendar.png\"></graphic>"
+"<graphic fileref=\"screenshots/introduction/firststeps/events-ticket-"
+"calendar.png\" scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 msgstr ""
-"<graphic scale=\"40\" fileref=\"screenshots/introduction/firststeps/events-"
-"ticket-calendar.png\"></graphic>"
+"<graphic fileref=\"screenshots/introduction/firststeps/events-ticket-"
+"calendar.png\" scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 
 #. type: Content of: <chapter><section><itemizedlist><listitem><para>
 #: en/content/first-steps.xml:331
@@ -26438,11 +26568,11 @@ msgstr ""
 #. type: Content of: <chapter><section><para><figure><screenshot>
 #: en/content/first-steps.xml:404
 msgid ""
-"<graphic scale=\"40\" fileref=\"screenshots/introduction/firststeps/edit-"
-"settings.png\"></graphic>"
+"<graphic fileref=\"screenshots/introduction/firststeps/edit-settings.png\" "
+"scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 msgstr ""
-"<graphic scale=\"40\" fileref=\"screenshots/introduction/firststeps/edit-"
-"settings.png\"></graphic>"
+"<graphic fileref=\"screenshots/introduction/firststeps/edit-settings.png\" "
+"scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 
 #. type: Content of: <chapter><section><para>
 #: en/content/first-steps.xml:410
@@ -26677,11 +26807,11 @@ msgstr "担当者用キュー・ビュー（デフォルト）"
 #. type: Content of: <chapter><section><para><figure><screenshot>
 #: en/content/first-steps.xml:503
 msgid ""
-"<graphic scale=\"40\" fileref=\"screenshots/introduction/firststeps/agent-"
-"queue-view.png\"></graphic>"
+"<graphic fileref=\"screenshots/introduction/firststeps/agent-queue-view.png"
+"\" scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 msgstr ""
-"<graphic scale=\"40\" fileref=\"screenshots/introduction/firststeps/agent-"
-"queue-view.png\"></graphic>"
+"<graphic fileref=\"screenshots/introduction/firststeps/agent-queue-view.png"
+"\" scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 
 #. type: Content of: <chapter><section><para>
 #: en/content/first-steps.xml:509
@@ -26725,11 +26855,13 @@ msgstr "担当者キュー・ビュー視覚アラーム"
 #. type: Content of: <chapter><section><para><figure><screenshot>
 #: en/content/first-steps.xml:528
 msgid ""
-"<graphic scale=\"40\" fileref=\"screenshots/introduction/firststeps/agent-"
-"queue-overview-visual-alarms.png\"></graphic>"
+"<graphic fileref=\"screenshots/introduction/firststeps/agent-queue-overview-"
+"visual-alarms.png\" scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></"
+"graphic>"
 msgstr ""
-"<graphic scale=\"40\" fileref=\"screenshots/introduction/firststeps/agent-"
-"queue-overview-visual-alarms.png\"></graphic>"
+"<graphic fileref=\"screenshots/introduction/firststeps/agent-queue-overview-"
+"visual-alarms.png\" scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></"
+"graphic>"
 
 #. type: Content of: <chapter><section><itemizedlist><title>
 #: en/content/first-steps.xml:534
@@ -26797,11 +26929,11 @@ msgstr ""
 #. type: Content of: <chapter><section><para><figure><screenshot>
 #: en/content/first-steps.xml:560
 msgid ""
-"<graphic scale=\"40\" fileref=\"screenshots/introduction/firststeps/agent-"
-"preferences.png\"></graphic>"
+"<graphic fileref=\"screenshots/introduction/firststeps/agent-preferences.png"
+"\" scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 msgstr ""
-"<graphic scale=\"40\" fileref=\"screenshots/introduction/firststeps/agent-"
-"preferences.png\"></graphic>"
+"<graphic fileref=\"screenshots/introduction/firststeps/agent-preferences.png"
+"\" scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 
 #. type: Content of: <chapter><section><para>
 #: en/content/first-steps.xml:566
@@ -26880,11 +27012,11 @@ msgstr ""
 #. type: Content of: <chapter><section><para><figure><screenshot>
 #: en/content/first-steps.xml:615
 msgid ""
-"<graphic scale=\"40\" fileref=\"screenshots/introduction/firststeps/customer-"
-"preferences.png\"></graphic>"
+"<graphic fileref=\"screenshots/introduction/firststeps/customer-preferences."
+"png\" scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 msgstr ""
-"<graphic scale=\"40\" fileref=\"screenshots/introduction/firststeps/customer-"
-"preferences.png\"></graphic>"
+"<graphic fileref=\"screenshots/introduction/firststeps/customer-preferences."
+"png\" scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 
 #. type: Content of: <chapter><section><para>
 #: en/content/first-steps.xml:621
@@ -28957,11 +29089,13 @@ msgstr ""
 #. type: Content of: <section><section><section><para><figure><screenshot>
 #: en/content/installation/windows.xml:55
 msgid ""
-"<graphic scale=\"80\" fileref=\"screenshots/introduction/installation/win-"
-"download-otrsclonedb.png\"></graphic>"
+"<graphic fileref=\"screenshots/introduction/installation/win-download-"
+"otrsclonedb.png\" scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></"
+"graphic>"
 msgstr ""
-"<graphic scale=\"80\" fileref=\"screenshots/introduction/installation/win-"
-"download-otrsclonedb.png\"></graphic>"
+"<graphic fileref=\"screenshots/introduction/installation/win-download-"
+"otrsclonedb.png\" scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></"
+"graphic>"
 
 #. type: Content of: <section><section><section><para>
 #: en/content/installation/windows.xml:60
@@ -28976,11 +29110,13 @@ msgstr ""
 #. type: Content of: <section><section><section><para><figure><screenshot>
 #: en/content/installation/windows.xml:66
 msgid ""
-"<graphic scale=\"80\" fileref=\"screenshots/introduction/installation/win-"
-"install-otrsclonedb.png\"></graphic>"
+"<graphic fileref=\"screenshots/introduction/installation/win-install-"
+"otrsclonedb.png\" scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></"
+"graphic>"
 msgstr ""
-"<graphic scale=\"80\" fileref=\"screenshots/introduction/installation/win-"
-"install-otrsclonedb.png\"></graphic>"
+"<graphic fileref=\"screenshots/introduction/installation/win-install-"
+"otrsclonedb.png\" scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></"
+"graphic>"
 
 #. type: Content of: <section><section><section><para>
 #: en/content/installation/windows.xml:71
@@ -29235,11 +29371,11 @@ msgstr ""
 #. type: Content of: <section><section><section><para><figure><screenshot>
 #: en/content/installation/windows.xml:197
 msgid ""
-"<graphic scale=\"80\" fileref=\"screenshots/introduction/installation/win-"
-"gather-db-data-1.png\"></graphic>"
+"<graphic fileref=\"screenshots/introduction/installation/win-gather-db-"
+"data-1.png\" scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 msgstr ""
-"<graphic scale=\"80\" fileref=\"screenshots/introduction/installation/win-"
-"gather-db-data-1.png\"></graphic>"
+"<graphic fileref=\"screenshots/introduction/installation/win-gather-db-"
+"data-1.png\" scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 
 #. type: Content of: <section><section><section><para>
 #: en/content/installation/windows.xml:202
@@ -29282,11 +29418,13 @@ msgstr ""
 #. type: Content of: <section><section><section><para><figure><screenshot>
 #: en/content/installation/windows.xml:221
 msgid ""
-"<graphic scale=\"80\" fileref=\"screenshots/introduction/installation/"
-"win_configurate_otrsclonedb_sysconfig-1.png\"></graphic>"
+"<graphic fileref=\"screenshots/introduction/installation/"
+"win_configurate_otrsclonedb_sysconfig-1.png\" scalefit=\"1\" width=\"100%\" "
+"contentdepth=\"100%\"></graphic>"
 msgstr ""
-"<graphic scale=\"80\" fileref=\"screenshots/introduction/installation/"
-"win_configurate_otrsclonedb_sysconfig-1.png\"></graphic>"
+"<graphic fileref=\"screenshots/introduction/installation/"
+"win_configurate_otrsclonedb_sysconfig-1.png\" scalefit=\"1\" width=\"100%\" "
+"contentdepth=\"100%\"></graphic>"
 
 #. type: Content of: <section><section><section><para>
 #: en/content/installation/windows.xml:226
@@ -29315,11 +29453,13 @@ msgstr ""
 #. type: Content of: <section><section><section><para><figure><screenshot>
 #: en/content/installation/windows.xml:241
 msgid ""
-"<graphic scale=\"80\" fileref=\"screenshots/introduction/installation/win-"
-"configurate-otrsclonedb-sysconfig-2.png\"></graphic>"
+"<graphic fileref=\"screenshots/introduction/installation/win-configurate-"
+"otrsclonedb-sysconfig-2.png\" scalefit=\"1\" width=\"100%\" contentdepth="
+"\"100%\"></graphic>"
 msgstr ""
-"<graphic scale=\"80\" fileref=\"screenshots/introduction/installation/win-"
-"configurate-otrsclonedb-sysconfig-2.png\"></graphic>"
+"<graphic fileref=\"screenshots/introduction/installation/win-configurate-"
+"otrsclonedb-sysconfig-2.png\" scalefit=\"1\" width=\"100%\" contentdepth="
+"\"100%\"></graphic>"
 
 #. type: Content of: <section><section><section><para>
 #: en/content/installation/windows.xml:246
@@ -29364,11 +29504,13 @@ msgstr ""
 #. type: Content of: <section><section><section><para><figure><screenshot>
 #: en/content/installation/windows.xml:265
 msgid ""
-"<graphic scale=\"80\" fileref=\"screenshots/introduction/installation/win-"
-"run-otrsclonedb-1.png\"></graphic>"
+"<graphic fileref=\"screenshots/introduction/installation/win-run-"
+"otrsclonedb-1.png\" scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></"
+"graphic>"
 msgstr ""
-"<graphic scale=\"80\" fileref=\"screenshots/introduction/installation/win-"
-"run-otrsclonedb-1.png\"></graphic>"
+"<graphic fileref=\"screenshots/introduction/installation/win-run-"
+"otrsclonedb-1.png\" scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></"
+"graphic>"
 
 #. type: Content of: <section><section><section><para>
 #: en/content/installation/windows.xml:270
@@ -29415,11 +29557,13 @@ msgstr ""
 #. type: Content of: <section><section><section><para><figure><screenshot>
 #: en/content/installation/windows.xml:292
 msgid ""
-"<graphic scale=\"80\" fileref=\"screenshots/introduction/installation/win-"
-"run-otrsclonedb-2.png\"></graphic>"
+"<graphic fileref=\"screenshots/introduction/installation/win-run-"
+"otrsclonedb-2.png\" scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></"
+"graphic>"
 msgstr ""
-"<graphic scale=\"80\" fileref=\"screenshots/introduction/installation/win-"
-"run-otrsclonedb-2.png\"></graphic>"
+"<graphic fileref=\"screenshots/introduction/installation/win-run-"
+"otrsclonedb-2.png\" scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></"
+"graphic>"
 
 #. type: Content of: <section><section><section><para>
 #: en/content/installation/windows.xml:297
@@ -29451,11 +29595,13 @@ msgstr ""
 #. type: Content of: <section><section><section><para><figure><screenshot>
 #: en/content/installation/windows.xml:311
 msgid ""
-"<graphic scale=\"80\" fileref=\"screenshots/introduction/installation/win-"
-"run-otrsclonedb-3.png\"></graphic>"
+"<graphic fileref=\"screenshots/introduction/installation/win-run-"
+"otrsclonedb-3.png\" scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></"
+"graphic>"
 msgstr ""
-"<graphic scale=\"80\" fileref=\"screenshots/introduction/installation/win-"
-"run-otrsclonedb-3.png\"></graphic>"
+"<graphic fileref=\"screenshots/introduction/installation/win-run-"
+"otrsclonedb-3.png\" scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></"
+"graphic>"
 
 #. type: Content of: <section><section><section><para>
 #: en/content/installation/windows.xml:316
@@ -29696,11 +29842,11 @@ msgstr ""
 #. type: Content of: <section><para><figure><screenshot>
 #: en/content/installation/web-installer.xml:28
 msgid ""
-"<graphic scale=\"40\" fileref=\"screenshots/introduction/installation/"
-"installer1.png\"></graphic>"
+"<graphic fileref=\"screenshots/introduction/installation/installer1.png\" "
+"scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 msgstr ""
-"<graphic scale=\"40\" fileref=\"screenshots/introduction/installation/"
-"installer1.png\"></graphic>"
+"<graphic fileref=\"screenshots/introduction/installation/installer1.png\" "
+"scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 
 #. type: Content of: <section><para>
 #: en/content/installation/web-installer.xml:34
@@ -29717,11 +29863,11 @@ msgstr ""
 #. type: Content of: <section><para><figure><screenshot>
 #: en/content/installation/web-installer.xml:41
 msgid ""
-"<graphic scale=\"40\" fileref=\"screenshots/introduction/installation/"
-"installer2.png\"></graphic>"
+"<graphic fileref=\"screenshots/introduction/installation/installer2.png\" "
+"scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 msgstr ""
-"<graphic scale=\"40\" fileref=\"screenshots/introduction/installation/"
-"installer2.png\"></graphic>"
+"<graphic fileref=\"screenshots/introduction/installation/installer2.png\" "
+"scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 
 #. type: Content of: <section><para>
 #: en/content/installation/web-installer.xml:47
@@ -29741,11 +29887,11 @@ msgstr "データベース選択"
 #. type: Content of: <section><para><figure><screenshot>
 #: en/content/installation/web-installer.xml:57
 msgid ""
-"<graphic scale=\"40\" fileref=\"screenshots/introduction/installation/"
-"installer3.png\"></graphic>"
+"<graphic fileref=\"screenshots/introduction/installation/installer3.png\" "
+"scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 msgstr ""
-"<graphic scale=\"40\" fileref=\"screenshots/introduction/installation/"
-"installer3.png\"></graphic>"
+"<graphic fileref=\"screenshots/introduction/installation/installer3.png\" "
+"scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 
 #. type: Content of: <section><para>
 #: en/content/installation/web-installer.xml:63
@@ -29768,11 +29914,11 @@ msgstr ""
 #. type: Content of: <section><para><figure><screenshot>
 #: en/content/installation/web-installer.xml:71
 msgid ""
-"<graphic scale=\"40\" fileref=\"screenshots/introduction/installation/"
-"installer4.png\"></graphic>"
+"<graphic fileref=\"screenshots/introduction/installation/installer4.png\" "
+"scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 msgstr ""
-"<graphic scale=\"40\" fileref=\"screenshots/introduction/installation/"
-"installer4.png\"></graphic>"
+"<graphic fileref=\"screenshots/introduction/installation/installer4.png\" "
+"scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 
 #. type: Content of: <section><para>
 #: en/content/installation/web-installer.xml:77
@@ -29801,11 +29947,11 @@ msgstr ""
 #. type: Content of: <section><para><figure><screenshot>
 #: en/content/installation/web-installer.xml:92
 msgid ""
-"<graphic scale=\"40\" fileref=\"screenshots/introduction/installation/"
-"installer5.png\"></graphic>"
+"<graphic fileref=\"screenshots/introduction/installation/installer5.png\" "
+"scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 msgstr ""
-"<graphic scale=\"40\" fileref=\"screenshots/introduction/installation/"
-"installer5.png\"></graphic>"
+"<graphic fileref=\"screenshots/introduction/installation/installer5.png\" "
+"scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 
 #. type: Content of: <section><para>
 #: en/content/installation/web-installer.xml:98
@@ -29824,11 +29970,11 @@ msgstr ""
 #. type: Content of: <section><para><figure><screenshot>
 #: en/content/installation/web-installer.xml:105
 msgid ""
-"<graphic scale=\"40\" fileref=\"screenshots/introduction/installation/"
-"installer6.png\"></graphic>"
+"<graphic fileref=\"screenshots/introduction/installation/installer6.png\" "
+"scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 msgstr ""
-"<graphic scale=\"40\" fileref=\"screenshots/introduction/installation/"
-"installer6.png\"></graphic>"
+"<graphic fileref=\"screenshots/introduction/installation/installer6.png\" "
+"scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 
 #. type: Content of: <section><para>
 #: en/content/installation/web-installer.xml:111
@@ -29845,11 +29991,11 @@ msgstr ""
 #. type: Content of: <section><para><figure><screenshot>
 #: en/content/installation/web-installer.xml:118
 msgid ""
-"<graphic scale=\"40\" fileref=\"screenshots/introduction/installation/"
-"installer7.png\"></graphic>"
+"<graphic fileref=\"screenshots/introduction/installation/installer7.png\" "
+"scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 msgstr ""
-"<graphic scale=\"40\" fileref=\"screenshots/introduction/installation/"
-"installer7.png\"></graphic>"
+"<graphic fileref=\"screenshots/introduction/installation/installer7.png\" "
+"scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 
 #. type: Content of: <section><para>
 #: en/content/installation/web-installer.xml:124
@@ -29867,11 +30013,11 @@ msgstr ""
 #. type: Content of: <section><para><figure><screenshot>
 #: en/content/installation/web-installer.xml:131
 msgid ""
-"<graphic scale=\"40\" fileref=\"screenshots/introduction/installation/"
-"installer8.png\"></graphic>"
+"<graphic fileref=\"screenshots/introduction/installation/installer8.png\" "
+"scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 msgstr ""
-"<graphic scale=\"40\" fileref=\"screenshots/introduction/installation/"
-"installer8.png\"></graphic>"
+"<graphic fileref=\"screenshots/introduction/installation/installer8.png\" "
+"scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 
 #. type: Content of: <section><para>
 #: en/content/installation/web-installer.xml:137
@@ -29900,11 +30046,11 @@ msgstr ""
 #. type: Content of: <section><para><figure><screenshot>
 #: en/content/installation/web-installer.xml:154
 msgid ""
-"<graphic scale=\"40\" fileref=\"screenshots/introduction/installation/"
-"installer9.png\"></graphic>"
+"<graphic fileref=\"screenshots/introduction/installation/installer9.png\" "
+"scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 msgstr ""
-"<graphic scale=\"40\" fileref=\"screenshots/introduction/installation/"
-"installer9.png\"></graphic>"
+"<graphic fileref=\"screenshots/introduction/installation/installer9.png\" "
+"scalefit=\"1\" width=\"100%\" contentdepth=\"100%\"></graphic>"
 
 #. type: Content of: <appendix><title>
 #: en/content/additional-resources.xml:7
@@ -30038,6 +30184,8 @@ msgstr "バグ・トラッキング・ツール"
 #. type: Content of: <appendix><variablelist><varlistentry><listitem><para><figure><screenshot>
 #: en/content/additional-resources.xml:76
 msgid ""
-"<graphic scale=\"40\" fileref=\"screenshots/bugs-otrs-org.png\"></graphic>"
+"<graphic fileref=\"screenshots/bugs-otrs-org.png\" scalefit=\"1\" width="
+"\"100%\" contentdepth=\"100%\"></graphic>"
 msgstr ""
-"<graphic scale=\"40\" fileref=\"screenshots/bugs-otrs-org.png\"></graphic>"
+"<graphic fileref=\"screenshots/bugs-otrs-org.png\" scalefit=\"1\" width="
+"\"100%\" contentdepth=\"100%\"></graphic>"

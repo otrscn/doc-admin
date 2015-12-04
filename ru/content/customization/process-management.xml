@@ -419,8 +419,8 @@ Dialog был доступен. В нашем примере это необхо
                 <figure>
                     <title>OTRS Admin screen - System Administration</title>
 <screenshot>
-<graphic scale='40'
-fileref="screenshots/customization/pm-admin-sysadmin.png"></graphic></screenshot></figure>
+<graphic fileref="screenshots/customization/pm-admin-sysadmin.png"
+scalefit="1" width="100%" contentdepth="100%"></graphic></screenshot></figure>
             </para>
 
             <para>
@@ -430,8 +430,8 @@ fileref="screenshots/customization/pm-admin-sysadmin.png"></graphic></screenshot
                 <figure>
                     <title>Создать Новую кнопку Процесса</title>
 <screenshot>
-<graphic scale='40'
-fileref="screenshots/customization/pm-newprocess-button.png"></graphic></screenshot></figure>
+<graphic fileref="screenshots/customization/pm-newprocess-button.png"
+scalefit="1" width="100%" contentdepth="100%"></graphic></screenshot></figure>
             </para>
             <para>
                 Заполняем информацию о процессе, указываем Название Процесса и его Описание,
@@ -442,8 +442,8 @@ fileref="screenshots/customization/pm-newprocess-button.png"></graphic></screens
                 <figure>
                     <title>Добавить новый процесс</title>
 <screenshot>
-<graphic scale='40'
-fileref="screenshots/customization/pm-newprocess-info.png"></graphic></screenshot></figure>
+<graphic fileref="screenshots/customization/pm-newprocess-info.png"
+scalefit="1" width="100%" contentdepth="100%"></graphic></screenshot></figure>
             </para>
         </section>
         <section>
@@ -458,8 +458,9 @@ doing an accordion like effect), then click on "Create New Activity Dialog".
                     <figure>
                         <title>Кнопка создания нового Диалога Активности</title>
 <screenshot>
-<graphic scale='40'
-fileref="screenshots/customization/pm-accordion-new-activitydialog.png"></graphic></screenshot></figure>
+<graphic
+fileref="screenshots/customization/pm-accordion-new-activitydialog.png"
+scalefit="1" width="100%" contentdepth="100%"></graphic></screenshot></figure>
                 </para>
                 <para>
                     In the opened popup screen fill the "Activity dialog Name" as well as the
@@ -474,8 +475,8 @@ and drop the field within the pool to rearrange it in the correct place.
                     <figure>
                         <title>Добавить новый Диалог Активности</title>
 <screenshot>
-<graphic scale='40'
-fileref="screenshots/customization/pm-edit-activitydialog.png"></graphic></screenshot></figure>
+<graphic fileref="screenshots/customization/pm-edit-activitydialog.png"
+scalefit="1" width="100%" contentdepth="100%"></graphic></screenshot></figure>
                 </para>
                 <para>
                     После того как помещены в список "Назначенные поля", другое всплывющее окно
@@ -487,8 +488,8 @@ fileref="screenshots/customization/pm-edit-activitydialog.png"></graphic></scree
                     <figure>
                         <title>Редактировать элементы поля (Article)</title>
 <screenshot>
-<graphic scale='40'
-fileref="screenshots/customization/pm-edit-field-article.png"></graphic></screenshot></figure>
+<graphic fileref="screenshots/customization/pm-edit-field-article.png"
+scalefit="1" width="100%" contentdepth="100%"></graphic></screenshot></figure>
                 </para>
                 <para>
                     Если все поля привязаны, нажмите на кнопку отправить в главном всплывающем
@@ -651,8 +652,8 @@ perl-файл в Kernel/Config/Files.
                     <figure>
                         <title>Создать Новую кнопку Перехода</title>
 <screenshot>
-<graphic scale='40'
-fileref="screenshots/customization/pm-accordion-new-transition.png"></graphic></screenshot></figure>
+<graphic fileref="screenshots/customization/pm-accordion-new-transition.png"
+scalefit="1" width="100%" contentdepth="100%"></graphic></screenshot></figure>
                 </para>
                 <para>
                     В открывшемся всплывающем окне заполните "Transition Name/Имя Перехода",
@@ -665,8 +666,8 @@ fileref="screenshots/customization/pm-accordion-new-transition.png"></graphic></
                     <figure>
                         <title>Добавить новый Переход</title>
 <screenshot>
-<graphic scale='40'
-fileref="screenshots/customization/pm-edit-transition.png"></graphic></screenshot></figure>
+<graphic fileref="screenshots/customization/pm-edit-transition.png"
+scalefit="1" width="100%" contentdepth="100%"></graphic></screenshot></figure>
                 </para>
                 <para>
                     Когда все условия установлены, нажмите кнопку Отправить, чтобы сохнанить
@@ -727,8 +728,9 @@ received".
                     <figure>
                         <title>Кнопка создания нового Действие Перехода</title>
 <screenshot>
-<graphic scale='40'
-fileref="screenshots/customization/pm-accordion-new-transitionaction.png"></graphic></screenshot></figure>
+<graphic
+fileref="screenshots/customization/pm-accordion-new-transitionaction.png"
+scalefit="1" width="100%" contentdepth="100%"></graphic></screenshot></figure>
                 </para>
                 <para>
                     In the opened popup screen fill the "Transition Action Name", and the
@@ -779,8 +781,8 @@ linkend="available-transition-actions">module documentation</link>, чтобы
                     <figure>
                         <title>Добавить новый Переход</title>
 <screenshot>
-<graphic scale='40'
-fileref="screenshots/customization/pm-edit-transitionaction.png"></graphic></screenshot></figure>
+<graphic fileref="screenshots/customization/pm-edit-transitionaction.png"
+scalefit="1" width="100%" contentdepth="100%"></graphic></screenshot></figure>
                 </para>
                 <para>
                     Как только все параметры и значения установлены, нажмите кнопку отправить
@@ -887,8 +889,8 @@ fileref="screenshots/customization/pm-edit-transitionaction.png"></graphic></scr
                 <figure>
                     <title>Создать Новую кнопку Деятельности</title>
 <screenshot>
-<graphic scale='40'
-fileref="screenshots/customization/pm-accordion-new-activity.png"></graphic></screenshot></figure>
+<graphic fileref="screenshots/customization/pm-accordion-new-activity.png"
+scalefit="1" width="100%" contentdepth="100%"></graphic></screenshot></figure>
             </para>
             <para>
                 In the opened popup screen fill the "Activity Name", then drag the required
@@ -980,8 +982,8 @@ Transition Actions/Действиями переходов) и других Acti
                 <figure>
                     <title>Перетащите первую Активность на полотно схемы.</title>
 <screenshot>
-<graphic scale='40'
-fileref="screenshots/customization/pm-canvas-drag-activity.png"></graphic></screenshot></figure>
+<graphic fileref="screenshots/customization/pm-canvas-drag-activity.png"
+scalefit="1" width="100%" contentdepth="100%"></graphic></screenshot></figure>
             </para>
             <para>
                 Next, drag another Activity into the canvas too. Now we will have two
@@ -993,8 +995,8 @@ reveal their own Activity Dialogs.
                 <figure>
                     <title>Перетащите вторую Активность на полотно схемы.</title>
 <screenshot>
-<graphic scale='40'
-fileref="screenshots/customization/pm-canvas-drag-activity2.png"></graphic></screenshot></figure>
+<graphic fileref="screenshots/customization/pm-canvas-drag-activity2.png"
+scalefit="1" width="100%" contentdepth="100%"></graphic></screenshot></figure>
             </para>
             <para>
                 Then let's create the "Path" (connection) between this two Activities, for
@@ -1010,8 +1012,8 @@ Activities.
                 <figure>
                     <title>Перетащите Transition/Переход на полотно схемы.</title>
 <screenshot>
-<graphic scale='40'
-fileref="screenshots/customization/pm-canvas-drag-transition.png"></graphic></screenshot></figure>
+<graphic fileref="screenshots/customization/pm-canvas-drag-transition.png"
+scalefit="1" width="100%" contentdepth="100%"></graphic></screenshot></figure>
             </para>
             <para>
                 Теперь, когда "Path/Последовательность" Действий задана - необходимо
@@ -1023,8 +1025,8 @@ fileref="screenshots/customization/pm-canvas-drag-transition.png"></graphic></sc
                 <figure>
                     <title>Связать Активности используя Переходы</title>
 <screenshot>
-<graphic scale='40'
-fileref="screenshots/customization/pm-canvas-drag-transition2.png"></graphic></screenshot></figure>
+<graphic fileref="screenshots/customization/pm-canvas-drag-transition2.png"
+scalefit="1" width="100%" contentdepth="100%"></graphic></screenshot></figure>
             </para>
             <para>
                 Захватите мышью требуемые Активности Перехода из списка Доступных
@@ -1035,8 +1037,8 @@ fileref="screenshots/customization/pm-canvas-drag-transition2.png"></graphic></s
                 <figure>
                     <title>Назначить Действия Перехода</title>
 <screenshot>
-<graphic scale='40'
-fileref="screenshots/customization/pm-edit-path.png"></graphic></screenshot></figure>
+<graphic fileref="screenshots/customization/pm-edit-path.png" scalefit="1"
+width="100%" contentdepth="100%"></graphic></screenshot></figure>
             </para>
             <para>
                 Затем, вернитесь к главному окну редактирования Процесса и нажмите кнопку
@@ -1287,8 +1289,8 @@ complete" (A5).
                 <figure>
                     <title>Законченная/полная схема процесса заказа книги.</title>
 <screenshot>
-<graphic scale='40'
-fileref="screenshots/customization/pm-edit-process.png"></graphic></screenshot></figure>
+<graphic fileref="screenshots/customization/pm-edit-process.png"
+scalefit="1" width="100%" contentdepth="100%"></graphic></screenshot></figure>
             </para>
             <para>
                 After you finish the process path please click on "Save" button in the lower
@@ -3132,7 +3134,7 @@ $Self->{'Process::TransitionAction'} = {
                         'No' or 'CustomerID' set the Customer ID of the customer.
                     </para>
                     <para>
-                        'User' or 'CustomerUserID' set the Username of the customer.
+                        'User' или 'CustomerUserID' задает имя пользователя клиента.
                     </para>
                 </section>
 

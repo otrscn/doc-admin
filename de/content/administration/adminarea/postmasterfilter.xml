@@ -17,8 +17,9 @@ on the Admin page (see figure below).
 <figure>
     <title>PostMaster filter management</title>
 <screenshot>
-<graphic scale="40"
-fileref="screenshots/administration/adminarea/admin-postmasterfilter.png"></graphic></screenshot></figure>
+<graphic
+fileref="screenshots/administration/adminarea/admin-postmasterfilter.png"
+scalefit="1" width="100%" contentdepth="100%"></graphic></screenshot></figure>
 </para>
 
 <para>
@@ -261,8 +262,9 @@ remaining filters is cancelled).
 <figure>
     <title>Add a PostMaster filter</title>
 <screenshot>
-<graphic scale="40"
-fileref="screenshots/administration/adminarea/add-postmasterfilter.png"></graphic></screenshot></figure>
+<graphic
+fileref="screenshots/administration/adminarea/add-postmasterfilter.png"
+scalefit="1" width="100%" contentdepth="100%"></graphic></screenshot></figure>
 </para>
 
 <example id="sort-mails-into-junk">
